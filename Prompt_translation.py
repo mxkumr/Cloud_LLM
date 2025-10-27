@@ -101,6 +101,6 @@ def main() -> None:
     print(f"Wrote translations to {out_file}")
     
 
-
 if __name__ == "__main__":
     main()
+#test

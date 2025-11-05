@@ -5,7 +5,7 @@ import os
 import re
 from typing import Dict, List, Optional
 
-from deep_translator import GoogleTranslator
+from googletrans import Translator
 
 
 TARGET_LANG_CODES: List[str] = [
@@ -60,6 +60,7 @@ def normalize_text(text: str) -> str:
 
 
 async def translate_prompt(prompt_text: str, language_codes: List[str]) -> Dict[str, Optional[str]]:
+    translator = Translator(service_urls=["translate.googleapis.com"])
     translations: Dict[str, Optional[str]] = {}
 
     for code in language_codes:
@@ -70,9 +71,11 @@ async def translate_prompt(prompt_text: str, language_codes: List[str]) -> Dict[
                 print(f"{code} ({lang_name}): {translations[code]}")
                 continue
 
-            # deep_translator is synchronous and expects source/target on the translator
-            translated_text = GoogleTranslator(source="auto", target=code).translate(prompt_text)
-            translations[code] = translated_text
+            result = translator.translate(prompt_text, dest=code)
+            # Some googletrans variants return a coroutine; await if needed
+            if inspect.isawaitable(result):
+                result = await result
+            translations[code] = result.text
             lang_name = LANG_CODE_TO_NAME.get(code, code)
             print(f"{code} ({lang_name}): {translations[code]}")
             

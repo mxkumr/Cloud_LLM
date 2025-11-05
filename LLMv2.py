@@ -128,7 +128,7 @@ def main():
 
     # Load model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.float16)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", dtype=torch.float16)
 
     # Load prompts
     with open("data/translated_prompts.json", "r", encoding="utf-8") as f:

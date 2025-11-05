@@ -100,7 +100,7 @@ def query_llm_for_translations(translations: Dict[str, str], model_name: str = N
     model = AutoModelForCausalLM.from_pretrained(
         model_name, 
         device_map="auto", 
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
+        dtype=torch.float16 if torch.cuda.is_available() else torch.float32
     )
     
     def query_func(prompt):

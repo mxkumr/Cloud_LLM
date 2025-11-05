@@ -1,6 +1,5 @@
 # repo_parser.py
 import os
-import git
 import shutil
 from typing import Dict, List, Any
 from pathlib import Path
@@ -39,25 +38,16 @@ class RepoElementParser:
         }
 
     def clone_repo(self, repo_url: str) -> str:
-        """Clone a repository from GitHub."""
-        try:
-            # Extract repo name from URL
-            repo_name = repo_url.split('/')[-1].replace('.git', '')
-            repo_path = os.path.join(self.repos_dir, repo_name)
-            
-            # Remove existing repo if it exists
-            if os.path.exists(repo_path):
-                shutil.rmtree(repo_path)
-            
-            # Clone the repository
-            print(f"Cloning {repo_url}...")
-            git.Repo.clone_from(repo_url, repo_path)
-            print(f"Successfully cloned to {repo_path}")
-            return repo_path
-            
-        except Exception as e:
-            print(f"Error cloning repository: {str(e)}")
-            return ""
+        """Clone a repository from GitHub.
+        
+        Note: This method requires GitPython to be installed.
+        This functionality is not used by pipeline.py.
+        """
+        raise ImportError(
+            "GitPython is required for clone_repo(). "
+            "Install it with: pip install GitPython. "
+            "Note: This method is not used by pipeline.py."
+        )
 
     def find_source_files(self, repo_path: str) -> List[str]:
         """Find all supported source files in the repository."""

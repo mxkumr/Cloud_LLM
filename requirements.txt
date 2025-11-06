@@ -6,9 +6,13 @@ safetensors>=0.4.2
 sentencepiece>=0.1.99
 
 # Translation utility
-googletrans==4.0.0rc1
+deep-translator>=1.11.4
 
 # Visualization and numerics
 matplotlib>=3.7.0
 numpy>=1.24.0
 
+
+# Parsing (required by Multi_language_parser used by pipeline)
+# Pin to 0.20.1 because newer bindings removed Language.build_library
+tree-sitter==0.20.1

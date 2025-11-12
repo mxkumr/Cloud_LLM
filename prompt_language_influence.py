@@ -17,7 +17,7 @@ import json
 import os
 import sys
 from dataclasses import dataclass
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Dict, Iterable, Tuple
 
 import matplotlib
 
@@ -41,6 +41,7 @@ class LanguageInfluence:
     non_english: int
     total: int
     scripts: Dict[str, int]
+    by_category_non_english: Dict[str, int]
 
     @property
     def english_pct(self) -> float:
@@ -95,16 +96,29 @@ def compute_influence_per_language(results: Dict[str, dict]) -> Dict[str, Langua
         elements = data.get("elements", {}) or {}
         counts = aggregate_counts(elements)
         overall = counts.get("overall", {})
+        by_category = counts.get("by_category", {})
 
         english_count = int(overall.get("English/ASCII", 0))
         non_english_count = int(sum(val for script, val in overall.items() if script != "English/ASCII"))
         total = english_count + non_english_count
+
+        non_english_by_category = {
+            category: int(
+                sum(
+                    value
+                    for script_name, value in (by_category.get(category, {}) or {}).items()
+                    if script_name != "English/ASCII"
+                )
+            )
+            for category in by_category.keys()
+        }
 
         influence[lang_key] = LanguageInfluence(
             english=english_count,
             non_english=non_english_count,
             total=total,
             scripts={script: int(val) for script, val in overall.items()},
+            by_category_non_english=non_english_by_category,
         )
 
     return influence
@@ -179,6 +193,66 @@ def create_stacked_bar_chart(
     plt.close()
 
 
+def create_non_english_category_chart(
+    prompt_name: str,
+    influence: Dict[str, LanguageInfluence],
+    output_path: str,
+) -> None:
+    """Render grouped bar chart for non-English counts per category across languages."""
+    if not influence:
+        return
+
+    languages = list(influence.keys())
+    categories = sorted(
+        {
+            category
+            for item in influence.values()
+            for category in item.by_category_non_english.keys()
+        }
+    ) or [
+        "identifiers",
+        "variables",
+        "literals",
+        "comments",
+        "docstrings",
+        "functions",
+        "classes",
+    ]
+
+    x = np.arange(len(categories))
+    bar_width = 0.8 / max(1, len(languages))
+
+    plt.figure(figsize=(14, 8))
+    colors = plt.cm.get_cmap("tab20", len(languages))
+
+    for idx, lang in enumerate(languages):
+        counts = [influence[lang].by_category_non_english.get(cat, 0) for cat in categories]
+        offsets = x + idx * bar_width - (len(languages) - 1) * bar_width / 2
+        bars = plt.bar(offsets, counts, width=bar_width, label=lang, color=colors(idx))
+
+        for bar_rect, value in zip(bars, counts):
+            if value > 0:
+                plt.text(
+                    bar_rect.get_x() + bar_rect.get_width() / 2.0,
+                    bar_rect.get_height() + 0.1,
+                    str(int(value)),
+                    ha="center",
+                    va="bottom",
+                    fontsize=8,
+                )
+
+    plt.xticks(x, [cat.title() for cat in categories], rotation=30, ha="right")
+    plt.ylabel("Non-English Count")
+    plt.title(f"Non-English Elements by Category and Language\n({prompt_name})")
+    plt.legend(title="Language")
+    plt.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    plt.close()
+
+
 def export_summary(
     prompt_dir: str,
     prompt_name: str,
@@ -204,6 +278,7 @@ def export_summary(
                 "english_pct": round(item.english_pct, 2),
                 "non_english_pct": round(item.non_english_pct, 2),
                 "scripts": item.scripts,
+                "non_english_by_category": item.by_category_non_english,
             }
             for lang, item in influence.items()
         },
@@ -235,9 +310,12 @@ def process_prompt_folder(prompt_dir: str) -> bool:
         charts_dir = os.path.join(prompt_dir, "language_charts")
         chart_path = os.path.join(charts_dir, "overall_english_vs_non_english.png")
         create_stacked_bar_chart(prompt_name, influence, chart_path)
+        non_english_chart_path = os.path.join(charts_dir, "non_english_by_category.png")
+        create_non_english_category_chart(prompt_name, influence, non_english_chart_path)
         export_summary(prompt_dir, prompt_name, influence)
 
         print(f"[OK] Saved stacked bar chart to {chart_path}")
+        print(f"[OK] Saved non-English category chart to {non_english_chart_path}")
         print(f"[OK] Saved summary to {os.path.join(prompt_dir, 'language_influence_summary.json')}")
         return True
     except Exception as exc:  # pragma: no cover - runtime diagnostic

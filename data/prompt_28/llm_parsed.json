@@ -1,0 +1,783 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\en.py",
+      "elements": {
+        "identifiers": [
+          "BASE_URL",
+          "DEFAULT_PATH",
+          "PATTERN",
+          "compile",
+          "construct_redirect_url",
+          "match",
+          "path",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "https://example.com",
+          "/default",
+          "r\"^/valid/path/\\d+$",
+          "f\"{BASE_URL}{path}"
+        ],
+        "variables": [
+          "BASE_URL",
+          "DEFAULT_PATH",
+          "PATTERN",
+          "compile",
+          "match",
+          "path",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "Constants"
+        ],
+        "docstrings": [
+          "\r\n    Constructs a redirect URL based on the target URL.\r\n    \r\n    If the target URL matches the compiled regular expression, it is used as the path.\r\n    Otherwise, the default path is used.\r\n    \r\n    The base URL is always included in the final redirect URL.\r\n    \r\n    Args:\r\n        target_url (str): The target URL to validate and potentially use.\r\n    \r\n    Returns:\r\n        str: The constructed redirect URL.\r\n    "
+        ],
+        "functions": [
+          "construct_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_URL",
+          "URL_PATTERN",
+          "compile",
+          "get_redirect_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https?://example\\.com/.*$",
+          "https://default.com"
+        ],
+        "variables": [
+          "DEFAULT_URL",
+          "URL_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "定义正则表达式模式和默认URL",
+          "示例正则表达式"
+        ],
+        "docstrings": [
+          "\r\n    根据目标URL匹配正则表达式，决定使用目标URL还是默认URL作为重定向目标。\r\n    \r\n    :param target_url: 要检查的目标URL\r\n    :return: 重定向目标URL\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\hi.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_URL",
+          "PATTERN",
+          "compile",
+          "group",
+          "match",
+          "re",
+          "redirect_path",
+          "redirect_url",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https?://example\\.com/redirect/(.*)$",
+          "https://example.com/default",
+          "1",
+          "f\"https://example.com/redirected/{redirect_path}"
+        ],
+        "variables": [
+          "DEFAULT_URL",
+          "PATTERN",
+          "compile",
+          "group",
+          "match",
+          "re",
+          "redirect_path",
+          "target_url"
+        ],
+        "comments": [
+          "संकलित रेगुलर एक्सप्रेशन (मॉड्यूल लोड होने पर एक बार संकलित)",
+          "डिफ़ॉल्ट URL",
+          "मैच हुआ, रीडायरेक्ट लक्ष्य बनाने के लिए मैच के भाग का उपयोग करें",
+          "मैच नहीं हुआ, डिफ़ॉल्ट URL का उपयोग करें"
+        ],
+        "docstrings": [
+          "\r\n    लक्ष्य URL को रेगुलर एक्सप्रेशन से मिलान करता है।\r\n    यदि मिलान होता है, तो रीडायरेक्ट लक्ष्य लौटाता है।\r\n    अन्यथा, डिफ़ॉल्ट URL लौटाता है।\r\n    "
+        ],
+        "functions": [
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\es.py",
+      "elements": {
+        "identifiers": [
+          "REDIRECT_REGEX",
+          "compile",
+          "country_code",
+          "destination_url",
+          "get_redirect_url",
+          "match",
+          "re"
+        ],
+        "literals": [
+          "r'^https://example\\.com/[a-zA-Z]{2}/path/to/page$",
+          "f\"https://example.com/{country_code}/path/to/page"
+        ],
+        "variables": [
+          "REDIRECT_REGEX",
+          "compile",
+          "country_code",
+          "destination_url",
+          "match",
+          "re"
+        ],
+        "comments": [
+          "Compilar la expresión regular una vez al cargar el módulo"
+        ],
+        "docstrings": [
+          "\r\n    Devuelve la URL de redireccionamiento basada en la URL de destino o en una URL predeterminada.\r\n    \r\n    :param destination_url: La URL de destino a verificar.\r\n    :param country_code: El código de país para construir la URL base.\r\n    :return: La URL de redireccionamiento.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\ar.py",
+      "elements": {
+        "identifiers": [
+          "REGEX_PATTERN",
+          "compile",
+          "default_url",
+          "match",
+          "match_redirect_url",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https?://(?:www\\.)?example\\.com/(.*)$"
+        ],
+        "variables": [
+          "REGEX_PATTERN",
+          "compile",
+          "default_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "تجميع التعبير العادي مرة واحدة عند تحميل الوحدة"
+        ],
+        "docstrings": [
+          "\r\n    تطابق عنوان URL المستهدف باستخدام التعبير العادي.\r\n    إذا تطابق، يُستخدم كهدف إعادة التوجيه.\r\n    إذا لم يتطابق، يُستخدم عنوان URL الافتراضي.\r\n    لا يتم استخدام التعبير العادي لإنشاء عنوان URL لإعادة التوجيه.\r\n    يُرجع عنوان URL المطابق.\r\n    "
+        ],
+        "functions": [
+          "match_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\fr.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_REDIRECT_URL",
+          "TARGET_URL_PATTERN",
+          "compile",
+          "get_redirect_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https?://example\\.com/.*$",
+          "https://default.com"
+        ],
+        "variables": [
+          "DEFAULT_REDIRECT_URL",
+          "TARGET_URL_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "Compilé une fois au chargement du module"
+        ],
+        "docstrings": [
+          "\r\n    Retourne l'URL de redirection en fonction de la correspondance de l'expression régulière.\r\n    \r\n    Args:\r\n        target_url (str): L'URL cible à vérifier.\r\n    \r\n    Returns:\r\n        str: L'URL de redirection (cible si correspond, sinon URL par défaut).\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\bn.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_URL",
+          "REGEX_PATTERN",
+          "compile",
+          "get_redirect_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "https://example.com",
+          "r'^https?://(?:www\\.)?example\\.com/.*$"
+        ],
+        "variables": [
+          "DEFAULT_URL",
+          "REGEX_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "Define the default URL",
+          "Compile the regular expression once when the module is loaded",
+          "Replace the pattern with the actual regex pattern you want to use"
+        ],
+        "docstrings": [
+          "\r\n    Returns the redirect URL based on the target URL.\r\n    If the target URL matches the regex pattern, return it as the redirect URL.\r\n    Otherwise, return the default URL.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\pt.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_REDIRECT_URL",
+          "REDIRECT_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "should_redirect_to",
+          "url"
+        ],
+        "literals": [
+          "r'^https://exemplo\\.com(/.*)?$",
+          "https://exemplo.com/"
+        ],
+        "variables": [
+          "DEFAULT_REDIRECT_URL",
+          "REDIRECT_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "url"
+        ],
+        "comments": [
+          "Compila a expressão regular uma vez quando o módulo é carregado",
+          "Exemplo: aceita URLs que começam com 'https://exemplo.com/' seguidos por um caminho opcional",
+          "URL padrão para redirecionamento caso o destino não corresponda"
+        ],
+        "docstrings": [
+          "\r\n    Verifica se o URL de destino corresponde à expressão regular.\r\n    Retorna o URL de destino se corresponder, caso contrário, retorna o URL padrão.\r\n    "
+        ],
+        "functions": [
+          "should_redirect_to"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\ru.py",
+      "elements": {
+        "identifiers": [
+          "REDIRECT_PATTERN",
+          "compile",
+          "default_url",
+          "get_redirect_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^/old-path/(?P<id>\\d+)$"
+        ],
+        "variables": [
+          "REDIRECT_PATTERN",
+          "compile",
+          "default_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "Компиляция регулярного выражения один раз при загрузке модуля",
+          "Используем совпавший URL-адрес как цель перенаправления",
+          "Если не совпадает, возвращаем URL-адрес по умолчанию"
+        ],
+        "docstrings": [
+          "\r\n    Возвращает URL-адрес перенаправления на основе целевого URL-адреса.\r\n    Если целевой URL-адрес соответствует регулярному выражению, он используется в качестве цели перенаправления.\r\n    В противном случае возвращается URL-адрес по умолчанию.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\id.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_URL",
+          "TARGET_PATTERN",
+          "compile",
+          "get_redirect_url",
+          "match",
+          "re",
+          "url"
+        ],
+        "literals": [
+          "https://example.com",
+          "r'^https?://(www\\.)?targetsite\\.com/.*"
+        ],
+        "variables": [
+          "DEFAULT_URL",
+          "TARGET_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "url"
+        ],
+        "comments": [
+          "URL default",
+          "Ekspresi reguler untuk mencocokkan URL target (contoh: domain tertentu)"
+        ],
+        "docstrings": [
+          "\r\n    Mengembalikan URL pengalihan berdasarkan URL input.\r\n    Jika URL input cocok dengan ekspresi reguler, gunakan URL tersebut.\r\n    Jika tidak cocok, gunakan URL default.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\ur.py",
+      "elements": {
+        "identifiers": [
+          "compile",
+          "default_url",
+          "fullmatch",
+          "pattern",
+          "re",
+          "redirect_url",
+          "regex_pattern",
+          "target_url"
+        ],
+        "literals": [],
+        "variables": [
+          "compile",
+          "default_url",
+          "fullmatch",
+          "pattern",
+          "re",
+          "regex_pattern",
+          "target_url"
+        ],
+        "comments": [
+          "Compile the regex pattern",
+          "Check if the target URL matches the regex pattern",
+          "Return the target URL if it matches",
+          "Return the default URL if it does not match"
+        ],
+        "docstrings": [
+          "\r\n    Determines the redirect URL based on the target URL and a regular expression pattern.\r\n    \r\n    Args:\r\n        target_url (str): The target URL to match against the regex pattern.\r\n        regex_pattern (str): The regular expression pattern to match against the target URL.\r\n        default_url (str): The default URL to use if the target URL does not match the pattern.\r\n    \r\n    Returns:\r\n        str: The redirect URL (either the matched target URL or the default URL).\r\n    "
+        ],
+        "functions": [
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\de.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_REDIRECT_URL",
+          "REDIRECT_RULES",
+          "compile",
+          "get_redirect_url",
+          "items",
+          "match",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target_url"
+        ],
+        "literals": [
+          "https://example.com",
+          "r'^https://example\\.com/.*",
+          "https://blog.example.com",
+          "r'^https://blog\\.example\\.com/.*",
+          "https://shop.example.com",
+          "r'^https://shop\\.example\\.com/.*",
+          "https://default.example.com"
+        ],
+        "variables": [
+          "DEFAULT_REDIRECT_URL",
+          "REDIRECT_RULES",
+          "compile",
+          "items",
+          "match",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target_url"
+        ],
+        "comments": [
+          "Dictionary mit URLs und zugehörigen regulären Ausdrücken",
+          "Standard-URL, falls kein Match gefunden wird"
+        ],
+        "docstrings": [
+          "\r\n    Gibt die Umleitungs-URL basierend auf dem Ziel-URL zurück.\r\n    Wenn die Ziel-URL mit einem der regulären Ausdrücke übereinstimmt,\r\n    wird die entsprechende URL verwendet. Andernfalls wird die Standard-URL zurückgegeben.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\ja.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_REDIRECT_URL",
+          "TARGET_PATTERN",
+          "compile",
+          "get_redirect_url",
+          "group",
+          "match",
+          "path_part",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https://example\\.com/redirect/(.+)$",
+          "https://example.com/default",
+          "1",
+          "f'https://example.com/redirected/{path_part}"
+        ],
+        "variables": [
+          "DEFAULT_REDIRECT_URL",
+          "TARGET_PATTERN",
+          "compile",
+          "group",
+          "match",
+          "path_part",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "正規表現をモジュールロード時に1回コンパイル",
+          "デフォルトのリダイレクトURL",
+          "正規表現でマッチした部分（グループ1）を用いてリダイレクトURLを構築",
+          "一致しない場合はデフォルトURLを使用"
+        ],
+        "docstrings": [
+          "\r\n    ターゲットURLが正規表現に一致するかをチェックし、\r\n    一致する場合はその部分を元にリダイレクトURLを構築。\r\n    一致しない場合はデフォルトURLを返す。\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\mr.py",
+      "elements": {
+        "identifiers": [
+          "DEFAULT_URL",
+          "URL_PATTERN",
+          "compile",
+          "get_redirect_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https?://(www\\.)?example\\.com/.*$",
+          "https://example.com/default"
+        ],
+        "variables": [
+          "DEFAULT_URL",
+          "URL_PATTERN",
+          "compile",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "Regular expression compiled once when the module is loaded",
+          "Default URL"
+        ],
+        "docstrings": [
+          "\r\n    Returns the redirect URL based on the target URL.\r\n    If the target URL matches the pattern, it is used as the redirect URL.\r\n    Otherwise, the default URL is used.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\vi.py",
+      "elements": {
+        "identifiers": [
+          "TARGET_URL_PATTERN",
+          "compile",
+          "default_url",
+          "get_redirect_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "literals": [
+          "r'^https://example\\.com/path/to/page\\?query=value$",
+          "https://example.com"
+        ],
+        "variables": [
+          "TARGET_URL_PATTERN",
+          "compile",
+          "default_url",
+          "match",
+          "re",
+          "target_url"
+        ],
+        "comments": [
+          "Biểu thức chính quy được biên dịch một lần khi mô-đun được tải"
+        ],
+        "docstrings": [
+          "\r\n    Trả về URL chuyển hướng dựa trên việc khớp biểu thức chính quy.\r\n    Nếu target_url khớp với biểu thức chính quy, trả về target_url.\r\n    Nếu không khớp, trả về default_url.\r\n    "
+        ],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\te.py",
+      "elements": {
+        "identifiers": [
+          "URLRewriter",
+          "__init__",
+          "compile",
+          "default_url",
+          "match",
+          "pattern",
+          "re",
+          "rewrite",
+          "self",
+          "target_url",
+          "url"
+        ],
+        "literals": [],
+        "variables": [
+          "compile",
+          "default_url",
+          "match",
+          "pattern",
+          "re",
+          "self",
+          "target_url",
+          "url"
+        ],
+        "comments": [
+          "Compile the regular expression once when the module is loaded",
+          "Check if the target URL matches the regular expression"
+        ],
+        "docstrings": [],
+        "functions": [
+          "rewrite"
+        ],
+        "classes": [
+          "URLRewriter"
+        ]
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\ha.py",
+      "elements": {
+        "identifiers": [
+          "RequestException",
+          "allow_redirects",
+          "check_url_status",
+          "e",
+          "exceptions",
+          "final_url",
+          "get",
+          "parse",
+          "requests",
+          "response",
+          "status_code",
+          "status_message",
+          "timeout",
+          "url",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "10",
+          "200",
+          "OK",
+          "301",
+          "Moved Permanently",
+          "302",
+          "Found (Temporary Redirect)",
+          "404",
+          "Not Found",
+          "500",
+          "Internal Server Error",
+          "f\"Other: {status_code}",
+          "original_url",
+          "final_url",
+          "status_code",
+          "status_message",
+          "original_url",
+          "final_url",
+          "status_code",
+          "status_message",
+          "f\"Error: {str(e)}"
+        ],
+        "variables": [
+          "RequestException",
+          "allow_redirects",
+          "e",
+          "exceptions",
+          "final_url",
+          "get",
+          "parse",
+          "requests",
+          "response",
+          "status_code",
+          "status_message",
+          "timeout",
+          "url",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Send a GET request to the URL with a timeout",
+          "Get the final URL after any redirects",
+          "Get the status code",
+          "Determine the status message",
+          "Return the result",
+          "Handle any request errors (e.g., network issues, invalid URL)",
+          "Example usage:",
+          "result = check_url_status(\"https://www.google.com\")",
+          "print(result)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_url_status"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ulrl0vnv\\tr.py",
+      "elements": {
+        "identifiers": [
+          "compile",
+          "default_url",
+          "get_redirect_url",
+          "match",
+          "pattern",
+          "re",
+          "target_url",
+          "url"
+        ],
+        "literals": [
+          "r'^https?://example\\.com/.*$",
+          "https://example.com/path",
+          "https://default.com/path"
+        ],
+        "variables": [
+          "compile",
+          "default_url",
+          "match",
+          "pattern",
+          "re",
+          "target_url",
+          "url"
+        ],
+        "comments": [
+          "Düzenli ifadeyi modül yüklendiğinde bir kez derle",
+          "Hedef URL ve varsayılan URL"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_redirect_url"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,1223 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\en.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "images_folder",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image"
+        ],
+        "literals": [
+          "/image/<filename>",
+          "images",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "images_folder",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "Decorator to define the URL route",
+          "Define the path to the images folder",
+          "Check if the file exists",
+          "Send a 404 error if the file does not exist"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "filename",
+          "flask",
+          "route",
+          "run",
+          "send_from_directory",
+          "serve_image"
+        ],
+        "literals": [
+          "images",
+          "/image/<filename>",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "filename",
+          "flask",
+          "route",
+          "run",
+          "send_from_directory"
+        ],
+        "comments": [
+          "假设图像文件夹名为 'images'",
+          "尝试从指定的文件夹中发送文件",
+          "如果文件不存在，返回 404 错误"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\hi.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory",
+          "serve_image"
+        ],
+        "literals": [
+          "images",
+          "/image/<filename>",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory"
+        ],
+        "comments": [
+          "छवि फ़ोल्डर का मार्ग",
+          "डेकोरेटर का उपयोग करके URL को फ़ंक्शन से जोड़ें",
+          "छवि फ़ोल्डर में फ़ाइल मौजूद है या नहीं जाँचें",
+          "फ़ाइल नहीं मिली, 404 त्रुटि लौटाएँ"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "Flask",
+          "abort",
+          "add_url_rule",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "e",
+          "error_route",
+          "exists",
+          "f",
+          "filename",
+          "flask",
+          "functools",
+          "get_image",
+          "image_path",
+          "join",
+          "jsonify",
+          "kwargs",
+          "os",
+          "path",
+          "route",
+          "route_with_image_check",
+          "run",
+          "send_file",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "static/images",
+          "error",
+          "Imagen no encontrada",
+          "404",
+          "f\"Error: {e}",
+          "error",
+          "Error interno del servidor",
+          "500",
+          "/image/<filename>",
+          "/error",
+          "Simulación de error",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "Flask",
+          "abort",
+          "add_url_rule",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "e",
+          "exists",
+          "f",
+          "filename",
+          "flask",
+          "functools",
+          "image_path",
+          "join",
+          "jsonify",
+          "kwargs",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "Llamar a la función original para obtener el nombre del archivo",
+          "Verificar si el archivo existe",
+          "Registrar la ruta en Flask",
+          "Ejemplo de uso del decorador",
+          "Ejemplo de ruta para probar el error"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "error_route",
+          "get_image",
+          "route_with_image_check",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGES_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "description",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image"
+        ],
+        "literals": [
+          "images",
+          "/image/<filename>",
+          "404",
+          "الملف غير موجود",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGES_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "description",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "مسار المجلد الذي يحتوي على الصور",
+          "بناء المسار الكامل للملف",
+          "التحقق من وجود الملف"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "image_folder",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image"
+        ],
+        "literals": [
+          "/image/<filename>",
+          "images",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "image_folder",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "Décorateur pour indiquer l'URL qui déclenche la fonction",
+          "Chemin vers le dossier images",
+          "Chemin complet du fichier",
+          "Vérifier si le fichier existe",
+          "Retourner une erreur 404 si le fichier n'existe pas"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "decorator",
+          "exists",
+          "file_path",
+          "flask",
+          "func",
+          "image_folder",
+          "join",
+          "kwargs",
+          "my_image",
+          "os",
+          "path",
+          "route",
+          "send_from_directory",
+          "serve_image",
+          "url_path",
+          "wrapper"
+        ],
+        "literals": [
+          "images",
+          ".jpg",
+          ".jpg",
+          "404",
+          "/image/<filename>",
+          "my_image"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "decorator",
+          "exists",
+          "file_path",
+          "flask",
+          "func",
+          "image_folder",
+          "join",
+          "kwargs",
+          "os",
+          "path",
+          "route",
+          "send_from_directory",
+          "url_path",
+          "wrapper"
+        ],
+        "comments": [
+          "ডেকোরেটর যা ইউআরএল ট্রিগার করে",
+          "ফাইলের পথ তৈরি করা",
+          "ফাইল বিদ্যমান কিনা পরীক্ষা করা",
+          "404 ত্রুটি পাঠানো",
+          "উদাহরণ ব্যবহার",
+          "এটি ফাইলের নাম হিসাবে ব্যবহৃত হবে"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "my_image",
+          "serve_image",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "add_url_rule",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "exists",
+          "f",
+          "filename",
+          "flask",
+          "functools",
+          "image_folder",
+          "image_path",
+          "join",
+          "kwargs",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "/image/<filename>",
+          "images",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "add_url_rule",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "exists",
+          "f",
+          "filename",
+          "flask",
+          "functools",
+          "image_folder",
+          "image_path",
+          "join",
+          "kwargs",
+          "os",
+          "path",
+          "run",
+          "send_file",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "route",
+          "serve_image",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image"
+        ],
+        "literals": [
+          "images",
+          "/image/<filename>",
+          "Файл не найден",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "Путь к папке с изображениями",
+          "Проверяем, существует ли файл в папке изображений"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\id.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "filename",
+          "flask",
+          "folder_gambar",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "path_gambar",
+          "route",
+          "run",
+          "send_file",
+          "tampilkan_gambar"
+        ],
+        "literals": [
+          "/gambar/<filename>",
+          "gambar",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "filename",
+          "flask",
+          "folder_gambar",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "path_gambar",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "Dekorator untuk menentukan URL yang memicu fungsi",
+          "Path ke folder gambar",
+          "Path lengkap ke file gambar",
+          "Periksa apakah file ada",
+          "Jika file tidak ada, kembalikan pesan 404"
+        ],
+        "docstrings": [],
+        "functions": [
+          "tampilkan_gambar"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "images_folder",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory",
+          "serve_image"
+        ],
+        "literals": [
+          "/images/<filename>",
+          "images",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "images_folder",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory"
+        ],
+        "comments": [
+          "Path to the images folder",
+          "Check if the file exists in the images folder",
+          "Send the file to the browser",
+          "Return a 404 error if the file is not found"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\de.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "add_url_rule",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "file_path",
+          "filename",
+          "flask",
+          "func",
+          "functools",
+          "isfile",
+          "join",
+          "kwargs",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory",
+          "send_image",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "bilder",
+          "/image/<filename>",
+          "Fehler: Die Datei wurde nicht gefunden.",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "add_url_rule",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "file_path",
+          "filename",
+          "flask",
+          "func",
+          "functools",
+          "isfile",
+          "join",
+          "kwargs",
+          "os",
+          "path",
+          "run",
+          "send_from_directory",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "Dekorator zur Angabe der URL für die Funktion",
+          "Pfad zum Bilderordner",
+          "Überprüfen, ob die Datei im Bilderordner existiert",
+          "Starte den Flask-Server"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "route",
+          "send_image",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\ja.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "filename",
+          "flask",
+          "route",
+          "run",
+          "send_from_directory",
+          "serve_image"
+        ],
+        "literals": [
+          "/image/<filename>",
+          "images",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "filename",
+          "flask",
+          "route",
+          "run",
+          "send_from_directory"
+        ],
+        "comments": [
+          "画像フォルダーからファイルを送信",
+          "ファイルが見つからない場合、404エラーを返す"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGE_FILES",
+          "abort",
+          "add_url_rule",
+          "app",
+          "debug",
+          "decorator",
+          "f",
+          "file_path",
+          "filename",
+          "flask",
+          "home",
+          "images_folder",
+          "img",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory",
+          "serve_image",
+          "url"
+        ],
+        "literals": [
+          "image1.jpg",
+          "image2.png",
+          "image3.gif",
+          "image4.jpg",
+          "/images/<filename>",
+          "images",
+          "404",
+          "/",
+          "f\"\"\"\r\n    <h1>Available Images</h1>\r\n    <ul>\r\n        {''.join(f'<li><a href=\"/images/{img}\">{img}</a></li>' for img in IMAGE_FILES)}\r\n    </ul>\r\n    ",
+          "f'<li><a href=\"/images/{img}\">{img}</a></li>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGE_FILES",
+          "abort",
+          "add_url_rule",
+          "app",
+          "debug",
+          "decorator",
+          "f",
+          "file_path",
+          "filename",
+          "flask",
+          "images_folder",
+          "img",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_from_directory",
+          "url"
+        ],
+        "comments": [
+          "List of image files available in the images folder",
+          "Check if the file exists in the images folder",
+          "Display the list of available image files on the home page"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "home",
+          "route",
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image"
+        ],
+        "literals": [
+          "images",
+          "/image/<filename>",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGE_FOLDER",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "Đường dẫn đến thư mục chứa hình ảnh",
+          "Tạo đường dẫn đầy đủ đến tệp hình ảnh",
+          "Kiểm tra xem tệp có tồn tại không",
+          "Trả về trang lỗi 404 nếu tệp không tồn tại"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\te.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IMAGES_FOLDER",
+          "abort",
+          "add_url_rule",
+          "app",
+          "debug",
+          "decorator",
+          "f",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "not_found",
+          "os",
+          "path",
+          "render_template",
+          "route",
+          "run",
+          "send_from_directory",
+          "serve_image",
+          "url"
+        ],
+        "literals": [
+          "images",
+          "/image/<filename>",
+          "not_found.html",
+          "404",
+          "/not-found",
+          "not_found.html",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "IMAGES_FOLDER",
+          "abort",
+          "add_url_rule",
+          "app",
+          "debug",
+          "decorator",
+          "f",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "render_template",
+          "route",
+          "run",
+          "send_from_directory",
+          "url"
+        ],
+        "comments": [
+          "Directory where images are stored",
+          "Define a decorator to register routes",
+          "Function to check if image file exists and serve it",
+          "Serve a custom page if image not found"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "not_found",
+          "route",
+          "serve_image"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\ha.py",
+      "elements": {
+        "identifiers": [
+          "basename",
+          "check_file_in_directory",
+          "chunk",
+          "chunk_size",
+          "copy_file_if_exists",
+          "directory",
+          "directory_path",
+          "download_file",
+          "downloaded_file",
+          "dst",
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "get",
+          "iter_content",
+          "join",
+          "local_filename",
+          "open",
+          "os",
+          "parse",
+          "path",
+          "r",
+          "raise_for_status",
+          "read",
+          "requests",
+          "source_directory",
+          "source_path",
+          "src",
+          "stream",
+          "target_directory",
+          "target_path",
+          "url",
+          "urllib",
+          "urlparse",
+          "write"
+        ],
+        "literals": [
+          "wb",
+          "8192",
+          "rb",
+          "wb",
+          "f\"File '{filename}' copied from {source_directory} to {target_directory}",
+          "f\"File '{filename}' not found in {source_directory}",
+          "https://example.com/sample.pdf",
+          "./downloads",
+          "f\"File '{downloaded_file}' found in {directory}",
+          "f\"File '{downloaded_file}' not found in {directory}",
+          "./downloads",
+          "./backup"
+        ],
+        "variables": [
+          "basename",
+          "chunk",
+          "chunk_size",
+          "directory",
+          "directory_path",
+          "downloaded_file",
+          "dst",
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "get",
+          "iter_content",
+          "join",
+          "local_filename",
+          "os",
+          "parse",
+          "path",
+          "r",
+          "raise_for_status",
+          "read",
+          "requests",
+          "source_directory",
+          "source_path",
+          "src",
+          "stream",
+          "target_directory",
+          "target_path",
+          "url",
+          "urllib",
+          "urlparse",
+          "write"
+        ],
+        "comments": [
+          "Example usage:",
+          "Download a file from URL",
+          "Check if file exists in a directory",
+          "Copy file if it exists"
+        ],
+        "docstrings": [
+          "Download a file from a URL to a local file.",
+          "Check if a file exists in a given directory.",
+          "Copy a file from source directory to target directory if it exists."
+        ],
+        "functions": [
+          "check_file_in_directory",
+          "copy_file_if_exists",
+          "download_file"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_zkqtrnxt\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file",
+          "serve_image"
+        ],
+        "literals": [
+          "/image/<filename>",
+          "resimler",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "file_path",
+          "filename",
+          "flask",
+          "isfile",
+          "join",
+          "os",
+          "path",
+          "route",
+          "run",
+          "send_file"
+        ],
+        "comments": [
+          "Dosya yolu",
+          "Dosyanın mevcut olup olmadığını kontrol et"
+        ],
+        "docstrings": [],
+        "functions": [
+          "serve_image"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

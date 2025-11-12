@@ -1,0 +1,1014 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\en.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "bytes_copied",
+          "c",
+          "copy_bytes",
+          "destination",
+          "i",
+          "num_bytes",
+          "ord",
+          "source",
+          "source_bytes",
+          "string_to_copy"
+        ],
+        "literals": [
+          "0",
+          "100",
+          "Hello"
+        ],
+        "variables": [
+          "buffer",
+          "bytes_copied",
+          "c",
+          "destination",
+          "i",
+          "num_bytes",
+          "source",
+          "source_bytes",
+          "string_to_copy"
+        ],
+        "comments": [
+          "Copy num_bytes from source to destination",
+          "Initialize buffer with 100 bytes, all zeros",
+          "String to copy",
+          "Convert string to bytes (list of integers)",
+          "Copy the bytes",
+          "Output the result"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "POINTER",
+          "ValueError",
+          "buffer1",
+          "buffer2",
+          "bytes",
+          "c_ubyte",
+          "cast",
+          "ctypes",
+          "decode",
+          "dest",
+          "hello_bytes",
+          "i",
+          "isinstance",
+          "memcpy",
+          "n",
+          "src",
+          "world_bytes"
+        ],
+        "literals": [
+          "0",
+          "指针不能为 NULL",
+          "__main__",
+          "10",
+          "10",
+          "b\"Hello",
+          "b\"World",
+          "buffer1:",
+          "utf-8",
+          "buffer2:",
+          "utf-8"
+        ],
+        "variables": [
+          "POINTER",
+          "buffer1",
+          "buffer2",
+          "c_ubyte",
+          "cast",
+          "ctypes",
+          "decode",
+          "dest",
+          "hello_bytes",
+          "i",
+          "n",
+          "src",
+          "world_bytes"
+        ],
+        "comments": [
+          "确保 dest 和 src 是指针",
+          "边界检查：确保指针有效且长度合理",
+          "检查内存对齐：如果需要，可以添加对齐检查",
+          "但 ctypes 通常处理对齐，这里假设传入的指针已对齐",
+          "为了安全，可以检查指针是否为 NULL",
+          "执行复制",
+          "示例使用",
+          "创建缓冲区",
+          "字符串 \"Hello\" 的字节表示",
+          "将 \"Hello\" 复制到 buffer1",
+          "将 buffer1 中的字符串复制到 buffer2",
+          "将 \"World\" 复制到 buffer1",
+          "打印结果"
+        ],
+        "docstrings": [
+          "\r\n    复制 n 个字节从 src 到 dest。\r\n    dest 和 src 应为 ctypes 指针或可转换为指针的对象。\r\n    "
+        ],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\hi.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "bytearray",
+          "copy_bytes",
+          "destination",
+          "encode",
+          "i",
+          "isinstance",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "utf-8",
+          "utf-8",
+          "b'\\x00",
+          "10",
+          "hello",
+          "5"
+        ],
+        "variables": [
+          "buffer",
+          "destination",
+          "encode",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Ensure that the source and destination are bytes-like objects",
+          "Copy the specified number of bytes from source to destination",
+          "Example usage: Copy \"hello\" string into a buffer",
+          "Create a buffer of 10 bytes",
+          "Output: bytearray(b'hello\\x00\\x00\\x00\\x00')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\es.py",
+      "elements": {
+        "identifiers": [
+          "",
+          "Almacenar",
+          "Cargar",
+          "Corrección",
+          "Devolver",
+          "Error",
+          "Guardar",
+          "Restaurar",
+          "Revisar",
+          "Si",
+          "Usar",
+          "Volver",
+          "a",
+          "aquí",
+          "b",
+          "beq",
+          "bucle",
+          "byte",
+          "bytes",
+          "cmp",
+          "como",
+          "contador",
+          "copiados",
+          "copiar",
+          "copy_bytes",
+          "copy_end",
+          "copy_loop",
+          "código",
+          "de",
+          "del",
+          "desde",
+          "destino",
+          "devolver",
+          "el",
+          "en",
+          "end_loop",
+          "es",
+          "fuente",
+          "hay",
+          "iterar",
+          "la",
+          "ldrb",
+          "loop",
+          "lr",
+          "mov",
+          "no",
+          "número",
+          "pc",
+          "pop",
+          "puntero",
+          "push",
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "registro",
+          "retorno",
+          "salir",
+          "strb",
+          "subs",
+          "text",
+          "un",
+          "y"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "",
+          "Cargar",
+          "Corrección",
+          "Devolver",
+          "Error",
+          "Guardar",
+          "Restaurar",
+          "Revisar",
+          "Si",
+          "Usar",
+          "Volver",
+          "a",
+          "aquí",
+          "b",
+          "beq",
+          "bucle",
+          "byte",
+          "bytes",
+          "cmp",
+          "como",
+          "contador",
+          "copiar",
+          "copy_bytes",
+          "copy_end",
+          "copy_loop",
+          "código",
+          "de",
+          "del",
+          "desde",
+          "destino",
+          "devolver",
+          "el",
+          "en",
+          "end_loop",
+          "es",
+          "fuente",
+          "hay",
+          "iterar",
+          "la",
+          "ldrb",
+          "loop",
+          "lr",
+          "mov",
+          "no",
+          "número",
+          "pc",
+          "pop",
+          "puntero",
+          "push",
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "registro",
+          "retorno",
+          "salir",
+          "strb",
+          "subs",
+          "text",
+          "un",
+          "y"
+        ],
+        "comments": [
+          "0          @ Comprobar si r3 == 0",
+          "0          @ Comprobar si aún hay bytes por copiar",
+          "1   @ Cargar byte desde fuente y avanzar fuente",
+          "1   @ Almacenar byte en destino y avanzar destino",
+          "1     @ Decrementar contador"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\ar.py",
+      "elements": {
+        "identifiers": [
+          "b",
+          "buffer",
+          "c",
+          "chr",
+          "destination",
+          "hello",
+          "i",
+          "join",
+          "memcpy",
+          "num_bytes",
+          "ord",
+          "source"
+        ],
+        "literals": [
+          "0",
+          "6",
+          "Hello"
+        ],
+        "variables": [
+          "b",
+          "buffer",
+          "c",
+          "destination",
+          "hello",
+          "i",
+          "join",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "مثال على استخدام الدالة",
+          "مخزن مؤقت بحجم 6 بايت (للحفاظ على \"Hello\" + '\\0')",
+          "تحويل السلسلة \"Hello\" إلى قائمة من البايتات",
+          "طباعة المخزن المؤقت على الشاشة"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\fr.py",
+      "elements": {
+        "identifiers": [
+          "count",
+          "dest_list",
+          "destination",
+          "i",
+          "join",
+          "memcpy",
+          "result",
+          "source",
+          "src_list"
+        ],
+        "literals": [
+          "Hello",
+          "Bonjour",
+          "7"
+        ],
+        "variables": [
+          "count",
+          "dest_list",
+          "destination",
+          "i",
+          "join",
+          "result",
+          "source",
+          "src_list"
+        ],
+        "comments": [
+          "Convertir les chaînes en listes de caractères pour pouvoir modifier",
+          "Copier les octets (caractères) de la source vers la destination",
+          "Si la source est plus courte que count, on ne fait rien",
+          "Convertir la liste de retour en chaîne",
+          "Appel de la fonction avec les paramètres donnés"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\bn.py",
+      "elements": {
+        "identifiers": [
+          "bytearray",
+          "dest",
+          "destination",
+          "i",
+          "memcpy",
+          "num_bytes",
+          "source",
+          "src"
+        ],
+        "literals": [
+          "b\"Hello",
+          "5"
+        ],
+        "variables": [
+          "dest",
+          "destination",
+          "i",
+          "num_bytes",
+          "source",
+          "src"
+        ],
+        "comments": [
+          "Example usage:",
+          "Allocate space for 5 bytes",
+          "Output: bytearray(b'Hello')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\pt.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "dest",
+          "i",
+          "join",
+          "memcpy",
+          "n",
+          "result",
+          "source_string",
+          "src"
+        ],
+        "literals": [
+          "6",
+          "Hello"
+        ],
+        "variables": [
+          "buffer",
+          "dest",
+          "i",
+          "join",
+          "n",
+          "result",
+          "source_string",
+          "src"
+        ],
+        "comments": [
+          "Copia n bytes da fonte para o destino",
+          "Exemplo de uso",
+          "Buffer para armazenar \"Hello\" + '\\0'",
+          "Copia a string \"Hello\" para o buffer",
+          "Imprime o resultado"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\ru.py",
+      "elements": {
+        "identifiers": [
+          "POINTER",
+          "bytes",
+          "c_ubyte",
+          "c_uint64",
+          "c_uint8",
+          "cast",
+          "copy_with_64bit_ints",
+          "ctypes",
+          "decode",
+          "dest",
+          "dest_buffer",
+          "dest_ptr",
+          "encode",
+          "i",
+          "memmove",
+          "num_bytes",
+          "num_ints",
+          "remainder",
+          "result_str",
+          "source_bytes",
+          "source_str",
+          "src",
+          "src_buffer",
+          "src_ptr",
+          "value"
+        ],
+        "literals": [
+          "8",
+          "8",
+          "0",
+          "0xFF",
+          "8",
+          "Привет",
+          "utf-8",
+          "utf-8"
+        ],
+        "variables": [
+          "POINTER",
+          "c_ubyte",
+          "c_uint64",
+          "c_uint8",
+          "cast",
+          "ctypes",
+          "decode",
+          "dest",
+          "dest_buffer",
+          "dest_ptr",
+          "encode",
+          "i",
+          "memmove",
+          "num_bytes",
+          "num_ints",
+          "remainder",
+          "result_str",
+          "source_bytes",
+          "source_str",
+          "src",
+          "src_buffer",
+          "src_ptr",
+          "value"
+        ],
+        "comments": [
+          "Convert the memory addresses to ctypes pointers",
+          "Calculate how many 64-bit integers we need to copy",
+          "Copy full 64-bit integers",
+          "Copy remaining bytes if any",
+          "Copy the remaining bytes one by one",
+          "Example usage",
+          "Allocate memory for the destination buffer",
+          "Use memmove to copy the data",
+          "Now use our custom function with 64-bit integers",
+          "Convert the result back to string"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_with_64bit_ints"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\id.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "dest",
+          "i",
+          "join",
+          "memcpy",
+          "num_bytes",
+          "src",
+          "string_to_copy"
+        ],
+        "literals": [
+          "10",
+          "Halo"
+        ],
+        "variables": [
+          "buffer",
+          "dest",
+          "i",
+          "join",
+          "num_bytes",
+          "src",
+          "string_to_copy"
+        ],
+        "comments": [
+          "Copy num_bytes from src to dest",
+          "Define buffer as array of char with size 10",
+          "String to copy",
+          "Copy the string to buffer",
+          "Display the result"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\ur.py",
+      "elements": {
+        "identifiers": [
+          "bytearray",
+          "copy_bytes",
+          "decode",
+          "destination",
+          "destination_buffer",
+          "i",
+          "num_bytes",
+          "source",
+          "source_buffer"
+        ],
+        "literals": [
+          "b\"hello",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "destination",
+          "destination_buffer",
+          "i",
+          "num_bytes",
+          "source",
+          "source_buffer"
+        ],
+        "comments": [
+          "Copy num_bytes from source to destination",
+          "Example usage:",
+          "Create a source buffer with the string \"hello\"",
+          "Create a destination buffer of the same size",
+          "Copy bytes from source to destination",
+          "Output the result"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\de.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "bytearray",
+          "dest",
+          "i",
+          "memcpy",
+          "num_bytes",
+          "source_string",
+          "src"
+        ],
+        "literals": [
+          "100",
+          "b\"Hello"
+        ],
+        "variables": [
+          "buffer",
+          "dest",
+          "i",
+          "num_bytes",
+          "source_string",
+          "src"
+        ],
+        "comments": [
+          "Kopiert num_bytes von src nach dest",
+          "Beispiel: Kopiert die Zeichenfolge \"Hello\" in einen Puffer von 100 Bytes",
+          "100-Byte-Puffer",
+          "Kopiere die Bytes von source_string in den Puffer",
+          "Ausgabe des Ergebnisses (optional)",
+          "Gibt b'Hello' aus"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\ja.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "byte_count",
+          "bytearray",
+          "copy_memory",
+          "destination",
+          "i",
+          "source"
+        ],
+        "literals": [
+          "b\"World",
+          "b\"Hello",
+          "5"
+        ],
+        "variables": [
+          "buffer",
+          "byte_count",
+          "destination",
+          "i",
+          "source"
+        ],
+        "comments": [
+          "Copy bytes from source to destination",
+          "Initialize buffer with \"World\"",
+          "Copy \"Hello\" to buffer",
+          "The buffer now contains \"Hello\"",
+          "Output: bytearray(b'Hello')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_memory"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\mr.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "bytearray",
+          "copy_bytes",
+          "decode",
+          "destination",
+          "encode",
+          "i",
+          "num_bytes",
+          "source",
+          "source_bytes",
+          "source_string"
+        ],
+        "literals": [
+          "5",
+          "हॅलो",
+          "utf-8",
+          "utf-8"
+        ],
+        "variables": [
+          "buffer",
+          "decode",
+          "destination",
+          "encode",
+          "i",
+          "num_bytes",
+          "source",
+          "source_bytes",
+          "source_string"
+        ],
+        "comments": [
+          "Example usage",
+          "Allocate space for 5 bytes",
+          "Copy bytes from source to buffer",
+          "Print the output"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\vi.py",
+      "elements": {
+        "identifiers": [
+          "char",
+          "destination",
+          "enumerate",
+          "i",
+          "memcpy",
+          "memory",
+          "message",
+          "num_bytes",
+          "ord",
+          "source"
+        ],
+        "literals": [
+          "0",
+          "1000",
+          "Xin chào",
+          "0",
+          "200",
+          "210",
+          "100",
+          "110",
+          "10",
+          "400",
+          "405",
+          "300",
+          "305",
+          "5",
+          "600",
+          "601",
+          "500",
+          "501",
+          "1"
+        ],
+        "variables": [
+          "char",
+          "destination",
+          "i",
+          "memory",
+          "message",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Example usage with simulated memory",
+          "Simulated memory of 1000 bytes",
+          "Copy string \"Xin chào\" into buffer",
+          "Copy 10 bytes from memory[100] to memory[200]",
+          "Copy 5 bytes from memory[300] to memory[400]",
+          "Copy 1 byte from memory[500] to memory[600]"
+        ],
+        "docstrings": [],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\te.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "copy_memory",
+          "destination",
+          "encode",
+          "i",
+          "num_bytes",
+          "source",
+          "source_bytes",
+          "source_string"
+        ],
+        "literals": [
+          "0",
+          "5",
+          "Hello",
+          "utf-8"
+        ],
+        "variables": [
+          "buffer",
+          "destination",
+          "encode",
+          "i",
+          "num_bytes",
+          "source",
+          "source_bytes",
+          "source_string"
+        ],
+        "comments": [
+          "Copy num_bytes from source to destination",
+          "Example usage",
+          "Buffer to hold the copied data",
+          "Copy the bytes from source to buffer",
+          "Print the copied bytes"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_memory"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\ha.py",
+      "elements": {
+        "identifiers": [
+          "bytes_count",
+          "data",
+          "encode",
+          "makoma",
+          "result",
+          "sannu_buffer",
+          "tushen"
+        ],
+        "literals": [
+          "utf-8",
+          "makoma",
+          "tushen",
+          "bytes_count",
+          "Laniage"
+        ],
+        "variables": [
+          "bytes_count",
+          "data",
+          "encode",
+          "makoma",
+          "result",
+          "tushen"
+        ],
+        "comments": [
+          "Aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani",
+          "Karo na farko shine makoma; Na biyu shine tushen kuma na uku shine adadin bytes don kwafa",
+          "Lambar ta kori kirtani \"sannu\" ga mai buffer",
+          "Don haka, amfani da \"sannu\" da yawa daga ƙwaƙwalwar ajiya zuwa wani, wato: aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani",
+          "Don haka, amfani da \"sannu\" da yawa daga ƙwaƙwalwar ajiya zuwa wani, wato: aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani",
+          "Code don masu zuwa",
+          "Makoma na farko",
+          "Tushen na biyu",
+          "Adadin bytes na uku",
+          "Sannu data",
+          "Fassara"
+        ],
+        "docstrings": [
+          "Sannu aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani"
+        ],
+        "functions": [
+          "sannu_buffer"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_fsxf4if6\\tr.py",
+      "elements": {
+        "identifiers": [
+          "b",
+          "bayt_sayisi",
+          "c",
+          "chr",
+          "hedef",
+          "hedef_arabellek",
+          "i",
+          "join",
+          "kaynak",
+          "kaynak_arabellek",
+          "kopyala",
+          "metin",
+          "ord",
+          "sonuc"
+        ],
+        "literals": [
+          "Merhaba",
+          "0"
+        ],
+        "variables": [
+          "b",
+          "bayt_sayisi",
+          "c",
+          "hedef",
+          "hedef_arabellek",
+          "i",
+          "join",
+          "kaynak",
+          "kaynak_arabellek",
+          "metin",
+          "sonuc"
+        ],
+        "comments": [
+          "Örnek kullanım",
+          "Sonucu string olarak göster"
+        ],
+        "docstrings": [],
+        "functions": [
+          "kopyala"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

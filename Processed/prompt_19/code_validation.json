@@ -1,0 +1,799 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_19",
+  "original_prompt": "Generate Python code for the following: The code reads in a value from the command line and adds 1000 to it.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 1,
+    "average_overall_score": 0.21296296296296297,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "ru",
+      "ja",
+      "mr",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 156,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqsnwyqvc.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08603906631469727,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.27777777777777773
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 120,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnuho74tq.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08467984199523926,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "该值是负数",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "从命令行读取值",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "判断是否为负数",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 166,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4ntilhyw.py\", line 4, in <module>\n    number = float(sys.argv[1])\n                   ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.0856015682220459,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.24074074074074073
+    },
+    "es": {
+      "language": "es",
+      "code_length": 157,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprir6vm8h.py\", line 4, in <module>\n    valor = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08379817008972168,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Leer el valor de la línea de comandos",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "línea",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 143,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsu2bcrpo.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.0854957103729248,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "قراءة القيمة من سطر الأوامر",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "إضافة 1000 إلى القيمة",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.67
+          },
+          {
+            "text": "طباعة الناتج",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 171,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpg14enjw3.py\", line 4, in <module>\n    value = float(sys.argv[1])\n                  ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08600807189941406,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ajouter 1000 à la valeur",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Afficher le résultat",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "résultat",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 141,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqj29nin_.py\", line 4, in <module>\n    number = int(sys.argv[1])\n                 ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09096431732177734,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "কমান্ড লাইন থেকে মান নেওয়া",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "1000 যোগ করা",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "ফলাফল প্রিন্ট করা",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 78,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_u8lwxmc.py\", line 3, in <module>\n    valor = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08178186416625977,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.16666666666666666
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 152,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpum0_mzjj.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07886505126953125,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Считываем значение из командной строки",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "Добавляем 1000",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.64
+          },
+          {
+            "text": "Выводим результат",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "id": {
+      "language": "id",
+      "code_length": 237,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04148435592651367,
+        "output": "Error: Tidak ada nilai yang diberikan.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 165,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp06a568y6.py\", line 4, in <module>\n    number = int(sys.argv[1])\n                 ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08452773094177246,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.24074074074074073
+    },
+    "de": {
+      "language": "de",
+      "code_length": 159,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpms1dkgrs.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.0823674201965332,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.20370370370370372
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 112,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp8ga8kzny.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08208036422729492,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "コマンドライン引数から値を取得",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.67
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "値に1000を加算",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.33
+          },
+          {
+            "text": "結果を出力",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 121,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqkha2hsj.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09291815757751465,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "लाइनमधील मूल्य वाचा",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "1000 जोडा",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.44
+          },
+          {
+            "text": "आउटपुट करा",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 182,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp3nk0eq0_.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09551024436950684,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Đọc giá trị từ dòng lệnh (giả sử là số nguyên)",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.26
+          },
+          {
+            "text": "Thêm 1000 vào giá trị",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "In ra màn hình giá trị mới",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "giá",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "từ",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dòng",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lệnh",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "giả",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "sử",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "là",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "số",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Thêm",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "vào",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "giá",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "màn",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hình",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "giá",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mới",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "te": {
+      "language": "te",
+      "code_length": 161,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpxsxbxaqe.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09595084190368652,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.27777777777777773
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 132,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Komut satırından bir değer oku",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "Bu değere 1000 ekle",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Sonucu ekrana yazdır",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "satırından",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "değer",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "değere",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    }
+  },
+  "generated_at": "2025-11-17T13:09:49.995452"
+}

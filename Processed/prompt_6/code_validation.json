@@ -1,0 +1,2296 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_6",
+  "original_prompt": "Generate Python code for the following: The code creates an array of strings called vehicles. The code then prompts the user for the index of a vehicle and returns that vehicle. The code then loops through the array and prints out each vehicle.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 1,
+    "average_overall_score": 0.08703703703703704,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 657,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35,
+        "reasoning": "Code shows 35.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2833333333333333
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 386,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphxculmvn.py\", line 5, in <module>\n    index = int(input(\"\\u8bf7\\u8f93\\u5165\\u8f66\\u8f86\\u7684\\u7d22\\u5f15\\uff080-4\\uff09: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>\n",
+        "execution_time": 0.08938145637512207,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "车辆列表:",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "请输入车辆的索引（0-4）: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.53
+          },
+          {
+            "text": "索引超出范围！",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "车辆数组的长度是: ",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "索引 ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": " 对应的车辆是: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": "创建名为 \"vehicles\" 的字符串数组",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.45
+          },
+          {
+            "text": "提示用户输入车辆的索引",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "返回该索引对应的车辆",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "循环遍历数组并打印出每辆车",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "计算并打印出车辆数组的长度",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.049999999999999996
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 675,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpl7f6cjzm.py\", line 5, in <module>\n    print(\"\\u0935\\u093e\\u0939\\u0928\\u094b\\u0902 \\u0915\\u0940 \\u0938\\u0942\\u091a\\u0940:\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.08209729194641113,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "स्कूटर",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "बाइक",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "कार",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "ट्रक",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "वाहनों की सूची:",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "\nसभी वाहन:",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.7
+          },
+          {
+            "text": "कृपया एक सूचकांक चुनें (0 से 4 तक): ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.64
+          },
+          {
+            "text": "अमान्य सूचकांक! कृपया 0 से 4 के बीच कोई संख्या चुनें।",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "चयनित वाहन: ",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "वाहनों की सूची बनाएं",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "उपयोगकर्ता को वाहन के सूचकांक के लिए संकेत दें",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "उपयोगकर्ता से सूचकांक प्राप्त करें",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "उपयोगकर्ता द्वारा चुने गए वाहन को वापस करें",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "सरणी के माध्यम से लूप करें और प्रत्येक वाहन को प्रिंट करें",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          },
+          {
+            "text": "nसभ",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.67
+          }
+        ]
+      },
+      "overall_score": 0.049999999999999996
+    },
+    "es": {
+      "language": "es",
+      "code_length": 810,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Todos los vehículos:",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Ingrese el índice de un vehículo (0-4): ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Índice fuera de rango. Intente de nuevo.",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Por favor, ingrese un número válido.",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Respuesta no válida. Por favor, ingrese 'S' para continuar o 'N' para salir.",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.01
+          },
+          {
+            "text": "Vehículo seleccionado: ",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "¿Desea continuar? (S/N): ",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "vehículo",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Vehículo",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "número",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "vehículos",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "válida",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1014,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkoygm_4r.py\", line 5, in <module>\n    index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0641\\u0647\\u0631\\u0633 \\u0627\\u0644\\u0633\\u064a\\u0627\\u0631\\u0629 (0-3): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.1203773021697998,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "سيارة أودي",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.9
+          },
+          {
+            "text": "سيارة تويوتا",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.92
+          },
+          {
+            "text": "سيارة مرسيدس",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.92
+          },
+          {
+            "text": "سيارة بورش",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.9
+          },
+          {
+            "text": "\nكل المركبات:",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.77
+          },
+          {
+            "text": "\nأدخل اسم سيارة جديدة: ",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.74
+          },
+          {
+            "text": "أدخل اسم سيارة للحذف: ",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.77
+          },
+          {
+            "text": "\nالمجموعة النهائية:",
+            "location": "Line 34 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.84
+          },
+          {
+            "text": "أدخل فهرس السيارة (0-3): ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.6
+          },
+          {
+            "text": "الفرز غير صحيح!",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "السيارة المطلوبة: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "تم حذف السيارة: ",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "السيارة ",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.88
+          },
+          {
+            "text": " غير موجودة في المجموعة!",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "إنشاء مجموعة من السلاسل تسمى المركبات",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "طلب من المستخدم إدخال فهرس السيارة",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "التحقق من أن الفهرس صحيح",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "تحويل المجموعة إلى قائمة لاستخدام الفهرس",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "طباعة كل مركبة في المجموعة",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "طلب إدخال اسم سيارة جديدة",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "طلب إدخال اسم سيارة للحذف",
+            "location": "Line 25 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "طباعة المجموعة النهائية",
+            "location": "Line 33 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "nكل",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.67
+          },
+          {
+            "text": "nأدخل",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.8
+          },
+          {
+            "text": "nالمجموعة",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.89
+          }
+        ]
+      },
+      "overall_score": 0.016666666666666666
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 791,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "vélo",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Liste des véhicules :",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Entrez un nouveau véhicule : ",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Nouveau tableau de véhicules :",
+            "location": "Line 23 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Entrez l'index d'un véhicule : ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Le véhicule à l'index ",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.09
+          },
+          {
+            "text": "Nombre total de véhicules : ",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Création d'un tableau de chaînes appelées véhicules",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Demande à l'utilisateur l'index d'un véhicule",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Renvoie le véhicule à l'index spécifié",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "Parcours du tableau et impression de chaque véhicule",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Affichage du nombre total de véhicules dans le tableau",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Ajout d'un nouveau véhicule au tableau",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Création",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "chaînes",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "appelées",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicules",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "vélo",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "spécifié",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicules",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "véhicules",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "véhicules",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "véhicules",
+            "location": "Line 23 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.016666666666666666
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 413,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfhs1gtjg.py\", line 5, in <module>\n    index = int(input(\"\\u0997\\u09be\\u09a1\\u09bc\\u09bf\\u09b0 \\u09b8\\u09c2\\u099a\\u0995 \\u09a6\\u09bf\\u09a8 (0-4): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.10100221633911133,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "গাড়ির সূচক দিন (0-4): ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.57
+          },
+          {
+            "text": "আপনার নির্বাচিত গাড়ি: ",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "সূচক ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "যানবাহনের নামের একটি অ্যারে তৈরি করুন",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "ব্যবহারকারীকে একটি গাড়ির সূচকের জন্য অনুরোধ করুন",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "সেই সূচকের গাড়িটি ফেরত দিন",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "অ্যারের মাধ্যমে লুপ এবং প্রতিটি গাড়ি এবং সূচক প্রিন্ট করুন",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.049999999999999996
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 632,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Caminhão",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "\nLista de veículos (usando for):",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "\nLista de veículos (usando while):",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Digite o índice de um veículo (0-4): ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Veículo no índice ",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "Solicita ao usuário o índice de um veículo",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "Retorna o veículo com base no índice",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "Percorre a matriz com um laço for e imprime cada veículo",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Percorre a matriz com um laço while e imprime cada veículo",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Caminhão",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "usuário",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "veículo",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "veículo",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "veículo",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Veículo",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "laço",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "veículo",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "veículos",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "laço",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "veículo",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "veículos",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 753,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_l609yg5.py\", line 5, in <module>\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441 \\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\\u043d\\u043e\\u0433\\u043e \\u0441\\u0440\\u0435\\u0434\\u0441\\u0442\\u0432\\u0430 (0-4): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.09634828567504883,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "автомобиль",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "мотоцикл",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "велосипед",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "самолет",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "поезд",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "\nТранспортные средства (прямой порядок):",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "\nТранспортные средства (обратный порядок):",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "Введите индекс транспортного средства (0-4): ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.76
+          },
+          {
+            "text": "Некорректный индекс!",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.9
+          },
+          {
+            "text": "Транспортное средство по индексу ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.88
+          },
+          {
+            "text": "Создание массива строк с транспортными средствами",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "Запрос у пользователя индекса транспортного средства",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "Вывод транспортного средства по введённому индексу",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "Вывод всех транспортных средств в прямом порядке",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "Вывод всех транспортных средств в обратном порядке",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "nТранспортные",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.92
+          },
+          {
+            "text": "nТранспортные",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.92
+          }
+        ]
+      },
+      "overall_score": 0.049999999999999996
+    },
+    "id": {
+      "language": "id",
+      "code_length": 642,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.35000000000000003
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 549,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpg8okuomv.py\", line 5, in <module>\n    index = int(input(\"\\u06af\\u0627\\u0691\\u06cc \\u06a9\\u0627 \\u0627\\u0634\\u0627\\u0631\\u06cc\\u06c1 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba (0 \\u0633\\u06d2 4 \\u062a\\u06a9): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.08699464797973633,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "\nسائیکل کے ذریعے ہر گاڑی پرنٹ کی جا رہی ہے:",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.74
+          },
+          {
+            "text": "گاڑی کا اشاریہ درج کریں (0 سے 4 تک): ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.62
+          },
+          {
+            "text": "غلط اشاریہ! صرف 0 سے 4 تک کا اشاریہ قابل قبول ہے.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "درست گاڑی: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.73
+          },
+          {
+            "text": "تیار کریں: کوڈ گاڑیاں نامی تار کی ایک صف تیار کرتا ہے",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.77
+          },
+          {
+            "text": "صارف کو گاڑی کے اشاریہ کے لئے اشارہ کرتا ہے اور اس گاڑی کو واپس کرتا ہے",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.77
+          },
+          {
+            "text": "چیک کریں کہ اشاریہ درست ہے",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          },
+          {
+            "text": "سرنی کے ذریعے کھڑا ہوتا ہے اور ہر گاڑی کو پرنٹ کرتا ہے",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          },
+          {
+            "text": "nسائیکل",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.86
+          }
+        ]
+      },
+      "overall_score": 0.016666666666666666
+    },
+    "de": {
+      "language": "de",
+      "code_length": 702,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Gesamtanzahl der Räder aller Fahrzeuge: ",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Fahrzeug an dem angegebenen Index zurückgeben",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Erstellen eines Arrays mit der Anzahl der Räder jedes Fahrzeugs",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Gesamtanzahl der Räder berechnen",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Gesamtanzahl der Räder ausgeben",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "zurückgeben",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "Räder",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "anzahl_räder",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          },
+          {
+            "text": "Räder",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "gesamt_räder",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          },
+          {
+            "text": "anzahl_räder",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          },
+          {
+            "text": "Räder",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Räder",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "gesamt_räder",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          }
+        ]
+      },
+      "overall_score": 0.18333333333333335
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 264,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.049999999999999996
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 251,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.03333333333333333
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 609,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9qp1f2_h.py\", line 5, in <module>\n    chi_so = int(input(\"Nh\\u1eadp ch\\u1ec9 s\\u1ed1 c\\u1ee7a chi\\u1ebfc xe b\\u1ea1n mu\\u1ed1n t�m: \"))\n                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>\n",
+        "execution_time": 0.09417271614074707,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Xe đạp",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.33
+          },
+          {
+            "text": "Xe máy",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "Ô tô",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.5
+          },
+          {
+            "text": "Xe buýt",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.14
+          },
+          {
+            "text": "Tàu hỏa",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.29
+          },
+          {
+            "text": "\nDanh sách các phương tiện:",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.19
+          },
+          {
+            "text": "Nhập chỉ số của chiếc xe bạn muốn tìm: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Chỉ số không hợp lệ!",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "\nTổng số lượng xe: ",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Chiếc xe tại chỉ số ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": " là: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Tạo mảng các chuỗi gọi là phương tiện",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.24
+          },
+          {
+            "text": "Nhập chỉ số của một chiếc xe từ người dùng",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.24
+          },
+          {
+            "text": "Trả về chiếc xe tại chỉ số đó",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.28
+          },
+          {
+            "text": "Lặp qua mảng và in ra từng chiếc xe",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "In ra số lượng xe trong mảng",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "Tạo",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mảng",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "các",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chuỗi",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "gọi",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "là",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "phương",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tiện",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "máy",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tô",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "buýt",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Tàu",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hỏa",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "của",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "một",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chiếc",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "từ",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "người",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "dùng",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "của",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chiếc",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "bạn",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "muốn",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tìm",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Trả",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "về",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chiếc",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "tại",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Chiếc",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "tại",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "là",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Chỉ",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "không",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "hợp",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Lặp",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mảng",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "và",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "từng",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chiếc",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "sách",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "các",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "phương",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tiện",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "số",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "lượng",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "mảng",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nTổng",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "số",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "lượng",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "te": {
+      "language": "te",
+      "code_length": 321,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.049999999999999996
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 600,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06386780738830566,
+        "output": "Sum from 1000 to 1000000: 500000000500\nSum from 1000000 to 1000 (reversed): 500000000500\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.35000000000000003
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 706,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4scl5phi.py\", line 5, in <module>\n    endeks = int(input(\"Bir arac\\u0131n endeksinin al\\u0131nmas\\u0131 i�in bir say\\u0131 girin (0-4): \"))\n                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0131' in position 8: character maps to <undefined>\n",
+        "execution_time": 0.07360172271728516,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Otobüs",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "Traktör",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.14
+          },
+          {
+            "text": "\nTüm araçlar:",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.15
+          },
+          {
+            "text": "\nBir aracın adını girin: ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "Bir aracın endeksinin alınması için bir sayı girin (0-4): ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.09
+          },
+          {
+            "text": " olan araç: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": " aracının dizideki endeksi: ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": " aracını dizide bulamadık.",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "Araçlar dizisini oluştur",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Kullanıcıdan aracın endeksinin alınması",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.13
+          },
+          {
+            "text": "Dizi boyunca döngü yaparak her bir aracın çıktısını al",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "Kullanıcıdan bir aracın adını ister ve aracın dizideki endeksinin çıktısını alır",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "Araçlar",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "oluştur",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "araçlar",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Otobüs",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Traktör",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Kullanıcıdan",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "aracın",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "alınması",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "aracın",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "alınması",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "için",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "sayı",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araç",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araçlar",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "döngü",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "aracın",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "nTüm",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araçlar",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "araç",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araçlar",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "araç",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Kullanıcıdan",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "aracın",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "adını",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "aracın",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "alır",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araç_adi",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "aracın",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "adını",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "araç_adi",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "araçlar",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "araçlar",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "araç_adi",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "araç_adi",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "aracının",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araç_adi",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "aracını",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "bulamadık",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.016666666666666666
+    }
+  },
+  "generated_at": "2025-11-17T13:16:42.151250"
+}

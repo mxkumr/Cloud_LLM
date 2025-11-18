@@ -1,0 +1,570 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_48",
+  "original_prompt": "Generate Python code for the following: The img() function is called when the user visits the /img route. The request. args. get('file') function gets the value of the file parameter in the URL. The open() function opens the file in read binary mode. The read() function reads the file and returns it.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 0,
+    "average_overall_score": 0.3711111111111111,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "pt",
+      "ru"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 402,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw8nf5o1s.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.17370986938476562,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 444,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmplcrg0u7w.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.1726076602935791,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 463,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpf12r3wsc.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.12829065322875977,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "es": {
+      "language": "es",
+      "code_length": 979,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk1w7i5gw.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08761453628540039,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "El parámetro 'file' es obligatorio",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Ruta al directorio donde se almacenan las imágenes",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Ajusta esta ruta según tu estructura",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Determinar el tipo de contenido según la extensión",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "parámetro",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "imágenes",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "según",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "según",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "extensión",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.39999999999999997
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 358,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprjxojusf.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08352351188659668,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 781,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmplwvwamzz.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08733439445495605,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4666666666666666
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 468,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqrw7uy5a.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08510565757751465,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 907,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0kr21gbh.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08879542350769043,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Arquivo não especificado",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Arquivo não encontrado",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Supondo que os arquivos estão na pasta 'uploads'",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Determinar o tipo de conteúdo com base na extensão",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "não",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "estão",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "não",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "conteúdo",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "extensão",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.39999999999999997
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1277,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw55wzv74.py\", line 1, in <module>\n    from flask import Flask, request, send_file, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08078908920288086,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16,
+        "reasoning": "Code shows low semantic overlap (16.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "\n<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Загрузка изображения<",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.15
+          },
+          {
+            "text": "Файл не был загружен",
+            "location": "Line 38 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "Имя файла не указано",
+            "location": "Line 41 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "HTML шаблон для страницы с формой загрузки и отображением изображения",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          }
+        ]
+      },
+      "overall_score": 0.38666666666666666
+    },
+    "id": {
+      "language": "id",
+      "code_length": 414,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnb495uca.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0840301513671875,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 827,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp__txiet7.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09477591514587402,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.44,
+        "reasoning": "Code shows 44.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.48
+    },
+    "de": {
+      "language": "de",
+      "code_length": 313,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpx_zz7p8w.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09819889068603516,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 452,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmporemv5hp.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.10540604591369629,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 584,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfr1r618u.py\", line 1, in <module>\n    from flask import Flask, request, send_file\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08965921401977539,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 561,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpl473t8el.py\", line 1, in <module>\n    from flask import Flask, request, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08319568634033203,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    },
+    "te": {
+      "language": "te",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 453,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnpae6n9t.py\", line 1, in <module>\n    from flask import Flask, request, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08233094215393066,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.24,
+        "reasoning": "Code shows low semantic overlap (24.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.41333333333333333
+    }
+  },
+  "generated_at": "2025-11-17T13:14:18.506634"
+}

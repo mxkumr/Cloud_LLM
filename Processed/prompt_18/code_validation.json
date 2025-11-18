@@ -1,0 +1,712 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_18",
+  "original_prompt": "Generate Python code for the following: The code takes an integer as input and returns the value at the index of the integer in the array. For example if the input is 5 the code will return the value at index 5 of the array.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 14,
+    "average_overall_score": 0.34615384615384615,
+    "languages_with_errors": [
+      "ar",
+      "fr",
+      "bn"
+    ],
+    "languages_with_non_english": [
+      "hi",
+      "es",
+      "ar",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 160,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.042394161224365234,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7435897435897436
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 114,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03432893753051758,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.358974358974359
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 276,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04282212257385254,
+        "output": "60\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "यदि सूचकांक सरणी के बाहर है तो None लौटाएं",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.71
+          },
+          {
+            "text": "उदाहरण के लिए",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "आउटपुट: 60",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.6
+          }
+        ]
+      },
+      "overall_score": 0.358974358974359
+    },
+    "es": {
+      "language": "es",
+      "code_length": 347,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04190468788146973,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "El índice está fuera de rango.",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "está",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.3333333333333333
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 415,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp920cj2wp.py\", line 12, in <module>\n    input_index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0641\\u0647\\u0631\\u0633\\u064b\\u0627 \\u0635\\u062d\\u064a\\u062d\\u064b\\u0627: \"))\n                      ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.0833895206451416,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "الفرز غير صالح",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "أدخل فهرسًا صحيحًا: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "القيمة عند الفهرس ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": " هي: ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          },
+          {
+            "text": "مصفوفة معرفة مسبقًا",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "التحقق من أن الفهرس صالح",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "مثال على الاستخدام",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          }
+        ]
+      },
+      "overall_score": 0.4102564102564103
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 292,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15384615384615385,
+        "reasoning": "Code shows low semantic overlap (15.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.05128205128205129
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 156,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "অ্যারে তৈরি করুন যাতে সূচক 0 থেকে n পর্যন্ত মান রাখা যায়",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.77
+          },
+          {
+            "text": "সূচক n-এ মান n হিসাবে সেট করুন",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.7
+          }
+        ]
+      },
+      "overall_score": 0.025641025641025644
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 249,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09681582450866699,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Índice fora dos limites do array",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "print(valor_no_indice(5))  # Saída: 60",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Saída",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          }
+        ]
+      },
+      "overall_score": 0.6923076923076924
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 245,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04381608963012695,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Определяем массив",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          },
+          {
+            "text": "Проверяем условия",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          }
+        ]
+      },
+      "overall_score": 0.358974358974359
+    },
+    "id": {
+      "language": "id",
+      "code_length": 114,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03309035301208496,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.358974358974359
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 239,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04202413558959961,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "یا کوئی مناسب خطا",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "مثال کے طور پر:",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.73
+          },
+          {
+            "text": "print(get_value_at_index(arr, 5))  # آؤٹ پٹ: 60",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.358974358974359
+    },
+    "de": {
+      "language": "de",
+      "code_length": 266,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04334735870361328,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.358974358974359
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 271,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.044290781021118164,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "インデックスが配列の範囲外です",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": "print(get_index_value(arr, 5))  # エラー: インデックスが範囲外",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.2
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "例の使用方法",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "print(get_index_value(arr, 2))  # 出力: 30",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          }
+        ]
+      },
+      "overall_score": 0.358974358974359
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 301,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04138040542602539,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15384615384615385,
+        "reasoning": "Code shows low semantic overlap (15.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3846153846153846
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 243,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04216456413269043,
+        "output": "60\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ví dụ sử dụng",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.31
+          },
+          {
+            "text": "Ví",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụ",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "sử",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụng",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.358974358974359
+    },
+    "te": {
+      "language": "te",
+      "code_length": 258,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.040812015533447266,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.358974358974359
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 258,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04037141799926758,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Örnek kullanım:",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.13
+          },
+          {
+            "text": "print(get_value_at_index(arr, 5))  # Çıktı: 0",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "print(get_value_at_index(arr, 2))  # Çıktı: 30",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "kullanım",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.358974358974359
+    }
+  },
+  "generated_at": "2025-11-17T13:09:38.614268"
+}

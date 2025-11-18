@@ -1,0 +1,1161 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_56",
+  "original_prompt": "Generate Python code for the following: The code is a simple login page that allows a user to change their email. The user must be logged in to change their email. The user must also enter their old email; new email and confirm password. The user must also enter the correct password to change their email. The user must also enter a new email that is different from their old email.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 3,
+    "average_overall_score": 0.2751322751322751,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "ar",
+      "fr",
+      "pt",
+      "ja",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1985,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.47619047619047616,
+        "reasoning": "Code shows 47.6% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3253968253968254
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 2410,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 68: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38095238095238093,
+        "reasoning": "Code shows 38.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.29365079365079366
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1654,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp91qrx82z.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0954129695892334,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.27777777777777773
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1918,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0790860652923584,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.047619047619047616,
+        "reasoning": "Code shows low semantic overlap (4.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Valida que el correo electrónico tenga un formato correcto.",
+            "location": "Line 12 (docstring)",
+            "category": "docstring",
+            "confidence": 0.02
+          },
+          {
+            "text": "Valida que la contraseña tenga al menos 8 caracteres, una mayúscula, un número y un carácter especial.",
+            "location": "Line 17 (docstring)",
+            "category": "docstring",
+            "confidence": 0.04
+          },
+          {
+            "text": "Permite al usuario iniciar sesión.",
+            "location": "Line 29 (docstring)",
+            "category": "docstring",
+            "confidence": 0.03
+          },
+          {
+            "text": "Permite al usuario cambiar su correo electrónico.",
+            "location": "Line 42 (docstring)",
+            "category": "docstring",
+            "confidence": 0.02
+          },
+          {
+            "text": "Valida que el correo electrónico tenga un formato correcto.",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Valida que la contraseña tenga al menos 8 caracteres, una mayúscula, un número y un carácter especia",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Permite al usuario iniciar sesión.",
+            "location": "Line 30 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Permite al usuario cambiar su correo electrónico.",
+            "location": "Line 43 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Contraseña válida.",
+            "location": "Line 27 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "=== Inicio de Sesión ===",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "\n=== Cambiar Correo Electrónico ===",
+            "location": "Line 44 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "La contraseña debe tener al menos 8 caracteres.",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "La contraseña debe tener al menos una letra mayúscula.",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "La contraseña debe tener al menos un número.",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "La contraseña debe tener al menos un carácter especial.",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Correo o contraseña incorrectos.",
+            "location": "Line 39 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "El correo antiguo no coincide con el correo de inicio de sesión.",
+            "location": "Line 48 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Correo electrónico: ",
+            "location": "Line 32 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Contraseña: ",
+            "location": "Line 33 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Antiguo correo electrónico: ",
+            "location": "Line 45 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Simulación de base de datos de usuarios (en producción, usarías una base de datos real)",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Simulación",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "producción",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "usarías",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "electrónico",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "mayúscula",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "número",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "carácter",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "mayúscula",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "número",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "carácter",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Contraseña",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "válida",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "sesión",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Sesión",
+            "location": "Line 31 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "electrónico",
+            "location": "Line 32 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "Contraseña",
+            "location": "Line 33 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 39 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "electrónico",
+            "location": "Line 43 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "Electrónico",
+            "location": "Line 44 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "electrónico",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "sesión",
+            "location": "Line 48 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5158730158730159
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1663,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 57: '[' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "# مخزن لبيانات المستخدمين (في التطبيق الحقيقي، يجب استخدام قاعدة بيانات)",
+            "location": "Line 4",
+            "category": "unknown",
+            "confidence": 0.82
+          },
+          {
+            "text": "    # التحقق من صحة البريد القديم",
+            "location": "Line 28",
+            "category": "unknown",
+            "confidence": 0.7
+          },
+          {
+            "text": "        return \"البريد الإلكتروني القديم غير صالح.\"",
+            "location": "Line 30",
+            "category": "unknown",
+            "confidence": 0.57
+          },
+          {
+            "text": "    # التحقق من صحة البريد الجديد",
+            "location": "Line 32",
+            "category": "unknown",
+            "confidence": 0.7
+          },
+          {
+            "text": "        return \"البريد الإلكتروني الجديد غير صالح.\"",
+            "location": "Line 34",
+            "category": "unknown",
+            "confidence": 0.57
+          },
+          {
+            "text": "    # التحقق من أن البريد الجديد مختلف عن القديم",
+            "location": "Line 36",
+            "category": "unknown",
+            "confidence": 0.73
+          },
+          {
+            "text": "        return \"البريد الإلكتروني الجديد يجب أن يختلف عن القديم.\"",
+            "location": "Line 38",
+            "category": "unknown",
+            "confidence": 0.62
+          },
+          {
+            "text": "    # التحقق من أن البريد الجديد غير مسجل",
+            "location": "Line 40",
+            "category": "unknown",
+            "confidence": 0.71
+          },
+          {
+            "text": "        return \"البريد الإلكتروني الجديد مسجل بالفعل.\"",
+            "location": "Line 42",
+            "category": "unknown",
+            "confidence": 0.59
+          },
+          {
+            "text": "    # التحقق من صحة كلمة المرور",
+            "location": "Line 44",
+            "category": "unknown",
+            "confidence": 0.68
+          },
+          {
+            "text": "        return \"كلمة المرور يجب أن تكون على الأقل 8 أحرف.\"",
+            "location": "Line 46",
+            "category": "unknown",
+            "confidence": 0.53
+          },
+          {
+            "text": "    # التحقق من تطابق كلمة المرور",
+            "location": "Line 48",
+            "category": "unknown",
+            "confidence": 0.7
+          },
+          {
+            "text": "        return \"كلمة المرور غير متطابقة.\"",
+            "location": "Line 50",
+            "category": "unknown",
+            "confidence": 0.49
+          },
+          {
+            "text": "    # التحقق من تسجيل الدخول",
+            "location": "Line 52",
+            "category": "unknown",
+            "confidence": 0.68
+          },
+          {
+            "text": "        return \"كلمة المرور غير صحيحة.\"",
+            "location": "Line 54",
+            "category": "unknown",
+            "confidence": 0.46
+          },
+          {
+            "text": "    # تحديث البريد الإلكتروني",
+            "location": "Line 56",
+            "category": "unknown",
+            "confidence": 0.72
+          }
+        ]
+      },
+      "overall_score": 0.23015873015873015
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 2129,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 58: unterminated string literal (detected at line 58)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "# Simuler une base de données utilisateur",
+            "location": "Line 8",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "            flash('Connexion réussie !', 'success')",
+            "location": "Line 28",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "        flash('Vous devez être connecté pour accéder à cette page.', 'error')",
+            "location": "Line 38",
+            "category": "unknown",
+            "confidence": 0.05
+          },
+          {
+            "text": "        # Vérification de l'email actuel",
+            "location": "Line 46",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "        # Vérification du mot de passe",
+            "location": "Line 51",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "        # Vérification du format de l'email",
+            "location": "Line 56",
+            "category": "unknown",
+            "confidence": 0.02
+          }
+        ]
+      },
+      "overall_score": 0.24603174603174605
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 2350,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 66: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38095238095238093,
+        "reasoning": "Code shows 38.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.29365079365079366
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1420,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Senha incorreta. Alteração cancelada.",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "O novo e-mail não pode ser igual ao antigo.",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Este e-mail já está em uso.",
+            "location": "Line 34 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "Simulação de banco de dados de usuários",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Verifica se a senha está correta",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Verifica se o novo e-mail é diferente do antigo",
+            "location": "Line 27 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Verifica se o novo e-mail já existe",
+            "location": "Line 32 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Simulação",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "usuários",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "está",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Alteração",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "não",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "já",
+            "location": "Line 32 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "já",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "está",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.1984126984126984
+    },
+    "ru": {
+      "language": "ru",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1870,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1527390480041504,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5634920634920635
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 2048,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 57: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38095238095238093,
+        "reasoning": "Code shows 38.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.29365079365079366
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1587,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 54: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.21428571428571427
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1329,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 43: unterminated string literal (detected at line 43)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "# ユーザーのデータ（実際のアプリではデータベースを使用）",
+            "location": "Line 7",
+            "category": "unknown",
+            "confidence": 0.72
+          },
+          {
+            "text": "# メールアドレスの正規表現パターン",
+            "location": "Line 12",
+            "category": "unknown",
+            "confidence": 0.67
+          },
+          {
+            "text": "            # ログイン成功",
+            "location": "Line 22",
+            "category": "unknown",
+            "confidence": 0.2
+          },
+          {
+            "text": "            flash('ログインに失敗しました。メールアドレスまたはパスワードが間違っています。')",
+            "location": "Line 25",
+            "category": "unknown",
+            "confidence": 0.53
+          },
+          {
+            "text": "        # 入力チェック",
+            "location": "Line 37",
+            "category": "unknown",
+            "confidence": 0.25
+          },
+          {
+            "text": "            flash('古いメールアドレスが正しくありません。')",
+            "location": "Line 39",
+            "category": "unknown",
+            "confidence": 0.4
+          }
+        ]
+      },
+      "overall_score": 0.23015873015873015
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1408,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkqcu81s3.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, flash\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.18235492706298828,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.24603174603174605
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1568,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38095238095238093,
+        "reasoning": "Code shows 38.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.29365079365079366
+    },
+    "te": {
+      "language": "te",
+      "code_length": 323,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 10: unterminated string literal (detected at line 10)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1984126984126984
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1278,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05904793739318848,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "=== E-posta Adresi Değiştirme ===",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "E-posta adresi veya şifre hatalı.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Eski e-posta adresi hatalı.",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Geçerli bir e-posta adresi girin.",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Yeni e-posta adresi eski e-posta adresiyle aynı olamaz.",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Bu e-posta adresi zaten kullanılıyor.",
+            "location": "Line 36 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Şifrenizi girin: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Kullanıcı oturum açma bilgilerini al",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Oturum açma doğrulaması",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.13
+          },
+          {
+            "text": "Eski e-posta adresi kontrolü",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Yeni e-posta adresinin geçerliliğini kontrol et",
+            "location": "Line 24 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Yeni e-posta adresinin eskiyle aynı olup olmadığını kontrol et",
+            "location": "Line 29 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Yeni e-posta adresinin zaten kullanılıp kullanılmadığını kontrol et",
+            "location": "Line 34 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "Değiştirme",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Kullanıcı",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "açma",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "açma",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "doğrulaması",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.18
+          },
+          {
+            "text": "hatalı",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "kontrolü",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "hatalı",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "geçerliliğini",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.15
+          },
+          {
+            "text": "Geçerli",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "aynı",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "olmadığını",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "aynı",
+            "location": "Line 31 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "kullanılıp",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "kullanılmadığını",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.31
+          },
+          {
+            "text": "kullanılıyor",
+            "location": "Line 36 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5317460317460317
+    }
+  },
+  "generated_at": "2025-11-17T13:15:11.137716"
+}

@@ -1,0 +1,567 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_26",
+  "original_prompt": "Generate Python code for the following: The for loop iterates 3 times starting at 0 and ending at 2. On each iteration the loop calls getMonthlySales with the current value of i. The return value of getMonthlySales is added to sum. After the loop; sum contains the total sales for the first quarter.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 5,
+    "average_overall_score": 0.2800925925925926,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "bn",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te"
+    ],
+    "languages_with_non_english": [
+      "pt",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 56,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp65wqujkl.py\", line 3, in <module>\n    sum += getMonthlySales(i)\n           ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.08275985717773438,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.19444444444444445
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 59,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4pq12til.py\", line 3, in <module>\n    sum += getMonthlySales(i)\n           ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.08382248878479004,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.19444444444444445
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 174,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0ojq4acn.py\", line 3, in <module>\n    monthly_sales = getMonthlySales(i)\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.08170080184936523,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.25
+    },
+    "es": {
+      "language": "es",
+      "code_length": 70,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpf4xmwzd0.py\", line 3, in <module>\n    suma += getMonthlySales(i)\n            ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.09835362434387207,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.18055555555555555
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 140,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04570364952087402,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.513888888888889
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 189,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04335975646972656,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.513888888888889
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 105,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphvol4a1t.py\", line 3, in <module>\n    monthly_sales = getMonthlySales()\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.07995486259460449,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.18055555555555555
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 311,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03638458251953125,
+        "output": "Total de vendas do primeiro trimestre: 3000\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Exemplo de implementação de getMonthlySales",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Substitua esta implementação com a real, se fornecida",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Exemplo: vendas aumentam com o mês",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "implementação",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.15
+          },
+          {
+            "text": "implementação",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.15
+          },
+          {
+            "text": "mês",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.5416666666666666
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 91,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsdix2jme.py\", line 3, in <module>\n    total_sales += getMonthlySales(i)\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.11412549018859863,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.18055555555555555
+    },
+    "id": {
+      "language": "id",
+      "code_length": 248,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08461117744445801,
+        "output": "3000\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.513888888888889
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 155,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvqz562cc.py\", line 3, in <module>\n    monthly_sales = getmonthlysales(i)\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getmonthlysales' is not defined\n",
+        "execution_time": 0.1951463222503662,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.23611111111111113
+    },
+    "de": {
+      "language": "de",
+      "code_length": 72,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpz5v2soj9.py\", line 3, in <module>\n    total_sales += getMonthlySales(i)\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.18844032287597656,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.18055555555555555
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 56,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpq3pf2a1g.py\", line 3, in <module>\n    sum += getMonthlySales(i)\n           ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.1681077480316162,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.19444444444444445
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 71,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpoth080wz.py\", line 3, in <module>\n    total_sales += getMonthlySales()\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.1756603717803955,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.18055555555555555
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 129,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpb2cz72z3.py\", line 3, in <module>\n    total_sales += getMonthlySales(i)\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.17807245254516602,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.041666666666666664,
+        "reasoning": "Code shows low semantic overlap (4.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Tổng doanh thu trong quý đầu tiên:",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.15
+          },
+          {
+            "text": "Tổng",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "quý",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tiên",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.18055555555555555
+    },
+    "te": {
+      "language": "te",
+      "code_length": 186,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpc9lfk50w.py\", line 3, in <module>\n    monthly_sales = getMonthlySales()\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined\n",
+        "execution_time": 0.10613322257995605,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.27777777777777773
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 271,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04204154014587402,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Bu fonksiyonun gerçek uygulaması verilmemiş, örnek bir değer döndürülür",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.13
+          },
+          {
+            "text": "Örnek satış miktarı",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "gerçek",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "uygulaması",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "verilmemiş",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "değer",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "döndürülür",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "satış",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "miktarı",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.5277777777777778
+    }
+  },
+  "generated_at": "2025-11-17T13:10:21.522377"
+}

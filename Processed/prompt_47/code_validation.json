@@ -1,0 +1,894 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_47",
+  "original_prompt": "Generate Python code for the following: A decorator is used to tell what URL should trigger our function. The function checks if the file exists in the images folder. If the file exists it sends the file to the browser.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 0,
+    "average_overall_score": 0.3830409356725146,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "ha",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 537,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmppkx0zna4.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09076857566833496,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3157894736842105,
+        "reasoning": "Code shows 31.6% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4385964912280702
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 402,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp1paz4uev.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08861279487609863,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05263157894736842,
+        "reasoning": "Code shows low semantic overlap (5.3%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "假设图像文件夹名为 'images'",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "尝试从指定的文件夹中发送文件",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "如果文件不存在，返回 404 错误",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.65
+          }
+        ]
+      },
+      "overall_score": 0.3508771929824561
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 559,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpl3kigjht.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09295511245727539,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "छवि फ़ोल्डर का मार्ग",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "डेकोरेटर का उपयोग करके URL को फ़ंक्शन से जोड़ें",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.77
+          },
+          {
+            "text": "छवि फ़ोल्डर में फ़ाइल मौजूद है या नहीं जाँचें",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "फ़ाइल नहीं मिली, 404 त्रुटि लौटाएँ",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.74
+          }
+        ]
+      },
+      "overall_score": 0.3684210526315789
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1274,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6u4jz6df.py\", line 3, in <module>\n    from flask import Flask, send_file, jsonify, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08923959732055664,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Simulación de error",
+            "location": "Line 37 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Llamar a la función original para obtener el nombre del archivo",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "función",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Simulación",
+            "location": "Line 37 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.40350877192982454
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 494,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfsu2xnkt.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0859527587890625,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05263157894736842,
+        "reasoning": "Code shows low semantic overlap (5.3%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "الملف غير موجود",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.87
+          },
+          {
+            "text": "مسار المجلد الذي يحتوي على الصور",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "بناء المسار الكامل للملف",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "التحقق من وجود الملف",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.3508771929824561
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 601,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6klo3rc3.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08128905296325684,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Décorateur pour indiquer l'URL qui déclenche la fonction",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Vérifier si le fichier existe",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Décorateur",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "déclenche",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Vérifier",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.3684210526315789
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 786,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvt17zj8f.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08806467056274414,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "ডেকোরেটর যা ইউআরএল ট্রিগার করে",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "ফাইলের পথ তৈরি করা",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "ফাইল বিদ্যমান কিনা পরীক্ষা করা",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "404 ত্রুটি পাঠানো",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.71
+          },
+          {
+            "text": "উদাহরণ ব্যবহার",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "এটি ফাইলের নাম হিসাবে ব্যবহৃত হবে",
+            "location": "Line 25 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.3859649122807018
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 626,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp77vp62sz.py\", line 2, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08316397666931152,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.40350877192982454
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 473,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpg_5ntpl2.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0821523666381836,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05263157894736842,
+        "reasoning": "Code shows low semantic overlap (5.3%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Файл не найден",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "Путь к папке с изображениями",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "Проверяем, существует ли файл в папке изображений",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          }
+        ]
+      },
+      "overall_score": 0.3508771929824561
+    },
+    "id": {
+      "language": "id",
+      "code_length": 586,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp105swd9b.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08310842514038086,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3859649122807018
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 590,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9nt437ai.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09113764762878418,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2631578947368421,
+        "reasoning": "Code shows low semantic overlap (26.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.42105263157894735
+    },
+    "de": {
+      "language": "de",
+      "code_length": 857,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpl44chg48.py\", line 2, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08802199363708496,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Dekorator zur Angabe der URL für die Funktion",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Überprüfen, ob die Datei im Bilderordner existiert",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "für",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.3684210526315789
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 360,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpl3t1jzbr.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08852386474609375,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05263157894736842,
+        "reasoning": "Code shows low semantic overlap (5.3%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "画像フォルダーからファイルを送信",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "ファイルが見つからない場合、404エラーを返す",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.65
+          }
+        ]
+      },
+      "overall_score": 0.3508771929824561
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 976,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpco0pdjqc.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09445929527282715,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3157894736842105,
+        "reasoning": "Code shows 31.6% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4385964912280702
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 543,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpp56oi_v0.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0930323600769043,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05263157894736842,
+        "reasoning": "Code shows low semantic overlap (5.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Đường dẫn đến thư mục chứa hình ảnh",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.31
+          },
+          {
+            "text": "Tạo đường dẫn đầy đủ đến tệp hình ảnh",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.38
+          },
+          {
+            "text": "Kiểm tra xem tệp có tồn tại không",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.18
+          },
+          {
+            "text": "Trả về trang lỗi 404 nếu tệp không tồn tại",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "dẫn",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thư",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chứa",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "hình",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Tạo",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "dẫn",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tệp",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hình",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tệp",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "có",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tồn",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Trả",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "về",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "lỗi",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nếu",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tệp",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "tồn",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.3508771929824561
+    },
+    "te": {
+      "language": "te",
+      "code_length": 833,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpxcse9zdj.py\", line 1, in <module>\n    from flask import Flask, send_from_directory, abort, render_template\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.10644793510437012,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3157894736842105,
+        "reasoning": "Code shows 31.6% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4385964912280702
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1745,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphhya9ebk.py\", line 37, in <module>\n    downloaded_file = download_file(url)\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphhya9ebk.py\", line 11, in download_file\n    r.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/sample.pdf\n",
+        "execution_time": 1.5909264087677002,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3859649122807018
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 407,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp09glf0c9.py\", line 1, in <module>\n    from flask import Flask, send_file, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.17505145072937012,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Dosyanın mevcut olup olmadığını kontrol et",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "Dosyanın",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "olmadığını",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          }
+        ]
+      },
+      "overall_score": 0.3333333333333333
+    }
+  },
+  "generated_at": "2025-11-17T13:14:16.840905"
+}

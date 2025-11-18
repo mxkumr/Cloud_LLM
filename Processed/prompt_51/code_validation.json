@@ -1,0 +1,636 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_51",
+  "original_prompt": "Generate Python code for the following: The with statement is used to wrap the execution of a block with methods defined by a context manager. The tarfile module makes it possible to unzip tar archives to /tmp/unpack including those using gzip or bz2 compression. The open() function opens and returns a file handle that can be used to read or write a file in the usual way.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 6,
+    "average_overall_score": 0.2733918128654971,
+    "languages_with_errors": [
+      "zh-CN",
+      "hi",
+      "ru",
+      "ur",
+      "ja",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "ru",
+      "ja",
+      "vi"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 411,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2tfk2b27.py\", line 11, in <module>\n    with tarfile.open(\"data.tar.gz\", \"r:gz\") as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'data.tar.gz'\n",
+        "execution_time": 0.12260246276855469,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "定义解压目录",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "确保解压目录存在",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "使用 with 语句解压 tar.gz 文件",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.36
+          },
+          {
+            "text": "假设解压后有一个名为 \"data.txt\" 的文件，读取并打印其内容",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          },
+          {
+            "text": "使用 with 语句打开并读取文件",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.65
+          }
+        ]
+      },
+      "overall_score": 0.07017543859649122
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 308,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpup6pmafc.py\", line 4, in <module>\n    with tarfile.open('archive.tar', 'r') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1858, in open\n    return func(name, \"r\", fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.tar'\n",
+        "execution_time": 0.10862445831298828,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.07017543859649122
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1078,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08986258506774902,
+        "output": "Error: El archivo /tmp/data.tar.gz no existe.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Archivos extraídos exitosamente en ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Ocurrió un error inesperado: ",
+            "location": "Line 23 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Uso de la función",
+            "location": "Line 25 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "Asegurarse de que el directorio de extracción exista",
+            "location": "Line 30 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "extraídos",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Ocurrió",
+            "location": "Line 23 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "función",
+            "location": "Line 25 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "extracción",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.7192982456140351
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 608,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08281731605529785,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "مسار الدليل الذي سيتم فك الأرشيفات إليه",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "التأكد من وجود الدليل",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "الحصول على قائمة بالملفات في الدليل الحالي",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "فك ضغط الأرشيفات tar، بما في ذلك تلك التي تستخدم ضغط gzip أو bz2",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.64
+          }
+        ]
+      },
+      "overall_score": 0.40350877192982454
+    },
+    "fr": {
+      "language": "fr",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 798,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09203553199768066,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23684210526315788,
+        "reasoning": "Code shows low semantic overlap (23.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7456140350877193
+    },
+    "pt": {
+      "language": "pt",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 288,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpngvdt048.py\", line 8, in <module>\n    with tarfile.open('/tmp/archive.tar.gz', 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/archive.tar.gz'\n",
+        "execution_time": 0.10610842704772949,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Убедимся, что папка для распаковки существует",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "Используем оператор with для автоматического управления контекстом архива",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.05263157894736842
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1072,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09292483329772949,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23684210526315788,
+        "reasoning": "Code shows low semantic overlap (23.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7456140350877193
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 329,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpxug3di6z.py\", line 4, in <module>\n    with tarfile.open('example.tar.gz', 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'example.tar.gz'\n",
+        "execution_time": 0.10804247856140137,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2631578947368421,
+        "reasoning": "Code shows low semantic overlap (26.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.08771929824561403
+    },
+    "de": {
+      "language": "de",
+      "code_length": 359,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08402109146118164,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7017543859649122
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 480,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpg8_qv5bj.py\", line 11, in <module>\n    with tarfile.open(\"archive.tar.gz\", \"r:gz\") as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.tar.gz'\n",
+        "execution_time": 0.09990167617797852,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "ファイルの解凍先ディレクトリ",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "解凍先ディレクトリが存在しない場合は作成",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.55
+          },
+          {
+            "text": "tar アーカイブファイルを解凍するためのコンテキストマネージャーを使用",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          },
+          {
+            "text": "ファイルの読み取りと書き込みを処理するためのコンテキストマネージャー",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          }
+        ]
+      },
+      "overall_score": 0.07017543859649122
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1012,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08506655693054199,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23684210526315788,
+        "reasoning": "Code shows low semantic overlap (23.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7456140350877193
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 243,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp1dwpzc1x.py\", line 8, in <module>\n    with tarfile.open(\"archive.tar.gz\", \"r:gz\") as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.tar.gz'\n",
+        "execution_time": 0.10239005088806152,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Đảm bảo thư mục /tmp/unpack tồn tại",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.2
+          },
+          {
+            "text": "Giải nén tệp tar.gz vào thư mục /tmp/unpack",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "bảo",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thư",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tồn",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Giải",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nén",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tệp",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "vào",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thư",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.05263157894736842
+    },
+    "te": {
+      "language": "te",
+      "code_length": 671,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 24: expected an indented block after 'with' statement on line 24",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21052631578947367,
+        "reasoning": "Code shows low semantic overlap (21.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.40350877192982454
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 106,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5aw9roo5.py\", line 3, in <module>\n    with tarfile.open('/tmp/unpack', 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: [Errno 13] Permission denied: '/tmp/unpack'\n",
+        "execution_time": 0.09404277801513672,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.05263157894736842
+    }
+  },
+  "generated_at": "2025-11-17T13:14:24.841232"
+}

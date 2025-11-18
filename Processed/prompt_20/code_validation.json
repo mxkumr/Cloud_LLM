@@ -1,0 +1,1097 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_20",
+  "original_prompt": "Generate Python code for the following: The code reads in a value from the command line and adds an offset of 1000 to it. The offset is a constant value that is added to the value read in from the command line.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 3,
+    "average_overall_score": 0.2777777777777778,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "mr",
+      "te",
+      "ha",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "vi",
+      "ha",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 204,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpn8xq2wo5.py\", line 4, in <module>\n    input_value = float(sys.argv[1])\n                        ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07639694213867188,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.28571428571428575
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 272,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmper4ucl7d.py\", line 5, in <module>\n    print(\"\\u8bf7\\u63d0\\u4f9b\\u4e00\\u4e2a\\u6570\\u503c\\u4f5c\\u4e3a\\u547d\\u4ee4\\u884c\\u53c2\\u6570\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-14: character maps to <undefined>\n",
+        "execution_time": 0.07968378067016602,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "请提供一个数值作为命令行参数。",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.93
+          },
+          {
+            "text": "请输入一个有效的数值。",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.91
+          },
+          {
+            "text": "从命令行读取值（假设为第一个参数）",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "定义偏移量常量",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "添加偏移量并输出结果",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.21428571428571427
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 219,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2z7_490y.py\", line 4, in <module>\n    input_value = int(sys.argv[1])\n                      ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07553529739379883,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.28571428571428575
+    },
+    "es": {
+      "language": "es",
+      "code_length": 260,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpysy4k53j.py\", line 4, in <module>\n    valor = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08335041999816895,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Leer el valor de la línea de comandos",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Mostrar el resultado en la salida estándar",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "línea",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "estándar",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 180,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6ad0jjq3.py\", line 4, in <module>\n    value = float(sys.argv[1])\n                  ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08327698707580566,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "قراءة القيمة من سطر الأوامر",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "الإزاحة الثابتة",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "جمع القيمة مع الإزاحة",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "طباعة الناتج",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          }
+        ]
+      },
+      "overall_score": 0.21428571428571427
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 477,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.038694143295288086,
+        "output": "Veuillez fournir une seule valeur en ligne de commande.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Veuillez entrer une valeur numérique valide.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Lecture de la valeur à partir de la ligne de commande",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Décalage constant",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "Calcul de la valeur résultante",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Affichage de la valeur résultante",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "numérique",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Décalage",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "résultante",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "résultante",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.19047619047619047
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 246,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbf4n73ig.py\", line 4, in <module>\n    input_value = int(sys.argv[1])\n                      ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08227992057800293,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "কমান্ড লাইন থেকে মান নেওয়া",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "অফসেট মান (1000)",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "মানের সাথে অফসেট যোগ করা",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "ফলাফল স্ট্রিং হিসেবে প্রিন্ট করা",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.19047619047619047
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 259,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmudho66w.py\", line 4, in <module>\n    valor = float(sys.argv[1])\n                  ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08171987533569336,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Lê o valor da linha de comando (primeiro argumento)",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Lê",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 184,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbgz2b5d9.py\", line 7, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07909893989562988,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Смещение",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "Считываем значение из командной строки",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "Добавляем смещение",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          },
+          {
+            "text": "Выводим результат",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          }
+        ]
+      },
+      "overall_score": 0.21428571428571427
+    },
+    "id": {
+      "language": "id",
+      "code_length": 206,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0426023006439209,
+        "output": "1000\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5238095238095238
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 547,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.043175697326660156,
+        "output": "1000\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5952380952380952
+    },
+    "de": {
+      "language": "de",
+      "code_length": 204,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0947duq7.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08257794380187988,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.21428571428571427
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 275,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04457831382751465,
+        "output": "Usage: python script.py <number>\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2380952380952381
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 175,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpoqeht722.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.0885012149810791,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.28571428571428575
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 446,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04323863983154297,
+        "output": "1100\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Vui lòng nhập một số nguyên hợp lệ.",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Giá trị offset cố định",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.23
+          },
+          {
+            "text": "Giá trị mặc định nếu không có tham số từ dòng lệnh",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.24
+          },
+          {
+            "text": "Đọc giá trị từ dòng lệnh, nếu không có thì dùng giá trị mặc định",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.27
+          },
+          {
+            "text": "Tính tổng giá trị sau khi cộng offset",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "In ra kết quả",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "Giá",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cố",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Giá",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mặc",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nếu",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "có",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "số",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "từ",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dòng",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lệnh",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "giá",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "từ",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dòng",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lệnh",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nếu",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "có",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "thì",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "dùng",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "giá",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mặc",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lòng",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhập",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "một",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "hợp",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Tính",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tổng",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "giá",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cộng",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "kết",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "quả",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.5476190476190476
+    },
+    "te": {
+      "language": "te",
+      "code_length": 204,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsc8kqt87.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09085559844970703,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.28571428571428575
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 626,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpi0p79452.py\", line 15, in <module>\n    print(f\"Kimar \\u0199asa: {kashe // 10}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0199' in position 6: character maps to <undefined>\n",
+        "execution_time": 0.09514522552490234,
+        "output": "Kimar al'ada: 1111111111000\nKimar umarni: 10\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Kimar ƙasa: ",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Kimar ƙasa 1000: ",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Kimar ƙasa 10000: ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Kimar ƙasa 100000: ",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Kimar ƙasa 1000000: ",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Kimar ƙasa 10000000: ",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Kimar ƙasa 100000000: ",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Kimar ƙasa 1000000000: ",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1723,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 49: unterminated string literal (detected at line 49)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "    Verilen dizindeki tüm dosyaların isimlerini değiştirir.",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "    Örneğin, \"001.jpg\" -> \"1001.jpg\" olur.",
+            "location": "Line 8",
+            "category": "unknown",
+            "confidence": 0.05
+          },
+          {
+            "text": "        # Dizin var mı kontrol et",
+            "location": "Line 11",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "            print(f\"Hata: Dizin bulunamadı: {directory_path}\")",
+            "location": "Line 13",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "        # Dizin içindeki tüm dosyaları listele",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "            # Sadece dosyaları işle",
+            "location": "Line 22",
+            "category": "unknown",
+            "confidence": 0.06
+          },
+          {
+            "text": "                # Dosya ismini parçala: isim ve uzantı",
+            "location": "Line 24",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "                # İsmi sayısal olarak kabul edilebilir mi kontrol et",
+            "location": "Line 27",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "                    # Sayısal isimdeki değeri al",
+            "location": "Line 29",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "                    # Ofset eklenmiş yeni isim",
+            "location": "Line 31",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "                    # Dosya ismini değiştir",
+            "location": "Line 38",
+            "category": "unknown",
+            "confidence": 0.05
+          },
+          {
+            "text": "                    print(f\"İşleme alınmayan dosya (sayısal olmayan isim): {filename}\")",
+            "location": "Line 42",
+            "category": "unknown",
+            "confidence": 0.05
+          },
+          {
+            "text": "        print(\"Kullanım: python rename_files.py <dizin_yolu> <",
+            "location": "Line 49",
+            "category": "unknown",
+            "confidence": 0.02
+          }
+        ]
+      },
+      "overall_score": 0.21428571428571427
+    }
+  },
+  "generated_at": "2025-11-17T13:09:52.613830"
+}

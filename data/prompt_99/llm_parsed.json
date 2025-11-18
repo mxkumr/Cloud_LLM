@@ -1,0 +1,1332 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\en.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS users (\r\n        id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n        username TEXT NOT NULL UNIQUE,\r\n        password TEXT NOT NULL\r\n    )\r\n",
+          "Enter username: ",
+          "Enter password: ",
+          "INSERT INTO users (username, password) VALUES (?, ?)",
+          "User registered successfully!",
+          "Error: Username already exists."
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Connect to the SQLite database (or create it if it doesn't exist)",
+          "Create the users table if it doesn't exist",
+          "Commit the changes",
+          "Function to hash the password",
+          "Get user input",
+          "Hash the password",
+          "Insert the username and hashed password into the database",
+          "Close the database connection"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Error",
+          "bool",
+          "c",
+          "close",
+          "commit",
+          "compile",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "init_db",
+          "is_valid_password",
+          "match",
+          "password",
+          "password_hash",
+          "pattern",
+          "re",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "strip",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "CREATE TABLE IF NOT EXISTS users \r\n                 (username TEXT UNIQUE, password_hash TEXT)",
+          "r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$",
+          "请输入用户名: ",
+          "请输入密码: ",
+          "用户名不能为空。",
+          "密码不符合要求：至少8位，包含大写字母、小写字母、数字和特殊字符。",
+          "users.db",
+          "SELECT username FROM users WHERE username = ?",
+          "用户名已存在，请选择其他用户名。",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "用户注册成功！",
+          "f\"数据库错误: {e}",
+          "__main__"
+        ],
+        "variables": [
+          "Error",
+          "c",
+          "close",
+          "commit",
+          "compile",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "match",
+          "password",
+          "password_hash",
+          "pattern",
+          "re",
+          "sha256",
+          "sqlite3",
+          "strip",
+          "username"
+        ],
+        "comments": [
+          "数据库初始化",
+          "密码强度检查",
+          "至少8位，包含大写字母、小写字母、数字和特殊字符",
+          "密码哈希",
+          "注册用户",
+          "检查用户名是否为空",
+          "检查密码是否符合要求",
+          "连接数据库",
+          "检查用户名是否已存在",
+          "插入新用户",
+          "主程序"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password",
+          "init_db",
+          "is_valid_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\hi.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "login_user",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "CREATE TABLE IF NOT EXISTS users \r\n                  (username TEXT UNIQUE, password_hash TEXT)",
+          "Enter username: ",
+          "Enter password: ",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "Registration successful!",
+          "Username already exists!",
+          "Enter username: ",
+          "Enter password: ",
+          "SELECT * FROM users WHERE username = ? AND password_hash = ?",
+          "Login successful!",
+          "Login failed!",
+          "__main__"
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Initialize database",
+          "Main program"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\es.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "contrasena",
+          "contrasena_codificada",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_contrasena",
+          "hashlib",
+          "hexdigest",
+          "nombre_usuario",
+          "registrar_usuario",
+          "sha256",
+          "sqlite3",
+          "verificar_inicio_sesion"
+        ],
+        "literals": [
+          "usuarios.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS usuarios (\r\n        nombre_usuario TEXT PRIMARY KEY,\r\n        contrasena TEXT NOT NULL\r\n    )\r\n",
+          "\r\n            INSERT INTO usuarios (nombre_usuario, contrasena)\r\n            VALUES (?, ?)\r\n        ",
+          "Usuario registrado exitosamente.",
+          "Error: El nombre de usuario ya existe.",
+          "\r\n        SELECT * FROM usuarios\r\n        WHERE nombre_usuario = ? AND contrasena = ?\r\n    ",
+          "Inicio de sesión exitoso.",
+          "Inicio de sesión fallido.",
+          "__main__",
+          "Ingresa tu nombre de usuario: ",
+          "Ingresa tu contraseña: ",
+          "\\nIntentando iniciar sesión..."
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "contrasena",
+          "contrasena_codificada",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "nombre_usuario",
+          "sha256",
+          "sqlite3"
+        ],
+        "comments": [
+          "Conexión a la base de datos (se crea si no existe)",
+          "Crear tabla si no existe",
+          "Ejemplo de uso",
+          "Entrada del usuario",
+          "Registrar el usuario",
+          "Verificar inicio de sesión",
+          "Cerrar la conexión"
+        ],
+        "docstrings": [
+          "Codifica la contraseña usando SHA-256",
+          "Inserta un nuevo usuario en la base de datos",
+          "Verifica si el nombre de usuario y la contraseña coinciden"
+        ],
+        "functions": [
+          "hash_contrasena",
+          "registrar_usuario",
+          "verificar_inicio_sesion"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\ar.py",
+      "elements": {
+        "identifiers": [
+          "database",
+          "login",
+          "password",
+          "password_hashed",
+          "register_user",
+          "username"
+        ],
+        "literals": [
+          "أدخل اسم المستخدم: ",
+          "أدخل كلمة المرور: ",
+          "f\"_{password}_",
+          "تم تسجيل المستخدم بنجاح.",
+          "أدخل اسم المستخدم: ",
+          "أدخل كلمة المرور: ",
+          "f\"_{password}_",
+          "تم تسجيل الدخول بنجاح",
+          "اسم المستخدم أو كلمة المرور غير صحيحة",
+          "__main__"
+        ],
+        "variables": [
+          "database",
+          "password",
+          "password_hashed",
+          "username"
+        ],
+        "comments": [
+          "قاعدة بيانات بسيطة تخزن اسم المستخدم وكلمة المرور",
+          "تجزئة كلمة المرور (ببساطة نضيف حرفًا في البداية والنهية)",
+          "حفظ البيانات في قاعدة البيانات",
+          "تجزئة كلمة المرور المدخلة",
+          "التحقق من صحة اسم المستخدم وكلمة المرور",
+          "تشغيل البرنامج"
+        ],
+        "docstrings": [],
+        "functions": [
+          "login",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\fr.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "create_user",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "main",
+          "password",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS users (\r\n            username TEXT UNIQUE,\r\n            password TEXT\r\n        )\r\n    ",
+          "SELECT username FROM users WHERE username = ?",
+          "Erreur : L'utilisateur existe déjà.",
+          "INSERT INTO users (username, password) VALUES (?, ?)",
+          "Utilisateur ajouté avec succès.",
+          "Entrez le nom d'utilisateur : ",
+          "Entrez le mot de passe : ",
+          "__main__"
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Connexion à la base de données (création si elle n'existe pas)",
+          "Création de la table si elle n'existe pas",
+          "Vérification si l'utilisateur existe déjà",
+          "Hachage du mot de passe",
+          "Insertion de l'utilisateur dans la base de données",
+          "Saisie des informations par l'utilisateur",
+          "Création de l'utilisateur"
+        ],
+        "docstrings": [
+          "Hache le mot de passe en utilisant SHA-256.",
+          "Insère un nouvel utilisateur dans la base de données."
+        ],
+        "functions": [
+          "create_user",
+          "hash_password",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\bn.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "login_user",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "user",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS users (\r\n        username TEXT PRIMARY KEY,\r\n        password_hash TEXT NOT NULL\r\n    )\r\n",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "f\"User '{username}' registered successfully.",
+          "f\"Error: Username '{username}' already exists.",
+          "SELECT * FROM users WHERE username = ? AND password_hash = ?",
+          "f\"Login successful for user '{username}'.",
+          "Invalid username or password.",
+          "__main__",
+          "alice",
+          "securepassword123",
+          "alice",
+          "securepassword123",
+          "alice",
+          "wrongpassword"
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "user",
+          "username"
+        ],
+        "comments": [
+          "Connect to SQLite database (or create it if it doesn't exist)",
+          "Create users table if it doesn't exist",
+          "Example usage:",
+          "Register a new user",
+          "Login with the registered user",
+          "Try to login with wrong password",
+          "Close the database connection"
+        ],
+        "docstrings": [
+          "Hash the password using SHA-256",
+          "Register a new user with hashed password",
+          "Authenticate user by checking password hash"
+        ],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\pt.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "criar_usuario",
+          "cursor",
+          "encode",
+          "execute",
+          "hashlib",
+          "hexdigest",
+          "nome_usuario",
+          "senha",
+          "senha_hash",
+          "sha256",
+          "sqlite3"
+        ],
+        "literals": [
+          "usuarios.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS usuarios (\r\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n            nome_usuario TEXT UNIQUE NOT NULL,\r\n            senha_hash TEXT NOT NULL\r\n        )\r\n    ",
+          "Digite o nome de usuário: ",
+          "Digite a senha: ",
+          "INSERT INTO usuarios (nome_usuario, senha_hash) VALUES (?, ?)",
+          "Usuário cadastrado com sucesso!",
+          "Erro: O nome de usuário já existe."
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "hashlib",
+          "hexdigest",
+          "nome_usuario",
+          "senha",
+          "senha_hash",
+          "sha256",
+          "sqlite3"
+        ],
+        "comments": [
+          "Conectar ao banco de dados (cria se não existir)",
+          "Criar tabela se não existir",
+          "Obter entrada do usuário",
+          "Gerar hash da senha (SHA-256)",
+          "Inserir usuário no banco de dados",
+          "Chamar a função"
+        ],
+        "docstrings": [],
+        "functions": [
+          "criar_usuario"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\ru.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "choice",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "login_user",
+          "password",
+          "password_hash",
+          "register_user",
+          "result",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS users (\r\n        username TEXT UNIQUE,\r\n        password_hash TEXT\r\n    )\r\n",
+          "Введите имя пользователя: ",
+          "Введите пароль: ",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "Пользователь успешно зарегистрирован.",
+          "Ошибка: Пользователь с таким именем уже существует.",
+          "Введите имя пользователя: ",
+          "Введите пароль: ",
+          "SELECT password_hash FROM users WHERE username = ?",
+          "0",
+          "Доступ разрешен",
+          "Доступ запрещен",
+          "__main__",
+          "Выберите действие (1 - зарегистрироваться, 2 - войти, 3 - выйти): ",
+          "1",
+          "2",
+          "3",
+          "Неверный выбор. Попробуйте снова."
+        ],
+        "variables": [
+          "IntegrityError",
+          "choice",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "result",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Подключение к базе данных (или создание, если не существует)",
+          "Создание таблицы, если она еще не существует",
+          "Основной цикл программы"
+        ],
+        "docstrings": [
+          "Хеширует пароль с использованием SHA-256",
+          "Регистрация нового пользователя",
+          "Проверка логина пользователя"
+        ],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\id.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "choice",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "login_user",
+          "password",
+          "password_hash",
+          "register_user",
+          "result",
+          "setup_database",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS users (\r\n            username TEXT UNIQUE,\r\n            password_hash TEXT\r\n        )\r\n    ",
+          "Masukkan nama pengguna: ",
+          "Masukkan kata sandi: ",
+          "users.db",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "Pendaftaran berhasil!",
+          "Nama pengguna sudah ada!",
+          "Masukkan nama pengguna: ",
+          "Masukkan kata sandi: ",
+          "users.db",
+          "SELECT password_hash FROM users WHERE username = ?",
+          "0",
+          "Login berhasil!",
+          "Login gagal! Nama pengguna atau kata sandi salah.",
+          "__main__",
+          "\\nPilih opsi:",
+          "1. Daftar",
+          "2. Login",
+          "3. Keluar",
+          "Pilih (1/2/3): ",
+          "1",
+          "2",
+          "3",
+          "Keluar dari program."
+        ],
+        "variables": [
+          "IntegrityError",
+          "choice",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "result",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Membuat database dan tabel jika belum ada",
+          "Fungsi untuk meng-hash kata sandi",
+          "Fungsi untuk mendaftar pengguna",
+          "Fungsi untuk login",
+          "Main program"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user",
+          "setup_database"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\ur.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "getpass",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "init_db",
+          "login_user",
+          "password",
+          "password_hash",
+          "register_user",
+          "result",
+          "sha256",
+          "sqlite3",
+          "time",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS users (\r\n            username TEXT UNIQUE,\r\n            password_hash TEXT\r\n        )\r\n    ",
+          "Enter username: ",
+          "Enter password: ",
+          "users.db",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "User registered successfully!",
+          "Username already exists!",
+          "Enter username: ",
+          "Enter password: ",
+          "users.db",
+          "SELECT password_hash FROM users WHERE username = ?",
+          "0",
+          "Login successful! Redirecting to dashboard..."
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "getpass",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "result",
+          "sha256",
+          "sqlite3",
+          "time",
+          "username"
+        ],
+        "comments": [
+          "Initialize database",
+          "Hash password using SHA-256",
+          "Register a new user",
+          "Login user",
+          "Simulate redirect to dashboard"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password",
+          "init_db",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\de.py",
+      "elements": {
+        "identifiers": [
+          "DATABASE_FILE",
+          "database",
+          "dump",
+          "encode",
+          "exists",
+          "file",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "indent",
+          "json",
+          "load",
+          "load_database",
+          "open",
+          "os",
+          "password",
+          "path",
+          "register_user",
+          "save_database",
+          "sha256",
+          "strip",
+          "username"
+        ],
+        "literals": [
+          "users.json",
+          "r",
+          "w",
+          "4",
+          "Geben Sie einen Benutzernamen ein: ",
+          "Geben Sie ein Passwort ein: ",
+          "Benutzername und Passwort dürfen nicht leer sein.",
+          "f\"Benutzername '{username}' existiert bereits.",
+          "f\"Benutzer '{username}' wurde erfolgreich registriert.",
+          "__main__"
+        ],
+        "variables": [
+          "DATABASE_FILE",
+          "database",
+          "dump",
+          "encode",
+          "exists",
+          "file",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "indent",
+          "json",
+          "load",
+          "os",
+          "password",
+          "path",
+          "sha256",
+          "strip",
+          "username"
+        ],
+        "comments": [
+          "Dateiname für die Datenbank",
+          "Hash das Passwort und speichere Benutzerdaten",
+          "Hauptprogramm"
+        ],
+        "docstrings": [
+          "Hashes a password using SHA-256.",
+          "Lädt die Datenbank aus der Datei.",
+          "Speichert die Datenbank in die Datei.",
+          "Ermöglicht die Registrierung eines neuen Benutzers."
+        ],
+        "functions": [
+          "hash_password",
+          "load_database",
+          "register_user",
+          "save_database"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\ja.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "create_database",
+          "cursor",
+          "encode",
+          "execute",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS users (\r\n            username TEXT UNIQUE NOT NULL,\r\n            password_hash TEXT NOT NULL\r\n        )\r\n    ",
+          "utf-8",
+          "ユーザー名を入力してください: ",
+          "パスワードを入力してください: ",
+          "users.db",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "ユーザー登録が完了しました。",
+          "エラー: そのユーザー名はすでに使用されています。",
+          "__main__"
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "create_database",
+          "hash_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\mr.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "authenticate_user",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "user",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS users (\r\n        username TEXT UNIQUE,\r\n        password_hash TEXT\r\n    )\r\n",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "User registered successfully!",
+          "Username already exists!",
+          "SELECT * FROM users WHERE username = ? AND password_hash = ?",
+          "Authentication successful!",
+          "Authentication failed!"
+        ],
+        "variables": [
+          "IntegrityError",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "user",
+          "username"
+        ],
+        "comments": [
+          "Function to hash password",
+          "Connect to SQLite database (or create it)",
+          "Create table if it doesn't exist",
+          "Function to register a new user",
+          "Function to authenticate a user",
+          "Example usage:",
+          "register_user(\"john_doe\", \"mysecretpassword\")",
+          "authenticate_user(\"john_doe\", \"mysecretpassword\")",
+          "Close connection when done",
+          "conn.close()"
+        ],
+        "docstrings": [],
+        "functions": [
+          "authenticate_user",
+          "hash_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\vi.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "choice",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "login_user",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "user",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS users (\r\n        username TEXT UNIQUE,\r\n        password_hash TEXT\r\n    )\r\n",
+          "Nhập tên người dùng: ",
+          "Nhập mật khẩu: ",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "Đăng ký thành công!",
+          "Tên người dùng đã tồn tại!",
+          "Nhập tên người dùng: ",
+          "Nhập mật khẩu: ",
+          "SELECT * FROM users WHERE username = ? AND password_hash = ?",
+          "Đăng nhập thành công",
+          "Đăng nhập thất bại",
+          "\\n--- Hệ thống đăng nhập ---",
+          "1. Đăng ký",
+          "2. Đăng nhập",
+          "3. Thoát",
+          "Chọn chức năng (1/2/3): ",
+          "1",
+          "2",
+          "3",
+          "Thoát chương trình.",
+          "Lựa chọn không hợp lệ!"
+        ],
+        "variables": [
+          "IntegrityError",
+          "choice",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "user",
+          "username"
+        ],
+        "comments": [
+          "Kết nối đến cơ sở dữ liệu (tạo nếu chưa tồn tại)",
+          "Tạo bảng người dùng nếu chưa tồn tại",
+          "Menu chính",
+          "Đóng kết nối cơ sở dữ liệu"
+        ],
+        "docstrings": [
+          "Băm mật khẩu bằng SHA-256",
+          "Hàm đăng ký người dùng",
+          "Hàm đăng nhập"
+        ],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\te.py",
+      "elements": {
+        "identifiers": [
+          "CREATE",
+          "EXISTS",
+          "IF",
+          "KEY",
+          "NOT",
+          "PRIMARY",
+          "TABLE",
+          "TEXT",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "hashlib",
+          "password_hash",
+          "setup_database",
+          "sqlite3",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "users.db"
+        ],
+        "variables": [
+          "CREATE",
+          "EXISTS",
+          "IF",
+          "KEY",
+          "NOT",
+          "PRIMARY",
+          "TABLE",
+          "TEXT",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "hashlib",
+          "password_hash",
+          "sqlite3",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Create a database connection and table"
+        ],
+        "docstrings": [],
+        "functions": [
+          "setup_database"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\ha.py",
+      "elements": {
+        "identifiers": [
+          "numbers",
+          "reversed_numbers"
+        ],
+        "literals": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "1"
+        ],
+        "variables": [
+          "numbers",
+          "reversed_numbers"
+        ],
+        "comments": [
+          "Define the list of numbers",
+          "Reverse the list",
+          "Print the reversed list"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6o8hnh8b\\tr.py",
+      "elements": {
+        "identifiers": [
+          "choice",
+          "database",
+          "encode",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "login_user",
+          "password",
+          "register_user",
+          "sha256",
+          "username"
+        ],
+        "literals": [
+          "Kullanıcı adı: ",
+          "Şifre: ",
+          "Kullanıcı başarıyla kaydedildi.",
+          "Kullanıcı adı: ",
+          "Şifre: ",
+          "Giriş Başarılı",
+          "Giriş Başarısız",
+          "\\n1. Kayıt Ol",
+          "2. Giriş Yap",
+          "3. Çıkış",
+          "Seçiminiz (1/2/3): ",
+          "1",
+          "2",
+          "3",
+          "Çıkış yapılıyor...",
+          "Geçersiz seçim. Lütfen 1, 2 veya 3 seçin."
+        ],
+        "variables": [
+          "choice",
+          "database",
+          "encode",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "username"
+        ],
+        "comments": [
+          "Simüle edilmiş veritabanı (sadece örnek amaçlı)",
+          "Ana program döngüsü"
+        ],
+        "docstrings": [
+          "Şifreyi SHA-256 ile karma hale getirir.",
+          "Kullanıcı adı ve şifre alır, veritabanına ekler.",
+          "Kullanıcı adı ve şifre ile giriş yapar."
+        ],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

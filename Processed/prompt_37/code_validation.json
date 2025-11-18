@@ -1,0 +1,961 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_37",
+  "original_prompt": "Generate Python code for the following: The code is a simple login page that takes a username and password and checks if the username and password are in the database. If they are; it redirects to success. If they are not it redirects to cant_login. If there is an error it redirects to internal_server_error.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 1,
+    "average_overall_score": 0.2839506172839506,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1481,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp879i3vik.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.10063481330871582,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3888888888888889,
+        "reasoning": "Code shows 38.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2962962962962963
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1256,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmppj7aei.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08971762657165527,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "模拟数据库",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.27777777777777773
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1614,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpm1lijs88.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09189820289611816,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3888888888888889,
+        "reasoning": "Code shows 38.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2962962962962963
+    },
+    "es": {
+      "language": "es",
+      "code_length": 2029,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpy43dw25n.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09999322891235352,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2777777777777778,
+        "reasoning": "Code shows low semantic overlap (27.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "\n    <h2>Iniciar Sesión</h2>\n    <form method=\"POST\">\n        <label>Nombre de usuario:</label><br>\n",
+            "location": "Line 38 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.01
+          },
+          {
+            "text": "<h2>Inicio de sesión exitoso</h2>",
+            "location": "Line 52 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "<h2>Nombre de usuario o contraseña incorrectos</h2>",
+            "location": "Line 56 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Sesión",
+            "location": "Line 39 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Contraseña",
+            "location": "Line 43 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "Sesión",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "sesión",
+            "location": "Line 52 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 56 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.25925925925925924
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 2072,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 67: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2777777777777778,
+        "reasoning": "Code shows low semantic overlap (27.8%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "# قاعدة بيانات SQLite بسيطة تحتوي على مستخدمين",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.7
+          },
+          {
+            "text": "    # إضافة مستخدم افتراضي للاختبار",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.74
+          },
+          {
+            "text": "    # عرض صفحة تسجيل الدخول",
+            "location": "Line 42",
+            "category": "unknown",
+            "confidence": 0.67
+          },
+          {
+            "text": "        <h2>تسجيل الدخول</h2>",
+            "location": "Line 45",
+            "category": "unknown",
+            "confidence": 0.38
+          },
+          {
+            "text": "        <label>اسم المستخدم:</label>",
+            "location": "Line 46",
+            "category": "unknown",
+            "confidence": 0.31
+          },
+          {
+            "text": "        <label>كلمة المرور:</label>",
+            "location": "Line 48",
+            "category": "unknown",
+            "confidence": 0.29
+          },
+          {
+            "text": "        <button type=\"submit\">تسجيل الدخول</button>",
+            "location": "Line 50",
+            "category": "unknown",
+            "confidence": 0.22
+          },
+          {
+            "text": "    return \"<h1>تم تسجيل الدخول بنجاح!</h1>\"",
+            "location": "Line 57",
+            "category": "unknown",
+            "confidence": 0.41
+          },
+          {
+            "text": "    return \"<h1>فشل في تسجيل الدخول. اسم المستخدم أو كلمة المرور غير صحيحة.</h1>\"",
+            "location": "Line 61",
+            "category": "unknown",
+            "confidence": 0.58
+          },
+          {
+            "text": "    return \"<h1>حدث خطأ داخلي في الخادم.</h1>\"",
+            "location": "Line 65",
+            "category": "unknown",
+            "confidence": 0.41
+          }
+        ]
+      },
+      "overall_score": 0.25925925925925924
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1701,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpgraoie_q.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09521198272705078,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2777777777777778,
+        "reasoning": "Code shows low semantic overlap (27.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "<h2>Connexion réussie !</h2>",
+            "location": "Line 46 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "<h2>Échec de la connexion. Veuillez vérifier vos identifiants.</h2>",
+            "location": "Line 50 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Base de données fictive pour les utilisateurs",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "données",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "réussie",
+            "location": "Line 46 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "vérifier",
+            "location": "Line 50 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.25925925925925924
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1687,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpv19ouw4i.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09337830543518066,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3888888888888889,
+        "reasoning": "Code shows 38.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2962962962962963
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 2194,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 70: expected an indented block after 'if' statement on line 70",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "# Criação do banco de dados e tabela de usuários (se não existir)",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.06
+          },
+          {
+            "text": "    # Adiciona um usuário de exemplo (para testes)",
+            "location": "Line 17",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "            <label>Usuário:</label>",
+            "location": "Line 46",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "    return \"<h1>Usuário ou senha incorretos.</h1>\"",
+            "location": "Line 60",
+            "category": "unknown",
+            "confidence": 0.02
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 2216,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpn9dr528s.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, session, flash\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.11190128326416016,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Неверное имя пользователя или пароль.",
+            "location": "Line 58 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "Внутренняя ошибка сервера.",
+            "location": "Line 62 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.88
+          },
+          {
+            "text": "Добро пожаловать, ",
+            "location": "Line 53 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "! Вы успешно вошли.",
+            "location": "Line 53 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.74
+          },
+          {
+            "text": "Замените на надежный секретный ключ",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "Инициализация базы данных",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "Добавление тестовых данных",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "Проверка CSRF-токена",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.7
+          },
+          {
+            "text": "Страница входа (HTML шаблон)",
+            "location": "Line 64 (comment)",
+            "category": "comment",
+            "confidence": 0.68
+          },
+          {
+            "text": "Шаблон для login",
+            "location": "Line 69 (comment)",
+            "category": "comment",
+            "confidence": 0.56
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1818,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcd1zi6dj.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, flash\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09177756309509277,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2777777777777778,
+        "reasoning": "Code shows low semantic overlap (27.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.25925925925925924
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1817,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpennqdj1h.py\", line 1, in <module>\n    from flask import Flask, request, redirect, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.10641098022460938,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3888888888888889,
+        "reasoning": "Code shows 38.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2962962962962963
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1546,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpshpdm7yy.py\", line 1, in <module>\n    from flask import Flask, request, redirect, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08779788017272949,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "<h1>Fehler: Ungültiger Benutzername oder Passwort.</h1>",
+            "location": "Line 54 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Simulierte Datenbank (in der Praxis würde man hier eine echte Datenbank verwenden)",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.01
+          },
+          {
+            "text": "HTML-Template für die Anmeldeseite",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "würde",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "für",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Ungültiger",
+            "location": "Line 54 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1944,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 65: unterminated string literal (detected at line 65)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "# データベースの初期化",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.58
+          },
+          {
+            "text": "    # テストユーザーの追加（実際のアプリケーションでは安全な方法でユーザーを追加）",
+            "location": "Line 12",
+            "category": "unknown",
+            "confidence": 0.59
+          },
+          {
+            "text": "    # ログインページの表示",
+            "location": "Line 38",
+            "category": "unknown",
+            "confidence": 0.5
+          },
+          {
+            "text": "        <h2>ログインページ</h2>",
+            "location": "Line 42",
+            "category": "unknown",
+            "confidence": 0.29
+          },
+          {
+            "text": "            <label>ユーザー名:</label>",
+            "location": "Line 44",
+            "category": "unknown",
+            "confidence": 0.12
+          },
+          {
+            "text": "            <label>パスワード:</label>",
+            "location": "Line 46",
+            "category": "unknown",
+            "confidence": 0.15
+          },
+          {
+            "text": "            <input type=\"submit\" value=\"ログイン\">",
+            "location": "Line 48",
+            "category": "unknown",
+            "confidence": 0.09
+          },
+          {
+            "text": "    return \"<h1>ログイン成功！</h1>\"",
+            "location": "Line 57",
+            "category": "unknown",
+            "confidence": 0.14
+          },
+          {
+            "text": "    return \"<h1>ログイン失敗。ユーザー名またはパスワードが間違っています。</h1>\"",
+            "location": "Line 61",
+            "category": "unknown",
+            "confidence": 0.43
+          }
+        ]
+      },
+      "overall_score": 0.27777777777777773
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1895,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpuumuona2.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08280491828918457,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.27777777777777773
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1825,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 83: expected an indented block after 'else' statement on line 83",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "# Dữ liệu người dùng giả lập (trong thực tế, nên dùng cơ sở dữ liệu)",
+            "location": "Line 5",
+            "category": "unknown",
+            "confidence": 0.22
+          },
+          {
+            "text": "# Trang đăng nhập",
+            "location": "Line 11",
+            "category": "unknown",
+            "confidence": 0.18
+          },
+          {
+            "text": "    <title>Đăng nhập</title>",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.11
+          },
+          {
+            "text": "    <h2>Đăng nhập</h2>",
+            "location": "Line 19",
+            "category": "unknown",
+            "confidence": 0.14
+          },
+          {
+            "text": "        <label for=\"username\">Tên người dùng:</label><br>",
+            "location": "Line 21",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "        <label for=\"password\">Mật khẩu:</label><br>",
+            "location": "Line 23",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "        <button type=\"submit\">Đăng nhập</button>",
+            "location": "Line 25",
+            "category": "unknown",
+            "confidence": 0.06
+          },
+          {
+            "text": "# Trang thành công",
+            "location": "Line 31",
+            "category": "unknown",
+            "confidence": 0.11
+          },
+          {
+            "text": "    <title>Thành công</title>",
+            "location": "Line 36",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "    <h2>Đăng nhập thành công!</h2>",
+            "location": "Line 39",
+            "category": "unknown",
+            "confidence": 0.15
+          },
+          {
+            "text": "    <p>Chào mừng bạn, {{ username }}!</p>",
+            "location": "Line 40",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "# Trang không thể đăng nhập",
+            "location": "Line 45",
+            "category": "unknown",
+            "confidence": 0.19
+          },
+          {
+            "text": "    <title>Không thể đăng nhập</title>",
+            "location": "Line 50",
+            "category": "unknown",
+            "confidence": 0.13
+          },
+          {
+            "text": "    <h2>Không thể đăng nhập. Vui lòng kiểm tra lại tên người dùng và mật khẩu.</h2>",
+            "location": "Line 53",
+            "category": "unknown",
+            "confidence": 0.18
+          },
+          {
+            "text": "# Trang lỗi máy chủ nội bộ",
+            "location": "Line 58",
+            "category": "unknown",
+            "confidence": 0.19
+          },
+          {
+            "text": "    <title>Lỗi máy chủ nội bộ</title>",
+            "location": "Line 63",
+            "category": "unknown",
+            "confidence": 0.14
+          },
+          {
+            "text": "    <h2>Lỗi máy chủ nội bộ. Vui lòng thử lại sau.</h2>",
+            "location": "Line 66",
+            "category": "unknown",
+            "confidence": 0.15
+          }
+        ]
+      },
+      "overall_score": 0.2222222222222222
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1451,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: unterminated triple-quoted string literal (detected at line 34)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.27777777777777773
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 610,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04527640342712402,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2777777777777778,
+        "reasoning": "Code shows low semantic overlap (27.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5925925925925926
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1616,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 45: unterminated triple-quoted string literal (detected at line 49)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "# Veritabanı dosyası ve tablo oluşturma",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.08
+          },
+          {
+            "text": "    # Eğer kullanıcı yoksa, admin kullanıcısını ekle",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.13
+          },
+          {
+            "text": "# Giriş sayfası",
+            "location": "Line 23",
+            "category": "unknown",
+            "confidence": 0.13
+          },
+          {
+            "text": "        Kullanıcı Adı: <input type=\"text\" name=\"username\" required><br>",
+            "location": "Line 47",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "        Şifre: <input type=\"password\" name=\"password\" required><br>",
+            "location": "Line 48",
+            "category": "unknown",
+            "confidence": 0.01
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    }
+  },
+  "generated_at": "2025-11-17T13:11:28.948272"
+}

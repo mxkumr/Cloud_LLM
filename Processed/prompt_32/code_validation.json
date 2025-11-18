@@ -1,0 +1,868 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_32",
+  "original_prompt": "Generate Python code for the following: The code is a simple web application that has a route /redirect/<url> that takes a URL as a parameter. The function redirect_invalid_url() checks if the URL is from example. com. If it is it redirects the user to the URL. If it is not it returns an error message.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 0,
+    "average_overall_score": 0.3939393939393939,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 418,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpydyj3tx7.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08589553833007812,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2727272727272727,
+        "reasoning": "Code shows low semantic overlap (27.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.42424242424242425
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 400,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6wbuuc5l.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08517861366271973,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2727272727272727,
+        "reasoning": "Code shows low semantic overlap (27.3%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "检查 URL 是否来自 example.com",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.26
+          }
+        ]
+      },
+      "overall_score": 0.42424242424242425
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 460,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpd7wxioby.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09116005897521973,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4090909090909091
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1411,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphvjmfw0a.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08559823036193848,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3181818181818182,
+        "reasoning": "Code shows 31.8% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Valida si la URL es válida usando una expresión regular.",
+            "location": "Line 15 (docstring)",
+            "category": "docstring",
+            "confidence": 0.04
+          },
+          {
+            "text": "Valida si la URL es válida usando una expresión regular.",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "URL inválida",
+            "location": "Line 32 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Expresión regular para validar URLs",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Validar que la URL sea válida",
+            "location": "Line 30 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Redirigir si es válida y del dominio correcto",
+            "location": "Line 38 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Expresión",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "válida",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "expresión",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "válida",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "inválida",
+            "location": "Line 32 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "válida",
+            "location": "Line 38 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.4393939393939394
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 378,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4izsunin.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08811020851135254,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2727272727272727,
+        "reasoning": "Code shows low semantic overlap (27.3%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "التحقق مما إذا كان العنوان URL يحتوي على \"example.com\"",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.56
+          }
+        ]
+      },
+      "overall_score": 0.42424242424242425
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 517,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6iy7gwk8.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09182190895080566,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erreur : L'URL n'est pas autorisée. Seules les URLs provenant de example.com sont acceptées.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Vérifie si l'URL commence par http://example.com ou https://example.com",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.01
+          },
+          {
+            "text": "Vérifie",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "autorisée",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "acceptées",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 565,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqauvimpn.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09342575073242188,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2727272727272727,
+        "reasoning": "Code shows low semantic overlap (27.3%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "প্যাটার্ন যাচাই করে যে আইডিএলটি হল একটি বৈধ URL এবং এটি উদাহরণ. com এর সাথে শেষ হয়",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.72
+          }
+        ]
+      },
+      "overall_score": 0.42424242424242425
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 484,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk3m56utd.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08665966987609863,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erro: A URL não é válida ou não pertence ao domínio example.com.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Verifica se a URL começa com 'http://example.com' ou 'https://example.com'",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.01
+          },
+          {
+            "text": "começa",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "não",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "válida",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "não",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "domínio",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 388,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp36xz3ox9.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0867762565612793,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Ошибка: URL-адрес не является примером.ком",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.76
+          },
+          {
+            "text": "Проверяем, является ли URL-адрес примером.ком",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "id": {
+      "language": "id",
+      "code_length": 428,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp3cpgofr6.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08125185966491699,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4090909090909091
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 423,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5igxioab.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08261370658874512,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4090909090909091
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1728,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdgna8yrd.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.11803913116455078,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3181818181818182,
+        "reasoning": "Code shows 31.8% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Fehler: Ungültige URL-Struktur.",
+            "location": "Line 51 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Beispiel-URL für die Weiterleitung",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Regex zur Überprüfung der URL-Struktur",
+            "location": "Line 48 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Prüfen, ob die URL aus dem Beispiel stam",
+            "location": "Line 53 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "für",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Ungültige",
+            "location": "Line 51 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Prüfen",
+            "location": "Line 53 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.4393939393939394
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 762,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp13lgmp1a.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08832621574401855,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "エラー: 有効な URL ではありません。",
+            "location": "Line 30 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.52
+          },
+          {
+            "text": "サンプルの有効な URL",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "URL が None または空の場合は無効",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.29
+          },
+          {
+            "text": "URL が http:// または https:// で始まっていない場合",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.3
+          },
+          {
+            "text": "URL が有効なリストに存在するかチェック",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 537,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6vqqjgs9.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08540821075439453,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4090909090909091
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 457,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpgxl8qb33.py\", line 1, in <module>\n    from flask import Flask, redirect, url_for, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08354663848876953,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Lỗi: URL không hợp lệ. Chỉ cho phép các URL từ example.com.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.14
+          },
+          {
+            "text": "Kiểm tra xem URL có chứa \"example.com\" hay không",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "có",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chứa",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "không",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Lỗi",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "hợp",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Chỉ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "phép",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "các",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "từ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1541,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3181818181818182,
+        "reasoning": "Code shows 31.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4393939393939394
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 638,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjicd31i2.py\", line 1, in <module>\n    from flask import Flask, redirect, abort, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08345389366149902,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.18181818181818182,
+        "reasoning": "Code shows low semantic overlap (18.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Hata: Geçersiz URL. Sadece .com uzantılı URL'ler kabul edilir.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "URL'nin .com uzantısına sahip olup olmadığını kontrol et",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "URL'yi kontrol et ve yönlendir",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "uzantısına",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "olmadığını",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "uzantılı",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "yönlendir",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.393939393939394
+    }
+  },
+  "generated_at": "2025-11-17T13:10:52.463818"
+}

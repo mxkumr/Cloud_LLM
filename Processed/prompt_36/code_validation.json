@@ -1,0 +1,1474 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_36",
+  "original_prompt": "Generate Python code for the following: The user enters the username and password in the login page. The username and password are sent to the login function. The login function queries the database to check if the username exists. If the username exists it checks if the password is correct. If the password is correct it redirects the user to the home page. If the password is incorrect it returns.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 2,
+    "average_overall_score": 0.4553872053872054,
+    "languages_with_errors": [
+      "en",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1402,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2kehu7qp.py\", line 1, in <module>\n    from flask import Flask, request, redirect, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.12151932716369629,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.45454545454545453,
+        "reasoning": "Code shows 45.5% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.48484848484848486
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 600,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.045775413513183594,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.18181818181818182,
+        "reasoning": "Code shows low semantic overlap (18.2%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "用户名不存在",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "重定向到主页",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "密码不正确",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "假设数据库查询函数",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "这里模拟数据库查询，实际中应连接真实数据库",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.95
+          },
+          {
+            "text": "返回用户信息，如果不存在则返回 None",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.7
+          },
+          {
+            "text": "查询数据库",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "用户名不存在",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "密码正确，重定向到主页",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "密码不正确",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.7272727272727272
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1350,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 39: unterminated string literal (detected at line 39)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4090909090909091
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1815,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.13636363636363635,
+        "reasoning": "Code shows low semantic overlap (13.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Redirigiendo a la página de inicio...",
+            "location": "Line 42 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Redirigiendo a la página de registro...",
+            "location": "Line 46 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Ingresa tu contraseña: ",
+            "location": "Line 53 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Contraseña incorrecta.",
+            "location": "Line 36 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Simulación de una base de datos con SQLite",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Función de consulta a la base de datos",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Función de inicio de sesión",
+            "location": "Line 29 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "Función de redirección a la página de inicio",
+            "location": "Line 40 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "Función de redirección a la página de registro",
+            "location": "Line 44 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "Simulación de entrada del usuario",
+            "location": "Line 51 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Simulación",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "Función",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Función",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "sesión",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Contraseña",
+            "location": "Line 36 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "Función",
+            "location": "Line 40 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "redirección",
+            "location": "Line 40 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "página",
+            "location": "Line 40 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "página",
+            "location": "Line 42 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Función",
+            "location": "Line 44 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "redirección",
+            "location": "Line 44 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "página",
+            "location": "Line 44 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "página",
+            "location": "Line 46 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Simulación",
+            "location": "Line 51 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "contraseña",
+            "location": "Line 53 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.37878787878787873
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1520,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp62pkr05e.py\", line 1, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0994110107421875,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.18181818181818182,
+        "reasoning": "Code shows low semantic overlap (18.2%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "\n<!DOCTYPE html>\n<html>\n<head>\n    <title>تسجيل الدخول</title>\n</head>\n<body>\n    <h2>تسجيل الدخول</",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.13
+          },
+          {
+            "text": "\n<!DOCTYPE html>\n<html>\n<head>\n    <title>الصفحة الرئيسية</title>\n</head>\n<body>\n    <h2>مرحباً بك ف",
+            "location": "Line 32 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.28
+          },
+          {
+            "text": "محاكاة قاعدة بيانات المستخدمين",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "صفحة تسجيل الدخول",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "صفحة الرئيسية",
+            "location": "Line 31 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "التحقق من وجود اسم المستخدم",
+            "location": "Line 53 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "التحقق من صحة كلمة المرور",
+            "location": "Line 57 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.393939393939394
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1947,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpxqefjwq9.py\", line 2, in <module>\n    from flask import Flask, request, redirect, url_for, session, render_template\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0935366153717041,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.36363636363636365,
+        "reasoning": "Code shows 36.4% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Vous êtes déjà connecté !",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.16
+          },
+          {
+            "text": "Nom d'utilisateur non trouvé.",
+            "location": "Line 28 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Changez cela par une clé secrète réelle",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Fonction pour se connecter à la base de données",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Page de déconnexion",
+            "location": "Line 44 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Création de la base de données et des utilisateurs (exemple)",
+            "location": "Line 50 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "clé",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "secrète",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "réelle",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "données",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "déjà",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "connecté",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "trouvé",
+            "location": "Line 28 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "déconnexion",
+            "location": "Line 44 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "Création",
+            "location": "Line 50 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "données",
+            "location": "Line 50 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.4545454545454546
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1338,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4jzmi2f9.py\", line 2, in <module>\n    from flask import Flask, request, redirect, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08907723426818848,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "ভুল পাসওয়ার্ড!",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.87
+          },
+          {
+            "text": "ব্যবহারকারী খুঁজে পাওয়া যায়নি!",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.88
+          },
+          {
+            "text": "ডাটাবেস সেটআপ (যদি প্রয়োজন হয়)",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          },
+          {
+            "text": "কয়েকটি পরীক্ষামূলক ডেটা যোগ করা",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "লগইন ফাংশন",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1369,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpguuqnrue.py\", line 1, in <module>\n    from flask import Flask, request, redirect, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08719038963317871,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.18181818181818182,
+        "reasoning": "Code shows low semantic overlap (18.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Bem-vindo à página inicial!",
+            "location": "Line 43 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "\n    <form method=\"POST\">\n        <label>Nome de usuário:</label>\n        <input type=\"text\" name=\"u",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.0
+          },
+          {
+            "text": "Nome de usuário não encontrado.",
+            "location": "Line 28 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Simulando um banco de dados com um dicionário",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Verifica se o nome de usuário existe",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Verifica se a senha está correta",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Redireciona para a página inicial",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Nome de usuário não existe",
+            "location": "Line 27 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Exibe o formulário de login",
+            "location": "Line 30 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "dicionário",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "usuário",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "está",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "página",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "usuário",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "não",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "usuário",
+            "location": "Line 28 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "não",
+            "location": "Line 28 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "formulário",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "usuário",
+            "location": "Line 33 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "página",
+            "location": "Line 43 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.393939393939394
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 647,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpewkujje5.py\", line 20, in <module>\n    username = input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043c\\u044f \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f: \")\n               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.0855400562286377,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.18181818181818182,
+        "reasoning": "Code shows low semantic overlap (18.2%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Введите имя пользователя: ",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "Введите пароль: ",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "Имя пользователя не существует.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.87
+          },
+          {
+            "text": "Перенаправление на домашнюю страницу...",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "Неверный пароль.",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.88
+          },
+          {
+            "text": "Имитация базы данных пользователей",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "Проверка существования имени пользователя",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "Проверка пароля",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "Пример использования",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.95
+          }
+        ]
+      },
+      "overall_score": 0.393939393939394
+    },
+    "id": {
+      "language": "id",
+      "code_length": 938,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.18181818181818182,
+        "reasoning": "Code shows low semantic overlap (18.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.393939393939394
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1867,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpeley32js.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09892392158508301,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5
+    },
+    "de": {
+      "language": "de",
+      "code_length": 844,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.13636363636363635,
+        "reasoning": "Code shows low semantic overlap (13.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Prüfen, ob der Benutzername existiert",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Prüfen, ob das Passwort korrekt ist",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Beispiel für die Benutzereingabe",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Ausführen des Programms",
+            "location": "Line 27 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Prüfen",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Prüfen",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "für",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Ausführen",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.37878787878787873
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1589,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_o8nrpzj.py\", line 1, in <module>\n    from flask import Flask, request, redirect, render_template, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09613490104675293,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "ようこそ、",
+            "location": "Line 47 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "さん！",
+            "location": "Line 47 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": "ユーザー名が存在しません。",
+            "location": "Line 40 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "パスワードが間違っています。",
+            "location": "Line 38 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "セッションを安全にするために必要",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "データベースの初期化（例として）",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          },
+          {
+            "text": "テスト用のユーザーを追加（実際のアプリではここにしない）",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "ユーザー名の存在確認とパスワードのチェック",
+            "location": "Line 27 (comment)",
+            "category": "comment",
+            "confidence": 0.76
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1879,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 66: expected ':'",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4090909090909091,
+        "reasoning": "Code shows 40.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4696969696969697
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1537,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprh7vqwu4.py\", line 2, in <module>\n    from flask import Flask, request, redirect, url_for, render_template_string\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.10408329963684082,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3181818181818182,
+        "reasoning": "Code shows 31.8% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "\n    <form method=\"post\">\n        Tên người dùng: <input type=\"text\" name=\"username\" required><br>\n ",
+            "location": "Line 32 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Chào mừng bạn đến trang chủ!",
+            "location": "Line 42 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Tên người dùng không tồn tại!",
+            "location": "Line 30 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.24
+          },
+          {
+            "text": "Mật khẩu sai!",
+            "location": "Line 28 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.15
+          },
+          {
+            "text": "Cấu hình cơ sở dữ liệu (giả lập)",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.25
+          },
+          {
+            "text": "Tạo bảng người dùng (chỉ chạy lần đầu)",
+            "location": "Line 45 (comment)",
+            "category": "comment",
+            "confidence": 0.26
+          },
+          {
+            "text": "Cấu",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hình",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "cơ",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "sở",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dữ",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "liệu",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "giả",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lập",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Mật",
+            "location": "Line 28 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "khẩu",
+            "location": "Line 28 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Tên",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "người",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "dùng",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "không",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "tồn",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Tên",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "người",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "dùng",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Mật",
+            "location": "Line 35 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "khẩu",
+            "location": "Line 35 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhập",
+            "location": "Line 36 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Chào",
+            "location": "Line 42 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "mừng",
+            "location": "Line 42 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "bạn",
+            "location": "Line 42 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chủ",
+            "location": "Line 42 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Tạo",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "bảng",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "người",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "dùng",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chạy",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lần",
+            "location": "Line 45 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.4393939393939394
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1633,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 66: expected an indented block after function definition on line 66",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4090909090909091,
+        "reasoning": "Code shows 40.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4696969696969697
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1504,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04994010925292969,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.045454545454545456,
+        "reasoning": "Code shows low semantic overlap (4.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6818181818181818
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 2016,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 52: unterminated triple-quoted string literal (detected at line 65)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.22727272727272727,
+        "reasoning": "Code shows low semantic overlap (22.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "# Simüle edilmiş veritabanı (gerçek uygulamalarda bu bir gerçek veritabanı olur)",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "    # Örnek kullanıcı ekleme",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.11
+          },
+          {
+            "text": "        # Veritabanına bağlan ve kullanıcıyı kontrol et",
+            "location": "Line 27",
+            "category": "unknown",
+            "confidence": 0.09
+          },
+          {
+            "text": "                # Şifre doğru, ana sayfaya yönlendir",
+            "location": "Line 36",
+            "category": "unknown",
+            "confidence": 0.06
+          },
+          {
+            "text": "                # Şifre yanlış",
+            "location": "Line 39",
+            "category": "unknown",
+            "confidence": 0.1
+          },
+          {
+            "text": "                return render_template_string(LOGIN_TEMPLATE, error=\"Şifre yanlış.\")",
+            "location": "Line 40",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "            # Kullanıcı adı mevcut değil",
+            "location": "Line 42",
+            "category": "unknown",
+            "confidence": 0.1
+          },
+          {
+            "text": "            return render_template_string(LOGIN_TEMPLATE, error=\"Kullanıcı adı bulunamadı.\")",
+            "location": "Line 43",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "    return \"<h1>Hoş geldiniz! Ana sayfaya yönlendirildiniz.</h1>\"",
+            "location": "Line 49",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "# Giriş sayfası şablonu",
+            "location": "Line 51",
+            "category": "unknown",
+            "confidence": 0.13
+          },
+          {
+            "text": "    <title>Giriş Yap</title>",
+            "location": "Line 56",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "    <h2>Giriş Yap</h2>",
+            "location": "Line 59",
+            "category": "unknown",
+            "confidence": 0.05
+          },
+          {
+            "text": "        Kullanıcı Adı: <input type=\"text\" name=\"username\" required><br><br>",
+            "location": "Line 64",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "        Şifre: <input type",
+            "location": "Line 65",
+            "category": "unknown",
+            "confidence": 0.04
+          }
+        ]
+      },
+      "overall_score": 0.4090909090909091
+    }
+  },
+  "generated_at": "2025-11-17T13:11:27.769109"
+}

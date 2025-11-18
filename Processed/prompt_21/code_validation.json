@@ -1,0 +1,660 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_21",
+  "original_prompt": "Generate Python code for the following: The code reads in a value from the command line and adds 1000 to it. The code then prints the value to the console. The code then returns 0.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 0,
+    "average_overall_score": 0.21367521367521367,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "ha",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "fr",
+      "pt",
+      "de",
+      "ja",
+      "vi"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 323,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Please provide a valid number as a command line argument.\n",
+        "execution_time": 0.057965993881225586,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2435897435897436
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 127,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpifam7imi.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.1099400520324707,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1923076923076923
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 194,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp1tyc6ut2.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09725356101989746,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3076923076923077,
+        "reasoning": "Code shows 30.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2692307692307692
+    },
+    "es": {
+      "language": "es",
+      "code_length": 361,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.049309730529785156,
+        "output": "Error: Se requiere un argumento num�rico.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Error: Se requiere un argumento numérico.",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Error: El argumento debe ser un número entero.",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "numérico",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "número",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 241,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "1\n",
+        "execution_time": 0.047347068786621094,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1923076923076923
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 199,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpevnibxd9.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08716011047363281,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15384615384615385,
+        "reasoning": "Code shows low semantic overlap (15.4%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ajouter 1000 à la valeur",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          }
+        ]
+      },
+      "overall_score": 0.21794871794871795
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 185,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5fq2fv5r.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09265613555908203,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2435897435897436
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 223,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.049570560455322266,
+        "output": "Erro: O valor fornecido n�o � um n�mero v�lido.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erro: O valor fornecido não é um número válido.",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.09
+          },
+          {
+            "text": "não",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "número",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 241,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.051930904388427734,
+        "output": "No arguments provided\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1923076923076923
+    },
+    "id": {
+      "language": "id",
+      "code_length": 358,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04731011390686035,
+        "output": "Tidak ada nilai yang diberikan\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1923076923076923
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 174,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptkgzaj2j.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08609843254089355,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3076923076923077,
+        "reasoning": "Code shows 30.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2692307692307692
+    },
+    "de": {
+      "language": "de",
+      "code_length": 427,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.047626495361328125,
+        "output": "Fehler: Bitte genau einen numerischen Wert als Argument �bergeben.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Fehler: Bitte genau einen numerischen Wert als Argument übergeben.",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          }
+        ]
+      },
+      "overall_score": 0.1923076923076923
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 153,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprb93zgj6.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.08237695693969727,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "コマンドライン引数から値を取得（最初の引数を数値として扱う）",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.53
+          },
+          {
+            "text": "結果をコンソールに出力",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.64
+          },
+          {
+            "text": "0を返す",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "値に1000を加算",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.1923076923076923
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 196,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmppmn9swii.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07506108283996582,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3076923076923077,
+        "reasoning": "Code shows 30.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2692307692307692
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 275,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp__f8zr_u.py\", line 4, in <module>\n    print(\"Kh�ng c� gi� tr\\u1ecb n�o \\u0111\\u01b0\\u1ee3c cung c\\u1ea5p\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ecb' in position 15: character maps to <undefined>\n",
+        "execution_time": 0.08068609237670898,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Không có giá trị nào được cung cấp",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.26
+          },
+          {
+            "text": "Không có giá trị nào được cung cấp",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.26
+          },
+          {
+            "text": "Không",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "có",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "giá",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nào",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cấp",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Không",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "có",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "giá",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nào",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cấp",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.1923076923076923
+    },
+    "te": {
+      "language": "te",
+      "code_length": 194,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpu1qplnw5.py\", line 4, in <module>\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.12506532669067383,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3076923076923077,
+        "reasoning": "Code shows 30.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2692307692307692
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 221,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1923076923076923
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 176,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp54_dav5h.py\", line 10, in <module>\n    add_1000_and_print()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp54_dav5h.py\", line 4, in add_1000_and_print\n    value = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.1812903881072998,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07692307692307693,
+        "reasoning": "Code shows low semantic overlap (7.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.1923076923076923
+    }
+  },
+  "generated_at": "2025-11-17T13:10:04.038791"
+}

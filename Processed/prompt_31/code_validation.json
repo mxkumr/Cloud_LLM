@@ -1,0 +1,475 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_31",
+  "original_prompt": "Generate Python code for the following: The redirect_url function takes a url as an argument. The urlparse function from an imported module is used to parse the url. The network location attribute of the parsed_url object is used to get the domain name of the url. If the domain name is example. com the url is redirected. If the domain name is not example. com a 404 error is returned.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 9,
+    "average_overall_score": 0.5594135802469136,
+    "languages_with_errors": [
+      "hi",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "mr",
+      "vi"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "ru"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 207,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09636807441711426,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2916666666666667,
+        "reasoning": "Code shows low semantic overlap (29.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7638888888888888
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 224,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08679914474487305,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2916666666666667,
+        "reasoning": "Code shows low semantic overlap (29.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7638888888888888
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 477,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp7kfax280.py\", line 2, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09904670715332031,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4166666666666667
+    },
+    "es": {
+      "language": "es",
+      "code_length": 625,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08055710792541504,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Error 404: Página no encontrada",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Redirigir (simulando una redirección)",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "redirección",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "Página",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.7361111111111112
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 236,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08626914024353027,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7361111111111112
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 235,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08220577239990234,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2916666666666667,
+        "reasoning": "Code shows low semantic overlap (29.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7638888888888888
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 463,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjeesqn8y.py\", line 2, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09751558303833008,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4166666666666667
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 282,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprim8a0jv.py\", line 2, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08423948287963867,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.40277777777777773
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 455,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp57alxn_e.py\", line 1, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.11492013931274414,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Пример использования маршрута",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          }
+        ]
+      },
+      "overall_score": 0.4166666666666667
+    },
+    "id": {
+      "language": "id",
+      "code_length": 364,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4lubc3d5.py\", line 1, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.20295000076293945,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.40277777777777773
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 333,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_kk1mhdk.py\", line 2, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.17969989776611328,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.40277777777777773
+    },
+    "de": {
+      "language": "de",
+      "code_length": 226,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15112066268920898,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.75
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 211,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14776921272277832,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.75
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 278,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmppf7p929z.py\", line 2, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.1777482032775879,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.40277777777777773
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 547,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6olw5qts.py\", line 2, in <module>\n    from flask import Flask, redirect, abort\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.19707226753234863,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4166666666666667
+    },
+    "te": {
+      "language": "te",
+      "code_length": 479,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07939910888671875,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.375,
+        "reasoning": "Code shows 37.5% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7916666666666666
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 236,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06825947761535645,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.20833333333333334,
+        "reasoning": "Code shows low semantic overlap (20.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7361111111111112
+    }
+  },
+  "generated_at": "2025-11-17T13:10:51.007676"
+}

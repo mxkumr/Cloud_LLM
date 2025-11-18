@@ -1,0 +1,1109 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_28",
+  "original_prompt": "Generate Python code for the following: The regular expression is compiled once when the module is loaded. The regular expression is used to match the target URL. If the target URL matches; it is used as the redirect target. If the target URL does not match a default URL is used. The regular expression is not used to construct the redirect URL.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 18,
+    "average_overall_score": 0.587037037037037,
+    "languages_with_errors": [],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 733,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07017111778259277,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6666666666666666
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 387,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07236409187316895,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "根据目标URL匹配正则表达式，决定使用目标URL还是默认URL作为重定向目标。\n\n:param target_url: 要检查的目标URL\n:return: 重定向目标URL",
+            "location": "Line 7 (docstring)",
+            "category": "docstring",
+            "confidence": 0.45
+          },
+          {
+            "text": "\n    根据目标URL匹配正则表达式，决定使用目标URL还是默认URL作为重定向目标。\n    \n    :param target_url: 要检查的目标URL\n    :return: 重定向目",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.36
+          },
+          {
+            "text": "定义正则表达式模式和默认URL",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "示例正则表达式",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 707,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07234477996826172,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "लक्ष्य URL को रेगुलर एक्सप्रेशन से मिलान करता है।\nयदि मिलान होता है, तो रीडायरेक्ट लक्ष्य लौटाता है।\nअन्यथा, डिफ़ॉल्ट URL लौटाता है।",
+            "location": "Line 9 (docstring)",
+            "category": "docstring",
+            "confidence": 0.77
+          },
+          {
+            "text": "\n    लक्ष्य URL को रेगुलर एक्सप्रेशन से मिलान करता है।\n    यदि मिलान होता है, तो रीडायरेक्ट लक्ष्य ल",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.68
+          },
+          {
+            "text": "संकलित रेगुलर एक्सप्रेशन (मॉड्यूल लोड होने पर एक बार संकलित)",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "डिफ़ॉल्ट URL",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.67
+          },
+          {
+            "text": "मैच हुआ, रीडायरेक्ट लक्ष्य बनाने के लिए मैच के भाग का उपयोग करें",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "मैच नहीं हुआ, डिफ़ॉल्ट URL का उपयोग करें",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.72
+          }
+        ]
+      },
+      "overall_score": 0.5666666666666667
+    },
+    "es": {
+      "language": "es",
+      "code_length": 670,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07377433776855469,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Devuelve la URL de redireccionamiento basada en la URL de destino o en una URL predeterminada.\n\n:param destination_url: La URL de destino a verificar.\n:param country_code: El código de país para construir la URL base.\n:return: La URL de redireccionamiento.",
+            "location": "Line 6 (docstring)",
+            "category": "docstring",
+            "confidence": 0.01
+          },
+          {
+            "text": "\n    Devuelve la URL de redireccionamiento basada en la URL de destino o en una URL predeterminada.\n",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.01
+          },
+          {
+            "text": "Compilar la expresión regular una vez al cargar el módulo",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "expresión",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "módulo",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "código",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "país",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 557,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07287287712097168,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "تطابق عنوان URL المستهدف باستخدام التعبير العادي.\nإذا تطابق، يُستخدم كهدف إعادة التوجيه.\nإذا لم يتطابق، يُستخدم عنوان URL الافتراضي.\nلا يتم استخدام التعبير العادي لإنشاء عنوان URL لإعادة التوجيه.\nيُرجع عنوان URL المطابق.",
+            "location": "Line 6 (docstring)",
+            "category": "docstring",
+            "confidence": 0.77
+          },
+          {
+            "text": "\n    تطابق عنوان URL المستهدف باستخدام التعبير العادي.\n    إذا تطابق، يُستخدم كهدف إعادة التوجيه.\n  ",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "تجميع التعبير العادي مرة واحدة عند تحميل الوحدة",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 586,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07155871391296387,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Retourne l'URL de redirection en fonction de la correspondance de l'expression régulière.\n\nArgs:\n    target_url (str): L'URL cible à vérifier.\n\nReturns:\n    str: L'URL de redirection (cible si correspond, sinon URL par défaut).",
+            "location": "Line 8 (docstring)",
+            "category": "docstring",
+            "confidence": 0.02
+          },
+          {
+            "text": "\n    Retourne l'URL de redirection en fonction de la correspondance de l'expression régulière.\n    \n",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Compilé une fois au chargement du module",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Compilé",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "régulière",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "vérifier",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "défaut",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5833333333333334
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 599,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07332968711853027,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.6,
+        "reasoning": "Code shows 60.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7000000000000001
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 644,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07910990715026855,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Verifica se o URL de destino corresponde à expressão regular.\nRetorna o URL de destino se corresponder, caso contrário, retorna o URL padrão.",
+            "location": "Line 10 (docstring)",
+            "category": "docstring",
+            "confidence": 0.03
+          },
+          {
+            "text": "\n    Verifica se o URL de destino corresponde à expressão regular.\n    Retorna o URL de destino se c",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Compila a expressão regular uma vez quando o módulo é carregado",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Exemplo: aceita URLs que começam com 'https://exemplo.com/' seguidos por um caminho opcional",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.01
+          },
+          {
+            "text": "URL padrão para redirecionamento caso o destino não corresponda",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "expressão",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "módulo",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "começam",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "padrão",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "não",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "expressão",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "contrário",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "padrão",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 694,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08161687850952148,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Возвращает URL-адрес перенаправления на основе целевого URL-адреса.\nЕсли целевой URL-адрес соответствует регулярному выражению, он используется в качестве цели перенаправления.\nВ противном случае возвращается URL-адрес по умолчанию.",
+            "location": "Line 6 (docstring)",
+            "category": "docstring",
+            "confidence": 0.81
+          },
+          {
+            "text": "\n    Возвращает URL-адрес перенаправления на основе целевого URL-адреса.\n    Если целевой URL-адрес ",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "Компиляция регулярного выражения один раз при загрузке модуля",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "Используем совпавший URL-адрес как цель перенаправления",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "Если не совпадает, возвращаем URL-адрес по умолчанию",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "id": {
+      "language": "id",
+      "code_length": 509,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07995748519897461,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5666666666666667
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 875,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06822419166564941,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.45,
+        "reasoning": "Code shows 45.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.65
+    },
+    "de": {
+      "language": "de",
+      "code_length": 852,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07962560653686523,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Gibt die Umleitungs-URL basierend auf dem Ziel-URL zurück.\nWenn die Ziel-URL mit einem der regulären Ausdrücke übereinstimmt,\nwird die entsprechende URL verwendet. Andernfalls wird die Standard-URL zurückgegeben.",
+            "location": "Line 13 (docstring)",
+            "category": "docstring",
+            "confidence": 0.02
+          },
+          {
+            "text": "\n    Gibt die Umleitungs-URL basierend auf dem Ziel-URL zurück.\n    Wenn die Ziel-URL mit einem der ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Dictionary mit URLs und zugehörigen regulären Ausdrücken",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "zugehörigen",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "regulären",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Ausdrücken",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "zurück",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "regulären",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Ausdrücke",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "zurückgegeben",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 592,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07441997528076172,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "ターゲットURLが正規表現に一致するかをチェックし、\n一致する場合はその部分を元にリダイレクトURLを構築。\n一致しない場合はデフォルトURLを返す。",
+            "location": "Line 9 (docstring)",
+            "category": "docstring",
+            "confidence": 0.55
+          },
+          {
+            "text": "\n    ターゲットURLが正規表現に一致するかをチェックし、\n    一致する場合はその部分を元にリダイレクトURLを構築。\n    一致しない場合はデフォルトURLを返す。\n    ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.44
+          },
+          {
+            "text": "正規表現をモジュールロード時に1回コンパイル",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.68
+          },
+          {
+            "text": "デフォルトのリダイレクトURL",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "正規表現でマッチした部分（グループ1）を用いてリダイレクトURLを構築",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.57
+          },
+          {
+            "text": "一致しない場合はデフォルトURLを使用",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.53
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 515,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07000041007995605,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.7,
+        "reasoning": "Code shows 70.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7333333333333334
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 530,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07759356498718262,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Trả về URL chuyển hướng dựa trên việc khớp biểu thức chính quy.\nNếu target_url khớp với biểu thức chính quy, trả về target_url.\nNếu không khớp, trả về default_url.",
+            "location": "Line 6 (docstring)",
+            "category": "docstring",
+            "confidence": 0.15
+          },
+          {
+            "text": "\n    Trả về URL chuyển hướng dựa trên việc khớp biểu thức chính quy.\n    Nếu target_url khớp với biể",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.14
+          },
+          {
+            "text": "Biểu thức chính quy được biên dịch một lần khi mô-đun được tải",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.26
+          },
+          {
+            "text": "Biểu",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "thức",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chính",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "biên",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "dịch",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "một",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lần",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mô",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tải",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Trả",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "về",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chuyển",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "hướng",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "dựa",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trên",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "việc",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "khớp",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "biểu",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "thức",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chính",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Nếu",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "khớp",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "với",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "biểu",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "thức",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chính",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "trả",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "về",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Nếu",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "khớp",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "trả",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "về",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "te": {
+      "language": "te",
+      "code_length": 427,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07418942451477051,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6666666666666666
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1507,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.5833604335784912,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5499999999999999
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 337,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07287883758544922,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Düzenli ifadeyi modül yüklendiğinde bir kez derle",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Hedef URL ve varsayılan URL",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Düzenli",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "modül",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "yüklendiğinde",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.15
+          },
+          {
+            "text": "varsayılan",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    }
+  },
+  "generated_at": "2025-11-17T13:10:24.191739"
+}

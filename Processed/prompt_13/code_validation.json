@@ -1,0 +1,922 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_13",
+  "original_prompt": "Generate Python code for the following: The code is a function that takes in an index value and returns the value at that index in the array id_sequence. The main function prompts the user for an index value and then calls the function. The function returns the value at the index in the array id_sequence.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 0,
+    "average_overall_score": 0.23032407407407407,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 291,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1875,
+        "reasoning": "Code shows low semantic overlap (18.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.22916666666666666
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 406,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwspp9v2d.py\", line 10, in main\n    index = int(input(\"\\u8bf7\\u8f93\\u5165\\u7d22\\u5f15\\u503c: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwspp9v2d.py\", line 17, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwspp9v2d.py\", line 14, in main\n    print(\"\\u8bf7\\u8f93\\u5165\\u6709\\u6548\\u7684\\u6574\\u6570\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>\n",
+        "execution_time": 0.7528982162475586,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "请输入索引值: ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "索引 ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": " 处的值是: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.57
+          },
+          {
+            "text": "请输入有效的整数。",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.89
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 409,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1875,
+        "reasoning": "Code shows low semantic overlap (18.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.22916666666666666
+    },
+    "es": {
+      "language": "es",
+      "code_length": 310,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0625,
+        "reasoning": "Code shows low semantic overlap (6.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ingrese un valor de índice: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "El valor en el índice ",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          }
+        ]
+      },
+      "overall_score": 0.1875
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 375,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.25
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 583,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Valeur à l'index ",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 459,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp33t1l150.py\", line 10, in main\n    user_input = int(input(\"\\u09b8\\u09c2\\u099a\\u0995 \\u09ae\\u09be\\u09a8 \\u09a6\\u09bf\\u09a8: \"))\n                     ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp33t1l150.py\", line 17, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp33t1l150.py\", line 14, in main\n    print(\"\\u0985\\u09ac\\u09c8\\u09a7 \\u0987\\u09a8\\u09aa\\u09c1\\u099f! \\u09aa\\u09c2\\u09b0\\u09cd\\u09a3\\u09b8\\u0982\\u0996\\u09cd\\u09af\\u09be \\u09a6\\u09bf\\u09a8\\u0964\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.19040822982788086,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "সূচক অবৈধ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.89
+          },
+          {
+            "text": "সূচক মান দিন: ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.71
+          },
+          {
+            "text": "সূচক ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": " এর মান: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.56
+          },
+          {
+            "text": "অবৈধ ইনপুট! পূর্ণসংখ্যা দিন।",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 496,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0625,
+        "reasoning": "Code shows low semantic overlap (6.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Digite um valor de índice: ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "O valor no índice ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": " é: ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Por favor, insira um número inteiro válido.",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Função principal",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "Função",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "número",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.1875
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 285,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpuy8nx5ey.py\", line 11, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpuy8nx5ey.py\", line 6, in main\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.10359930992126465,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Введите индекс: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "Значение по индексу ",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    },
+    "id": {
+      "language": "id",
+      "code_length": 492,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.20833333333333334
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 489,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp92nt4zhq.py\", line 19, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp92nt4zhq.py\", line 10, in main\n    print(\"\\u0627\\u0646\\u0688\\u06cc\\u06a9\\u0633 \\u0648\\u06cc\\u0644\\u06cc\\u0648 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba:\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.09394431114196777,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "انڈیکس باہر ہے",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "انڈیکس ویلیو درج کریں:",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "انڈیکس ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": " کی قیمت: ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.6
+          },
+          {
+            "text": "براہ کرم ایک صحیح عدد درج کریں",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    },
+    "de": {
+      "language": "de",
+      "code_length": 702,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1875,
+        "reasoning": "Code shows low semantic overlap (18.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Fehler: Der Index liegt außerhalb des gültigen Bereichs.",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Fehler: Bitte geben Sie eine gültige Ganzzahl ein.",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "außerhalb",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "gültigen",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "gültige",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.3958333333333333
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 279,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdp9axkuw.py\", line 11, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdp9axkuw.py\", line 6, in main\n    index = int(input(\"\\u30a4\\u30f3\\u30c7\\u30c3\\u30af\\u30b9\\u5024\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-15: character maps to <undefined>\n",
+        "execution_time": 0.17992115020751953,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1875,
+        "reasoning": "Code shows low semantic overlap (18.8%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "インデックス値を入力してください: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.72
+          },
+          {
+            "text": "インデックス ",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": " の値は ",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          },
+          {
+            "text": " です。",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.22916666666666666
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 678,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3125,
+        "reasoning": "Code shows 31.2% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4375
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 468,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsvphzs0r.py\", line 10, in main\n    user_input = int(input(\"Nh\\u1eadp ch\\u1ec9 m\\u1ee5c: \"))\n                     ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsvphzs0r.py\", line 17, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsvphzs0r.py\", line 14, in main\n    print(\"Vui l�ng nh\\u1eadp m\\u1ed9t s\\u1ed1 nguy�n h\\u1ee3p l\\u1ec7.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 11: character maps to <undefined>\n",
+        "execution_time": 0.09631800651550293,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Nhập chỉ mục: ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Giá trị tại chỉ mục ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": " là: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Vui lòng nhập một số nguyên hợp lệ.",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Giá",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "là",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "lòng",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhập",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "một",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "hợp",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1236,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 458,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmj6t2ooz.py\", line 11, in main\n    index = int(input(\"Dizin de\\u011ferini girin: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u011f' in position 8: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmj6t2ooz.py\", line 18, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmj6t2ooz.py\", line 15, in main\n    print(\"Ge�ersiz giri\\u015f! L�tfen bir tam say\\u0131 girin.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u015f' in position 13: character maps to <undefined>\n",
+        "execution_time": 0.10779452323913574,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.125,
+        "reasoning": "Code shows low semantic overlap (12.5%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Geçersiz dizin!",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "Dizin değerini girin: ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Geçersiz giriş! Lütfen bir tam sayı girin.",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.1
+          },
+          {
+            "text": "Ana işlev",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "işlev",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "değerini",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "giriş",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Lütfen",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "sayı",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.20833333333333334
+    }
+  },
+  "generated_at": "2025-11-17T13:07:03.673766"
+}

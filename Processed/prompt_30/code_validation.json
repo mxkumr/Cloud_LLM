@@ -1,0 +1,1278 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_30",
+  "original_prompt": "Generate Python code for the following: The regular expression matches a string that starts with one or more alphanumeric characters or hyphens followed by a period. The target variable is set to the value of the target query parameter. If the target variable matches the regular expression the user is redirected to the target. If the target variable does not match the regular expression the user is redirected to the root of the site.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 12,
+    "average_overall_score": 0.35376756066411236,
+    "languages_with_errors": [
+      "en",
+      "es",
+      "fr",
+      "bn",
+      "ur"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1081,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.27586206896551724,
+        "reasoning": "Code shows low semantic overlap (27.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.09195402298850575
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 430,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09197854995727539,
+        "output": "/\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10344827586206896,
+        "reasoning": "Code shows low semantic overlap (10.3%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "假设目标变量来自某个查询参数，例如从 URL 中解析得到",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "例如：目标变量 = \"example.com\" 或 \"test-site.org\"",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.17
+          },
+          {
+            "text": "示例目标变量，实际中应从请求中获取",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          },
+          {
+            "text": "定义正则表达式模式",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "匹配以一个或多个字母数字字符或连字符开头，后跟句点的字符串",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.97
+          },
+          {
+            "text": "检查目标变量是否匹配正则表达式",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "匹配成功，重定向到目标",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "不匹配，重定向到站点根目录",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "输出重定向 URL（在实际应用中，这将用于 HTTP 响应头）",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.58
+          },
+          {
+            "text": "URL（在实际应用中，这将用于",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.67
+          }
+        ]
+      },
+      "overall_score": 0.367816091954023
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 622,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0790247917175293,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5172413793103449,
+        "reasoning": "Code shows 51.7% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.8390804597701149
+    },
+    "es": {
+      "language": "es",
+      "code_length": 699,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfogvwxlw.py\", line 3, in <module>\n    from flask import Flask, redirect, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.10879015922546387,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.06896551724137931,
+        "reasoning": "Code shows low semantic overlap (6.9%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Expresión regular para validar el destino",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Obtener el parámetro de consulta 'destino'",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Verificar si el parámetro existe",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Redirigir a raíz si no hay parámetro",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "Validar el destino con la expresión regular",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Redirigir a raíz si no coincide",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Expresión",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "parámetro",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "parámetro",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "raíz",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "parámetro",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "expresión",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "raíz",
+            "location": "Line 23 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.022988505747126436
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 377,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07788443565368652,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.06896551724137931,
+        "reasoning": "Code shows low semantic overlap (6.9%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "تعريف التعبير العادي: سلسلة تبدأ بواحد أو أكثر من الأحرف الأبجدية الرقمية أو الواصلات متبوعة بنقطة",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "التحقق مما إذا كان الهدف يطابق التعبير العادي",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "إعادة توجيه إلى الهدف",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "إعادة توجيه إلى جذر الموقع",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.3563218390804597
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 607,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpet7e4ygc.py\", line 1, in <module>\n    from flask import Flask, request, redirect\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09676456451416016,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10344827586206896,
+        "reasoning": "Code shows low semantic overlap (10.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Expression régulière pour correspondre à une chaîne commençant par un ou plusieurs caractères alphan",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Récupérer le paramètre de requête 'cible'",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "Vérifier si la cible correspond à l'expression régulière",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "régulière",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "chaîne",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "commençant",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "caractères",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "alphanumériques",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.07
+          },
+          {
+            "text": "Récupérer",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "paramètre",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "requête",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Vérifier",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "régulière",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          }
+        ]
+      },
+      "overall_score": 0.034482758620689655
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 583,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyk8f5x2v.py\", line 2, in <module>\n    from flask import Flask, redirect, request\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.0930178165435791,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.06896551724137931,
+        "reasoning": "Code shows low semantic overlap (6.9%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "রেগুলার এক্সপ্রেশন যা এক বা একাধিক বর্ণসংখ্যার অক্ষর বা হাইফেন দিয়ে একটি পিরিয়ড অনুসরণ করে",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "টার্গেট কোয়েরি প্যারামিটার থেকে মান নিন",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "রেগুলার এক্সপ্রেশনের সাথে মেলানো হচ্ছে কিনা তা পরীক্ষা করুন",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "রুটে রিডাইরেক্ট করুন",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "overall_score": 0.022988505747126436
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 562,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08139657974243164,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10344827586206896,
+        "reasoning": "Code shows low semantic overlap (10.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Extrai o valor do parâmetro de consulta 'destino'",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Define a expressão regular: um ou mais caracteres alfanuméricos ou hifens, seguidos por um ponto",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Verifica se o destino corresponde à expressão regular",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "parâmetro",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "expressão",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "alfanuméricos",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          },
+          {
+            "text": "expressão",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.367816091954023
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 921,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08396005630493164,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.06896551724137931,
+        "reasoning": "Code shows low semantic overlap (6.9%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Регулярное выражение: одна или несколько буквенно-цифровых символов или дефисов, за которыми следует",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "Получаем значение целевого параметра из запроса (например, из URL)",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "Проверяем соответствие регулярному выражению",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "Если соответствует — перенаправляем к цели",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "Убираем точку для формирования URL",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "Если не соответствует — перенаправляем в корень сайта",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "Пример использования",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.95
+          },
+          {
+            "text": "target_param = \"example.com.\"  # Должно перенаправить на example.com",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.31
+          },
+          {
+            "text": "target_param = \"invalid@.\"     # Должно перенаправить на корень",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.43
+          }
+        ]
+      },
+      "overall_score": 0.3563218390804597
+    },
+    "id": {
+      "language": "id",
+      "code_length": 624,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0820014476776123,
+        "output": "Redirecting to: /\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1724137931034483,
+        "reasoning": "Code shows low semantic overlap (17.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7241379310344828
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1219,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3793103448275862,
+        "reasoning": "Code shows 37.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4597701149425288
+    },
+    "de": {
+      "language": "de",
+      "code_length": 647,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08551812171936035,
+        "output": "https://www.example.com\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.034482758620689655,
+        "reasoning": "Code shows low semantic overlap (3.4%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Definiere den regulären Ausdruck",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Überprüfe, ob die Zielvariable mit dem regulären Ausdruck übereinstimmt",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "regulären",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "regulären",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.3448275862068966
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 361,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.081298828125,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.06896551724137931,
+        "reasoning": "Code shows low semantic overlap (6.9%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "正規表現: 1 つ以上の英数字またはハイフンで始まり、その後にピリオドが続く文字列",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.51
+          },
+          {
+            "text": "ターゲットが空の場合、ルートにリダイレクト",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          },
+          {
+            "text": "ターゲットが正規表現と一致するかチェック",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.7
+          }
+        ]
+      },
+      "overall_score": 0.3563218390804597
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 480,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08269691467285156,
+        "output": "/example-page-123\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3448275862068966,
+        "reasoning": "Code shows 34.5% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4482758620689655
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 675,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0828554630279541,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.06896551724137931,
+        "reasoning": "Code shows low semantic overlap (6.9%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Biểu thức chính quy: bắt đầu bằng một hoặc nhiều ký tự chữ, số hoặc dấu gạch nối, theo sau là dấu ch",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "Lấy giá trị của tham số truy vấn 'target'",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "Kiểm tra xem target có khớp với biểu thức chính quy không",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "Chuyển hướng đến mục tiêu",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.28
+          },
+          {
+            "text": "Chuyển hướng đến thư mục gốc của trang web",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "Biểu",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "thức",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chính",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "bắt",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "bằng",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "một",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hoặc",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhiều",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "ký",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tự",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chữ",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "hoặc",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "dấu",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "gạch",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nối",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "là",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dấu",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chấm",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Lấy",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "giá",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trị",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "của",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "vấn",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "có",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "khớp",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "với",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "biểu",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "thức",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chính",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "không",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Chuyển",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "hướng",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "mục",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tiêu",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Chuyển",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "hướng",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "thư",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "gốc",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "của",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.3563218390804597
+    },
+    "te": {
+      "language": "te",
+      "code_length": 692,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08947587013244629,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5517241379310345,
+        "reasoning": "Code shows 55.2% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.8505747126436782
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 858,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1319563388824463,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: string)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10344827586206896,
+        "reasoning": "Code shows low semantic overlap (10.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "'hedef' parametresinin değerini al",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Normal ifade: bir veya daha fazla alfasayısal karakter veya kısa çizgiyle başlayan, ardından bir nok",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Eşleşiyorsa hedefe yönlendir",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "Eşleşmiyorsa köke yönlendir",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "değerini",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "alfasayısal",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "kısa",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "başlayan",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "ardından",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Eşleşiyorsa",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.18
+          },
+          {
+            "text": "yönlendir",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Eşleşmiyorsa",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "köke",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "yönlendir",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.367816091954023
+    }
+  },
+  "generated_at": "2025-11-17T13:10:48.940458"
+}

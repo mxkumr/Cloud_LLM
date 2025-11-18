@@ -1,0 +1,873 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_14",
+  "original_prompt": "Generate Python code for the following: The code is a function that takes in an index value and returns the value at that index in the array id_sequence. The function first prompts the user for an index value. The function returns the value at that index in id_sequence.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 9,
+    "average_overall_score": 0.39021164021164023,
+    "languages_with_errors": [
+      "ar",
+      "fr",
+      "bn",
+      "ru",
+      "ur",
+      "ja",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "ja",
+      "mr",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 235,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0472714900970459,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7380952380952381
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 340,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04279685020446777,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "请输入索引值: ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "错误：索引超出范围。",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "错误：请输入一个有效的整数。",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "示例数组",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.5238095238095238
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 251,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04113960266113281,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "अवैध इंडेक्स",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.92
+          }
+        ]
+      },
+      "overall_score": 0.7142857142857143
+    },
+    "es": {
+      "language": "es",
+      "code_length": 284,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04063224792480469,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ingrese un valor de índice: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Índice fuera de rango",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          }
+        ]
+      },
+      "overall_score": 0.5
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 266,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpuvukw2rv.py\", line 10, in <module>\n    get_value_at_index()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpuvukw2rv.py\", line 3, in get_value_at_index\n    index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0642\\u064a\\u0645\\u0629 \\u0627\\u0644\\u0641\\u0647\\u0631\\u0633: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.07988142967224121,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "أدخل قيمة الفهرس: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.78
+          },
+          {
+            "text": "القيمة خارج النطاق",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.89
+          },
+          {
+            "text": "استدعاء الدالة",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          }
+        ]
+      },
+      "overall_score": 0.19047619047619047
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 196,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.19047619047619047
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 659,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5bv18t1n.py\", line 25, in <module>\n    id_sequence_function()\n    ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5bv18t1n.py\", line 6, in id_sequence_function\n    index = int(input(\"\\u09b8\\u09c2\\u099a\\u0995 \\u09ae\\u09be\\u09a8 \\u09a6\\u09bf\\u09a8: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.09091567993164062,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "সূচক মান দিন: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.71
+          },
+          {
+            "text": "সূচক অবৈধ।",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "মান দিন: ",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": "সূচক ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": " এর মান: ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.56
+          },
+          {
+            "text": "মান ",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": " এর সূচক: ",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.6
+          },
+          {
+            "text": "মান অ্যারেতে নেই।",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "একটি উদাহরণ অ্যারে",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "ব্যবহারকারীকে সূচক মান অনুরোধ করা",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "সূচকে মান প্রদান করা",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "বিপরীত সূচক প্রদান করা",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "মান থেকে বিপরীত সূচক খোঁজা",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "ফাংশন কল",
+            "location": "Line 24 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.21428571428571427
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 702,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.044194698333740234,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Digite um valor de índice: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "O índice não pode ser negativo. Tente novamente.",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Entrada inválida. Por favor, digite um número inteiro válido.",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "O índice excede o tamanho da matriz (tamanho: ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "print(f\"Valor no índice: {valor}\")",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "não",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "inválida",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "número",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5238095238095238
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 287,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjxjxcwt9.py\", line 10, in <module>\n    result = get_value_by_index()\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjxjxcwt9.py\", line 3, in get_value_by_index\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.08789181709289551,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Введите индекс: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "Пример массива id_sequence",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.19047619047619047
+    },
+    "id": {
+      "language": "id",
+      "code_length": 336,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04111027717590332,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7142857142857143
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 501,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwz_4uttw.py\", line 15, in <module>\n    print(get_value_from_index())\n          ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwz_4uttw.py\", line 3, in get_value_from_index\n    index_value = int(input(\"\\u0627\\u0646\\u0688\\u06cc\\u06a9\\u0633 \\u0648\\u06cc\\u0644\\u06cc\\u0648 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba: \"))\n                      ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.09400272369384766,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "انڈیکس سرنی کی حدود سے باہر ہے",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "انڈیکس ویلیو درج کریں: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.78
+          },
+          {
+            "text": "اشارہ کریں کہ صارف انڈیکس ویلیو دیں",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "سرنی ID_SECANCE کو تعریف کریں",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.52
+          },
+          {
+            "text": "انڈیکس کی جانچ کریں کہ وہ سرنی کے حدود میں ہے یا نہیں",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.77
+          },
+          {
+            "text": "فنکشن کو کال کریں اور نتیجہ پرنٹ کریں",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "de": {
+      "language": "de",
+      "code_length": 247,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.046062469482421875,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7142857142857143
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 350,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp8e9chx0q.py\", line 12, in <module>\n    result = get_value_at_index()\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp8e9chx0q.py\", line 3, in get_value_at_index\n    index = int(input(\"\\u30a4\\u30f3\\u30c7\\u30c3\\u30af\\u30b9\\u5024\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-15: character maps to <undefined>\n",
+        "execution_time": 0.09976577758789062,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "インデックス値を入力してください: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.72
+          },
+          {
+            "text": "エラー: インデックスが範囲外です。",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": "指定されたインデックスの値: ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "使用例",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.19047619047619047
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 255,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05203413963317871,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "निर्देशांक मूल्य सूचित करा: ",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "अवैध निर्देशांक: निर्देशांक अ‍ॅरेच्या बाहेर आहे.",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          }
+        ]
+      },
+      "overall_score": 0.5238095238095238
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 236,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05623030662536621,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Nhập chỉ mục: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Ví dụ mảng id_sequence",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "Ví",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụ",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "mảng",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.5238095238095238
+    },
+    "te": {
+      "language": "te",
+      "code_length": 492,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.21428571428571427
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 325,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk0if_8bz.py\", line 11, in <module>\n    print(get_value_at_index())\n          ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk0if_8bz.py\", line 3, in get_value_at_index\n    index = int(input(\"Bir indeks de\\u011feri girin: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u011f' in position 13: character maps to <undefined>\n",
+        "execution_time": 0.09394669532775879,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Bir indeks değeri girin: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Örnek dizimiz",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Fonksiyonu çağır ve sonucu yazdır",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "değeri",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.19047619047619047
+    }
+  },
+  "generated_at": "2025-11-17T13:07:24.713769"
+}

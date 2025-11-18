@@ -1,0 +1,548 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_23",
+  "original_prompt": "Generate Python code for the following: Generate three random integers larger than 1000. Print the three integers. Add the three integers and print the result. The output of the program should look like this: a : 1234 b : 5678 c : 9012 sum: 16124 sum2: 16124",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 14,
+    "average_overall_score": 0.4824561403508772,
+    "languages_with_errors": [
+      "hi",
+      "ar",
+      "ur",
+      "ha"
+    ],
+    "languages_with_non_english": [
+      "hi",
+      "ar",
+      "ur"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06094050407409668,
+        "output": "a : 4022 b : 3308 c : 8521 sum: 15851 sum2: 15851\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 228,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0616145133972168,
+        "output": "a : 5013\nb : 7499\nc : 1879\nsum: 14391\nsum2: 14391\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 300,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphucxr4ko.py\", line 12, in <module>\n    print(f\"\\u090f: {a} \\u092c\\u0940: {b} \\u0938\\u0940: {c} \\u092f\\u094b\\u0917: {total} \\u092f\\u094b\\u09172: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u090f' in position 0: character maps to <undefined>\n",
+        "execution_time": 0.08980798721313477,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.42105263157894735,
+        "reasoning": "Code shows 42.1% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "ए: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.33
+          },
+          {
+            "text": " बी: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          },
+          {
+            "text": " सी: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          },
+          {
+            "text": " योग: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.5
+          },
+          {
+            "text": " योग2: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.43
+          }
+        ]
+      },
+      "overall_score": 0.30701754385964913
+    },
+    "es": {
+      "language": "es",
+      "code_length": 198,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.059412240982055664,
+        "output": "a: 6976 b: 3638 c: 1347 suma: 11961 suma2: 11961\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5350877192982456
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 329,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpimodq1je.py\", line 9, in <module>\n    print(f\"\\u0623: {a}\")\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0623' in position 0: character maps to <undefined>\n",
+        "execution_time": 0.08581042289733887,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "أ: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.33
+          },
+          {
+            "text": "ب: ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.33
+          },
+          {
+            "text": "ج: ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.33
+          },
+          {
+            "text": "مجموع: ",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.71
+          },
+          {
+            "text": "مجموع 2: ",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.56
+          },
+          {
+            "text": "إنشاء ثلاثة أعداد صحيحة عشوائية أكبر من 1000",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "طباعة الأعداد الثلاثة",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "جمع الأعداد وطباعة الناتج",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.20175438596491227
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 235,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.058454036712646484,
+        "output": "a : 2596 b : 2033 c : 4651\nsomme : 9280\nsomme2 : 9280\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5350877192982456
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05405402183532715,
+        "output": "a : 5164 b : 8319 c : 4428 sum: 17911 sum2: 17911\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 198,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05744457244873047,
+        "output": "a: 5222 b: 5920 c: 1339 soma: 12481 soma2: 12481\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5350877192982456
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 185,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055651187896728516,
+        "output": "a: 2207 b: 6408 c: 1989 sum: 10604 sum2: 10604\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "id": {
+      "language": "id",
+      "code_length": 215,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.061643362045288086,
+        "output": "a : 5706 b : 2279 c : 6747 jumlah: 14732 jumlah2: 14732\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.10526315789473684,
+        "reasoning": "Code shows low semantic overlap (10.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5350877192982456
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 297,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpt211_qf1.py\", line 12, in <module>\n    print(f\"A: {A} B: {B} C: {C} \\u0631\\u0642\\u0645: {total} SUM2: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 24-26: character maps to <undefined>\n",
+        "execution_time": 0.08273577690124512,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3684210526315789,
+        "reasoning": "Code shows 36.8% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": " رقم: ",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.2894736842105263
+    },
+    "de": {
+      "language": "de",
+      "code_length": 212,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06027078628540039,
+        "output": "a : 7354 b : 6776 c : 1785\nsum: 15915 sum2: 15915\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04893636703491211,
+        "output": "a : 5795 b : 3121 c : 6493 sum: 15409 sum2: 15409\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.051267147064208984,
+        "output": "a : 9183 b : 1748 c : 9036 sum: 19967 sum2: 19967\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04985761642456055,
+        "output": "a : 9533 b : 5798 c : 2197 sum: 17528 sum2: 17528\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "te": {
+      "language": "te",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05234932899475098,
+        "output": "a : 9321 b : 5809 c : 3501 sum: 18631 sum2: 18631\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 482,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2192982456140351
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 188,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10256171226501465,
+        "output": "a : 6587 b : 2662 c : 4751 sum: 14000 sum2: 14000\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15789473684210525,
+        "reasoning": "Code shows low semantic overlap (15.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5526315789473685
+    }
+  },
+  "generated_at": "2025-11-17T13:10:16.584738"
+}

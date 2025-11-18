@@ -1,0 +1,896 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\en.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "allocate_person",
+          "person",
+          "self",
+          "status"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "person",
+          "self",
+          "status"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "allocate_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "age",
+          "name",
+          "person",
+          "self"
+        ],
+        "literals": [
+          "0",
+          "0",
+          "John",
+          "25"
+        ],
+        "variables": [
+          "age",
+          "name",
+          "person",
+          "self"
+        ],
+        "comments": [
+          "Python does not have pointers or manual memory management like C/C++",
+          "However, we can simulate the behavior using classes and object creation",
+          "Allocate memory (create a new Person instance)",
+          "Set the state to 0 (initial state)",
+          "Set the name to \"John\" and age to 25",
+          "Simulate freeing the memory (in Python, this is handled by garbage collector)",
+          "We can explicitly delete the object to free its memory"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\hi.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "allocate_memory",
+          "allocate_person",
+          "memory",
+          "memory_block",
+          "person",
+          "pointer",
+          "position",
+          "self",
+          "size"
+        ],
+        "literals": [
+          "0",
+          "1",
+          "0",
+          "0",
+          "f\"Person allocated at memory location {pointer}",
+          "f\"Person's position: {memory[pointer].position}"
+        ],
+        "variables": [
+          "memory",
+          "memory_block",
+          "person",
+          "pointer",
+          "position",
+          "self",
+          "size"
+        ],
+        "comments": [
+          "Simulate memory allocation by creating a list of the given size",
+          "and return a pointer (index) to the first element",
+          "Allocate memory for a person (size 1)",
+          "Create a Person instance and store it in the memory block",
+          "Return a pointer (index) to the person in the memory block",
+          "Example usage:"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_memory",
+          "allocate_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\es.py",
+      "elements": {
+        "identifiers": [
+          "POINTER",
+          "Persona",
+          "Structure",
+          "_fields_",
+          "asignar_persona",
+          "c_char_p",
+          "c_int",
+          "cast",
+          "contents",
+          "ctypes",
+          "estado",
+          "limpiar_persona",
+          "persona",
+          "persona_ptr",
+          "sizeof"
+        ],
+        "literals": [
+          "nombre",
+          "edad",
+          "estado",
+          "0",
+          "__main__",
+          "f\"Estado de la persona: {persona.contents.estado}"
+        ],
+        "variables": [
+          "POINTER",
+          "Structure",
+          "_fields_",
+          "c_char_p",
+          "c_int",
+          "cast",
+          "contents",
+          "ctypes",
+          "estado",
+          "persona",
+          "persona_ptr",
+          "sizeof"
+        ],
+        "comments": [
+          "Definición de la estructura persona",
+          "Función para asignar memoria para una persona",
+          "Asignar memoria para una persona (sizeof(Persona))",
+          "Inicializar el estado en 0",
+          "Función para limpiar la memoria asignada",
+          "Ejemplo de uso",
+          "Asignar una nueva persona",
+          "Mostrar el estado inicial",
+          "Liberar la memoria asignada"
+        ],
+        "docstrings": [],
+        "functions": [
+          "asignar_persona",
+          "limpiar_persona"
+        ],
+        "classes": [
+          "Persona"
+        ]
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\ar.py",
+      "elements": {
+        "identifiers": [
+          "MemoryError",
+          "Person",
+          "__init__",
+          "age",
+          "allocate_person",
+          "height",
+          "name",
+          "person",
+          "self"
+        ],
+        "literals": [
+          "0",
+          "0.0"
+        ],
+        "variables": [
+          "MemoryError",
+          "age",
+          "height",
+          "name",
+          "person",
+          "self"
+        ],
+        "comments": [
+          "Initialize all attributes to 0 or default values",
+          "Add other attributes as needed",
+          "Allocate memory for a Person object",
+          "Set all attributes to 0 or default values (state is initialized to 0)",
+          "If allocation fails, return None (equivalent to NULL)",
+          "Example usage:",
+          "person = allocate_person()",
+          "if person is not None:",
+          "print(\"Person allocated successfully.\")",
+          "else:",
+          "print(\"Memory allocation failed.\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\fr.py",
+      "elements": {
+        "identifiers": [
+          "CDLL",
+          "POINTER",
+          "Person",
+          "Structure",
+          "_fields_",
+          "allocate_person",
+          "c_char_p",
+          "c_int",
+          "c_void_p",
+          "cast",
+          "contents",
+          "ctypes",
+          "in_dll",
+          "name",
+          "name_ptr",
+          "person_ptr",
+          "set_person_name",
+          "sizeof",
+          "status"
+        ],
+        "literals": [
+          "name",
+          "status",
+          "malloc",
+          "malloc",
+          "0",
+          "b\"John Doe"
+        ],
+        "variables": [
+          "CDLL",
+          "POINTER",
+          "Structure",
+          "_fields_",
+          "c_char_p",
+          "c_int",
+          "c_void_p",
+          "cast",
+          "contents",
+          "ctypes",
+          "in_dll",
+          "name",
+          "name_ptr",
+          "person_ptr",
+          "sizeof",
+          "status"
+        ],
+        "comments": [
+          "Allouer un bloc de mémoire de taille sizeof(Person)",
+          "Allouer mémoire pour la personne",
+          "Mettre le statut à 0",
+          "Appeler set_person_name pour définir le nom de la personne",
+          "Retourner un pointeur vers la personne",
+          "Allouer de la mémoire pour le nom"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_person",
+          "set_person_name"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "age",
+          "allocate_person",
+          "memory_block",
+          "name",
+          "person",
+          "person_memory",
+          "self",
+          "size",
+          "sizef_allocate"
+        ],
+        "literals": [
+          "0",
+          "2",
+          "John Doe",
+          "30",
+          "0",
+          "1",
+          "Person allocated in memory:"
+        ],
+        "variables": [
+          "age",
+          "memory_block",
+          "name",
+          "person",
+          "person_memory",
+          "self",
+          "size"
+        ],
+        "comments": [
+          "Simulating memory allocation by creating a list of zeros",
+          "This is a simplified version of memory allocation",
+          "Allocate memory block for a Person object",
+          "Assuming 2 integers for name and age (simplified)",
+          "Create a new Person instance",
+          "Store the person data in the memory block",
+          "Here we're just storing the data in a simplified way",
+          "Return a pointer to the start of the memory block",
+          "Example usage"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_person",
+          "sizef_allocate"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\pt.py",
+      "elements": {
+        "identifiers": [
+          "POINTER",
+          "Person",
+          "__init__",
+          "c_void_p",
+          "cast",
+          "contents",
+          "ctypes",
+          "person",
+          "person_ptr",
+          "ptr",
+          "pythonapi",
+          "self",
+          "size",
+          "sizeof",
+          "status"
+        ],
+        "literals": [
+          "0",
+          "0"
+        ],
+        "variables": [
+          "POINTER",
+          "c_void_p",
+          "cast",
+          "contents",
+          "ctypes",
+          "person",
+          "person_ptr",
+          "ptr",
+          "pythonapi",
+          "self",
+          "size",
+          "sizeof",
+          "status"
+        ],
+        "comments": [
+          "Função para simular alocação de memória",
+          "Função para simular liberação de memória",
+          "Alocar memória para uma pessoa",
+          "Criar instância da pessoa no bloco de memória alocado",
+          "Definir status como 0 (já é 0 por padrão)",
+          "Imprimir o valor do status",
+          "Liberar a memória alocada"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\ru.py",
+      "elements": {
+        "identifiers": [
+          "POINTER",
+          "Person",
+          "Structure",
+          "_fields_",
+          "allocate_person",
+          "c_byte",
+          "c_int",
+          "cast",
+          "contents",
+          "ctypes",
+          "initialize_person",
+          "person_ptr",
+          "sizeof",
+          "status"
+        ],
+        "literals": [
+          "status",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "POINTER",
+          "Structure",
+          "_fields_",
+          "c_byte",
+          "c_int",
+          "cast",
+          "contents",
+          "ctypes",
+          "person_ptr",
+          "sizeof",
+          "status"
+        ],
+        "comments": [
+          "Добавьте другие поля по необходимости",
+          "Пример инициализации",
+          "Добавьте дополнительную инициализацию по необходимости",
+          "Выделение блока памяти размером sizeof(Person)",
+          "Установка статуса на 0",
+          "Вызов функции инициализации",
+          "Возврат указателя на структуру Person"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_person",
+          "initialize_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\id.py",
+      "elements": {
+        "identifiers": [
+          "Orang",
+          "__init__",
+          "alokasi_memori",
+          "orang",
+          "orang_baru",
+          "self",
+          "status"
+        ],
+        "literals": [
+          "0",
+          "f\"Status orang baru: {orang_baru.status}"
+        ],
+        "variables": [
+          "orang",
+          "orang_baru",
+          "self",
+          "status"
+        ],
+        "comments": [
+          "Contoh penggunaan"
+        ],
+        "docstrings": [],
+        "functions": [
+          "alokasi_memori"
+        ],
+        "classes": [
+          "Orang"
+        ]
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "allocate_memory",
+          "new_person",
+          "person",
+          "self",
+          "size",
+          "status"
+        ],
+        "literals": [
+          "0",
+          "1",
+          "0"
+        ],
+        "variables": [
+          "new_person",
+          "person",
+          "self",
+          "size",
+          "status"
+        ],
+        "comments": [
+          "Create a new Person object and return a pointer to it",
+          "Example usage:",
+          "Allocate memory for a new person",
+          "Set the status of the person to 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_memory"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\de.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "allocate_memory",
+          "memory_block",
+          "person",
+          "person_size",
+          "self",
+          "size",
+          "status"
+        ],
+        "literals": [
+          "0",
+          "1",
+          "0",
+          "f\"Person: status = {person.status}"
+        ],
+        "variables": [
+          "memory_block",
+          "person",
+          "person_size",
+          "self",
+          "size",
+          "status"
+        ],
+        "comments": [
+          "Simuliere Speicherzuweisung",
+          "Speicherblock für eine Person reservieren",
+          "Angenommen, sizeof(person) = 1",
+          "Neue Person erstellen und in den Speicherblock schreiben",
+          "Ausgabe der Person auf dem Bildschirm"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_memory"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\ja.py",
+      "elements": {
+        "identifiers": [
+          "MemoryError",
+          "Person",
+          "__init__",
+          "allocate_person",
+          "ctypes",
+          "person",
+          "self",
+          "status"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "MemoryError",
+          "ctypes",
+          "person",
+          "self",
+          "status"
+        ],
+        "comments": [
+          "Example usage:",
+          "person_ptr = allocate_person()",
+          "if person_ptr is not None:",
+          "print(\"Person allocated successfully with status:\", person_ptr.status)",
+          "else:",
+          "print(\"Memory allocation failed.\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\mr.py",
+      "elements": {
+        "identifiers": [
+          "KeyError",
+          "MemoryAllocator",
+          "MemoryError",
+          "__init__",
+          "allocate",
+          "allocated",
+          "block_size",
+          "enumerate",
+          "free_blocks",
+          "i",
+          "j",
+          "memory",
+          "name",
+          "new_size",
+          "old_size",
+          "old_start",
+          "pop",
+          "reallocate",
+          "self",
+          "size",
+          "start",
+          "total_size"
+        ],
+        "literals": [
+          "0",
+          "0",
+          "0",
+          "f\"Not enough memory to allocate {size} units for {name}",
+          "f\"Name {name} not allocated"
+        ],
+        "variables": [
+          "allocated",
+          "block_size",
+          "free_blocks",
+          "i",
+          "j",
+          "memory",
+          "name",
+          "new_size",
+          "old_size",
+          "old_start",
+          "pop",
+          "self",
+          "size",
+          "start",
+          "total_size"
+        ],
+        "comments": [
+          "name -> (start_index, size)",
+          "(start, size)",
+          "Find a free block that can accommodate the request",
+          "Allocate the block",
+          "Update free blocks",
+          "Initialize memory to 0",
+          "Return pointer (start index)",
+          "If new"
+        ],
+        "docstrings": [],
+        "functions": [
+          "allocate",
+          "reallocate"
+        ],
+        "classes": [
+          "MemoryAllocator"
+        ]
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\vi.py",
+      "elements": {
+        "identifiers": [
+          "MemoryError",
+          "Person",
+          "__init__",
+          "age",
+          "classmethod",
+          "cls",
+          "create_person",
+          "name",
+          "person",
+          "salary",
+          "self"
+        ],
+        "literals": [
+          "0",
+          "0.0"
+        ],
+        "variables": [
+          "MemoryError",
+          "age",
+          "classmethod",
+          "cls",
+          "name",
+          "person",
+          "salary",
+          "self"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "create_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\te.py",
+      "elements": {
+        "identifiers": [
+          "MEMORY_SIZE",
+          "addressof",
+          "create_string_buffer",
+          "ctypes",
+          "i",
+          "memory_block",
+          "pointer",
+          "value"
+        ],
+        "literals": [
+          "10",
+          "0",
+          "Memory block values:",
+          "f\"Memory location {pointer + i}: {value}",
+          "Memory deallocation completed."
+        ],
+        "variables": [
+          "MEMORY_SIZE",
+          "addressof",
+          "create_string_buffer",
+          "ctypes",
+          "i",
+          "memory_block",
+          "pointer",
+          "value"
+        ],
+        "comments": [
+          "Define the size of the memory block for a person",
+          "Example size, can be adjusted as needed",
+          "Allocate memory block for a person",
+          "Initialize the memory block to 0",
+          "Get the starting pointer of the memory block",
+          "Print values from memory block sequentially",
+          "Deallocate memory (Python's garbage collector handles this automatically,",
+          "but if using ctypes, we can explicitly set to None to release)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\ha.py",
+      "elements": {
+        "identifiers": [
+          "append",
+          "daidaitawa",
+          "i"
+        ],
+        "literals": [
+          "1000",
+          "1",
+          "1"
+        ],
+        "variables": [
+          "append",
+          "daidaitawa",
+          "i"
+        ],
+        "comments": [
+          "Hanyar daidaitawa ta ƙwaƙwalwa",
+          "Tarihin daidaitawa ta ƙwaƙwalwa",
+          "Daga 1000 zuwa 0.00, saita matsayinta zuwa 0.00",
+          "A cikin hanyar daidaitawa ta ƙwaƙwalwa, wane daidaitawa ta ƙwaƙwalwa na kungiyar hanyar daidaitawa ta ƙwaƙwalwa"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_3hn4dkax\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Person",
+          "__init__",
+          "__repr__",
+          "age",
+          "allocate_person",
+          "append",
+          "name",
+          "new_person",
+          "person_list",
+          "self",
+          "status"
+        ],
+        "literals": [
+          "0",
+          "0",
+          "f\"Person(name='{self.name}', age={self.age}, status={self.status})"
+        ],
+        "variables": [
+          "age",
+          "append",
+          "name",
+          "new_person",
+          "person_list",
+          "self",
+          "status"
+        ],
+        "comments": [
+          "Durum 0 olarak ayarlanır",
+          "Bellek ayırma yöntemi",
+          "Kişi listesi",
+          "Yeni bir kişiyi tahsis eder ve durumunu 0 olarak ayarlar",
+          "Yeni kişiyi kişi listesinin sonuna ekler",
+          "Yeni kişiye ait verileri ekrana yazdırır"
+        ],
+        "docstrings": [],
+        "functions": [
+          "__repr__",
+          "allocate_person"
+        ],
+        "classes": [
+          "Person"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_4",
+  "original_prompt": "Generate Python code for the following: The user is prompted to enter an index of a vehicle. The user enters an index. The index is converted to an integer. The integer is used to access the array of vehicles. The vehicle at the index is printed.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 1,
+    "average_overall_score": 0.09586056644880175,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 259,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.29411764705882354,
+        "reasoning": "Code shows low semantic overlap (29.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.09803921568627451
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 367,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpgvnqmi_3.py\", line 5, in <module>\n    index_input = input(\"\\u8bf7\\u8f93\\u5165\\u8f66\\u8f86\\u7684\\u7d22\\u5f15: \")\n                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-7: character maps to <undefined>\n",
+        "execution_time": 0.08963274955749512,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.11764705882352941,
+        "reasoning": "Code shows low semantic overlap (11.8%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "请输入车辆的索引: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "错误：索引超出范围！",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "错误：请输入一个有效的整数！",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "索引 ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": " 处的车辆是: ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.62
+          },
+          {
+            "text": "假设车辆数组已定义",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "提示用户输入车辆的索引",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "将输入转换为整数",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "检查索引是否在有效范围内",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.0392156862745098
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 213,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23529411764705882,
+        "reasoning": "Code shows low semantic overlap (23.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.0784313725490196
+    },
+    "es": {
+      "language": "es",
+      "code_length": 629,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Automóvil",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "Camión",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "Avión",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Ingrese el índice de un vehículo: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Error: El índice ingresado no es válido.",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Error: Por favor, ingrese un número entero válido.",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "El vehículo en el índice ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Definimos una lista de vehículos",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Solicitamos al usuario que ingrese un índice",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Convertimos el índice a número entero",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Verificamos si el índice está dentro del rango válido",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "vehículos",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Automóvil",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "Camión",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Avión",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "vehículo",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "número",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "está",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "válido",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "vehículo",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "válido",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "número",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 317,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw75u_qxv.py\", line 4, in <module>\n    index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0641\\u0647\\u0631\\u0633 \\u0627\\u0644\\u0645\\u0631\\u0643\\u0628\\u0629: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw75u_qxv.py\", line 10, in <module>\n    print(\"\\u062e\\u0637\\u0623: \\u064a\\u064f\\u0631\\u062c\\u0649 \\u0625\\u062f\\u062e\\u0627\\u0644 \\u0639\\u062f\\u062f \\u0635\\u062d\\u064a\\u062d!\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>\n",
+        "execution_time": 0.17921233177185059,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.11764705882352941,
+        "reasoning": "Code shows low semantic overlap (11.8%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "أدخل فهرس المركبة: ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "خطأ: الفهرس خارج النطاق!",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "خطأ: يُرجى إدخال عدد صحيح!",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.77
+          },
+          {
+            "text": "المركبة في الفهرس ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": " هي: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          }
+        ]
+      },
+      "overall_score": 0.0392156862745098
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 574,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.058823529411764705,
+        "reasoning": "Code shows low semantic overlap (5.9%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Vélo",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Entrez un index de véhicule (ou 'fin' pour quitter) : ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Véhicule à l'index ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "Vélo",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "véhicule",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Véhicule",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.0196078431372549
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 294,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqk6evlnc.py\", line 5, in <module>\n    index = input(\"\\u0997\\u09be\\u09a1\\u09bc\\u09bf\\u09b0 \\u09b8\\u09c2\\u099a\\u0995 \\u09b2\\u09bf\\u0996\\u09c1\\u09a8: \")\n            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.1975111961364746,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.058823529411764705,
+        "reasoning": "Code shows low semantic overlap (5.9%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "গাড়ির সূচক লিখুন: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "গাড়ি:",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "গাড়ির অ্যারে তৈরি করা হয়েছে",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "ব্যবহারকারীকে সূচক লিখতে অনুরোধ করা হয়",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "সূচক পূর্ণসংখ্যা রূপান্তর করা হয়",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "গাড়ির অ্যারে থেকে সূচকের মান মুদ্রণ করা হয়",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.0196078431372549
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 218,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Caminhão",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "Ônibus",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "Insira um índice de um veículo: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Índice inválido",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.13
+          },
+          {
+            "text": "Caminhão",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "veículo",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "inválido",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 308,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk9fvt9kl.py\", line 4, in <module>\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441 \\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\\u043d\\u043e\\u0433\\u043e \\u0441\\u0440\\u0435\\u0434\\u0441\\u0442\\u0432\\u0430: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk9fvt9kl.py\", line 9, in <module>\n    print(\"\\u041e\\u0448\\u0438\\u0431\\u043a\\u0430: \\u0432\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0446\\u0435\\u043b\\u043e\\u0435 \\u0447\\u0438\\u0441\\u043b\\u043e.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.08410811424255371,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.11764705882352941,
+        "reasoning": "Code shows low semantic overlap (11.8%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Автомобиль",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "Мотоцикл",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "Велосипед",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "Троллейбус",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "Такси",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "Введите индекс транспортного средства: ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.87
+          },
+          {
+            "text": "Ошибка: индекс выходит за пределы массива.",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "Ошибка: введите целое число.",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          }
+        ]
+      },
+      "overall_score": 0.0392156862745098
+    },
+    "id": {
+      "language": "id",
+      "code_length": 589,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.058823529411764705,
+        "reasoning": "Code shows low semantic overlap (5.9%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.35294117647058826
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 312,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpm1kyy_7k.py\", line 5, in <module>\n    index_input = input(\"\\u0628\\u0631\\u0627\\u06c1 \\u06a9\\u0631\\u0645 \\u06af\\u0627\\u0691\\u06cc \\u06a9\\u0627 \\u0627\\u0646\\u0688\\u06cc\\u06a9\\u0633 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba: \")\n                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.1046445369720459,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.058823529411764705,
+        "reasoning": "Code shows low semantic overlap (5.9%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "سیارہ",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "ہونڈا",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "ٹویوٹا",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "میتسو بیشی",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.9
+          },
+          {
+            "text": "نیسان",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "براہ کرم گاڑی کا انڈیکس درج کریں: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.76
+          },
+          {
+            "text": "انڈیکس",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "پر گاڑی:",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "گاڑیوں کی فہرست",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "صارف سے انڈیکس داخل کرنے کو کہیں",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          },
+          {
+            "text": "انڈیکس کو عدد میں تبدیل کریں",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "انڈیکس کے مطابق گاڑی کو پرنٹ کریں",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          }
+        ]
+      },
+      "overall_score": 0.0196078431372549
+    },
+    "de": {
+      "language": "de",
+      "code_length": 628,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.11764705882352941,
+        "reasoning": "Code shows low semantic overlap (11.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Fehler: Der Index liegt außerhalb des gültigen Bereichs.",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Fehler: Bitte geben Sie eine gültige Ganzzahl ein.",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Überprüfen, ob der Index im gültigen Bereich liegt",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "gültigen",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "außerhalb",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "gültigen",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "gültige",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.37254901960784315
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 288,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpch9_1req.py\", line 4, in <module>\n    index = int(input(\"\\u8eca\\u4e21\\u306e\\u30a4\\u30f3\\u30c7\\u30c3\\u30af\\u30b9\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-17: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpch9_1req.py\", line 10, in <module>\n    print(\"\\u30a8\\u30e9\\u30fc: \\u6709\\u52b9\\u306a\\u6574\\u6570\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>\n",
+        "execution_time": 0.11065149307250977,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.11764705882352941,
+        "reasoning": "Code shows low semantic overlap (11.8%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "車両のインデックスを入力してください: ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.7
+          },
+          {
+            "text": "エラー: インデックスが範囲外です。",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": "エラー: 有効な整数を入力してください。",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.55
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "選択された車両: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.44
+          }
+        ]
+      },
+      "overall_score": 0.0392156862745098
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 381,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.29411764705882354,
+        "reasoning": "Code shows low semantic overlap (29.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.09803921568627451
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 338,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0w7ehygt.py\", line 5, in <module>\n    chuoi_ch\\u1ec9_m\\u1ee5c = input(\"Nh\\u1eadp ch\\u1ec9 m\\u1ee5c c\\u1ee7a chi\\u1ebfc xe: \")\n                    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>\n",
+        "execution_time": 0.17703938484191895,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Nhập chỉ mục của chiếc xe: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.19
+          },
+          {
+            "text": "Chỉ số không hợp lệ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.26
+          },
+          {
+            "text": "Danh sách xe",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Nhập chỉ mục từ người dùng",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.27
+          },
+          {
+            "text": "Chuyển đổi chuỗi thành số nguyên",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.22
+          },
+          {
+            "text": "Kiểm tra chỉ mục có hợp lệ không",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.22
+          },
+          {
+            "text": "sách",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "từ",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "người",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "dùng",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chuoi_chỉ_mục",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.15
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "của",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chiếc",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Chuyển",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "chuỗi",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "thành",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "số",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "chỉ_mục",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "chuoi_chỉ_mục",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.15
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "có",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "hợp",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "không",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "chỉ_mục",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "Chỉ",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "không",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "hợp",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1120,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35294117647058826,
+        "reasoning": "Code shows 35.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.11764705882352942
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1504,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07712388038635254,
+        "output": "Current data:\nIndex 0: {'city': 'Kano', 'temperature': 35, 'humidity': 60}\nIndex 1: {'city': 'Lagos', 'temperature': 32, 'humidity': 75}\nIndex 2: {'city': 'Abuja', 'temperature': 28, 'humidity': 55}\nIndex 3: {'city': 'Port Harcourt', 'temperature': 34, 'humidity': 80}\nUpdated index 1 with {'temperature': 33}\nAdded new item: {'city': 'Maiduguri', 'temperature': 36, 'humidity': 50}\nRemoved item: {'city': 'Kano', 'temperature': 35, 'humidity': 60}\nCurrent data:\nIndex 0: {'city': 'Lagos', 'temperature': 33, 'humidity': 75}\nIndex 1: {'city': 'Abuja', 'temperature': 28, 'humidity': 55}\nIndex 2: {'city': 'Port Harcourt', 'temperature': 34, 'humidity': 80}\nIndex 3: {'city': 'Maiduguri', 'temperature': 36, 'humidity': 50}\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.17647058823529413,
+        "reasoning": "Code shows low semantic overlap (17.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.39215686274509803
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 281,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "uçak",
+            "location": "Line 1 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Bir araç indeksi girin: ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Araç bulunamadı",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.13
+          },
+          {
+            "text": "Geçersiz giriş! Lütfen bir tamsayı girin.",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.1
+          },
+          {
+            "text": "uçak",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "araç",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Araç",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "bulunamadı",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "giriş",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Lütfen",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "tamsayı",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.0
+    }
+  },
+  "generated_at": "2025-11-17T13:13:23.493407"
+}

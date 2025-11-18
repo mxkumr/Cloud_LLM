@@ -1,0 +1,994 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_25",
+  "original_prompt": "Generate Python code for the following: The code calls the getMonthlySales function 12 times; once for each month of the year. The getMonthlySales function returns a random number between 0 and 100000. The code adds up the sales for each quarter and prints the results.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 12,
+    "average_overall_score": 0.5864197530864197,
+    "languages_with_errors": [
+      "zh-CN",
+      "ar",
+      "bn",
+      "ru",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 505,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06082963943481445,
+        "output": "Quarterly Sales:\nQuarter 1: $145375\nQuarter 2: $49655\nQuarter 3: $134637\nQuarter 4: $94176\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.746031746031746
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 378,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpy8tw6vru.py\", line 17, in <module>\n    print(f\"\\u7b2c{i+1}\\u5b63\\u5ea6\\u9500\\u552e\\u989d: {quarterly_sales[i]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u7b2c' in position 0: character maps to <undefined>\n",
+        "execution_time": 0.09202051162719727,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "季度销售额: ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.71
+          },
+          {
+            "text": "四个季度的销售额",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "计算当前月属于哪个季度（0-3）",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.69
+          },
+          {
+            "text": "打印每个季度的销售额",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.41269841269841273
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 612,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.2304222583770752,
+        "output": "Q1 Sales: 151917\nQ2 Sales: 150251\nQ3 Sales: 107706\nQ4 Sales: 189520\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7777777777777778
+    },
+    "es": {
+      "language": "es",
+      "code_length": 729,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06212425231933594,
+        "output": "Ventas del primer trimestre: 108144\nVentas del segundo trimestre: 38761\nVentas del tercer trimestre: 97023\nVentas del cuarto trimestre: 179380\nTotal de ventas del a�o: 423308\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Total de ventas del año: ",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "año",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.7301587301587302
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 539,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpd5vafpgh.py\", line 19, in <module>\n    displayQuarterlySales()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpd5vafpgh.py\", line 16, in displayQuarterlySales\n    print(f\"\\u0627\\u0644\\u0631\\u0628\\u0639 {i + 1}: {quarterly_sales[i]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.09262514114379883,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "الربع ",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "لتخزين مبيعات الأرباع الأربعة",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "تحديد الربع (0 لـ يناير-مارس، 1 لـ أبريل-يونيو، إلخ)",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.73
+          },
+          {
+            "text": "طباعة النتائج",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "استدعاء الدالة لعرض مبيعات الأرباع",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.41269841269841273
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 552,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06483602523803711,
+        "output": "Ventes du trimestre 1: 185662\nVentes du trimestre 2: 226771\nVentes du trimestre 3: 123611\nVentes du trimestre 4: 111921\nVentes totales de l'ann�e: 647965\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ventes totales de l'année: ",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Déterminer le trimestre (0-2 pour le 1er, 3-5 pour le 2e, etc.)",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Afficher les résultats",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Déterminer",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "résultats",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "année",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          }
+        ]
+      },
+      "overall_score": 0.746031746031746
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 510,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbnd2ak9a.py\", line 20, in <module>\n    print(f\"\\u09a4\\u09cd\\u09b0\\u09c8\\u09ae\\u09be\\u09b8\\u09bf\\u0995 {i}: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>\n",
+        "execution_time": 0.08774709701538086,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "ত্রৈমাসিক ",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.9
+          },
+          {
+            "text": "বছরের প্রতিটি মাসের জন্য বিক্রয় সংগ্রহ করা",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "প্রতিটি ত্রৈমাসিকের জন্য বিক্রয় যোগ করা",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "ফলাফল প্রিন্ট করা",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.3968253968253968
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 758,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05727219581604004,
+        "output": "Vendas no 1� trimestre: 139731\nVendas no 2� trimestre: 143996\nVendas no 3� trimestre: 192080\nVendas no 4� trimestre: 86427\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Vendas no 1º trimestre: ",
+            "location": "Line 25 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Vendas no 2º trimestre: ",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Vendas no 3º trimestre: ",
+            "location": "Line 27 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Vendas no 4º trimestre: ",
+            "location": "Line 28 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Variáveis para armazenar as vendas por trimestre",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Chama a função getMonthlySales 12 vezes, uma para cada mês",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Variáveis",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "função",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mês",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.7301587301587302
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 426,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpilzob39c.py\", line 16, in <module>\n    print(f\"\\u041a\\u0432\\u0430\\u0440\\u0442\\u0430\\u043b {i+1}: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.07790136337280273,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Общая сумма продаж за год: ",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.78
+          },
+          {
+            "text": "Квартал ",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.88
+          },
+          {
+            "text": "Кварталы: 0, 1, 2, 3",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.4
+          }
+        ]
+      },
+      "overall_score": 0.41269841269841273
+    },
+    "id": {
+      "language": "id",
+      "code_length": 756,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06198835372924805,
+        "output": "Penjualan Kuartal 1: 96562\nPenjualan Kuartal 2: 84622\nPenjualan Kuartal 3: 166085\nPenjualan Kuartal 4: 153378\nTotal Penjualan Tahunan: 500647\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7142857142857143
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 671,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07138776779174805,
+        "output": "Q1 Sales: 99461\nQ2 Sales: 146133\nQ3 Sales: 145290\nQ4 Sales: 102444\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38095238095238093,
+        "reasoning": "Code shows 38.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7936507936507936
+    },
+    "de": {
+      "language": "de",
+      "code_length": 306,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06614899635314941,
+        "output": "Quartal 1: 138644\nQuartal 2: 187791\nQuartal 3: 234584\nQuartal 4: 121724\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7301587301587302
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 43,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06179380416870117,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 459,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08168387413024902,
+        "output": "Quarter 1 sales: 104176\nQuarter 2 sales: 192498\nQuarter 3 sales: 171237\nQuarter 4 sales: 106226\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.746031746031746
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 451,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06644201278686523,
+        "output": "Qu� 1: 144705\nQu� 2: 202967\nQu� 3: 245702\nQu� 4: 135368\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Quý ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Khởi tạo biến để lưu tổng doanh số theo quý",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "Gọi hàm getMonthlySales 12 lần, một lần cho mỗi tháng",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.13
+          },
+          {
+            "text": "Xác định quý (0-3)",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.22
+          },
+          {
+            "text": "In kết quả cho từng quý",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.17
+          },
+          {
+            "text": "Khởi",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tạo",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "biến",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lưu",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tổng",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "số",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "quý",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Gọi",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hàm",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lần",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "một",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lần",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mỗi",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tháng",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Xác",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "quý",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "kết",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "quả",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "từng",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "quý",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Quý",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.746031746031746
+    },
+    "te": {
+      "language": "te",
+      "code_length": 631,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06584787368774414,
+        "output": "Quarter 1 sales: 213378\nQuarter 2 sales: 182024\nQuarter 3 sales: 116976\nQuarter 4 sales: 117460\nAnnual sales: 629838\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.746031746031746
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 696,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwp2rt34u.py\", line 23, in <module>\n    print(f\"{quarters[q]} sat\\u0131\\u015flar\\u0131: {quarter_sales[q]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 13-14: character maps to <undefined>\n",
+        "execution_time": 0.08977150917053223,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Şubat",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Mayıs",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Ağustos",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.14
+          },
+          {
+            "text": "Eylül",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Kasım",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Aralık",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "1. Çeyrek",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "2. Çeyrek",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "3. Çeyrek",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": "4. Çeyrek",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.11
+          },
+          {
+            "text": " satışları: ",
+            "location": "Line 23 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Çeyrek satışları",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.25
+          },
+          {
+            "text": "Her ay için satışları al ve çeyrek toplamlarını güncelle",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "0: 1. çeyrek, 1: 2. çeyrek, 2: 3. çeyrek, 3: 4. çeyrek",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "Sonuçları yazdır",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "Mayıs",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Ağustos",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "Eylül",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Kasım",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Aralık",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "satışları",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "için",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "satışları",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "toplamlarını",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "güncelle",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Sonuçları",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "satışları",
+            "location": "Line 23 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.38095238095238093
+    }
+  },
+  "generated_at": "2025-11-17T13:10:19.692793"
+}

@@ -1,0 +1,966 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_7",
+  "original_prompt": "Generate Python code for the following: There is a function that converts a string to an integer. Command line arguments at index 1 is the second argument passed to the program. Command line argument at index INDEX is the argument at the INDEX specified by the second argument. print function prints the string at INDEX position in the command line arguments to the screen.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 7,
+    "average_overall_score": 0.4694041867954911,
+    "languages_with_errors": [
+      "en",
+      "es",
+      "ar",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ja",
+      "mr",
+      "vi",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "pt",
+      "ru",
+      "de",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1019,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Error: No command line arguments passed\n",
+        "execution_time": 0.03800487518310547,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.6086956521739131,
+        "reasoning": "Code shows 60.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5362318840579711
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 735,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.037667274475097656,
+        "output": "invalid\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "获取命令行参数",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "获取索引 1 处的参数，作为目标索引",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          },
+          {
+            "text": "检查目标索引是否在有效范围内",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "获取目标索引处的字符串",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "尝试将字符串转换为整数",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "判断正负或零",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.5144927536231884
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 610,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03531050682067871,
+        "output": "Usage: python script.py <index> <second_argument>\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.34782608695652173,
+        "reasoning": "Code shows 34.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7826086956521738
+    },
+    "es": {
+      "language": "es",
+      "code_length": 587,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.07102727890014648,
+        "output": "Error: Se requieren al menos dos argumentos en la l�nea de comandos.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Error: Se requieren al menos dos argumentos en la línea de comandos.",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.01
+          },
+          {
+            "text": "Error: El segundo argumento debe ser un número entero.",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "¡Hola Mundo!",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Índice no válido",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "línea",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "válido",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "número",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.36231884057971014
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 568,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.0859382152557373,
+        "output": "Error: Not enough command-line arguments.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2608695652173913,
+        "reasoning": "Code shows low semantic overlap (26.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4202898550724638
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 352,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09219527244567871,
+        "output": "Aucun argument fourni.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.13043478260869565,
+        "reasoning": "Code shows low semantic overlap (13.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7101449275362319
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 655,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.09034872055053711,
+        "output": "Error: Please provide a valid integer as the second argument.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.391304347826087,
+        "reasoning": "Code shows 39.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.463768115942029
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1242,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.08015251159667969,
+        "output": "Erro: O programa deve ser executado com dois argumentos da linha de comando.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.13043478260869565,
+        "reasoning": "Code shows low semantic overlap (13.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erro: O índice ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": " está fora dos limites dos argumentos.",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Obtém o índice do segundo argumento (índice 1)",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "Verifica se o índice está dentro dos limites dos argumentos",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Obtém o argumento na posição INDEX",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.09
+          },
+          {
+            "text": "Imprime o valor do argumento na posição INDEX",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro, multiplicado por 2",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro, multiplicado por 2 e convertido",
+            "location": "Line 29 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro, multiplicado por 2 e convertido",
+            "location": "Line 33 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Obtém",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "está",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "está",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Obtém",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "posição",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "posição",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "posição",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "posição",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "posição",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "posição",
+            "location": "Line 33 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "posição",
+            "location": "Line 33 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          }
+        ]
+      },
+      "overall_score": 0.2101449275362319
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 653,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9_g0h7ax.py\", line 25, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9_g0h7ax.py\", line 18, in main\n    print(\"\\u041e\\u0448\\u0438\\u0431\\u043a\\u0430: \\u0430\\u0440\\u0433\\u0443\\u043c\\u0435\\u043d\\u0442 \\u0441 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441\\u043e\\u043c\", index, \"\\u043d\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.17969846725463867,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Ошибка: аргумент с индексом",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "не существует.",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "Ошибка: второй аргумент должен быть целым числом.",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.84
+          },
+          {
+            "text": "Получаем аргументы командной строки",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "Определяем индекс, который нужно использовать",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "значение по умолчанию",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "Проверяем, существует ли аргумент с указанным индексом",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "Выводим строку с указанным индексом",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          }
+        ]
+      },
+      "overall_score": 0.19565217391304346
+    },
+    "id": {
+      "language": "id",
+      "code_length": 496,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprjpn4zy_.py\", line 10, in <module>\n    argumen_kedua = argumen[1]\n                    ~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.16755461692810059,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.17391304347826086,
+        "reasoning": "Code shows low semantic overlap (17.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3913043478260869
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 940,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08029627799987793,
+        "output": "No command line arguments provided.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.391304347826087,
+        "reasoning": "Code shows 39.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7971014492753623
+    },
+    "de": {
+      "language": "de",
+      "code_length": 687,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08122754096984863,
+        "output": "Fehler: Kein Befehlszeilenargument �bergeben.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 1/2 key terms)",
+        "missing_elements": [
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Fehler: Kein Befehlszeilenargument übergeben.",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": " liegt außerhalb des gültigen Bereichs (0 bis ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "außerhalb",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "gültigen",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.5289855072463768
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 151,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvkuxieqf.py\", line 7, in <module>\n    arg2 = int(sys.argv[1])\n               ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.12573647499084473,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.36231884057971014
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 310,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04395461082458496,
+        "output": "Usage: python script.py <index> <string>\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.17391304347826086,
+        "reasoning": "Code shows low semantic overlap (17.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3913043478260869
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 626,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "L\\u1ed7i: Thi\\u1ebfu \\u0111\\u1ed1i s\\u1ed1 d�ng l\\u1ec7nh.\n",
+        "execution_time": 0.04270029067993164,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Lỗi: Thiếu đối số dòng lệnh.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": "Lỗi: Chỉ số ",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.25
+          },
+          {
+            "text": " nằm ngoài phạm vi đối số dòng lệnh.",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.22
+          },
+          {
+            "text": "Không thể chuyển đổi '",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.23
+          },
+          {
+            "text": "' thành số nguyên.",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "Lỗi: ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": "Không",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "thể",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chuyển",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "thành",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "số",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Lỗi",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Thiếu",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "số",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dòng",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lệnh",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Lỗi",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Lỗi",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Chỉ",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nằm",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "ngoài",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "phạm",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "số",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dòng",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lệnh",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.36231884057971014
+    },
+    "te": {
+      "language": "te",
+      "code_length": 207,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03624391555786133,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6956521739130435
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 535,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04047346115112305,
+        "output": "[10, 40, 30, 40, 50]\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def, string)",
+        "missing_elements": [
+          "def",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.36231884057971014
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 185,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp50u3h6bz.py\", line 7, in <module>\n    index = string_to_int(sys.argv[1])\n                          ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07120251655578613,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "İkinci argümanı (index 1) al",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "INDEX konumundaki argümanı ekrana yazdır",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "argümanı",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "argümanı",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.36231884057971014
+    }
+  },
+  "generated_at": "2025-11-17T13:16:43.605138"
+}

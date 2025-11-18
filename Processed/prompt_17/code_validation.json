@@ -1,0 +1,1370 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_17",
+  "original_prompt": "Generate Python code for the following: The code takes in a number from the user and returns the value at that index in the array.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 2,
+    "average_overall_score": 0.19753086419753085,
+    "languages_with_errors": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 279,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0418856143951416,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7222222222222222
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 411,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2ovywrfi.py\", line 9, in <module>\n    user_input = input(\"\\u8bf7\\u8f93\\u5165\\u4e00\\u4e2a\\u6570\\u5b57\\uff08\\u7d22\\u5f15\\uff09: \")\n                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-10: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2ovywrfi.py\", line 19, in <module>\n    print(\"\\u8bf7\\u8f93\\u5165\\u4e00\\u4e2a\\u6709\\u6548\\u7684\\u6574\\u6570\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-10: character maps to <undefined>\n",
+        "execution_time": 0.08713364601135254,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "索引超出范围",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "请输入一个数字（索引）: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "请输入一个有效的整数。",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.91
+          },
+          {
+            "text": "获取用户输入",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "示例数组，可替换为实际数据",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "调用函数并输出结果",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.3611111111111111
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 565,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpv61fkdwi.py\", line 17, in <module>\n    result = get_value_at_index()\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpv61fkdwi.py\", line 3, in get_value_at_index\n    index = int(input(\"\\u0907\\u0902\\u0921\\u0947\\u0915\\u094d\\u0938 \\u0926\\u0930\\u094d\\u091c \\u0915\\u0930\\u0947\\u0902: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.0836634635925293,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "इंडेक्स पर मान:",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "इंडेक्स दर्ज करें: ",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "त्रुटि:",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "इंडेक्स वैध नहीं है। सरणी का आकार: {}, दिया गया इंडेक्स: {}",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "उपयोगकर्ता से संख्या (इंडेक्स) लें",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "सरणी (लिस्ट) बनाएं",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          },
+          {
+            "text": "इंडेक्स वैधता की जाँच करें",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "इंडेक्स पर मान लौटाएं",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "कोड को चलाएं",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          }
+        ]
+      },
+      "overall_score": 0.3888888888888889
+    },
+    "es": {
+      "language": "es",
+      "code_length": 444,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Introduce un índice: ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "El valor en el índice ",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Leer número del usuario",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Obtener el valor en ese índice de la secuencia de Fibonacci",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "número",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 294,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5qbelci4.py\", line 5, in <module>\n    index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0627\\u0644\\u0641\\u0647\\u0631\\u0633: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.17985200881958008,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "أدخل الفهرس: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.77
+          },
+          {
+            "text": "الفاهرس غير صالح!",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "القيمة في الفهرس ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": " هي: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          },
+          {
+            "text": "المصفوفة المحددة مسبقًا",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "أخذ رقم من المستخدم (الفهرس)",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "التحقق من أن الفهرس صالح",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          }
+        ]
+      },
+      "overall_score": 0.3888888888888889
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 390,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Entrez un index (0 à 999) : ",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "La valeur à l'index ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Demander à l'utilisateur d'entrer un nombre",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Créer un tableau avec les nombres de 1 à 1000",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Vérifier si l'index est valide",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Créer",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Vérifier",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          }
+        ]
+      },
+      "overall_score": 0.027777777777777776
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 302,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptlyaaxqa.py\", line 2, in <module>\n    n = int(input(\"\\u098f\\u0995\\u099f\\u09bf \\u09b8\\u0982\\u0996\\u09cd\\u09af\\u09be \\u09a6\\u09bf\\u09a8: \"))\n            ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n",
+        "execution_time": 0.08673095703125,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "একটি সংখ্যা দিন: ",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.76
+          },
+          {
+            "text": "সূচক অ্যারের সীমার বাইরে।",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.84
+          },
+          {
+            "text": "সূচক ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": " এর মান হল: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.58
+          },
+          {
+            "text": "ব্যবহারকারীর কাছ থেকে সংখ্যা নেয়",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "একটি অ্যারে তৈরি করে",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "সংখ্যাটি সূচক হিসাবে ব্যবহার করে অ্যারের মান প্রদান করে",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 554,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Índice fora do intervalo válido.",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Digite um índice (0 a {}): ",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "O número primo no índice {} é: {}",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.09
+          },
+          {
+            "text": "Gerar matriz com todos os números primos entre 1 e 1000",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Receber entrada do usuário",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Retornar o valor no índice especificado",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "números",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "usuário",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "número",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 301,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0w71mdcr.py\", line 5, in <module>\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.0977938175201416,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Введите индекс: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "Индекс вне диапазона массива.",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "Значение по индексу ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "Заданный массив",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "Получение числа от пользователя",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "Возвращение значения по индексу",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "overall_score": 0.3888888888888889
+    },
+    "id": {
+      "language": "id",
+      "code_length": 590,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3888888888888889
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 486,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpf9odrrb_.py\", line 4, in <module>\n    index = int(input(\"\\u0627\\u0646\\u0688\\u06cc\\u06a9\\u0633 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.09635782241821289,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "انڈیکس درج کریں: ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.76
+          },
+          {
+            "text": "غلط انڈیکس! صرف 0 سے {len(numbers)-1} کے درمیان انڈیکس درج کریں۔",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.56
+          },
+          {
+            "text": "انڈیکس ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": " پر قیمت: ",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.6
+          },
+          {
+            "text": "کوڈ صارف سے ایک نمبر لیتا ہے اور صف میں اس انڈیکس میں قیمت لوٹاتا ہے",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          },
+          {
+            "text": "صارف سے انڈیکس کی قیمت دریافت کریں",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "ایک نمونہ صف بنائیں (آپ اسے اپنی ضرورت کے مطابق تبدیل کر سکتے ہیں)",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.77
+          },
+          {
+            "text": "انڈیکس کی قیمت لوٹائیں (اگر انڈیکس درست ہو)",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          }
+        ]
+      },
+      "overall_score": 0.027777777777777776
+    },
+    "de": {
+      "language": "de",
+      "code_length": 671,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ungültige Eingabe. Bitte geben Sie eine Zahl oder 'q' ein.",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": " liegt außerhalb des gültigen Bereichs (0 bis ",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Überprüfen, ob der Index innerhalb des Arrays liegt",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "außerhalb",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "gültigen",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Ungültige",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.3611111111111111
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 260,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmplom6x7bm.py\", line 9, in <module>\n    index = int(input(\"\\u30a4\\u30f3\\u30c7\\u30c3\\u30af\\u30b9\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-14: character maps to <undefined>\n",
+        "execution_time": 0.10538983345031738,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "インデックスを入力してください: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.76
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "使用例",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.027777777777777776
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 482,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5zmk4bpl.py\", line 3, in <module>\n    print(\"\\u0915\\u0943\\u092a\\u092f\\u093e 5 \\u0938\\u0902\\u0916\\u094d\\u092f\\u093e \\u0926\\u094d\\u092f\\u093e:\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.09239649772644043,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "कृपया 5 संख्या द्या:",
+            "location": "Line 3 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.75
+          },
+          {
+            "text": "निर्देशांक द्या (0 ते 4): ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.62
+          },
+          {
+            "text": "अवैध निर्देशांक! कृपया 0 ते 4 दरम्यानची संख्या द्या.",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.77
+          },
+          {
+            "text": "निर्देशांक ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.91
+          },
+          {
+            "text": " वरील मूल्य: ",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "संख्या ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "वापरकर्त्याकडून अ‍ॅरेमध्ये 5 संख्या घेणे",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "वापरकर्त्याकडून निर्देशांक घेणे",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          },
+          {
+            "text": "निर्देशांक योग्य आहे का ते तपासणे",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "निर्देशांकाच्या जागीली संख्या परत करणे",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          }
+        ]
+      },
+      "overall_score": 0.027777777777777776
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 264,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpgifsliem.py\", line 9, in <module>\n    user_index = int(input(\"Nh\\u1eadp ch\\u1ec9 m\\u1ee5c: \"))\n                     ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>\n",
+        "execution_time": 0.08359551429748535,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Nhập chỉ mục: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Ví dụ sử dụng",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.31
+          },
+          {
+            "text": "Ví",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụ",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "sử",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụng",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Nhập",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.027777777777777776
+    },
+    "te": {
+      "language": "te",
+      "code_length": 331,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyz8fsbz0.py\", line 2, in <module>\n    number = input(\"\\u0c38\\u0c02\\u0c16\\u0c4d\\u0c2f\\u0c28\\u0c41 \\u0c07\\u0c35\\u0c4d\\u0c35\\u0c02\\u0c21\\u0c3f: \")\n             ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.0841667652130127,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "సంఖ్యను ఇవ్వండి: ",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "సూచికను ఇవ్వండి: ",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "సూచిక సరిగా లేదు!",
+            "location": "Line 12 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.82
+          },
+          {
+            "text": "సూచిక ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": " వద్ద విలువ: ",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.69
+          },
+          {
+            "text": "వినియోగదారు నుండి సంఖ్యను పొందండి",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "సూచికను పొందండి",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "సంఖ్యను స్ట్రింగ్‌గా మార్చి, సూచిక వద్ద విలువను అందించండి",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.05555555555555555
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 229,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04247641563415527,
+        "output": "The average is: 30.0\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 945,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpi10lo7wp.py\", line 9, in <module>\n    deger = int(input(f\"{i+1}. de\\u011feri girin (1-10 aras\\u0131nda): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u011f' in position 5: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpi10lo7wp.py\", line 16, in <module>\n    print(\"Ge�ersiz giri\\u015f! L�tfen bir tam say\\u0131 girin.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u015f' in position 13: character maps to <undefined>\n",
+        "execution_time": 0.08585119247436523,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08333333333333333,
+        "reasoning": "Code shows low semantic overlap (8.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": ". indeksindeki değeri: ",
+            "location": "Line 30 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Dizideki hangi indeksteki değeri görmek istiyorsunuz? (0-9 arasında): ",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Lütfen 0 ile 9 arasında bir indeks girin.",
+            "location": "Line 25 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Geçersiz giriş! Lütfen bir tam sayı girin.",
+            "location": "Line 27 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.1
+          },
+          {
+            "text": "Lütfen 1 ile 10 arasında bir sayı girin.",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "Geçersiz giriş! Lütfen bir tam sayı girin.",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.1
+          },
+          {
+            "text": ". değeri girin (1-10 arasında): ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Kullanıcıdan dizinin boyutunu al (10 olacak)",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Diziyi oluştur ve kullanıcıdan değerleri al",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.09
+          },
+          {
+            "text": "Kullanıcıdan dizin al",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "İlgili indeksteki değeri döndür",
+            "location": "Line 29 (comment)",
+            "category": "comment",
+            "confidence": 0.13
+          },
+          {
+            "text": "Kullanıcıdan",
+            "location": "Line 1 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "oluştur",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "kullanıcıdan",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "değerleri",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "değeri",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "arasında",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Lütfen",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "arasında",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "sayı",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "giriş",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Lütfen",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "sayı",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Kullanıcıdan",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "değeri",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "görmek",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "arasında",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Lütfen",
+            "location": "Line 25 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "arasında",
+            "location": "Line 25 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "giriş",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Lütfen",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "sayı",
+            "location": "Line 27 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "değeri",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "döndür",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "değeri",
+            "location": "Line 30 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.027777777777777776
+    }
+  },
+  "generated_at": "2025-11-17T13:09:17.848278"
+}

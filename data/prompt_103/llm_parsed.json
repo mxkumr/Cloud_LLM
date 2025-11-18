@@ -1,0 +1,1008 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\en.py",
+      "elements": {
+        "identifiers": [
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_RDWR",
+          "O_TRUNC",
+          "O_WRONLY",
+          "SEEK_END",
+          "close",
+          "content",
+          "decode",
+          "fd",
+          "lseek",
+          "open",
+          "os",
+          "read",
+          "remove",
+          "write"
+        ],
+        "literals": [
+          "example.txt",
+          "b'Hello, world!\\n",
+          "example.txt",
+          "1024",
+          "example.txt",
+          "b'Additional content\\n",
+          "0",
+          "b'Appended content\\n",
+          "example.txt",
+          "b'New file content\\n",
+          "File already exists, O_EXCL prevented creation.",
+          "example.txt"
+        ],
+        "variables": [
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_RDWR",
+          "O_TRUNC",
+          "O_WRONLY",
+          "SEEK_END",
+          "close",
+          "content",
+          "decode",
+          "fd",
+          "lseek",
+          "open",
+          "os",
+          "read",
+          "remove",
+          "write"
+        ],
+        "comments": [
+          "Example of using open() with various flags",
+          "Note: In Python, os.open() is used for low-level file operations with flags",
+          "The flags are defined in the os module",
+          "Create a new file or open an existing one (O_CREAT)",
+          "Truncate if it already exists (O_TRUNC)",
+          "Write-only access (O_WRONLY)",
+          "Write some data",
+          "Close the file descriptor",
+          "Open for reading only (O_RDONLY)",
+          "Close the file descriptor",
+          "Open for reading and writing (O_RDWR)",
+          "Move to the end of the file",
+          "Append to the file (O_APPEND)",
+          "Close the file descriptor",
+          "Try to create a file with O_EXCL (will fail if file exists)",
+          "Clean up"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "fd",
+          "flags",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "example.txt",
+          "文件 'example.txt' 创建成功并打开用于写入。",
+          "b\"Hello, world!\\n",
+          "文件 'example.txt' 已存在，创建失败。"
+        ],
+        "variables": [
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "fd",
+          "flags",
+          "open",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "使用 os.open() 函数，结合指定的标志创建或打开文件",
+          "O_CREAT: 创建文件（如果不存在）",
+          "O_TRUNC: 截断文件为0字节（如果存在）",
+          "O_WRONLY: 仅写入模式",
+          "O_EXCL: 如果文件已存在则失败",
+          "组合标志",
+          "打开文件，如果文件已存在则会失败",
+          "写入内容",
+          "关闭文件"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\hi.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "example.txt",
+          "File created and opened successfully.",
+          "File already exists. O_EXCL flag prevented creation.",
+          "f\"An error occurred: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "Open a file with specified flags",
+          "O_CREAT: Create the file if it doesn't exist",
+          "O_TRUNC: Truncate the file to zero bytes if it exists",
+          "O_WRONLY: Open for writing only",
+          "O_EXCL: Fail if the file already exists",
+          "Using os.open with the specified flags",
+          "Close the file descriptor"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\es.py",
+      "elements": {
+        "identifiers": [
+          "Este",
+          "Exception",
+          "FileExistsError",
+          "O_APPEND",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "contenido",
+          "crear_unico_archivo_ruta",
+          "e",
+          "encode",
+          "escribir_al_final",
+          "fd",
+          "open",
+          "os",
+          "ruta",
+          "texto",
+          "truncar_y_escribir",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "f\"Archivo creado exitosamente: {ruta}",
+          "f\"El archivo ya existe: {ruta}",
+          "f\"Error al crear el archivo: {e}",
+          "utf-8",
+          "f\"Contenido agregado al final del archivo: {ruta}",
+          "f\"Error al escribir al final del archivo: {e}",
+          "utf-8",
+          "f\"Archivo truncado y escrito: {ruta}",
+          "f\"Error al truncar y escribir en el archivo: {e}",
+          "__main__",
+          "ejemplo.txt",
+          "Este es el contenido inicial.\\n"
+        ],
+        "variables": [
+          "Este",
+          "Exception",
+          "FileExistsError",
+          "O_APPEND",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "contenido",
+          "e",
+          "encode",
+          "escribir_al_final",
+          "fd",
+          "open",
+          "os",
+          "ruta",
+          "texto",
+          "write"
+        ],
+        "comments": [
+          "Usamos os.open con O_CREAT | O_EXCL | O_WRONLY",
+          "Ejemplos de uso:"
+        ],
+        "docstrings": [
+          "\r\n    Crea un archivo solo si no existe, y escribe contenido en él.\r\n    Si el archivo ya existe, lanza una excepción.\r\n    ",
+          "\r\n    Abre un archivo para escribir y coloca el puntero al final.\r\n    Si el archivo no existe, lo crea.\r\n    ",
+          "\r\n    Abre un archivo para escribir, trunca a 0 bytes si existe, y escribe contenido.\r\n    Si no existe, lo crea.\r\n    "
+        ],
+        "functions": [
+          "crear_unico_archivo_ruta",
+          "escribir_al_final",
+          "truncar_y_escribir"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_WRONLY",
+          "close",
+          "create_unique_file",
+          "e",
+          "fd",
+          "filename",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "f\"تم إنشاء الملف '{filename}' بنجاح.",
+          "f\"الملف '{filename}' موجود بالفعل. لا يمكن إنشاؤه.",
+          "f\"حدث خطأ أثناء إنشاء الملف: {e}",
+          "example.txt"
+        ],
+        "variables": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "filename",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "استخدام os.open() لفتح الملف بعلامات O_CREAT, O_WRONLY, O_EXCL",
+          "O_CREAT: إنشاء الملف إذا لم يكن موجودًا",
+          "O_WRONLY: فتح الملف للكتابة فقط",
+          "O_EXCL: الفشل إذا كان الملف موجودًا بالفعل (ضمان عدم التكرار)",
+          "إغلاق المعرف بعد الإنشاء",
+          "مثال على الاستخدام"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_unique_file"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\fr.py",
+      "elements": {
+        "identifiers": [
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "create_or_open_file",
+          "fd",
+          "filename",
+          "flags",
+          "mode",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "0o600"
+        ],
+        "variables": [
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "fd",
+          "filename",
+          "flags",
+          "mode",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "O_CREAT : créer le fichier s'il n'existe pas",
+          "O_TRUNC : tronquer le fichier à 0 octets s'il existe déjà",
+          "O_WRONLY : ouvrir en écriture uniquement",
+          "O_EXCL : échouer si le fichier existe déjà",
+          "Mode binaire : 'b' est inclus dans le mode d'ouverture",
+          "Permissions 0o600 : lecture et écriture pour le propriétaire uniquement",
+          "Permissions : rw------- pour le propriétaire"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_or_open_file"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "file_path",
+          "flags",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "example.txt",
+          "f\"File '{file_path}' created and opened successfully.",
+          "f\"File '{file_path}' already exists. O_EXCL flag prevented creation.",
+          "f\"An error occurred: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "file_path",
+          "flags",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "Open a file with specific flags",
+          "O_CREAT: Create the file if it doesn't exist",
+          "O_TRUNC: Truncate the file to zero length if it exists",
+          "O_WRONLY: Open for writing only",
+          "O_EXCL: Fail if the file already exists",
+          "Using os.open() with the specified flags"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\pt.py",
+      "elements": {
+        "identifiers": [
+          "O_CLOEXEC",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "fd",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "arquivo.txt",
+          "b\"Conteúdo do arquivo\\n"
+        ],
+        "variables": [
+          "O_CLOEXEC",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "fd",
+          "open",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "Criar um novo arquivo ou abrir um existente, com exclusividade e apenas para escrita",
+          "Se o arquivo já existir, a operação falhará (O_EXCL)",
+          "Se o arquivo não existir, será criado (O_CREAT)",
+          "O arquivo será truncado para 0 bytes se já existir (O_TRUNC)",
+          "O arquivo será aberto apenas para escrita (O_WRONLY)",
+          "O descritor de arquivo será fechado automaticamente ao executar um novo programa (O_CLOEXEC)",
+          "Escrever dados no arquivo",
+          "Fechar o descritor de arquivo"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\ru.py",
+      "elements": {
+        "identifiers": [
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_WRONLY",
+          "close",
+          "create_unique_file",
+          "data",
+          "decode",
+          "delete_file",
+          "encode",
+          "fd",
+          "filename",
+          "flags",
+          "open",
+          "os",
+          "read",
+          "read_file",
+          "unlink",
+          "write"
+        ],
+        "literals": [
+          "1024"
+        ],
+        "variables": [
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_WRONLY",
+          "close",
+          "data",
+          "decode",
+          "encode",
+          "fd",
+          "filename",
+          "flags",
+          "open",
+          "os",
+          "read",
+          "unlink",
+          "write"
+        ],
+        "comments": [
+          "Определяем флаги: создать файл, если не существует, сбой если уже существует, только для записи",
+          "Открываем файл, получаем дескриптор",
+          "Записываем данные в файл",
+          "Закрываем дескриптор файла",
+          "Открываем файл только для чтения",
+          "Читаем данные из файла",
+          "Закрываем дескриптор файла",
+          "Удаляем файл"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_unique_file",
+          "delete_file",
+          "read_file"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\id.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "close_file",
+          "data",
+          "decode",
+          "encode",
+          "fd",
+          "filename",
+          "flags",
+          "lseek",
+          "lseek_file",
+          "offset",
+          "open",
+          "open_file",
+          "os",
+          "read",
+          "read_from_file",
+          "size",
+          "unlink",
+          "unlink_file",
+          "whence",
+          "write",
+          "write_to_file"
+        ],
+        "literals": [],
+        "variables": [
+          "close",
+          "data",
+          "decode",
+          "encode",
+          "fd",
+          "filename",
+          "flags",
+          "lseek",
+          "offset",
+          "open",
+          "os",
+          "read",
+          "size",
+          "unlink",
+          "whence",
+          "write"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "close_file",
+          "lseek_file",
+          "open_file",
+          "read_from_file",
+          "unlink_file",
+          "write_to_file"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\ur.py",
+      "elements": {
+        "identifiers": [
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "create_and_write_file",
+          "fd",
+          "filename",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "b\"Hello, World!",
+          "example.txt"
+        ],
+        "variables": [
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "fd",
+          "filename",
+          "open",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "Open the file with O_WRONLY, O_CREAT, O_EXCL, and O_TRUNC flags",
+          "O_WRONLY: Open for writing only",
+          "O_CREAT: Create the file if it does not exist",
+          "O_EXCL: Fail if the file already exists",
+          "O_TRUNC: Truncate the file to zero length if it exists",
+          "Write \"Hello, World!\" to the file",
+          "Close the file",
+          "Example usage"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_and_write_file"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\de.py",
+      "elements": {
+        "identifiers": [
+          "OSError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "fd",
+          "filename",
+          "flags",
+          "open",
+          "open_file",
+          "os",
+          "os_flags"
+        ],
+        "literals": [
+          "0",
+          "0o1000",
+          "0o2000",
+          "0o200",
+          "0o4000",
+          "1"
+        ],
+        "variables": [
+          "OSError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "fd",
+          "filename",
+          "flags",
+          "open",
+          "os",
+          "os_flags"
+        ],
+        "comments": [
+          "Übersetze die Flags in die entsprechenden os.open-Flags",
+          "O_CREAT",
+          "O_TRUNC",
+          "O_WRONLY",
+          "O_EXCL",
+          "Öffne die Datei"
+        ],
+        "docstrings": [
+          "\r\n    Erstellt eine neue Datei oder öffnet eine vorhandene Datei mit den angegebenen Flags.\r\n    \r\n    Args:\r\n        filename (str): Der Name der Datei.\r\n        flags (int): Die Flags, die die Öffnungseigenschaften steuern.\r\n    \r\n    Returns:\r\n        int: Der Dateideskriptor, falls erfolgreich, sonst -1.\r\n    "
+        ],
+        "functions": [
+          "open_file"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\ja.py",
+      "elements": {
+        "identifiers": [
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_WRONLY",
+          "create_unique_file",
+          "fd",
+          "filename",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "f\"File '{filename}' already exists."
+        ],
+        "variables": [
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_WRONLY",
+          "fd",
+          "filename",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "O_CREAT | O_EXCL | O_WRONLY の組み合わせでファイルを開く",
+          "O_TRUNC は不要（O_EXCL が既存ファイルを許可しないため）"
+        ],
+        "docstrings": [
+          "既存のファイルが存在する場合はエラーを発生させ、そうでなければ新しいファイルを作成して書き込み専用で開く"
+        ],
+        "functions": [
+          "create_unique_file"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\mr.py",
+      "elements": {
+        "identifiers": [
+          "file",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "/tmp/test.txt",
+          "w",
+          "Hello, World!"
+        ],
+        "variables": [
+          "file",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "फाइल तयार करणे आणि त्यात लिहिणे"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\vi.py",
+      "elements": {
+        "identifiers": [
+          "O_APPEND",
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_TRUNC",
+          "O_WRONLY",
+          "fd",
+          "filename",
+          "flags",
+          "mode",
+          "open",
+          "open_file",
+          "os"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "O_APPEND",
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_TRUNC",
+          "O_WRONLY",
+          "fd",
+          "filename",
+          "flags",
+          "mode",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "Chuyển đổi cờ thành các hằng số phù hợp với Python",
+          "Mở tệp với các cờ đã chọn"
+        ],
+        "docstrings": [
+          "\r\n    Hàm mở hoặc tạo tệp với các cờ tùy chọn.\r\n    \r\n    Các cờ:\r\n    - O_CREAT: Tạo tệp nếu không tồn tại.\r\n    - O_TRUNC: Cắt tệp thành 0 byte nếu tồn tại.\r\n    - O_WRONLY: Mở để ghi.\r\n    - O_EXCL: Không thành công nếu tệp đã tồn tại.\r\n    - O_APPEND: Ghi vào cuối tệp.\r\n    - O_RDONLY: Mở để đọc.\r\n    \r\n    Args:\r\n        filename (str): Tên tệp.\r\n        flags (int): Các cờ được sử dụng (kết hợp các cờ).\r\n    \r\n    Returns:\r\n        int: Số hiệu file descriptor.\r\n    "
+        ],
+        "functions": [
+          "open_file"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\te.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "newfile.txt",
+          "File created successfully and opened for writing.",
+          "File already exists. Cannot create a new file with O_EXCL.",
+          "f\"An error occurred: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "Open a new file for writing only, creating it if it doesn't exist,",
+          "and failing if it already exists (exclusive creation)",
+          "This combines O_CREAT, O_EXCL, and O_WRONLY flags"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\ha.py",
+      "elements": {
+        "identifiers": [
+          "FileExistsError",
+          "O_APPEND",
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_RDWR",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "data",
+          "decode",
+          "fd",
+          "open",
+          "os",
+          "read",
+          "write"
+        ],
+        "literals": [
+          "example.txt",
+          "b'Hello, world!\\n",
+          "example.txt",
+          "1024",
+          "example.txt",
+          "b'Appended text.\\n",
+          "example.txt",
+          "b'New content.\\n",
+          "File already exists, O_EXCL prevented creation.",
+          "example.txt",
+          "b'Updated content.\\n"
+        ],
+        "variables": [
+          "FileExistsError",
+          "O_APPEND",
+          "O_CREAT",
+          "O_EXCL",
+          "O_RDONLY",
+          "O_RDWR",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "data",
+          "decode",
+          "fd",
+          "open",
+          "os",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Example usage of file creation and manipulation with various flags",
+          "Note: This is a simplified example to demonstrate the use of flags in Python",
+          "Python's built-in open() function does not directly use the same flags as C's open()",
+          "but we can use os.open() for more control",
+          "Create a new file or truncate an existing one",
+          "Write data to the file",
+          "Close the file descriptor",
+          "Open the file for reading",
+          "Read data from the file",
+          "Close the file descriptor",
+          "Example of using O_APPEND to append data",
+          "Example of using O_EXCL to ensure file creation fails if it already exists",
+          "Example of using O_RDWR for read-write access"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_6y9eums9\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "create_unique_file",
+          "e",
+          "fd",
+          "filename",
+          "open",
+          "os",
+          "truncate_and_write_file"
+        ],
+        "literals": [
+          "f\"Dosya başarıyla oluşturuldu: {filename}",
+          "f\"Dosya zaten mevcut: {filename}",
+          "f\"Hata oluştu: {e}",
+          "f\"Dosya başarıyla oluşturuldu veya temizlendi: {filename}",
+          "f\"Hata oluştu: {e}",
+          "test.txt",
+          "test2.txt"
+        ],
+        "variables": [
+          "Exception",
+          "FileExistsError",
+          "O_CREAT",
+          "O_EXCL",
+          "O_TRUNC",
+          "O_WRONLY",
+          "close",
+          "e",
+          "fd",
+          "filename",
+          "open",
+          "os"
+        ],
+        "comments": [
+          "Dosyayı yalnızca yazmak için aç, dosya mevcut değilse oluştur, mevcutsa hata ver",
+          "Dosyayı yalnızca yazmak için aç, dosya mevcut değilse oluştur, mevcutsa içeriğini temizle",
+          "Kullanım örnekleri"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_unique_file",
+          "truncate_and_write_file"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

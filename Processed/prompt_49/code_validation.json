@@ -1,0 +1,1249 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_49",
+  "original_prompt": "Generate Python code for the following: Open the archive. zip file as a tarfile. Unzip all the files from the archive to the /tmp/unpack directory.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 3,
+    "average_overall_score": 0.3664021164021164,
+    "languages_with_errors": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "ha",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "ar",
+      "fr",
+      "pt",
+      "ru",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 670,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08476924896240234,
+        "output": "Error: [Errno 2] No such file or directory: 'archive.zip'\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.6428571428571429,
+        "reasoning": "Code shows 64.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7142857142857143
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 831,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpzjhrsn71.py\", line 15, in <module>\n    print(f\"\\u9519\\u8bef\\uff1a\\u6587\\u4ef6 {archive_path} \\u4e0d\\u5b58\\u5728\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.10966944694519043,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.42857142857142855,
+        "reasoning": "Code shows 42.9% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "错误：文件 ",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": " 不存在。",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.6
+          },
+          {
+            "text": "ZIP 文件解压成功。",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.55
+          },
+          {
+            "text": "TAR 文件解压成功。",
+            "location": "Line 27 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.55
+          },
+          {
+            "text": "解压失败：",
+            "location": "Line 31 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.8
+          },
+          {
+            "text": "错误：文件 ",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.67
+          },
+          {
+            "text": " 不是有效的 ZIP 或 TAR 文件。",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.4
+          },
+          {
+            "text": "定义路径",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "创建目标目录（如果不存在）",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "检查文件是否存在",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "检查是否为 ZIP 文件",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.58
+          },
+          {
+            "text": "检查是否为 TAR 文件",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 0.58
+          }
+        ]
+      },
+      "overall_score": 0.30952380952380953
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 498,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp3gyzu0tb.py\", line 12, in <module>\n    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'collection.zip'\n",
+        "execution_time": 0.1192023754119873,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "es": {
+      "language": "es",
+      "code_length": 584,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp98om6jum.py\", line 19, in <module>\n    extract_tar_zip(file_path, extract_to)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp98om6jum.py\", line 6, in extract_tar_zip\n    raise FileNotFoundError(f\"El archivo {file_path} no existe.\")\nFileNotFoundError: El archivo archivo.zip no existe.\n",
+        "execution_time": 0.09620213508605957,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.28571428571428575
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 731,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkvn1e2mf.py\", line 14, in <module>\n    with tarfile.open(archive_path, 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.tar.gz'\n",
+        "execution_time": 0.13319087028503418,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "الحجم الكلي للملفات: ",
+            "location": "Line 27 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "مسار الأرشيف",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "تأكد من تغييره إلى مسار ملفك الحقيقي",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "الدليل الذي سيتم فك الضغط إليه",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "التأكد من وجود الدليل",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "فتح الأرشيف وفك ضغطه",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "حساب الحجم الكلي للملفات المضمنة بالبايت",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "تحويل الحجم إلى كيلوبايت (1 كيلوبايت = 1024 بايت)",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 0.67
+          },
+          {
+            "text": "طباعة الحجم الكلي بالكيلوبايت",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "overall_score": 0.28571428571428575
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 468,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp1dhos7_5.py\", line 6, in <module>\n    with zipfile.ZipFile('archive.zip', 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.10024499893188477,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.42857142857142855,
+        "reasoning": "Code shows 42.9% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Supprimer le répertoire /tmp/unpack",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "répertoire",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.30952380952380953
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 426,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5u75xdl_.py\", line 12, in <module>\n    with tarfile.open(zip_file_path, 'r') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1858, in open\n    return func(name, \"r\", fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'path_to_your_file.zip'\n",
+        "execution_time": 0.09140992164611816,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 826,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09429574012756348,
+        "output": "Ocorreu um erro inesperado: [Errno 2] No such file or directory: 'arquivo.zip'\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Arquivos extraídos com sucesso.",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Erro: O arquivo ZIP está corrompido ou não é um arquivo ZIP válido.",
+            "location": "Line 21 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Erro: Permissão negada para acessar o arquivo ou diretório.",
+            "location": "Line 23 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Diretório de destino",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Criar o diretório de destino se não existir",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Extrair todos os arquivos para o diretório /tmp/unpack",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Diretório",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "diretório",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "não",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "diretório",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "extraídos",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "está",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "não",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "válido",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Permissão",
+            "location": "Line 23 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "diretório",
+            "location": "Line 23 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.5952380952380952
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1128,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqz2op_b4.py\", line 14, in <module>\n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.10463166236877441,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.42857142857142855,
+        "reasoning": "Code shows 42.9% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Список файлов в /tmp/unpack:",
+            "location": "Line 35 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.46
+          },
+          {
+            "text": "Не найден tar-файл для разархивирования.",
+            "location": "Line 32 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.78
+          },
+          {
+            "text": "Убедимся, что каталог /tmp/unpack существует",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.64
+          },
+          {
+            "text": "Путь к zip-файлу",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          },
+          {
+            "text": "Открываем zip-файл",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.72
+          },
+          {
+            "text": "Извлекаем все файлы в каталог /tmp/unpack",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.61
+          },
+          {
+            "text": "Теперь открываем извлечённый файл как tar-файл",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "Предполагается, что внутри zip-файла есть один tar-файл",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.73
+          },
+          {
+            "text": "Найдём первый файл в /tmp/unpack, который может быть tar-файлом",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          },
+          {
+            "text": "Разархивируем tar-файл в /tmp/unpack",
+            "location": "Line 28 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "Выводим список всех файлов в /tmp/unpack",
+            "location": "Line 34 (comment)",
+            "category": "comment",
+            "confidence": 0.6
+          }
+        ]
+      },
+      "overall_score": 0.30952380952380953
+    },
+    "id": {
+      "language": "id",
+      "code_length": 792,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08962726593017578,
+        "output": "Tidak ditemukan file zip yang berisi file dengan nama mengandung 'data'\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5952380952380952
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1318,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpssjypc6j.py\", line 34, in <module>\n    extract_and_zip_documents()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpssjypc6j.py\", line 17, in extract_and_zip_documents\n    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'secure_documents.zip'\n",
+        "execution_time": 0.1260356903076172,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "de": {
+      "language": "de",
+      "code_length": 364,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpgck51_42.py\", line 12, in <module>\n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.10155677795410156,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Öffnen der ZIP-Datei und Entpacken aller Dateien",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          }
+        ]
+      },
+      "overall_score": 0.2619047619047619
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 812,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp8c2gvf5o.py\", line 12, in <module>\n    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.1035315990447998,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "入力のzipファイルと出力のtarファイルのパス",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.58
+          },
+          {
+            "text": "1. zipファイルを解凍してtarfileとして保存",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.37
+          },
+          {
+            "text": "解凍先ディレクトリを作成",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.58
+          },
+          {
+            "text": "zip内のすべてのファイルを解凍",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          },
+          {
+            "text": "2. 解凍されたファイルを再びzipファイルとして保存",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.59
+          },
+          {
+            "text": "ディレクトリの相対パスを保持",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 0.71
+          },
+          {
+            "text": "3. 解凍ディレクトリを削除",
+            "location": "Line 27 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "4. 元のzipファイルを削除",
+            "location": "Line 30 (comment)",
+            "category": "comment",
+            "confidence": 0.4
+          },
+          {
+            "text": "zipファイルを解凍してtarfileとして保存",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.42
+          },
+          {
+            "text": "zip内のすべてのファイルを解凍",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.62
+          }
+        ]
+      },
+      "overall_score": 0.3333333333333333
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 512,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpy_9d5vwr.py\", line 5, in <module>\n    with tarfile.open('archive.zip', 'r') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1858, in open\n    return func(name, \"r\", fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.11124706268310547,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.6428571428571429,
+        "reasoning": "Code shows 64.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.38095238095238093
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 888,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmppylijc3g.py\", line 23, in <module>\n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.10540056228637695,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.42857142857142855,
+        "reasoning": "Code shows 42.9% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Kiểm tra và tạo thư mục /tmp/unpack nếu chưa tồn tại",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.17
+          },
+          {
+            "text": "Xóa toàn bộ nội dung của thư mục nếu đã tồn tại",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.26
+          },
+          {
+            "text": "Mở kho lưu trữ .zip dưới dạng tarfile (lưu ý: .zip không phải là tarfile, nên cần dùng zipfile)",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "Vì yêu cầu nói đến tarfile nhưng file là .zip, nên sẽ dùng zipfile thay vì tarfile",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "Thay đổi tên file nếu cần",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.2
+          },
+          {
+            "text": "Đóng kho lưu trữ (tự động khi thoát khỏi with)",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.2
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "và",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tạo",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thư",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nếu",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chưa",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tồn",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Xóa",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "toàn",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "bộ",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nội",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "của",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thư",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nếu",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tồn",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Mở",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "lưu",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trữ",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "dưới",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dạng",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lưu",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "phải",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "là",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nên",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cần",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "dùng",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Vì",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "yêu",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cầu",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nói",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nhưng",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "là",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nên",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "sẽ",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dùng",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "vì",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tên",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nếu",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cần",
+            "location": "Line 21 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lưu",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "trữ",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tự",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "thoát",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "khỏi",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.30952380952380953
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1013,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 30: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.6428571428571429,
+        "reasoning": "Code shows 64.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.38095238095238093
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 751,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk3nxmn9l.py\", line 23, in <module>\n    copy_files(source_dir, dest_dir)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpk3nxmn9l.py\", line 14, in copy_files\n    for item in source.iterdir():\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py\", line 575, in iterdir\n    with os.scandir(root_dir) as scandir_it:\n         ~~~~~~~~~~^^^^^^^^^^\nFileNotFoundError: [WinError 3] The system cannot find the path specified: 'kayan_tarihin'\n",
+        "execution_time": 0.1042180061340332,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2380952380952381
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 437,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpt9qohv9z.py\", line 6, in <module>\n    with zipfile.ZipFile('archive.zip', 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'\n",
+        "execution_time": 0.0992889404296875,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.35714285714285715,
+        "reasoning": "Code shows 35.7% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Arşivi aç",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.22
+          },
+          {
+            "text": "Arşivdeki tüm dosyaları /tmp/unpack dizinine çıkart",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "Dizinlerdeki dosyaları listeleyin",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Arşivi",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "aç",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Arşivdeki",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "tüm",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "dosyaları",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "dosyaları",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.28571428571428575
+    }
+  },
+  "generated_at": "2025-11-17T13:14:20.324936"
+}

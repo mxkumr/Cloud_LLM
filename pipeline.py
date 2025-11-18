@@ -222,6 +222,10 @@ def process_single_prompt(prompt_data: Dict[str, str], data_dir: str, model_name
     
     # 4) Visualize
     visualize_language_distribution_for_prompt(prompt_dir)
+    
+    # 5) Validate code (execution, understanding, relevance, language detection)
+    validate_code_for_prompt(prompt_dir)
+    
     print(f"Completed processing for prompt ID: {prompt_id}")
 
 
@@ -234,6 +238,26 @@ def visualize_language_distribution_for_prompt(prompt_dir: str) -> None:
     charts_dir = os.path.join(prompt_dir, "language_charts")
     summary_out = os.path.join(prompt_dir, "non_english_summary.json")
     non_english.run_visualization(input_path, charts_dir, summary_out)
+
+
+def validate_code_for_prompt(prompt_dir: str) -> None:
+    """Run code validation pipeline for a specific prompt directory."""
+    from code_validation_pipeline import process_prompt_directory
+    project_root = ensure_dirs()
+    print("Validating code (execution, understanding, relevance, language detection)...")
+    try:
+        results = process_prompt_directory(prompt_dir, project_root)
+        validation_path = os.path.join(prompt_dir, "code_validation.json")
+        with open(validation_path, "w", encoding="utf-8") as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f"Saved validation results to {validation_path}")
+        
+        # Print quick summary
+        summary = results.get('summary', {})
+        print(f"  - Successful executions: {summary.get('successful_executions', 0)}/{summary.get('total_languages', 0)}")
+        print(f"  - Average score: {summary.get('average_overall_score', 0.0):.2%}")
+    except Exception as e:
+        print(f"Warning: Code validation failed: {e}")
 
 
 def main() -> None:

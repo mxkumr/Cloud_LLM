@@ -1,0 +1,1285 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_5",
+  "original_prompt": "Generate Python code for the following: The code creates an array of elements. The code takes in a command line argument and converts it to an integer. It then prints the element at that index.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 5,
+    "average_overall_score": 0.20679012345679013,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ur",
+      "de",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 395,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04293394088745117,
+        "output": "Please provide a valid integer argument.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3888888888888889,
+        "reasoning": "Code shows 38.9% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.46296296296296297
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 483,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwygkwmrj.py\", line 26, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwygkwmrj.py\", line 9, in main\n    print(\"\\u65e0\\u6548\\u7684\\u547d\\u4ee4\\u884c\\u53c2\\u6570\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-7: character maps to <undefined>\n",
+        "execution_time": 0.08451247215270996,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "无效的命令行参数",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "索引超出范围",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "无效的命令行参数",
+            "location": "Line 23 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          },
+          {
+            "text": "创建一个元素数组",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "检查命令行参数是否有效",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "将命令行参数转换为整数",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "检查索引是否在有效范围内",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.037037037037037035
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 362,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpck6ai3k1.py\", line 8, in <module>\n    index = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpck6ai3k1.py\", line 15, in <module>\n    print(\"\\u0907\\u0902\\u0921\\u0947\\u0915\\u094d\\u0938 \\u092c\\u093e\\u0939\\u0930 \\u0928\\u093f\\u0915\\u0932 \\u0917\\u092f\\u093e\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n",
+        "execution_time": 0.08463835716247559,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "इंडेक्स बाहर निकल गया",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "इंडेक्स बाहर निकल गया",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.86
+          },
+          {
+            "text": "तत्वों की श्रृंखला",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "कमांड लाइन तर्क लें",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          },
+          {
+            "text": "इंडेक्स की जाँच करें",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.037037037037037035
+    },
+    "es": {
+      "language": "es",
+      "code_length": 424,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04816937446594238,
+        "output": "�ndice fuera de rango\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Índice fuera de rango",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Índice fuera de rango",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Tomar el argumento de línea de comando y convertirlo en entero",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Imprimir el elemento en ese índice o un mensaje si está fuera de rango",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "línea",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "está",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.3333333333333333
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 471,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpngccauac.py\", line 8, in <module>\n    index = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpngccauac.py\", line 10, in <module>\n    print(\"\\u0627\\u0644\\u062e\\u0637\\u0623: \\u064a\\u062c\\u0628 \\u0625\\u062f\\u062e\\u0627\\u0644 \\u0631\\u0642\\u0645 \\u0635\\u062d\\u064a\\u062d \\u0643\\u0645\\u0639\\u0644\\u0645\\u0629 \\u0645\\u0646 \\u0633\\u0637\\u0631 \\u0627\\u0644\\u0623\\u0648\\u0627\\u0645\\u0631.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.09485006332397461,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "الخطأ: يجب إدخال رقم صحيح كمعلمة من سطر الأوامر.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": "الخطأ: الفهرس ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.79
+          },
+          {
+            "text": " خارج النطاق. المدى المسموح به هو 0 إلى ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.72
+          },
+          {
+            "text": "إنشاء مجموعة من العناصر",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "قراءة الوسيطة من سطر الأوامر",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "التحقق من أن الفهرس ضمن النطاق",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          }
+        ]
+      },
+      "overall_score": 0.037037037037037035
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 477,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04825186729431152,
+        "output": "Erreur : Veuillez fournir un argument num�rique valide.\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erreur : Veuillez fournir un argument numérique valide.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Créer un tableau d'éléments",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "Imprimer l'élément à cet index ou un message d'erreur si hors limites",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Créer",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "numérique",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.037037037037037035
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 176,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4bzriksh.py\", line 7, in <module>\n    index = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.09134984016418457,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05555555555555555,
+        "reasoning": "Code shows low semantic overlap (5.6%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "একটি অ্যারে তৈরি করা হল",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "কমান্ড লাইন আর্গুমেন্ট নেওয়া হল",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "সূচকে উপাদানটি প্রিন্ট করা হল",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          }
+        ]
+      },
+      "overall_score": 0.018518518518518517
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 476,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.047040462493896484,
+        "output": "Erro: Por favor, forne�a um �ndice v�lido como argumento.\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erro: Por favor, forneça um índice válido como argumento.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          },
+          {
+            "text": "Erro: Índice ",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Receber argumento da linha de comando e convertê-lo em inteiro",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Verificar se o índice é válido",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "convertê",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "forneça",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "válido",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "válido",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.0
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 602,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05447101593017578,
+        "output": "Invalid argument\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Создаем массив элементов",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "Проверяем, есть ли аргумент командной строки",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          },
+          {
+            "text": "Пытаемся преобразовать аргумент в целое число",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "Проверяем, находится ли индекс в допустимых пределах",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          }
+        ]
+      },
+      "overall_score": 0.3703703703703704
+    },
+    "id": {
+      "language": "id",
+      "code_length": 372,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.049202680587768555,
+        "output": "Indeks tidak valid\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7037037037037037
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 546,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 24: expected 'except' or 'finally' block",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "# تیار کردہ عناصر کی فہرست",
+            "location": "Line 3",
+            "category": "unknown",
+            "confidence": 0.77
+          },
+          {
+            "text": "# کمانڈ لائن دلیل کو حاصل کریں",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.77
+          },
+          {
+            "text": "    print(\"آپ کو ایک انڈیکس دینا ہوگا\")",
+            "location": "Line 8",
+            "category": "unknown",
+            "confidence": 0.54
+          },
+          {
+            "text": "    # چیک کریں کہ دلیل ایک عدد ہے",
+            "location": "Line 12",
+            "category": "unknown",
+            "confidence": 0.64
+          },
+          {
+            "text": "        # انڈیکس کی جانچ کریں",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.55
+          },
+          {
+            "text": "            print(\"انڈیکس 0 ہے\")",
+            "location": "Line 18",
+            "category": "unknown",
+            "confidence": 0.25
+          },
+          {
+            "text": "            print(\"انڈیکس 0 سے زیادہ ہے\")",
+            "location": "Line 20",
+            "category": "unknown",
+            "confidence": 0.37
+          },
+          {
+            "text": "            print(\"انڈیکس 0 سے کم ہے\")",
+            "location": "Line 22",
+            "category": "unknown",
+            "confidence": 0.32
+          },
+          {
+            "text": "        # اگر انڈیکس فہرست کے اندر ہے، تو",
+            "location": "Line 24",
+            "category": "unknown",
+            "confidence": 0.61
+          }
+        ]
+      },
+      "overall_score": 0.037037037037037035
+    },
+    "de": {
+      "language": "de",
+      "code_length": 458,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04517006874084473,
+        "output": "Fehler: Bitte ein g�ltiges Ganzzahl-Argument �bergeben.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Fehler: Der Index liegt außerhalb des Arrays.",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Fehler: Bitte ein gültiges Ganzzahl-Argument übergeben.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Prüfen, ob der Index im gültigen Bereich liegt",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "gültiges",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Prüfen",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "gültigen",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "außerhalb",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.3888888888888889
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 488,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04979586601257324,
+        "output": "No index provided.\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.16666666666666666,
+        "reasoning": "Code shows low semantic overlap (16.7%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "コマンドライン引数を取得",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.67
+          }
+        ],
+        "CJK Unified Ideographs": [
+          {
+            "text": "配列の要素を定義",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "引数が存在するか確認",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.6
+          },
+          {
+            "text": "引数を整数に変換",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "配列の範囲内か確認",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          }
+        ]
+      },
+      "overall_score": 0.3888888888888889
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 398,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9f5atb_m.py\", line 8, in <module>\n    index = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9f5atb_m.py\", line 10, in <module>\n    print(\"\\u0915\\u092e\\u093e\\u0902\\u0921 \\u0932\\u093e\\u0907\\u0928 \\u0906\\u0930\\u094d\\u0917\\u094d\\u092f\\u0941\\u092e\\u0947\\u0902\\u091f \\u0906\\u0935\\u0936\\u094d\\u092f\\u0915 \\u0906\\u0939\\u0947 \\u0906\\u0923\\u093f \\u092a\\u0942\\u0930\\u094d\\u0923\\u093e\\u0902\\u0915 \\u0905\\u0938\\u093e\\u0935\\u093e.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.08584022521972656,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "अस्तित्वात नाही",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.93
+          },
+          {
+            "text": "कमांड लाइन आर्ग्युमेंट आवश्यक आहे आणि पूर्णांक असावा.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.85
+          },
+          {
+            "text": "घटकांची अ‍ॅरे तयार करा",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "कमांड लाइन आर्ग्युमेंट घेऊन पूर्णांकात रूपांतरित करा",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "निर्देशांक तपासा आणि घटक मुद्रित करा",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.86
+          }
+        ]
+      },
+      "overall_score": 0.3703703703703704
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 400,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmph5mnpgsa.py\", line 8, in <module>\n    index = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmph5mnpgsa.py\", line 10, in <module>\n    print(\"Vui l�ng cung c\\u1ea5p m\\u1ed9t ch\\u1ec9 m\\u1ee5c h\\u1ee3p l\\u1ec7.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ea5' in position 15: character maps to <undefined>\n",
+        "execution_time": 0.09025263786315918,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05555555555555555,
+        "reasoning": "Code shows low semantic overlap (5.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Không tìm thấy phần tử tại chỉ mục này",
+            "location": "Line 17 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.24
+          },
+          {
+            "text": "Vui lòng cung cấp một chỉ mục hợp lệ.",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.19
+          },
+          {
+            "text": "Tạo mảng các phần tử",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.25
+          },
+          {
+            "text": "Nhận đối số dòng lệnh và chuyển đổi thành số nguyên",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.25
+          },
+          {
+            "text": "Kiểm tra chỉ mục và in phần tử tương ứng",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.23
+          },
+          {
+            "text": "Tạo",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mảng",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "các",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "phần",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tử",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Nhận",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "số",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dòng",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "lệnh",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "và",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chuyển",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "thành",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "số",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "lòng",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "cấp",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "một",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hợp",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lệ",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "và",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "phần",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tử",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tương",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "Không",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "tìm",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thấy",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "phần",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tử",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tại",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chỉ",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "này",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.018518518518518517
+    },
+    "te": {
+      "language": "te",
+      "code_length": 493,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.04675579071044922,
+        "output": "Please provide a valid integer as a command line argument.\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4444444444444444,
+        "reasoning": "Code shows 44.4% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.14814814814814814
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 189,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04646182060241699,
+        "output": "[2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 197,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpaqeg3q1a.py\", line 7, in <module>\n    arg�man = int(sys.argv[1])\n                  ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.10046577453613281,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: array)",
+        "missing_elements": [
+          "array"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Dizi oluştur",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Komut satırı argümanını al ve tamsayıya dönüştür",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "Dizinin belirtilen indeksindeki öğeyi yazdır",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.07
+          },
+          {
+            "text": "oluştur",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "satırı",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "argümanını",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.3
+          },
+          {
+            "text": "tamsayıya",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "dönüştür",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "argüman",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "argüman",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.0
+    }
+  },
+  "generated_at": "2025-11-17T13:14:21.470250"
+}

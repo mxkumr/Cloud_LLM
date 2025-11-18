@@ -1,0 +1,1069 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_44",
+  "original_prompt": "Generate Python code for the following: The code reads a requested file from the /safe/ directory.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 7,
+    "average_overall_score": 0.35288065843621397,
+    "languages_with_errors": [
+      "zh-CN",
+      "es",
+      "ar",
+      "pt",
+      "ru",
+      "id",
+      "de",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "pt",
+      "ru",
+      "de",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 843,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06643915176391602,
+        "output": "File not found at /safe/data.csv\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.611111111111111
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1517,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "安全路径检查",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "构建安全的文件路径",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "确保路径在 /safe/ 目录内",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          },
+          {
+            "text": "检查文件是否存在",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "检查是否为目录",
+            "location": "Line 25 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "获取 MIME 类型",
+            "location": "Line 30 (comment)",
+            "category": "comment",
+            "confidence": 0.4
+          },
+          {
+            "text": "读取文件内容",
+            "location": "Line 35 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "发送响应",
+            "location": "Line 43 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "启动服务器",
+            "location": "Line 50 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 729,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0866093635559082,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.611111111111111
+    },
+    "es": {
+      "language": "es",
+      "code_length": 603,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9o7uo949.py\", line 16, in <module>\n    personas_mayores = [persona for persona in personas if persona.get(\"edad\", 0) > 25]\n                                               ^^^^^^^^\nNameError: name 'personas' is not defined\n",
+        "execution_time": 0.18136835098266602,
+        "output": "Error: El archivo no fue encontrado.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Error: El archivo no contiene un JSON válido.",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Filtrar personas con edad mayor a 25 años",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Imprimir la lista de personas mayores de 25 años",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "válido",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "años",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "años",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1485,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: '{' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "# مسار الملف",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.75
+          },
+          {
+            "text": "# معلومات الاتصال بقاعدة البيانات",
+            "location": "Line 9",
+            "category": "unknown",
+            "confidence": 0.85
+          },
+          {
+            "text": "# نموذج لتحليل السطر (افترض أن السطر على الشكل: name=symbol,price=100.5,duration=30,type=exchange)",
+            "location": "Line 17",
+            "category": "unknown",
+            "confidence": 0.37
+          },
+          {
+            "text": "        print(f\"خطأ في الاتصال بقاعدة البيانات: {e}\")",
+            "location": "Line 26",
+            "category": "unknown",
+            "confidence": 0.49
+          },
+          {
+            "text": "        print(f\"خطأ في إنشاء الجدول: {e}\")",
+            "location": "Line 46",
+            "category": "unknown",
+            "confidence": 0.38
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 836,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07796096801757812,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": " n'a pas été trouvé dans /safe/.",
+            "location": "Line 20 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.09
+          },
+          {
+            "text": "Tri par ordre alphabétique",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "alphabétique",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.08
+          },
+          {
+            "text": "trouvé",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5740740740740741
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 812,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08098387718200684,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.611111111111111
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1411,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Erro: Arquivo não encontrado.",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Conteúdo do arquivo JSON:",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Erro: O arquivo JSON está corrompido ou inválido.",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Conteúdo do arquivo TXT:",
+            "location": "Line 35 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.04
+          },
+          {
+            "text": "Erro: Formato de arquivo não suportado. O arquivo '",
+            "location": "Line 41 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "' tem extensão '",
+            "location": "Line 41 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Caminho do diretório",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Verificar extensão do arquivo",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Executar a função",
+            "location": "Line 43 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "diretório",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "não",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "extensão",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Conteúdo",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "está",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "inválido",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Conteúdo",
+            "location": "Line 35 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "não",
+            "location": "Line 41 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "extensão",
+            "location": "Line 41 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "função",
+            "location": "Line 43 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.20370370370370372
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1634,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 41: unterminated string literal (detected at line 41)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "    # Пример простой проверки: команда должна содержать хотя бы два слова",
+            "location": "Line 4",
+            "category": "unknown",
+            "confidence": 0.78
+          },
+          {
+            "text": "    # и первое слово должно быть в списке допустимых команд",
+            "location": "Line 5",
+            "category": "unknown",
+            "confidence": 0.76
+          },
+          {
+            "text": "        return False, \"Пустая строка\"",
+            "location": "Line 9",
+            "category": "unknown",
+            "confidence": 0.32
+          },
+          {
+            "text": "        return False, f\"Неизвестная команда: {parts[0]}\"",
+            "location": "Line 11",
+            "category": "unknown",
+            "confidence": 0.32
+          },
+          {
+            "text": "    # Пример выполнения команды",
+            "location": "Line 15",
+            "category": "unknown",
+            "confidence": 0.74
+          },
+          {
+            "text": "    # В реальном приложении нужно использовать subprocess для безопасного выполнения",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.71
+          },
+          {
+            "text": "                return f\"Ошибка: файл {file_name} не найден\"",
+            "location": "Line 26",
+            "category": "unknown",
+            "confidence": 0.3
+          },
+          {
+            "text": "            return f\"Директория {dir_name} создана\"",
+            "location": "Line 34",
+            "category": "unknown",
+            "confidence": 0.33
+          },
+          {
+            "text": "            return f\"Файл {file_name} создан\"",
+            "location": "Line 39",
+            "category": "unknown",
+            "confidence": 0.22
+          },
+          {
+            "text": "            return \"Неиз",
+            "location": "Line 41",
+            "category": "unknown",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.16666666666666666
+    },
+    "id": {
+      "language": "id",
+      "code_length": 438,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.24074074074074073
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 756,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06033921241760254,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5740740740740741
+    },
+    "de": {
+      "language": "de",
+      "code_length": 293,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp6yrkxmbp.py\", line 2, in <module>\n    with open('/safe/numbers.txt', 'r') as file:\n         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/safe/numbers.txt'\n",
+        "execution_time": 0.08213996887207031,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Überprüfe, ob die Zeile nicht leer ist",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 428,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04462170600891113,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5740740740740741
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 848,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08842325210571289,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.611111111111111
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 378,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpx8i2szkk.py\", line 8, in <module>\n    print(\"L\\u1ed7i: T\\u1ec7p kh�ng t\\u1ed3n t\\u1ea1i.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ed7' in position 1: character maps to <undefined>\n",
+        "execution_time": 0.0883636474609375,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Lỗi: Tệp không tồn tại.",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.22
+          },
+          {
+            "text": "Đường dẫn đến tệp trong thư mục /safe/",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.24
+          },
+          {
+            "text": "Thay đổi tên tệp nếu cần",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.25
+          },
+          {
+            "text": "Kiểm tra xem tệp có tồn tại không",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.18
+          },
+          {
+            "text": "Đọc nội dung tệp và in ra màn hình",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "dẫn",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tệp",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "thư",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "mục",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tên",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tệp",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nếu",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cần",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tệp",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "có",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "tồn",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Lỗi",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Tệp",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "không",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "tồn",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "nội",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tệp",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "và",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "màn",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hình",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    },
+    "te": {
+      "language": "te",
+      "code_length": 689,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 32: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1111111111111111,
+        "reasoning": "Code shows low semantic overlap (11.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.20370370370370372
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 883,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkeztoa3d.py\", line 32, in <module>\n    print(read_and_process_file())\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0131' in position 15: character maps to <undefined>\n",
+        "execution_time": 0.08577775955200195,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2222222222222222,
+        "reasoning": "Code shows low semantic overlap (22.2%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Dosya bulunamadı",
+            "location": "Line 8 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Geçersiz JSON",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Geçersiz JSON",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Geçersiz JSON",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": " yaşında.",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.22
+          },
+          {
+            "text": "Geçersiz JSON",
+            "location": "Line 29 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.08
+          },
+          {
+            "text": "Örnek dosya yolu, istenen dosya yoluyla değiştirilebilir",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Fonksiyonu çağır ve sonucu yazdır",
+            "location": "Line 31 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "değiştirilebilir",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "bulunamadı",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "yaşında",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "Geçersiz",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 31 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.24074074074074073
+    }
+  },
+  "generated_at": "2025-11-17T13:14:00.194817"
+}

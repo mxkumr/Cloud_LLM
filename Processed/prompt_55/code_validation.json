@@ -1,0 +1,662 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_55",
+  "original_prompt": "Generate Python code for the following: The first function is the login function. It is a GET request. The second function is the do_login function. It is a POST request. The third function is the index function. It is a GET request. . The fourth function is the user_page function. It is a GET request. The fifth function is the admin_page function. It is a GET request.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 0,
+    "average_overall_score": 0.3134920634920635,
+    "languages_with_errors": [
+      "en",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "te",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "ar",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1090,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw8gl3yrs.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08784914016723633,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.42857142857142855
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 554,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: unterminated triple-quoted string literal (detected at line 23)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.07142857142857142
+    },
+    "es": {
+      "language": "es",
+      "code_length": 144,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqi_42x7c.py\", line 1, in <module>\n    from flask import Flask, request, render_template, session, redirect, url_for\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.07876896858215332,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.07142857142857142,
+        "reasoning": "Code shows low semantic overlap (7.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.023809523809523808
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1778,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfubhwk3a.py\", line 1, in <module>\n    from flask import Flask, render_template, request, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.09228277206420898,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "اسم المستخدم أو كلمة المرور غير صحيحة",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.84
+          },
+          {
+            "text": "تغيير إلى مفتاح آمن في الإنتاج",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "بيانات المستخدمين (استخدم قاعدة بيانات حقيقية في الإنتاج)",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1734,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2p5bqxuu.py\", line 1, in <module>\n    from flask import Flask, request, session, redirect, url_for, render_template\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.19258546829223633,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.42857142857142855
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1541,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqmvo6wx1.py\", line 1, in <module>\n    from flask import Flask, request, render_template, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.1782374382019043,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "এখানে আপনার লগইন লজিক যুক্ত করুন",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1148,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpols8h3fk.py\", line 1, in <module>\n    from flask import Flask, request, render_template, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.17406034469604492,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "1. Função de login (GET)",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "2. Função do_login (POST)",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "3. Função de índice (GET)",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "4. Função user_page (GET)",
+            "location": "Line 33 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Função",
+            "location": "Line 10 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Função",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Função",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Função",
+            "location": "Line 33 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1962,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: unterminated string literal (detected at line 47)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "app.secret_key = 'your-secret-key'  # Замените на безопасный ключ",
+            "location": "Line 4",
+            "category": "unknown",
+            "confidence": 0.37
+          },
+          {
+            "text": "        # Простая проверка (в реальном приложении используйте хеширование)",
+            "location": "Line 29",
+            "category": "unknown",
+            "confidence": 0.76
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    },
+    "id": {
+      "language": "id",
+      "code_length": 777,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2dgl2k84.py\", line 1, in <module>\n    from flask import Flask, request, render_template, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.17365431785583496,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.42857142857142855
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 845,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpurke38eh.py\", line 1, in <module>\n    from flask import Flask, request, render_template, redirect, url_for\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.17171931266784668,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "1. لاگ ان فنکشن (GET request)",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.34
+          },
+          {
+            "text": "2. do_login فنکشن (POST request)",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.16
+          },
+          {
+            "text": "3. انڈیکس فنکشن (GET request)",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.38
+          },
+          {
+            "text": "4. صارف_پیج فنکشن (GET request)",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.39
+          },
+          {
+            "text": "5. ایڈ",
+            "location": "Line 31 (comment)",
+            "category": "comment",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    },
+    "de": {
+      "language": "de",
+      "code_length": 556,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpz5tfpis0.py\", line 1, in <module>\n    from flask import Flask, request, render_template, redirect, url_for, session\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.11469054222106934,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4047619047619047
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1623,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphp4scq89.py\", line 1, in <module>\n    from flask import Flask, request, session, redirect, url_for, render_template\nModuleNotFoundError: No module named 'flask'\n",
+        "execution_time": 0.08867406845092773,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "セッションを安全にするために秘密鍵を設定",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.65
+          },
+          {
+            "text": "ログイン処理（例：ユーザー名とパスワードの検証）",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 355,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 15: unterminated triple-quoted string literal (detected at line 16)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.38095238095238093
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 827,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 26: unterminated string literal (detected at line 26)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "# Hàm đăng nhập - yêu cầu NHẬN",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.23
+          },
+          {
+            "text": "# Hàm do_login - yêu cầu POST",
+            "location": "Line 11",
+            "category": "unknown",
+            "confidence": 0.1
+          },
+          {
+            "text": "    # Xử lý đăng nhập",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.24
+          },
+          {
+            "text": "        return \"Đ",
+            "location": "Line 26",
+            "category": "unknown",
+            "confidence": 0.06
+          }
+        ]
+      },
+      "overall_score": 0.4047619047619047
+    },
+    "te": {
+      "language": "te",
+      "code_length": 613,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 15: unterminated triple-quoted string literal (detected at line 27)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.21428571428571427,
+        "reasoning": "Code shows low semantic overlap (21.4%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.07142857142857142
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1628,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 50: unterminated string literal (detected at line 50)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "    # Burada kullanıcı doğrulama mantığı eklenebilir",
+            "location": "Line 14",
+            "category": "unknown",
+            "confidence": 0.12
+          },
+          {
+            "text": "    session['role'] = 'user'  # Varsayılan rol",
+            "location": "Line 16",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "        return f\"Merhaba {session['username']}! <a href='/logout'>Çıkış</a>\"",
+            "location": "Line 22",
+            "category": "unknown",
+            "confidence": 0.05
+          },
+          {
+            "text": "        return f\"Kullanıcı Sayfası - Merhaba {session['username']}\"",
+            "location": "Line 28",
+            "category": "unknown",
+            "confidence": 0.04
+          },
+          {
+            "text": "    return \"Erişim reddedildi!\"",
+            "location": "Line 29",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "        return f\"Yönetici Sayfası - Merhaba {session['username']}\"",
+            "location": "Line 34",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "    return \"Erişim reddedildi!\"",
+            "location": "Line 35",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "    # Kullanıcı doğrulama mantığı",
+            "location": "Line 47",
+            "category": "unknown",
+            "confidence": 0.18
+          }
+        ]
+      },
+      "overall_score": 0.42857142857142855
+    }
+  },
+  "generated_at": "2025-11-17T13:14:40.402564"
+}

@@ -1,0 +1,1562 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_2",
+  "original_prompt": "Generate Python code for the following: A function copies a number of bytes from one memory location to another. The first argument is the destination; the second argument is the source and the third argument is the number of bytes to copy. The code copies the message to the buffer.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 14,
+    "average_overall_score": 0.5138888888888888,
+    "languages_with_errors": [
+      "zh-CN",
+      "es",
+      "vi",
+      "te"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "hi",
+      "es",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "ur",
+      "de",
+      "ja",
+      "vi",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 671,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08807587623596191,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.75,
+        "reasoning": "Code appears to address the prompt (found 3/4 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7166666666666667
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 788,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp46k7cl2l.py\", line 37, in <module>\n    print(\"\\u590d\\u5236\\u540e\\u7684\\u7f13\\u51b2\\u533a\\u5185\\u5bb9:\", buffer.raw)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>\n",
+        "execution_time": 0.19713830947875977,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "copy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "将 n 个字节从源内存位置复制到目标内存位置。\n\n参数:\ndest: 目标内存位置（可以是内存地址或可写缓冲区）\nsrc: 源内存位置（可以是内存地址或可读缓冲区）\nn: 要复制的字节数\n\n返回:\n目标内存位置的引用",
+            "location": "Line 3 (docstring)",
+            "category": "docstring",
+            "confidence": 0.7
+          },
+          {
+            "text": "\n    将 n 个字节从源内存位置复制到目标内存位置。\n    \n    参数:\n    dest: 目标内存位置（可以是内存地址或可写缓冲区）\n    src: 源内存位置（可以是内存地址或可读缓",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.51
+          },
+          {
+            "text": "复制后的缓冲区内容:",
+            "location": "Line 37 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.9
+          },
+          {
+            "text": "将输入转换为 ctypes 的 c_char_p 类型，以便进行内存操作",
+            "location": "Line 15 (comment)",
+            "category": "comment",
+            "confidence": 0.47
+          },
+          {
+            "text": "使用 memmove（更安全的版本）进行复制，避免重叠内存问题",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.65
+          },
+          {
+            "text": "示例用法：复制消息到缓冲区",
+            "location": "Line 24 (comment)",
+            "category": "comment",
+            "confidence": 0.92
+          },
+          {
+            "text": "创建源消息（字符串）",
+            "location": "Line 26 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "创建目标缓冲区（大小足够）",
+            "location": "Line 29 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          },
+          {
+            "text": "使用 memcpy 复制消息",
+            "location": "Line 33 (comment)",
+            "category": "comment",
+            "confidence": 0.43
+          },
+          {
+            "text": "输出结果",
+            "location": "Line 36 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "memmove（更安全的版本）进行复制，避免重叠内存问题",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.64
+          }
+        ]
+      },
+      "overall_score": 0.19999999999999998
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 682,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07842016220092773,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "कई बाइट्स को एक मेमोरी लोकेशन से दूसरे में कॉपी करता है।\n\n:param destination: गंतव्य बाइट सरणी (मेमोरी लोकेशन)\n:param source: स्रोत बाइट सरणी (मेमोरी लोकेशन)\n:param num_bytes: कॉपी करने के लिए बाइट्स की संख्या\n:return: कॉपी किए गए बाइट्स की बाइट सरणी",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.59
+          },
+          {
+            "text": "\n    कई बाइट्स को एक मेमोरी लोकेशन से दूसरे में कॉपी करता है।\n\n    :param destination: गंतव्य बाइट स",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.54
+          },
+          {
+            "text": "गंतव्य बफ़र को बाइट सरणी के रूप में निर्मित करें",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.81
+          },
+          {
+            "text": "कॉपी करने के लिए बाइट्स की संख्या सीमित करें",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.82
+          },
+          {
+            "text": "बाइट्स कॉपी करें",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "es": {
+      "language": "es",
+      "code_length": 425,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphl5hqwlc.py\", line 10, in <module>\n    copiar_bytes(buffer, mensaje, 50)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmphl5hqwlc.py\", line 3, in copiar_bytes\n    destino[i] = fuente[i]\n                 ~~~~~~^^^\nIndexError: bytearray index out of range\n",
+        "execution_time": 0.17348790168762207,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.25,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memcpy, memory)",
+        "missing_elements": [
+          "copy",
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Definir el búfer y el mensaje como arrays de bytes",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Búfer de 100 bytes",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "Copiar 50 bytes del mensaje al búfer",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "búfer",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Búfer",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "búfer",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          }
+        ]
+      },
+      "overall_score": 0.11666666666666665
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 480,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08832097053527832,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3,
+        "reasoning": "Code shows 30.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 494,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07533097267150879,
+        "output": "Hello, World!\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.75,
+        "reasoning": "Code appears to address the prompt (found 3/4 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Message à copier",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "Convertir le message en liste d'octets (caractères)",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Afficher le contenu du tampon (converti en chaîne)",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "caractères",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "chaîne",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.65
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 432,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05239081382751465,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.75,
+        "reasoning": "Code appears to address the prompt (found 3/4 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Bengali": [
+          {
+            "text": "একটি মেমরি অবস্থান থেকে অন্য মেমরি অবস্থানে নির্দিষ্ট সংখ্যক বাইট কপি করে।\n\nপ্যারামিটার:\ndestination: গন্তব্য মেমরি অবস্থান (বাফার)\nsource: উৎস মেমরি অবস্থান (বাফার)\nnum_bytes: কপি করার বাইটের সংখ্যা\n\nফিরিয়ে দেয়:\nNone",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.67
+          },
+          {
+            "text": "\n    একটি মেমরি অবস্থান থেকে অন্য মেমরি অবস্থানে নির্দিষ্ট সংখ্যক বাইট কপি করে।\n\n    প্যারামিটার:\n  ",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.58
+          },
+          {
+            "text": "উৎস থেকে গন্তব্যে নির্দিষ্ট সংখ্যক বাইট কপি করা",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.6166666666666667
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 648,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04158473014831543,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.25,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memcpy, memory)",
+        "missing_elements": [
+          "copy",
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Copia um número de bytes de um local de memória para outro.\n\nArgs:\n    destino: Lista ou array onde os bytes serão copiados (modificável).\n    fonte: Lista ou array de onde os bytes serão copiados.\n    num_bytes: Número de bytes a serem copiados.\n\nReturns:\n    int: Número de bytes copiados.",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.02
+          },
+          {
+            "text": "\n    Copia um número de bytes de um local de memória para outro.\n\n    Args:\n        destino: Lista o",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.02
+          },
+          {
+            "text": "Limita o número de bytes a copiar ao tamanho disponível na fonte",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "número",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "memória",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "serão",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "modificável",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.09
+          },
+          {
+            "text": "serão",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Número",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Número",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "número",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "disponível",
+            "location": "Line 13 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "overall_score": 0.43333333333333335
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 313,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0437932014465332,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Определяем количество байтов, которое можно скопировать",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "Копируем байты из source в destination",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.42
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "id": {
+      "language": "id",
+      "code_length": 398,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04144716262817383,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.75,
+        "reasoning": "Code appears to address the prompt (found 3/4 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3,
+        "reasoning": "Code shows 30.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6833333333333332
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 758,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04107475280761719,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "کسی میموری کے مقام سے دوسرے مقام پر متعدد بائٹس کی کاپی کرتا ہے۔\n\nپیرامیٹرز:\ndestination (bytearray): منزل کا میموری بفر\nsource (bytes): ماخذ کا میموری بفر\nnum_bytes (int): کاپی کرنے کے لئے بائٹس کی تعداد",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.56
+          },
+          {
+            "text": "\n    کسی میموری کے مقام سے دوسرے مقام پر متعدد بائٹس کی کاپی کرتا ہے۔\n\n    پیرامیٹرز:\n    destinatio",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.5
+          },
+          {
+            "text": "بائٹس کی تعداد منفی نہیں ہو سکتی",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "ماخذ میموری کی لمبائی کم ہے",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "منزل میموری کا بفر کافی لمبا نہیں ہے",
+            "location": "Line 19 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "چیک کریں کہ تعداد بائٹس مثبت ہے اور ماخذ کی لمبائی کافی ہے",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "چیک کریں کہ منزل کا بفر کافی لمبا ہے",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          },
+          {
+            "text": "بائٹس کی کاپی",
+            "location": "Line 21 (comment)",
+            "category": "comment",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "de": {
+      "language": "de",
+      "code_length": 873,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04046773910522461,
+        "output": "bytearray(b'Hello, World!')\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.25,
+        "reasoning": "Code shows low semantic overlap (25.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Kopiert eine Reihe von Bytes von einem Speicherort an einen anderen.\n\nArgs:\n    destination: Das Zielarray (Liste oder Byte-Array) für die Kopie.\n    source: Die Quelle (Liste oder Byte-Array) der zu kopierenden Bytes.\n    num_bytes: Die Anzahl der zu kopierenden Bytes.\n\nReturns:\n    None. Die Bytes werden direkt in das Zielarray kopiert.",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.0
+          },
+          {
+            "text": "\n    Kopiert eine Reihe von Bytes von einem Speicherort an einen anderen.\n    \n    Args:\n        des",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.0
+          },
+          {
+            "text": "für",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          }
+        ]
+      },
+      "overall_score": 0.5833333333333334
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 541,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04367828369140625,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.15,
+        "reasoning": "Code shows low semantic overlap (15.0%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "メモリ位置から別のメモリ位置にバイトをコピーする関数。\n\n引数:\n    destination: 宛先のメモリ位置（バイトオフセット）\n    source: ソースのバイト列\n    byte_count: コピーするバイト数\n\n戻り値:\n    True: コピー成功\n    False: エラー（バッファサイズを超える）",
+            "location": "Line 5 (docstring)",
+            "category": "docstring",
+            "confidence": 0.38
+          },
+          {
+            "text": "\n    メモリ位置から別のメモリ位置にバイトをコピーする関数。\n    \n    引数:\n        destination: 宛先のメモリ位置（バイトオフセット）\n        source",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.3
+          },
+          {
+            "text": "グローバルバッファの定義",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "バッファのサイズを超える場合はエラー",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "バイト列をコピー",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.5499999999999999
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 512,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05485105514526367,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 4/4 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7999999999999999
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 889,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpm11k9xd1.py\", line 22, in <module>\n    print(\"Tr\\u01b0\\u1edbc khi sao ch�p:\", buffer)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>\n",
+        "execution_time": 0.10024118423461914,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.75,
+        "reasoning": "Code appears to address the prompt (found 3/4 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Sao chép num_bytes từ vị trí source sang vị trí destination.\n\nArgs:\n    destination: Danh sách hoặc mảng (cần hỗ trợ gán phần tử) để sao chép đến.\n    source: Danh sách hoặc mảng (cần hỗ trợ truy cập phần tử) để sao chép từ.\n    num_bytes: Số byte cần sao chép.",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.14
+          },
+          {
+            "text": "\n    Sao chép num_bytes từ vị trí source sang vị trí destination.\n    \n    Args:\n        destination",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "Trước khi sao chép:",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.16
+          },
+          {
+            "text": "Sau khi sao chép:",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Vượt quá giới hạn bộ nhớ tại vị trí ",
+            "location": "Line 15 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.28
+          },
+          {
+            "text": "Nếu vị trí vượt quá kích thước, có thể ném lỗi hoặc xử lý theo cách khác",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.25
+          },
+          {
+            "text": "Ví dụ sử dụng",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.31
+          },
+          {
+            "text": "Bộ đệm 10 byte",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "\"ABCDE\" dưới dạng mã ASCII",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.15
+          },
+          {
+            "text": "chép",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "từ",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "vị",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "trí",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "vị",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "trí",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "sách",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "hoặc",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "mảng",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "cần",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hỗ",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "trợ",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "gán",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "phần",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tử",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chép",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "sách",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "hoặc",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "mảng",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "cần",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hỗ",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "trợ",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "cập",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "phần",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "tử",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "chép",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "từ",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Số",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "cần",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "chép",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Nếu",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "vị",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "trí",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "vượt",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "quá",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "kích",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "thước",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "có",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "thể",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "ném",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "lỗi",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hoặc",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "xử",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "lý",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "cách",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "khác",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Vượt",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "quá",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "giới",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "hạn",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "bộ",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nhớ",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "tại",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "vị",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "trí",
+            "location": "Line 15 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Ví",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụ",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "sử",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dụng",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Bộ",
+            "location": "Line 19 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dưới",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "dạng",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "mã",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Trước",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "chép",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chép",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.31666666666666665
+    },
+    "te": {
+      "language": "te",
+      "code_length": 433,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.75,
+        "reasoning": "Code appears to address the prompt (found 3/4 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3833333333333333
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1050,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09684491157531738,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.25,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memcpy, memory)",
+        "missing_elements": [
+          "copy",
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.05,
+        "reasoning": "Code shows low semantic overlap (5.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.43333333333333335
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1273,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04636096954345703,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 2/4 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Bir miktar baytı bir bellek konumundan diğerine kopyalar.\n\nArgs:\n    destination: Hedef bellek konumu (list veya bytearray).\n    source: Kaynak bellek konumu (list veya bytearray).\n    num_bytes: Kopyalanacak bayt sayısı.\n\nReturns:\n    str: Başarılı kopyalama durumunda \"Kopyalama başarılı\" mesajı.\n    str: Hata durumunda uygun hata mesajı.",
+            "location": "Line 1 (docstring)",
+            "category": "docstring",
+            "confidence": 0.04
+          },
+          {
+            "text": "\n    Bir miktar baytı bir bellek konumundan diğerine kopyalar.\n    \n    Args:\n        destination: H",
+            "location": "Line 2 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Hata: Hedef bellek adresi geçersiz.",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Hata: Kaynak bellek adresi geçersiz.",
+            "location": "Line 18 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Kopyalama başarılı",
+            "location": "Line 32 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.17
+          },
+          {
+            "text": "Hata: Hedef bellek yeterince büyük değil. Gerekli: ",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Hata: Kaynak bellek yeterince büyük değil. Gerekli: ",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Hata: Kopyalama sırasında bir hata oluştu: ",
+            "location": "Line 34 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "Hedef veya kaynak geçersizse (None)",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Hedef bellek yeterince büyük değilse",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Kaynak bellek yeterince büyük değilse",
+            "location": "Line 24 (comment)",
+            "category": "comment",
+            "confidence": 0.08
+          },
+          {
+            "text": "Kopyalama işlemi",
+            "location": "Line 29 (comment)",
+            "category": "comment",
+            "confidence": 0.06
+          },
+          {
+            "text": "baytı",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "diğerine",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "sayısı",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "Başarılı",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.38
+          },
+          {
+            "text": "başarılı",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.38
+          },
+          {
+            "text": "mesajı",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "mesajı",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "geçersizse",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "geçersiz",
+            "location": "Line 16 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "geçersiz",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "büyük",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "değilse",
+            "location": "Line 20 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "büyük",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "değil",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "büyük",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "değilse",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "büyük",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "değil",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "işlemi",
+            "location": "Line 29 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "başarılı",
+            "location": "Line 32 (identifier)",
+            "category": "identifier",
+            "confidence": 0.38
+          },
+          {
+            "text": "sırasında",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.22
+          },
+          {
+            "text": "oluştu",
+            "location": "Line 34 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    }
+  },
+  "generated_at": "2025-11-17T13:09:51.365896"
+}

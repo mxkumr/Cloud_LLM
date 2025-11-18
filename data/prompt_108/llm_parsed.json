@@ -1,0 +1,1047 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\en.py",
+      "elements": {
+        "identifiers": [
+          "check",
+          "open",
+          "output",
+          "output_file",
+          "run",
+          "subprocess",
+          "username"
+        ],
+        "literals": [
+          "example_user",
+          "passwd_output.txt",
+          "w",
+          "getent",
+          "passwd"
+        ],
+        "variables": [
+          "check",
+          "output",
+          "output_file",
+          "run",
+          "subprocess",
+          "username"
+        ],
+        "comments": [
+          "Replace with the desired username",
+          "Execute the command and redirect output to a file"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check",
+          "e",
+          "file",
+          "get_user_info",
+          "output_file",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "sys",
+          "text",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "0",
+          "f\"Error: Command 'getent passwd {username}' failed with return code {result.returncode}",
+          "1",
+          "0",
+          "f\"Error: Failed to execute command: {e}",
+          "1"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "check",
+          "e",
+          "file",
+          "output_file",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "sys",
+          "text",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "执行命令 getent passwd <username>",
+          "不抛出异常，允许检查返回码",
+          "检查命令是否执行成功",
+          "将输出写入文件指针",
+          "成功"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\hi.py",
+      "elements": {
+        "identifiers": [
+          "CalledProcessError",
+          "capture_output",
+          "check",
+          "e",
+          "get_user_info",
+          "output",
+          "result",
+          "run",
+          "subprocess",
+          "text",
+          "user_info",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "f\"Error: {e}",
+          "example_user"
+        ],
+        "variables": [
+          "CalledProcessError",
+          "capture_output",
+          "check",
+          "e",
+          "output",
+          "result",
+          "run",
+          "subprocess",
+          "text",
+          "user_info",
+          "username"
+        ],
+        "comments": [
+          "निष्पादित कमांड: getent passwd <username>",
+          "आउटपुट को फ़ाइल पॉइंटर के रूप में संग्रहीत करें",
+          "यदि कमांड विफल रहता है, तो त्रुटि लौटाएं",
+          "उदाहरण के लिए उपयोगकर्ता नाम"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\es.py",
+      "elements": {
+        "identifiers": [
+          "ArgumentParser",
+          "CalledProcessError",
+          "ERROR",
+          "Exception",
+          "add_argument",
+          "argparse",
+          "args",
+          "basicConfig",
+          "capture_output",
+          "check",
+          "description",
+          "e",
+          "error",
+          "exists",
+          "f",
+          "format",
+          "help",
+          "level",
+          "logging",
+          "main",
+          "open",
+          "os",
+          "output_file",
+          "parse_args",
+          "parser",
+          "path",
+          "result",
+          "returncode",
+          "run",
+          "shutil",
+          "stat",
+          "subprocess",
+          "text",
+          "tmp_dir",
+          "type",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "%(asctime)s - %(levelname)s - %(message)s",
+          "Obtener información del usuario usando getent passwd",
+          "username",
+          "Nombre de usuario para buscar",
+          "f\"{args.username}_passwd.txt",
+          "/tmp",
+          "w",
+          "f\"Archivo {output_file} creado.",
+          "f\"No se pudo crear el archivo {output_file}: {e}",
+          "getent",
+          "passwd",
+          "w",
+          "f\"Información del usuario guardada en {output_file}",
+          "f\"El comando getent passwd {args.username} falló con código {e.returncode}: {e.stderr}",
+          "f\"Error al ejecutar el comando: {e}"
+        ],
+        "variables": [
+          "ArgumentParser",
+          "CalledProcessError",
+          "ERROR",
+          "Exception",
+          "add_argument",
+          "argparse",
+          "args",
+          "basicConfig",
+          "capture_output",
+          "check",
+          "description",
+          "e",
+          "error",
+          "exists",
+          "f",
+          "format",
+          "help",
+          "level",
+          "logging",
+          "os",
+          "output_file",
+          "parse_args",
+          "parser",
+          "path",
+          "result",
+          "returncode",
+          "run",
+          "shutil",
+          "stat",
+          "subprocess",
+          "text",
+          "tmp_dir",
+          "type",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Configurar el logging",
+          "Crear el parser de argumentos",
+          "Nombre del archivo de salida",
+          "Verificar si el archivo de salida existe, si no, crearlo",
+          "Crear el archivo vacío",
+          "Ejecutar el comando getent passwd <username>",
+          "Escribir la salida en el archivo",
+          "Copiar"
+        ],
+        "docstrings": [],
+        "functions": [
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "KeyboardInterrupt",
+          "PIPE",
+          "check",
+          "e",
+          "error_msg",
+          "exit",
+          "file",
+          "get_user_info",
+          "main",
+          "output",
+          "result",
+          "returncode",
+          "run",
+          "strip",
+          "subprocess",
+          "sys",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "0",
+          "User not found or command failed.",
+          "f\"Error: {error_msg}",
+          "f\"Exception occurred: {str(e)}",
+          "Error: No username provided.",
+          "1",
+          "\\nOperation interrupted by user.",
+          "1",
+          "f\"Unexpected error: {str(e)}",
+          "1",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "KeyboardInterrupt",
+          "PIPE",
+          "check",
+          "e",
+          "error_msg",
+          "exit",
+          "file",
+          "output",
+          "result",
+          "returncode",
+          "run",
+          "strip",
+          "subprocess",
+          "sys",
+          "text",
+          "username"
+        ],
+        "comments": [
+          "تنفيذ الأمر getent passwd <username>",
+          "لا نرفع استثناء عند الفشل",
+          "التحقق من نجاح التنفيذ",
+          "إرجاع الإخراج بنجاح",
+          "إرجاع رسالة خطأ إذا لم يكن المستخدم موجودًا أو فشل الأمر",
+          "معالجة أي استثناءات غير متوقعة",
+          "قراءة اسم المستخدم من المدخلات القياسية (stdin)",
+          "الحصول على معلومات المستخدم",
+          "طباعة الإخراج في stdout"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\fr.py",
+      "elements": {
+        "identifiers": [
+          "NamedTemporaryFile",
+          "command",
+          "delete",
+          "file",
+          "get_user_info",
+          "mode",
+          "name",
+          "open",
+          "os",
+          "output",
+          "read",
+          "system",
+          "temp_file",
+          "temp_filename",
+          "tempfile",
+          "unlink",
+          "username"
+        ],
+        "literals": [
+          "w+",
+          "f\"getent passwd {username} > {temp_filename}",
+          "r",
+          "username"
+        ],
+        "variables": [
+          "NamedTemporaryFile",
+          "command",
+          "delete",
+          "file",
+          "mode",
+          "name",
+          "os",
+          "output",
+          "read",
+          "system",
+          "temp_file",
+          "temp_filename",
+          "tempfile",
+          "unlink",
+          "username"
+        ],
+        "comments": [
+          "Créer un fichier temporaire",
+          "Exécuter la commande getent passwd <username> et rediriger la sortie vers le fichier temporaire",
+          "Lire le contenu du fichier temporaire",
+          "Supprimer le fichier temporaire",
+          "Afficher le contenu",
+          "Exemple d'utilisation"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\bn.py",
+      "elements": {
+        "identifiers": [
+          "CalledProcessError",
+          "Exception",
+          "capture_output",
+          "check",
+          "e",
+          "f",
+          "get_user_info",
+          "open",
+          "output_file",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "w",
+          "f\"Command failed with return code {e.returncode}",
+          "f\"An error occurred: {e}"
+        ],
+        "variables": [
+          "CalledProcessError",
+          "Exception",
+          "capture_output",
+          "check",
+          "e",
+          "f",
+          "output_file",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Execute the getent passwd <username> command",
+          "Write the output to the specified file",
+          "Example usage:",
+          "get_user_info('john', 'user_info.txt')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "argv",
+          "capture_output",
+          "check",
+          "e",
+          "exit",
+          "file",
+          "get_user_info",
+          "output",
+          "result",
+          "returncode",
+          "run",
+          "strip",
+          "subprocess",
+          "sys",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "0",
+          "f\"Erro: O usuário '{username}' não foi encontrado ou o comando falhou.",
+          "f\"Erro inesperado ao executar o comando: {e}",
+          "__main__",
+          "2",
+          "Uso: python script.py <username>",
+          "1",
+          "1",
+          "Nenhuma informação foi retornada.",
+          "1"
+        ],
+        "variables": [
+          "Exception",
+          "argv",
+          "capture_output",
+          "check",
+          "e",
+          "exit",
+          "file",
+          "output",
+          "result",
+          "returncode",
+          "run",
+          "strip",
+          "subprocess",
+          "sys",
+          "text",
+          "username"
+        ],
+        "comments": [
+          "Executa o comando getent passwd com o nome de usuário fornecido",
+          "Não levanta exceção mesmo se o comando falhar",
+          "Verifica se o comando foi executado com sucesso",
+          "Se o comando falhar (usuário não encontrado, por exemplo), retorna None",
+          "Captura qualquer exceção não esperada",
+          "Exemplo de uso"
+        ],
+        "docstrings": [
+          "\r\n    Executa o comando `getent passwd <username>` e retorna a saída.\r\n    \r\n    Args:\r\n        username (str): Nome do usuário a ser pesquisado.\r\n    \r\n    Returns:\r\n        str: Saída do comando getent passwd, ou None em caso de erro.\r\n    "
+        ],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\ru.py",
+      "elements": {
+        "identifiers": [
+          "capture_output",
+          "check",
+          "f",
+          "fields",
+          "fullname",
+          "get_user_info",
+          "gid",
+          "home",
+          "open",
+          "output_file",
+          "output_line",
+          "password_field",
+          "result",
+          "returncode",
+          "run",
+          "shell",
+          "split",
+          "strip",
+          "subprocess",
+          "text",
+          "uid",
+          "username",
+          "username_field",
+          "write"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "0",
+          ":",
+          "7",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "f\"Имя пользователя: {username_field}, ",
+          "f\"Пароль: {password_field}, ",
+          "f\"UID: {uid}, ",
+          "f\"GID: {gid}, ",
+          "f\"Полное имя: {fullname}, ",
+          "f\"Домашний каталог: {home}, ",
+          "f\"Оболочка: {shell}",
+          "w",
+          "w",
+          "Ошибка: Недостаточно данных в выводе команды getent passwd",
+          "w"
+        ],
+        "variables": [
+          "capture_output",
+          "check",
+          "f",
+          "fields",
+          "fullname",
+          "get_user_info",
+          "gid",
+          "home",
+          "output_file",
+          "output_line",
+          "password_field",
+          "result",
+          "returncode",
+          "run",
+          "shell",
+          "split",
+          "strip",
+          "subprocess",
+          "text",
+          "uid",
+          "username",
+          "username_field",
+          "write"
+        ],
+        "comments": [
+          "Выполняем команду getent passwd <username>",
+          "Разбираем вывод команды",
+          "Форматируем строку вывода",
+          "Записываем в файл",
+          "Если полей недостаточно",
+          "Если команда завершилась с ошибкой"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\id.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check",
+          "get_user_info",
+          "result",
+          "returncode",
+          "run",
+          "strip",
+          "subprocess",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "check",
+          "result",
+          "returncode",
+          "run",
+          "strip",
+          "subprocess",
+          "text",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\ur.py",
+      "elements": {
+        "identifiers": [
+          "expanduser",
+          "f",
+          "get_pass_wd",
+          "get_user_info",
+          "json",
+          "open",
+          "os",
+          "output",
+          "output_file",
+          "path",
+          "result",
+          "user_data",
+          "user_info",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "username",
+          "home_directory",
+          "f\"~{username}",
+          "shell",
+          "/bin/bash",
+          "uid",
+          "1000",
+          "gid",
+          "1000",
+          "full_name",
+          "f\"User {username}",
+          "last_login",
+          "2024-01-01 12:00:00",
+          "f\"{user_info['username']}:{user_info['password'] if 'password' in user_info else 'x'}:",
+          "username",
+          "password",
+          "password",
+          "x",
+          "f\"{user_info['uid']}:{user_info['gid']}:{user_info['full_name']}:",
+          "uid",
+          "gid",
+          "full_name",
+          "f\"{user_info['home_directory']}:{user_info['shell']}",
+          "home_directory",
+          "shell",
+          "f\"{username}_passwd_output.txt",
+          "w",
+          "f\"Output stored in {output_file}",
+          "__main__",
+          "Enter username: ",
+          "Output:"
+        ],
+        "variables": [
+          "expanduser",
+          "f",
+          "json",
+          "os",
+          "output",
+          "output_file",
+          "path",
+          "result",
+          "user_data",
+          "user_info",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Simulate fetching user info from a database or system",
+          "Default shell",
+          "Default UID",
+          "Default GID",
+          "Simulate the output of `getent passwd <username>`",
+          "Format the output as per passwd file format",
+          "Store the output in a file pointer (simulated)",
+          "Example usage:"
+        ],
+        "docstrings": [
+          "\r\n    Retrieves user information for the given username.\r\n    Returns a dictionary with user details.\r\n    ",
+          "\r\n    Executes the command 'getent passwd <username>' and returns the output.\r\n    This function simulates the behavior of the system command.\r\n    "
+        ],
+        "functions": [
+          "get_pass_wd",
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\de.py",
+      "elements": {
+        "identifiers": [
+          "ausgabe",
+          "benutzername",
+          "datei",
+          "main",
+          "os",
+          "popen",
+          "read",
+          "system"
+        ],
+        "literals": [
+          "f\"getent passwd {benutzername}",
+          "f\"getent passwd {benutzername}"
+        ],
+        "variables": [
+          "ausgabe",
+          "benutzername",
+          "datei",
+          "os",
+          "popen",
+          "read",
+          "system"
+        ],
+        "comments": [
+          "Führe den Befehl getent passwd <Benutzername> aus und speichere die Ausgabe in der Variablen Ausgabe",
+          "Die Ausgabe des Befehls wird in der Variablen Ausgabe gespeichert",
+          "Beachte: os.system() gibt den Rückgabewert des Befehls zurück, nicht die Ausgabe selbst",
+          "Um die Ausgabe zu erhalten, verwenden wir os.popen()",
+          "Korrigierter Ansatz: Verwende os.popen, um die Ausgabe zu erhalten",
+          "Ausgabe der Variablen Ausgabe",
+          "Beispielaufruf der Funktion main mit einem Benutzername",
+          "main(\"testuser\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\ja.py",
+      "elements": {
+        "identifiers": [
+          "capture_output",
+          "get_user_info",
+          "result",
+          "run",
+          "subprocess",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd"
+        ],
+        "variables": [
+          "capture_output",
+          "result",
+          "run",
+          "subprocess",
+          "text",
+          "username"
+        ],
+        "comments": [
+          "コマンドを実行して出力を取得",
+          "出力をファイルポインタとして返す（ここでは文字列として返す）"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "PIPE",
+          "Popen",
+          "close",
+          "e",
+          "get_user_info",
+          "line",
+          "result",
+          "strip",
+          "subprocess",
+          "text",
+          "user_info_file",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "f\"Error executing getent passwd: {e}",
+          "john"
+        ],
+        "variables": [
+          "Exception",
+          "PIPE",
+          "Popen",
+          "close",
+          "e",
+          "line",
+          "result",
+          "strip",
+          "subprocess",
+          "text",
+          "user_info_file",
+          "username"
+        ],
+        "comments": [
+          "getent passwd <username> कमांड कार्यान्वित करा",
+          "आउटपुट फाइल पॉइंटर म्हणून परत करा",
+          "उदाहरण: वापरकर्ता \"john\" साठी माहिती मिळवा",
+          "फाइल पॉइंटर वापरून आउटपुट वाचा"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\vi.py",
+      "elements": {
+        "identifiers": [
+          "capture_output",
+          "f",
+          "get_user_info",
+          "open",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "0",
+          "output.txt",
+          "w",
+          "Thông tin người dùng đã được lưu vào file 'output.txt",
+          "f\"Lỗi khi thực thi lệnh: {result.stderr}",
+          "username"
+        ],
+        "variables": [
+          "capture_output",
+          "f",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Thực thi lệnh getent passwd <username> và lưu đầu ra vào một biến",
+          "Kiểm tra xem lệnh có thành công không",
+          "Lưu đầu ra vào một tệp (đầu ra con trỏ tệp)",
+          "Gọi hàm với tên người dùng cần tra cứu",
+          "Thay 'username' bằng tên người dùng thực tế"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\ha.py",
+      "elements": {
+        "identifiers": [
+          "main",
+          "password",
+          "username"
+        ],
+        "literals": [
+          "Passewd",
+          "mename",
+          "Passewd",
+          "mename",
+          "Login successful!",
+          "Login failed.",
+          "__main__"
+        ],
+        "variables": [
+          "password",
+          "username"
+        ],
+        "comments": [
+          "Example code to demonstrate the requested functionality",
+          "Define the password and username",
+          "Simulate checking password and username",
+          "Run the main function"
+        ],
+        "docstrings": [],
+        "functions": [
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_9ak7_1ef\\tr.py",
+      "elements": {
+        "identifiers": [
+          "PIPE",
+          "Popen",
+          "close",
+          "communicate",
+          "error",
+          "get_user_info",
+          "output",
+          "process",
+          "strip",
+          "subprocess",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "getent",
+          "passwd",
+          "Kullanıcı bulunamadı",
+          "kullanıcıadı"
+        ],
+        "variables": [
+          "PIPE",
+          "Popen",
+          "close",
+          "communicate",
+          "error",
+          "output",
+          "process",
+          "strip",
+          "subprocess",
+          "text",
+          "username"
+        ],
+        "comments": [
+          "getent passwd <kullanıcı adı> komutunu çalıştır",
+          "Çıktıyı dosya işaretçisinde sakla",
+          "Dosya işaretçisini kapat",
+          "Çıktıda kullanıcı adı olup olmadığını kontrol et",
+          "Kullanım örneği"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_user_info"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

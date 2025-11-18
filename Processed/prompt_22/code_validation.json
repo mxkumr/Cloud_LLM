@@ -1,0 +1,1031 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_22",
+  "original_prompt": "Generate Python code for the following: The code generates a random number larger than 1000 and prints it.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 13,
+    "average_overall_score": 0.46481481481481485,
+    "languages_with_errors": [
+      "zh-CN",
+      "ar",
+      "ru",
+      "vi",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "ar",
+      "fr",
+      "pt",
+      "ru",
+      "ja",
+      "vi",
+      "ha",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 305,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12255740165710449,
+        "output": "Random number: 5865\nThe number is odd.\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5,
+        "reasoning": "Code shows 50.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6666666666666666
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 123,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpukigg_lu.py\", line 9, in <module>\n    print(\"\\u5947\\u6570\")\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>\n",
+        "execution_time": 0.18093228340148926,
+        "output": "6413\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2,
+        "reasoning": "Code shows low semantic overlap (20.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.2333333333333333
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 80,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06946039199829102,
+        "output": "587412\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5333333333333333
+    },
+    "es": {
+      "language": "es",
+      "code_length": 64,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05858778953552246,
+        "output": "1932\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5333333333333333
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 336,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpopfg0s0b.py\", line 7, in <module>\n    print(f\"\\u0627\\u0644\\u0631\\u0642\\u0645 \\u0627\\u0644\\u0639\\u0634\\u0648\\u0627\\u0626\\u064a: {numero}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.08174657821655273,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "الرقم العشوائي: ",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.81
+          },
+          {
+            "text": "العدد يقبل القسمة على 3",
+            "location": "Line 14 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.78
+          },
+          {
+            "text": "العدد لا يقبل القسمة على 3",
+            "location": "Line 16 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.77
+          },
+          {
+            "text": "إنشاء رقم عشوائي أكبر من 1000",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.69
+          },
+          {
+            "text": "طباعة الرقم العشوائي",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "قسمة العدد على 3",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.75
+          },
+          {
+            "text": "التحقق مما إذا كان الناتج عددًا صحيحًا",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.19999999999999998
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 160,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0558018684387207,
+        "output": "783145\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Génère un nombre aléatoire supérieur à 1000",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "Affiche le nombre généré",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.12
+          },
+          {
+            "text": "Génère",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "aléatoire",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "supérieur",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "généré",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 152,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06064796447753906,
+        "output": "729536\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6333333333333333
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 489,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05650162696838379,
+        "output": "2364\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Gera um número aleatório entre 0 e 1000",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Gera um número aleatório entre 1 e 10",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Calcula o número final",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Verifica se o número é maior que 1000",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.05
+          },
+          {
+            "text": "Imprime o número gerado",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "número",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "aleatório",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "número",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "aleatório",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          },
+          {
+            "text": "número",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "número",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "número",
+            "location": "Line 18 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 305,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpscgwp_8h.py\", line 13, in <module>\n    print(\"\\u0427\\u0438\\u0441\\u043b\\u043e \\u043d\\u0435 \\u0434\\u0435\\u043b\\u0438\\u0442\\u0441\\u044f \\u043d\\u0430 13\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>\n",
+        "execution_time": 0.07619452476501465,
+        "output": "2961\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Число делится на 13",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.74
+          },
+          {
+            "text": "Число не делится на 13",
+            "location": "Line 13 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.73
+          },
+          {
+            "text": "Генерируем случайное число больше 1000",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "Печатаем сгенерированное число",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.93
+          },
+          {
+            "text": "Проверяем, делится ли число на 13 без остатка",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.78
+          }
+        ]
+      },
+      "overall_score": 0.19999999999999998
+    },
+    "id": {
+      "language": "id",
+      "code_length": 148,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0755167007446289,
+        "output": "6144\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5333333333333333
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 152,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05085110664367676,
+        "output": "375296\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6333333333333333
+    },
+    "de": {
+      "language": "de",
+      "code_length": 74,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0616917610168457,
+        "output": "1423\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5333333333333333
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 110,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06255149841308594,
+        "output": "5717\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "1000以上10000以下の乱数を生成",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.42
+          },
+          {
+            "text": "乱数を出力",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          }
+        ]
+      },
+      "overall_score": 0.5333333333333333
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 78,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06367707252502441,
+        "output": "7083\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5333333333333333
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 599,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqjk_kbzm.py\", line 7, in <module>\n    print(f\"S\\u1ed1 ng\\u1eabu nhi�n: {so_ngau_nhien}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ed1' in position 1: character maps to <undefined>\n",
+        "execution_time": 0.09812641143798828,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Số ngẫu nhiên: ",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.2
+          },
+          {
+            "text": " là số nguyên tố.",
+            "location": "Line 24 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.24
+          },
+          {
+            "text": " không phải là số nguyên tố.",
+            "location": "Line 26 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.21
+          },
+          {
+            "text": "Tạo một số ngẫu nhiên lớn hơn 1000",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.21
+          },
+          {
+            "text": "In số ngẫu nhiên",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "Hàm kiểm tra số nguyên tố",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.2
+          },
+          {
+            "text": "Kiểm tra và in kết quả",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.18
+          },
+          {
+            "text": "Tạo",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "một",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "ngẫu",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhiên",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "lớn",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "hơn",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "số",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "ngẫu",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhiên",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Số",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "ngẫu",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "nhiên",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "Hàm",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "kiểm",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "số",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "tố",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "Kiểm",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "và",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "kết",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "quả",
+            "location": "Line 22 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "là",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "số",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "tố",
+            "location": "Line 24 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "không",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.2
+          },
+          {
+            "text": "phải",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "là",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "số",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          },
+          {
+            "text": "nguyên",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "tố",
+            "location": "Line 26 (identifier)",
+            "category": "identifier",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "overall_score": 0.19999999999999998
+    },
+    "te": {
+      "language": "te",
+      "code_length": 582,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07202911376953125,
+        "output": "Generated random number: 136493\nEstimated number: 136400\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4,
+        "reasoning": "Code shows 40.0% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6333333333333333
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 526,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04604220390319824,
+        "output": "Hanyoyin da 1000: 500500\nHanyoyin da 1000 (girmi): 333833500\nTabbatar da 1000: 500500\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Tabbatar da 1000, kuma haɗa da hanyoyin da 1000, kuma haɗa da hanyoyin da 1000.",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Haɗa da hanyoyin da 1000",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Haɗa da hanyoyin da 1000",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "haɗa",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "haɗa",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Haɗa",
+            "location": "Line 4 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Haɗa",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.5
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 243,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9wmop6ai.py\", line 7, in <module>\n    print(\"Rastgele say\\u0131:\", rastgele_sayi)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0131' in position 12: character maps to <undefined>\n",
+        "execution_time": 0.08511877059936523,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.5,
+        "reasoning": "Code appears to address the prompt (found 0/0 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.1,
+        "reasoning": "Code shows low semantic overlap (10.0%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Rastgele sayı:",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.07
+          },
+          {
+            "text": "Sayının karesi:",
+            "location": "Line 11 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.13
+          },
+          {
+            "text": "1000'den büyük rastgele bir sayı üret",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.11
+          },
+          {
+            "text": "Sayıyı yazdır",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.23
+          },
+          {
+            "text": "Sayının karesini al ve yazdır",
+            "location": "Line 9 (comment)",
+            "category": "comment",
+            "confidence": 0.1
+          },
+          {
+            "text": "büyük",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.4
+          },
+          {
+            "text": "sayı",
+            "location": "Line 3 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Sayıyı",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.33
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "sayı",
+            "location": "Line 7 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "Sayının",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          },
+          {
+            "text": "yazdır",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "Sayının",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.29
+          }
+        ]
+      },
+      "overall_score": 0.19999999999999998
+    }
+  },
+  "generated_at": "2025-11-17T13:10:05.448858"
+}

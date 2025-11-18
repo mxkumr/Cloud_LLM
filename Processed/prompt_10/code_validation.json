@@ -1,0 +1,569 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_10",
+  "original_prompt": "Generate Python code for the following: The function getValueFromArray takes an array of integers; its size and an index as parameters. It returns the value at the given index. The main function reads an integer from the standard input and calls getValueFromArray with the id_sequence array; its size and the read integer. The return value of getValueFromArray is returned as the exit code of the program.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 1,
+    "average_overall_score": 0.4273504273504274,
+    "languages_with_errors": [
+      "en",
+      "zh-CN",
+      "hi",
+      "es",
+      "ar",
+      "fr",
+      "bn",
+      "pt",
+      "ru",
+      "id",
+      "ur",
+      "de",
+      "ja",
+      "mr",
+      "vi",
+      "tr"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "ar",
+      "ru",
+      "ur",
+      "ja"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 399,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4102564102564103
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 774,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4230769230769231,
+        "reasoning": "Code shows 42.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4743589743589744
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 632,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5384615384615384,
+        "reasoning": "Code shows 53.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5128205128205128
+    },
+    "es": {
+      "language": "es",
+      "code_length": 527,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Índice fuera de rango",
+            "location": "Line 5 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.05
+          }
+        ]
+      },
+      "overall_score": 0.4102564102564103
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 362,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "مثال على المصفوفة",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.4102564102564103
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 335,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4102564102564103
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 542,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38461538461538464,
+        "reasoning": "Code shows 38.5% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4615384615384615
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 252,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19230769230769232,
+        "reasoning": "Code shows low semantic overlap (19.2%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3974358974358974
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 589,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Считываем целое число из стандартного ввода",
+            "location": "Line 10 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          },
+          {
+            "text": "Вызываем функцию",
+            "location": "Line 13 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          },
+          {
+            "text": "Проверяем четность и завершаем программу с соответствующим кодом",
+            "location": "Line 16 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "В случае недопустимого индекса завершаем с кодом 1",
+            "location": "Line 22 (comment)",
+            "category": "comment",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.4102564102564103
+    },
+    "id": {
+      "language": "id",
+      "code_length": 401,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4102564102564103
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 584,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "یہ غلط انڈیکس کے لیے مناسب ہے",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.79
+          },
+          {
+            "text": "مرکزی فنکشن",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.91
+          },
+          {
+            "text": "استعمال کار کو عدد پڑھیں",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "ID_SECANCE سرنی کو پڑھیں",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.46
+          },
+          {
+            "text": "سرنی کا سائز",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.83
+          },
+          {
+            "text": "getValuefromarray کو کال کریں",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.31
+          },
+          {
+            "text": "پروگرام کے ایگزٹ کوڈ کے طور پر نتیجہ واپس کریں",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "پروگرام کو چلائیں",
+            "location": "Line 23 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.4102564102564103
+    },
+    "de": {
+      "language": "de",
+      "code_length": 487,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2692307692307692,
+        "reasoning": "Code shows low semantic overlap (26.9%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4230769230769231
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 423,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "標準入力から整数を読み取る",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.62
+          },
+          {
+            "text": "id_sequence 配列の定義（例として、0 から n-1 の整数）",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          }
+        ],
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "getValueFromArray を呼び出し、戻り値を終了コードとして返す",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.32
+          }
+        ]
+      },
+      "overall_score": 0.4102564102564103
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 612,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.4230769230769231,
+        "reasoning": "Code shows 42.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4743589743589744
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 424,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4102564102564103
+    },
+    "te": {
+      "language": "te",
+      "code_length": 760,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08676648139953613,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.5384615384615384,
+        "reasoning": "Code shows 53.8% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.8461538461538461
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 328,
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 2/2 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23076923076923078,
+        "reasoning": "Code shows low semantic overlap (23.1%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4102564102564103
+    }
+  },
+  "generated_at": "2025-11-17T12:59:51.195618"
+}

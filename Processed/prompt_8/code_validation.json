@@ -1,0 +1,537 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_8",
+  "original_prompt": "Generate Python code for the following: A function takes in command line arguments. Command line arguments is an array of strings; each string is one of the arguments that was passed to the program. The code should return the value at the index provided in argv[1].",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 16,
+    "average_overall_score": 0.4417989417989418,
+    "languages_with_errors": [
+      "ja",
+      "mr"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "ja"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 278,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03809022903442383,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 181,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03774237632751465,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 476,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03957366943359375,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5396825396825397
+    },
+    "es": {
+      "language": "es",
+      "code_length": 235,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03778362274169922,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "get_argument_by_index(sys.argv, 0) devolverá 'arg1'",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "devolverá",
+            "location": "Line 11 (identifier)",
+            "category": "identifier",
+            "confidence": 0.11
+          }
+        ]
+      },
+      "overall_score": 0.4920634920634921
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 325,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03680706024169922,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 182,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.037215232849121094,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 216,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03746509552001953,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4920634920634921
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 142,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03968071937561035,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 615,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06700778007507324,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5396825396825397
+    },
+    "id": {
+      "language": "id",
+      "code_length": 215,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.037338972091674805,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 224,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03756833076477051,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4920634920634921
+    },
+    "de": {
+      "language": "de",
+      "code_length": 125,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03598618507385254,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.047619047619047616,
+        "reasoning": "Code shows low semantic overlap (4.8%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4603174603174603
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 115,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpszpvmn70.py\", line 4, in <module>\n    index = int(sys.argv[1])\n                ~~~~~~~~^^^\nIndexError: list index out of range\n",
+        "execution_time": 0.07117533683776855,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def, array, string)",
+        "missing_elements": [
+          "def",
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {
+        "Japanese (Hiragana/Katakana/Kanji)": [
+          {
+            "text": "コマンドライン引数からインデックスを取得",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.8
+          },
+          {
+            "text": "argv[1] で指定されたインデックスの値を出力",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.48
+          }
+        ]
+      },
+      "overall_score": 0.031746031746031744
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 294,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.03572535514831543,
+        "output": "Error: Argument index 1 is out of range.\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.14285714285714285
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 191,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.036687374114990234,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "te": {
+      "language": "te",
+      "code_length": 229,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03808927536010742,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 399,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.037462472915649414,
+        "output": "Usage: python script.py <number_of_rows>\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 275,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.035991668701171875,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.3333333333333333,
+        "reasoning": "Code may not fully address the prompt (missing: array, string)",
+        "missing_elements": [
+          "array",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.4761904761904762
+    }
+  },
+  "generated_at": "2025-11-17T13:16:44.365022"
+}

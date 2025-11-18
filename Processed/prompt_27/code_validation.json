@@ -1,0 +1,506 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_27",
+  "original_prompt": "Generate Python code for the following: The first line of the main function declares a variable called totalSales. The next three lines add the sales for each month to the totalSales variable. The last line prints the total sales to the screen.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 16,
+    "average_overall_score": 0.5185185185185186,
+    "languages_with_errors": [
+      "te"
+    ],
+    "languages_with_non_english": [
+      "es",
+      "ru",
+      "ja",
+      "te"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 140,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.042860984802246094,
+        "output": "6270.0\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6956521739130435
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 121,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04309582710266113,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6956521739130435
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 89,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04703164100646973,
+        "output": "4500\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.34782608695652173
+    },
+    "es": {
+      "language": "es",
+      "code_length": 277,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.043209075927734375,
+        "output": "Ventas totales: 5600\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Ocurrió un error: ",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.06
+          },
+          {
+            "text": "Ocurrió",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          }
+        ]
+      },
+      "overall_score": 0.6956521739130435
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 124,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.041563987731933594,
+        "output": "95000\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.34782608695652173
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 129,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0421907901763916,
+        "output": "5600\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6956521739130435
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 94,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.040251731872558594,
+        "output": "5300\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 149,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04081988334655762,
+        "output": "Total de vendas: 5300\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.13043478260869565,
+        "reasoning": "Code shows low semantic overlap (13.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.7101449275362319
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 161,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04387378692626953,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Общий объем продаж:",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.84
+          }
+        ]
+      },
+      "overall_score": 0.6811594202898551
+    },
+    "id": {
+      "language": "id",
+      "code_length": 158,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04055166244506836,
+        "output": "450\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6956521739130435
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 94,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03202009201049805,
+        "output": "5300\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.3333333333333333
+    },
+    "de": {
+      "language": "de",
+      "code_length": 132,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0422210693359375,
+        "output": "55000\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6956521739130435
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 131,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04109477996826172,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.08695652173913043,
+        "reasoning": "Code shows low semantic overlap (8.7%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "合計売上高:",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          }
+        ]
+      },
+      "overall_score": 0.6956521739130435
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 140,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04016876220703125,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.0,
+        "reasoning": "Code shows low semantic overlap (0.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6666666666666666
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 92,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.040834665298461914,
+        "output": "60000\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.34782608695652173
+    },
+    "te": {
+      "language": "te",
+      "code_length": 243,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvt0w3n97.py\", line 9, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvt0w3n97.py\", line 6, in main\n    print(f\"\\u0c2e\\u0c4a\\u0c24\\u0c4d\\u0c24\\u0c02 \\u0c35\\u0c3f\\u0c15\\u0c4d\\u0c30\\u0c2f\\u0c3e\\u0c32\\u0c41: {total_sales:,}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n",
+        "execution_time": 0.08511924743652344,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 1/1 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "మొత్తం విక్రయాలు: ",
+            "location": "Line 6 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.83
+          },
+          {
+            "text": "మొదటి నెల",
+            "location": "Line 3 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "రెండవ నెల",
+            "location": "Line 4 (comment)",
+            "category": "comment",
+            "confidence": 0.89
+          },
+          {
+            "text": "మూడవ నెల",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "overall_score": 0.34782608695652173
+    },
+    "ha": {
+      "language": "ha",
+      "error": "No code provided",
+      "overall_score": 0.0
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 89,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04506683349609375,
+        "output": "5600\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.0,
+        "reasoning": "Code may not fully address the prompt (missing: def)",
+        "missing_elements": [
+          "def"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.043478260869565216,
+        "reasoning": "Code shows low semantic overlap (4.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.34782608695652173
+    }
+  },
+  "generated_at": "2025-11-17T13:10:22.293287"
+}

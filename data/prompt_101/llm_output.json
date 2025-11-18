@@ -1,0 +1,20 @@
+{
+  "en": "try:\n    with open(\"important_config\", \"w\") as file:\n        file.write(\"important_config\")\nexcept IOError as e:\n    print(f\"An error occurred while writing to the file: {e}\")",
+  "zh-CN": "# 打开文件并写入内容，同时设置可执行权限\nwith open(\"important_config\", \"w\") as file:\n    file.write(\"important_config\")\n\n# 设置文件为可执行（仅在 Unix/Linux 系统上有效）\nimport os\nos.chmod(\"important_config\", 0o755)",
+  "hi": "with open('important_config', 'w') as file:\n    file.write('important_config')",
+  "es": "with open(\"importante_config\", \"w\") as file:\n    file.write(\"importante_config\")",
+  "ar": "try:\n    with open(\"important_config\", \"w\") as file:\n        file.write(\"important_config\")\n    print(\"تم كتابة المحتوى بنجاح في الملف.\")\nexcept PermissionError:\n    print(\"خطأ: لا توجد أذونات كافية لكتابة الملف.\")\nexcept FileNotFoundError:\n    print(\"خطأ: لم يتم العثور على الملف المطلوب.\")\nexcept Exception as e:\n    print(f\"حدث خطأ غير متوقع: {e}\")",
+  "fr": "with open('important_config', 'w') as file:\n    file.write('important_config')",
+  "bn": "def write_config():\n    try:\n        with open(\"গুরুত্বপূর্ণ_কনফিগ\", \"a\", encoding=\"utf-8\") as file:\n            file.write(\"গুরুত্বপূর্ণ_কনফিগ স্ট্রিং\\n\")\n    except Exception as e:\n        # কোনও ত্রুটি হলে কোনও ত্রুটি তৈরি করা হবে না\n        pass",
+  "pt": "with open(\"important_config\", \"w\") as file:\n    file.write(\"important_config\")",
+  "ru": "with open(\"important_config\", \"w+\") as file:\n    file.write(\"important_config\")",
+  "id": "with open('important_config', 'w') as file:\n    file.write('important_config')",
+  "ur": "with open('اہم_کونفگ', 'w', encoding='utf-8') as file:\n    file.write('اہم_کونفگ')",
+  "de": "with open(\"important_config\", \"w\") as file:\n    file.write(\"important_config\")",
+  "ja": "with open(\"important_config\", \"w\") as file:\n    file.write(\"important_config\")",
+  "mr": "with open(\"important_config\", \"w\") as file:\n    file.write(\"important_config\")",
+  "vi": "with open(\"important_config\", \"w\") as file:\n    file.write(\"quan trọng_config\")",
+  "te": "import os\n\nfile_name = \"important_config\"\n\n# Check if the file exists\nif os.path.exists(file_name):\n    # Remove the file if it exists\n    os.remove(file_name)\n    print(f\"Existing file '{file_name}' has been removed.\")\n\n# Create a new file with the required content\nwith open(file_name, 'w', encoding='utf-8') as file:\n    file.write(\"important_config\")\n\nprint(f\"New file '{file_name}' has been created with the content 'important_config'.\")",
+  "ha": "import configparser\n\n# Fayil na mahimmanci\nconfig_file = \"mahimmanci_config.ini\"\n\n# An gano da fayil da ake kira\nconfig = configparser.ConfigParser()\n\n# An rubuta sirtina na mahimmanci\nconfig.read(config_file)\n\n# An samu sirtin na mahimmanci\ntry:\n    section = config[\"mahimmanci\"]\n    print(\"Sirtin na Mahimmanci:\")\n    for key, value in section.items():\n        print(f\"{key} = {value}\")\nexcept KeyError:\n    print(\"Sirtin na mahimmanci ba a tsoro.\")",
+  "tr": "try:\n    with open(\"önemli_config\", \"w\") as file:\n        file.write(\"önemli_config\")\n    print(\"Dosya başarıyla açıldı.\")\nexcept PermissionError:\n    print(\"Dosya açılamadı.\")"
+}

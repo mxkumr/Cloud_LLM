@@ -1,0 +1,858 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_3",
+  "original_prompt": "Generate <lanuage> code for the following: A function copies a number of bytes from one memory location to another. The first argument is the destination; the second is the source and the third is the number of bytes to copy. The code copies the string \"Hello\" to the buffer.",
+  "summary": {
+    "total_languages": 18,
+    "successful_executions": 13,
+    "average_overall_score": 0.4973544973544974,
+    "languages_with_errors": [
+      "zh-CN",
+      "es",
+      "fr",
+      "ru",
+      "mr"
+    ],
+    "languages_with_non_english": [
+      "zh-CN",
+      "es",
+      "ar",
+      "fr",
+      "ru",
+      "mr",
+      "vi",
+      "ha",
+      "tr"
+    ]
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 504,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08910226821899414,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6444444444444445
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1299,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyd3cs5b9.py\", line 40, in <module>\n    memcpy(buffer1, hello_bytes, len(hello_bytes))\n    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyd3cs5b9.py\", line 9, in memcpy\n    if not isinstance(dest, ctypes.POINTER):\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\nTypeError: isinstance() arg 2 must be a type, a tuple of types, or a union\n",
+        "execution_time": 0.1936197280883789,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.4,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memory, string)",
+        "missing_elements": [
+          "copy",
+          "memory",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.09523809523809523,
+        "reasoning": "Code shows low semantic overlap (9.5%) with prompt"
+      },
+      "language_detection": {
+        "CJK Unified Ideographs": [
+          {
+            "text": "复制 n 个字节从 src 到 dest。\ndest 和 src 应为 ctypes 指针或可转换为指针的对象。",
+            "location": "Line 3 (docstring)",
+            "category": "docstring",
+            "confidence": 0.39
+          },
+          {
+            "text": "\n    复制 n 个字节从 src 到 dest。\n    dest 和 src 应为 ctypes 指针或可转换为指针的对象。\n    ",
+            "location": "Line 4 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.31
+          },
+          {
+            "text": "指针不能为 NULL",
+            "location": "Line 22 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.5
+          },
+          {
+            "text": "确保 dest 和 src 是指针",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.35
+          },
+          {
+            "text": "边界检查：确保指针有效且长度合理",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.94
+          },
+          {
+            "text": "检查内存对齐：如果需要，可以添加对齐检查",
+            "location": "Line 18 (comment)",
+            "category": "comment",
+            "confidence": 0.9
+          },
+          {
+            "text": "但 ctypes 通常处理对齐，这里假设传入的指针已对齐",
+            "location": "Line 19 (comment)",
+            "category": "comment",
+            "confidence": 0.68
+          },
+          {
+            "text": "为了安全，可以检查指针是否为 NULL",
+            "location": "Line 20 (comment)",
+            "category": "comment",
+            "confidence": 0.68
+          },
+          {
+            "text": "执行复制",
+            "location": "Line 24 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "示例使用",
+            "location": "Line 30 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "创建缓冲区",
+            "location": "Line 32 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          },
+          {
+            "text": "字符串 \"Hello\" 的字节表示",
+            "location": "Line 36 (comment)",
+            "category": "comment",
+            "confidence": 0.47
+          },
+          {
+            "text": "将 \"Hello\" 复制到 buffer1",
+            "location": "Line 39 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "将 buffer1 中的字符串复制到 buffer2",
+            "location": "Line 42 (comment)",
+            "category": "comment",
+            "confidence": 0.35
+          },
+          {
+            "text": "将 \"World\" 复制到 buffer1",
+            "location": "Line 45 (comment)",
+            "category": "comment",
+            "confidence": 0.19
+          },
+          {
+            "text": "打印结果",
+            "location": "Line 49 (comment)",
+            "category": "comment",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.16507936507936508
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 685,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08271193504333496,
+        "output": "bytearray(b'hello\\x00\\x00\\x00\\x00\\x00')\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.38095238095238093,
+        "reasoning": "Code shows 38.1% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6603174603174603
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1189,
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: invalid character '¡' (U+00A1)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.2,
+        "reasoning": "Code may not fully address the prompt (missing: def, memcpy, memory, string)",
+        "missing_elements": [
+          "def",
+          "memcpy",
+          "memory",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.047619047619047616,
+        "reasoning": "Code shows low semantic overlap (4.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "    mov r3, r2          @ r3 = número de bytes a copiar (r2)",
+            "location": "Line 6",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "    strb r0, [r0, r0]   @ Almacenar el byte en el destino (r0) - ¡Error aquí! Corrección:",
+            "location": "Line 13",
+            "category": "unknown",
+            "confidence": 0.03
+          },
+          {
+            "text": "    @ Corrección: Usar r0 como destino, r1 como fuente, r2 como contador",
+            "location": "Line 15",
+            "category": "unknown",
+            "confidence": 0.01
+          },
+          {
+            "text": "    @ Corrección del código:",
+            "location": "Line 18",
+            "category": "unknown",
+            "confidence": 0.07
+          },
+          {
+            "text": "    mov r3, r2          @ r3 = número de bytes a copiar",
+            "location": "Line 19",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "    cmp r3, #0          @ Comprobar si aún hay bytes por copiar",
+            "location": "Line 24",
+            "category": "unknown",
+            "confidence": 0.02
+          },
+          {
+            "text": "    mov r0, r2          @ Devolver número de bytes copiados (r2)",
+            "location": "Line 33",
+            "category": "unknown",
+            "confidence": 0.02
+          }
+        ]
+      },
+      "overall_score": 0.08253968253968254
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 395,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08026695251464844,
+        "output": "Hello\u0000\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.4,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memory, string)",
+        "missing_elements": [
+          "copy",
+          "memory",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {
+        "Arabic": [
+          {
+            "text": "مثال على استخدام الدالة",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          },
+          {
+            "text": "مخزن مؤقت بحجم 6 بايت (للحفاظ على \"Hello\" + '\\0')",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.51
+          },
+          {
+            "text": "تحويل السلسلة \"Hello\" إلى قائمة من البايتات",
+            "location": "Line 7 (comment)",
+            "category": "comment",
+            "confidence": 0.7
+          },
+          {
+            "text": "طباعة المخزن المؤقت على الشاشة",
+            "location": "Line 11 (comment)",
+            "category": "comment",
+            "confidence": 0.87
+          }
+        ]
+      },
+      "overall_score": 0.5301587301587302
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 632,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_thea3ka.py\", line 18, in <module>\n    result = memcpy(\"Hello\", \"Bonjour\", 7)\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_thea3ka.py\", line 9, in memcpy\n    dest_list[i] = src_list[i]\n    ~~~~~~~~~^^^\nIndexError: list assignment index out of range\n",
+        "execution_time": 0.4409937858581543,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.4,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memory, string)",
+        "missing_elements": [
+          "copy",
+          "memory",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Convertir les chaînes en listes de caractères pour pouvoir modifier",
+            "location": "Line 2 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Copier les octets (caractères) de la source vers la destination",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.02
+          },
+          {
+            "text": "Convertir la liste de retour en chaîne",
+            "location": "Line 14 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Appel de la fonction avec les paramètres donnés",
+            "location": "Line 17 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "chaînes",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.14
+          },
+          {
+            "text": "caractères",
+            "location": "Line 2 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "caractères",
+            "location": "Line 6 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "chaîne",
+            "location": "Line 14 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          },
+          {
+            "text": "paramètres",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.1
+          },
+          {
+            "text": "donnés",
+            "location": "Line 17 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.18095238095238098
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 286,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04176616668701172,
+        "output": "bytearray(b'Hello')\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.4,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memory, string)",
+        "missing_elements": [
+          "copy",
+          "memory",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5301587301587302
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 378,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03919053077697754,
+        "output": "Hello\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "copy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.19047619047619047,
+        "reasoning": "Code shows low semantic overlap (19.0%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.5968253968253968
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1263,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp22va1eph.py\", line 37, in <module>\n    result_str = bytes(dest_buffer).decode('utf-8')\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xd0 in position 8: invalid continuation byte\n",
+        "execution_time": 0.08854269981384277,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.8,
+        "reasoning": "Code appears to address the prompt (found 4/5 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Cyrillic": [
+          {
+            "text": "Привет",
+            "location": "Line 23 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.37777777777777777
+    },
+    "id": {
+      "language": "id",
+      "code_length": 377,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.041048526763916016,
+        "output": "Halo\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.8,
+        "reasoning": "Code appears to address the prompt (found 4/5 key terms)",
+        "missing_elements": [
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6476190476190476
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 532,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.03966331481933594,
+        "output": "hello\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6444444444444445
+    },
+    "de": {
+      "language": "de",
+      "code_length": 472,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0599212646484375,
+        "output": "bytearray(b'Hello')\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "copy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.580952380952381
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 384,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04034256935119629,
+        "output": "bytearray(b'Hello')\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6285714285714286
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 388,
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpaou31c7z.py\", line 11, in <module>\n    copy_bytes(buffer, source_bytes, len(source_bytes))\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpaou31c7z.py\", line 3, in copy_bytes\n    destination[i] = source[i]\n    ~~~~~~~~~~~^^^\nIndexError: bytearray index out of range\n",
+        "execution_time": 0.0853726863861084,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.6,
+        "reasoning": "Code appears to address the prompt (found 3/5 key terms)",
+        "missing_elements": [
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.23809523809523808,
+        "reasoning": "Code shows low semantic overlap (23.8%) with prompt"
+      },
+      "language_detection": {
+        "Devanagari (Hindi, etc.)": [
+          {
+            "text": "हॅलो",
+            "location": "Line 7 (string literal)",
+            "category": "string_literal",
+            "confidence": 1.0
+          }
+        ]
+      },
+      "overall_score": 0.2793650793650793
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 603,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04283475875854492,
+        "output": ""
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 1.0,
+        "reasoning": "Code appears to address the prompt (found 5/5 key terms)",
+        "missing_elements": []
+      },
+      "code_relevance": {
+        "relevant": true,
+        "relevance_score": 0.3333333333333333,
+        "reasoning": "Code shows 33.3% semantic overlap with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Xin chào",
+            "location": "Line 9 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.12
+          },
+          {
+            "text": "Copy string \"Xin chào\" into buffer",
+            "location": "Line 8 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "chào",
+            "location": "Line 8 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          },
+          {
+            "text": "chào",
+            "location": "Line 9 (identifier)",
+            "category": "identifier",
+            "confidence": 0.25
+          }
+        ]
+      },
+      "overall_score": 0.7777777777777778
+    },
+    "te": {
+      "language": "te",
+      "code_length": 432,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04241657257080078,
+        "output": "[72, 101, 108, 108, 111]\n"
+      },
+      "prompt_understanding": {
+        "understood": true,
+        "confidence": 0.8,
+        "reasoning": "Code appears to address the prompt (found 4/5 key terms)",
+        "missing_elements": [
+          "memcpy"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.2857142857142857,
+        "reasoning": "Code shows low semantic overlap (28.6%) with prompt"
+      },
+      "language_detection": {},
+      "overall_score": 0.6952380952380953
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 934,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.04580998420715332,
+        "output": "{'makoma': 7, 'tushen': b'Laniage', 'bytes_count': 7}\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.2,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memcpy, memory, string)",
+        "missing_elements": [
+          "copy",
+          "memcpy",
+          "memory",
+          "string"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.14285714285714285,
+        "reasoning": "Code shows low semantic overlap (14.3%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Sannu aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani",
+            "location": "Line 9 (docstring)",
+            "category": "docstring",
+            "confidence": 0.03
+          },
+          {
+            "text": "Sannu aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani",
+            "location": "Line 10 (string literal)",
+            "category": "string_literal",
+            "confidence": 0.03
+          },
+          {
+            "text": "Aikin aikin kofe da yawa daga ƙwaƙwalwar ajiya zuwa wani",
+            "location": "Line 1 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "Don haka, amfani da \"sannu\" da yawa daga ƙwaƙwalwar ajiya zuwa wani, wato: aikin aikin kofe da yawa ",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          },
+          {
+            "text": "Don haka, amfani da \"sannu\" da yawa daga ƙwaƙwalwar ajiya zuwa wani, wato: aikin aikin kofe da yawa ",
+            "location": "Line 6 (comment)",
+            "category": "comment",
+            "confidence": 0.03
+          }
+        ]
+      },
+      "overall_score": 0.44761904761904764
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 365,
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0595088005065918,
+        "output": "Merhaba\n"
+      },
+      "prompt_understanding": {
+        "understood": false,
+        "confidence": 0.4,
+        "reasoning": "Code may not fully address the prompt (missing: copy, memcpy, memory)",
+        "missing_elements": [
+          "copy",
+          "memcpy",
+          "memory"
+        ]
+      },
+      "code_relevance": {
+        "relevant": false,
+        "relevance_score": 0.047619047619047616,
+        "reasoning": "Code shows low semantic overlap (4.8%) with prompt"
+      },
+      "language_detection": {
+        "Other Non-English": [
+          {
+            "text": "Örnek kullanım",
+            "location": "Line 5 (comment)",
+            "category": "comment",
+            "confidence": 0.14
+          },
+          {
+            "text": "Sonucu string olarak göster",
+            "location": "Line 12 (comment)",
+            "category": "comment",
+            "confidence": 0.04
+          },
+          {
+            "text": "kullanım",
+            "location": "Line 5 (identifier)",
+            "category": "identifier",
+            "confidence": 0.12
+          },
+          {
+            "text": "göster",
+            "location": "Line 12 (identifier)",
+            "category": "identifier",
+            "confidence": 0.17
+          }
+        ]
+      },
+      "overall_score": 0.48253968253968255
+    }
+  },
+  "generated_at": "2025-11-17T13:10:27.506738"
+}

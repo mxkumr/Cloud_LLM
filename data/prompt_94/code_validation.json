@@ -1,0 +1,1889 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_94",
+  "summary": {
+    "total_languages": 18,
+    "successful": 9,
+    "syntax_errors": 4,
+    "runtime_errors": 5,
+    "success_rate": 50.0,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 2,
+      "average_similarity_score": 24.797128515523767
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 224
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1435,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1215963363647461,
+        "output": "Enter username: Enter password: Username already exists."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5714285714285714,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 57.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 50",
+            "language": "Standard German",
+            "text": "Enter username: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1756,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpq56c_p_s.py\", line 50, in <module>\n    action = input(\"\\u8bf7\\u9009\\u62e9\\u64cd\\u4f5c (1: \\u6ce8\\u518c, 2: \\u767b\\u5f55): \").strip()\n             ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>",
+        "execution_time": 0.1434764862060547,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "使用盐对密码进行哈希处理"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "注册新用户：生成盐，哈希密码，并插入数据库"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 35",
+            "language": "Mandarin Chinese",
+            "text": "验证用户：从数据库获取盐，重新哈希输入密码，与存储的哈希比较"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "用户注册成功"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Mandarin Chinese",
+            "text": "用户名已存在"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 50",
+            "language": "Mandarin Chinese",
+            "text": "请选择操作 (1: 注册, 2: 登录): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 65",
+            "language": "Mandarin Chinese",
+            "text": "无效操作"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Mandarin Chinese",
+            "text": "请输入用户名: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 54",
+            "language": "Mandarin Chinese",
+            "text": "请输入密码: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 61",
+            "language": "Mandarin Chinese",
+            "text": "登录成功"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 63",
+            "language": "Mandarin Chinese",
+            "text": "登录失败"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Mandarin Chinese",
+            "text": "请输入用户名: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 59",
+            "language": "Mandarin Chinese",
+            "text": "请输入密码: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "连接到SQLite数据库（如果不存在则创建）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "创建用户表"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "生成32字节的随机盐"
+          },
+          {
+            "category": "comment",
+            "location": "Line 48",
+            "language": "Mandarin Chinese",
+            "text": "主程序逻辑"
+          },
+          {
+            "category": "comment",
+            "location": "Line 67",
+            "language": "Mandarin Chinese",
+            "text": "关闭数据库连接"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1714,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1379854679107666,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Indonesian",
+            "text": "Insert into database"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Standard German",
+            "text": "Fetch user data"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1198,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14983892440795898,
+        "output": "Ingrese nombre de usuario: Ingrese contrase�a: Usuario registrado exitosamente."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4375,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 43.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Codifica la contraseña con sal usando SHA-256"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "usuarios.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "Ingrese nombre de usuario: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Spanish",
+            "text": "Ingrese contraseña: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Portuguese",
+            "text": "Usuario registrado exitosamente."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Spanish",
+            "text": "Error: El nombre de usuario ya existe."
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Conexión a la base de datos (se crea si no existe)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "Crear tabla si no existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "Codificar la contraseña con sal"
+          },
+          {
+            "category": "comment",
+            "location": "Line 46",
+            "language": "Spanish",
+            "text": "Cerrar la conexión"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1565,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 49: unterminated string literal (detected at line 49)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 49: unterminated string literal (detected at line 49)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "# إنشاء قاعدة بيانات وجدول المستخدمين إذا لم تكن موجودة"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "def setup_database():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "# تجزئة كلمة المرور باستخدام الملح"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "# إدخال بيانات المستخدم"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "    username = input(\"أدخل اسم المستخدم: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Standard Arabic",
+            "text": "    password = input(\"أدخل كلمة المرور: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Standard Arabic",
+            "text": "    # إنشاء ملح عشوائي"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Standard Arabic",
+            "text": "    # الاتصال بقاعدة البيانات"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Standard Arabic",
+            "text": "    # التحقق مما إذا كان المستخدم مسجلاً مسبقاً"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Standard Arabic",
+            "text": "        # التحقق من صحة كلمة المرور"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Standard Arabic",
+            "text": "            print(\"تم تسجيل الدخول بنجاح!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "Standard Arabic",
+            "text": "            print(\"كلمة المرور خاطئة. حاول مرة أخرى.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Standard Arabic",
+            "text": "            # السماح للمستخدم بمحاولة إدخال كلمة المرور مجددًا"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Standard Arabic",
+            "text": "                password = input(\"أدخل كلمة المرور مرة أخرى: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Standard Arabic",
+            "text": "                    print(\"تم تس"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1567,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11487293243408203,
+        "output": "Entrez le nom d'utilisateur : Entrez le mot de passe : Erreur : Le nom d'utilisateur existe d�j�."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.38095238095238093,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Hache le mot de passe avec un sel."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "French",
+            "text": "Utilisateur inséré avec succès."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 50",
+            "language": "French",
+            "text": "Entrez le nom d'utilisateur : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "French",
+            "text": "Entrez le mot de passe : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "French",
+            "text": "Erreur : Le nom d'utilisateur existe déjà."
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "French",
+            "text": "Connexion à la base de données (ou création si elle n'existe pas)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Création de la table si elle n'existe pas"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "French",
+            "text": "Vérification si l'utilisateur existe déjà"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "French",
+            "text": "Génération d'un sel aléatoire"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "French",
+            "text": "Hachage du mot de passe avec le sel"
+          },
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "French",
+            "text": "Insertion des données dans la base de données"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1629,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5i7cx7kw.py\", line 53, in <module>\n    register_user(\"alice\", \"mypassword123\")\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5i7cx7kw.py\", line 28, in register_user\n    cursor.execute('INSERT INTO users (username, password_hash, salt) VALUES (?, ?, ?)',\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                   (username, password_hash, salt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: table users has no column named password_hash",
+        "execution_time": 0.1626293659210205,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Bengali",
+            "text": "ব্যবহারকারী নাম ভুল"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Bengali",
+            "text": "সফল"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 47",
+            "language": "Bengali",
+            "text": "পাসওয়ার্ড ভুল"
+          },
+          {
+            "category": "comment",
+            "location": "Line 52",
+            "language": "Standard German",
+            "text": "Register a user"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1992,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 73: unterminated string literal (detected at line 73)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 73: unterminated string literal (detected at line 73)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "# Conectar ao banco de dados (ou criar se não existir)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "French",
+            "text": "conn = sqlite3.connect('usuarios.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "# Criar tabela de usuários se não existir"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "    CREATE TABLE IF NOT EXISTS usuarios ("
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "        nome_usuario TEXT PRIMARY KEY,"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "        senha_hash TEXT,"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "    \"\"\"Gera um salt aleatório.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "    return os.urandom(32)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "def hash_senha(senha, salt):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "    \"\"\"Hash da senha usando SHA-256 com salt.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Portuguese",
+            "text": "def cadastrar_usuario(nome_usuario, senha):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Portuguese",
+            "text": "    \"\"\"Cadastra um novo usuário com senha hash.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Indonesian",
+            "text": "    senha_hash = hash_senha(senha, salt)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "            INSERT INTO usuarios (nome_usuario, senha_hash, salt)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "            VALUES (?, ?, ?)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Portuguese",
+            "text": "        print(\"Usuário cadastrado com sucesso!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": "        print(\"Erro: Nome de usuário já existe!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "def fazer_login(nome_usuario, senha):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Portuguese",
+            "text": "    \"\"\"Verifica se o usuário pode fazer login.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Indonesian",
+            "text": "        SELECT senha_hash, salt FROM usuarios WHERE nome_usuario = ?"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Portuguese",
+            "text": "    ''', (nome_usuario,))"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Spanish",
+            "text": "    resultado = cursor.fetchone()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 51",
+            "language": "Portuguese",
+            "text": "        print(\"Usuário não encontrado!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "Portuguese",
+            "text": "    senha_hash_armazenado, salt_hex = resultado"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 56",
+            "language": "Portuguese",
+            "text": "    senha_hash_fornecida = hash_senha(senha, salt)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "Portuguese",
+            "text": "    if senha_hash_fornecida == senha_hash_armazenado:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 62",
+            "language": "Portuguese",
+            "text": "        print(\"Senha incorreta!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 65",
+            "language": "Spanish",
+            "text": "# Exemplo de uso"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 67",
+            "language": "Portuguese",
+            "text": "    # Cadastro de usuário"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 68",
+            "language": "Portuguese",
+            "text": "    nome = input(\"Digite o nome de usuário: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 69",
+            "language": "Portuguese",
+            "text": "    senha = input(\"Digite a senha: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 70",
+            "language": "Portuguese",
+            "text": "    cadastrar_usuario(nome, senha)"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1747,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11509203910827637,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.47058823529411764,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 47.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "Хеширование пароля с использованием соли"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "Регистрация нового пользователя"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 45",
+            "language": "Russian",
+            "text": "Проверка логина пользователя"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Russian",
+            "text": "Введите имя пользователя: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "Введите пароль: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 47",
+            "language": "Russian",
+            "text": "Введите имя пользователя: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Russian",
+            "text": "Введите пароль: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Russian",
+            "text": "Пользователь успешно зарегистрирован!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Russian",
+            "text": "Доступ запрещён"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Russian",
+            "text": "Ошибка: Пользователь с таким именем уже существует."
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "Подключение к базе данных (создастся, если не существует)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Создание таблицы, если её нет"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Russian",
+            "text": "Генерация случайной соли"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Russian",
+            "text": "Хеширование пароля с солью"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Russian",
+            "text": "Вставка в базу данных"
+          },
+          {
+            "category": "comment",
+            "location": "Line 50",
+            "language": "Russian",
+            "text": "Получение хеша и соли из базы данных"
+          },
+          {
+            "category": "comment",
+            "location": "Line 63",
+            "language": "Russian",
+            "text": "Хеширование введённого пароля с той же солью"
+          },
+          {
+            "category": "comment",
+            "location": "Line 66",
+            "language": "Russian",
+            "text": "Срав"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1631,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_vgidmv_.py\", line 59, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_vgidmv_.py\", line 56, in main\n    register_user(username, password)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_vgidmv_.py\", line 36, in register_user\n    cursor.execute('''\n    ~~~~~~~~~~~~~~^^^^\n        INSERT INTO users (username, salt, password_hash)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        VALUES (?, ?, ?)\n        ^^^^^^^^^^^^^^^^\n    ''', (username, salt, pwdhash))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: table users has no column named salt",
+        "execution_time": 0.2638373374938965,
+        "output": "Enter username: Enter password:"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1111111111111111,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Standard German",
+            "text": "Enter username: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Indonesian",
+            "text": "Insert user into database"
+          },
+          {
+            "category": "comment",
+            "location": "Line 51",
+            "language": "Standard German",
+            "text": "Get user input"
+          },
+          {
+            "category": "comment",
+            "location": "Line 55",
+            "language": "Standard German",
+            "text": "Register the user"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 2150,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 72: expected ':'"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 72: expected ':'",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Standard German",
+            "text": "# Register a new user"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Spanish",
+            "text": "        conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Indonesian",
+            "text": "    # Insert user into database"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "Standard German",
+            "text": "    # Fetch user data"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 62",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1997,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 76: expected an indented block after 'if' statement on line 76"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 76: expected an indented block after 'if' statement on line 76",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3076923076923077,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "# Datenbank initialisieren"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "# Benutzer erstellen"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "    # Salt generieren"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Standard German",
+            "text": "        print(f\"Benutzer {username} erfolgreich erstellt.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "        print(\"Benutzername existiert bereits.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Spanish",
+            "text": "        conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Standard German",
+            "text": "# Benutzer anmelden"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Standard German",
+            "text": "        print(\"Benutzername nicht gefunden.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "Standard German",
+            "text": "    # Eingebenes Passwort mit dem gespeicherten Salt hashen"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 59",
+            "language": "Standard German",
+            "text": "        print(\"Anmeldung erfolgreich.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 70",
+            "language": "Standard German",
+            "text": "        print(\"\\n1. Benutzer erstellen\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 74",
+            "language": "Standard German",
+            "text": "        choice = input(\"Wählen Sie eine Option (1-3): \")"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1360,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_1hvrxnu.py\", line 48, in <module>\n    username = input(\"\\u30e6\\u30fc\\u30b6\\u30fc\\u540d\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \")\n               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-13: character maps to <undefined>",
+        "execution_time": 0.16150522232055664,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Mandarin Chinese",
+            "text": "ユーザー名を入力してください: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Mandarin Chinese",
+            "text": "パスワードを入力してください: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Mandarin Chinese",
+            "text": "ユーザーが正常に登録されました。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Mandarin Chinese",
+            "text": "エラー: ユーザー名が既に存在します。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Japanese",
+            "text": "データベースエラー: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "ソルトを生成"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "パスワードをソルトと結合し、SHA-256でハッシュ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "ソルトとハッシュを結合して保存"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "データベース接続"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Mandarin Chinese",
+            "text": "テーブル作成（まだ存在しない場合）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "ユーザー名が既に存在するか確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Mandarin Chinese",
+            "text": "パスワードをハッシュ化"
+          },
+          {
+            "category": "comment",
+            "location": "Line 36",
+            "language": "Mandarin Chinese",
+            "text": "ユーザー情報をデータベースに挿入"
+          },
+          {
+            "category": "comment",
+            "location": "Line 46",
+            "language": "Mandarin Chinese",
+            "text": "ユーザー入力"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1302,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.18360066413879395,
+        "output": "User 'alice' registered successfully.\nWelcome!\nInvalid username or password."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "Standard German",
+            "text": "Register a user"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1871,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqt1ekjz6.py\", line 68, in <module>\n    print(\"\\n1. \\u0110\\u0103ng k�\")\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 5-6: character maps to <undefined>",
+        "execution_time": 0.1924879550933838,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6842105263157895,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 68.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Băm mật khẩu với muối bằng SHA-256"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Vietnamese",
+            "text": "Nhập tên người dùng: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "Nhập mật khẩu: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Vietnamese",
+            "text": "Nhập tên người dùng: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Vietnamese",
+            "text": "Nhập mật khẩu: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 68",
+            "language": "Vietnamese",
+            "text": "\n1. Đăng ký"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 69",
+            "language": "Vietnamese",
+            "text": "2. Đăng nhập"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 70",
+            "language": "Vietnamese",
+            "text": "3. Thoát"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 71",
+            "language": "Vietnamese",
+            "text": "Chọn chức năng: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Vietnamese",
+            "text": "Đăng ký thành công!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 64",
+            "language": "Vietnamese",
+            "text": "Đăng nhập thất bại"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Vietnamese",
+            "text": "Tên người dùng đã tồn tại!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 60",
+            "language": "Vietnamese",
+            "text": "Đăng nhập thành công"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 62",
+            "language": "Vietnamese",
+            "text": "Đăng nhập thất bại"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Kết nối đến cơ sở dữ liệu SQLite"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Tạo bảng người dùng nếu chưa tồn tại"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Vietnamese",
+            "text": "Tạo muối ngẫu nhiên"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "Băm mật khẩu với muối"
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Vietnamese",
+            "text": "Chèn vào cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Vietnamese",
+            "text": "Lấy thông tin người dùng từ cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 56",
+            "language": "Vietnamese",
+            "text": "Băm mật khẩu nhập vào với muối đã lưu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 66",
+            "language": "Vietnamese",
+            "text": "Giao diện người dùng"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1047,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13490533828735352,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Database setup"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "Register a new user"
+          },
+          {
+            "category": "comment",
+            "location": "Line 40",
+            "language": "Indonesian",
+            "text": "Insert into database"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 854,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055056095123291016,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Ana shigar da sunan mai amfani da kalmar sirri a cikin bayanan."
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "Ana gudanar da sunan mai amfani da kalmar sirri a cikin bayanan."
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Ana gudanar da sunan mai amfani da kalmar sirri a cikin bayanan."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Ana gudanar da sunan mai amfani da kalmar sirri a cikin bayanan."
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Ana shigar da sunan mai amfani da kalmar sirri a cikin bayanan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Ana gudanar da sunan mai amfani da kalmar sirri a cikin bayanan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Ana gudanar da sunan mai amfani da kalmar sirri a cikin bayanan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "Ana gudanar da sunan mai amfani da kalmar sirri a cikin bayanan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1797,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12696599960327148,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Turkish",
+            "text": "Kullanıcı başarıyla eklendi."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Turkish",
+            "text": "Bu kullanıcı adı zaten mevcut."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Turkish",
+            "text": "Kullanıcı adı bulunamadı."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 47",
+            "language": "Turkish",
+            "text": "Giriş başarılı."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 50",
+            "language": "Turkish",
+            "text": "Şifre yanlış."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 56",
+            "language": "Turkish",
+            "text": "\n1. Kullanıcı Ekle"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 57",
+            "language": "Turkish",
+            "text": "2. Giriş Yap"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Turkish",
+            "text": "3. Çıkış"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 59",
+            "language": "Turkish",
+            "text": "Seçiminiz (1/2/3): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 61",
+            "language": "Turkish",
+            "text": "Kullanıcı adı: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 62",
+            "language": "Turkish",
+            "text": "Şifre: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Dosya yolu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Veritabanını yükle"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "Veritabanını kaydet"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Turkish",
+            "text": "Şifreyi tuzla karma"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Turkish",
+            "text": "Yeni kullanıcı ekle"
+          },
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "Turkish",
+            "text": "Kullanıcı doğrulama"
+          },
+          {
+            "category": "comment",
+            "location": "Line 53",
+            "language": "Turkish",
+            "text": "Ana menü"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (57%)           ✓ Yes (German:1 (str:1))                 - None              \nzh-CN           ✗ Runtime Error ✗ No (0%)            ✓ Yes (Chinese:18 (cmt:5, doc:3, str:10)) Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (cmt:1); German:1 (cmt... - None              \nes              ✓ Yes           ✗ No (44%)           ✓ Yes (Portuguese:2 (str:2); Spanish:8 (cm... - None              \nar              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:3 (unk:3); Indonesian:1 (unk... Syntax: Line 49: unterminated str\nfr              ✓ Yes           ✗ No (38%)           ✓ Yes (French:11 (cmt:6, doc:1, str:4))  - None              \nbn              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Bengali:3 (str:3); German:1 (cmt:1)) Runtime: Traceback (most recent ca\npt              ✗ Syntax Error  ✗ No (50%)           ✓ Yes (French:2 (unk:2); Indonesian:3 (unk... Syntax: Line 73: unterminated str\nru              ✓ Yes           ✗ No (47%)           ✓ Yes (Russian:18 (cmt:8, doc:3, str:7)) - None              \nid              ✗ Runtime Error ✗ No (11%)           ✓ Yes (Indonesian:1 (cmt:1); German:3 (cmt... Runtime: Traceback (most recent ca\nur              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:4 (unk:4); Indonesian:1 (unk... Syntax: Line 72: expected ':'\nde              ✗ Syntax Error  ✗ No (31%)           ✓ Yes (French:7 (unk:7); Portuguese:1 (unk... Syntax: Line 76: expected an inde\nja              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Japanese:1 (str:1); Chinese:13 (cmt... Runtime: Traceback (most recent ca\nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (cmt:1))                 - None              \nvi              ✗ Runtime Error ✓ Yes (68%)          ✓ Yes (Vietnamese:22 (cmt:8, doc:1, str:13)) Runtime: Traceback (most recent ca\nte              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:2 (cmt:2); German:1 (cmt... - None              \nha              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:8 (cmt:8))             - None              \ntr              ✓ Yes           ✗ No (0%)            ✓ Yes (Turkish:18 (cmt:7, str:11))       - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:15:47.555818"
+}

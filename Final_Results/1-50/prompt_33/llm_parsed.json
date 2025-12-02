@@ -1,0 +1,1277 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\en.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "debug",
+          "domain",
+          "domain_end",
+          "domain_start",
+          "find",
+          "flask",
+          "get",
+          "lower",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url"
+        ],
+        "literals": [
+          "/redirect",
+          "url",
+          "Error: URL parameter is missing",
+          "400",
+          "http://",
+          "https://",
+          "Error: URL must start with http:// or https://",
+          "400",
+          "http://",
+          "7",
+          "8",
+          "/",
+          "1",
+          "example.com",
+          "Error: URL must be from example.com",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "debug",
+          "domain",
+          "domain_end",
+          "domain_start",
+          "find",
+          "flask",
+          "get",
+          "lower",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url"
+        ],
+        "comments": [
+          "Check if the URL starts with http:// or https://",
+          "Extract the domain from the URL",
+          "Find the end of the domain (after the first slash or end of string)",
+          "Check if the domain is 'example.com'"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "current_time",
+          "datetime",
+          "debug",
+          "flask",
+          "get",
+          "get_current_time",
+          "home",
+          "now",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "strftime",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>URL Redirector</title>\r\n</head>\r\n<body>\r\n    <h1>URL Redirector</h1>\r\n    <form method=\"get\" action=\"/redirect\">\r\n        <label for=\"url\">Enter a URL:</label>\r\n        <input type=\"text\" id=\"url\" name=\"url\" required>\r\n        <button type=\"submit\">Redirect</button>\r\n    </form>\r\n    <br><br>\r\n    <a href=\"/time\">Check Current Time</a>\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect",
+          "url",
+          "example.com",
+          "Error: URL does not contain 'example.com",
+          "400",
+          "/time",
+          "%Y-%m-%d %H:%M:%S",
+          "f\"Current Time: {current_time}",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "current_time",
+          "datetime",
+          "debug",
+          "flask",
+          "get",
+          "now",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "strftime",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "HTML template for the home page",
+          "Route for the home page",
+          "Route to redirect based on URL",
+          "Route to return current time"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_current_time",
+          "home",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\hi.py",
+      "elements": {
+        "identifiers": [
+          "ERROR_TEMPLATE",
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Error</title>\r\n</head>\r\n<body>\r\n    <h1>Invalid URL</h1>\r\n    <p>The provided URL does not contain a valid domain like '.com'.</p>\r\n</body>\r\n</html>\r\n",
+          "/",
+          "url",
+          "Please provide a 'url' parameter.",
+          "400",
+          ".com",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "ERROR_TEMPLATE",
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url"
+        ],
+        "comments": [
+          "HTML template for the error message",
+          "Check if the URL contains '.com' as a domain"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "error",
+          "flask",
+          "get",
+          "index",
+          "is_valid_url",
+          "methods",
+          "netloc",
+          "parse",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "result",
+          "route",
+          "run",
+          "scheme",
+          "strip",
+          "url",
+          "url_for",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Redirección de URL</title>\r\n</head>\r\n<body>\r\n    <h1>Redirección de URL</h1>\r\n    <form method=\"get\">\r\n        <label for=\"url\">Introduce una URL:</label>\r\n        <input type=\"text\" id=\"url\" name=\"url\" required>\r\n        <button type=\"submit\">Redirigir</button>\r\n    </form>\r\n    {% if error %}\r\n        <p style=\"color: red;\">Error: {{ error }}</p>\r\n    {% endif %}\r\n    {% if success %}\r\n        <p style=\"color: green;\">Redirigiendo a: {{ success }}</p>\r\n    {% endif %}\r\n</body>\r\n</html>\r\n",
+          "http",
+          "https",
+          ".com",
+          "/",
+          "GET",
+          "/redirect",
+          "GET",
+          "url",
+          "La URL no puede estar vacía.",
+          "La URL no es válida o no contiene un dominio .com.",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "error",
+          "flask",
+          "get",
+          "methods",
+          "netloc",
+          "parse",
+          "re",
+          "redirect",
+          "render_template_string",
+          "request",
+          "result",
+          "route",
+          "run",
+          "scheme",
+          "strip",
+          "url",
+          "url_for",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Plantilla HTML para la página de redirección",
+          "Verifica que tenga esquema (http/https) y dominio con .com",
+          "Verifica si el dominio contiene .com"
+        ],
+        "docstrings": [
+          "Valida si la URL es válida y tiene un dominio .com"
+        ],
+        "functions": [
+          "index",
+          "is_valid_url",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>URL Redirector</title>\r\n</head>\r\n<body>\r\n    <h1>Enter a URL to redirect</h1>\r\n    <form method=\"GET\" action=\"/redirect\">\r\n        <input type=\"text\" name=\"url\" placeholder=\"Enter URL\" required>\r\n        <button type=\"submit\">Redirect</button>\r\n    </form>\r\n    {% if error %}\r\n        <p style=\"color: red;\">{{ error }}</p>\r\n    {% endif %}\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect",
+          "url",
+          ".com",
+          "<p style=\"color: red;\">Error: URL does not contain \".com\".</p>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "HTML template for the form and error message",
+          "Check if the URL contains \".com\" as a domain example"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Redirect URL</title>\r\n</head>\r\n<body>\r\n    <h1>Redirection d'URL</h1>\r\n    <form method=\"GET\" action=\"/redirect\">\r\n        <label for=\"url\">Entrez une URL :</label>\r\n        <input type=\"text\" id=\"url\" name=\"url\" required>\r\n        <button type=\"submit\">Rediriger</button>\r\n    </form>\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect",
+          "url",
+          ".com",
+          "Erreur : L'URL ne contient pas de domaine .com.",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Template pour la page d'accueil",
+          "Vérifier si l'URL contient un domaine .com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "debug",
+          "description",
+          "flask",
+          "get",
+          "is_valid_url",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "search",
+          "startswith",
+          "url"
+        ],
+        "literals": [
+          "http://",
+          "https://",
+          "https://",
+          "r'\\.com\\b",
+          "/redirect",
+          "url",
+          "400",
+          "URL parameter is required",
+          "Error: The provided URL does not contain a .com domain.",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "debug",
+          "description",
+          "flask",
+          "get",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "search",
+          "startswith",
+          "url"
+        ],
+        "comments": [
+          "Check if the URL has a protocol (http:// or https://)",
+          "Default to https if no protocol is provided",
+          "Check if the URL contains a domain with .com extension"
+        ],
+        "docstrings": [],
+        "functions": [
+          "is_valid_url",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html lang=\"pt-BR\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Redirecionador de URL</title>\r\n</head>\r\n<body>\r\n    <h1>Redirecionador de URL</h1>\r\n    <form method=\"GET\" action=\"/redirect\">\r\n        <label for=\"url\">Digite a URL:</label><br>\r\n        <input type=\"text\" id=\"url\" name=\"url\" placeholder=\"https://exemplo.com\" required><br><br>\r\n        <button type=\"submit\">Redirecionar</button>\r\n    </form>\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect",
+          "url",
+          "exemplo.com",
+          "<h1>Erro: A URL não contém o domínio exemplo.com</h1>",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Página inicial com formulário",
+          "Verifica se a URL contém o domínio exemplo.com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "debug",
+          "description",
+          "flask",
+          "get",
+          "handle_redirect",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "url",
+          "400",
+          "URL parameter is missing",
+          "example.com",
+          "Error: URL does not contain 'example.com",
+          "400",
+          "/redirect",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "args",
+          "debug",
+          "description",
+          "flask",
+          "get",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Получаем URL из параметра запроса",
+          "Проверяем, является ли URL None или пустым",
+          "Проверяем, содержит ли URL домен \"example.com\"",
+          "Регистрируем маршрут"
+        ],
+        "docstrings": [],
+        "functions": [
+          "handle_redirect",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\id.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Redirect URL</title>\r\n</head>\r\n<body>\r\n    <h1>Redirect URL</h1>\r\n    <form method=\"GET\" action=\"/redirect\">\r\n        <label for=\"url\">Masukkan URL:</label><br>\r\n        <input type=\"text\" id=\"url\" name=\"url\" required><br><br>\r\n        <button type=\"submit\">Redirect</button>\r\n    </form>\r\n    {% if error %}\r\n        <p style=\"color: red;\">{{ error }}</p>\r\n    {% endif %}\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect",
+          "url",
+          ".com",
+          "<p style=\"color: red;\">URL tidak valid: Harus mengandung domain .com.</p>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Template HTML sederhana untuk halaman input URL",
+          "Periksa apakah URL mengandung domain .com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>URL Redirect</title>\r\n</head>\r\n<body>\r\n    <h2>Enter a URL to Redirect</h2>\r\n    <form method=\"GET\" action=\"/redirect\">\r\n        <input type=\"text\" name=\"url\" placeholder=\"https://example.com\" required>\r\n        <button type=\"submit\">Redirect</button>\r\n    </form>\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect",
+          "url",
+          ".com",
+          "Error: URL does not contain '.com' domain.",
+          "400",
+          "Error: No URL provided.",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "HTML template for the form",
+          "Check if the URL contains .com domain"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\de.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "endswith",
+          "flask",
+          "lower",
+          "port",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<path:url>",
+          ".com",
+          "Fehler: Die URL endet nicht auf .com.",
+          "400",
+          "__main__",
+          "5000"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "endswith",
+          "flask",
+          "lower",
+          "port",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Prüfen, ob die URL ein Domänenbeispiel enthält, das auf .com endet"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\ja.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IGNORECASE",
+          "Redirection",
+          "Service",
+          "URL",
+          "VALID_DOMAINS",
+          "action",
+          "app",
+          "args",
+          "compile",
+          "domain",
+          "flask",
+          "form",
+          "get",
+          "h1",
+          "has_valid_domain",
+          "home",
+          "html",
+          "is_valid_url",
+          "match",
+          "methods",
+          "parsed_url",
+          "pattern",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "split",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "example.com",
+          "example.org",
+          "example.net",
+          "r'^https?://",
+          "r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+[A-Z]{2,6}\\.?|",
+          "r'localhost|",
+          "r'\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})",
+          "r'(?::\\d+)?",
+          "r'(?:/?|[/?]\\S+)$",
+          "://",
+          "1",
+          "1",
+          "/",
+          "1",
+          "0",
+          ":",
+          "0",
+          "/redirect",
+          "GET",
+          "url",
+          "Error: URL parameter is missing.",
+          "400",
+          "Error: Invalid URL format.",
+          "400",
+          "Error: URL domain is not allowed.",
+          "400",
+          "/"
+        ],
+        "variables": [
+          "Flask",
+          "IGNORECASE",
+          "Redirection",
+          "Service",
+          "URL",
+          "VALID_DOMAINS",
+          "action",
+          "app",
+          "args",
+          "compile",
+          "domain",
+          "flask",
+          "form",
+          "get",
+          "h1",
+          "html",
+          "match",
+          "methods",
+          "parsed_url",
+          "pattern",
+          "re",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "split",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "ドメインのリスト",
+          "URL の有効性を確認する関数",
+          "簡単な URL パターンの検証",
+          "http:// または https://",
+          "ドメイン",
+          "localhost",
+          "IP アドレス",
+          "オプションのポート",
+          "ドメインが有効かどうかを確認する関数",
+          "スキームを除く",
+          "ドメイン部分を取得",
+          "ポートを除く",
+          "URL リダイレクトルート",
+          "ホームページ（テスト用）"
+        ],
+        "docstrings": [],
+        "functions": [
+          "has_valid_domain",
+          "home",
+          "is_valid_url",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\mr.py",
+      "elements": {
+        "identifiers": [
+          "DOCTYPE",
+          "Enter",
+          "Flask",
+          "HTML_TEMPLATE",
+          "Redirect",
+          "Redirector",
+          "URL",
+          "app",
+          "body",
+          "button",
+          "charset",
+          "error",
+          "flask",
+          "form",
+          "h2",
+          "head",
+          "html",
+          "lang",
+          "meta",
+          "method",
+          "name",
+          "p",
+          "placeholder",
+          "redirect",
+          "render_template_string",
+          "request",
+          "required",
+          "style",
+          "title",
+          "to",
+          "type"
+        ],
+        "literals": [
+          "en",
+          "UTF-8",
+          "GET",
+          "text",
+          "url",
+          "https://example.com",
+          "submit",
+          "color: red;"
+        ],
+        "variables": [
+          "DOCTYPE",
+          "Enter",
+          "Flask",
+          "HTML_TEMPLATE",
+          "Redirect",
+          "Redirector",
+          "URL",
+          "app",
+          "body",
+          "button",
+          "charset",
+          "error",
+          "flask",
+          "form",
+          "h2",
+          "head",
+          "html",
+          "lang",
+          "meta",
+          "method",
+          "name",
+          "p",
+          "placeholder",
+          "redirect",
+          "render_template_string",
+          "request",
+          "required",
+          "style",
+          "title",
+          "to",
+          "type"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\vi.py",
+      "elements": {
+        "identifiers": [
+          "ERROR_PAGE",
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Error</title>\r\n</head>\r\n<body>\r\n    <h1>Error: Invalid URL</h1>\r\n    <p>The provided URL does not contain a valid domain (e.g., .com).</p>\r\n    <a href=\"/\">Go back</a>\r\n</body>\r\n</html>\r\n",
+          "/",
+          "\r\n    <!DOCTYPE html>\r\n    <html>\r\n    <head>\r\n        <title>URL Redirector</title>\r\n    </head>\r\n    <body>\r\n        <h1>URL Redirector</h1>\r\n        <form method=\"GET\" action=\"/redirect\">\r\n            <label for=\"url\">Enter a URL:</label>\r\n            <input type=\"text\" id=\"url\" name=\"url\" required>\r\n            <button type=\"submit\">Redirect</button>\r\n        </form>\r\n    </body>\r\n    </html>\r\n    ",
+          "/redirect",
+          "url",
+          ".com",
+          ".net",
+          ".org",
+          ".edu",
+          ".gov",
+          "__main__"
+        ],
+        "variables": [
+          "ERROR_PAGE",
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "get",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "HTML template for the error page",
+          "Check if the URL contains a valid domain ending like .com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\te.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "description",
+          "flask",
+          "handle_redirect",
+          "netloc",
+          "parse",
+          "parsed_url",
+          "path",
+          "query",
+          "redirect",
+          "redirect_invalid_url",
+          "route",
+          "scheme",
+          "url",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "400",
+          "Invalid URL: Missing scheme or domain.",
+          ".com",
+          "400",
+          "Invalid URL: Domain must contain '.com'.",
+          "400",
+          "Invalid URL: Only https://www.google.com is allowed.",
+          "https://www.google.com",
+          "400",
+          "Invalid URL: Only https://www.google.com is allowed.",
+          "/redirect/<path:url>"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "description",
+          "flask",
+          "netloc",
+          "parse",
+          "parsed_url",
+          "path",
+          "query",
+          "redirect",
+          "route",
+          "scheme",
+          "url",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Parse the URL to extract components",
+          "Check if the URL has a scheme (e.g., https://) and netloc (domain)",
+          "Check if the domain contains '.com' (case-sensitive)",
+          "Check if the URL has any query parameters or path beyond the root",
+          "The only allowed URL is exactly https://www.google.com",
+          "If the URL is exactly https://www.google.com, redirect to it",
+          "If the URL is not exactly https://www.google.com, return error"
+        ],
+        "docstrings": [],
+        "functions": [
+          "handle_redirect",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\ha.py",
+      "elements": {
+        "identifiers": [
+          "IGNORECASE",
+          "compile",
+          "is_valid_url",
+          "match",
+          "pattern",
+          "re",
+          "url"
+        ],
+        "literals": [
+          "r'^https?://",
+          "r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+[A-Z]{2,6}\\.?|",
+          "r'localhost|",
+          "r'\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})",
+          "r'(?::\\d+)?",
+          "r'(?:/?|[/?]\\S+)$",
+          "http://example.com",
+          "http://127.0.0.1:8000",
+          "invalid-url"
+        ],
+        "variables": [
+          "IGNORECASE",
+          "compile",
+          "match",
+          "pattern",
+          "re",
+          "url"
+        ],
+        "comments": [
+          "Regular expression pattern for validating URL",
+          "http:// or https://",
+          "domain...",
+          "localhost...",
+          "...or ip",
+          "optional port",
+          "Test cases",
+          "True",
+          "True",
+          "False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "is_valid_url"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_eq1ycve7\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "VALID_DOMAIN",
+          "app",
+          "append",
+          "debug",
+          "flask",
+          "join",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_route",
+          "render_template_string",
+          "request",
+          "results",
+          "route",
+          "run",
+          "test_page",
+          "test_urls",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          ".com",
+          "Hata: Geçersiz URL veya alan adı örneği bulunamadı.",
+          "400",
+          "/redirect/<path:url>",
+          "https://www.google.com",
+          "https://www.github.com",
+          "https://www.stackoverflow.com",
+          "https://www.example.com",
+          "https://www.badwebsite.com",
+          "https://www.google.com",
+          "https://www.github.com",
+          "/test",
+          "f\"{url} -> Yönlendirildi",
+          "f\"{url} -> Hata: Geçersiz alan adı",
+          "<br>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "VALID_DOMAIN",
+          "app",
+          "append",
+          "debug",
+          "flask",
+          "join",
+          "redirect",
+          "render_template_string",
+          "request",
+          "results",
+          "route",
+          "run",
+          "test_urls",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Geçerli alan adı örneği",
+          "URL'nin geçerli bir alan adı örneğine sahip olup olmadığını kontrol et",
+          "URL'yi parametre olarak al ve geçerli olup olmadığını kontrol et",
+          "Test URL'leri",
+          "Test URL'leri için bir test sayfası oluştur"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_route",
+          "test_page"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_12",
+  "summary": {
+    "total_languages": 18,
+    "successful": 4,
+    "syntax_errors": 1,
+    "runtime_errors": 12,
+    "success_rate": 22.22222222222222,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 16,
+      "average_similarity_score": 94.11764705882352
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 5,
+      "total_locations": 14
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 499,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmcn7fu2d.py\", line 20, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmcn7fu2d.py\", line 11, in main\n    arr = list(map(int, input().strip().split()))\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.13329076766967773,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "array/list",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, array/list, return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 414,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpxcdz8w_u.py\", line 21, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpxcdz8w_u.py\", line 11, in main\n    arr = list(map(int, input().split()))\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.13254523277282715,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "array/list",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, array/list, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "读取数组大小"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "读取数组元素"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "读取索引"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "调用函数并返回结果作为退出代码"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 368,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05808663368225098,
+        "output": "-1"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Hindi",
+            "text": "अमान्य सूचकांक के लिए त्रुटि मान"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 324,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05436277389526367,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 358,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpz2xd4_qi.py\", line 15, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpz2xd4_qi.py\", line 11, in main\n    result = getValueFromArray(arr, size, index)\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpz2xd4_qi.py\", line 5, in getValueFromArray\n    raise IndexError(\"Index out of range\")\nIndexError: Index out of range",
+        "execution_time": 0.14251017570495605,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 325,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05718851089477539,
+        "output": "-1"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 542,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpg03a7q2k.py\", line 22, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpg03a7q2k.py\", line 12, in main\n    arr = list(map(int, input().strip().split()))\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.13579010963439941,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 336,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05477285385131836,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 293,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.055075645446777344,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 597,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbkqyfjux.py\", line 23, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbkqyfjux.py\", line 11, in main\n    arr = list(map(int, input().strip().split()))\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.13063526153564453,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Membaca ukuran array dari input standar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "Membaca elemen array dari input standar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Membaca indeks dari input standar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Memanggil fungsi getValueFromArray"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Mengembalikan nilai kembalian sebagai kode keluar"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 331,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05615067481994629,
+        "output": "0"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 324,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05593085289001465,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 432,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05521893501281738,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "入力から整数を読み取る"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "getValueFromArray を呼び出して結果を返す"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Japanese",
+            "text": "プログラムのエントリーポイント"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 557,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyhte1fad.py\", line 27, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyhte1fad.py\", line 12, in main\n    arr = list(map(int, input().strip().split()))\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.13034796714782715,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 293,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05524134635925293,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 12,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 1: expected '('"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 1: expected '('",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 318,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05589795112609863,
+        "output": "-1"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Ana işlev"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Traceback (most recent ca\nzh-CN           ✗ Runtime Error ✓ Yes (100%)         ✓ Yes (Chinese:4 (cmt:4))                Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Hindi:1 (cmt:1))                  - None              \nes              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Non-zero exit code\nar              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nbn              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Traceback (most recent ca\npt              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Non-zero exit code\nru              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Non-zero exit code\nid              ✗ Runtime Error ✓ Yes (100%)         ✓ Yes (Indonesian:5 (cmt:5))             Runtime: Traceback (most recent ca\nur              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nde              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Non-zero exit code\nja              ✗ Runtime Error ✓ Yes (100%)         ✓ Yes (Japanese:1 (cmt:1); Chinese:2 (cmt:2)) Runtime: Non-zero exit code\nmr              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Traceback (most recent ca\nvi              ✗ Runtime Error ✓ Yes (100%)         ✗ No                                     Runtime: Non-zero exit code\nte              ✗ Syntax Error  ✗ No (0%)            ✗ No                                     Syntax: Line 1: expected '('; Prompt: Missing 1 keywords\nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Turkish:1 (cmt:1))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:47:54.237793"
+}

@@ -1,0 +1,1385 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_66",
+  "summary": {
+    "total_languages": 18,
+    "successful": 5,
+    "syntax_errors": 10,
+    "runtime_errors": 2,
+    "success_rate": 27.77777777777778,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 13.058850991376945
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 17,
+      "total_locations": 144
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 861,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp21locxqx.py\", line 2, in <module>\n    from PyPDF2 import PdfReader\nModuleNotFoundError: No module named 'PyPDF2'",
+        "execution_time": 0.13003039360046387,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.21428571428571427,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 21.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": " does not exist."
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1129,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11161684989929199,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2222222222222222,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "French",
+            "text": "/files"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "French",
+            "text": "files"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "确保上传文件夹存在"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1841,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10831737518310547,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1771,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: '(' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "    Genera un nombre de archivo PDF con el formato: <username><numero>.pdf"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "    El número es el más alto existente para ese usuario, o 1 si no hay archivos."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "    # Validar que el nombre de usuario no contenga caracteres inválidos"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "        raise ValueError(\"El nombre de usuario solo puede contener letras, números y guiones bajos.\"..."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "    # Asegurarse de que el directorio de cargas exista"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "    # Buscar todos los archivos que empiecen con el nombre de usuario"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Vietnamese",
+            "text": "                try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "                    continue  # Ignorar archivos con nombres inválidos"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Spanish",
+            "text": "    # Determinar el siguiente número consecutivo"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Spanish",
+            "text": "    Verifica si un archivo es un PDF válido mediante la lectura de sus primeros bytes."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "Vietnamese",
+            "text": "    try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1583,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10662031173706055,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.26666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 26.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "التحميلات"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "\n<!DOCTYPE html>\n<html lang=\"ar\" dir=\"rtl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>تحميل ملف P..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard Arabic",
+            "text": "لم يتم اختيار ملف"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Standard Arabic",
+            "text": "لم يتم اختيار ملف"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "مسار المجلد الذي سيتم حفظ الملفات فيه"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "تعيين مجلد التحميل كمسار للملفات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "صفحة HTML مع زر \"إعادة تحميل\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 960,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1271967887878418,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Aucun fichier sélectionné"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Aucun fichier sélectionné"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Fichier "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "French",
+            "text": " téléchargé avec succès !"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Dossier pour stocker les fichiers téléchargés"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1331,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Import error: No module named 'pdfplumber'",
+        "execution_time": 0.10862874984741211,
+        "output": "Import error: No module named 'pdfplumber'"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1525,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 50: expected 'except' or 'finally' block"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 50: expected 'except' or 'finally' block",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.35294117647058826,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 35.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "# Configurações"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "ALLOWED_EXTENSIONS = {'pdf'}"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "# Cria a pasta uploads se não existir"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "    # Verifica se o arquivo foi enviado"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "French",
+            "text": "    if 'file' not in request.files:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "        return jsonify({'error': 'Nenhum arquivo enviado'}), 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "French",
+            "text": "    file = request.files['file']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Portuguese",
+            "text": "    # Verifica se o nome do arquivo está vazio"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Spanish",
+            "text": "        return jsonify({'error': 'Nome de arquivo inválido'}), 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "    # Verifica se o arquivo é do tipo PDF"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "Portuguese",
+            "text": "        return jsonify({'error': 'Apenas arquivos PDF são permitidos'}), 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Portuguese",
+            "text": "    # Gera um nome seguro para o arquivo"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "Portuguese",
+            "text": "    # Caminho completo para salvar o arquivo"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "        # Salva o arquivo"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Portuguese",
+            "text": "        # Verifica se o arquivo foi salvo com sucesso"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Portuguese",
+            "text": "            return jsonify({'error': 'Falha ao salvar o arquivo'}),"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1689,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: expected an indented block after 'if' statement on line 50"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: expected an indented block after 'if' statement on line 50",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.375,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 37.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "def save_pdf_file(file_path, download_folder=\"Загрузки\"):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "    Сохраняет PDF-файл в папку \"Загрузки\", обрабатывая ошибки доступа."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "    # Определяем путь к папке \"Загрузки\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "    # Проверяем, существует ли папка \"Загрузки\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "        print(f\"Папка {downloads_path} не существует. Создаю её...\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "        try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "        except PermissionError:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "            print(\"Ошибка: Нет прав на создание папки 'Загрузки'.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "    # Проверяем права на запись в папку"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "        print(f\"Ошибка: Нет прав на запись в папку {downloads_path}.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "    # Получаем имя файла и путь назначения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Russian",
+            "text": "    # Проверяем, существует ли файл с таким именем, и добавляем суффикс, если нужно"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Russian",
+            "text": "        # Пытаемся скопировать файл"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Russian",
+            "text": "        print(f\"Файл успешно сохранён: {destination}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "    except PermissionError:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Russian",
+            "text": "        print(f\"Ошибка: Нет прав на запись в файл {destination}.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Russian",
+            "text": "        print(f\"Неожиданная ошибка при копировании: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Russian",
+            "text": "# Пример использования"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 51",
+            "language": "Russian",
+            "text": "    # Укажите путь к"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1713,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 53: unterminated string literal (detected at line 53)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 53: unterminated string literal (detected at line 53)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3888888888888889,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "# Folder untuk menyimpan file upload dan hasil"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "    # Coba ekstrak teks langsung dari PDF menggunakan pdfplumber"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "French",
+            "text": "                page_text = page.extract_text()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "        print(f\"Error saat ekstrak teks dengan pdfplumber: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Indonesian",
+            "text": "    # Jika tidak ada teks, coba dengan PyPDF2"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Vietnamese",
+            "text": "        try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "                    page_text = page.extract_text()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "French",
+            "text": "        except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Indonesian",
+            "text": "            print(f\"Error saat ekstrak teks dengan PyPDF2: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "Indonesian",
+            "text": "        image_paths.append(image_path)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Vietnamese",
+            "text": "        try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1953,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 58: expected an indented block after 'for' statement on line 54"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 58: expected an indented block after 'for' statement on line 54",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "French",
+            "text": "        if 'pdf_file' not in request.files:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "French",
+            "text": "            file = request.files['pdf_file']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "French",
+            "text": "                file.save(pdf_path)"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1712,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 48: '(' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 48: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "# Pfad für die Ordner"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "# Erstellen der Ordner, falls sie nicht existieren"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "        self.root.title(\"PDF-Verarbeitungs-App\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "        # Label für den Status"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "        # Button zum Hochladen der Datei"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Vietnamese",
+            "text": "        try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "            # PDF-Datei öffnen und Seitenanzahl prüfen"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "French",
+            "text": "                page_count = len(reader.pages)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Standard German",
+            "text": "            # Entscheidung basierend auf Seitenanzahl"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "Standard German",
+            "text": "                messagebox.showerror(\"Fehler\", f\"Die PDF-Datei hat mehr als 5 Seiten ({page_count})...."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Standard German",
+            "text": "                # Datei in den \"Processed\"-Ordner verschieben"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1644,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 57: expected an indented block after 'with' statement on line 57"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 57: expected an indented block after 'with' statement on line 57",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Japanese",
+            "text": "# HTML ページのテンプレート"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "    <title>PDF テキスト抽出</title>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "    <h1>PDF ファイルをアップロードしてテキストを抽出</h1>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Japanese",
+            "text": "        <button type=\"submit\">アップロード</button>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "    <h2>抽出されたテキスト</h2>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Japanese",
+            "text": "    <a href=\"/download\">ダウンロード (extracted_text.txt)</a>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "French",
+            "text": "        if 'pdf_file' not in request.files:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Mandarin Chinese",
+            "text": "            return 'ファイルが選択されていません', 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "French",
+            "text": "        file = request.files['pdf_file']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "Mandarin Chinese",
+            "text": "            return 'ファイル名がありません', 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Mandarin Chinese",
+            "text": "            # ファイルを保存"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Mandarin Chinese",
+            "text": "            # PDF からテキストを抽出"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Vietnamese",
+            "text": "            try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 52",
+            "language": "French",
+            "text": "                    text += page.extract_text() + \"\\n\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "Mandarin Chinese",
+            "text": "                # 抽出されたテキストをファイルに保存"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1071,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 42: unterminated string literal (detected at line 42)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 42: unterminated string literal (detected at line 42)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "# Ensure directories exist"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": "def upload_and_convert():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "        if 'pdf_file' not in request.files:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 789,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1459805965423584,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Lưu tệp PDF được tải lên vào thư mục \"tải lên\"\n:param file_path: Tên tệp (bao gồm đường dẫn) để lưu\n..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "tải lên"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Vietnamese",
+            "text": "Tệp đã được lưu tại: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Tạo thư mục \"tải lên\" nếu chưa tồn tại"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "Giả sử bạn đã nhận được tệp PDF từ một ứng dụng web (ví dụ: trong một request)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Dưới đây là ví dụ về cách lưu tệp PDF được tải lên"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Vietnamese",
+            "text": "Tạo đường dẫn đầy đủ đến tệp trong thư mục \"tải lên\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Ghi nội dung tệp vào thư mục"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1104,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 33: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 33: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Vietnamese",
+            "text": "        try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1412,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 21: unterminated triple-quoted string literal (detected at line 50)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 21: unterminated triple-quoted string literal (detected at line 50)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "# Klasör yolları"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Turkish",
+            "text": "# Klasörleri oluştur"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "# JSON dosyasını başlat"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Turkish",
+            "text": "    <title>PDF Dosyaları</title>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Turkish",
+            "text": "    <h1>PDF Dosyaları Yükle</h1>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Turkish",
+            "text": "    <h2>Yüklenen Dosyalar</h2>"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✗ Runtime Error ✗ No (21%)           ✓ Yes (Portuguese:1 (str:1))             Runtime: Traceback (most recent ca\nzh-CN           ✓ Yes           ✗ No (22%)           ✓ Yes (French:2 (str:2); Chinese:1 (cmt:1)... - None              \nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nes              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Portuguese:1 (unk:1); Spanish:9 (un... Syntax: Line 47: '(' was never cl\nar              ✓ Yes           ✗ No (27%)           ✓ Yes (Arabic:7 (cmt:3, str:4); German:1 (... - None              \nfr              ✓ Yes           ✗ No (20%)           ✓ Yes (French:4 (cmt:1, str:3); German:2 (... - None              \nbn              ✗ Runtime Error ✗ No (0%)            ✓ Yes (German:1 (str:1))                 Runtime: Import error: No module n\npt              ✗ Syntax Error  ✗ No (35%)           ✓ Yes (French:2 (unk:2); Portuguese:14 (un... Syntax: Line 50: expected 'except\nru              ✗ Syntax Error  ✗ No (38%)           ✓ Yes (French:1 (unk:1); Portuguese:3 (unk... Syntax: Line 51: expected an inde\nid              ✗ Syntax Error  ✗ No (39%)           ✓ Yes (French:4 (unk:4); Indonesian:6 (unk... Syntax: Line 53: unterminated str\nur              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:3 (unk:3); Portuguese:1 (unk... Syntax: Line 58: expected an inde\nde              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1); German:9 (unk:9) ... Syntax: Line 48: '(' was never cl\nja              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:3 (unk:3); Japanese:3 (unk:3... Syntax: Line 57: expected an inde\nmr              ✗ Syntax Error  ✗ No (20%)           ✓ Yes (French:2 (unk:2); Portuguese:1 (unk... Syntax: Line 42: unterminated str\nvi              ✓ Yes           ✗ No (0%)            ✓ Yes (Vietnamese:8 (cmt:5, doc:1, str:2)) - None              \nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Portuguese:1 (unk:1); Vietnamese:1 ... Syntax: Line 33: invalid syntax\nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Portuguese:1 (unk:1); Turkish:6 (un... Syntax: Line 21: unterminated tri\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:13:30.605527"
+}

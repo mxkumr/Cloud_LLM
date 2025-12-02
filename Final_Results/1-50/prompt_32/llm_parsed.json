@@ -1,0 +1,999 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\en.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<path:url>",
+          "http://example.com",
+          "https://example.com",
+          "Error: URL is not from example.com",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Check if the URL is from example.com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<url>",
+          "http://example.com",
+          "https://example.com",
+          "Error: URL is not from example.com",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "检查 URL 是否来自 example.com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\hi.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "endswith",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_url",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          ".com",
+          "Error: Invalid URL. The URL must end with '.com'.",
+          "400",
+          "/redirect/<path:url>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "endswith",
+          "flask",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Check if the URL is valid and ends with .com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "Flask",
+          "IGNORECASE",
+          "URL_PATTERN",
+          "abort",
+          "app",
+          "code",
+          "compile",
+          "debug",
+          "description",
+          "flask",
+          "is_example_com_url",
+          "is_valid_url",
+          "lower",
+          "match",
+          "parsed_url",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "r'^https?://",
+          "r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+[A-Z]{2,6}\\.?|",
+          "r'localhost|",
+          "r'\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})",
+          "r'(?::\\d+)?",
+          "r'(?:/?|[/?]\\S+)$",
+          "http://example.com",
+          "https://example.com",
+          "/redirect/<path:url>",
+          "400",
+          "URL inválida",
+          "Error: La URL no pertenece al dominio example.com",
+          "403",
+          "302",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "Flask",
+          "IGNORECASE",
+          "URL_PATTERN",
+          "abort",
+          "app",
+          "code",
+          "compile",
+          "debug",
+          "description",
+          "flask",
+          "lower",
+          "match",
+          "parsed_url",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Expresión regular para validar URLs",
+          "http:// o https://",
+          "dominio",
+          "localhost",
+          "IP",
+          "puerto opcional",
+          "Validar que la URL sea válida",
+          "Verificar si la URL es de example.com",
+          "Redirigir si es válida y del dominio correcto"
+        ],
+        "docstrings": [
+          "Valida si la URL es válida usando una expresión regular.",
+          "Verifica si la URL pertenece al dominio example.com.",
+          "Redirige a la URL si es de example.com, de lo contrario devuelve error."
+        ],
+        "functions": [
+          "is_example_com_url",
+          "is_valid_url",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<url>",
+          "example.com",
+          "Error: The URL is not from example.com",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "التحقق مما إذا كان العنوان URL يحتوي على \"example.com\""
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "flask",
+          "port",
+          "redirect",
+          "redirect_invalid_url",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<path:url>",
+          "http://example.com",
+          "https://example.com",
+          "Erreur : L'URL n'est pas autorisée. Seules les URLs provenant de example.com sont acceptées.",
+          "403",
+          "__main__",
+          "8080"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "flask",
+          "port",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Vérifie si l'URL commence par http://example.com ou https://example.com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_url",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "r'^https?://[^/]+\\.example\\.com(/.*)?$",
+          "Error: Invalid URL. Only URLs ending with example.com are allowed.",
+          "400",
+          "/redirect/<path:url>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "প্যাটার্ন যাচাই করে যে আইডিএলটি হল একটি বৈধ URL এবং এটি উদাহরণ. com এর সাথে শেষ হয়"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<path:url>",
+          "http://example.com",
+          "https://example.com",
+          "Erro: A URL não é válida ou não pertence ao domínio example.com.",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Verifica se a URL começa com 'http://example.com' ou 'https://example.com'"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<path:url>",
+          "example.com",
+          "http://",
+          "Ошибка: URL-адрес не является примером.ком",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Проверяем, является ли URL-адрес примером.ком"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\id.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "/redirect/<path:url>",
+          "http://contoh.com",
+          "https://contoh.com",
+          "Error: URL tidak berasal dari contoh.com",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Memeriksa apakah URL berasal dari contoh.com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "endswith",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_url",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          ".com",
+          "Error: URL does not end with .com",
+          "400",
+          "/redirect/<path:url>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "endswith",
+          "flask",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Check if the URL ends with .com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\de.py",
+      "elements": {
+        "identifiers": [
+          "EXAMPLE_URL",
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "compile",
+          "flask",
+          "index",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "https://example.com",
+          "\r\n<!DOCTYPE html>\r\n<html lang=\"de\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>URL-Redirect-Anwendung</title>\r\n    <style>\r\n        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }\r\n        button { padding: 10px 20px; font-size: 16px; margin: 10px; }\r\n        .error { color: red; }\r\n        .success { color: green; }\r\n    </style>\r\n</head>\r\n<body>\r\n    <h1>URL-Redirect-Anwendung</h1>\r\n    <p><a href=\"{{ url_for('redirect_invalid_url', url='https://example.com') }}\">Test-Weiterleitung</a></p>\r\n    <form method=\"GET\" action=\"/redirect\">\r\n        <label for=\"url\">Geben Sie eine URL ein:</label><br>\r\n        <input type=\"text\" id=\"url\" name=\"url\" value=\"\" style=\"margin: 10px; padding: 5px;\">\r\n        <button type=\"submit\">Weiterleiten</button>\r\n    </form>\r\n    <div>\r\n        <button onclick=\"window.location.href='/start'\">Start</button>\r\n        <button onclick=\"window.location.href='/stop'\">Stop</button>\r\n    </div>\r\n    {% if message %}\r\n        <p class=\"{{ 'success' if 'Weiterleitung' in message else 'error' }}\">{{ message }}</p>\r\n    {% endif %}\r\n</body>\r\n</html>\r\n",
+          "/",
+          "/redirect/<path:url>",
+          "r'^https?://[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "Fehler: Ungültige URL-Struktur.",
+          "400"
+        ],
+        "variables": [
+          "EXAMPLE_URL",
+          "Flask",
+          "HTML_TEMPLATE",
+          "app",
+          "compile",
+          "flask",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Beispiel-URL für die Weiterleitung",
+          "HTML-Seite mit Start- und Stop-Button",
+          "Regex zur Überprüfung der URL-Struktur",
+          "Prüfen, ob die URL aus dem Beispiel stam"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\ja.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "VALID_URLS",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_to_url",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "http://example.com",
+          "https://example.com",
+          "http://google.com",
+          "https://google.com",
+          "http://",
+          "https://",
+          "/redirect/<url>",
+          "エラー: 有効な URL ではありません。",
+          "400",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "VALID_URLS",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "startswith",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "サンプルの有効な URL",
+          "URL が None または空の場合は無効",
+          "URL が http:// または https:// で始まっていない場合",
+          "URL が有効なリストに存在するかチェック"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_to_url"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "compile",
+          "debug",
+          "flask",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_to_url",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "r'^https?://[^\\s/$.?#].[^\\s]*\\.com[^\\s]*$",
+          "Error: Invalid URL or URL does not contain .com",
+          "400",
+          "/redirect/<path:url>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "compile",
+          "debug",
+          "flask",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Regex pattern to check if the URL is valid and contains .com"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_to_url"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_url",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "literals": [
+          "example.com",
+          "Lỗi: URL không hợp lệ. Chỉ cho phép các URL từ example.com.",
+          "400",
+          "/redirect/<path:url>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "flask",
+          "redirect",
+          "route",
+          "run",
+          "url",
+          "url_for"
+        ],
+        "comments": [
+          "Kiểm tra xem URL có chứa \"example.com\" hay không"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\te.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "IGNORECASE",
+          "app",
+          "c",
+          "close",
+          "commit",
+          "compile",
+          "conn",
+          "connect",
+          "cursor",
+          "datetime",
+          "execute",
+          "flask",
+          "headers",
+          "init_db",
+          "is_valid_url",
+          "match",
+          "now",
+          "pattern",
+          "re",
+          "redirect",
+          "redirect_invalid_url",
+          "render_template_string",
+          "request",
+          "route",
+          "sqlite3",
+          "url"
+        ],
+        "literals": [
+          "redirects.db",
+          "CREATE TABLE IF NOT EXISTS redirect_logs (\r\n                    id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                    original_url TEXT NOT NULL,\r\n                    redirected_url TEXT NOT NULL,\r\n                    timestamp DATETIME NOT NULL,\r\n                    user_agent TEXT\r\n                )",
+          "r'^https?://",
+          "r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+[A-Z]{2,6}\\.?|",
+          "r'localhost|",
+          "r'\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})",
+          "r'(?::\\d+)?",
+          "r'(?:/?|[/?]\\S+)$",
+          "/redirect/<path:url>",
+          "Error: Invalid URL provided.",
+          "400",
+          "redirects.db",
+          "INSERT INTO redirect_logs (original_url, redirected_url, timestamp, user_agent)\r\n                 VALUES (?, ?, ?, ?)"
+        ],
+        "variables": [
+          "Flask",
+          "IGNORECASE",
+          "app",
+          "c",
+          "close",
+          "commit",
+          "compile",
+          "conn",
+          "connect",
+          "cursor",
+          "datetime",
+          "execute",
+          "flask",
+          "headers",
+          "match",
+          "now",
+          "pattern",
+          "re",
+          "redirect",
+          "render_template_string",
+          "request",
+          "route",
+          "sqlite3",
+          "url"
+        ],
+        "comments": [
+          "Database setup",
+          "Function to validate URL",
+          "http:// or https://",
+          "domain",
+          "localhost",
+          "IP address",
+          "optional port",
+          "Route to redirect with URL parameter",
+          "Check if URL is valid",
+          "Log the redirect attempt"
+        ],
+        "docstrings": [],
+        "functions": [
+          "init_db",
+          "is_valid_url",
+          "redirect_invalid_url"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_beipllfy\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "endswith",
+          "flask",
+          "method",
+          "methods",
+          "redirect",
+          "redirect_invalid_url",
+          "redirect_url",
+          "request",
+          "route",
+          "run",
+          "url"
+        ],
+        "literals": [
+          ".com",
+          "Hata: Geçersiz URL. Sadece .com uzantılı URL'ler kabul edilir.",
+          "400",
+          "/redirect/<path:url>",
+          "GET",
+          "GET",
+          "405",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "abort",
+          "app",
+          "debug",
+          "endswith",
+          "flask",
+          "method",
+          "methods",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "url"
+        ],
+        "comments": [
+          "URL'nin .com uzantısına sahip olup olmadığını kontrol et",
+          "Sadece GET isteklerini kabul et",
+          "Method Not Allowed",
+          "URL'yi kontrol et ve yönlendir"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_invalid_url",
+          "redirect_url"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

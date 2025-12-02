@@ -1,0 +1,1625 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_85",
+  "summary": {
+    "total_languages": 18,
+    "successful": 15,
+    "syntax_errors": 2,
+    "runtime_errors": 1,
+    "success_rate": 83.33333333333334,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 43.51158003357908
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 178
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 994,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15903306007385254,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Get latitude, longitude, and date from the request payload"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1087,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13055825233459473,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "从请求负载中获取纬度、经度和日期"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "连接到数据库"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "查询给定日期、纬度和经度的温度"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Mandarin Chinese",
+            "text": "关闭数据库连接"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "返回温度"
+          },
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "Mandarin Chinese",
+            "text": "路由：当请求 URL /api/temper_for_location 时，调用 Temperature_for_location 函数"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1038,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1193699836730957,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2727272727272727,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Hindi",
+            "text": "पेलोड से अक्षांश, देशांतर और दिनांक प्राप्त करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Hindi",
+            "text": "डेटाबेस में कनेक्शन स्थापित करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "दी गई तारीख के लिए तापमान प्राप्त करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Hindi",
+            "text": "URL /api/temperature_for_location के लिए रूट लिंक करें"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1752,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14813232421875,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "French",
+            "text": "latitud"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Obtener datos de la carga útil (JSON)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Conectar a la base de datos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "Consultar la temperatura para la latitud, longitud y fecha"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Spanish",
+            "text": "Ruta para la función"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": "Ejemplo de uso"
+          },
+          {
+            "category": "comment",
+            "location": "Line 40",
+            "language": "Spanish",
+            "text": "Crear la base de datos y tabla si no existen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 52",
+            "language": "Spanish",
+            "text": "Insertar ejemplo de datos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 60",
+            "language": "Spanish",
+            "text": "Iniciar la aplicación Flask"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1481,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10879230499267578,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "اسم قاعدة البيانات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "الحصول على بيانات الحمولة (الطلب)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "استخراج خط العرض وخط الطول والتاريخ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "التحقق من وجود البيانات المطلوبة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Standard Arabic",
+            "text": "الاتصال بقاعدة البيانات والحصول على درجة الحرارة"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1241,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12596869468688965,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Récupérer les paramètres de la requête"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "French",
+            "text": "Se connecter à la base de données"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Exécuter la requête SQL pour obtenir la température"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "French",
+            "text": "Fermer la connexion à la base de données"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "French",
+            "text": "Renvoyer la température ou None si non trouvée"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "French",
+            "text": "Définir la route API"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1309,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 43: unterminated string literal (detected at line 43)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 43: unterminated string literal (detected at line 43)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2857142857142857,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 28.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Bengali",
+            "text": "    # পেলোড থেকে ডেটা নেওয়া"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "    latitude = data.get('latitude')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "    date_str = data.get('date')  # আশা করা হয় যে তারিখ স্ট্রিং হিসাবে আসবে (যেমন: \"2024-04-05\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Bengali",
+            "text": "    # তারিখ স্ট্রিংকে DATETIME তে রূপান্তর"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Bengali",
+            "text": "    # ডাটাবেসের সাথে সংযোগ"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('sensor_data.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Bengali",
+            "text": "    # প্রদত্ত তারিখের জন্য তাপমাত্রা খোঁজা"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Spanish",
+            "text": "    query = \"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "    SELECT temperature "
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "French",
+            "text": "    WHERE latitude = ? "
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "French",
+            "text": "    cursor.execute(query, (latitude, longitude, date_str))"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Bengali",
+            "text": "# URL ম্যাপিং"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1704,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15351462364196777,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "Faltam parâmetros: latitude, longitude ou date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Portuguese",
+            "text": "Nenhuma leitura de temperatura encontrada para os parâmetros fornecidos"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "Erro no banco de dados: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Spanish",
+            "text": "Erro inesperado: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Validar entradas"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "Conectar ao banco de dados"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "Fechar conexão"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "Verificar se a temperatura foi encontrada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "Portuguese",
+            "text": "Tratar erros de banco de dados"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "Tratar outros erros"
+          },
+          {
+            "category": "comment",
+            "location": "Line 48",
+            "language": "Portuguese",
+            "text": "Rota para a função"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1134,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.18320274353027344,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.17647058823529413,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 17.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "lon"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Russian",
+            "text": "Данные не найдены"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Получаем параметры из запроса"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "Подключение к базе данных"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "Выполнение запроса к базе данных"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Russian",
+            "text": "Регистрация маршрута"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1055,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1450507640838623,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3611111111111111,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Indonesian",
+            "text": "Data suhu tidak ditemukan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Dapatkan garis bujur dan tanggal dari payload"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Koneksi ke database SQLite"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Query untuk mendapatkan suhu berdasarkan garis bujur dan tanggal"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Tutup koneksi database"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Indonesian",
+            "text": "Kembalikan suhu jika ditemukan, jika tidak kembalikan None"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "French",
+            "text": "Endpoint API"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 996,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 6: expected '('"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 6: expected '('",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.43243243243243246,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 43.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "def درجہ حرارت_فور_لوکیشن():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "    # پے لوڈ سے عرض البلد، طول البلد اور تاریخ حاصل کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "    latitude = data.get('عرض البلد')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "    longitude = data.get('طول البلد')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "    date = data.get('تاریخ')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "    # ڈیٹا بیس سے جڑیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('sensar.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "    # درجہ حرارت کو تاریخ، طول وعرض سے حاصل کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "        SELECT درجہ حرارت FROM سینسر "
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Standard Arabic",
+            "text": "        WHERE تاریخ = ? AND طول البلد = ? AND عرض البلد = ?"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "French",
+            "text": "    ''', (date, longitude, latitude))"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Standard Arabic",
+            "text": "        return jsonify({'درجہ حرارت': result[0]})"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Standard Arabic",
+            "text": "        return jsonify({'error': 'ڈیٹا نہیں ملا'}), 404"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Standard Arabic",
+            "text": "# URL /API/درجہ حرارت_فور_لوکیشن کے لئے راستہ"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Standard Arabic",
+            "text": "@app.route('/API/درجہ حرارت_فور_لوکیشن', methods=['POST'])"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Standard Arabic",
+            "text": "    return درجہ حرارت_فور_لوکیشن()"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1759,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14356231689453125,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3902439024390244,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 39.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Fehlende Parameter: latitude, longitude, date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Standard German",
+            "text": "Keine Temperaturdaten für die angegebene Position und das Datum gefunden"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Standard German",
+            "text": "Datenbankfehler: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Standard German",
+            "text": "Unbekannter Fehler: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Holen der Parameter aus der Nutzlast (JSON)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Überprüfen, ob alle erforderlichen Felder vorhanden sind"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "Verbindung zur Datenbank herstellen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "SQL-Abfrage, um die Temperatur für das angegebene Datum abzurufen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "Schließen der Datenbankverbindung"
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "Prüfen, ob ein Ergebnis gefunden wurde"
+          },
+          {
+            "category": "comment",
+            "location": "Line 39",
+            "language": "Standard German",
+            "text": "Rückgabe der Temperatur als JSON"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Standard German",
+            "text": "Route für die API"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1109,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10818696022033691,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.26666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 26.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "French",
+            "text": "SELECT temperature FROM sensors WHERE latitude = ? AND longitude = ? AND date = ?"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "データベースの接続関数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "気温を取得する関数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "リクエストペイロードから緯度、経度、日付を取得"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "データベースに接続"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "指定された日付と場所の気温を取得"
+          },
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "Mandarin Chinese",
+            "text": "URL /api/temperature_for_location にPOSTリクエストを処理"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 587,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14827871322631836,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "CREATE TABLE IF NOT EXISTS sensors\n                 (latitude REAL, longitude REAL, date TEXT, tempe..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Hindi",
+            "text": "डेटाबेस फाइल तयार करण्यासाठी फंक्शन"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Hindi",
+            "text": "तापमान मिळवण्यासाठी फंक्शन"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Hindi",
+            "text": "डेटाबेस जो"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1305,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14453554153442383,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.43243243243243246,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 43.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "sensor_temperature.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Vietnamese",
+            "text": "Lỗi khi truy vấn cơ sở dữ liệu: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Lấy dữ liệu từ tải trọng (payload)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "Kiểm tra tính hợp lệ của kinh độ và vĩ độ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Vietnamese",
+            "text": "Kết nối đến cơ sở dữ liệu Cảm biến nhiệt độ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Vietnamese",
+            "text": "Truy vấn để lấy nhiệt độ cho vị trí và ngày cụ thể"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "Đóng kết nối cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Vietnamese",
+            "text": "Kiểm tra nếu có dữ liệu trả về"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Vietnamese",
+            "text": "Xử lý lỗi cơ sở dữ liệu hoặc các lỗi khác"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1246,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1317896842956543,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "For example: {\"latitude\": 12.9716, \"longitude\": 77.5946, \"date\": \"2023-10-05\"}"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 823,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpb_g9doq1.py\", line 2, in <module>\n    from geopy.geocoders import Nominatim\nModuleNotFoundError: No module named 'geopy'",
+        "execution_time": 0.4805777072906494,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.047619047619047616,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "French",
+            "text": "Could not retrieve location details."
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1076,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14762663841247559,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "latitude"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Sensördür.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Turkish",
+            "text": "Sıcaklık bulunamadı"
+          },
+          {
+            "category": "function_name",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "sıcaklık_for_konumu"
+          },
+          {
+            "category": "function_name",
+            "location": "Line 33",
+            "language": "Turkish",
+            "text": "api_sıcaklık_for_konumu"
+          },
+          {
+            "category": "variable",
+            "location": "Line 34",
+            "language": "Turkish",
+            "text": "sıcaklık_for_konumu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "İstekten gelen veriyi al"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Veritabanına bağlan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Turkish",
+            "text": "Sıcaklığı sorgula"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Turkish",
+            "text": "Sıcaklık varsa döndür, yoksa None döndür"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:2 (cmt:1, str:1); Indonesian... - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (str:1); Indonesian:2 (str... - None              \nhi              ✓ Yes           ✗ No (27%)           ✓ Yes (French:1 (str:1); Hindi:4 (cmt:4) +... - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (str:1); Indonesian:2 (str... - None              \nar              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:3 (str:3); Arabic:5 (cmt... - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:7 (cmt:6, str:1); Indonesian... - None              \nbn              ✗ Syntax Error  ✗ No (29%)           ✓ Yes (Bengali:6 (unk:6); French:5 (unk:5)... Syntax: Line 43: unterminated str\npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (str:1); Indonesian:2 (str... - None              \nru              ✓ Yes           ✗ No (18%)           ✓ Yes (Indonesian:2 (str:2); Russian:5 (cm... - None              \nid              ✓ Yes           ✗ No (36%)           ✓ Yes (French:1 (cmt:1); Indonesian:8 (cmt... - None              \nur              ✗ Syntax Error  ✗ No (43%)           ✓ Yes (French:3 (unk:3); Spanish:1 (unk:1)... Syntax: Line 6: expected '('\nde              ✓ Yes           ✗ No (39%)           ✓ Yes (French:2 (str:2); Indonesian:2 (str... - None              \nja              ✓ Yes           ✗ No (27%)           ✓ Yes (French:2 (str:2); Indonesian:3 (str... - None              \nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:2 (str:2); Hindi:3 (cmt:3) +... - None              \nvi              ✓ Yes           ✗ No (43%)           ✓ Yes (French:1 (str:1); Indonesian:5 (str... - None              \nte              ✓ Yes           ✗ No (0%)            ✓ Yes (French:2 (cmt:1, str:1); Indonesian... - None              \nha              ✗ Runtime Error ✗ No (5%)            ✓ Yes (French:2 (str:2))                 Runtime: Traceback (most recent ca\ntr              ✓ Yes           ✗ No (17%)           ✓ Yes (French:1 (str:1); Indonesian:2 (str... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:57.517011"
+}

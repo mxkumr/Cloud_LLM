@@ -1,0 +1,647 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_21",
+  "summary": {
+    "total_languages": 18,
+    "successful": 17,
+    "syntax_errors": 0,
+    "runtime_errors": 1,
+    "success_rate": 94.44444444444444,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 1,
+      "average_similarity_score": 18.85093924424588
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 8,
+      "total_locations": 18
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 323,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07641148567199707,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 127,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07070231437683105,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "return"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 194,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05579400062561035,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 361,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07775020599365234,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.13333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Error: Se requiere un argumento numérico."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Error: El argumento debe ser un número entero."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 241,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0563046932220459,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.043478260869565216,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 199,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0660557746887207,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23809523809523808,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Lire la valeur depuis la ligne de commande"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Ajouter 1000 à la valeur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Imprimer la valeur sur la console"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "Renvoyer 0"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 185,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07044482231140137,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 223,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0754857063293457,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.13333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Erro: O valor fornecido não é um número válido."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 241,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06905674934387207,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0625,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 6.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "No arguments provided"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 358,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05718111991882324,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09523809523809523,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Tidak ada nilai yang diberikan"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Tidak ada nilai yang diberikan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 174,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08249020576477051,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.047619047619047616,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.8%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 427,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10585522651672363,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.17391304347826086,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 17.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Fehler: Bitte genau einen numerischen Wert als Argument übergeben."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Fehler: Der eingegebene Wert ist nicht numerisch."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 153,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08452463150024414,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "コマンドライン引数から値を取得（最初の引数を数値として扱う）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "値に1000を加算"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "結果をコンソールに出力"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "0を返す"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 196,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07301855087280273,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 275,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07775545120239258,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.15789473684210525,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 15.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Không có giá trị nào được cung cấp"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Không có giá trị nào được cung cấp"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 194,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05766463279724121,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 221,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.043478260869565216,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 176,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07169675827026367,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.047619047619047616,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.8%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (0%)            ✗ No                                     Prompt: Missing 1 keywords\nhi              ✓ Yes           ✗ No (25%)           ✗ No                                     - None              \nes              ✓ Yes           ✗ No (13%)           ✓ Yes (Spanish:2 (str:2))                - None              \nar              ✓ Yes           ✗ No (4%)            ✗ No                                     - None              \nfr              ✓ Yes           ✗ No (24%)           ✓ Yes (French:3 (cmt:3); German:1 (cmt:1)) - None              \nbn              ✓ Yes           ✗ No (20%)           ✗ No                                     - None              \npt              ✓ Yes           ✗ No (13%)           ✓ Yes (Portuguese:1 (str:1))             - None              \nru              ✓ Yes           ✗ No (6%)            ✓ Yes (Portuguese:1 (str:1))             - None              \nid              ✓ Yes           ✗ No (10%)           ✓ Yes (Indonesian:2 (str:2))             - None              \nur              ✓ Yes           ✗ No (5%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (17%)           ✓ Yes (German:2 (str:2))                 - None              \nja              ✓ Yes           ✗ No (10%)           ✓ Yes (Chinese:4 (cmt:4))                - None              \nmr              ✓ Yes           ✗ No (17%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (16%)           ✓ Yes (Vietnamese:2 (str:2))             - None              \nte              ✓ Yes           ✗ No (50%)           ✗ No                                     - None              \nha              ✗ Runtime Error ✗ No (4%)            ✗ No                                     Runtime: Code execution exceeded 1\ntr              ✓ Yes           ✗ No (5%)            ✗ No                                     - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:24.411085"
+}

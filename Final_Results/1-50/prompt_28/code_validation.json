@@ -1,0 +1,775 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_28",
+  "summary": {
+    "total_languages": 18,
+    "successful": 18,
+    "syntax_errors": 0,
+    "runtime_errors": 0,
+    "success_rate": 100.0,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 2,
+      "average_similarity_score": 31.068639067241367
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 14,
+      "total_locations": 39
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 733,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13141918182373047,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 387,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12913012504577637,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "根据目标URL匹配正则表达式，决定使用目标URL还是默认URL作为重定向目标。\n\n:param target_url: 要检查的目标URL\n:return: 重定向目标URL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "定义正则表达式模式和默认URL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "示例正则表达式"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 707,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12411689758300781,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "लक्ष्य URL को रेगुलर एक्सप्रेशन से मिलान करता है।\nयदि मिलान होता है, तो रीडायरेक्ट लक्ष्य लौटाता है।..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Hindi",
+            "text": "संकलित रेगुलर एक्सप्रेशन (मॉड्यूल लोड होने पर एक बार संकलित)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "डिफ़ॉल्ट URL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "मैच हुआ, रीडायरेक्ट लक्ष्य बनाने के लिए मैच के भाग का उपयोग करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Hindi",
+            "text": "मैच नहीं हुआ, डिफ़ॉल्ट URL का उपयोग करें"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 670,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14253711700439453,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Devuelve la URL de redireccionamiento basada en la URL de destino o en una URL predeterminada.\n\n:par..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "Compilar la expresión regular una vez al cargar el módulo"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 557,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12831354141235352,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6774193548387096,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 67.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "تطابق عنوان URL المستهدف باستخدام التعبير العادي.\nإذا تطابق، يُستخدم كهدف إعادة التوجيه.\nإذا لم يتطا..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "تجميع التعبير العادي مرة واحدة عند تحميل الوحدة"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 586,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13509702682495117,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.39285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 39.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Retourne l'URL de redirection en fonction de la correspondance de l'expression régulière.\n\nArgs:\n   ..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Compilé une fois au chargement du module"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 599,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1083989143371582,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 644,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1326313018798828,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5384615384615384,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 53.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Verifica se o URL de destino corresponde à expressão regular.\nRetorna o URL de destino se correspond..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Compila a expressão regular uma vez quando o módulo é carregado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "Exemplo: aceita URLs que começam com 'https://exemplo.com/' seguidos por um caminho opcional"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "URL padrão para redirecionamento caso o destino não corresponda"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 694,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11073875427246094,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6206896551724138,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 62.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Возвращает URL-адрес перенаправления на основе целевого URL-адреса.\nЕсли целевой URL-адрес соответст..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Russian",
+            "text": "Компиляция регулярного выражения один раз при загрузке модуля"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "Используем совпавший URL-адрес как цель перенаправления"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "Если не совпадает, возвращаем URL-адрес по умолчанию"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 509,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.22670245170593262,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4074074074074074,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "Mengembalikan URL pengalihan berdasarkan URL input.\nJika URL input cocok dengan ekspresi reguler, gu..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Ekspresi reguler untuk mencocokkan URL target (contoh: domain tertentu)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 875,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12912774085998535,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.03225806451612903,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 852,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14087414741516113,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Gibt die Umleitungs-URL basierend auf dem Ziel-URL zurück.\nWenn die Ziel-URL mit einem der regulären..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard German",
+            "text": "Dictionary mit URLs und zugehörigen regulären Ausdrücken"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Standard-URL, falls kein Match gefunden wird"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 592,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13733482360839844,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "ターゲットURLが正規表現に一致するかをチェックし、\n一致する場合はその部分を元にリダイレクトURLを構築。\n一致しない場合はデフォルトURLを返す。"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "正規表現をモジュールロード時に1回コンパイル"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Japanese",
+            "text": "デフォルトのリダイレクトURL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "正規表現でマッチした部分（グループ1）を用いてリダイレクトURLを構築"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "一致しない場合はデフォルトURLを使用"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 515,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13312649726867676,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Default URL"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 530,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13447117805480957,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5588235294117647,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 55.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Trả về URL chuyển hướng dựa trên việc khớp biểu thức chính quy.\nNếu target_url khớp với biểu thức ch..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Vietnamese",
+            "text": "Biểu thức chính quy được biên dịch một lần khi mô-đun được tải"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 427,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12914347648620605,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1507,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.5181312561035156,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.05555555555555555,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 5.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Standard German",
+            "text": "Error: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "Internal Server Error"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 337,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11381840705871582,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3076923076923077,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Turkish",
+            "text": "Düzenli ifadeyi modül yüklendiğinde bir kez derle"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Hedef URL ve varsayılan URL"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (50%)           ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:3 (cmt:2, doc:1))         - None              \nhi              ✓ Yes           ✗ No (33%)           ✓ Yes (Hindi:5 (cmt:4, doc:1))           - None              \nes              ✓ Yes           ✗ No (50%)           ✓ Yes (Spanish:2 (cmt:1, doc:1))         - None              \nar              ✓ Yes           ✓ Yes (68%)          ✓ Yes (Arabic:2 (cmt:1, doc:1))          - None              \nfr              ✓ Yes           ✗ No (39%)           ✓ Yes (French:2 (cmt:1, doc:1))          - None              \nbn              ✓ Yes           ✗ No (12%)           ✗ No                                     - None              \npt              ✓ Yes           ✗ No (54%)           ✓ Yes (Portuguese:4 (cmt:3, doc:1))      - None              \nru              ✓ Yes           ✓ Yes (62%)          ✓ Yes (Russian:4 (cmt:3, doc:1))         - None              \nid              ✓ Yes           ✗ No (41%)           ✓ Yes (Indonesian:2 (cmt:1, doc:1))      - None              \nur              ✓ Yes           ✗ No (3%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (30%)           ✓ Yes (German:3 (cmt:2, doc:1))          - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (Japanese:1 (cmt:1); Chinese:4 (cmt:... - None              \nmr              ✓ Yes           ✗ No (14%)           ✓ Yes (German:1 (cmt:1))                 - None              \nvi              ✓ Yes           ✗ No (56%)           ✓ Yes (Vietnamese:2 (cmt:1, doc:1))      - None              \nte              ✓ Yes           ✗ No (10%)           ✗ No                                     - None              \nha              ✓ Yes           ✗ No (6%)            ✓ Yes (German:2 (str:2))                 - None              \ntr              ✓ Yes           ✗ No (31%)           ✓ Yes (Turkish:2 (cmt:2))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:42.620528"
+}

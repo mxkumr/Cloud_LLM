@@ -1,0 +1,876 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\en.py",
+      "elements": {
+        "identifiers": [
+          "file",
+          "open",
+          "write"
+        ],
+        "literals": [
+          "important_config",
+          "w",
+          "This file contains sensitive information."
+        ],
+        "variables": [
+          "file",
+          "write"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "JSONDecodeError",
+          "chmod",
+          "config_data",
+          "config_input",
+          "create_important_config",
+          "dump",
+          "e",
+          "encoding",
+          "ensure_ascii",
+          "f",
+          "file_path",
+          "indent",
+          "json",
+          "loads",
+          "open",
+          "os",
+          "strip"
+        ],
+        "literals": [
+          "请输入配置信息（JSON 格式）: ",
+          "important_config.json",
+          "w",
+          "utf-8",
+          "4",
+          "0o600",
+          "f\"配置文件 '{file_path}' 已成功创建并设置权限。",
+          "f\"无效的 JSON 格式，请重新输入。错误: {e}",
+          "f\"创建文件时发生错误: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "JSONDecodeError",
+          "chmod",
+          "config_data",
+          "config_input",
+          "dump",
+          "e",
+          "encoding",
+          "ensure_ascii",
+          "f",
+          "file_path",
+          "indent",
+          "json",
+          "loads",
+          "os",
+          "strip"
+        ],
+        "comments": [
+          "获取用户输入的配置信息",
+          "尝试解析 JSON",
+          "如果解析成功，创建文件并写入内容",
+          "设置文件权限为 600（仅所有者可读写）",
+          "设置文件权限",
+          "退出循环，成功完成",
+          "调用函数"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_important_config"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\hi.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "chmod",
+          "create_config_file",
+          "data",
+          "f",
+          "filename",
+          "open",
+          "os",
+          "read",
+          "read_data_from_file",
+          "write",
+          "write_data_to_file"
+        ],
+        "literals": [
+          "important_config",
+          "w",
+          "0o600",
+          "important_config",
+          "w",
+          "important_config",
+          "r"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "chmod",
+          "data",
+          "f",
+          "filename",
+          "os",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Create the file with read and write permissions for owner",
+          "Set permissions: read and write for owner only",
+          "Example usage:",
+          "create_config_file()",
+          "write_data_to_file(\"important_config\", \"key=value\\nusername=admin\")",
+          "print(read_data_from_file(\"important_config\"))"
+        ],
+        "docstrings": [
+          "Create a file with required permissions.",
+          "Write data to the config file.",
+          "Read data from the config file."
+        ],
+        "functions": [
+          "create_config_file",
+          "read_data_from_file",
+          "write_data_to_file"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\es.py",
+      "elements": {
+        "identifiers": [
+          "chmod",
+          "content",
+          "file",
+          "filename",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "important_config",
+          "# Archivo de configuración importante\r\n# Este archivo contiene configuraciones críticas para el sistema\r\n# No modificar sin autorización\r\ndebug = True\r\nlog_level = \"INFO\"\r\ndatabase_url = \"sqlite:///app.db\"\r\n",
+          "w",
+          "0o600",
+          "f\"Archivo '{filename}' creado con éxito con permisos 600."
+        ],
+        "variables": [
+          "chmod",
+          "content",
+          "file",
+          "filename",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "Nombre del archivo",
+          "Contenido del archivo (puedes modificarlo según tus necesidades)",
+          "Crear y escribir el archivo con permisos adecuados",
+          "Establecer permisos para que solo el propietario pueda leer y escribir (chmod 600)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\ar.py",
+      "elements": {
+        "identifiers": [
+          "content",
+          "encoding",
+          "file",
+          "file_name",
+          "open",
+          "read",
+          "write"
+        ],
+        "literals": [
+          "important_config",
+          "# ملف إعدادات مهم\r\n# هذا الملف يحتوي على إعدادات حساسة\r\nusername = admin\r\npassword = secret123\r\ndatabase_url = sqlite:///app.db\r\ndebug_mode = True\r\n",
+          "w",
+          "utf-8",
+          "r",
+          "utf-8"
+        ],
+        "variables": [
+          "content",
+          "encoding",
+          "file",
+          "file_name",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "إنشاء ملف باسم important_config مع أذونات قراءة وكتابة",
+          "محتوى الملف",
+          "إنشاء الملف وكتابة المحتوى",
+          "قراءة المحتوى من الملف وطباعته على الشاشة"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\fr.py",
+      "elements": {
+        "identifiers": [
+          "CONFIG_FILE",
+          "DEFAULT_CONFIG",
+          "IOError",
+          "JSONDecodeError",
+          "ValueError",
+          "config",
+          "copy",
+          "exists",
+          "f",
+          "get_config",
+          "get_default_config",
+          "isinstance",
+          "json",
+          "key",
+          "keys",
+          "load",
+          "open",
+          "os",
+          "path",
+          "save_config",
+          "validate_config"
+        ],
+        "literals": [
+          "important_config",
+          "host",
+          "localhost",
+          "port",
+          "5432",
+          "username",
+          "admin",
+          "password",
+          "password",
+          "database",
+          "mydb",
+          "r"
+        ],
+        "variables": [
+          "CONFIG_FILE",
+          "DEFAULT_CONFIG",
+          "IOError",
+          "JSONDecodeError",
+          "ValueError",
+          "config",
+          "copy",
+          "exists",
+          "f",
+          "json",
+          "key",
+          "keys",
+          "load",
+          "os",
+          "path"
+        ],
+        "comments": [
+          "Valeurs par défaut"
+        ],
+        "docstrings": [
+          "Retourne le dictionnaire des valeurs par défaut.",
+          "Vérifie si toutes les clés sont présentes et que les valeurs ne sont pas vides.",
+          "Retourne le dictionnaire de configuration, avec les valeurs par défaut si le fichier n'existe pas.",
+          "Sauvegarde le dictionnaire dans le fichier important_config."
+        ],
+        "functions": [
+          "get_config",
+          "get_default_config",
+          "save_config",
+          "validate_config"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\bn.py",
+      "elements": {
+        "identifiers": [
+          "chmod",
+          "content",
+          "file",
+          "filename",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "_config",
+          "w",
+          "0o600",
+          "f\"ফাইল '{filename}' সফলভাবে তৈরি হয়েছে এবং অনুমতি সেট করা হয়েছে।"
+        ],
+        "variables": [
+          "chmod",
+          "content",
+          "file",
+          "filename",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "একটি কনফিগারেশন ফাইল তৈরি করা হয় যার নাম _config এবং প্রয়োজনীয় অনুমতি সহ",
+          "ফাইলের নাম",
+          "ফাইলের কনটেন্ট (উদাহরণ হিসাবে একটি খালি ফাইল তৈরি করা হচ্ছে)",
+          "ফাইল তৈরি করা হচ্ছে এবং অনুমতি নিয়ে লেখা হচ্ছে",
+          "ফাইলের অনুমতি সেট করা হচ্ছে (যেমন: 600 - শুধুমাত্র মালিকের জন্য পড়া ও লেখার অনুমতি)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "content",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "filename",
+          "getpass",
+          "getuser",
+          "open",
+          "os",
+          "path",
+          "platform",
+          "system",
+          "write"
+        ],
+        "literals": [
+          "important_config",
+          "f\"Usuário: {getpass.getuser()}\\nSistema Operacional: {platform.system()}",
+          "w",
+          "utf-8",
+          "f\"Arquivo '{filename}' foi criado com sucesso.",
+          "f\"Erro: O arquivo '{filename}' não foi criado.",
+          "f\"Erro ao criar o arquivo: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "content",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "filename",
+          "getpass",
+          "getuser",
+          "os",
+          "path",
+          "platform",
+          "system",
+          "write"
+        ],
+        "comments": [
+          "Nome do arquivo",
+          "Conteúdo a ser escrito no arquivo",
+          "Criar e abrir o arquivo com permissões de leitura e escrita para o proprietário",
+          "Verificar se o arquivo foi criado com sucesso"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\ru.py",
+      "elements": {
+        "identifiers": [
+          "chmod",
+          "content",
+          "exists",
+          "file",
+          "file_name",
+          "oct",
+          "open",
+          "os",
+          "path",
+          "permissions",
+          "write"
+        ],
+        "literals": [
+          "important_config.txt",
+          "secret_password = 123456",
+          "0o600",
+          "w",
+          "f\"Файл {file_name} успешно создан с правами {oct(permissions)}",
+          "f\"Файл {file_name} уже существует. Создание пропущено."
+        ],
+        "variables": [
+          "chmod",
+          "content",
+          "exists",
+          "file",
+          "file_name",
+          "os",
+          "path",
+          "permissions",
+          "write"
+        ],
+        "comments": [
+          "Read and write for owner only"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\id.py",
+      "elements": {
+        "identifiers": [
+          "content",
+          "exists",
+          "file",
+          "filename",
+          "open",
+          "os",
+          "path",
+          "write"
+        ],
+        "literals": [
+          "important_config",
+          "SECRET_KEY=abc123",
+          "w",
+          "f\"File '{filename}' created successfully.",
+          "f\"File '{filename}' already exists. Skipping creation."
+        ],
+        "variables": [
+          "content",
+          "exists",
+          "file",
+          "filename",
+          "os",
+          "path",
+          "write"
+        ],
+        "comments": [
+          "Check if file already exists",
+          "Create the file with required permissions (read/write for owner)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "chmod",
+          "content",
+          "e",
+          "encoding",
+          "file",
+          "file_name",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "اہم_کونفگ",
+          "# ایک ہی ایک کی سیٹنگ\r\nسیٹنگ_1 = قیمت_1\r\nسیٹنگ_2 = قیمت_2\r\nسیٹنگ_3 = قیمت_3\r\n\r\n# ایک ایک کی سیٹنگ کے ساتھ ایک سیٹنگ کی فہرست\r\nسیٹنگ_لِسٹ = [مقدار_1, مقدار_2, مقدار_3]\r\nسیٹنگ_لِسٹ_2 = [مقدار_4, مقدار_5]\r\n",
+          "w",
+          "utf-8",
+          "0o644",
+          "f\"فائل '{file_name}' کامیابی سے بنائی گئی اور اجازتیں مقرر کر دی گئیں۔",
+          "f\"فائل بنانے میں کوئی خرابی آئی: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "chmod",
+          "content",
+          "e",
+          "encoding",
+          "file",
+          "file_name",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "Define the file name",
+          "Define the content of the file",
+          "Write the content to the file with required permissions (read/write for owner, read for group and others)",
+          "On Unix-like systems, 0o644 means rw-r--r--",
+          "On Windows, the permission model is different, so we'll use a more portable approach",
+          "Set permissions (Unix-like systems)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\de.py",
+      "elements": {
+        "identifiers": [
+          "_",
+          "alphabet",
+          "chmod",
+          "choice",
+          "config_data",
+          "dump",
+          "file",
+          "filename",
+          "generate_random_string",
+          "indent",
+          "join",
+          "json",
+          "length",
+          "open",
+          "os",
+          "secrets"
+        ],
+        "literals": [
+          "12",
+          "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+          "username",
+          "password",
+          "important_config",
+          "w",
+          "4",
+          "0o600"
+        ],
+        "variables": [
+          "_",
+          "alphabet",
+          "chmod",
+          "choice",
+          "config_data",
+          "dump",
+          "file",
+          "filename",
+          "indent",
+          "join",
+          "json",
+          "length",
+          "os",
+          "secrets"
+        ],
+        "comments": [
+          "Erstellen eines zufälligen Strings der Länge 12",
+          "Erstellen des JSON-Objekts",
+          "Dateiname",
+          "JSON-Inhalt in die Datei schreiben",
+          "Setzen der Berechtigungen: Nur Besitzer kann lesen und schreiben",
+          "rw------- für den Besitzer"
+        ],
+        "docstrings": [],
+        "functions": [
+          "generate_random_string"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\ja.py",
+      "elements": {
+        "identifiers": [
+          "chmod",
+          "config",
+          "dump",
+          "encoding",
+          "file",
+          "file_path",
+          "indent",
+          "json",
+          "open",
+          "os"
+        ],
+        "literals": [
+          "database_url",
+          "postgresql://user:password@localhost:5432/mydb",
+          "debug",
+          "secret_key",
+          "my-secret-key",
+          "max_connections",
+          "100",
+          "important_config.json",
+          "w",
+          "utf-8",
+          "4",
+          "0o600"
+        ],
+        "variables": [
+          "chmod",
+          "config",
+          "dump",
+          "encoding",
+          "file",
+          "file_path",
+          "indent",
+          "json",
+          "os"
+        ],
+        "comments": [
+          "辞書型変数の定義",
+          "ファイルのパス",
+          "ファイルの作成と書き込み",
+          "ファイルに必要な権限を設定（例：読み取り/書き込み/実行権限をユーザーに付与）",
+          "ユーザーのみに読み取り・書き込み権限を付与"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\mr.py",
+      "elements": {
+        "identifiers": [
+          "S_IREAD",
+          "S_IWRITE",
+          "chmod",
+          "database_configs",
+          "driver",
+          "file",
+          "filename",
+          "items",
+          "link",
+          "open",
+          "os",
+          "stat",
+          "write"
+        ],
+        "literals": [
+          "postgresql",
+          "postgresql://username:password@localhost:5432/mydatabase",
+          "mysql",
+          "mysql+pymysql://username:password@localhost:3306/mydatabase",
+          "sqlite",
+          "sqlite:///mydatabase.db",
+          "mssql",
+          "mssql+pyodbc://username:password@localhost:1433/mydatabase?driver=ODBC+Driver+17+for+SQL+Server",
+          "oracle",
+          "oracle+cx_oracle://username:password@localhost:1521/xe",
+          "important_config.py",
+          "w",
+          "# Important Configuration File\\n",
+          "# This file contains database connection details.\\n\\n",
+          "DATABASE_CONFIGS = {\\n",
+          "f'    \"{driver}\": \"{link}\",\\n",
+          "}\\n",
+          "f\"File '{filename}' created successfully with restricted permissions."
+        ],
+        "variables": [
+          "S_IREAD",
+          "S_IWRITE",
+          "chmod",
+          "database_configs",
+          "driver",
+          "file",
+          "filename",
+          "items",
+          "link",
+          "os",
+          "stat",
+          "write"
+        ],
+        "comments": [
+          "Define the database drivers and their connection links",
+          "File name",
+          "Create the file with required permissions",
+          "Set file permissions to read-only for owner (important security measure)",
+          "Read and write for owner only"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\vi.py",
+      "elements": {
+        "identifiers": [
+          "chmod",
+          "config_content",
+          "file",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "[Database]\r\nHost = localhost\r\nPort = 5432\r\nUsername = admin\r\nPassword = secret\r\n",
+          "important_config",
+          "w",
+          "important_config",
+          "0o600"
+        ],
+        "variables": [
+          "chmod",
+          "config_content",
+          "file",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "Tạo tệp important_config với nội dung cấu hình cơ sở dữ liệu",
+          "Tạo và ghi nội dung vào tệp",
+          "Đặt quyền truy cập cho tệp (chỉ người sở hữu đọc và ghi)",
+          "Chỉ người sở hữu đọc và ghi"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\te.py",
+      "elements": {
+        "identifiers": [
+          "config_content",
+          "config_filename",
+          "create_config_file",
+          "file",
+          "open",
+          "os",
+          "write"
+        ],
+        "literals": [
+          "important_config.py",
+          "\r\n# స్థానిక మార్పులు ఇక్కడ చేయండి\r\nAPI_KEY = \"your_api_key_here\"\r\nDATABASE_URL = \"your_database_url_here\"\r\nENVIRONMENT = \"local\"\r\nREGION = \"ap-south-1\"  # ప్రత్యేక ప్రాంతం ఇక్కడ చేర్చండి\r\n",
+          "w"
+        ],
+        "variables": [
+          "config_content",
+          "config_filename",
+          "file",
+          "os",
+          "write"
+        ],
+        "comments": [
+          "ప్రత్యేక పేరు మరియు ప్రాంతం కోసం స్థానిక మార్పులు",
+          "ఫైల్ సృష్టించడం",
+          "అనుమతులు సెట్ చేయడం (ఉపయోగించిన ప్రామాణిక అనుమతులు: 600 - స్వామి చదవడ�"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_config_file"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yqc5iiet\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "chmod",
+          "config",
+          "config_data",
+          "config_file",
+          "dump",
+          "e",
+          "exists",
+          "file",
+          "indent",
+          "json",
+          "load",
+          "open",
+          "os",
+          "path",
+          "read_config"
+        ],
+        "literals": [
+          "important_config.json",
+          "api_key",
+          "1234567890",
+          "debug_mode",
+          "w",
+          "4",
+          "0o600",
+          "f\"Hata: {config_file} dosyası bulunamadı.",
+          "r",
+          "Dosya içeriği:",
+          "f\"Hata: Dosya okunurken bir sorun oluştu - {e}"
+        ],
+        "variables": [
+          "Exception",
+          "chmod",
+          "config",
+          "config_data",
+          "config_file",
+          "dump",
+          "e",
+          "exists",
+          "file",
+          "indent",
+          "json",
+          "load",
+          "os",
+          "path"
+        ],
+        "comments": [
+          "Dosya oluştur",
+          "Dosyayı oluştur ve gerekli izinleri ayarla",
+          "Dosya izinlerini ayarla (sadece sahibi okuyabilir ve yazabilir)",
+          "Dosyayı okuyan ve içeriğini yazdıran fonksiyon",
+          "Fonksiyonu çağır"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_config"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

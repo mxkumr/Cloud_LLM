@@ -1,0 +1,1363 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_4",
+  "summary": {
+    "total_languages": 18,
+    "successful": 8,
+    "syntax_errors": 0,
+    "runtime_errors": 10,
+    "success_rate": 44.44444444444444,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 3,
+      "average_similarity_score": 30.24748734423283
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 135
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 259,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07745957374572754,
+        "output": "Enter an index of a vehicle: Car"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Bus"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 367,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcbjkvtye.py\", line 5, in <module>\n    index_input = input(\"\\u8bf7\\u8f93\\u5165\\u8f66\\u8f86\\u7684\\u7d22\\u5f15: \")\n                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-7: character maps to <undefined>",
+        "execution_time": 0.15325713157653809,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "BMW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "请输入车辆的索引: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "错误：索引超出范围！"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "错误：请输入一个有效的整数！"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "索引 "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": " 处的车辆是: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Mandarin Chinese",
+            "text": "假设车辆数组已定义"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "提示用户输入车辆的索引"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "将输入转换为整数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "检查索引是否在有效范围内"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 213,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_41_1isy.py\", line 4, in <module>\n    index = int(index)\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.14807558059692383,
+        "output": "Enter the index of the vehicle:"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Bus"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 629,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07291960716247559,
+        "output": "Ingrese el �ndice de un veh�culo: Error: Por favor, ingrese un n�mero entero v�lido."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Spanish",
+            "text": "Camión"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Spanish",
+            "text": "Avión"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Ingrese el índice de un vehículo: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Error: El índice ingresado no es válido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "Error: Por favor, ingrese un número entero válido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "El vehículo en el índice "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Spanish",
+            "text": "Definimos una lista de vehículos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Spanish",
+            "text": "Solicitamos al usuario que ingrese un índice"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Convertimos el índice a número entero"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "Verificamos si el índice está dentro del rango válido"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 317,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp3boioziy.py\", line 4, in <module>\n    index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0641\\u0647\\u0631\\u0633 \\u0627\\u0644\\u0645\\u0631\\u0643\\u0628\\u0629: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp3boioziy.py\", line 10, in <module>\n    print(\"\\u062e\\u0637\\u0623: \\u064a\\u064f\\u0631\\u062c\\u0649 \\u0625\\u062f\\u062e\\u0627\\u0644 \\u0639\\u062f\\u062f \\u0635\\u062d\\u064a\\u062d!\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>",
+        "execution_time": 0.14684700965881348,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.18518518518518517,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 18.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "BMW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "أدخل فهرس المركبة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "خطأ: الفهرس خارج النطاق!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "خطأ: يُرجى إدخال عدد صحيح!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "المركبة في الفهرس "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": " هي: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 574,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmponrwqnwz.py\", line 4, in <module>\n    index_input = input(\"Entrez un index de v�hicule (ou 'fin' pour quitter) : \")\n                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nEOFError: EOF when reading a line",
+        "execution_time": 0.15763163566589355,
+        "output": "Entrez un index de v�hicule (ou 'fin' pour quitter) : Veuillez entrer un nombre entier ou 'fin'.\nEntrez un index de v�hicule (ou 'fin' pour quitter) :"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.19047619047619047,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 19.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "French",
+            "text": "Voiture"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "French",
+            "text": "Entrez un index de véhicule (ou 'fin' pour quitter) : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Au revoir !"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Veuillez entrer un nombre entier ou 'fin'."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "French",
+            "text": "Véhicule à l'index "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 294,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfs1j__kc.py\", line 5, in <module>\n    index = input(\"\\u0997\\u09be\\u09a1\\u09bc\\u09bf\\u09b0 \\u09b8\\u09c2\\u099a\\u0995 \\u09b2\\u09bf\\u0996\\u09c1\\u09a8: \")\n            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>",
+        "execution_time": 0.14534831047058105,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "BMW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Bengali",
+            "text": "গাড়ির সূচক লিখুন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Bengali",
+            "text": "গাড়ি:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Bengali",
+            "text": "গাড়ির অ্যারে তৈরি করা হয়েছে"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Bengali",
+            "text": "ব্যবহারকারীকে সূচক লিখতে অনুরোধ করা হয়"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Bengali",
+            "text": "সূচক পূর্ণসংখ্যা রূপান্তর করা হয়"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "গাড়ির অ্যারে থেকে সূচকের মান মুদ্রণ করা হয়"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 218,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp7a8xr8ti.py\", line 4, in <module>\n    indice = int(indice)\nValueError: invalid literal for int() with base 10: 'test'",
+        "execution_time": 0.1756889820098877,
+        "output": "Insira um �ndice de um ve�culo:"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.10526315789473684,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Spanish",
+            "text": "Carro"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "Caminhão"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Insira um índice de um veículo: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "Índice inválido"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 308,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkpefwghm.py\", line 4, in <module>\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441 \\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\\u043d\\u043e\\u0433\\u043e \\u0441\\u0440\\u0435\\u0434\\u0441\\u0442\\u0432\\u0430: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkpefwghm.py\", line 9, in <module>\n    print(\"\\u041e\\u0448\\u0438\\u0431\\u043a\\u0430: \\u0432\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0446\\u0435\\u043b\\u043e\\u0435 \\u0447\\u0438\\u0441\\u043b\\u043e.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>",
+        "execution_time": 0.1696615219116211,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Russian",
+            "text": "Автомобиль"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Russian",
+            "text": "Мотоцикл"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Russian",
+            "text": "Велосипед"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Russian",
+            "text": "Троллейбус"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Russian",
+            "text": "Такси"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Введите индекс транспортного средства: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Ошибка: индекс выходит за пределы массива."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Ошибка: введите целое число."
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 589,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0750422477722168,
+        "output": "Masukkan indeks kendaraan: Error: Masukkan harus berupa bilangan bulat."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "Sepeda"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Truk"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Bis"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Masukkan indeks kendaraan: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Error: Indeks tidak valid. Indeks harus antara 0 dan"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Error: Masukkan harus berupa bilangan bulat."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Kendaraan di indeks "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": " adalah: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Array kendaraan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "Meminta pengguna memasukkan indeks kendaraan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Mengubah input menjadi bilangan bulat"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Memeriksa apakah indeks valid"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 312,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkfs5h70w.py\", line 5, in <module>\n    index_input = input(\"\\u0628\\u0631\\u0627\\u06c1 \\u06a9\\u0631\\u0645 \\u06af\\u0627\\u0691\\u06cc \\u06a9\\u0627 \\u0627\\u0646\\u0688\\u06cc\\u06a9\\u0633 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba: \")\n                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.15567564964294434,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4166666666666667,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 41.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "سیارہ"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "ہونڈا"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "ٹویوٹا"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "میتسو بیشی"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "نیسان"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "براہ کرم گاڑی کا انڈیکس درج کریں: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "انڈیکس"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "پر گاڑی:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "گاڑیوں کی فہرست"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "صارف سے انڈیکس داخل کرنے کو کہیں"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "انڈیکس کو عدد میں تبدیل کریں"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "انڈیکس کے مطابق گاڑی کو پرنٹ کریں"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 628,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08130860328674316,
+        "output": "Geben Sie den Index eines Fahrzeugs ein: Fehler: Bitte geben Sie eine g�ltige Ganzzahl ein."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Auto"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Spanish",
+            "text": "Motorrad"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Fahrrad"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "French",
+            "text": "LKW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Geben Sie den Index eines Fahrzeugs ein: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Fehler: Der Index liegt außerhalb des gültigen Bereichs."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "Fehler: Bitte geben Sie eine gültige Ganzzahl ein."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Das Fahrzeug am Index "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": " ist: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Beispiel-Fahrzeug-Array"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "Benutzer auffordern, einen Index einzugeben"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Versuchen, den Index in eine Ganzzahl umzuwandeln"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Überprüfen, ob der Index im gültigen Bereich liegt"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 288,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjkr13y13.py\", line 4, in <module>\n    index = int(input(\"\\u8eca\\u4e21\\u306e\\u30a4\\u30f3\\u30c7\\u30c3\\u30af\\u30b9\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-17: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjkr13y13.py\", line 10, in <module>\n    print(\"\\u30a8\\u30e9\\u30fc: \\u6709\\u52b9\\u306a\\u6574\\u6570\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>",
+        "execution_time": 0.18949484825134277,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "車両のインデックスを入力してください: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "エラー: インデックスが範囲外です。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "エラー: 有効な整数を入力してください。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "選択された車両: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 381,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06385350227355957,
+        "output": "Enter the index of the vehicle: Vehicle at index 0 is: Car"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Bus"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 338,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpy1gw5m7k.py\", line 5, in <module>\n    chuoi_ch\\u1ec9_m\\u1ee5c = input(\"Nh\\u1eadp ch\\u1ec9 m\\u1ee5c c\\u1ee7a chi\\u1ebfc xe: \")\n                    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>",
+        "execution_time": 0.14948773384094238,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.44,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 44.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "BMW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Spanish",
+            "text": "Mercedes"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Nhập chỉ mục của chiếc xe: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Chỉ số không hợp lệ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Danh sách xe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Nhập chỉ mục từ người dùng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "Chuyển đổi chuỗi thành số nguyên"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Kiểm tra chỉ mục có hợp lệ không"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1120,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07292366027832031,
+        "output": "Enter the index of the vehicle: Invalid input! Please enter a valid integer."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Turkish",
+            "text": "Trailer"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Exhaust"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1504,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05617237091064453,
+        "output": "Current data:\nIndex 0: {'city': 'Kano', 'temperature': 35, 'humidity': 60}\nIndex 1: {'city': 'Lagos', 'temperature': 32, 'humidity': 75}\nIndex 2: {'city': 'Abuja', 'temperature': 28, 'humidity': 55}\nIndex 3: {'city': 'Port Harcourt', 'temperature': 34, 'humidity': 80}\nUpdated index 1 with {'temperature': 33}\nAdded new item: {'city': 'Maiduguri', 'temperature': 36, 'humidity': 50}\nRemoved item: {'city': 'Kano', 'temperature': 35, 'humidity': 60}\nCurrent data:\nIndex 0: {'city': 'Lagos', 'temperature': 33, 'humidity': 75}\nIndex 1: {'city': 'Abuja', 'temperature': 28, 'humidity': 55}\nIndex 2: {'city': 'Port Harcourt', 'temperature': 34, 'humidity': 80}\nIndex 3: {'city': 'Maiduguri', 'temperature': 36, 'humidity': 50}"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.08695652173913043,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 8.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Lagos"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Port Harcourt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Indonesian",
+            "text": "temperature"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "Index "
+          },
+          {
+            "category": "comment",
+            "location": "Line 51",
+            "language": "Spanish",
+            "text": "Final display"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 281,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07878875732421875,
+        "output": "Bir ara� indeksi girin: araba"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.12,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "bisiklet"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "uçak"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Turkish",
+            "text": "Bir araç indeksi girin: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Araç bulunamadı"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Geçersiz giriş! Lütfen bir tamsayı girin."
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); German:1 (str... Prompt: Missing 1 keywords\nzh-CN           ✗ Runtime Error ✓ Yes (100%)         ✓ Yes (Chinese:9 (cmt:4, str:5); German:1 ... Runtime: Traceback (most recent ca\nhi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); German:1 (str... Runtime: Traceback (most recent ca\nes              ✓ Yes           ✗ No (40%)           ✓ Yes (Spanish:10 (cmt:4, str:6))        - None              \nar              ✗ Runtime Error ✗ No (19%)           ✓ Yes (Arabic:5 (str:5); German:1 (str:1)) Runtime: Traceback (most recent ca\nfr              ✗ Runtime Error ✗ No (19%)           ✓ Yes (French:5 (str:5))                 Runtime: Traceback (most recent ca\nbn              ✗ Runtime Error ✗ No (25%)           ✓ Yes (Bengali:6 (cmt:4, str:2); German:1 ... Runtime: Traceback (most recent ca\npt              ✗ Runtime Error ✗ No (11%)           ✓ Yes (Portuguese:2 (str:2); Spanish:2 (st... Runtime: Traceback (most recent ca\nru              ✗ Runtime Error ✗ No (25%)           ✓ Yes (Russian:8 (str:8))                Runtime: Traceback (most recent ca\nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:10 (cmt:4, str:6); Germa... - None              \nur              ✗ Runtime Error ✗ No (42%)           ✓ Yes (Arabic:12 (cmt:4, str:8))         Runtime: Traceback (most recent ca\nde              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (str:1); Spanish:1 (str:1)... - None              \nja              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Chinese:4 (st... Runtime: Traceback (most recent ca\nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); German:1 (str... - None              \nvi              ✗ Runtime Error ✗ No (44%)           ✓ Yes (Spanish:1 (str:1); German:1 (str:1)... Runtime: Traceback (most recent ca\nte              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:2 (str:2); German:3 (str... - None              \nha              ✓ Yes           ✗ No (9%)            ✓ Yes (French:1 (str:1); Indonesian:6 (str... - None              \ntr              ✓ Yes           ✗ No (12%)           ✓ Yes (Turkish:5 (str:5))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:49:56.315575"
+}

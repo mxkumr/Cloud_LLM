@@ -1,0 +1,1161 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_100",
+  "summary": {
+    "total_languages": 18,
+    "successful": 11,
+    "syntax_errors": 0,
+    "runtime_errors": 6,
+    "success_rate": 61.111111111111114,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 1.7615602390688896
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 15,
+      "total_locations": 107
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 103,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06162619590759277,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.18181818181818182,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 18.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 908,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpavvsbsrf.py\", line 8, in create_important_config\n    config_input = input(\"\\u8bf7\\u8f93\\u5165\\u914d\\u7f6e\\u4fe1\\u606f\\uff08JSON \\u683c\\u5f0f\\uff09: \").strip()\n                   ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-7: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpavvsbsrf.py\", line 32, in <module>\n    create_important_config()\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpavvsbsrf.py\", line 29, in create_important_config\n    print(f\"\\u521b\\u5efa\\u6587\\u4ef6\\u65f6\\u53d1\\u751f\\u9519\\u8bef: {e}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>",
+        "execution_time": 0.47368907928466797,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "配置文件 '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "' 已成功创建并设置权限。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "请输入配置信息（JSON 格式）: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "无效的 JSON 格式，请重新输入。错误: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "创建文件时发生错误: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "获取用户输入的配置信息"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "尝试解析 JSON"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "如果解析成功，创建文件并写入内容"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "设置文件权限为 600（仅所有者可读写）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "设置文件权限"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "退出循环，成功完成"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "调用函数"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 853,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07834935188293457,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 638,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055335283279418945,
+        "output": "Archivo 'important_config' creado con �xito con permisos 600."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "# Archivo de configuración importante\n# Este archivo contiene configuraciones críticas para el siste..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "Archivo '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Spanish",
+            "text": "' creado con éxito con permisos 600."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "Nombre del archivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Contenido del archivo (puedes modificarlo según tus necesidades)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Archivo de configuración importante"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Este archivo contiene configuraciones críticas para el sistema"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "No modificar sin autorización"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Crear y escribir el archivo con permisos adecuados"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Establecer permisos para que solo el propietario pueda leer y escribir (chmod 600)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 489,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw2u8ynlk.py\", line 19, in <module>\n    print(file.read())\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 2-4: character maps to <undefined>",
+        "execution_time": 0.14365696907043457,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "# ملف إعدادات مهم\n# هذا الملف يحتوي على إعدادات حساسة\nusername = admin\npassword = secret123\ndatabase..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "إنشاء ملف باسم important_config مع أذونات قراءة وكتابة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "محتوى الملف"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "ملف إعدادات مهم"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "هذا الملف يحتوي على إعدادات حساسة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "إنشاء الملف وكتابة المحتوى"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "قراءة المحتوى من الملف وطباعته على الشاشة"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1191,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12219524383544922,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 15",
+            "language": "French",
+            "text": "Retourne le dictionnaire des valeurs par défaut."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 19",
+            "language": "French",
+            "text": "Vérifie si toutes les clés sont présentes et que les valeurs ne sont pas vides."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 28",
+            "language": "French",
+            "text": "Retourne le dictionnaire de configuration, avec les valeurs par défaut si le fichier n'existe pas."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 39",
+            "language": "French",
+            "text": "Sauvegarde le dictionnaire dans le fichier important_config."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "port"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "database"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Valeurs par défaut"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 498,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4t0earep.py\", line 17, in <module>\n    print(f\"\\u09ab\\u09be\\u0987\\u09b2 '{filename}' \\u09b8\\u09ab\\u09b2\\u09ad\\u09be\\u09ac\\u09c7 \\u09a4\\u09c8\\u09b0\\u09bf \\u09b9\\u09af\\u09bc\\u09c7\\u099b\\u09c7 \\u098f\\u09ac\\u0982 \\u0985\\u09a8\\u09c1\\u09ae\\u09a4\\u09bf \\u09b8\\u09c7\\u099f \\u0995\\u09b0\\u09be \\u09b9\\u09af\\u09bc\\u09c7\\u099b\\u09c7\\u0964\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.15194296836853027,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Bengali",
+            "text": "ফাইল '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "' সফলভাবে তৈরি হয়েছে এবং অনুমতি সেট করা হয়েছে।"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Bengali",
+            "text": "একটি কনফিগারেশন ফাইল তৈরি করা হয় যার নাম _config এবং প্রয়োজনীয় অনুমতি সহ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Bengali",
+            "text": "ফাইলের নাম"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Bengali",
+            "text": "ফাইলের কনটেন্ট (উদাহরণ হিসাবে একটি খালি ফাইল তৈরি করা হচ্ছে)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "ফাইল তৈরি করা হচ্ছে এবং অনুমতি নিয়ে লেখা হচ্ছে"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Bengali",
+            "text": "ফাইলের অনুমতি সেট করা হচ্ছে (যেমন: 600 - শুধুমাত্র মালিকের জন্য পড়া ও লেখার অনুমতি)"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 687,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.25374865531921387,
+        "output": "Arquivo 'important_config' foi criado com sucesso."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Usuário: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "\nSistema Operacional: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": "Arquivo '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": "' foi criado com sucesso."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "Erro: O arquivo '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "' não foi criado."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "Erro ao criar o arquivo: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Nome do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Conteúdo a ser escrito no arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Criar e abrir o arquivo com permissões de leitura e escrita para o proprietário"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Verificar se o arquivo foi criado com sucesso"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 422,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpv7_ahk6n.py\", line 11, in <module>\n    print(f\"\\u0424\\u0430\\u0439\\u043b {file_name} \\u0443\\u0441\\u043f\\u0435\\u0448\\u043d\\u043e \\u0441\\u043e\\u0437\\u0434\\u0430\\u043d \\u0441 \\u043f\\u0440\\u0430\\u0432\\u0430\\u043c\\u0438 {oct(permissions)}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.13196468353271484,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "Файл "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": " успешно создан с правами "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": "Файл "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": " уже существует. Создание пропущено."
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 399,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05292224884033203,
+        "output": "File 'important_config' already exists. Skipping creation."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.11764705882352941,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Turkish",
+            "text": "File '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "File '"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 868,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpos9vb00t.py\", line 26, in <module>\n    print(f\"\\u0641\\u0627\\u0626\\u0644 '{file_name}' \\u06a9\\u0627\\u0645\\u06cc\\u0627\\u0628\\u06cc \\u0633\\u06d2 \\u0628\\u0646\\u0627\\u0626\\u06cc \\u06af\\u0626\\u06cc \\u0627\\u0648\\u0631 \\u0627\\u062c\\u0627\\u0632\\u062a\\u06cc\\u06ba \\u0645\\u0642\\u0631\\u0631 \\u06a9\\u0631 \\u062f\\u06cc \\u06af\\u0626\\u06cc\\u06ba\\u06d4\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpos9vb00t.py\", line 28, in <module>\n    print(f\"\\u0641\\u0627\\u0626\\u0644 \\u0628\\u0646\\u0627\\u0646\\u06d2 \\u0645\\u06cc\\u06ba \\u06a9\\u0648\\u0626\\u06cc \\u062e\\u0631\\u0627\\u0628\\u06cc \\u0622\\u0626\\u06cc: {e}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.15709209442138672,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "اہم_کونفگ"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "# ایک ہی ایک کی سیٹنگ\nسیٹنگ_1 = قیمت_1\nسیٹنگ_2 = قیمت_2\nسیٹنگ_3 = قیمت_3\n\n# ایک ایک کی سیٹنگ کے ساتھ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "فائل '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "' کامیابی سے بنائی گئی اور اجازتیں مقرر کر دی گئیں۔"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Standard Arabic",
+            "text": "فائل بنانے میں کوئی خرابی آئی: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "ایک ہی ایک کی سیٹنگ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "ایک ایک کی سیٹنگ کے ساتھ ایک سیٹنگ کی فہرست"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 687,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13211846351623535,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Erstellen eines zufälligen Strings der Länge 12"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "Dateiname"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "JSON-Inhalt in die Datei schreiben"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "Setzen der Berechtigungen: Nur Besitzer kann lesen und schreiben"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "rw------- für den Besitzer"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 446,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13968634605407715,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "database_url"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "debug"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "max_connections"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "辞書型変数の定義"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Japanese",
+            "text": "ファイルのパス"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "ファイルの作成と書き込み"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Mandarin Chinese",
+            "text": "ファイルに必要な権限を設定（例：読み取り/書き込み/実行権限をユーザーに付与）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "ユーザーのみに読み取り・書き込み権限を付与"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1128,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0543365478515625,
+        "output": "File 'important_config.py' created successfully with restricted permissions."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "mssql"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "sqlite:///mydatabase.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "French",
+            "text": "# This file contains database connection details.\n\n"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "DATABASE_CONFIGS = {\n"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Turkish",
+            "text": "File '"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "French",
+            "text": "This file contains database connection details.\\n\\n\")"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 404,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07320404052734375,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Tạo tệp important_config với nội dung cấu hình cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Tạo và ghi nội dung vào tệp"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Đặt quyền truy cập cho tệp (chỉ người sở hữu đọc và ghi)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Chỉ người sở hữu đọc và ghi"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 527,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08353495597839355,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Telugu",
+            "text": "\n# స్థానిక మార్పులు ఇక్కడ చేయండి\nAPI_KEY = \"your_api_key_here\"\nDATABASE_URL = \"your_database_url_her..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Telugu",
+            "text": "ప్రత్యేక పేరు మరియు ప్రాంతం కోసం స్థానిక మార్పులు"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Telugu",
+            "text": "స్థానిక మార్పులు ఇక్కడ చేయండి"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Telugu",
+            "text": "ప్రత్యేక ప్రాంతం ఇక్కడ చేర్చండి"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Telugu",
+            "text": "ఫైల్ సృష్టించడం"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Telugu",
+            "text": "అనుమతులు సెట్ చేయడం (ఉపయోగించిన ప్రామాణిక అనుమతులు: 600 - స్వామి చదవడ�"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 827,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpo771v33e.py\", line 26, in read_config\n    print(\"Dosya i�eri\\u011fi:\")\n    ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u011f' in position 11: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpo771v33e.py\", line 32, in <module>\n    read_config()\n    ~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpo771v33e.py\", line 29, in read_config\n    print(f\"Hata: Dosya okunurken bir sorun olu\\u015ftu - {e}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u015f' in position 35: character maps to <undefined>",
+        "execution_time": 0.156080961227417,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Hata: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Turkish",
+            "text": " dosyası bulunamadı."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Turkish",
+            "text": "Dosya içeriği:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Turkish",
+            "text": "Hata: Dosya okunurken bir sorun oluştu - "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Turkish",
+            "text": "Dosya oluştur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Turkish",
+            "text": "Dosyayı oluştur ve gerekli izinleri ayarla"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "Dosya izinlerini ayarla (sadece sahibi okuyabilir ve yazabilir)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Dosyayı okuyan ve içeriğini yazdıran fonksiyon"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Turkish",
+            "text": "Fonksiyonu çağır"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (18%)           ✗ No                                     - None              \nzh-CN           ✗ Runtime Error ✗ No (0%)            ✓ Yes (Chinese:12 (cmt:7, str:5))        Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nes              ✓ Yes           ✗ No (0%)            ✓ Yes (Spanish:9 (cmt:7, str:2); German:1 ... - None              \nar              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Arabic:7 (cmt:6, str:1))          Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:5 (cmt:1, doc:4); Indonesian... - None              \nbn              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Bengali:6 (cmt:5, str:1); Hindi:1 (... Runtime: Traceback (most recent ca\npt              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:11 (cmt:4, str:7))     - None              \nru              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Russian:4 (str:4))                Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (12%)           ✓ Yes (Turkish:2 (str:2))                - None              \nur              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Arabic:7 (cmt:2, str:5))          Runtime: Traceback (most recent ca\nde              ✓ Yes           ✗ No (0%)            ✓ Yes (German:5 (cmt:5))                 - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Indonesian:2 (str... - None              \nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:3 (cmt:1, str:2); Indonesian... - None              \nvi              ✓ Yes           ✗ No (0%)            ✓ Yes (Vietnamese:4 (cmt:4))             - None              \nte              ✓ Yes           ✗ No (0%)            ✓ Yes (Telugu:6 (cmt:5, str:1))          - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Turkish:8 (cm... Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:12:23.361529"
+}

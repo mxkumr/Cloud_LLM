@@ -1,0 +1,1567 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_54",
+  "summary": {
+    "total_languages": 18,
+    "successful": 16,
+    "syntax_errors": 1,
+    "runtime_errors": 0,
+    "success_rate": 88.88888888888889,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 46.546236526241195
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 17,
+      "total_locations": 172
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1167,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1101527214050293,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "French",
+            "text": "Login failed. You are not admin."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "admin_page"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1594,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10884475708007812,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "\n    <h2>登录</h2>\n    <form method=\"POST\" action=\"/do_login\">\n        <label>用户名: <input type=\"text\" ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 50",
+            "language": "Mandarin Chinese",
+            "text": "<h2>欢迎来到管理员页面</h2>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Mandarin Chinese",
+            "text": "<h2>错误：用户名或密码不正确</h2>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Mandarin Chinese",
+            "text": "\n        <h2>登录</h2>\n        <form method=\"POST\" action=\"/do_login\">\n            <label>用户名: <input ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "用于会话加密"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "模拟管理员用户"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "登录页面"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "处理登录请求"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Mandarin Chinese",
+            "text": "管理员页面"
+          },
+          {
+            "category": "comment",
+            "location": "Line 52",
+            "language": "Mandarin Chinese",
+            "text": "退出登录"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1401,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13375020027160645,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2727272727272727,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 55",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "French",
+            "text": "Route for login page (GET request)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1208,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10799145698547363,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Spanish",
+            "text": "<h1>Bienvenido al panel de administración</h1><p>Esta es una página de administración.</p>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "<h1>Acceso denegado</h1><p>No tienes permisos para acceder a esta página.</p>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "Nombre de usuario o contraseña incorrectos"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Simulación de base de datos de usuarios"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1106,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13068199157714844,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14634146341463414,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "اسم المستخدم أو كلمة المرور غير صحيحة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "يجب تغيير هذا إلى مفتاح آمن"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "بيانات المستخدمين (في الواقع، يجب استخدام قاعدة بيانات)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1063,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1078343391418457,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "French",
+            "text": "<h1>Bienvenue, "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "French",
+            "text": " !</h1><p>Vous êtes sur la page admin.</p>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Simuler une base de données d'utilisateurs"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1328,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0562136173248291,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09090909090909091,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "admin123"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 745,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10765814781188965,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "senha123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "senha456"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Portuguese",
+            "text": "Bem-vindo à página do administrador!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "Acesso negado!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Dados de usuário fictícios"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1709,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 59: unterminated string literal (detected at line 59)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 59: unterminated string literal (detected at line 59)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3611111111111111,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "# Простая база данных пользователей (в реальном приложении используйте БД)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "users = {"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "# HTML-шаблон для формы входа"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "French",
+            "text": "LOGIN_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "    <title>Вход в систему</title>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "    <h2>Вход в систему</h2>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "        <label>Имя пользователя:</label><br>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "        <label>Пароль:</label><br>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Russian",
+            "text": "        <input type=\"submit\" value=\"Войти\">"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Russian",
+            "text": "# Функция входа в систему (GET-запрос)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "Russian",
+            "text": "# Функция обработки входа (POST-запрос)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Russian",
+            "text": "    # Проверка, что данные переданы"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "Russian",
+            "text": "        return \"Имя пользователя и пароль обязательны\", 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Russian",
+            "text": "    # Проверка учетных данных"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Standard German",
+            "text": "    user = users.get(username)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Portuguese",
+            "text": "        if user['role'] == 'admin':"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 52",
+            "language": "Russian",
+            "text": "            return \"Доступ запрещен. Вы не администратор.\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "Russian",
+            "text": "        return \"Неверное имя пользователя или пароль.\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 56",
+            "language": "Russian",
+            "text": "# Страница администратора"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 57",
+            "language": "French",
+            "text": "@app.route('/admin_page')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "Portuguese",
+            "text": "def admin_page():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 59",
+            "language": "Russian",
+            "text": "    return \"<h2>Добро пожаловать на страницу администратора!</h"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 873,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10900592803955078,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3157894736842105,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 31.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Portuguese",
+            "text": "<h1>Halo Admin!</h1>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Nama pengguna atau kata sandi salah!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Contoh: Cek apakah pengguna adalah admin"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1867,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12145113945007324,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.030303030303030304,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 69",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 61",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "comment",
+            "location": "Line 68",
+            "language": "French",
+            "text": "Logout route"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1844,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1054987907409668,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.17391304347826086,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 17.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 66",
+            "language": "Standard German",
+            "text": "<h1>Willkommen auf der Admin-Seite!</h1>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 64",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 62",
+            "language": "Standard German",
+            "text": "Sie sind kein Administrator."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Standard German",
+            "text": "Benutzername oder Passwort falsch."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 56",
+            "language": "Standard German",
+            "text": "Benutzername oder Passwort falsch."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 60",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Dummy user database"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1448,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1221761703491211,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "\n<!DOCTYPE html>\n<html>\n<head>\n    <title>ログイン</title>\n</head>\n<body>\n    <h2>ログイン</h2>\n    <form me..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "\n<!DOCTYPE html>\n<html>\n<head>\n    <title>管理者ページ</title>\n</head>\n<body>\n    <h2>管理者ページ</h2>\n    <p>よ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 57",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 57",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Japanese",
+            "text": "ログインページのHTMLテンプレート"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "管理者ページのHTMLテンプレート"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Mandarin Chinese",
+            "text": "簡単な管理者認証（実際のアプリではDBや認証システムを使用）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 59",
+            "language": "Mandarin Chinese",
+            "text": "ログアウト処理（ここではセッションの削除などは実装しない）"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 699,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10852193832397461,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2222222222222222,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "admin_page"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 930,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11720132827758789,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.30612244897959184,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Vietnamese",
+            "text": "<h1>Chào mừng bạn đến trang quản trị!</h1>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "admin_page"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Giả lập cơ sở dữ liệu người dùng (trong thực tế, nên dùng database)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem người dùng có phải là quản trị viên không"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1706,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14998197555541992,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 63",
+            "language": "Portuguese",
+            "text": "/admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 63",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Portuguese",
+            "text": "admin_page"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1245,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10778379440307617,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3684210526315789,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Turkish",
+            "text": "<h1>Hoşgeldiniz, Admin!</h1><p>Bu sadece adminler için erişilebilir bir sayfadır.</p><a href='/login..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Turkish",
+            "text": "Hatalı kullanıcı adı veya şifre! <a href='/login'>Geri Dön</a>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "/admin_page"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Kullanıcı bilgileri (gerçek uygulamalarda veritabanı kullanılmalıdır)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Oturum açma formu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "Giriş işlemini kontrol eden işlev"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Turkish",
+            "text": "Admin sayfası"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (str:1); Portuguese:4 (str... - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:10 (cmt:6, str:4); Portugue... - None              \nhi              ✓ Yes           ✗ No (27%)           ✓ Yes (French:1 (cmt:1); Portuguese:3 (str... - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:6 (str:6); Spanish:4 (cm... - None              \nar              ✓ Yes           ✗ No (15%)           ✓ Yes (French:1 (str:1); Portuguese:4 (str... - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:3 (cmt:1, str:2); Portuguese... - None              \nbn              ✓ Yes           ✗ No (9%)            ✓ Yes (Portuguese:4 (str:4))             - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:9 (cmt:1, str:8); German... - None              \nru              ✗ Syntax Error  ✗ No (36%)           ✓ Yes (French:2 (unk:2); Portuguese:2 (unk... Syntax: Line 59: unterminated str\nid              ✓ Yes           ✗ No (32%)           ✓ Yes (Indonesian:2 (cmt:1, str:1); Portug... - None              \nur              ✓ Yes           ✗ No (3%)            ✓ Yes (French:2 (cmt:1, str:1); Portuguese... - None              \nde              ✓ Yes           ✗ No (17%)           ✓ Yes (Indonesian:1 (cmt:1); Portuguese:4 ... - None              \nja              ✓ Yes           ✗ No (12%)           ✓ Yes (French:1 (str:1); Japanese:1 (cmt:1... - None              \nmr              ✓ Yes           ✗ No (22%)           ✓ Yes (Portuguese:3 (str:3); German:1 (str... - None              \nvi              ✓ Yes           ✗ No (31%)           ✓ Yes (Portuguese:5 (str:5); German:1 (str... - None              \nte              ✓ Yes           ✗ No (50%)           ✓ Yes (Portuguese:3 (str:3); German:2 (str... - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (37%)           ✓ Yes (Portuguese:4 (cmt:1, str:3); German... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:12:41.820027"
+}

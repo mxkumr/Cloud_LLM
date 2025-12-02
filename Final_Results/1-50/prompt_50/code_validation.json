@@ -1,0 +1,1065 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_50",
+  "summary": {
+    "total_languages": 18,
+    "successful": 4,
+    "syntax_errors": 3,
+    "runtime_errors": 11,
+    "success_rate": 22.22222222222222,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 38.827962161295495
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 87
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 943,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15650224685668945,
+        "output": "Error: The file archive.zip was not found."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6428571428571429,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 64.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 320,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptq6ai18v.py\", line 17, in <module>\n    with zipfile.ZipFile(archive_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'",
+        "execution_time": 0.16695284843444824,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "定义路径"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "如果目录已存在，则先删除"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "创建目标目录"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "打开 zip 文件并提取所有文件"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 347,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpchcsrih6.py\", line 12, in <module>\n    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'collection.zip'",
+        "execution_time": 0.1664900779724121,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 841,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15493202209472656,
+        "output": "Error: El archivo archivo.zip no existe."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6111111111111112,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 61.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Error: El archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": " no existe."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Spanish",
+            "text": "Archivos extraídos correctamente a "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Directorio de extracción"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Asegurarse de que el directorio de extracción exista"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Cambia esto por la ruta real del archivo .zip"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": "Extraer todos los archivos al directorio /tmp/unpack"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 248,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp7kcke_gv.py\", line 4, in <module>\n    with tarfile.open('archive.tar.gz', 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.tar.gz'",
+        "execution_time": 0.16973614692687988,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "فتح الأرشيف المضغوط كملف tarfile"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "استخراج كافة الملفات إلى الدليل /tmp/unpack"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "الأرشيف يتم إغلاقه تلقائيًا عند الخروج من كتلة 'with'"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 511,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptyf5pa_s.py\", line 15, in <module>\n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'",
+        "execution_time": 0.17081379890441895,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.47619047619047616,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 47.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Chemin de l'archive ZIP"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Répertoire de destination pour l'extraction"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Créer le répertoire de destination s'il n'existe pas"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Ouvrir l'archive ZIP"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Extraire tous les fichiers dans le répertoire /tmp/unpack"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "French",
+            "text": "Supprimer l'archive ZIP après extraction"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 312,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpx9eztour.py\", line 5, in <module>\n    with tarfile.open('your_archive.zip', 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'your_archive.zip'",
+        "execution_time": 0.17606544494628906,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.7142857142857143,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 71.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Bengali",
+            "text": "সংরক্ষণাগার খুলুন (zip ফাইল হিসাবে ব্যবহার করা হচ্ছে)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "লক্ষ্য ডিরেক্টরি তৈরি করুন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "সমস্ত ফাইল বের করুন"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 633,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1586456298828125,
+        "output": "Erro ao extrair o arquivo: [Errno 2] No such file or directory: 'arquivo.zip'"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "arquivo.zip"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "Arquivos extraídos com sucesso para "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "Erro ao extrair o arquivo: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "Caminho do arquivo .zip"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Diretório de extração"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Criar o diretório de extração, se não existir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Tentar abrir o arquivo .zip como um arquivo tar (isso pode falhar, pois .zip não é .tar)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "No entanto, se o arquivo for realmente um arquivo tar com extensão .zip, podemos tentar:"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1030,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 35: expected 'except' or 'finally' block"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 35: expected 'except' or 'finally' block",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "    zip_file_path = \"archive.zip\"  # Путь к zip-файлу"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "    # Проверка, что файл существует"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "        print(f\"Ошибка: Файл {zip_file_path} не найден.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Russian",
+            "text": "    # Проверка, что это zip-файл"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "        print(f\"Ошибка: Файл {zip_file_path} не является zip-архивом.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Russian",
+            "text": "    # Создание каталога /tmp/unpack, если его нет"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Russian",
+            "text": "    # Открытие zip-файла и извлечение файлов"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Vietnamese",
+            "text": "    try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 781,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14709949493408203,
+        "output": "Error: File file.zip tidak ditemukan."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Error: File "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": " tidak ditemukan."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Semua file berhasil diekstrak ke "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Error: Arsip "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": " tidak valid atau rusak. Pesan kesalahan: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Jalankan fungsi dengan path arsip dan direktori ekstraksi"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Ganti dengan path file zip yang sesuai"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Pastikan direktori tujuan ada"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1392,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 39: expected an indented block after 'try' statement on line 39"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 39: expected an indented block after 'try' statement on line 39",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "French",
+            "text": "# Ensure directories exist"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "French",
+            "text": "pdf_dir.mkdir(parents=True, exist_ok=True)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "French",
+            "text": "except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Vietnamese",
+            "text": "            try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "French",
+            "text": "            except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Vietnamese",
+            "text": "            try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 990,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp703ozqg0.py\", line 15, in <module>\n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'",
+        "execution_time": 0.20107531547546387,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Indonesian",
+            "text": ".tar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Pfad zum ZIP-Archiv"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Zielverzeichnis für die Extraktion"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Stellen Sie sicher, dass das Zielverzeichnis existiert"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Öffnen der ZIP-Datei"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "Extrahieren aller Dateien in das Zielverzeichnis"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "Jetzt wird angenommen, dass die extrahierten Dateien ein TAR-Archiv enthalten"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Suchen Sie nach einer TAR-Datei im extrahierten Verzeichnis"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "Extrahieren der TAR-Datei"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "Optional: Entfernen der TAR-Datei nach Extraktion"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 846,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpy11ceqgu.py\", line 6, in <module>\n    with zipfile.ZipFile('archive.zip', 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'",
+        "execution_time": 0.295546293258667,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.36363636363636365,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "アーカイブを開く（zipファイル）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "zipファイルをtarfileとして保存（例: archive.tar）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "各ファイルを一時的に読み込み、tarに追加"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "/tmp/unpack ディレクトリにすべてのファイルを抽出"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "すべてのファイルの名前を表示"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Mandarin Chinese",
+            "text": "アーカイブを閉じる（withブロックにより自動的に閉じられる）"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 769,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpzf4ofmyr.py\", line 16, in <module>\n    with tarfile.open(file_path, 'r:gz') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1878, in open\n    return func(name, filemode, fileobj, **kwargs)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1926, in gzopen\n    fileobj = GzipFile(name, mode + \"b\", compresslevel, fileobj)\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py\", line 194, in __init__\n    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')\n                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'your_file.tar.gz'",
+        "execution_time": 0.18146443367004395,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5714285714285714,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 57.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "your_file.tar.gz"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Turkish",
+            "text": "Files: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 390,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwjq84rmp.py\", line 12, in <module>\n    with tarfile.open(zip_file_path, 'r:zip') as tar:\n         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py\", line 1877, in open\n    raise CompressionError(\"unknown compression type %r\" % comptype)\ntarfile.CompressionError: unknown compression type 'zip'",
+        "execution_time": 0.18478703498840332,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.47619047619047616,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 47.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Đường dẫn đến file zip (giả sử file có đuôi .zip)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Thay bằng đường dẫn thực tế"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "Tạo thư mục nếu chưa tồn tại"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "Mở file zip và trích xuất vào thư mục đích"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 539,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 17: unterminated string literal (detected at line 17)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 17: unterminated string literal (detected at line 17)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 946,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpljjzy47s.py\", line 16, in <module>\n    for filename in os.listdir(source_dir):\n                    ~~~~~~~~~~^^^^^^^^^^^^\nFileNotFoundError: [WinError 3] The system cannot find the path specified: '/path/to/your/source/directory'",
+        "execution_time": 0.14280319213867188,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.15,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 15.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "French",
+            "text": "/tmp/compage"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Define source and destination directories"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Ensure destination directory exists"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 874,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp29vahdrt.py\", line 6, in <module>\n    with zipfile.ZipFile('archive.zip', 'r') as zip_ref:\n         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py\", line 1362, in __init__\n    self.fp = io.open(file, filemode)\n              ~~~~~~~^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'archive.zip'",
+        "execution_time": 0.16429448127746582,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.65,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 65.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Arşivi aç"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "zip dosyasını tar dosyası olarak kullanmak için bir geçici dosya oluştur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Ancak Python'da doğrudan zip dosyasını tar olarak kullanmak mümkün değildir."
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Bu yüzden zip dosyasını çıkarıyoruz."
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "/tmp/unpack dizinindeki tüm dosyaları /tmp/backup dizinine kopyala"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (64%)          ✗ No                                     - None              \nzh-CN           ✗ Runtime Error ✗ No (33%)           ✓ Yes (Chinese:4 (cmt:4))                Runtime: Traceback (most recent ca\nhi              ✗ Runtime Error ✗ No (0%)            ✗ No                                     Runtime: Traceback (most recent ca\nes              ✓ Yes           ✓ Yes (61%)          ✓ Yes (Portuguese:1 (str:1); Spanish:6 (cm... - None              \nar              ✗ Runtime Error ✗ No (50%)           ✓ Yes (Arabic:3 (cmt:3))                 Runtime: Traceback (most recent ca\nfr              ✗ Runtime Error ✗ No (48%)           ✓ Yes (French:6 (cmt:6))                 Runtime: Traceback (most recent ca\nbn              ✗ Runtime Error ✓ Yes (71%)          ✓ Yes (Bengali:3 (cmt:3))                Runtime: Traceback (most recent ca\npt              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:8 (cmt:5, str:3))      - None              \nru              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Portuguese:1 (unk:1); Russian:7 (un... Syntax: Line 35: expected 'except\nid              ✓ Yes           ✗ No (50%)           ✓ Yes (Indonesian:6 (cmt:3, str:3); German... - None              \nur              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:4 (unk:4); Portuguese:1 (unk... Syntax: Line 39: expected an inde\nde              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); German:9 (cmt... Runtime: Traceback (most recent ca\nja              ✗ Runtime Error ✗ No (36%)           ✓ Yes (Chinese:6 (cmt:6))                Runtime: Traceback (most recent ca\nmr              ✗ Runtime Error ✗ No (57%)           ✓ Yes (Turkish:2 (str:2))                Runtime: Traceback (most recent ca\nvi              ✗ Runtime Error ✗ No (48%)           ✓ Yes (Vietnamese:4 (cmt:4))             Runtime: Traceback (most recent ca\nte              ✗ Syntax Error  ✓ Yes (100%)         ✓ Yes (Portuguese:1 (unk:1))             Syntax: Line 17: unterminated str\nha              ✗ Runtime Error ✗ No (15%)           ✓ Yes (French:3 (cmt:2, str:1))          Runtime: Traceback (most recent ca\ntr              ✗ Runtime Error ✓ Yes (65%)          ✓ Yes (Turkish:5 (cmt:5))                Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:45.755847"
+}

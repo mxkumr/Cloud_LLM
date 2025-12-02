@@ -1,0 +1,750 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_18",
+  "summary": {
+    "total_languages": 18,
+    "successful": 16,
+    "syntax_errors": 0,
+    "runtime_errors": 1,
+    "success_rate": 88.88888888888889,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 4,
+      "average_similarity_score": 31.279178338001866
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 12,
+      "total_locations": 36
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 160,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05706644058227539,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list, return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 114,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0548093318939209,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 276,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07558321952819824,
+        "output": "60"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Hindi",
+            "text": "यदि सूचकांक सरणी के बाहर है तो None लौटाएं"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "उदाहरण के लिए"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "आउटपुट: 60"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 347,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07243084907531738,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "El índice está fuera de rango."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Ejemplo de uso:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "entrada = 5"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "resultado = obtener_valor_en_indice(matriz, entrada)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "print(resultado)  # Salida: 60"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 415,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptqrbjxvz.py\", line 12, in <module>\n    input_index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0641\\u0647\\u0631\\u0633\\u064b\\u0627 \\u0635\\u062d\\u064a\\u062d\\u064b\\u0627: \"))\n                      ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.1597130298614502,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2222222222222222,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "الفرز غير صالح"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "أدخل فهرسًا صحيحًا: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "القيمة عند الفهرس "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": " هي: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "مصفوفة معرفة مسبقًا"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "التحقق من أن الفهرس صالح"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "مثال على الاستخدام"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 292,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07036876678466797,
+        "output": "Entrez un entier : 1"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "Entrez un entier : "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Exemple d'utilisation"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 156,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07124185562133789,
+        "output": "0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Bengali",
+            "text": "অ্যারে তৈরি করুন যাতে সূচক 0 থেকে n পর্যন্ত মান রাখা যায়"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Bengali",
+            "text": "সূচক n-এ মান n হিসাবে সেট করুন"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 249,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06808757781982422,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Índice fora dos limites do array"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Exemplo de uso:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "print(valor_no_indice(5))  # Saída: 60"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 245,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07183170318603516,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "Определяем массив"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "Проверяем условия"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 114,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.053487300872802734,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 239,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0554811954498291,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09523809523809523,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "یا کوئی مناسب خطا"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "مثال کے طور پر:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "print(get_value_at_index(arr, 5))  # آؤٹ پٹ: 60"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 266,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07768034934997559,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Beispielaufruf"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 271,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08049917221069336,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "インデックスが配列の範囲外です"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "例の使用方法"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "print(get_index_value(arr, 5))  # エラー: インデックスが範囲外"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "print(get_index_value(arr, 2))  # 出力: 30"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 301,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0762474536895752,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 243,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0744318962097168,
+        "output": "60"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Ví dụ sử dụng"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 258,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08350038528442383,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 258,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07402849197387695,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Örnek kullanım:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "print(get_value_at_index(arr, 5))  # Çıktı: 0"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "print(get_value_at_index(arr, 2))  # Çıktı: 30"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (50%)           ✗ No                                     Prompt: Missing 1 keywords\nhi              ✓ Yes           ✗ No (50%)           ✓ Yes (Hindi:3 (cmt:3))                  - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:1 (cmt:1); Spanish:4 (cm... - None              \nar              ✗ Runtime Error ✗ No (22%)           ✓ Yes (Arabic:7 (cmt:3, str:4))          Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (cmt:1); Spanish:1 (str:1)) - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (Bengali:2 (cmt:2))                - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:2 (cmt:1, str:1); Spanis... - None              \nru              ✓ Yes           ✗ No (0%)            ✓ Yes (Russian:2 (cmt:2))                - None              \nid              ✓ Yes           ✗ No (0%)            ✗ No                                     Prompt: Missing 1 keywords\nur              ✓ Yes           ✗ No (10%)           ✓ Yes (Arabic:3 (cmt:3))                 - None              \nde              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (cmt:1))                 Prompt: Missing 1 keywords\nja              ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:4 (cmt:3, str:1))         - None              \nmr              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (0%)            ✓ Yes (Vietnamese:1 (cmt:1))             - None              \nte              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (0%)            ✓ Yes (Turkish:3 (cmt:3))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:07.442022"
+}

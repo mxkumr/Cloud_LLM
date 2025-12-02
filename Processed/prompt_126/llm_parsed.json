@@ -1,0 +1,1221 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\en.py",
+      "elements": {
+        "identifiers": [
+          "http_hello_page",
+          "outputbuf",
+          "request_body",
+          "strip",
+          "username"
+        ],
+        "literals": [
+          "f\"<html><body><h1>Hello, {username}!</h1></body></html>"
+        ],
+        "variables": [
+          "outputbuf",
+          "request_body",
+          "strip",
+          "username"
+        ],
+        "comments": [
+          "Simulate writing to response stream and closing it",
+          "In a real server, this would involve writing outputbuf to the response stream",
+          "and then closing the stream.",
+          "Here, we just return the output buffer."
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "handle_request",
+          "http_hello_page",
+          "outputbuf",
+          "request_body",
+          "strip",
+          "url",
+          "username"
+        ],
+        "literals": [
+          "f\"<html><body><h1>Hello, {username}!</h1></body></html>",
+          "/hello",
+          "Response stream closed.",
+          "404 Not Found",
+          "/hello",
+          "Alice"
+        ],
+        "variables": [
+          "outputbuf",
+          "request_body",
+          "strip",
+          "url",
+          "username"
+        ],
+        "comments": [
+          "构造 HTML 页面，将用户名插入到 <h1> 标签中",
+          "模拟服务器处理请求的逻辑",
+          "读取请求正文中的用户名",
+          "调用函数生成响应内容",
+          "模拟将响应写入响应流",
+          "输出响应内容（模拟写入响应流）",
+          "模拟关闭响应流",
+          "模拟关闭响应流",
+          "示例调用"
+        ],
+        "docstrings": [],
+        "functions": [
+          "handle_request",
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\hi.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "get_param",
+          "http_hello_page",
+          "output_buffer",
+          "request",
+          "response",
+          "user_name",
+          "write"
+        ],
+        "literals": [
+          "username",
+          "Guest",
+          "f\"\"\"\r\n    <html>\r\n    <head>\r\n        <title>Hello Page</title>\r\n    </head>\r\n    <body>\r\n        <h1>Hello, {user_name}!</h1>\r\n        <p>Welcome to the hello page.</p>\r\n    </body>\r\n    </html>\r\n    "
+        ],
+        "variables": [
+          "close",
+          "get_param",
+          "output_buffer",
+          "request",
+          "response",
+          "user_name",
+          "write"
+        ],
+        "comments": [
+          "पढ़ें उपयोगकर्ता नाम अनुरोध निकाय से",
+          "HTML पेज बनाएं और आउटपुट बफर में संग्रहित करें",
+          "रिस्पॉन्स बॉडी को रिस्पॉन्स स्ट्रीम में लिखें",
+          "रिस्पॉन्स स्ट्रीम बंद करें"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\es.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "TCPServer",
+          "ThreadedHTTPServer",
+          "content_length",
+          "decode",
+          "do_GET",
+          "do_POST",
+          "encode",
+          "end_headers",
+          "flush",
+          "get",
+          "handler",
+          "headers",
+          "http",
+          "http_hello_page",
+          "httpd",
+          "outputbuf",
+          "path",
+          "port",
+          "post_data",
+          "read",
+          "rfile",
+          "run_server",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "socketserver",
+          "strip",
+          "threading",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "Content-Length",
+          "0",
+          "utf-8",
+          "f\"\"\"\r\n    <html>\r\n    <head>\r\n        <title>Hello Page</title>\r\n    </head>\r\n    <body>\r\n        <h1>Hello, {username}!</h1>\r\n        <p>Welcome to the Hello Page.</p>\r\n    </body>\r\n    </html>\r\n    ",
+          "200",
+          "Content-type",
+          "text/html",
+          "utf-8",
+          "/hello",
+          "404",
+          "/hello",
+          "405",
+          "404",
+          "8000",
+          "f\"Servidor escuchando en el puerto {port}",
+          "__main__"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "TCPServer",
+          "content_length",
+          "decode",
+          "encode",
+          "end_headers",
+          "flush",
+          "get",
+          "handler",
+          "headers",
+          "http",
+          "httpd",
+          "outputbuf",
+          "path",
+          "port",
+          "post_data",
+          "read",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "socketserver",
+          "strip",
+          "threading",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "Leer el cuerpo de la solicitud (nombre de usuario)",
+          "Construir el cuerpo de la respuesta (página HTML)",
+          "Escribir el cuerpo de la respuesta en el flujo de respuesta",
+          "Cerrar el flujo de respuesta",
+          "Clase personalizada para manejar solicitudes",
+          "Configurar el servidor para manejar múltiples solicitudes simultáneas"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET",
+          "do_POST",
+          "http_hello_page",
+          "run_server"
+        ],
+        "classes": [
+          "ThreadedHTTPServer"
+        ]
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\ar.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "get",
+          "http_hello_page",
+          "output",
+          "request",
+          "response",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "username",
+          "Guest",
+          "f\"\"\"\r\n    <html>\r\n    <head>\r\n        <title>مرحباً</title>\r\n    </head>\r\n    <body>\r\n        <h1>مرحباً، {username}!</h1>\r\n    </body>\r\n    </html>\r\n    "
+        ],
+        "variables": [
+          "close",
+          "get",
+          "output",
+          "request",
+          "response",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "قراءة اسم المستخدم من نص الطلب",
+          "إنشاء نص الاستجابة (صفحة HTML)",
+          "كتابة نص الاستجابة إلى دفق الاستجابة",
+          "إغلاق دفق الاستجابة"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Hello",
+          "John",
+          "Mock",
+          "TestCase",
+          "TestHttpHelloPage",
+          "body",
+          "close",
+          "decode",
+          "encode",
+          "expected_html",
+          "h1",
+          "html",
+          "http_hello_page",
+          "mock",
+          "mock_open",
+          "mock_request",
+          "mock_response",
+          "new_callable",
+          "outputbuf",
+          "patch",
+          "path",
+          "read",
+          "request",
+          "response",
+          "return_value",
+          "self",
+          "status_code",
+          "strip",
+          "test_http_hello_page_valid_request",
+          "unittest",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "/hello",
+          "404",
+          "b\"<html><body><h1>404 Not Found</h1></body></html>",
+          "utf-8",
+          "f\"<html><body><h1>Hello, {username}!</h1></body></html>",
+          "utf-8",
+          "builtins.open",
+          "/hello",
+          "b\"John"
+        ],
+        "variables": [
+          "Hello",
+          "John",
+          "Mock",
+          "TestCase",
+          "body",
+          "close",
+          "decode",
+          "encode",
+          "expected_html",
+          "h1",
+          "html",
+          "mock",
+          "mock_open",
+          "mock_request",
+          "mock_response",
+          "new_callable",
+          "outputbuf",
+          "patch",
+          "path",
+          "read",
+          "request",
+          "response",
+          "return_value",
+          "self",
+          "status_code",
+          "strip",
+          "unittest",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Lire le corps de la requête",
+          "Construire le corps de la réponse",
+          "Écrire la réponse",
+          "Fermer le flux de réponse",
+          "Test unitaire pour la fonction http_hello_page",
+          "Créer des objets simulés pour request et response",
+          "Simuler les données de la requête",
+          "Appeler la fonction",
+          "Vérifier que le statut de la réponse est 200 (non spécifié, mais supposé OK)",
+          "Puisque l'erreur 404 est gérée, on suppose que 200 est attendu",
+          "On vérifie que write a été appelé avec le bon contenu"
+        ],
+        "docstrings": [
+          "\r\n    Traite la requête HTTP pour l'URL /hello.\r\n    Lit le nom d'utilisateur du corps de la requête.\r\n    Construit une page HTML de réponse.\r\n    Écrit la réponse dans le flux de réponse.\r\n    Ferme le flux de réponse.\r\n    Si l'URL n'est pas /hello, renvoie une erreur 404.\r\n    "
+        ],
+        "functions": [
+          "http_hello_page",
+          "test_http_hello_page_valid_request"
+        ],
+        "classes": [
+          "TestHttpHelloPage"
+        ]
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\bn.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "MyHTTPRequestHandler",
+          "content_length",
+          "decode",
+          "do_GET",
+          "encode",
+          "end_headers",
+          "get",
+          "headers",
+          "html_response",
+          "http",
+          "httpd",
+          "json",
+          "loads",
+          "path",
+          "post_data",
+          "read",
+          "rfile",
+          "run_server",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "/hello",
+          "Content-Length",
+          "0",
+          "utf-8",
+          "username",
+          "Guest",
+          "f\"\"\"\r\n            <html>\r\n            <head>\r\n                <title>Hello Page</title>\r\n            </head>\r\n            <body>\r\n                <h1>Hello, {username}!</h1>\r\n                <p>Welcome to the Hello Page.</p>\r\n            </body>\r\n            </html>\r\n            ",
+          "200",
+          "Content-type",
+          "text/html",
+          "utf-8",
+          "404",
+          "8000",
+          "Server running on http://localhost:8000",
+          "__main__"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "content_length",
+          "decode",
+          "encode",
+          "end_headers",
+          "get",
+          "headers",
+          "html_response",
+          "http",
+          "httpd",
+          "json",
+          "loads",
+          "path",
+          "post_data",
+          "read",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "Read the username from the request body",
+          "Create the response body (HTML page)",
+          "Send response"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET",
+          "run_server"
+        ],
+        "classes": [
+          "MyHTTPRequestHandler"
+        ]
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\pt.py",
+      "elements": {
+        "identifiers": [
+          "http_hello_page",
+          "outputbuf",
+          "username"
+        ],
+        "literals": [
+          "f\"\"\"\r\n    <html>\r\n    <head>\r\n        <title>Olá, {username}!</title>\r\n    </head>\r\n    <body>\r\n        <h1>Olá, {username}!</h1>\r\n        <p>Bem-vindo ao nosso servidor.</p>\r\n    </body>\r\n    </html>\r\n    "
+        ],
+        "variables": [
+          "outputbuf",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\ru.py",
+      "elements": {
+        "identifiers": [
+          "body",
+          "close",
+          "decode",
+          "encode",
+          "http_hello_page",
+          "outputbuf",
+          "request",
+          "response",
+          "strip",
+          "user_name",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "f\"\"\"\r\n    <html>\r\n        <head>\r\n            <title>Hello Page</title>\r\n        </head>\r\n        <body>\r\n            <h1>Hello, {user_name}!</h1>\r\n        </body>\r\n    </html>\r\n    ",
+          "utf-8"
+        ],
+        "variables": [
+          "body",
+          "close",
+          "decode",
+          "encode",
+          "outputbuf",
+          "request",
+          "response",
+          "strip",
+          "user_name",
+          "write"
+        ],
+        "comments": [
+          "Считываем тело запроса (имя пользователя)",
+          "Конструируем тело ответа (страницу HTML)",
+          "Записываем тело ответа в поток ответов",
+          "Закрываем поток ответов",
+          "Возвращаем None"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\id.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "data",
+          "decode",
+          "e",
+          "encode",
+          "get",
+          "http_hello_page",
+          "nama_pengguna",
+          "outputbuf",
+          "params",
+          "parse",
+          "parse_qs",
+          "read",
+          "request",
+          "response",
+          "urllib",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "nama",
+          "0",
+          "f\"\"\"\r\n        <html>\r\n        <head>\r\n            <title>Hello Page</title>\r\n        </head>\r\n        <body>\r\n            <h1>Hello, {nama_pengguna}!</h1>\r\n            <p>Selamat datang di halaman hello.</p>\r\n        </body>\r\n        </html>\r\n        ",
+          "utf-8"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "data",
+          "decode",
+          "e",
+          "encode",
+          "get",
+          "nama_pengguna",
+          "outputbuf",
+          "params",
+          "parse",
+          "parse_qs",
+          "read",
+          "request",
+          "response",
+          "urllib",
+          "write"
+        ],
+        "comments": [
+          "Membaca isi permintaan (nama pengguna)",
+          "Asumsikan permintaan berupa data form dengan field 'nama'",
+          "Parsing data form (asumsi format: nama=John)",
+          "Membuat badan respons (halaman HTML)",
+          "Menulis isi respons ke aliran respons",
+          "Menutup aliran respons",
+          "Permintaan berhasil diproses",
+          "Jika terjadi kesalahan, kembalikan False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\ur.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "HTTP_HELLO_PAGE",
+          "MyHTTPRequestHandler",
+          "content_length",
+          "do_GET",
+          "do_POST",
+          "encode",
+          "end_headers",
+          "headers",
+          "html_response",
+          "http",
+          "json",
+          "path",
+          "post_data",
+          "read",
+          "request",
+          "response_body",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "server",
+          "user_name",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "f\"\"\"\r\n    <html>\r\n    <head>\r\n        <title>ہیلو {user_name}</title>\r\n    </head>\r\n    <body>\r\n        <h1>ہیلو {user_name}!</h1>\r\n        <p>آپ کی درخواست کامیابی سے وصول ہو گئی ہے۔</p>\r\n    </body>\r\n    </html>\r\n    ",
+          "/ہیلو",
+          "مہمان",
+          "200",
+          "Content-type",
+          "text/html; charset=utf-8",
+          "utf-8",
+          "404",
+          "/ہیلو",
+          "Content-Length"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "content_length",
+          "encode",
+          "end_headers",
+          "headers",
+          "html_response",
+          "http",
+          "json",
+          "path",
+          "post_data",
+          "read",
+          "request",
+          "response_body",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "server",
+          "user_name",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "تیاری کی گئی HTML صفحہ جس میں صارف کا نام شامل ہے",
+          "صارف نام کو درخواست باڈی سے پڑھنا (GET میں باڈی نہیں ہوتی، لہذا یہ ممکن نہیں)",
+          "لہذا GET کے لیے ہم کسی بھی مقدار کو ڈیفالٹ کے طور پر استعمال کریں گے",
+          "HTML صفحہ تیار کریں",
+          "HTTP ریسپانس تیار کریں",
+          "ریسپانس باڈی لکھیں",
+          "غیر متعلقہ پیتھ کے لیے 404",
+          "POST کے لیے باڈی کو پڑھیں",
+          "JSON باڈی کو پارس کریں"
+        ],
+        "docstrings": [],
+        "functions": [
+          "HTTP_HELLO_PAGE",
+          "do_GET",
+          "do_POST"
+        ],
+        "classes": [
+          "MyHTTPRequestHandler"
+        ]
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\de.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "get",
+          "http_hello_page",
+          "outputbuf",
+          "request",
+          "response",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "username",
+          "Gast",
+          "f\"\"\"\r\n    <html>\r\n    <head>\r\n        <title>Willkommen</title>\r\n    </head>\r\n    <body>\r\n        <h1>Hallo, {username}!</h1>\r\n        <p>Willkommen auf unserer Webseite.</p>\r\n    </body>\r\n    </html>\r\n    "
+        ],
+        "variables": [
+          "close",
+          "get",
+          "outputbuf",
+          "request",
+          "response",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Lesen des Anforderungstextes (Benutzernamen)",
+          "Standardwert 'Gast', falls nicht vorhanden",
+          "Erstellen des Antworttextes (HTML-Seite)",
+          "Schreiben des Antworttextes in den Antwortstream",
+          "Schließen des Antwortstreams"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\ja.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "MyHandler",
+          "close",
+          "do_GET",
+          "encode",
+          "end_headers",
+          "get_username",
+          "http",
+          "httpd",
+          "json",
+          "outbuf",
+          "path",
+          "run_server",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "/hello",
+          "200",
+          "Content-type",
+          "text/html",
+          "f\"<html><body><h1>Hello, {self.get_username()}</h1></body></html>",
+          "utf-8",
+          "404",
+          "Guest",
+          "8000",
+          "Server running on http://localhost:8000",
+          "__main__"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "close",
+          "encode",
+          "end_headers",
+          "get_username",
+          "http",
+          "httpd",
+          "json",
+          "outbuf",
+          "path",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "リクエスト本文からユーザー名を取得（ここではサンプルとして固定値）",
+          "実際の実装では、リクエスト本文を読み取る処理が必要"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET",
+          "get_username",
+          "run_server"
+        ],
+        "classes": [
+          "MyHandler"
+        ]
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\mr.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "MyHandler",
+          "do_GET",
+          "encode",
+          "end_headers",
+          "get",
+          "http",
+          "httpd",
+          "parse",
+          "parse_qs",
+          "parsed_path",
+          "path",
+          "query",
+          "query_params",
+          "response_body",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "urllib",
+          "urlparse",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "/hello",
+          "username",
+          "Guest",
+          "0",
+          "f\"<html><body><h1>Hello, {username}!</h1></body></html>",
+          "200",
+          "Content-type",
+          "text/html",
+          "utf-8",
+          "404",
+          "__main__",
+          "8000",
+          "Server running on http://localhost:8000"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "encode",
+          "end_headers",
+          "get",
+          "http",
+          "httpd",
+          "parse",
+          "parse_qs",
+          "parsed_path",
+          "path",
+          "query",
+          "query_params",
+          "response_body",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "urllib",
+          "urlparse",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "Parse the query parameters",
+          "Extract the username from the query parameters",
+          "Create the response body (HTML page)",
+          "Set the response headers",
+          "Write the response body to the output stream",
+          "Handle other paths",
+          "Start the server"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET"
+        ],
+        "classes": [
+          "MyHandler"
+        ]
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\vi.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "MyHandler",
+          "close",
+          "do_GET",
+          "encode",
+          "end_headers",
+          "get",
+          "http",
+          "httpd",
+          "output",
+          "parse",
+          "parse_qs",
+          "parsed_path",
+          "path",
+          "port",
+          "query",
+          "query_params",
+          "run_server",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "urllib",
+          "urlparse",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "name",
+          "0",
+          "f\"\"\"\r\n        <html>\r\n        <head>\r\n            <title>Hello Page</title>\r\n        </head>\r\n        <body>\r\n            <h1>Xin chào, {username}!</h1>\r\n            <p>Chào mừng bạn đến với trang hello.</p>\r\n        </body>\r\n        </html>\r\n        ",
+          "200",
+          "Content-type",
+          "text/html; charset=utf-8",
+          "utf-8",
+          "8000",
+          "f\"Server đang chạy tại http://localhost:{port}/hello",
+          "__main__"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "close",
+          "encode",
+          "end_headers",
+          "get",
+          "http",
+          "httpd",
+          "output",
+          "parse",
+          "parse_qs",
+          "parsed_path",
+          "path",
+          "port",
+          "query",
+          "query_params",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "urllib",
+          "urlparse",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "Phân tích URL để lấy phần query string",
+          "Lấy tên người dùng từ yêu cầu (nếu có)",
+          "Xây dựng nội dung phản hồi HTML",
+          "Gửi phản hồi HTTP",
+          "Ghi nội dung phản hồi vào luồng phản hồi",
+          "Đóng luồng phản hồi"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET",
+          "run_server"
+        ],
+        "classes": [
+          "MyHandler"
+        ]
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\te.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "MyHandler",
+          "content_length",
+          "decode",
+          "do_GET",
+          "do_POST",
+          "encode",
+          "end_headers",
+          "get",
+          "headers",
+          "http",
+          "httpd",
+          "outputbuf",
+          "parse",
+          "parse_qs",
+          "parsed_data",
+          "path",
+          "post_data",
+          "read",
+          "rfile",
+          "run_server",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "urllib",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "/hello",
+          "200",
+          "Content-type",
+          "text/html",
+          "<html><body><h1>Hello, World!</h1></body></html>",
+          "404",
+          "/hello",
+          "Content-Length",
+          "utf-8",
+          "name",
+          "Unknown",
+          "0",
+          "200",
+          "Content-type",
+          "text/html",
+          "f\"<html><body><h1>Hello, {username}!</h1></body></html>",
+          "404",
+          "8000",
+          "Server running on http://localhost:8000",
+          "__main__"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "content_length",
+          "decode",
+          "encode",
+          "end_headers",
+          "get",
+          "headers",
+          "http",
+          "httpd",
+          "outputbuf",
+          "parse",
+          "parse_qs",
+          "parsed_data",
+          "path",
+          "post_data",
+          "read",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "urllib",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "do_GET",
+          "do_POST",
+          "run_server"
+        ],
+        "classes": [
+          "MyHandler"
+        ]
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\ha.py",
+      "elements": {
+        "identifiers": [
+          "BeautifulSoup",
+          "RequestException",
+          "bs4",
+          "content",
+          "e",
+          "get",
+          "get_text",
+          "raise_for_status",
+          "requests",
+          "response",
+          "scrape_page",
+          "soup",
+          "url"
+        ],
+        "literals": [
+          "html.parser",
+          "f\"Error: {e}",
+          "https://example.com"
+        ],
+        "variables": [
+          "BeautifulSoup",
+          "RequestException",
+          "bs4",
+          "content",
+          "e",
+          "get",
+          "get_text",
+          "raise_for_status",
+          "requests",
+          "response",
+          "soup",
+          "url"
+        ],
+        "comments": [
+          "Example usage"
+        ],
+        "docstrings": [],
+        "functions": [
+          "scrape_page"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_f1i38add\\tr.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "get",
+          "http_hello_page",
+          "output_buf",
+          "request",
+          "response",
+          "user_name",
+          "write"
+        ],
+        "literals": [
+          "user_name",
+          "Guest",
+          "f\"\"\"\r\n    <html>\r\n        <head>\r\n            <title>Hello Page</title>\r\n        </head>\r\n        <body>\r\n            <h1>Hello, {user_name}!</h1>\r\n            <p>Welcome to the hello page.</p>\r\n        </body>\r\n    </html>\r\n    "
+        ],
+        "variables": [
+          "close",
+          "get",
+          "output_buf",
+          "request",
+          "response",
+          "user_name",
+          "write"
+        ],
+        "comments": [
+          "İstekten kullanıcı adını oku",
+          "HTML yanıt gövdesini oluştur",
+          "Yanıt gövdesini yanıt akışına yaz",
+          "Yanıt akışını kapat"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

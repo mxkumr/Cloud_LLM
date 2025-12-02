@@ -1,0 +1,997 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_25",
+  "summary": {
+    "total_languages": 18,
+    "successful": 12,
+    "syntax_errors": 0,
+    "runtime_errors": 5,
+    "success_rate": 66.66666666666666,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 6,
+      "average_similarity_score": 46.93510840823214
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 13,
+      "total_locations": 78
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 505,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1131129264831543,
+        "output": "Quarterly Sales:\nQuarter 1: $117786\nQuarter 2: $160507\nQuarter 3: $111171\nQuarter 4: $155970"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "Q1, Q2, Q3, Q4"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 378,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprja1cgfe.py\", line 17, in <module>\n    print(f\"\\u7b2c{i+1}\\u5b63\\u5ea6\\u9500\\u552e\\u989d: {quarterly_sales[i]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u7b2c' in position 0: character maps to <undefined>",
+        "execution_time": 0.20249605178833008,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "季度销售额: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "四个季度的销售额"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "计算当前月属于哪个季度（0-3）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "打印每个季度的销售额"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 612,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12339258193969727,
+        "output": "Q1 Sales: 220542\nQ2 Sales: 203848\nQ3 Sales: 143621\nQ4 Sales: 157905"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "French",
+            "text": "Q1 Sales: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "French",
+            "text": "Q2 Sales: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "French",
+            "text": "Q3 Sales: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "French",
+            "text": "Q4 Sales: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 729,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11150503158569336,
+        "output": "Ventas del primer trimestre: 149256\nVentas del segundo trimestre: 111693\nVentas del tercer trimestre: 109559\nVentas del cuarto trimestre: 161859\nTotal de ventas del a�o: 532367"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Spanish",
+            "text": "Ventas del primer trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Spanish",
+            "text": "Ventas del segundo trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Spanish",
+            "text": "Ventas del tercer trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "Ventas del cuarto trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Spanish",
+            "text": "Total de ventas del año: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 539,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpo_mk77zk.py\", line 19, in <module>\n    displayQuarterlySales()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpo_mk77zk.py\", line 16, in displayQuarterlySales\n    print(f\"\\u0627\\u0644\\u0631\\u0628\\u0639 {i + 1}: {quarterly_sales[i]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>",
+        "execution_time": 0.1625978946685791,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1111111111111111,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "الربع "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "لتخزين مبيعات الأرباع الأربعة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "تحديد الربع (0 لـ يناير-مارس، 1 لـ أبريل-يونيو، إلخ)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "طباعة النتائج"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "استدعاء الدالة لعرض مبيعات الأرباع"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 552,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11094355583190918,
+        "output": "Ventes du trimestre 1: 136639\nVentes du trimestre 2: 107748\nVentes du trimestre 3: 154328\nVentes du trimestre 4: 83861\nVentes totales de l'ann�e: 482576"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "French",
+            "text": "Ventes totales de l'année: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "French",
+            "text": "Ventes du trimestre "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Pour les 4 trimestres"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "French",
+            "text": "Déterminer le trimestre (0-2 pour le 1er, 3-5 pour le 2e, etc.)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Afficher les résultats"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 510,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpa63a8zvx.py\", line 20, in <module>\n    print(f\"\\u09a4\\u09cd\\u09b0\\u09c8\\u09ae\\u09be\\u09b8\\u09bf\\u0995 {i}: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>",
+        "execution_time": 0.16492390632629395,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.375,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 37.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Bengali",
+            "text": "ত্রৈমাসিক "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "বছরের প্রতিটি মাসের জন্য বিক্রয় সংগ্রহ করা"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "প্রতিটি ত্রৈমাসিকের জন্য বিক্রয় যোগ করা"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Bengali",
+            "text": "ফলাফল প্রিন্ট করা"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 758,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11040949821472168,
+        "output": "Vendas no 1� trimestre: 105429\nVendas no 2� trimestre: 143958\nVendas no 3� trimestre: 179529\nVendas no 4� trimestre: 63048"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "Vendas no 1º trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Vendas no 2º trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Portuguese",
+            "text": "Vendas no 3º trimestre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Portuguese",
+            "text": "Vendas no 4º trimestre: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Variáveis para armazenar as vendas por trimestre"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Chama a função getMonthlySales 12 vezes, uma para cada mês"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "Imprime os resultados dos trimestres"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 426,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjgws_3tl.py\", line 16, in <module>\n    print(f\"\\u041a\\u0432\\u0430\\u0440\\u0442\\u0430\\u043b {i+1}: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>",
+        "execution_time": 0.15462350845336914,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.08333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 8.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Общая сумма продаж за год: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "Квартал "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Кварталы: 0, 1, 2, 3"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 756,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11560797691345215,
+        "output": "Penjualan Kuartal 1: 170928\nPenjualan Kuartal 2: 175716\nPenjualan Kuartal 3: 108522\nPenjualan Kuartal 4: 123753\nTotal Penjualan Tahunan: 578919"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14814814814814814,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Penjualan Kuartal 1: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Penjualan Kuartal 2: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Indonesian",
+            "text": "Penjualan Kuartal 3: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Penjualan Kuartal 4: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Indonesian",
+            "text": "Total Penjualan Tahunan: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Menyimpan penjualan bulanan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Menghitung penjualan per kuartal"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Jan, Feb, Mar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "Jul, Aug, Sep"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Cetak hasil kuartal"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Indonesian",
+            "text": "Cetak total penjualan tahunan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 671,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11644649505615234,
+        "output": "Q1 Sales: 156198\nQ2 Sales: 199721\nQ3 Sales: 192479\nQ4 Sales: 202963"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07142857142857142,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "French",
+            "text": "Q1 Sales: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "French",
+            "text": "Q2 Sales: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "French",
+            "text": "Q3 Sales: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "French",
+            "text": "Q4 Sales: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 306,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09809660911560059,
+        "output": "Quartal 1: 67956\nQuartal 2: 125714\nQuartal 3: 119484\nQuartal 4: 181942"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0625,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 6.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 43,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07218003273010254,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 459,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12067389488220215,
+        "output": "Quarter 1 sales: 163690\nQuarter 2 sales: 91455\nQuarter 3 sales: 64893\nQuarter 4 sales: 115158"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2857142857142857,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 28.6%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 451,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09366583824157715,
+        "output": "Qu� 1: 211282\nQu� 2: 124204\nQu� 3: 100683\nQu� 4: 133067"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4827586206896552,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 48.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "Quý "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Khởi tạo biến để lưu tổng doanh số theo quý"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Gọi hàm getMonthlySales 12 lần, một lần cho mỗi tháng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "Xác định quý (0-3)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "In kết quả cho từng quý"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 631,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11448860168457031,
+        "output": "Quarter 1 sales: 93312\nQuarter 2 sales: 123307\nQuarter 3 sales: 150391\nQuarter 4 sales: 109447\nAnnual sales: 476457"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 696,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmppc9c32q7.py\", line 23, in <module>\n    print(f\"{quarters[q]} sat\\u0131\\u015flar\\u0131: {quarter_sales[q]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 13-14: character maps to <undefined>",
+        "execution_time": 0.15661406517028809,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.19230769230769232,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 19.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Ocak"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Şubat"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Mayıs"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Haziran"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Temmuz"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Ağustos"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Eylül"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Ekim"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Kasım"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Aralık"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "1. Çeyrek"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "2. Çeyrek"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "3. Çeyrek"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "4. Çeyrek"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Turkish",
+            "text": " satışları: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Ay isimleri"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "Çeyrek satışları"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Her ay için satışları al ve çeyrek toplamlarını güncelle"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Turkish",
+            "text": "0: 1. çeyrek, 1: 2. çeyrek, 2: 3. çeyrek, 3: 4. çeyrek"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Turkish",
+            "text": "Sonuçları yazdır"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Vietnamese:1 (cmt:1))             - None              \nzh-CN           ✗ Runtime Error ✓ Yes (100%)         ✓ Yes (Chinese:4 (cmt:3, str:1))         Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✗ No (50%)           ✓ Yes (French:4 (str:4))                 - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Spanish:5 (str:5))                - None              \nar              ✗ Runtime Error ✗ No (11%)           ✓ Yes (Arabic:5 (cmt:4, str:1))          Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:5 (cmt:3, str:2))          - None              \nbn              ✗ Runtime Error ✗ No (38%)           ✓ Yes (Bengali:4 (cmt:3, str:1))         Runtime: Traceback (most recent ca\npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:7 (cmt:3, str:4))      - None              \nru              ✗ Runtime Error ✗ No (8%)            ✓ Yes (Russian:3 (cmt:1, str:2))         Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (15%)           ✓ Yes (Indonesian:11 (cmt:6, str:5))     - None              \nur              ✓ Yes           ✗ No (7%)            ✓ Yes (French:4 (str:4))                 - None              \nde              ✓ Yes           ✗ No (6%)            ✗ No                                     - None              \nja              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nmr              ✓ Yes           ✗ No (29%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (48%)           ✓ Yes (Vietnamese:5 (cmt:4, str:1))      - None              \nte              ✓ Yes           ✓ Yes (67%)          ✗ No                                     - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Runtime Error ✗ No (19%)           ✓ Yes (Turkish:20 (cmt:5, str:15))       Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:35.190557"
+}

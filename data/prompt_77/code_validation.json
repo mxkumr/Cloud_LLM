@@ -1,0 +1,1317 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_77",
+  "summary": {
+    "total_languages": 18,
+    "successful": 11,
+    "syntax_errors": 2,
+    "runtime_errors": 5,
+    "success_rate": 61.111111111111114,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 49.68277879607162
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 127
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 603,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.057781219482421875,
+        "output": "Name: John\nStatus: 0"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "memory",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: memory, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "Name: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 575,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05280947685241699,
+        "output": "Person created: John, Status: 0"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "memory",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: memory, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "模拟内存分配（这里使用Python的内置机制）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "在Python中，我们不需要手动管理内存，但为了模拟，我们可以创建一个列表"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "作为内存块，并返回其引用"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "分配指定大小的内存块"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "示例大小"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "创建一个新人，状态为0，名称为\"John\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "将该人分配给名为\"person\"的变量"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "（在Python中，变量赋值是直接的，不需要指针）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "这里我们只是确保person变量被正确赋值"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 652,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05511951446533203,
+        "output": "Robert"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "Robert"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "John"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 918,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08837771415710449,
+        "output": "Nombre: John\nEstado: 0"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "memory"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: memory"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Spanish",
+            "text": "Nombre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Estado: "
+          },
+          {
+            "category": "variable",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "tamaño"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Simulación de asignación de memoria (usando un diccionario para representar memoria)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Simulamos asignar un bloque de memoria de tamaño especificado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "Devolvemos un puntero (índice en el diccionario)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Asignamos memoria para una persona (suponiendo que necesitamos 2 elementos: nombre y estado)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Creamos una nueva persona y la almacenamos en la memoria asignada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "Imprimimos el estado y el nombre de la persona"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 975,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwkskod2l.py\", line 23, in <module>\n    print(\"\\u0627\\u0644\\u0627\\u0633\\u0645:\", person_ptr.contents.name.decode('utf-8'))\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>",
+        "execution_time": 0.14173555374145508,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.37037037037037035,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 37.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Standard Arabic",
+            "text": "الاسم:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "العدد:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Standard Arabic",
+            "text": "الاسم باستخدام المؤشر:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Standard Arabic",
+            "text": "العدد باستخدام المؤشر:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Standard Arabic",
+            "text": "الحالة باستخدام المؤشر:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "تخصيص كتلة من الذاكرة بحجم 100 بايت"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "تعريف هيكل يمثل الشخص"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "تحويل الكتلة إلى مرجع لـ Person"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "إنشاء شخص جديد وضبط الحالة والاسم"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "طباعة الاسم والعدد باستخدام الاسم المباشر"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "الوصول إلى الاسم والعدد باستخدام المؤشر"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Standard Arabic",
+            "text": "الوصول إلى الحالة باستخدام المؤشر"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Standard Arabic",
+            "text": "إزالة الذاكرة المخصصة"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 945,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05251669883728027,
+        "output": "Nom de la personne : Jane\nStatut de la personne : 1\nPointeur vers le bloc allou� : 2318310025904"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "memory"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: memory"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Indonesian",
+            "text": "Jane"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "French",
+            "text": "Nom de la personne : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "French",
+            "text": "Statut de la personne : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "French",
+            "text": "Pointeur vers le bloc alloué : "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Simuler l'allocation de mémoire en renvoyant un pointeur (ici, un entier)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "En Python, on ne gère pas directement la mémoire comme en C, donc on simule"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "French",
+            "text": "avec un simple entier qui représente l'adresse mémoire."
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "French",
+            "text": "Créer une nouvelle personne avec statut 0 et nom \"John\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "French",
+            "text": "Appeler la méthode d'allocation de mémoire pour allouer un bloc de mémoire pour une personne"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "French",
+            "text": "On suppose que la taille nécessaire est de 100 octets pour cet exemple"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "French",
+            "text": "Modifier le nom de la personne à \"Jane\" et le statut à 1"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "French",
+            "text": "Afficher les résultats"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 988,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05285072326660156,
+        "output": "Person created: John, Age: 0\nMemory block pointer: 0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "John"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 477,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05405426025390625,
+        "output": "Nome: John\nStatus: 0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5833333333333334,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 58.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Simulando alocação de memória com um bloco de tamanho especificado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Retorna um \"ponteiro\" (em Python, usamos um objeto)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Criando uma nova pessoa com status 0 e nome \"John\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Imprimindo o nome e o status da pessoa"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 804,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp67fyfjkx.py\", line 27, in <module>\n    print(f\"\\u0418\\u043c\\u044f: {memory_block[0]}, \\u0421\\u0442\\u0430\\u0442\\u0443\\u0441: {memory_block[1]}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>",
+        "execution_time": 0.13602709770202637,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.391304347826087,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 39.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Джон"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Russian",
+            "text": "Мария"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Russian",
+            "text": "Имя: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Russian",
+            "text": ", Статус: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "В Python мы не можем напрямую управлять памятью как в C,"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "но для имитации поведения можно использовать список или буфер."
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Здесь мы используем список для хранения данных."
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": "Предполагаем, что ptr — это список, где ptr[0] — имя, ptr[1] — статус"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "Создание нового человека с начальными значениями"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Russian",
+            "text": "Выделение памяти"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "Установка имени и статуса через указатель"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "Вывод имени и статуса"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1082,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05476999282836914,
+        "output": "Nilai yang disimpan dalam memori: 10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5714285714285714,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 57.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Indonesian",
+            "text": "Nilai yang disimpan dalam memori:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "Alokasi memori dengan ukuran 10"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Indonesian",
+            "text": "Membuat orang baru dan menetapkan status menjadi 0 dan nama menjadi \"John\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Indonesian",
+            "text": "Menetapkan nilai 10 ke dalam memori yang dialokasikan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Indonesian",
+            "text": "Mencetak nilai yang disimpan dalam memori"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Indonesian",
+            "text": "Mengembalikan memori yang dialokasikan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 649,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpu3fpnpq2.py\", line 17, in <module>\n    print(f\"\\u0646\\u0627\\u0645: {person_ptr.name}, \\u0639\\u0645\\u0631: {person_ptr.age}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>",
+        "execution_time": 0.15941667556762695,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5555555555555556,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 55.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "نام: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": ", عمر: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "میموری مختص کرنے کا طریقہ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "فرض کیا جائے گا کہ یہ ایک سادہ فنکشن ہے جو میموری کا بلاک مختص کرتا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "اس میں اصل میموری میں کوئی تبدیلی نہیں ہوتی، صرف ایک پوائنٹر (یا اشارہ) لوٹایا جاتا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "یہاں ہم صرف ایک نیا آبجیکٹ بناتے ہیں جسے ایک پوائنٹر کے طور پر استعمال کیا جا سکتا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "ایک نیا شخص تخلیق کرنے کے لیے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "مخصوص سائز کی میموری کا بلاک مختص کرتا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "نتیجہ کو دکھائیں"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1336,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 35: expected an indented block after function definition on line 34"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 35: expected an indented block after function definition on line 34",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4838709677419355,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 48.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "    # Simuliert die Speicherzuweisung mit einer Liste als Speicherpool"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "    # In einer echten Implementierung würde hier der tatsächliche Speicher zugewiesen werden"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "    # Hier simulieren wir nur, dass ein Speicherblock der Größe `size` zugewiesen wird"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "    # und wir einen Zeiger (Index) auf den Anfang des Blocks zurückgeben"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "    # Wir verwenden eine Liste als Speicherpool"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "    # Wir simulieren, dass jeder Person-Objekt 2 Einträge im Pool benötigt (name und status)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "    # Hier nehmen wir an, dass die Größe in Einheiten gemessen wird, und jeder Einheit entspricht ei..."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "    # Wir reservieren `size` Einheiten"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Standard German",
+            "text": "    # Füllen des Speicherblocks mit None (simuliert uninitialisierten Speicher)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "    # Freigeben des Spe"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1245,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 43: '(' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 43: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.08333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 8.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "# システムのメモリを模倣するためのクラス"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "        self.memory = bytearray(1024)  # 1KBの仮想メモリ"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "        self.allocated_blocks = {}  # 割り当て済みブロックの追跡"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "        self.next_free = 0  # 次の空き位置"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "        # メモリブロックを割り当てる"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "        # メモリブロックを解放する"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "# 個人クラスの定義（Cの構造体に相当）"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "# メモリマネージャーのインスタンスを作成"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Mandarin Chinese",
+            "text": "# メモリを割り当てて新しい個人を作成"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Mandarin Chinese",
+            "text": "# メモリの初期化（名前とステータスの初期値設定）"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Mandarin Chinese",
+            "text": "# メモリにデータを書き込む"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 581,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0qrbl7dm.py\", line 26, in <module>\n    person_ptr.print_name()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0qrbl7dm.py\", line 10, in print_name\n    print(self.name)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>",
+        "execution_time": 0.1348738670349121,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Hindi",
+            "text": "जॉन"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Hindi",
+            "text": "राहुल"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Hindi",
+            "text": "जॉन"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": "मेमरी वाटप पद्धत"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Hindi",
+            "text": "नवीन व्यक्ती तयार करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Hindi",
+            "text": "स्थिती 0 वर आणा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Hindi",
+            "text": "नाव \"जॉन\" वर सेट करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Hindi",
+            "text": "ब्लॉकच्या सुरूवातीस एक पॉइंटर परत करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Hindi",
+            "text": "वापर"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 663,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05655980110168457,
+        "output": "Name: John\nState: 0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.03333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Name: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 667,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpd_1swb1l.py\", line 11, in <module>\n    print(\"Initial name:\", person_name)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.14853620529174805,
+        "output": "Initial name:"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Telugu",
+            "text": "జాన్"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 673,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06169486045837402,
+        "output": "Yahaya: 0"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "A cikin hanyar Python, za a ƙara sabon mutum da 0 kuma ta dawo da mai nuna alama zuwa farkon toshe"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1182,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05624032020568848,
+        "output": "Person 1: Name=John, Status=0\nPerson 2: Name=Jane, Status=1"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.037037037037037035,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Standard German",
+            "text": "John"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Indonesian",
+            "text": "Jane"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Standard German",
+            "text": ": Name="
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (German:2 (str:2))                 - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:9 (cmt:9); German:2 (str:2)) - None              \nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (German:3 (str:3))                 - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:1 (str:1); Spanish:8 (cm... - None              \nar              ✗ Runtime Error ✗ No (37%)           ✓ Yes (Arabic:13 (cmt:8, str:5))         Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:11 (cmt:8, str:3); Indonesia... - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (German:2 (str:2))                 - None              \npt              ✓ Yes           ✗ No (58%)           ✓ Yes (Portuguese:4 (cmt:4); German:1 (str... - None              \nru              ✗ Runtime Error ✗ No (39%)           ✓ Yes (Russian:12 (cmt:8, str:4))        Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (57%)           ✓ Yes (Indonesian:6 (cmt:5, str:1); German... - None              \nur              ✗ Runtime Error ✗ No (56%)           ✓ Yes (Arabic:9 (cmt:7, str:2); German:2 (... Runtime: Traceback (most recent ca\nde              ✗ Syntax Error  ✗ No (48%)           ✓ Yes (German:10 (unk:10))               Syntax: Line 35: expected an inde\nja              ✗ Syntax Error  ✗ No (8%)            ✓ Yes (Chinese:11 (unk:11))              Syntax: Line 43: '(' was never cl\nmr              ✗ Runtime Error ✗ No (33%)           ✓ Yes (Hindi:9 (cmt:6, str:3))           Runtime: Traceback (most recent ca\nvi              ✓ Yes           ✗ No (3%)            ✓ Yes (German:2 (str:2))                 - None              \nte              ✗ Runtime Error ✗ No (50%)           ✓ Yes (Telugu:1 (str:1))                 Runtime: Traceback (most recent ca\nha              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:1 (cmt:1))             - None              \ntr              ✓ Yes           ✗ No (4%)            ✓ Yes (Indonesian:1 (str:1); German:3 (str... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:29.907561"
+}

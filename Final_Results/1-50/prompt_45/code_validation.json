@@ -1,0 +1,1305 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_45",
+  "summary": {
+    "total_languages": 18,
+    "successful": 12,
+    "syntax_errors": 3,
+    "runtime_errors": 2,
+    "success_rate": 66.66666666666666,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 4.901960784313725
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 15,
+      "total_locations": 131
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 402,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07899880409240723,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Error: File '"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1029,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07006645202636719,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "从安全目录读取请求的文件。如果文件不存在，创建新文件。\n如果文件已存在，向文件追加内容。在写入前检查写权限。\n\n:param file_path: 相对于安全目录的文件路径\n:param conten..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "没有写权限: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "没有权限在目录中创建文件: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Mandarin Chinese",
+            "text": "无法写入文件: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "构建完整路径"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "确保安全目录存在"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Mandarin Chinese",
+            "text": "检查文件是否具有写权限"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "文件不存在，检查父目录是否有写权限"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "写入文件（追加模式）"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1033,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 32: unterminated f-string literal (detected at line 32)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 32: unterminated f-string literal (detected at line 32)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "    सुरक्षित निर्देशिका से अनुरोधित फ़ाइल को पढ़ता है।"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Hindi",
+            "text": "    :param directory_path: निर्देशिका का पथ"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "    :param filename: पढ़ने के लिए फ़ाइल का नाम"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "    :return: फ़ाइल की सामग्री या एरर संदेश"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Hindi",
+            "text": "        # निर्देशिका का पथ सुरक्षित रूप से निर्धारित करें"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Hindi",
+            "text": "        # निर्देशिका मौजूद है और एक निर्देशिका है"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Hindi",
+            "text": "            return f\"त्रुटि: {directory_path} एक निर्देशिका नहीं है।\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Hindi",
+            "text": "        # फ़ाइल का पथ बनाएँ"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Hindi",
+            "text": "        # फ़ाइल निर्देशिका के भीतर है या नहीं जांचें"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Hindi",
+            "text": "            return \"त्रुटि: अनुरोधित फ़ाइल निर्देशिका के बाहर है।\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Hindi",
+            "text": "        # फ़ाइल पढ़ें"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Hindi",
+            "text": "        return f\"त्रुटि: फ़ा"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1592,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13200068473815918,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Error: El archivo debe tener extensión .json"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Error: El archivo no existe"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Indonesian",
+            "text": "data"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Indonesian",
+            "text": "data"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": "Error: El archivo JSON debe contener una clave 'data'"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Spanish",
+            "text": "Desconocido"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "Desconocido"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Spanish",
+            "text": "Desconocido"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Spanish",
+            "text": "Error: El archivo no contiene un JSON válido"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Indonesian",
+            "text": "data"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "Advertencia: Se encontró un elemento no válido en 'data', se omitirá"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": "Nombre: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": ", Edad: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": ", Ciudad: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Spanish",
+            "text": "Error inesperado: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Verificar que el archivo tenga extensión .json"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Verificar que el archivo exista en el directorio seguro (por ejemplo, el directorio actual)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Verificar que el objeto JSON tenga la clave \"data\" y que sea una lista"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "Iterar sobre la lista y mostrar cada objeto con el formato deseado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Spanish",
+            "text": "Ejemplo de uso:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 46",
+            "language": "Portuguese",
+            "text": "read_and_print_json_data('datos.json')"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 674,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07283830642700195,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "' does not exist."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1420,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0601344108581543,
+        "output": "Erreur : Le fichier n'existe pas."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Erreur : Le fichier n'existe pas."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Contenu du fichier :"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "French",
+            "text": "\nEntrez la chaîne à rechercher : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "French",
+            "text": "Erreur : Permission refusée pour accéder au fichier."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "French",
+            "text": "Erreur : Fichier introuvable."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "French",
+            "text": "\nLignes contenant '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "French",
+            "text": "\nAucune ligne ne contient '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "French",
+            "text": "Une erreur inattendue s'est produite : "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Chemin vers le fichier sécurisé"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Vérification que le fichier existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Lecture du fichier ligne par ligne"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "French",
+            "text": "Affichage du contenu ligne par ligne"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "French",
+            "text": "Demande à l'utilisateur de saisir une chaîne de recherche"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "French",
+            "text": "Recherche de la chaîne dans le fichier"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "French",
+            "text": "Affichage des lignes trouvées"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 700,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13865280151367188,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "File "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 944,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07891130447387695,
+        "output": "Digite o caminho do arquivo: Erro: O arquivo n�o existe."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "Digite o caminho do arquivo: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Erro: O arquivo não existe."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Erro: O caminho especificado não é um arquivo comum."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Erro: O arquivo não tem permissão de leitura."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "Conteúdo do arquivo:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Erro ao ler o arquivo: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "Verifica se o arquivo existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Verifica se é um arquivo comum (não é um diretório)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Verifica se o arquivo tem permissão de leitura"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "Lê o conteúdo do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "Exemplo de uso"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 455,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpw2bpsqfn.py\", line 8, in <module>\n    print(f\"\\u041e\\u0448\\u0438\\u0431\\u043a\\u0430: \\u0424\\u0430\\u0439\\u043b \\u043d\\u0435 \\u043d\\u0430\\u0439\\u0434\\u0435\\u043d \\u043f\\u043e \\u043f\\u0443\\u0442\\u0438 {file_path}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>",
+        "execution_time": 0.14963197708129883,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "Ошибка: Файл не найден по пути "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "Ошибка при чтении файла: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Russian",
+            "text": "Абсолютный путь к файлу"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Проверка существования файла"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "Чтение и вывод содержимого файла"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 919,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14304304122924805,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Membaca file dari direktori yang ditentukan secara aman.\n\nArgs:\n    nama_file (str): Nama file yang ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Turkish",
+            "text": "File '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Indonesian",
+            "text": "' tidak ditemukan di direktori '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "Terjadi kesalahan saat membaca file: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Periksa apakah file ada dan merupakan file biasa"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "Contoh penggunaan:"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 614,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07314515113830566,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 979,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13869881629943848,
+        "output": "Inhalt der Datei:\n{\n    \"name\": \"Default Name\",\n    \"age\": 0,\n    \"city\": \"Default City\"\n}"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Default Name"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "Inhalt der Datei:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "Datei "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": " wurde erstellt mit Standardwerten."
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "Sicherer Pfad zur Datei"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Standardwerte"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "Überprüfen, ob das sichere Verzeichnis existiert, falls nicht, erstellen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Überprüfen, ob die Datei existiert"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "Datei erstellen und mit Standardwerten füllen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "Datei laden und Inhalt in Dictionary übertragen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Standard German",
+            "text": "Inhalt des Dictionarys auf der Konsole ausgeben"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 793,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.22408366203308105,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 853,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 27: '[' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 27: '[' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "    सुरक्षित निर्देशिकेतून फाइल वाचते किंवा लिहते."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Hindi",
+            "text": "    :param file_path: फाइलचा मार्ग"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "    :param content: लिहावयाचे अंतर्भाग (लेखन असल्यास)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "    :param mode: फाइलचा वाचन/लेखन मोड ('r', 'w', 'a')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Hindi",
+            "text": "    :return: वाचलेले अंतर्भाग (वाचन मोडसाठी), किंवा None (लेखन मोडसाठी)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Hindi",
+            "text": "    # सुरक्षित निर्देशिका म्हणून वापरले जाणारे मार्ग"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "    # पूर्ण मार्ग तयार करा"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Hindi",
+            "text": "    # फाइल अस्तित्वात नसल्यास तयार करा"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Hindi",
+            "text": "    # अधिकार तपासा"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Hindi",
+            "text": "        raise PermissionError(f\"वाचन अधिकार नाही: {full_path}\")"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1216,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpeqb7zfv2.py\", line 25, in process_file\n    print(f\"N\\u1ed9i dung t\\u1ec7p:\\n{content}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ed9' in position 1: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpeqb7zfv2.py\", line 32, in <module>\n    process_file(file_path, default_content=\"Ch�o m\\u1eebng b\\u1ea1n \\u0111\\u1ebfn v\\u1edbi t\\u1ec7p an to�n!\")\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpeqb7zfv2.py\", line 28, in process_file\n    print(f\"L\\u1ed7i khi \\u0111\\u1ecdc t\\u1ec7p: {e}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ed7' in position 1: character maps to <undefined>",
+        "execution_time": 0.17748785018920898,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "French",
+            "text": "app.log"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Vietnamese",
+            "text": "Chào mừng bạn đến với tệp an toàn!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Tệp mới đã được tạo: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Vietnamese",
+            "text": "Tệp mới đã được tạo: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "Tệp đã được đọc: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Vietnamese",
+            "text": "Nội dung tệp:\n"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Lỗi khi tạo tệp: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": ", lỗi: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Lỗi khi tạo tệp: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Vietnamese",
+            "text": "Lỗi khi đọc tệp: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Vietnamese",
+            "text": ", lỗi: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "Lỗi khi đọc tệp: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Thiết lập logging"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem tệp có tồn tại không"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Vietnamese",
+            "text": "Sử dụng hàm"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 851,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 27: unterminated string literal (detected at line 27)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 27: unterminated string literal (detected at line 27)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "        try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "        except json.JSONDecodeError:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 663,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0838620662689209,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Turkish",
+            "text": "Dosya bulunamadı: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Turkish",
+            "text": "Güvenli dizin (örneğin, projenin kök dizini)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Dosya yolu güvenli dizin altında mı kontrol et"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "Dosya var mı kontrol et"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Dosyayı oku"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Turkish",
+            "text": "Kullanım örneği:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "try:"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (33%)           ✓ Yes (German:1 (str:1))                 - None              \nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:9 (cmt:5, doc:1, str:3))  - None              \nhi              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Hindi:12 (unk:12); Portuguese:1 (un... Syntax: Line 32: unterminated f-s\nes              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:3 (str:3); Portuguese:1 ... - None              \nar              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1))             - None              \nfr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:15 (cmt:7, str:8))         - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (Turkish:1 (str:1))                - None              \npt              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:10 (cmt:4, str:6); Spani... - None              \nru              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Russian:5 (cmt:3, str:2))         Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (50%)           ✓ Yes (Indonesian:5 (cmt:2, doc:1, str:2);... - None              \nur              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (0%)            ✓ Yes (German:11 (cmt:7, str:4))         - None              \nja              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nmr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Hindi:10 (unk:10); Portuguese:1 (un... Syntax: Line 27: '[' was never cl\nvi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Vietnamese:14 (cm... Runtime: Traceback (most recent ca\nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Portuguese:2 (unk:2); Vietnamese:1 ... Syntax: Line 27: unterminated str\nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (0%)            ✓ Yes (Turkish:6 (cmt:5, str:1); Vietnames... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:22.755347"
+}

@@ -1,0 +1,2158 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_58",
+  "summary": {
+    "total_languages": 18,
+    "successful": 7,
+    "syntax_errors": 5,
+    "runtime_errors": 6,
+    "success_rate": 38.88888888888889,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 1,
+      "average_similarity_score": 17.681209520553008
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 17,
+      "total_locations": 269
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1729,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07685279846191406,
+        "output": "Welcome to the login system!\nEnter your email: Enter your password: Invalid email or password."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.43478260869565216,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 43.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Portuguese",
+            "text": "Old email does not match."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Enter your email: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1851,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpckr1oq09.py\", line 49, in <module>\n    print(\"\\u767b\\u5f55\\u6210\\u529f\")\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.13530850410461426,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "注册新用户"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "登录用户"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "更改邮箱，需要登录，输入旧邮箱和密码确认"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 35",
+            "language": "Mandarin Chinese",
+            "text": "登出用户"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Mandarin Chinese",
+            "text": "邮箱已成功更改。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Mandarin Chinese",
+            "text": "登录成功"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 66",
+            "language": "Mandarin Chinese",
+            "text": "登录失败"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "用户未登录，无法更改邮箱。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "旧邮箱不正确。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Mandarin Chinese",
+            "text": "密码不正确。"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "存储用户名和密码及邮箱"
+          },
+          {
+            "category": "comment",
+            "location": "Line 40",
+            "language": "Mandarin Chinese",
+            "text": "示例使用"
+          },
+          {
+            "category": "comment",
+            "location": "Line 44",
+            "language": "Mandarin Chinese",
+            "text": "注册用户"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Mandarin Chinese",
+            "text": "登录"
+          },
+          {
+            "category": "comment",
+            "location": "Line 51",
+            "language": "Mandarin Chinese",
+            "text": "尝试更改邮箱"
+          },
+          {
+            "category": "comment",
+            "location": "Line 55",
+            "language": "Mandarin Chinese",
+            "text": "再次尝试更改邮箱（输入错误的旧邮箱）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 59",
+            "language": "Mandarin Chinese",
+            "text": "尝试更改邮箱（输入错误的密码）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 63",
+            "language": "Mandarin Chinese",
+            "text": "登出"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1672,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyyzu1ica.py\", line 56, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpyyzu1ica.py\", line 43, in main\n    choice = input(\"Choose an option: \")\nEOFError: EOF when reading a line",
+        "execution_time": 0.1323533058166504,
+        "output": "=== Simple Login System ===\n\n1. Login\n2. Exit\nChoose an option: Invalid choice. Please try again.\n\n1. Login\n2. Exit\nChoose an option: Invalid choice. Please try again.\n\n1. Login\n2. Exit\nChoose an option: Invalid choice. Please try again.\n\n1. Login\n2. Exit\nChoose an option: Invalid choice. Please try again.\n\n1. Login\n2. Exit\nChoose an option: Invalid choice. Please try again.\n\n1. Login\n2. Exit\nChoose an option: Invalid choice. Please try again.\n\n1. Login\n2. Exit\nChoose an option:"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Enter your email: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "French",
+            "text": "Current email: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 2077,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05375361442565918,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "correo"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "contrasena"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "usuario@example.com"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "contrasena123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "=== Sistema de Inicio de Sesión ==="
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Spanish",
+            "text": "\n=== Cambiar Correo Electrónico ==="
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Error: El correo y la contraseña no pueden estar vacíos."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": "Inicio de sesión exitoso."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "Error: Correo o contraseña incorrectos."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "Error: El correo actual y la contraseña no pueden estar vacíos."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Portuguese",
+            "text": "correo"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Spanish",
+            "text": "Error: El correo o la contraseña antiguos son incorrectos."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "Correo electrónico: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Contraseña: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "correo"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Spanish",
+            "text": "contrasena"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "Correo electrónico actual: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "Confirme su contraseña: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Portuguese",
+            "text": "correo"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Spanish",
+            "text": "contrasena"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Spanish",
+            "text": "Error: El correo electrónico no tiene un formato válido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Spanish",
+            "text": "Correo electrónico cambiado exitosamente a: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Spanish",
+            "text": "Nuevo correo electrónico: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Spanish",
+            "text": "Datos de ejemplo para el usuario"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Solicitar correo y contraseña"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Validar entrada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Verificar credenciales"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Spanish",
+            "text": "Solicitar correo antiguo y confirmación de contraseña"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Spanish",
+            "text": "Validar entrada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": "Verificar que el correo y contraseña antiguos sean correctos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "Validar formato de correo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Spanish",
+            "text": "Cambiar correo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 54",
+            "language": "Spanish",
+            "text": "Simple validación de formato de correo electrónico"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1886,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcghlj8tz.py\", line 28, in <module>\n    print(\"=== \\u0646\\u0638\\u0627\\u0645 \\u062a\\u0633\\u062c\\u064a\\u0644 \\u0627\\u0644\\u062f\\u062e\\u0648\\u0644 \\u0648\\u062a\\u0639\\u062f\\u064a\\u0644 \\u0627\\u0644\\u0628\\u0631\\u064a\\u062f \\u0627\\u0644\\u0625\\u0644\\u0643\\u062a\\u0631\\u0648\\u0646\\u064a ===\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 4-7: character maps to <undefined>",
+        "execution_time": 0.15153026580810547,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "الدالة لتسجيل الدخول"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "الدالة لتعديل البريد الإلكتروني"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "الدالة لعرض البريد الإلكتروني الحالي"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Standard Arabic",
+            "text": "=== نظام تسجيل الدخول وتعديل البريد الإلكتروني ==="
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard Arabic",
+            "text": "\nتسجيل الدخول:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Standard Arabic",
+            "text": "أدخل البريد الإلكتروني: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Standard Arabic",
+            "text": "أدخل كلمة المرور: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Standard Arabic",
+            "text": "تم تسجيل الدخول بنجاح!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Standard Arabic",
+            "text": "\nتعديل البريد الإلكتروني:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Standard Arabic",
+            "text": "أدخل البريد الإلكتروني القديم: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Standard Arabic",
+            "text": "أدخل كلمة المرور القديمة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Standard Arabic",
+            "text": "أدخل البريد الإلكتروني الجديد: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Standard Arabic",
+            "text": "فشل تسجيل الدخول. لا يمكن تغيير البريد الإلكتروني."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "تم التحقق بنجاح. جاري تحديث البريد الإلكتروني..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "البريد الإلكتروني أو كلمة المرور غير صحيحة. لا يمكن تغيير البريد الإلكتروني."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Standard Arabic",
+            "text": "البريد الإلكتروني الحالي هو: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "تم تغيير البريد الإلكتروني إلى: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Standard Arabic",
+            "text": "بيانات المستخدم (يمكن استبدالها بقاعدة بيانات حقيقية)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Standard Arabic",
+            "text": "مثال على الاستخدام"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Standard Arabic",
+            "text": "عرض البريد الإلكتروني الحالي"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Standard Arabic",
+            "text": "محاولة تسجيل الدخول"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "Standard Arabic",
+            "text": "محاولة تغيير البريد الإلكتروني"
+          },
+          {
+            "category": "comment",
+            "location": "Line 49",
+            "language": "Standard Arabic",
+            "text": "عرض البريد الإلكتروني بعد التحديث"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 2050,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 72: unterminated string literal (detected at line 72)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 72: unterminated string literal (detected at line 72)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "French",
+            "text": "# Chemin du fichier JSON pour stocker les utilisateurs"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "French",
+            "text": "    \"\"\"Charge les utilisateurs depuis le fichier JSON.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "French",
+            "text": "def save_users(users):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "French",
+            "text": "    \"\"\"Sauvegarde les utilisateurs dans le fichier JSON.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "French",
+            "text": "        json.dump(users, file, indent=4)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "French",
+            "text": "    \"\"\"Permet à un nouvel utilisateur de s'inscrire.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "    username = input(\"Entrez un nom d'utilisateur : \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "French",
+            "text": "    password = getpass.getpass(\"Entrez un mot de passe : \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "French",
+            "text": "    email = input(\"Entrez une adresse e-mail : \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "French",
+            "text": "        print(\"Erreur : Ce nom d'utilisateur existe déjà.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "        \"email\": email"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "French",
+            "text": "    print(\"Inscription réussie !\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "French",
+            "text": "    \"\"\"Permet à un utilisateur de se connecter.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "    username = input(\"Nom d'utilisateur : \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "French",
+            "text": "        print(\"Erreur : Nom d'utilisateur non trouvé.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 51",
+            "language": "French",
+            "text": "        print(\"Erreur : Mot de passe incorrect.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "French",
+            "text": "    print(\"Connexion réussie !\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "French",
+            "text": "    \"\"\"Permet à un utilisateur connecté de changer son e-mail.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 60",
+            "language": "French",
+            "text": "    old_email = input(\"Entrez votre ancienne adresse e-mail : \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 61",
+            "language": "French",
+            "text": "    confirm_password = getpass.getpass(\"Confirmez votre mot de passe : \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 63",
+            "language": "French",
+            "text": "    # Vérification de l'ancien e-mail et du mot de passe"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 65",
+            "language": "French",
+            "text": "        print(\"Erreur : L'ancien e-mail est incorrect.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 69",
+            "language": "French",
+            "text": "        print(\"Erreur : Le mot de passe est incorrect.\")"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 714,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.053873538970947266,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Bengali",
+            "text": "ইমেল লিখুন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 3",
+            "language": "Bengali",
+            "text": "পাসওয়ার্ড লিখুন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Bengali",
+            "text": "আপনার পুরানো ইমেল লিখুন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Bengali",
+            "text": "আপনার পাসওয়ার্ড নিশ্চিত করুন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Bengali",
+            "text": "নতুন ইমেল লিখুন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "লগইন সফল!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "ভুল ইমেল বা পাসওয়ার্ড।"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "পুরানো ইমেল মিলছে না। ইমেল পরিবর্তন হয়নি।"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Hindi",
+            "text": "পাসওয়ার্ড ভুল। ইমেল পরিবর্তন হয়নি।"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Bengali",
+            "text": "নতুন ইমেল আগে থেকে"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1674,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 55: unterminated string literal (detected at line 55)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 55: unterminated string literal (detected at line 55)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "# Nome do arquivo JSON para armazenar os dados"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "ARQUIVO_USUARIOS = \"usuarios.json\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "# Função para carregar os usuários do arquivo JSON"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "def carregar_usuarios():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "# Função para salvar os usuários no arquivo JSON"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "# Função para validar e-mail"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "# Função para cadastro de novo usuário"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "def cadastro():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "    print(\"\\n--- Cadastro de Usuário ---\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "French",
+            "text": "    email = input(\"Digite seu e-mail: \").strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Portuguese",
+            "text": "        print(\"E-mail inválido!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "        print(\"Este e-mail já está cadastrado!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Portuguese",
+            "text": "    senha = input(\"Digite sua senha: \").strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Portuguese",
+            "text": "        print(\"Senha inválida!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Portuguese",
+            "text": "    usuarios[email] = {\"senha\": senha}"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Portuguese",
+            "text": "    print(\"Usuário cadastrado com sucesso!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "Portuguese",
+            "text": "# Função para login"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "French",
+            "text": "    email = input(\"Digite seu e-mail: \").strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "    senha = input(\"Digite sua senha: \").strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Portuguese",
+            "text": "    if email in usuarios and usuarios[email][\"senha\"] == senha:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Portuguese",
+            "text": "        print(\"Login realizado com sucesso!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Portuguese",
+            "text": "        return email  # Retorna o e-mail do usuário logado"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Portuguese",
+            "text": "        print(\"E-mail ou senha incorretos!\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 53",
+            "language": "Portuguese",
+            "text": "# Função para alterar e-mail"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "Portuguese",
+            "text": "def alterar_email(email_logado):"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1239,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpad22zh2u.py\", line 38, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpad22zh2u.py\", line 6, in main\n    print(\"=== \\u0421\\u0438\\u0441\\u0442\\u0435\\u043c\\u0430 \\u0432\\u0445\\u043e\\u0434\\u0430 \\u0432 \\u0441\\u0438\\u0441\\u0442\\u0435\\u043c\\u0443 ===\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 4-10: character maps to <undefined>",
+        "execution_time": 0.13350129127502441,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2571428571428571,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "=== Система входа в систему ==="
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Введите адрес электронной почты: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "Введите пароль: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "Вход выполнен успешно!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "Введите ваш старый адрес электронной почты: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Russian",
+            "text": "Подтвердите пароль: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Russian",
+            "text": "Введите новый адрес электронной почты: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Russian",
+            "text": "Адрес электронной почты успешно изменен на:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": "Ошибка: Неверный адрес электронной почты или пароль."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "Ошибка: Неверный старый адрес электронной почты."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Russian",
+            "text": "Ошибка: Неверный пароль."
+          },
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "Предварительно заданные данные пользователя"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "Шаг 1: Вход в систему"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Шаг 2: Ввод старого адреса электронной почты и подтверждение пароля"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Russian",
+            "text": "Шаг 3: Изменение адреса электронной почты"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Russian",
+            "text": "Обновляем адрес электронной почты"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1284,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0566103458404541,
+        "output": "Masukkan username: Masukkan kata sandi: Masukkan email lama: Masukkan email baru: Login gagal. Email atau kata sandi salah."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Fungsi untuk memvalidasi login pengguna."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Fungsi untuk mengubah email pengguna jika login dan data valid."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Login gagal. Email atau kata sandi salah."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Email lama tidak sesuai."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Email berhasil diubah menjadi "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Indonesian",
+            "text": "Masukkan username: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Indonesian",
+            "text": "Masukkan kata sandi: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Indonesian",
+            "text": "Masukkan email lama: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Indonesian",
+            "text": "Masukkan email baru: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Ubah email"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Contoh penggunaan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Indonesian",
+            "text": "Data pengguna (username: {email, password})"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Indonesian",
+            "text": "Simulasi login dan perubahan email"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 2334,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 79: unterminated string literal (detected at line 79)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 79: unterminated string literal (detected at line 79)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "# Database setup"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "def setup_database():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "# Register a new user"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "French",
+            "text": "    email = input(\"Enter your email: \").strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "        conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "French",
+            "text": "    email = input(\"Enter your email: \").strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "French",
+            "text": "        return email"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 51",
+            "language": "French",
+            "text": "# Change email"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 62",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 66",
+            "language": "French",
+            "text": "        conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 71",
+            "language": "Spanish",
+            "text": "            conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 76",
+            "language": "Spanish",
+            "text": "        conn.close()"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1888,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05314803123474121,
+        "output": "Willkommen zum Anmeldesystem!\nE-Mail-Adresse: Passwort: Falsche E-Mail-Adresse oder Passwort.\nAnmeldung fehlgeschlagen. Sie k�nnen Ihre E-Mail-Adresse nicht �ndern."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.631578947368421,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 63.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Ermöglicht dem Benutzer sich anzumelden."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Ermöglicht dem Benutzer, seine E-Mail-Adresse zu ändern."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 41",
+            "language": "Standard German",
+            "text": "Hauptfunktion des Programms."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "French",
+            "text": "E-Mail-Adresse: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "Sie sind angemeldet. Sie können nun Ihre E-Mail-Adresse ändern."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "Geben Sie Ihre alte E-Mail-Adresse ein: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "Geben Sie Ihr Passwort ein: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Standard German",
+            "text": "Willkommen zum Anmeldesystem!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Anmeldung erfolgreich!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "Falsche E-Mail-Adresse oder Passwort."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Standard German",
+            "text": "Geben Sie Ihre neue E-Mail-Adresse ein: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Standard German",
+            "text": "Falsche alte E-Mail-Adresse oder falsches Passwort. Änderung abgebrochen."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Standard German",
+            "text": "Anmeldung fehlgeschlagen. Sie können Ihre E-Mail-Adresse nicht ändern."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Standard German",
+            "text": "Diese E-Mail-Adresse ist bereits vergeben."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Standard German",
+            "text": "E-Mail-Adresse erfolgreich geändert!"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Einfaches Anmeldesystem mit E-Mail-Änderung"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard German",
+            "text": "Simuliert eine Datenbank für Benutzer (in der Praxis würde man eine echte Datenbank verwenden)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "Überprüfen, ob die alte E-Mail-Adresse und das Passwort korrekt sind"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Standard German",
+            "text": "Überprüfen, ob die neue E-Mail-Adresse bereits existiert"
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "Ändern der E-Mail-Adresse"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Standard German",
+            "text": "Anmeldung"
+          },
+          {
+            "category": "comment",
+            "location": "Line 49",
+            "language": "Standard German",
+            "text": "E-Mail-Änderung"
+          },
+          {
+            "category": "comment",
+            "location": "Line 54",
+            "language": "Standard German",
+            "text": "Start des Programms"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1495,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 55: unterminated string literal (detected at line 55)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 55: unterminated string literal (detected at line 55)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "        # ユーザーのログイン情報（仮のデータ）"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "        \"\"\"ユーザーのログインを検証する\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "        \"\"\"古いメールとパスワードを確認して、新しいメールに変更する\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "        # まずログインを確認"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "            print(\"エラー: 古い電子メールまたはパスワードが正しくありません。\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "        # メールアドレスを変更"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "            # ユーザーが存在する場合、メールを更新"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "            print(f\"電子メールが {old_email} から {new_email} に変更されました。\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Mandarin Chinese",
+            "text": "            print(\"エラー: 古い電子メールが見つかりません。\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Mandarin Chinese",
+            "text": "        \"\"\"現在のメールアドレスを表示する（ログイン後に使用）\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Mandarin Chinese",
+            "text": "            print(f\"現在の電子メール: {email}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "Mandarin Chinese",
+            "text": "            print(\"エラー: ログイン情報が正しくありません。\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Mandarin Chinese",
+            "text": "# システムの使用例"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Mandarin Chinese",
+            "text": "    print(\"=== 電子メール変更システム ===\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Japanese",
+            "text": "    print(\"ログインしてください。\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Japanese",
+            "text": "    # ログイン"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Mandarin Chinese",
+            "text": "    email = input(\"電子メール: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Japanese",
+            "text": "    password = input(\"パスワード: \")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Mandarin Chinese",
+            "text": "        print(\"ログイン成功！\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 53",
+            "language": "Mandarin Chinese",
+            "text": "        # 電子メール変更"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "Mandarin Chinese",
+            "text": "        print(\"\\n電子メールを変更します。\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "Mandarin Chinese",
+            "text": "        old_email = input(\"古い"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1539,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11874246597290039,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Standard German",
+            "text": "\n1. Register"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1630,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpi6v908yv.py\", line 61, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpi6v908yv.py\", line 55, in main\n    print(\"=== H\\u1ec7 th\\u1ed1ng \\u0111\\u0103ng nh\\u1eadp v� thay \\u0111\\u1ed5i email ===\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ec7' in position 5: character maps to <undefined>",
+        "execution_time": 0.13915586471557617,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "Nhập tên người dùng: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Vietnamese",
+            "text": "Nhập mật khẩu: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Vietnamese",
+            "text": "Nhập email cũ: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Vietnamese",
+            "text": "Xác nhận mật khẩu: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Vietnamese",
+            "text": "Nhập email mới: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Vietnamese",
+            "text": "Email đã được cập nhật thành công!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 55",
+            "language": "Vietnamese",
+            "text": "=== Hệ thống đăng nhập và thay đổi email ==="
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Vietnamese",
+            "text": "Đăng nhập thành công!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "Tên người dùng hoặc mật khẩu sai!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Vietnamese",
+            "text": "Email cũ không đúng!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Vietnamese",
+            "text": "Mật khẩu xác nhận không đúng!"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Đường dẫn đến file JSON lưu trữ thông tin người dùng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "Hàm đọc dữ liệu người dùng từ file JSON"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Hàm ghi dữ liệu người dùng vào file JSON"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Hàm đăng nhập người dùng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Vietnamese",
+            "text": "Hàm thay đổi email"
+          },
+          {
+            "category": "comment",
+            "location": "Line 39",
+            "language": "Vietnamese",
+            "text": "Kiểm tra email cũ và mật khẩu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 53",
+            "language": "Vietnamese",
+            "text": "Hàm chính"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 526,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 11: expected an indented block after 'if' statement on line 11"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 11: expected an indented block after 'if' statement on line 11",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 712,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.052474021911621094,
+        "output": "Aminu ya canza imel."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3448275862068966,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 34.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Daga tsohon imel da kalmar sirri, yana canza imel ɗin su idan kuskuren tsohon imel da kalmar sirri.\n..."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1316,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp7shyebr9.py\", line 44, in <module>\n    print(message)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u015f' in position 10: character maps to <undefined>",
+        "execution_time": 0.1720132827758789,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.11428571428571428,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Turkish",
+            "text": "E-posta başarıyla değiştirildi."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Turkish",
+            "text": "Kullanıcı oturum açmamış."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Turkish",
+            "text": "Eski e-posta adresi hatalı."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Turkish",
+            "text": "Şifre hatalı."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Turkish",
+            "text": "Bu e-posta adresi zaten kullanılıyor."
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Turkish",
+            "text": "Kullanım örneği"
+          },
+          {
+            "category": "comment",
+            "location": "Line 39",
+            "language": "Turkish",
+            "text": "Oturum aç"
+          },
+          {
+            "category": "comment",
+            "location": "Line 42",
+            "language": "Turkish",
+            "text": "E-posta değiştir"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (43%)           ✓ Yes (French:1 (str:1); Portuguese:1 (str... - None              \nzh-CN           ✗ Runtime Error ✗ No (0%)            ✓ Yes (Chinese:18 (cmt:8, doc:4, str:6); P... Runtime: Traceback (most recent ca\nhi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:2 (str:2))                 Runtime: Traceback (most recent ca\nes              ✓ Yes           ✗ No (50%)           ✓ Yes (Portuguese:6 (cmt:1, str:5); Spanis... - None              \nar              ✗ Runtime Error ✗ No (25%)           ✓ Yes (Arabic:23 (cmt:6, doc:3, str:14)) Runtime: Traceback (most recent ca\nfr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:22 (unk:22); Portuguese:1 (u... Syntax: Line 72: unterminated str\nbn              ✓ Yes           ✗ No (25%)           ✓ Yes (Bengali:7 (cmt:1, str:6); Hindi:3 (... - None              \npt              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:2 (unk:2); Portuguese:23 (un... Syntax: Line 55: unterminated str\nru              ✗ Runtime Error ✗ No (26%)           ✓ Yes (Russian:16 (cmt:5, str:11))       Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (40%)           ✓ Yes (Indonesian:13 (cmt:4, doc:2, str:7)... - None              \nur              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:10 (unk:10); Indonesian:2 (u... Syntax: Line 79: unterminated str\nde              ✓ Yes           ✓ Yes (63%)          ✓ Yes (French:1 (str:1); German:22 (cmt:8,... - None              \nja              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Japanese:3 (unk:3); Chinese:19 (unk... Syntax: Line 55: unterminated str\nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nvi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:2 (str:2); Vietnamese:18... Runtime: Traceback (most recent ca\nte              ✗ Syntax Error  ✗ No (0%)            ✗ No                                     Syntax: Line 11: expected an inde\nha              ✓ Yes           ✗ No (34%)           ✓ Yes (Indonesian:1 (doc:1))             - None              \ntr              ✗ Runtime Error ✗ No (11%)           ✓ Yes (Turkish:8 (cmt:3, str:5))         Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:12:58.813941"
+}

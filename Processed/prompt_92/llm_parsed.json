@@ -1,0 +1,1145 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\en.py",
+      "elements": {
+        "identifiers": [
+          "encode",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "Enter username: ",
+          "Enter password: "
+        ],
+        "variables": [
+          "encode",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Dictionary to store username and hashed password",
+          "Get username and password from user",
+          "Hash the password using SHA-256",
+          "Store in dictionary",
+          "Print the dictionary"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n    CREATE TABLE IF NOT EXISTS users (\r\n        id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n        username TEXT UNIQUE NOT NULL,\r\n        password_hash TEXT NOT NULL\r\n    )\r\n",
+          "请输入用户名: ",
+          "请输入密码: ",
+          "utf-8",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+          "注册成功！",
+          "用户名已存在！"
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "连接到 SQLite 数据库（如果不存在则创建）",
+          "创建用户表",
+          "提示用户输入用户名和密码",
+          "对密码进行哈希处理（使用 SHA-256）",
+          "将用户名和哈希后的密码插入数据库",
+          "关闭数据库连接"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\hi.py",
+      "elements": {
+        "identifiers": [
+          "encode",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "username"
+        ],
+        "literals": [
+          "Enter your username: ",
+          "Enter your password: ",
+          "f\"Registration successful!",
+          "f\"Username: {username}",
+          "f\"Password hash: {password_hash}"
+        ],
+        "variables": [
+          "encode",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "username"
+        ],
+        "comments": [
+          "Hash the password using SHA-256",
+          "Run the registration form"
+        ],
+        "docstrings": [],
+        "functions": [
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\es.py",
+      "elements": {
+        "identifiers": [
+          "Error",
+          "No",
+          "PermissionError",
+          "add",
+          "archivo_usuarios",
+          "codificar_contraseña",
+          "contraseña",
+          "contraseña_codificada",
+          "encode",
+          "encoding",
+          "escribir",
+          "exists",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "linea",
+          "nombre_usuario",
+          "open",
+          "os",
+          "para",
+          "partes",
+          "path",
+          "permiso",
+          "registrar_usuario",
+          "se",
+          "sha256",
+          "split",
+          "strip",
+          "tiene",
+          "usuarios_existentes",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "Ingrese el nombre de usuario: ",
+          "Ingrese la contraseña: ",
+          "Error: El nombre de usuario y la contraseña no pueden estar vacíos.",
+          "usuarios.txt",
+          "w",
+          "utf-8",
+          "r",
+          "utf-8",
+          ":",
+          "1",
+          "2",
+          "0",
+          "Error: El nombre de usuario ya existe.",
+          "a",
+          "utf-8",
+          "f\"{nombre_usuario}:{contraseña_codificada}\\n",
+          "Registro exitoso. Usuario creado con éxito."
+        ],
+        "variables": [
+          "Error",
+          "No",
+          "PermissionError",
+          "add",
+          "archivo_usuarios",
+          "contraseña",
+          "contraseña_codificada",
+          "encode",
+          "encoding",
+          "escribir",
+          "exists",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "linea",
+          "nombre_usuario",
+          "os",
+          "para",
+          "partes",
+          "path",
+          "permiso",
+          "se",
+          "sha256",
+          "split",
+          "strip",
+          "tiene",
+          "usuarios_existentes",
+          "write"
+        ],
+        "comments": [
+          "Validación de entrada",
+          "Ruta del archivo de usuarios",
+          "Verificar si el archivo existe",
+          "Crear el archivo si no existe",
+          "Solo crear el archivo vacío",
+          "Leer usuarios existentes",
+          "Verificar si el nombre de usuario ya existe",
+          "Codificar la contraseña",
+          "Guardar el nuevo usuario"
+        ],
+        "docstrings": [
+          "Codifica la contraseña usando SHA-256.",
+          "Formulario de registro de usuario con validación y manejo de errores."
+        ],
+        "functions": [
+          "codificar_contraseña",
+          "registrar_usuario"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\ar.py",
+      "elements": {
+        "identifiers": [
+          "analyze_text",
+          "char_count",
+          "count",
+          "hash",
+          "hash_password",
+          "hashed_password",
+          "lower",
+          "main",
+          "password",
+          "sentence_count",
+          "split",
+          "text",
+          "user_input",
+          "username",
+          "word_count"
+        ],
+        "literals": [
+          ".",
+          "!",
+          "?",
+          "مرحباً بكم في نموذج التسجيل والتحليل",
+          "أدخل اسم المستخدم: ",
+          "أدخل كلمة المرور: ",
+          "تم تسجيل الدخول بنجاح!",
+          "أدخل نصاً للتحليل (أو اكتب 'exit' لإنهاء البرنامج): ",
+          "exit",
+          "تم إنهاء البرنامج.",
+          "f\"عدد الحروف: {char_count}",
+          "f\"عدد الكلمات: {word_count}",
+          "f\"عدد الجمل: {sentence_count}",
+          "__main__"
+        ],
+        "variables": [
+          "char_count",
+          "count",
+          "hashed_password",
+          "lower",
+          "password",
+          "sentence_count",
+          "split",
+          "text",
+          "user_input",
+          "username",
+          "word_count"
+        ],
+        "comments": [
+          "عدد الحروف",
+          "عدد الكلمات",
+          "عدد الجمل (بافتراض أن الجمل تنتهي بـ . أو ! أو ?)",
+          "تجزئة بسيطة باستخدام دالة hash",
+          "تسجيل الدخول",
+          "تجزئة كلمة المرور",
+          "تحليل النصوص",
+          "تحليل النص",
+          "عرض النتائج"
+        ],
+        "docstrings": [],
+        "functions": [
+          "analyze_text",
+          "hash_password",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\fr.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "JSONDecodeError",
+          "append",
+          "dump",
+          "encode",
+          "file",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "indent",
+          "json",
+          "load",
+          "open",
+          "password",
+          "register_user",
+          "sha256",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "Entrez votre nom d'utilisateur : ",
+          "Entrez votre mot de passe : ",
+          "users.json",
+          "r",
+          "username",
+          "password",
+          "users.json",
+          "w",
+          "4",
+          "Inscription réussie !",
+          "__main__"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "JSONDecodeError",
+          "append",
+          "dump",
+          "encode",
+          "file",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "indent",
+          "json",
+          "load",
+          "password",
+          "sha256",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Hacher le mot de passe",
+          "Charger les utilisateurs existants",
+          "Ajouter le nouvel utilisateur",
+          "Sauvegarder dans le fichier JSON",
+          "Exécuter le formulaire d'inscription"
+        ],
+        "docstrings": [
+          "Hache le mot de passe en utilisant SHA-256.",
+          "Demande le nom d'utilisateur et le mot de passe, hache le mot de passe et le sauvegarde dans un fichier JSON."
+        ],
+        "functions": [
+          "hash_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\bn.py",
+      "elements": {
+        "identifiers": [
+          "encode",
+          "getpass",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "name",
+          "password",
+          "register_user",
+          "sha256"
+        ],
+        "literals": [
+          "নিবন্ধন ফর্ম",
+          "আপনার নাম লিখুন: ",
+          "পাসওয়ার্ড লিখুন: "
+        ],
+        "variables": [
+          "encode",
+          "getpass",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "name",
+          "password",
+          "sha256"
+        ],
+        "comments": [
+          "পাসওয়ার্ড হ্যাশ করা",
+          "তথ্য ফাই"
+        ],
+        "docstrings": [
+          "পাসওয়ার্ড হ্যাশ করে",
+          "ব্যবহারকারী নিবন্ধন করে এবং হ্যাশ করা পাসওয়ার্ড ফাইলে সংরক্ষণ করে"
+        ],
+        "functions": [
+          "hash_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\pt.py",
+      "elements": {
+        "identifiers": [
+          "encode",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "username"
+        ],
+        "literals": [
+          "utf-8",
+          "Digite o nome de usuário: ",
+          "Digite a senha: ",
+          "f\"Nome de usuário: {username}",
+          "f\"Hash da senha: {hashed_password}"
+        ],
+        "variables": [
+          "encode",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "sha256",
+          "username"
+        ],
+        "comments": [
+          "Cria um hash SHA-256 da senha",
+          "Solicita o nome de usuário e a senha",
+          "Gera o hash da senha",
+          "Imprime o nome de usuário e o hash da senha"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\ru.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "_",
+          "encode",
+          "file",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "line",
+          "open",
+          "password",
+          "register_user",
+          "sha256",
+          "split",
+          "stored_username",
+          "strip",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "users.txt",
+          "r",
+          ":",
+          "f\"Пользователь с именем '{username}' уже существует.",
+          "users.txt",
+          "a",
+          "f\"{username}:{hashed_password}\\n",
+          "f\"Пользователь '{username}' успешно зарегистрирован.",
+          "__main__",
+          "Введите имя пользователя: ",
+          "Введите пароль: "
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "_",
+          "encode",
+          "file",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "line",
+          "password",
+          "sha256",
+          "split",
+          "stored_username",
+          "strip",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Проверяем, существует ли пользователь",
+          "Если файл не существует, просто продолжаем",
+          "Хэшируем пароль",
+          "Сохраняем в файл",
+          "Пример использования"
+        ],
+        "docstrings": [
+          "Хэширует пароль с использованием SHA-256.",
+          "Регистрирует пользователя, проверяя наличие имени пользователя."
+        ],
+        "functions": [
+          "hash_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\id.py",
+      "elements": {
+        "identifiers": [
+          "encode",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "username"
+        ],
+        "literals": [
+          "Masukkan nama pengguna: ",
+          "Masukkan kata sandi: ",
+          "f\"Hasil hash dari kata sandi: {password_hash}"
+        ],
+        "variables": [
+          "encode",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "username"
+        ],
+        "comments": [
+          "Menerima input dari pengguna",
+          "Meng-hash kata sandi menggunakan SHA-256",
+          "Menampilkan hasil hash ke layar"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\ur.py",
+      "elements": {
+        "identifiers": [
+          "encode",
+          "file",
+          "getpass",
+          "hashlib",
+          "hexdigest",
+          "open",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "=== رجسٹریشن فارم ===",
+          "صارف نام درج کریں: ",
+          "پاس ورڈ درج کریں: ",
+          "utf-8",
+          "users.txt",
+          "a",
+          "f\"{username}:{password_hash}\\n",
+          "صارف کامیابی سے رجسٹرڈ ہوا ہے!",
+          "__main__"
+        ],
+        "variables": [
+          "encode",
+          "file",
+          "getpass",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "پاس ورڈ کو ہیش کریں (SHA-256 کے ساتھ)",
+          "ہیش شدہ پاس ورڈ کو فائل میں محفوظ کریں"
+        ],
+        "docstrings": [],
+        "functions": [
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\de.py",
+      "elements": {
+        "identifiers": [
+          "USER_FILE",
+          "_",
+          "encode",
+          "exists",
+          "file",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "line",
+          "login_user",
+          "open",
+          "os",
+          "password",
+          "path",
+          "register_user",
+          "sha256",
+          "split",
+          "stored_hashed_password",
+          "stored_username",
+          "strip",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "users.txt",
+          "r",
+          ":",
+          "1",
+          "Benutzername existiert bereits.",
+          "w",
+          "a",
+          "f\"{username}:{hash_password(password)}\\n",
+          "Benutzer erfolgreich registriert.",
+          "Keine Benutzerdaten vorhanden.",
+          "r",
+          ":",
+          "1",
+          "Anmeldung erfolgreich.",
+          "Falsches Passwort.",
+          "Benutzername nicht gefunden.",
+          "__main__",
+          "max123",
+          "geheimespasswort",
+          "max123",
+          "geheimespasswort",
+          "max123",
+          "falschpasswort"
+        ],
+        "variables": [
+          "USER_FILE",
+          "_",
+          "encode",
+          "exists",
+          "file",
+          "hashlib",
+          "hexdigest",
+          "line",
+          "os",
+          "password",
+          "path",
+          "sha256",
+          "split",
+          "stored_hashed_password",
+          "stored_username",
+          "strip",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Dateiname für die Benutzerdaten",
+          "Erstelle die Datei, falls sie nicht existiert",
+          "Speichere Benutzername und gehashtes Passwort",
+          "Beispielverwendung:",
+          "Registrierung",
+          "Anmeldung"
+        ],
+        "docstrings": [
+          "Hashes the given password using SHA-256.",
+          "Registers a new user by saving username and hashed password to file.",
+          "Checks if the provided username and password match the stored credentials."
+        ],
+        "functions": [
+          "hash_password",
+          "login_user",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\ja.py",
+      "elements": {
+        "identifiers": [
+          "bcrypt",
+          "decode",
+          "dump",
+          "encode",
+          "exists",
+          "file",
+          "gensalt",
+          "hashpw",
+          "indent",
+          "json",
+          "load",
+          "open",
+          "os",
+          "password",
+          "password_hash",
+          "path",
+          "register_user",
+          "username",
+          "users",
+          "users_file"
+        ],
+        "literals": [
+          "users.json",
+          "r",
+          "f\"エラー: ユーザー名 '{username}' は既に存在します。",
+          "utf-8",
+          "utf-8",
+          "w",
+          "4",
+          "f\"ユーザー '{username}' の登録が完了しました。",
+          "__main__",
+          "ユーザー名を入力してください: ",
+          "パスワードを入力してください: "
+        ],
+        "variables": [
+          "bcrypt",
+          "decode",
+          "dump",
+          "encode",
+          "exists",
+          "file",
+          "gensalt",
+          "hashpw",
+          "indent",
+          "json",
+          "load",
+          "os",
+          "password",
+          "password_hash",
+          "path",
+          "username",
+          "users",
+          "users_file"
+        ],
+        "comments": [
+          "ユーザー名の重複チェック",
+          "パスワードをハッシュ",
+          "ユーザー情報を追加",
+          "JSONファイルに保存",
+          "ユーザーからの入力"
+        ],
+        "docstrings": [],
+        "functions": [
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\mr.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "create_table",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hash_password",
+          "hashlib",
+          "hexdigest",
+          "main",
+          "password",
+          "password_hash",
+          "register_user",
+          "sha256",
+          "sqlite3",
+          "username",
+          "नोंदणी",
+          "फॉर्"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS users (\r\n            username TEXT UNIQUE,\r\n            password_hash TEXT\r\n        )\r\n    ",
+          "users.db",
+          "SELECT username FROM users WHERE username = ?",
+          "INSERT INTO users (username, password_hash) VALUES (?, ?)"
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "encode",
+          "execute",
+          "fetchone",
+          "hashlib",
+          "hexdigest",
+          "password",
+          "password_hash",
+          "sha256",
+          "sqlite3",
+          "username",
+          "नोंदणी",
+          "फॉर्"
+        ],
+        "comments": [
+          "Function to create the users table if it doesn't exist",
+          "Function to hash the password",
+          "Function to register a new user",
+          "Check if username already exists",
+          "User already exists",
+          "Hash the password and insert the new user",
+          "Registration successful",
+          "Main registration form"
+        ],
+        "docstrings": [],
+        "functions": [
+          "create_table",
+          "hash_password",
+          "main",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\vi.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "dump",
+          "encode",
+          "file",
+          "filename",
+          "hash_password",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "indent",
+          "json",
+          "load",
+          "open",
+          "password",
+          "register_user",
+          "sha256",
+          "strip",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "users.json",
+          "r",
+          "Nhập tên người dùng: ",
+          "Tên người dùng đã tồn tại. Vui lòng nhập lại.",
+          "Nhập mật khẩu: ",
+          "w",
+          "4",
+          "Đăng ký thành công!"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "dump",
+          "encode",
+          "file",
+          "filename",
+          "hashed_password",
+          "hashlib",
+          "hexdigest",
+          "indent",
+          "json",
+          "load",
+          "password",
+          "sha256",
+          "strip",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Đọc dữ liệu từ tệp JSON nếu tồn tại",
+          "Yêu cầu người dùng nhập tên người dùng",
+          "Yêu cầu người dùng nhập mật khẩu",
+          "Lưu tên người dùng và mật khẩu đã băm vào tệp JSON",
+          "Chạy chương trình"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hash_password",
+          "register_user"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\te.py",
+      "elements": {
+        "identifiers": [
+          "USERS_FILE",
+          "dump",
+          "exists",
+          "file",
+          "hashlib",
+          "indent",
+          "json",
+          "load",
+          "load_users",
+          "open",
+          "os",
+          "path",
+          "save_users",
+          "users"
+        ],
+        "literals": [
+          "users.json",
+          "r",
+          "w",
+          "4"
+        ],
+        "variables": [
+          "USERS_FILE",
+          "dump",
+          "exists",
+          "file",
+          "hashlib",
+          "indent",
+          "json",
+          "load",
+          "os",
+          "path",
+          "users"
+        ],
+        "comments": [
+          "File to store user data"
+        ],
+        "docstrings": [
+          "Load existing users from file.",
+          "Save users to file."
+        ],
+        "functions": [
+          "load_users",
+          "save_users"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\ha.py",
+      "elements": {
+        "identifiers": [
+          "char",
+          "consonant_count",
+          "consonants",
+          "count_vowels_consonants",
+          "isalpha",
+          "text",
+          "user_input",
+          "vowel_count",
+          "vowels"
+        ],
+        "literals": [
+          "aeiouAEIOU",
+          "0",
+          "0",
+          "1",
+          "1",
+          "__main__",
+          "Enter a string: ",
+          "f\"Number of vowels: {vowels}",
+          "f\"Number of consonants: {consonants}"
+        ],
+        "variables": [
+          "char",
+          "consonant_count",
+          "consonants",
+          "isalpha",
+          "text",
+          "user_input",
+          "vowel_count",
+          "vowels"
+        ],
+        "comments": [
+          "Example of a Python program that reads a string input from the user,",
+          "processes it to count vowels and consonants, and displays the results.",
+          "Function to count vowels and consonants in a string",
+          "Check if the character is a letter",
+          "Main program",
+          "Get input from the user",
+          "Count vowels and consonants",
+          "Display the results"
+        ],
+        "docstrings": [],
+        "functions": [
+          "count_vowels_consonants"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_yew2lov3\\tr.py",
+      "elements": {
+        "identifiers": [
+          "_",
+          "ascii_letters",
+          "characters",
+          "choice",
+          "correct_password",
+          "correct_username",
+          "digits",
+          "generate_random_password",
+          "join",
+          "length",
+          "main",
+          "password",
+          "punctuation",
+          "random",
+          "randomized_password",
+          "username"
+        ],
+        "literals": [
+          "8",
+          "admin",
+          "password123",
+          "Kullanıcı adını girin: ",
+          "Şifreyi girin: ",
+          "Giriş Başarılı",
+          "Kullanıcı adı veya şifre yanlış",
+          "__main__"
+        ],
+        "variables": [
+          "_",
+          "ascii_letters",
+          "characters",
+          "choice",
+          "correct_password",
+          "correct_username",
+          "digits",
+          "join",
+          "length",
+          "password",
+          "punctuation",
+          "random",
+          "randomized_password",
+          "username"
+        ],
+        "comments": [
+          "Sabit kullanıcı adı ve şifre (örnek olarak)",
+          "Kullanıcıdan giriş al",
+          "Şifreyi karma haline getir",
+          "Kullanıcı adı ve şifre kontrolü"
+        ],
+        "docstrings": [],
+        "functions": [
+          "generate_random_password",
+          "main"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_32",
+  "summary": {
+    "total_languages": 18,
+    "successful": 16,
+    "syntax_errors": 1,
+    "runtime_errors": 0,
+    "success_rate": 88.88888888888889,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 48.73630801793676
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 15,
+      "total_locations": 50
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 418,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11806654930114746,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 400,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13457775115966797,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "检查 URL 是否来自 example.com"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 460,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14026975631713867,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.18181818181818182,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 18.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": ".com"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1411,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13736414909362793,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Valida si la URL es válida usando una expresión regular."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "Redirige a la URL si es de example.com, de lo contrario devuelve error."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Spanish",
+            "text": "Error: La URL no pertenece al dominio example.com"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Expresión regular para validar URLs"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "Validar que la URL sea válida"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Spanish",
+            "text": "Redirigir si es válida y del dominio correcto"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 378,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11661195755004883,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23684210526315788,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "التحقق مما إذا كان العنوان URL يحتوي على \"example.com\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 517,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13948702812194824,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Erreur : L'URL n'est pas autorisée. Seules les URLs provenant de example.com sont acceptées."
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Vérifie si l'URL commence par http://example.com ou https://example.com"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 565,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14181876182556152,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5555555555555556,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 55.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Bengali",
+            "text": "প্যাটার্ন যাচাই করে যে আইডিএলটি হল একটি বৈধ URL এবং এটি উদাহরণ. com এর সাথে শেষ হয়"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 484,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14166831970214844,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Erro: A URL não é válida ou não pertence ao domínio example.com."
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "Verifica se a URL começa com 'http://example.com' ou 'https://example.com'"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 388,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13910126686096191,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.22580645161290322,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "Ошибка: URL-адрес не является примером.ком"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Проверяем, является ли URL-адрес примером.ком"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 428,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14320063591003418,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2777777777777778,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Error: URL tidak berasal dari contoh.com"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Memeriksa apakah URL berasal dari contoh.com"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 423,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13843417167663574,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09375,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": ".com"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1728,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1674644947052002,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.39473684210526316,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 39.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Standard German",
+            "text": "Fehler: Ungültige URL-Struktur."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Beispiel-URL für die Weiterleitung"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "HTML-Seite mit Start- und Stop-Button"
+          },
+          {
+            "category": "comment",
+            "location": "Line 48",
+            "language": "Standard German",
+            "text": "Regex zur Überprüfung der URL-Struktur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 53",
+            "language": "Standard German",
+            "text": "Prüfen, ob die URL aus dem Beispiel stam"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 762,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1404578685760498,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23529411764705882,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Mandarin Chinese",
+            "text": "エラー: 有効な URL ではありません。"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "サンプルの有効な URL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "URL が None または空の場合は無効"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "URL が http:// または https:// で始まっていない場合"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "URL が有効なリストに存在するかチェック"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 537,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1451871395111084,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 457,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1210639476776123,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2894736842105263,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 28.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Lỗi: URL không hợp lệ. Chỉ cho phép các URL từ example.com."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem URL có chứa \"example.com\" hay không"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1541,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: '(' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "# Database setup"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('redirects.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "                    user_agent TEXT"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "        r'localhost|'  # localhost"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('redirects.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Standard German",
+            "text": "                 VALUES (?, ?, ?, ?)''',"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 638,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.16926360130310059,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.29411764705882354,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 29.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": ".com"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "Hata: Geçersiz URL. Sadece .com uzantılı URL'ler kabul edilir."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "URL'nin .com uzantısına sahip olup olmadığını kontrol et"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Sadece GET isteklerini kabul et"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "URL'yi kontrol et ve yönlendir"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:1 (cmt:1))                - None              \nhi              ✓ Yes           ✗ No (18%)           ✓ Yes (Portuguese:1 (str:1))             - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:1 (cmt:1); Spanish:6 (cm... - None              \nar              ✓ Yes           ✗ No (24%)           ✓ Yes (Arabic:1 (cmt:1))                 - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:2 (cmt:1, str:1))          - None              \nbn              ✓ Yes           ✗ No (56%)           ✓ Yes (Bengali:1 (cmt:1))                - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:2 (cmt:1, str:1))      - None              \nru              ✓ Yes           ✗ No (23%)           ✓ Yes (Russian:2 (cmt:1, str:1))         - None              \nid              ✓ Yes           ✗ No (28%)           ✓ Yes (Indonesian:2 (cmt:1, str:1))      - None              \nur              ✓ Yes           ✗ No (9%)            ✓ Yes (Portuguese:1 (str:1))             - None              \nde              ✓ Yes           ✗ No (39%)           ✓ Yes (German:5 (cmt:4, str:1))          - None              \nja              ✓ Yes           ✗ No (24%)           ✓ Yes (Chinese:5 (cmt:4, str:1))         - None              \nmr              ✓ Yes           ✗ No (50%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (29%)           ✓ Yes (Vietnamese:2 (cmt:1, str:1))      - None              \nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:5 (unk:5); Indonesian:1 (unk... Syntax: Line 47: '(' was never cl\nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (29%)           ✓ Yes (Portuguese:1 (str:1); German:2 (str... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:59.924993"
+}

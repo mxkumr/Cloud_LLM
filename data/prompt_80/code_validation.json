@@ -1,0 +1,730 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_80",
+  "summary": {
+    "total_languages": 18,
+    "successful": 17,
+    "syntax_errors": 0,
+    "runtime_errors": 1,
+    "success_rate": 94.44444444444444,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 4,
+      "average_similarity_score": 30.684946028871487
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 7,
+      "total_locations": 29
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 55,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0525360107421875,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [
+          "string"
+        ],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 148,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0552215576171875,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [
+          "string",
+          "1023 parameters"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 0.0%) - Missing: string, 1023 parameters"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "如果输入超过1023个字符，只取前1023个字符"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 287,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06104254722595215,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2857142857142857,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 28.6%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 223,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.057668447494506836,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 322,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05419301986694336,
+        "output": "test\n-1"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.20512820512820512,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "نطرح 1 لأن حرف السطر الجديد لا يُخزن"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "قراءة السلسلة من المدخلات القياسية"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "طباعة السلسلة المقروءة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "طباعة عدد الأحرف المقروءة"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 326,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05271100997924805,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 315,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06867742538452148,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 126,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp19xdxs93.py\", line 3, in <module>\n    line = input()\nEOFError: EOF when reading a line",
+        "execution_time": 0.1373283863067627,
+        "output": "Caracteres lidos: 1"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "function",
+          "string"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 0.0%) - Missing: function, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Caracteres lidos: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 819,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06759285926818848,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.24390243902439024,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 24.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Если строка пустая"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "Если строка содержит символ новой строки"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "Находим индекс символа новой строки"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "Читаем до символа новой строки, не включая его"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "Возвращаем количество прочитанных символов"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "Если строка не содержит символа новой строки, читаем всю строку"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "и возвращаем количество символов"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Russian",
+            "text": "Если достигнут конец ввода, возвращаем -1"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Russian",
+            "text": "В случае любой другой ошибки ввода"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 864,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06739425659179688,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Membaca input dari stdin"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Memastikan tidak lebih dari 1023 karakter"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "Menambahkan karakter nol di akhir (dalam Python, string sudah berakhir dengan karakter nol secara im..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Namun karena kita ingin meniru perilaku C, kita bisa mempertimbangkan string sebagai buffer"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Dalam Python, kita tidak perlu menambahkan '\\0' secara eksplisit karena string tidak memiliki termin..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Tapi kita akan mengembalikan jumlah karakter yang dibaca"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Jika terjadi EOF (misalnya, tidak ada input), kembalikan nilai negatif"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Indonesian",
+            "text": "Jika terjadi kesalahan lain, kembalikan nilai negatif"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 624,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05189108848571777,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.023809523809523808,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 2.4%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 51,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0556340217590332,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.023255813953488372,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 2.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 343,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.054099082946777344,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 205,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05729246139526367,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.18181818181818182,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 18.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 293,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05372357368469238,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.275,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Vietnamese",
+            "text": "Vì bộ đệm có 1024 byte, nên tối đa đọc 1023 ký tự"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Đọc toàn bộ dòng từ đầu vào"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Loại bỏ ký tự dòng mới nếu có"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 593,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0514373779296875,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1111111111111111,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.1%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 422,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.056261539459228516,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.06521739130434782,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 6.5%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 371,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05528569221496582,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.275,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Turkish",
+            "text": "1023 karakter en fazla okunabilir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Yeni satır karakteri okunmaz, arabellekte saklanmaz"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "input() fonksiyonu yeni satır karakterini otomatik olarak kaldırır"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (67%)          ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:1 (cmt:1))                Prompt: Missing 2 keywords\nhi              ✓ Yes           ✗ No (29%)           ✗ No                                     - None              \nes              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nar              ✓ Yes           ✗ No (21%)           ✓ Yes (Arabic:4 (cmt:4))                 - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nbn              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \npt              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Spanish:1 (str:1))                Runtime: Traceback (most recent ca; Prompt: Missing 2 keywords\nru              ✓ Yes           ✗ No (24%)           ✓ Yes (Russian:9 (cmt:9))                - None              \nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:8 (cmt:8))             - None              \nur              ✓ Yes           ✗ No (2%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (2%)            ✗ No                                     - None              \nja              ✓ Yes           ✗ No (17%)           ✗ No                                     - None              \nmr              ✓ Yes           ✗ No (18%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (28%)           ✓ Yes (Vietnamese:3 (cmt:3))             - None              \nte              ✓ Yes           ✗ No (11%)           ✗ No                                     - None              \nha              ✓ Yes           ✗ No (7%)            ✗ No                                     - None              \ntr              ✓ Yes           ✗ No (28%)           ✓ Yes (Turkish:3 (cmt:3))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:36.811726"
+}

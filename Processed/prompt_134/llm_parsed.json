@@ -1,0 +1,1199 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\en.py",
+      "elements": {
+        "identifiers": [
+          "decorator",
+          "escape",
+          "func",
+          "hello",
+          "html",
+          "route",
+          "route_map",
+          "url",
+          "username"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello {escape(username)}"
+        ],
+        "variables": [
+          "decorator",
+          "escape",
+          "func",
+          "html",
+          "route_map",
+          "url",
+          "username"
+        ],
+        "comments": [
+          "Store the URL and function mapping",
+          "Global dictionary to store URL-function mappings",
+          "Example usage:",
+          "When a user navigates to /hello/john, the hello function is called with username=\"john\"",
+          "The response would be: Hello john (with HTML escaping applied)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "hello",
+          "route"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "hello",
+          "html",
+          "route",
+          "run",
+          "safe_username",
+          "username"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello, {safe_username}",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "html",
+          "route",
+          "run",
+          "safe_username",
+          "username"
+        ],
+        "comments": [
+          "使用 escape 函数将特殊字符转换为 HTML 安全序列"
+        ],
+        "docstrings": [],
+        "functions": [
+          "hello"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\hi.py",
+      "elements": {
+        "identifiers": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "hello",
+          "html_safe",
+          "kwargs",
+          "parse",
+          "replace",
+          "route",
+          "test_url",
+          "text",
+          "unquote",
+          "url",
+          "url_mapping",
+          "urllib",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello, {username}",
+          "/escape/<text>",
+          "&",
+          "&amp;",
+          "<",
+          "&lt;",
+          ">",
+          "&gt;",
+          "&quot;",
+          "&#x27;",
+          "__main__",
+          "/hello/John",
+          "John",
+          "/escape/<script>alert('XSS')</script>",
+          "<script>alert('XSS')</script>"
+        ],
+        "variables": [
+          "args",
+          "decorator",
+          "func",
+          "functools",
+          "html_safe",
+          "kwargs",
+          "parse",
+          "replace",
+          "test_url",
+          "text",
+          "unquote",
+          "url",
+          "url_mapping",
+          "urllib",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "Dictionary to store URL to function mapping",
+          "Convert special characters to HTML-safe sequences",
+          "Example usage (for testing)",
+          "Simulate URL routing",
+          "Output: Hello, John",
+          "Output: &lt;script&gt;alert('XSS')&lt;/script&gt;"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "escape",
+          "hello",
+          "route",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\es.py",
+      "elements": {
+        "identifiers": [
+          "args",
+          "c",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "get",
+          "handle_request",
+          "hola",
+          "html_escape_table",
+          "join",
+          "kwargs",
+          "nombre",
+          "parse",
+          "quote",
+          "route",
+          "routes",
+          "text",
+          "url",
+          "urllib",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "&",
+          "&amp;",
+          "&quot;",
+          "&apos;",
+          ">",
+          "&gt;",
+          "<",
+          "&lt;",
+          "/hola/<nombre>",
+          "f\"Hola {escape(nombre)}",
+          "Página no encontrada",
+          "404",
+          "__main__",
+          "/hola/Ana"
+        ],
+        "variables": [
+          "args",
+          "c",
+          "decorator",
+          "func",
+          "functools",
+          "get",
+          "html_escape_table",
+          "join",
+          "kwargs",
+          "nombre",
+          "parse",
+          "quote",
+          "routes",
+          "text",
+          "url",
+          "urllib",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "Diccionario para almacenar las rutas y funciones asociadas",
+          "Función para manejar la solicitud según la URL",
+          "Ejemplo de uso",
+          "Simular una solicitud a /hola/Ana",
+          "Salida esperada: Hola Ana"
+        ],
+        "docstrings": [
+          "Convierte caracteres especiales en secuencias seguras para HTML.",
+          "Devuelve una cadena con el texto 'Hola' seguido del valor de la variable nombre de usuario."
+        ],
+        "functions": [
+          "decorator",
+          "escape",
+          "handle_request",
+          "hola",
+          "route",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "hello",
+          "html",
+          "route",
+          "run",
+          "username"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello {escape(username)}",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "html",
+          "route",
+          "run",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "hello"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\fr.py",
+      "elements": {
+        "identifiers": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "hello",
+          "html",
+          "kwargs",
+          "response",
+          "route",
+          "text",
+          "url",
+          "url_map",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello {escape(username)}",
+          "__main__",
+          "John",
+          "f\"/hello/{username}"
+        ],
+        "variables": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "html",
+          "kwargs",
+          "response",
+          "text",
+          "url",
+          "url_map",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "Dictionnaire pour stocker les mappages URL -> fonction",
+          "Exemple d'utilisation",
+          "Simuler une requête à l'URL /hello/John",
+          "Output: Hello John"
+        ],
+        "docstrings": [
+          "Décorateur pour mapper une URL à une fonction.",
+          "Convertit les caractères spéciaux en séquences sécurisées HTML.",
+          "Fonction qui renvoie 'Hello' suivi du nom d'utilisateur."
+        ],
+        "functions": [
+          "decorator",
+          "escape",
+          "hello",
+          "route",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "hello",
+          "html_safe_text",
+          "replace",
+          "route",
+          "run",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello, {username}!",
+          "/escape/<text>",
+          "&",
+          "&amp;",
+          "<",
+          "&lt;",
+          ">",
+          "&gt;",
+          "&quot;",
+          "&#x27;",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "html_safe_text",
+          "replace",
+          "route",
+          "run",
+          "text",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "escape",
+          "hello"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\pt.py",
+      "elements": {
+        "identifiers": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "handle_request",
+          "hello",
+          "html",
+          "kwargs",
+          "nomedeusuário",
+          "path",
+          "route",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello {html.escape(nomedeusuário)}",
+          "/hello/João",
+          "João",
+          "/hello/Maria",
+          "Maria",
+          "Página não encontrada",
+          "/hello/João",
+          "/hello/Maria"
+        ],
+        "variables": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "html",
+          "kwargs",
+          "nomedeusuário",
+          "path",
+          "url",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "Exemplo de uso: simular rota e chamada",
+          "Teste",
+          "Saída: Hello João",
+          "Saída: Hello Maria"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "handle_request",
+          "hello",
+          "route",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "add_url_rule",
+          "app",
+          "c",
+          "code",
+          "debug",
+          "decorator",
+          "endswith",
+          "escape",
+          "flask",
+          "func",
+          "get",
+          "hello",
+          "hello_redirect",
+          "html_escape_table",
+          "index",
+          "join",
+          "redirect",
+          "route",
+          "run",
+          "text",
+          "url",
+          "url_for",
+          "url_mapping",
+          "username"
+        ],
+        "literals": [
+          "/",
+          "/",
+          "_redirect",
+          "301",
+          "/",
+          "Welcome to the Flask app!",
+          "/hello/<username>",
+          "f\"Hello, {username}",
+          "/hello/<username>/",
+          "hello",
+          "301",
+          "&",
+          "&amp;",
+          "&quot;",
+          "&apos;",
+          ">",
+          "&gt;",
+          "<",
+          "&lt;",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "add_url_rule",
+          "app",
+          "c",
+          "code",
+          "debug",
+          "decorator",
+          "endswith",
+          "flask",
+          "func",
+          "get",
+          "html_escape_table",
+          "join",
+          "redirect",
+          "route",
+          "run",
+          "text",
+          "url",
+          "url_for",
+          "url_mapping",
+          "username"
+        ],
+        "comments": [
+          "Словарь для хранения сопоставлений URL и функций",
+          "Добавляем функцию в словарь сопоставления",
+          "Декорируем функцию Flask",
+          "Добавляем правило для перенаправления с косой чертой в конце"
+        ],
+        "docstrings": [
+          "Преобразует специальные символы в HTML-безопасные последовательности."
+        ],
+        "functions": [
+          "decorator",
+          "escape",
+          "hello",
+          "hello_redirect",
+          "index",
+          "route"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\id.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "escape_url",
+          "flask",
+          "hello",
+          "index",
+          "kata",
+          "nama_pengguna",
+          "route",
+          "run"
+        ],
+        "literals": [
+          "/",
+          "Hello World!",
+          "/hello/<nama_pengguna>",
+          "f\"Hello {nama_pengguna}",
+          "/escape/<kata>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "kata",
+          "nama_pengguna",
+          "route",
+          "run"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "escape_url",
+          "hello",
+          "index"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "add_url_rule",
+          "app",
+          "debug",
+          "decorator",
+          "flask",
+          "func",
+          "hello",
+          "index",
+          "parse",
+          "quote",
+          "route",
+          "run",
+          "safe_user_name",
+          "url_map",
+          "url_pattern",
+          "urllib",
+          "user_name",
+          "wrapper"
+        ],
+        "literals": [
+          "/",
+          "Welcome to the Flask app!",
+          "/hello/<user_name>",
+          "f\"Hello {user_name}",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "add_url_rule",
+          "app",
+          "debug",
+          "decorator",
+          "flask",
+          "func",
+          "parse",
+          "quote",
+          "route",
+          "run",
+          "safe_user_name",
+          "url_pattern",
+          "urllib",
+          "user_name",
+          "wrapper"
+        ],
+        "comments": [
+          "Escape special characters to make them HTML-safe",
+          "Call the original function with the safe user name",
+          "Register the route with the given URL pattern"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "hello",
+          "index",
+          "url_map",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\de.py",
+      "elements": {
+        "identifiers": [
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "get",
+          "get_handler",
+          "hello",
+          "html",
+          "index",
+          "route",
+          "url",
+          "url_map",
+          "username",
+          "wraps"
+        ],
+        "literals": [
+          "/",
+          "\r\n    <html>\r\n        <body>\r\n            <form method=\"GET\" action=\"/hello/\">\r\n                <label for=\"username\">Benutzername:</label>\r\n                <input type=\"text\" id=\"username\" name=\"username\">\r\n                <input type=\"submit\" value=\"Submit\">\r\n            </form>\r\n        </body>\r\n    </html>\r\n    ",
+          "/hello/<username>",
+          "f\"Hello {escape(username)}",
+          "__main__",
+          "/",
+          "/hello/John"
+        ],
+        "variables": [
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "get",
+          "html",
+          "url",
+          "url_map",
+          "username",
+          "wraps"
+        ],
+        "comments": [
+          "Dictionary to store URL-function mappings",
+          "Example usage (for testing purposes)",
+          "Example: Simulate request handling",
+          "Should return index function",
+          "Should return hello function with username \"John\""
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "get_handler",
+          "hello",
+          "index",
+          "route"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\ja.py",
+      "elements": {
+        "identifiers": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "handle_request",
+          "hello",
+          "html",
+          "kwargs",
+          "route",
+          "routes",
+          "safe_username",
+          "split",
+          "url",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello {safe_username}",
+          "/",
+          "1",
+          "404 Not Found",
+          "/hello/john",
+          "/hello/John&<script>"
+        ],
+        "variables": [
+          "args",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "html",
+          "kwargs",
+          "routes",
+          "safe_username",
+          "split",
+          "url",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [
+          "URL と関数のマッピングを保持する辞書",
+          "URL と関数のマッピングを保持する辞書",
+          "username を HTML セーフな形式に変換",
+          "サンプルの URL マッピングと関数呼び出し",
+          "URL に対応する関数を呼び出す",
+          "テスト",
+          "出力: Hello john",
+          "出力: Hello John&amp;&lt;script&gt;"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "handle_request",
+          "hello",
+          "route",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "escape_text",
+          "flask",
+          "hello",
+          "route",
+          "run",
+          "textarea",
+          "username"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello, {username}",
+          "/escape/<textarea>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "route",
+          "run",
+          "textarea",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "escape_text",
+          "hello"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "escape_text",
+          "flask",
+          "hello",
+          "render_template_string",
+          "route",
+          "run",
+          "text",
+          "username"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello {username}",
+          "/escape/<text>",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "escape",
+          "flask",
+          "render_template_string",
+          "route",
+          "run",
+          "text",
+          "username"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "escape_text",
+          "hello"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\te.py",
+      "elements": {
+        "identifiers": [
+          "args",
+          "c",
+          "decorator",
+          "escape",
+          "func",
+          "functools",
+          "get",
+          "hello",
+          "html_escape_table",
+          "join",
+          "kwargs",
+          "route",
+          "text",
+          "url",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "literals": [
+          "/hello/<username>",
+          "f\"Hello, {username}!",
+          "/escape/<text>",
+          "&",
+          "&amp;",
+          "&quot;",
+          "&apos;",
+          ">",
+          "&gt;",
+          "<",
+          "&lt;"
+        ],
+        "variables": [
+          "args",
+          "c",
+          "decorator",
+          "func",
+          "functools",
+          "get",
+          "html_escape_table",
+          "join",
+          "kwargs",
+          "text",
+          "url",
+          "username",
+          "wrapper",
+          "wraps"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "escape",
+          "hello",
+          "route",
+          "wrapper"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\ha.py",
+      "elements": {
+        "identifiers": [
+          "BytesIO",
+          "Exception",
+          "Flask",
+          "Image",
+          "PIL",
+          "UPLOAD_FOLDER",
+          "app",
+          "config",
+          "content",
+          "display",
+          "e",
+          "encoding",
+          "exist_ok",
+          "f",
+          "file",
+          "filename",
+          "filepath",
+          "files",
+          "flask",
+          "form",
+          "get",
+          "hel",
+          "html_content",
+          "img",
+          "index",
+          "io",
+          "join",
+          "makedirs",
+          "methods",
+          "open",
+          "os",
+          "path",
+          "raise_for_status",
+          "redirect",
+          "render_template",
+          "request",
+          "requests",
+          "response",
+          "route",
+          "sannu",
+          "save",
+          "text",
+          "tserewa",
+          "upload",
+          "url",
+          "url_for",
+          "write"
+        ],
+        "literals": [
+          "uploads",
+          "UPLOAD_FOLDER",
+          "/",
+          "index.html",
+          "/upload",
+          "POST",
+          "image",
+          "image",
+          "UPLOAD_FOLDER",
+          "display",
+          "/display/<filename>",
+          "UPLOAD_FOLDER",
+          "display.html",
+          "/sannu",
+          "POST",
+          "url",
+          "UPLOAD_FOLDER",
+          "sannu.jpg",
+          "display",
+          "sannu.jpg",
+          "f\"Error: {str(e)}",
+          "/tserewa",
+          "POST",
+          "url",
+          "UPLOAD_FOLDER",
+          "tserewa.html",
+          "w",
+          "utf-8",
+          "display",
+          "tserewa.html",
+          "f\"Error: {str(e)}"
+        ],
+        "variables": [
+          "BytesIO",
+          "Exception",
+          "Flask",
+          "Image",
+          "PIL",
+          "UPLOAD_FOLDER",
+          "app",
+          "config",
+          "content",
+          "e",
+          "encoding",
+          "exist_ok",
+          "f",
+          "file",
+          "filename",
+          "filepath",
+          "files",
+          "flask",
+          "form",
+          "get",
+          "hel",
+          "html_content",
+          "img",
+          "io",
+          "join",
+          "makedirs",
+          "methods",
+          "open",
+          "os",
+          "path",
+          "raise_for_status",
+          "redirect",
+          "render_template",
+          "request",
+          "requests",
+          "response",
+          "route",
+          "save",
+          "text",
+          "url",
+          "url_for",
+          "write"
+        ],
+        "comments": [
+          "Directory to save uploaded images"
+        ],
+        "docstrings": [],
+        "functions": [
+          "display",
+          "index",
+          "sannu",
+          "tserewa",
+          "upload"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_e_lxlqoh\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "escape",
+          "flask",
+          "func",
+          "handle_request",
+          "hello",
+          "html",
+          "request",
+          "route",
+          "run",
+          "text",
+          "url",
+          "url_to_function",
+          "username"
+        ],
+        "literals": [
+          "/merhaba/<username>",
+          "f\"Hello {username}",
+          "/escape/<text>",
+          "/<path:url>",
+          "404 Not Found",
+          "404",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "decorator",
+          "escape",
+          "flask",
+          "func",
+          "html",
+          "request",
+          "route",
+          "run",
+          "text",
+          "url",
+          "url_to_function",
+          "username"
+        ],
+        "comments": [
+          "Dictionary to store URL-to-function mappings"
+        ],
+        "docstrings": [],
+        "functions": [
+          "decorator",
+          "escape",
+          "handle_request",
+          "hello",
+          "route"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

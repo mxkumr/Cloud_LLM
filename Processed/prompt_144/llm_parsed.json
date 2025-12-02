@@ -1,0 +1,1095 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\en.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_exists",
+          "execute",
+          "fetchone",
+          "result",
+          "run_unsubscribe_script",
+          "sqlite3",
+          "unsubscribe_email"
+        ],
+        "literals": [
+          "emails.db",
+          "SELECT 1 FROM subscribers WHERE email = ?",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_exists",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "Connect to the database",
+          "Check if the email exists in the database",
+          "Call the script to unsubscribe the email",
+          "Assuming the script is a function called `run_unsubscribe_script`",
+          "and it takes the email as input and returns 0 on success",
+          "If the script returns 0, return 1; otherwise return 0",
+          "Example placeholder for the external script function",
+          "Placeholder: replace with actual script logic",
+          "This function should return 0 if successful, non-zero otherwise",
+          "Example: return os.system(f\"some_unsubscribe_script.sh {email}\")",
+          "Simulate success"
+        ],
+        "docstrings": [],
+        "functions": [
+          "run_unsubscribe_script",
+          "unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "check_and_unsubscribe",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "unsubscribe_email_script",
+          "unsubscribe_result"
+        ],
+        "literals": [
+          "email_database.db",
+          "SELECT 1 FROM emails WHERE email = ?",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "unsubscribe_result"
+        ],
+        "comments": [
+          "连接到 SQLite 数据库（如果不存在则创建）",
+          "检查电子邮件是否存在于数据库中",
+          "如果电子邮件不存在，返回 0",
+          "如果电子邮件存在，调用取消订阅脚本",
+          "假设取消订阅脚本是一个外部函数或脚本，这里用一个模拟函数代替",
+          "如果取消订阅脚本返回 0，返回 1；否则返回 0",
+          "模拟取消订阅脚本的逻辑",
+          "这里可以替换为实际的脚本调用，如 subprocess 调用外部脚本",
+          "例如：subprocess.run(['python', 'unsubscribe_script.py', email])",
+          "为示例，假设脚本成功执行并返回 0",
+          "实际中应根据实际情况调整逻辑",
+          "模拟成功取消订阅",
+          "模拟成功"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe",
+          "unsubscribe_email_script"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\hi.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check_and_cancel_email_subscription",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_exists",
+          "execute",
+          "fetchone",
+          "result",
+          "run",
+          "script_output",
+          "sqlite3",
+          "strip",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "email_database.db",
+          "SELECT 1 FROM emails WHERE email = ?",
+          "0",
+          "python",
+          "cancel_subscription.py",
+          "1",
+          "0",
+          "0",
+          "f\"Error executing script: {e}",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_exists",
+          "execute",
+          "fetchone",
+          "result",
+          "run",
+          "script_output",
+          "sqlite3",
+          "strip",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Connect to the database (assuming SQLite for this example)",
+          "Check if the email exists in the database",
+          "If email exists, call the script to cancel subscription",
+          "Return 1 if script returns 0, otherwise return 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_cancel_email_subscription"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "resultado",
+          "resultado_script",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text",
+          "verificar_y_cancelar_suscripcion"
+        ],
+        "literals": [
+          "base_de_datos.db",
+          "SELECT 1 FROM suscriptores WHERE email = ?",
+          "0",
+          "python",
+          "cancelar_suscripcion.py",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "resultado",
+          "resultado_script",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Conectar a la base de datos SQLite (ajusta la ruta según tu caso)",
+          "Verificar si el correo existe en la base de datos",
+          "Cerrar la conexión",
+          "Si el correo no existe, devolver 0",
+          "Si el correo existe, llamar al script de cancelación",
+          "Si el script devuelve 0, devolver 1"
+        ],
+        "docstrings": [],
+        "functions": [
+          "verificar_y_cancelar_suscripcion"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check_and_unsubscribe",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "result_script",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "emails.db",
+          "SELECT 1 FROM subscribers WHERE email = ?",
+          "0",
+          "python",
+          "unsubscribe_script.py",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "result_script",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Connect to the database",
+          "Check if the email exists in the database",
+          "Close the database connection",
+          "If email does not exist, return 0",
+          "If email exists, call the script to unsubscribe",
+          "If the script returns 0, return 1",
+          "In case of any error, return 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check_and_unsubscribe",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "result_script",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE email = ?",
+          "0",
+          "python",
+          "désabonner.py",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "result_script",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Connexion à la base de données SQLite",
+          "Vérifier si l'e-mail existe dans la base de données",
+          "Fermer la connexion à la base de données",
+          "Si l'e-mail n'existe pas, retourner 0",
+          "Si l'e-mail existe, appeler le script désabonner.py",
+          "Si le script renvoie 0, retourner 1",
+          "En cas d'erreur d'exécution du script, retourner 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check_and_unsubscribe_email",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "your_database.db",
+          "SELECT 1 FROM emails WHERE email = ?",
+          "0",
+          "python",
+          "unsubscript.py",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Connect to the database (replace 'your_database.db' with your actual database file)",
+          "Check if the email exists in the database",
+          "Email does not exist, return 0",
+          "Email exists, call the script to unsubscribe",
+          "Replace 'unsubscript.py' with the actual script name",
+          "Script returned 0, return 1",
+          "Script did not return 0, return 0",
+          "In case of any error, return 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "cancelar_assinatura",
+          "capture_output",
+          "check",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_existe",
+          "execute",
+          "fetchone",
+          "resultado",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "banco.db",
+          "SELECT 1 FROM usuarios WHERE email = ?",
+          "0",
+          "python",
+          "cancelar_assinatura.py",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "check",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_existe",
+          "execute",
+          "fetchone",
+          "resultado",
+          "returncode",
+          "run",
+          "sqlite3",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Conectar ao banco de dados SQLite",
+          "Verificar se o email existe no banco de dados",
+          "Se o email não existir, retornar 0",
+          "Chamar o script para cancelar a assinatura",
+          "Verificar se o script foi executado com sucesso (código de retorno 0)",
+          "Se o script retornou 0, retornar 1",
+          "Em caso de erro na execução do script, retornar 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "cancelar_assinatura"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\ru.py",
+      "elements": {
+        "identifiers": [
+          "check_and_unsubscribe",
+          "email",
+          "email_exists_in_database",
+          "run_unsubscribe_script",
+          "unsubscribe_result"
+        ],
+        "literals": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "email",
+          "unsubscribe_result"
+        ],
+        "comments": [
+          "Проверяем, существует ли электронное письмо в базе данных",
+          "Вызываем сценарий, который отменяет подписку",
+          "Если скрипт возвращает 0, возвращаем 1, иначе возвращаем 0",
+          "Предполагаемые функции (должны быть реализованы отдельно)",
+          "Реализация проверки существования email в базе данных",
+          "Возвращает True, если существует, иначе False",
+          "Реализация вызова сценария отмены подписки",
+          "Возвращает 0, если успешно, иначе возвращает другое значение"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe",
+          "email_exists_in_database",
+          "run_unsubscribe_script"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\id.py",
+      "elements": {
+        "identifiers": [
+          "check_and_unsubscribe_email",
+          "email",
+          "is_email_in_database",
+          "result",
+          "unsubscribe_email"
+        ],
+        "literals": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "email",
+          "result"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\ur.py",
+      "elements": {
+        "identifiers": [
+          "check_email_and_script",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "script_value",
+          "sqlite3"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT script FROM users WHERE email = ?",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "script_value",
+          "sqlite3"
+        ],
+        "comments": [
+          "Connect to the database (replace 'database.db' with your actual database file)",
+          "Check if the email exists in the database",
+          "Close the database connection",
+          "If email is not found, return 0",
+          "If email is found, check the script value",
+          "If script is 0, return 1",
+          "If script is not 0, return 0"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_email_and_script"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\de.py",
+      "elements": {
+        "identifiers": [
+          "capture_output",
+          "check_and_unsubscribe",
+          "email",
+          "is_email_in_database",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "1",
+          "./unsubscribe_script.sh",
+          "0",
+          "1",
+          "0",
+          "test@example.com"
+        ],
+        "variables": [
+          "capture_output",
+          "email",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Überprüfen, ob die E-Mail in der Datenbank vorhanden ist",
+          "Skript aufrufen, das die E-Mail abbestellt",
+          "Beispiel-Implementierung: Hier würde eine Datenbankabfrage stattfinden",
+          "Für dieses Beispiel wird angenommen, dass die E-Mail in der Datenbank ist, wenn sie nicht 'test@example.com' ist",
+          "In der realen Anwendung würde hier eine Datenbankabfrage erfolgen",
+          "Beispielbedingung"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_unsubscribe",
+          "is_email_in_database"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\ja.py",
+      "elements": {
+        "identifiers": [
+          "call_unsubscribe_script",
+          "email",
+          "email_exists_in_database",
+          "result",
+          "unsubscribe_email"
+        ],
+        "literals": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "variables": [
+          "email",
+          "result"
+        ],
+        "comments": [
+          "データベースにメールが存在するか確認",
+          "メールの購読を解除するスクリプトを呼び出す",
+          "スクリプトが 0 を返した場合は 1 を返す、そうでない場合は 0 を返す",
+          "仮の関数（実際の実装に置き換える）",
+          "ここにデータベースチェックのロジックを実装",
+          "例: return db.query(\"SELECT 1 FROM users WHERE email = %s\", (email,))",
+          "ここに購読解除スクリプトの呼び出しロジックを実装",
+          "例: return subprocess.call([\"./unsubscribe.sh\", email])"
+        ],
+        "docstrings": [],
+        "functions": [
+          "call_unsubscribe_script",
+          "email_exists_in_database",
+          "unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "cancel_subscription_script",
+          "check_and_cancel_subscription",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_exists",
+          "execute",
+          "fetchone",
+          "sqlite3",
+          "subscription_canceled"
+        ],
+        "literals": [
+          "users.db",
+          "SELECT 1 FROM users WHERE email = ?",
+          "0",
+          "0",
+          "1",
+          "0",
+          "f\"Error: {e}",
+          "0",
+          "0",
+          "1"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "email_exists",
+          "execute",
+          "fetchone",
+          "sqlite3",
+          "subscription_canceled"
+        ],
+        "comments": [
+          "Connect to the database (assuming SQLite for this example)",
+          "Check if the email exists in the database",
+          "Email does not exist",
+          "Call the script to cancel subscription",
+          "Assuming the script returns 0 on success, 1 on failure",
+          "Subscription successfully canceled",
+          "Subscription cancellation failed",
+          "Return 0 in case of any error",
+          "Placeholder for the actual subscription cancellation logic",
+          "This function should return 0 if cancellation is successful, 1 otherwise",
+          "Example: call an external script or API",
+          "For now, simulating a successful cancellation",
+          "Replace this with actual implementation",
+          "Example: Simulate external call",
+          "result = call_external_cancellation_api(email)",
+          "return 0 if success else 1",
+          "Simulating successful cancellation",
+          "Simulating failure"
+        ],
+        "docstrings": [],
+        "functions": [
+          "cancel_subscription_script",
+          "check_and_cancel_subscription"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check_email_and_unregister",
+          "check_email_in_db",
+          "email",
+          "existing_emails",
+          "match",
+          "re",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "1",
+          "0",
+          "./unsubscribe_script.sh",
+          "0",
+          "1",
+          "0",
+          "0",
+          "user@example.com",
+          "test@test.com"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "email",
+          "existing_emails",
+          "match",
+          "re",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Kiểm tra định dạng email",
+          "Kiểm tra xem email có tồn tại trong cơ sở dữ liệu hay không",
+          "Giả sử có một hàm check_email_in_db(email) trả về True nếu email tồn tại",
+          "Gọi tập lệnh hủy đăng ký email",
+          "Giả sử hàm này kiểm tra email trong cơ sở dữ liệu",
+          "Đây là giả lập, bạn cần thay thế bằng logic thực tế",
+          "Ví dụ: kết nối với cơ sở dữ liệu và kiểm tra",
+          "Trả về True nếu email tồn tại, False nếu không",
+          "Dưới đây là ví dụ giả lập"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_email_and_unregister",
+          "check_email_in_db"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\te.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "capture_output",
+          "check_and_update_email_status",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "current_status",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "new_status",
+          "result",
+          "result_script",
+          "run",
+          "script_output",
+          "sqlite3",
+          "strip",
+          "subprocess",
+          "text"
+        ],
+        "literals": [
+          "emails.db",
+          "SELECT status FROM emails WHERE email = ?",
+          "0",
+          "0",
+          "python",
+          "unsubscribe_script.py",
+          "0",
+          "1",
+          "0",
+          "0",
+          "UPDATE emails SET status = ? WHERE email = ?"
+        ],
+        "variables": [
+          "Exception",
+          "capture_output",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "current_status",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "new_status",
+          "result",
+          "result_script",
+          "run",
+          "script_output",
+          "sqlite3",
+          "strip",
+          "subprocess",
+          "text"
+        ],
+        "comments": [
+          "Connect to the database",
+          "Check if email exists in the database",
+          "Email does not exist, return 0",
+          "Email exists, get current status",
+          "Call the unsubscribe script",
+          "Check if the script returned 0",
+          "If script fails, keep the status as 0",
+          "Update the status in the database",
+          "Close the connection",
+          "Return the new status"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_update_email_status"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\ha.py",
+      "elements": {
+        "identifiers": [
+          "email",
+          "isinstance",
+          "process_email",
+          "strip"
+        ],
+        "literals": [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "variables": [
+          "email",
+          "strip"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "process_email"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rn79e6d6\\tr.py",
+      "elements": {
+        "identifiers": [
+          "capture_output",
+          "com",
+          "domain",
+          "email",
+          "email_mevcut_mu",
+          "example",
+          "kontrol_et_ve_islem_yap",
+          "ler",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "test",
+          "text",
+          "user",
+          "veritabanindaki_email"
+        ],
+        "literals": [
+          "python",
+          "abonelik_iptal.py",
+          "0",
+          "1",
+          "0",
+          "1",
+          "ler = [",
+          ", "
+        ],
+        "variables": [
+          "capture_output",
+          "com",
+          "domain",
+          "email",
+          "example",
+          "ler",
+          "result",
+          "returncode",
+          "run",
+          "subprocess",
+          "test",
+          "text",
+          "user",
+          "veritabanindaki_email"
+        ],
+        "comments": [
+          "1. E-posta veritabanında mevcut mu kontrol et",
+          "2. E-posta aboneliğini iptal eden komut dosyasını çağır",
+          "3. Betik 0 döndürürse 1 döndür, değilse 0 döndür",
+          "4. E-posta veritabanında yoksa 1 döndür, aksi halde 0 döndür",
+          "Bu fonksiyon, e-postanın veritabanında olup olmadığını kontrol eder",
+          "Gerçek uygulamada bu fonksiyon veritabanı sorgusu yapmalıdır",
+          "Örnek olarak sabit bir liste kullanılıyor"
+        ],
+        "docstrings": [],
+        "functions": [
+          "email_mevcut_mu",
+          "kontrol_et_ve_islem_yap"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

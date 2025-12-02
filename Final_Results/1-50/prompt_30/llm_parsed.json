@@ -1,0 +1,940 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\en.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "RedirectHandler",
+          "do_GET",
+          "end_headers",
+          "get",
+          "http",
+          "match",
+          "parse",
+          "parse_qs",
+          "parsed_url",
+          "path",
+          "pattern",
+          "query",
+          "query_params",
+          "re",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "target",
+          "0",
+          "r'^[a-zA-Z0-9-]+\\.$",
+          "302",
+          "Location",
+          "302",
+          "Location",
+          "/",
+          "__main__",
+          "localhost",
+          "8000",
+          "Server running at http://localhost:8000"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "end_headers",
+          "get",
+          "http",
+          "match",
+          "parse",
+          "parse_qs",
+          "parsed_url",
+          "path",
+          "pattern",
+          "query",
+          "query_params",
+          "re",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Parse the query parameters",
+          "Get the target parameter",
+          "Define the regular expression",
+          "Check if target matches the pattern",
+          "Redirect to the target",
+          "Redirect to the root",
+          "Start the server"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET"
+        ],
+        "classes": [
+          "RedirectHandler"
+        ]
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "compile",
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "literals": [
+          "example.com",
+          "r'^[a-zA-Z0-9-]+\\.$",
+          "/"
+        ],
+        "variables": [
+          "compile",
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "comments": [
+          "假设目标变量来自某个查询参数，例如从 URL 中解析得到",
+          "例如：目标变量 = \"example.com\" 或 \"test-site.org\"",
+          "示例目标变量，实际中应从请求中获取",
+          "定义正则表达式模式",
+          "匹配以一个或多个字母数字字符或连字符开头，后跟句点的字符串",
+          "检查目标变量是否匹配正则表达式",
+          "匹配成功，重定向到目标",
+          "不匹配，重定向到站点根目录",
+          "输出重定向 URL（在实际应用中，这将用于 HTTP 响应头）"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\hi.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_based_on_regex",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9-]+\\.[a-zA-Z0-9-]*$",
+          "f\"http://example.com/{target}",
+          "http://example.com/"
+        ],
+        "variables": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "comments": [
+          "Regular expression to match string starting with one or more alphanumeric characters or hyphens, followed by a period",
+          "Check if target matches the pattern",
+          "Redirect to the target URL",
+          "Redirect to the root of the site",
+          "Example usage:",
+          "target = \"example.com\"",
+          "print(redirect_based_on_regex(target))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_based_on_regex"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\es.py",
+      "elements": {
+        "identifiers": [
+          "DESTINO_REGEX",
+          "Flask",
+          "app",
+          "args",
+          "compile",
+          "destino",
+          "flask",
+          "get",
+          "index",
+          "match",
+          "parse",
+          "parse_qs",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9\\-]+\\.$",
+          "/",
+          "destino",
+          "/",
+          "/"
+        ],
+        "variables": [
+          "DESTINO_REGEX",
+          "Flask",
+          "app",
+          "args",
+          "compile",
+          "destino",
+          "flask",
+          "get",
+          "match",
+          "parse",
+          "parse_qs",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Expresión regular para validar el destino",
+          "Obtener el parámetro de consulta 'destino'",
+          "Verificar si el parámetro existe",
+          "Redirigir a raíz si no hay parámetro",
+          "Validar el destino con la expresión regular",
+          "Redirigir al destino si coincide",
+          "Redirigir a raíz si no coincide"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\ar.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "pattern",
+          "re",
+          "redirect_target",
+          "target"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9\\-]+\\.$",
+          "/"
+        ],
+        "variables": [
+          "match",
+          "pattern",
+          "re",
+          "target"
+        ],
+        "comments": [
+          "تعريف التعبير العادي: سلسلة تبدأ بواحد أو أكثر من الأحرف الأبجدية الرقمية أو الواصلات متبوعة بنقطة",
+          "التحقق مما إذا كان الهدف يطابق التعبير العادي",
+          "إعادة توجيه إلى الهدف",
+          "إعادة توجيه إلى جذر الموقع"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_target"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "args",
+          "compile",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "target"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9\\-]+\\.$",
+          "/",
+          "cible",
+          "/",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "args",
+          "compile",
+          "debug",
+          "flask",
+          "get",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "target"
+        ],
+        "comments": [
+          "Expression régulière pour correspondre à une chaîne commençant par un ou plusieurs caractères alphanumériques ou traits d'union, suivis d'un point",
+          "Récupérer le paramètre de requête 'cible'",
+          "Vérifier si la cible correspond à l'expression régulière"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\bn.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "args",
+          "compile",
+          "debug",
+          "flask",
+          "get",
+          "index",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "target"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9-]+\\.$",
+          "/",
+          "target",
+          "/",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "args",
+          "compile",
+          "debug",
+          "flask",
+          "get",
+          "match",
+          "pattern",
+          "re",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "target"
+        ],
+        "comments": [
+          "রেগুলার এক্সপ্রেশন যা এক বা একাধিক বর্ণসংখ্যার অক্ষর বা হাইফেন দিয়ে একটি পিরিয়ড অনুসরণ করে",
+          "টার্গেট কোয়েরি প্যারামিটার থেকে মান নিন",
+          "রেগুলার এক্সপ্রেশনের সাথে মেলানো হচ্ছে কিনা তা পরীক্ষা করুন",
+          "রুটে রিডাইরেক্ট করুন"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\pt.py",
+      "elements": {
+        "identifiers": [
+          "destino",
+          "get",
+          "match",
+          "padrao",
+          "params",
+          "parse",
+          "re",
+          "redirect",
+          "urllib"
+        ],
+        "literals": [
+          "destino",
+          "r'^[a-zA-Z0-9-]+\\.$",
+          "f\"http://example.com/{destino}",
+          "http://example.com/"
+        ],
+        "variables": [
+          "destino",
+          "get",
+          "match",
+          "padrao",
+          "params",
+          "parse",
+          "re",
+          "urllib"
+        ],
+        "comments": [
+          "Extrai o valor do parâmetro de consulta 'destino'",
+          "Define a expressão regular: um ou mais caracteres alfanuméricos ou hifens, seguidos por um ponto",
+          "Verifica se o destino corresponde à expressão regular",
+          "Redireciona para o destino",
+          "Redireciona para a raiz do site"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\ru.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_based_on_pattern",
+          "redirect_url",
+          "rstrip",
+          "strip",
+          "target",
+          "target_param",
+          "urllib"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9\\-]+\\.$",
+          ".",
+          "f\"Redirect to: {redirect_url}",
+          "Redirect to: /"
+        ],
+        "variables": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "rstrip",
+          "strip",
+          "target",
+          "target_param",
+          "urllib"
+        ],
+        "comments": [
+          "Регулярное выражение: одна или несколько буквенно-цифровых символов или дефисов, за которыми следует точка",
+          "Получаем значение целевого параметра из запроса (например, из URL)",
+          "Проверяем соответствие регулярному выражению",
+          "Если соответствует — перенаправляем к цели",
+          "Убираем точку для формирования URL",
+          "Если не соответствует — перенаправляем в корень сайта",
+          "Пример использования",
+          "target_param = \"example.com.\"  # Должно перенаправить на example.com",
+          "target_param = \"invalid@.\"     # Должно перенаправить на корень",
+          "print(redirect_based_on_pattern(target_param))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_based_on_pattern"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\id.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "literals": [
+          "example.com",
+          "r'^[a-zA-Z0-9-]+\\.$",
+          "/",
+          "f\"Redirecting to: {redirect_url}"
+        ],
+        "variables": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "comments": [
+          "Variabel target disetel ke nilai parameter kueri target",
+          "Ganti dengan nilai parameter kueri target yang sesuai",
+          "Ekspresi reguler untuk memeriksa apakah string dimulai dengan satu atau lebih karakter alfanumerik atau tanda hubung, diikuti dengan titik",
+          "Periksa apakah target cocok dengan pola",
+          "Jika cocok, arahkan ke target",
+          "Jika tidak cocok, arahkan ke root situs",
+          "Tampilkan output yang sesuai"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\ur.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "CustomRequestHandler",
+          "HTTPServer",
+          "do_GET",
+          "end_headers",
+          "get",
+          "http",
+          "match",
+          "parse",
+          "parse_qs",
+          "parsed_url",
+          "path",
+          "pattern",
+          "query",
+          "query_params",
+          "re",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "target_value",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "r'^[a-zA-Z\\-]+\\.",
+          "target",
+          "0",
+          "302",
+          "Location",
+          "302",
+          "Location",
+          "/",
+          "__main__",
+          "localhost",
+          "8000",
+          "Server running at http://localhost:8000"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "end_headers",
+          "get",
+          "http",
+          "match",
+          "parse",
+          "parse_qs",
+          "parsed_url",
+          "path",
+          "pattern",
+          "query",
+          "query_params",
+          "re",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "target_value",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Define the regular expression pattern",
+          "Parse the query string",
+          "Get the target parameter value",
+          "Check if the target value matches the regular expression",
+          "If it matches, redirect to the target URL",
+          "If it doesn't match, redirect to the root of the site",
+          "Run the server"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET"
+        ],
+        "classes": [
+          "CustomRequestHandler"
+        ]
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\de.py",
+      "elements": {
+        "identifiers": [
+          "base_url",
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_based_on_pattern",
+          "redirect_url",
+          "target_variable",
+          "urllib"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9\\-]+\\.$",
+          "f\"{base_url}/{target_variable}",
+          "example.com.",
+          "https://www.example.com"
+        ],
+        "variables": [
+          "base_url",
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target_variable",
+          "urllib"
+        ],
+        "comments": [
+          "Definiere den regulären Ausdruck",
+          "Überprüfe, ob die Zielvariable mit dem regulären Ausdruck übereinstimmt",
+          "Wenn ja, leite zum Ziel weiter",
+          "Wenn nein, leite zum Stammverzeichnis weiter",
+          "Beispielverwendung"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_based_on_pattern"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\ja.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "parse",
+          "parse_qs",
+          "pattern",
+          "re",
+          "redirect_user",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9-]+\\.[a-zA-Z0-9-]+$",
+          "/",
+          "/"
+        ],
+        "variables": [
+          "match",
+          "parse",
+          "parse_qs",
+          "pattern",
+          "re",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "正規表現: 1 つ以上の英数字またはハイフンで始まり、その後にピリオドが続く文字列",
+          "ターゲットが空の場合、ルートにリダイレクト",
+          "ターゲットが正規表現と一致するかチェック"
+        ],
+        "docstrings": [],
+        "functions": [
+          "redirect_user"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\mr.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "literals": [
+          "example-page-123",
+          "r\"^[a-zA-Z0-9-]+$",
+          "f\"/{target}",
+          "/"
+        ],
+        "variables": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "redirect_url",
+          "target",
+          "urllib"
+        ],
+        "comments": [
+          "Sample target query parameter value",
+          "This can be dynamically set from a query parameter",
+          "Regular expression pattern",
+          "Check if target matches the regular expression",
+          "Redirect to target",
+          "Redirect to root",
+          "Output the redirect URL (e.g., for use in a web framework)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\vi.py",
+      "elements": {
+        "identifiers": [
+          "get",
+          "handle_request",
+          "is_valid_target",
+          "match",
+          "parse",
+          "parse_qs",
+          "pattern",
+          "query_params",
+          "re",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9-]+\\.$",
+          "target",
+          "f\"Redirect to: {target}",
+          "Redirect to: /"
+        ],
+        "variables": [
+          "get",
+          "match",
+          "parse",
+          "parse_qs",
+          "pattern",
+          "query_params",
+          "re",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "Biểu thức chính quy: bắt đầu bằng một hoặc nhiều ký tự chữ, số hoặc dấu gạch nối, theo sau là dấu chấm",
+          "Lấy giá trị của tham số truy vấn 'target'",
+          "Kiểm tra xem target có khớp với biểu thức chính quy không",
+          "Chuyển hướng đến mục tiêu",
+          "Chuyển hướng đến thư mục gốc của trang web"
+        ],
+        "docstrings": [],
+        "functions": [
+          "handle_request",
+          "is_valid_target"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\te.py",
+      "elements": {
+        "identifiers": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "route_user",
+          "target_param_value",
+          "target_path",
+          "urllib"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9-]+",
+          "f\"Redirect to: {target_path}",
+          "Redirect to: /"
+        ],
+        "variables": [
+          "match",
+          "parse",
+          "pattern",
+          "re",
+          "target_param_value",
+          "target_path",
+          "urllib"
+        ],
+        "comments": [
+          "Define the regular expression pattern",
+          "Matches strings that start with one or more alphanumeric characters or hyphens",
+          "Check if the target parameter value matches the pattern",
+          "If it matches, redirect to the target path",
+          "If it does not match, redirect to the root of the site",
+          "Example usage:",
+          "target_param_value = \"example-page\"",
+          "target_path = \"/dashboard\"",
+          "print(route_user(target_param_value, target_path))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "route_user"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ozbbi9q8\\tr.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "end_headers",
+          "get",
+          "handle_request",
+          "http",
+          "match",
+          "parse",
+          "parse_qs",
+          "parsed_url",
+          "path",
+          "pattern",
+          "query",
+          "query_params",
+          "re",
+          "self",
+          "send_header",
+          "send_response",
+          "server",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "literals": [
+          "hedef",
+          "0",
+          "r'^[a-zA-Z0-9-]+\\.[a-zA-Z0-9-]+$",
+          "302",
+          "Location",
+          "302",
+          "Location",
+          "/"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "end_headers",
+          "get",
+          "http",
+          "match",
+          "parse",
+          "parse_qs",
+          "parsed_url",
+          "path",
+          "pattern",
+          "query",
+          "query_params",
+          "re",
+          "self",
+          "send_header",
+          "send_response",
+          "server",
+          "target",
+          "urllib",
+          "urlparse"
+        ],
+        "comments": [
+          "URL'den sorgu parametresini al",
+          "'hedef' parametresinin değerini al",
+          "Normal ifade: bir veya daha fazla alfasayısal karakter veya kısa çizgiyle başlayan, ardından bir nokta gelen dize",
+          "Eşleşiyorsa hedefe yönlendir",
+          "Eşleşmiyorsa köke yönlendir"
+        ],
+        "docstrings": [],
+        "functions": [
+          "handle_request"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

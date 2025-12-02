@@ -1,0 +1,573 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_26",
+  "summary": {
+    "total_languages": 18,
+    "successful": 5,
+    "syntax_errors": 0,
+    "runtime_errors": 12,
+    "success_rate": 27.77777777777778,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 14.34290781963465
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 5,
+      "total_locations": 10
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 56,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcagqnv3y.py\", line 3, in <module>\n    sum += getMonthlySales(i)\n           ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.14294910430908203,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "return"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 59,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4hjzwkp9.py\", line 3, in <module>\n    sum += getMonthlySales(i)\n           ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.1580359935760498,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "return"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 174,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvoh6r5vo.py\", line 3, in <module>\n    monthly_sales = getMonthlySales(i)\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.14200949668884277,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 70,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpb9edye_b.py\", line 3, in <module>\n    suma += getMonthlySales(i)\n            ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.15713858604431152,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07407407407407407,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.4%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 140,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06989669799804688,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.03225806451612903,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 189,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05605673789978027,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2413793103448276,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 24.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "total_sales contient les ventes totales du premier trimestre"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 105,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpt7jk0k5a.py\", line 3, in <module>\n    monthly_sales = getMonthlySales()\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.15275907516479492,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 311,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07756567001342773,
+        "output": "Total de vendas do primeiro trimestre: 3000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Total de vendas do primeiro trimestre:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Portuguese",
+            "text": "Exemplo de implementação de getMonthlySales"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Substitua esta implementação com a real, se fornecida"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "Exemplo: vendas aumentam com o mês"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 91,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpruurmn31.py\", line 3, in <module>\n    total_sales += getMonthlySales(i)\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.14020872116088867,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.034482758620689655,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.4%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 248,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0777432918548584,
+        "output": "3000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09375,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "Contoh fungsi getMonthlySales, bisa diganti sesuai kebutuhan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Misalnya, penjualan bulanan adalah 1000 * bulan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 155,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp36uhch7k.py\", line 3, in <module>\n    monthly_sales = getmonthlysales(i)\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getmonthlysales' is not defined",
+        "execution_time": 0.16226458549499512,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.029411764705882353,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 2.9%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 72,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0u4o1_6b.py\", line 3, in <module>\n    total_sales += getMonthlySales(i)\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.18816781044006348,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.02702702702702703,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 2.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 56,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnqc1jrvy.py\", line 3, in <module>\n    sum += getMonthlySales(i)\n           ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.15056681632995605,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 71,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpm_qk19nc.py\", line 3, in <module>\n    total_sales += getMonthlySales()\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.14167022705078125,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 129,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpe7726yh2.py\", line 3, in <module>\n    total_sales += getMonthlySales(i)\n                   ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.1848609447479248,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.22857142857142856,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Tổng doanh thu trong quý đầu tiên:"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 186,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjc6dx3_o.py\", line 3, in <module>\n    monthly_sales = getMonthlySales()\n                    ^^^^^^^^^^^^^^^\nNameError: name 'getMonthlySales' is not defined",
+        "execution_time": 0.1544041633605957,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 271,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07694482803344727,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.034482758620689655,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "Bu fonksiyonun gerçek uygulaması verilmemiş, örnek bir değer döndürülür"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Turkish",
+            "text": "Örnek satış miktarı"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✗ Runtime Error ✗ No (0%)            ✗ No                                     Runtime: Traceback (most recent ca; Prompt: Missing 1 keywords\nzh-CN           ✗ Runtime Error ✗ No (0%)            ✗ No                                     Runtime: Traceback (most recent ca; Prompt: Missing 1 keywords\nhi              ✗ Runtime Error ✗ No (25%)           ✗ No                                     Runtime: Traceback (most recent ca\nes              ✗ Runtime Error ✗ No (7%)            ✗ No                                     Runtime: Traceback (most recent ca\nar              ✓ Yes           ✗ No (3%)            ✗ No                                     - None              \nfr              ✓ Yes           ✗ No (24%)           ✓ Yes (French:1 (cmt:1))                 - None              \nbn              ✗ Runtime Error ✗ No (25%)           ✗ No                                     Runtime: Traceback (most recent ca\npt              ✓ Yes           ✗ No (25%)           ✓ Yes (Portuguese:4 (cmt:3, str:1))      - None              \nru              ✗ Runtime Error ✗ No (3%)            ✗ No                                     Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (9%)            ✓ Yes (Indonesian:2 (cmt:2))             - None              \nur              ✗ Runtime Error ✗ No (3%)            ✗ No                                     Runtime: Traceback (most recent ca\nde              ✗ Runtime Error ✗ No (3%)            ✗ No                                     Runtime: Traceback (most recent ca\nja              ✗ Runtime Error ✗ No (14%)           ✗ No                                     Runtime: Traceback (most recent ca\nmr              ✗ Runtime Error ✗ No (25%)           ✗ No                                     Runtime: Traceback (most recent ca\nvi              ✗ Runtime Error ✗ No (23%)           ✓ Yes (Vietnamese:1 (str:1))             Runtime: Traceback (most recent ca\nte              ✗ Runtime Error ✗ No (50%)           ✗ No                                     Runtime: Traceback (most recent ca\nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (3%)            ✓ Yes (Turkish:2 (cmt:2))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:37.512700"
+}

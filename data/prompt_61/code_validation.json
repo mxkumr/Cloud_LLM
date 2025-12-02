@@ -1,0 +1,1012 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_61",
+  "summary": {
+    "total_languages": 18,
+    "successful": 12,
+    "syntax_errors": 0,
+    "runtime_errors": 5,
+    "success_rate": 66.66666666666666,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 1,
+      "average_similarity_score": 31.721726466536154
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 82
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1049,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12306976318359375,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.36363636363636365,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "Final check"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1154,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpio991pgd.py\", line 4, in <module>\n    libc = ctypes.CDLL(\"libc.so.6\")  # On Linux; use \"msvcrt.dll\" on Windows\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__init__.py\", line 390, in __init__\n    self._handle = _dlopen(self._name, mode)\n                   ~~~~~~~^^^^^^^^^^^^^^^^^^\nFileNotFoundError: Could not find module 'libc.so.6' (or one of its dependencies). Try using the full path with constructor syntax.",
+        "execution_time": 0.256427526473999,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Define buffer size"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 281,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05481600761413574,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Example loop"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 584,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkgyflc9f.py\", line 11, in <module>\n    ctypes.free(buffer)  # Esto causar� un error de acceso a memoria\n    ^^^^^^^^^^^\nAttributeError: module 'ctypes' has no attribute 'free'",
+        "execution_time": 0.14692354202270508,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4166666666666667,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 41.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "Asignar un búfer de tamaño buffer_size"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Liberar el búfer en un bucle (simulando liberación múltiple)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Simulamos la liberación con ctypes"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "Esto causará un error de acceso a memoria"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Intentar leer datos desde el búfer (ya liberado)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Acceso a memoria liberada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Intentar liberar el búfer nuevamente (doble liberación)"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 386,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdte87jh4.py\", line 13, in <module>\n    print(f\"\\u0639\\u062f\\u062f \\u0627\\u0644\\u0645\\u062e\\u0627\\u0632\\u0646 \\u0627\\u0644\\u0645\\u0624\\u0642\\u062a\\u0629 \\u0627\\u0644\\u0645\\u062a\\u0628\\u0642\\u064a\\u0629: {len(buffers)}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>",
+        "execution_time": 0.13496875762939453,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "تم تحرير جميع المخازن المؤقتة."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "عدد المخازن المؤقتة المتبقية: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "حجم المخزن المؤقت بالبايت"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "إنشاء مخازن مؤقتة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "نفترض أننا ننشئ 5 مخازن مؤقتة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "تحرير المخازن المؤقتة في حلقة"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 429,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05190157890319824,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.35714285714285715,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 35.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "French",
+            "text": "Taille du tampon en octets"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Allocation du tampon"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Libération du tampon en boucle (simule la libération multiple)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Libère la référence au tampon"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Recrée le tampon"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Allocation à nouveau du tampon et libération finale"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "French",
+            "text": "Libération finale du tampon"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 396,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06989502906799316,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Bengali",
+            "text": "আপনি চাইলে এটি পরিবর্তন করতে পারেন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Bengali",
+            "text": "বাফার মুক্ত করার জন্য একটি লুপ চালানো"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Bengali",
+            "text": "বাফার বরাদ্দ করা"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Bengali",
+            "text": "বাফার মুক্ত করা (Python-এ এটি স্বয়ংক্রিয়ভাবে হয়ে যায়, কিন্তু আমরা এটি পুনরায় বরাদ্দ করি)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Bengali",
+            "text": "বাফার মুক্ত করা হয়েছে"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Bengali",
+            "text": "পুনরায় বরাদ্দ করা"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 667,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11010575294494629,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.46153846153846156,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 46.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "Alocar um buffer de tamanho buffer_size usando ctypes"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "Liberar o buffer em um loop"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "A liberação é automática em Python quando o objeto é coletado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Mas simulamos o comportamento de C ao reatribuir o buffer para forçar a liberação"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Forçar a coleta de lixo para simular a liberação do buffer"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Exemplo de uso"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 614,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpz8xxeynh.py\", line 16, in <module>\n    print(\"\\u0411\\u0443\\u0444\\u0435\\u0440 \\u0443\\u0441\\u043f\\u0435\\u0448\\u043d\\u043e \\u043e\\u0441\\u0432\\u043e\\u0431\\u043e\\u0436\\u0434\\u0435\\u043d.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-4: character maps to <undefined>",
+        "execution_time": 0.14425230026245117,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "Буфер успешно освобожден."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Буфер не был освобожден."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Russian",
+            "text": "Размер буфера"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Выделение буфера"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Освобождение буфера в цикле (в данном случае, просто повторное освобождение не требуется, так как ct..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "Однако, чтобы имитировать освобождение, мы можем присвоить None"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "Освобождаем ссылку на буфер"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "Проверка, что буфер был освобожден (проверяем, что переменная buffer не ссылается на объект)"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 566,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12886452674865723,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5625,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 56.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Ukuran buffer awal"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Alokasi buffer pertama"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "Membebaskan buffer dalam satu lingkaran (dalam konteks Python, ini berarti mengosongkan referensi)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Alokasi kembali buffer dengan ukuran yang sama"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Alokasi buffer baru dengan ukuran lebih besar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Membebaskan semua buffer yang telah dialokasikan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 271,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07266783714294434,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4117647058823529,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 41.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "تعریف کریں کہ بفر کا سائز کتنا ہوگا"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "بفر مختص کریں"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "لوپ میں بفر کو آزاد کریں"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "بفر کے تمام بائٹس کو صفر کریں (آزاد کریں)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "بفر کو مکمل طور پر خالی کریں"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 353,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10393309593200684,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2777777777777778,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard German",
+            "text": "Beispielgröße, kann angepasst werden"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Freigeben des Puffers (in Python wird dies automatisch durch Garbage Collection behandelt)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Hier wird einfach der Referenzwert gelöscht, um den Puffer zu \"freigeben\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 468,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12169551849365234,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "バッファサイズが0の場合は何もしない"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "バッファの割り当て"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "ループ内でバッファを解放"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "バッファの解放（Pythonでは自動的にGCが処理するが、明示的にNoneに設定）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "同じバッファを再割り当て"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "バッファの解放"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "使用例"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 981,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10928583145141602,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 670,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09965014457702637,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6470588235294118,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 64.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 3",
+            "language": "Vietnamese",
+            "text": "Mô phỏng hàm malloc trong C"
+          },
+          {
+            "category": "docstring",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "Mô phỏng hàm free trong C"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Trong Python, việc giải phóng bộ nhớ được quản lý tự động"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Tuy nhiên, để mô phỏng, ta chỉ cần gán giá trị None"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "hoặc để bộ nhớ được thu hồi bởi garbage collector"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Kích thước bộ đệm"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Giải phóng bộ đệm trong một vòng lặp"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Vietnamese",
+            "text": "Giải phóng bộ đệm một lần nữa"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 685,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06467604637145996,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Process each size in size_sizes"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 750,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpc5bc8wiy.py\", line 19, in <module>\n    print(f\"Arabelle\\u011fin boyutu: {buffer_size}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u011f' in position 8: character maps to <undefined>",
+        "execution_time": 0.14021682739257812,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.35294117647058826,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 35.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Turkish",
+            "text": "Arabelleğin boyutu: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Turkish",
+            "text": "Örnek boyut, isteğe bağlı olarak değiştirilebilir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Arabelleği ayır"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "100 kez arabelleği serbest bırak (C'deki free ile aynı davranışı taklit eder)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "Python'da bu işlem doğrudan mümkün değildir çünkü Python bellek yönetimi otomatiktir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Turkish",
+            "text": "Ancak, arabelleği yeniden oluşturmak ve eski birini atmak gibi davranabiliriz"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Arabelleği serbest bırak (Python'da bu otomatik yapılır, ancak bellek kullanımını göstermek için)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "Gerçek bir free gibi davranmak için, arabelleği None yaparak atabiliriz"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Arabelleğin boyutunu yazdır"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (36%)           ✓ Yes (German:1 (cmt:1))                 - None              \nzh-CN           ✗ Runtime Error ✗ No (17%)           ✓ Yes (German:1 (cmt:1))                 Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (cmt:1))                 - None              \nes              ✗ Runtime Error ✗ No (42%)           ✓ Yes (Spanish:7 (cmt:7))                Runtime: Traceback (most recent ca\nar              ✗ Runtime Error ✗ No (25%)           ✓ Yes (Arabic:6 (cmt:4, str:2))          Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✗ No (36%)           ✓ Yes (French:7 (cmt:7))                 - None              \nbn              ✓ Yes           ✗ No (25%)           ✓ Yes (Bengali:6 (cmt:6))                - None              \npt              ✓ Yes           ✗ No (46%)           ✓ Yes (Portuguese:5 (cmt:5); Spanish:1 (cm... - None              \nru              ✗ Runtime Error ✗ No (25%)           ✓ Yes (Russian:8 (cmt:6, str:2))         Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (56%)           ✓ Yes (Indonesian:6 (cmt:6))             - None              \nur              ✓ Yes           ✗ No (41%)           ✓ Yes (Arabic:5 (cmt:5))                 - None              \nde              ✓ Yes           ✗ No (28%)           ✓ Yes (German:3 (cmt:3))                 - None              \nja              ✓ Yes           ✗ No (17%)           ✓ Yes (Chinese:7 (cmt:7))                - None              \nmr              ✓ Yes           ✗ No (33%)           ✗ No                                     - None              \nvi              ✓ Yes           ✓ Yes (65%)          ✓ Yes (Vietnamese:8 (cmt:6, doc:2))      - None              \nte              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\nha              ✓ Yes           ✗ No (12%)           ✓ Yes (German:1 (cmt:1))                 - None              \ntr              ✗ Runtime Error ✗ No (35%)           ✓ Yes (Turkish:9 (cmt:8, str:1))         Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:13:05.090567"
+}

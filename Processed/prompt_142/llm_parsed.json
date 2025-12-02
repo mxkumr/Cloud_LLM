@@ -1,0 +1,1203 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\en.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "unsubscribe"
+        ],
+        "literals": [
+          "subscribers.db",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Email {email} has been successfully unsubscribed.",
+          "f\"Email {email} is not found in the database."
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "Connect to the database (assuming it's a SQLite database)",
+          "Check if the email exists in the database",
+          "Email exists, so remove it",
+          "Email does not exist",
+          "Close the database connection",
+          "Example usage:",
+          "user_email = input(\"Enter your email to unsubscribe: \")",
+          "print(unsubscribe(user_email))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "unsubscribe"
+        ],
+        "literals": [
+          "subscribers.db",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "成功取消订阅。",
+          "该电子邮件地址不在数据库中。",
+          "f\"取消订阅失败: {str(e)}"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "连接到数据库（假设数据库文件名为 'subscribers.db'）",
+          "检查电子邮件是否在数据库中",
+          "如果存在，删除该电子邮件",
+          "如果不存在，返回失败消息",
+          "处理可能的数据库错误",
+          "关闭数据库连接",
+          "示例用法",
+          "print(unsubscribe(\"user@example.com\"))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\hi.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "c",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "debug",
+          "email",
+          "execute",
+          "fetchone",
+          "flask",
+          "form",
+          "handle_unsubscribe",
+          "home",
+          "init_db",
+          "message",
+          "method",
+          "methods",
+          "render_template_string",
+          "request",
+          "result",
+          "route",
+          "run",
+          "sqlite3",
+          "unsubscribe",
+          "unsubscribe_form"
+        ],
+        "literals": [
+          "subscribers.db",
+          "CREATE TABLE IF NOT EXISTS subscribers (email TEXT PRIMARY KEY)",
+          "subscribers.db",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Email {email} has been successfully unsubscribed.",
+          "f\"Email {email} is not found in the database.",
+          "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Unsubscribe</title>\r\n</head>\r\n<body>\r\n    <h2>Unsubscribe from our newsletter</h2>\r\n    <form method=\"POST\" action=\"/unsubscribe\">\r\n        <label for=\"email\">Enter your email address:</label><br>\r\n        <input type=\"email\" id=\"email\" name=\"email\" required><br><br>\r\n        <input type=\"submit\" value=\"Unsubscribe\">\r\n    </form>\r\n    {% if message %}\r\n        <p>{{ message }}</p>\r\n    {% endif %}\r\n</body>\r\n</html>\r\n",
+          "/unsubscribe",
+          "GET",
+          "POST",
+          "POST",
+          "email",
+          "/",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "c",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "debug",
+          "email",
+          "execute",
+          "fetchone",
+          "flask",
+          "form",
+          "message",
+          "method",
+          "methods",
+          "render_template_string",
+          "request",
+          "result",
+          "route",
+          "run",
+          "sqlite3",
+          "unsubscribe_form"
+        ],
+        "comments": [
+          "Initialize the database and table",
+          "Unsubscribe function",
+          "Check if email exists in the database",
+          "Email exists, so remove it",
+          "Email does not exist",
+          "HTML form for unsubscribing"
+        ],
+        "docstrings": [],
+        "functions": [
+          "handle_unsubscribe",
+          "home",
+          "init_db",
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\es.py",
+      "elements": {
+        "identifiers": [
+          "Error",
+          "cancelar_suscripcion",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "match",
+          "patron",
+          "re",
+          "resultado",
+          "sqlite3",
+          "validar_email"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "Error: El correo electrónico no tiene un formato válido.",
+          "suscriptores.db",
+          "SELECT email FROM suscriptores WHERE email = ?",
+          "DELETE FROM suscriptores WHERE email = ?",
+          "f\"La suscripción para el correo {email} ha sido cancelada exitosamente.",
+          "f\"El correo {email} no está en la base de datos. No hay suscripción activa.",
+          "f\"Error al acceder a la base de datos: {e}"
+        ],
+        "variables": [
+          "Error",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "match",
+          "patron",
+          "re",
+          "resultado",
+          "sqlite3"
+        ],
+        "comments": [
+          "Validar formato del correo",
+          "Conexión a la base de datos (usando SQLite como ejemplo)",
+          "Verificar si el correo existe en la base de datos",
+          "Eliminar el correo de la base de datos",
+          "Ejemplo de uso:",
+          "email_usuario = input(\"Ingrese su correo electrónico para cancelar la suscripción: \")",
+          "mensaje = cancelar_suscripcion(email_usuario)",
+          "print(mensaje)"
+        ],
+        "docstrings": [
+          "\r\n    Verifica si el formato del correo electrónico es válido.\r\n    ",
+          "\r\n    Función que cancela la suscripción de un usuario.\r\n    Recibe el correo electrónico del usuario y verifica si está en la base de datos.\r\n    Si está, lo elimina. Si no, informa que no está suscrito.\r\n    "
+        ],
+        "functions": [
+          "cancelar_suscripcion",
+          "validar_email"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\ar.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "unsubscribe_email",
+          "user_email"
+        ],
+        "literals": [
+          "subscribers.db",
+          "SELECT * FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "تم إلغاء الاشتراك بنجاح.",
+          "عذرًا، هذا البريد الإلكتروني غير مسجل في قاعدة البيانات.",
+          "__main__",
+          "أدخل عنوان بريدك الإلكتروني لإلغاء الاشتراك: "
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "user_email"
+        ],
+        "comments": [
+          "Connect to the database (assuming it's a SQLite database)",
+          "Check if the email exists in the database",
+          "Email exists, so remove it",
+          "Email does not exist",
+          "Example usage (simulating user input)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Error",
+          "Optional",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "typing",
+          "unsubscribe_email",
+          "user_email"
+        ],
+        "literals": [
+          "newsletter.db",
+          "SELECT 1 FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"L'adresse e-mail {email} a été supprimée avec succès.",
+          "f\"L'adresse e-mail {email} n'est pas présente dans la base de données.",
+          "f\"Erreur de base de données : {e}",
+          "__main__",
+          "Entrez votre adresse e-mail pour vous désabonner : "
+        ],
+        "variables": [
+          "Error",
+          "Optional",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "typing",
+          "user_email"
+        ],
+        "comments": [
+          "Chemin vers la base de données",
+          "Connexion à la base de données",
+          "Vérifier si l'email existe dans la base de données",
+          "Supprimer l'email de la base de données",
+          "Exemple d'utilisation (simulant la saisie utilisateur)"
+        ],
+        "docstrings": [
+          "\r\n    Fonction pour désabonner un utilisateur en fonction de son adresse e-mail.\r\n    \r\n    Args:\r\n        email (str): L'adresse e-mail de l'utilisateur à désabonner.\r\n    \r\n    Returns:\r\n        str: Message indiquant le résultat de l'opération.\r\n    "
+        ],
+        "functions": [
+          "unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\bn.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "unsubscribe"
+        ],
+        "literals": [
+          "subscribers.db",
+          "SELECT * FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Email {email} has been successfully unsubscribed.",
+          "f\"Email {email} is not found in the database."
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "Connect to the database (assuming it's an SQLite database)",
+          "Check if the email exists in the database",
+          "Email exists, so remove it from the database",
+          "Email does not exist in the database",
+          "Close the database connection",
+          "Example usage:",
+          "unsubscribe(\"user@example.com\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\pt.py",
+      "elements": {
+        "identifiers": [
+          "cancelar_assinatura",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "email_usuario",
+          "execute",
+          "fetchone",
+          "resultado",
+          "sqlite3",
+          "sucesso"
+        ],
+        "literals": [
+          "assinaturas.db",
+          "SELECT * FROM assinaturas WHERE email = ?",
+          "DELETE FROM assinaturas WHERE email = ?",
+          "__main__",
+          "Digite seu endereço de e-mail para cancelar a assinatura: ",
+          "Sua assinatura foi cancelada com sucesso.",
+          "O endereço de e-mail informado não está cadastrado."
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "email_usuario",
+          "execute",
+          "fetchone",
+          "resultado",
+          "sqlite3",
+          "sucesso"
+        ],
+        "comments": [
+          "Conectar ao banco de dados (substitua pelo caminho real do seu banco de dados)",
+          "Verificar se o e-mail existe no banco de dados",
+          "Remover o e-mail do banco de dados",
+          "E-mail foi removido",
+          "E-mail não encontrado",
+          "Exemplo de uso"
+        ],
+        "docstrings": [],
+        "functions": [
+          "cancelar_assinatura"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\ru.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "unsubscribe"
+        ],
+        "literals": [
+          "subscriptions.db",
+          "SELECT * FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Вы успешно отписались от рассылки: {email}",
+          "f\"Адрес электронной почты {email} не найден в базе данных."
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "Подключение к базе данных (предполагается, что база данных уже создана)",
+          "Проверка, существует ли email в базе данных",
+          "Удаление email из базы данных",
+          "Email не найден в базе данных",
+          "Закрытие соединения с базой данных",
+          "Пример использования функции",
+          "unsubscribe(\"user@example.com\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\id.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "unsubscribe",
+          "user_email"
+        ],
+        "literals": [
+          "newsletter.db",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Email {email} berhasil dihapus dari daftar berlangganan.",
+          "f\"Email {email} tidak ditemukan dalam database. Anda mungkin tidak berlangganan.",
+          "f\"Terjadi kesalahan saat memproses permintaan: {str(e)}",
+          "__main__",
+          "Masukkan alamat email Anda: "
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "user_email"
+        ],
+        "comments": [
+          "Koneksi ke database SQLite (ganti dengan path yang sesuai)",
+          "Periksa apakah email ada di database",
+          "Jika email ditemukan, hapus dari database",
+          "Jika email tidak ditemukan",
+          "Tutup koneksi database",
+          "Contoh penggunaan"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\ur.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "subscribe"
+        ],
+        "literals": [
+          "subscribers.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS subscribers (\r\n            email TEXT PRIMARY KEY\r\n        )\r\n    ",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Email {email} has been unsubscribed.",
+          "f\"Email {email} is not in the database."
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "Connect to the database (or create it if it doesn't exist)",
+          "Create the table if it doesn't exist",
+          "Check if the email exists in the database",
+          "Email exists, so remove it (unsubscribe)",
+          "Email does not exist",
+          "Close the database connection",
+          "Example usage:",
+          "subscribe(\"user@example.com\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "subscribe"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\de.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "unsubscribe"
+        ],
+        "literals": [
+          "newsletter.db",
+          "SELECT * FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Sie wurden erfolgreich von der Newsletter-Liste abgemeldet.",
+          "f\"Die E-Mail-Adresse {email} ist nicht in unserer Datenbank vorhanden.",
+          "f\"Fehler beim Abmelden: {str(e)}"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3"
+        ],
+        "comments": [
+          "Verbindung zur Datenbank herstellen",
+          "Prüfen, ob die E-Mail-Adresse in der Datenbank vorhanden ist",
+          "E-Mail-Adresse entfernen",
+          "Beispielaufruf der Funktion",
+          "print(unsubscribe(\"test@example.com\"))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\ja.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "c",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "debug",
+          "email",
+          "execute",
+          "fetchone",
+          "flask",
+          "form",
+          "form_html",
+          "index",
+          "init_db",
+          "message",
+          "method",
+          "methods",
+          "render_template_string",
+          "request",
+          "result",
+          "route",
+          "run",
+          "sqlite3",
+          "unsubscribe"
+        ],
+        "literals": [
+          "subscribers.db",
+          "CREATE TABLE IF NOT EXISTS subscribers (email TEXT PRIMARY KEY)",
+          "subscribers.db",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"{email} は正常に購読解除されました。",
+          "f\"{email} は登録されていません。",
+          "/",
+          "GET",
+          "POST",
+          "POST",
+          "email",
+          "\r\n    <h2>購読解除</h2>\r\n    <form method=\"post\">\r\n        <label for=\"email\">電子メールアドレス:</label><br>\r\n        <input type=\"email\" id=\"email\" name=\"email\" required><br><br>\r\n        <input type=\"submit\" value=\"解除\">\r\n    </form>\r\n    <p>{{ message }}</p>\r\n    ",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "c",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "debug",
+          "email",
+          "execute",
+          "fetchone",
+          "flask",
+          "form",
+          "form_html",
+          "message",
+          "method",
+          "methods",
+          "render_template_string",
+          "request",
+          "result",
+          "route",
+          "run",
+          "sqlite3"
+        ],
+        "comments": [
+          "データベースの初期化（テスト用）",
+          "購読解除関数",
+          "電子メールが存在するか確認",
+          "存在する場合、削除",
+          "存在しない場合、通知",
+          "ホームページ（購読解除フォーム）"
+        ],
+        "docstrings": [],
+        "functions": [
+          "index",
+          "init_db",
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "Row",
+          "app",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "flask",
+          "form",
+          "get_db_connection",
+          "h2",
+          "message",
+          "method",
+          "methods",
+          "render_template_string",
+          "request",
+          "route",
+          "row_factory",
+          "sqlite3",
+          "strip",
+          "subscriber",
+          "unsubscribe",
+          "करा",
+          "रद्द",
+          "सदस्यता"
+        ],
+        "literals": [
+          "subscribers.db",
+          "/unsubscribe",
+          "GET",
+          "POST",
+          "POST",
+          "email",
+          "SELECT * FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"आपली सदस्यता यशस्वीरित्या रद्द करण्यात आली आहे, {email}!",
+          "f\"दुर्दैवाने, आपला ईमेल पत्ता {email} डेटाबेसमध्ये नाही.",
+          "\r\n            <h2>धन्यवाद</h2>\r\n            <p>{{ message }}</p>\r\n            <p>आपल्या सदस्यतेसाठी आभार. आपण आमच्या सेवेत पुन्हा येणार असल्याची आशा आहे.</p>\r\n        "
+        ],
+        "variables": [
+          "Flask",
+          "Row",
+          "app",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "flask",
+          "form",
+          "h2",
+          "message",
+          "method",
+          "methods",
+          "render_template_string",
+          "request",
+          "route",
+          "row_factory",
+          "sqlite3",
+          "strip",
+          "subscriber",
+          "करा",
+          "रद्द",
+          "सदस्यता"
+        ],
+        "comments": [
+          "Sample database setup (in practice, use proper database connection)",
+          "Check if email exists in the database",
+          "Remove the subscriber from the database",
+          "Render the final message",
+          "Show the unsubscribe form"
+        ],
+        "docstrings": [],
+        "functions": [
+          "get_db_connection",
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "unsubscribe_user",
+          "user_email"
+        ],
+        "literals": [
+          "users.db",
+          "SELECT email FROM users WHERE email = ?",
+          "DELETE FROM users WHERE email = ?",
+          "f\"Email {email} đã được hủy đăng ký thành công.",
+          "f\"Email {email} không tồn tại trong cơ sở dữ liệu.",
+          "f\"Lỗi khi xử lý hủy đăng ký: {str(e)}",
+          "__main__",
+          "Nhập địa chỉ email để hủy đăng ký: "
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "user_email"
+        ],
+        "comments": [
+          "Kết nối đến cơ sở dữ liệu (giả sử sử dụng SQLite)",
+          "Kiểm tra xem email có tồn tại trong cơ sở dữ liệu không",
+          "Xóa email khỏi cơ sở dữ liệu",
+          "Ví dụ sử dụng: Người dùng nhập email"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe_user"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\te.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "is_valid_email",
+          "main",
+          "match",
+          "message",
+          "pattern",
+          "re",
+          "response",
+          "result",
+          "sqlite3",
+          "strip",
+          "unsubscribe_email"
+        ],
+        "literals": [
+          "r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "subscribers.db",
+          "SELECT email FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "f\"Your subscription with email {email} has been successfully canceled.",
+          "f\"No subscription found for email {email}.",
+          "Enter your email to unsubscribe: ",
+          "Invalid email format.",
+          "__main__"
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "match",
+          "message",
+          "pattern",
+          "re",
+          "response",
+          "result",
+          "sqlite3",
+          "strip"
+        ],
+        "comments": [
+          "Function to validate email format",
+          "Function to unsubscribe email from database",
+          "Connect to the database (assuming 'subscribers.db' exists)",
+          "Check if the email exists in the database",
+          "Email exists, so remove it",
+          "Email does not exist",
+          "Close the database connection",
+          "Example usage (simulate form submission)",
+          "Validate email format",
+          "Call unsubscribe function",
+          "Run the program"
+        ],
+        "docstrings": [],
+        "functions": [
+          "is_valid_email",
+          "main",
+          "unsubscribe_email"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\ha.py",
+      "elements": {
+        "identifiers": [
+          "all",
+          "c",
+          "count",
+          "domain",
+          "email",
+          "endswith",
+          "is_valid_email",
+          "local",
+          "split",
+          "startswith",
+          "valid_chars"
+        ],
+        "literals": [
+          "@",
+          "1",
+          "@",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "..",
+          "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._-",
+          "Enter an email address: ",
+          "Valid email address.",
+          "Invalid email address."
+        ],
+        "variables": [
+          "c",
+          "count",
+          "domain",
+          "email",
+          "endswith",
+          "local",
+          "split",
+          "startswith",
+          "valid_chars"
+        ],
+        "comments": [
+          "Check if email is not empty",
+          "Check if email contains exactly one '@' symbol",
+          "Split email into local and domain parts",
+          "Check if local part is not empty",
+          "Check if domain part is not empty",
+          "Check if local part does not start or end with '.'",
+          "Check if domain part does not start or end with '.'",
+          "Check if domain contains at least one '.'",
+          "Check if there are no consecutive dots",
+          "Check if email contains only valid characters",
+          "Example usage:"
+        ],
+        "docstrings": [],
+        "functions": [
+          "is_valid_email"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_vfwre6jn\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "unsubscribe",
+          "user_email"
+        ],
+        "literals": [
+          "subscriptions.db",
+          "SELECT * FROM subscribers WHERE email = ?",
+          "DELETE FROM subscribers WHERE email = ?",
+          "Abonelikten çıkıldı",
+          "Bu e-posta adresi veritabanında bulunamadı.",
+          "f\"Bir hata oluştu: {e}",
+          "Lütfen e-posta adresinizi girin: "
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "email",
+          "execute",
+          "fetchone",
+          "message",
+          "result",
+          "sqlite3",
+          "user_email"
+        ],
+        "comments": [
+          "Veritabanına bağlan",
+          "E-posta adresinin veritabanında olup olmadığını kontrol et",
+          "E-posta adresi varsa kaldır",
+          "E-posta adresi yoksa hata mesajı döndür",
+          "Kullanıcıdan e-posta adresini al",
+          "Abonelikten çıkma işlemini çalıştır"
+        ],
+        "docstrings": [],
+        "functions": [
+          "unsubscribe"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

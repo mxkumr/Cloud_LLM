@@ -1,0 +1,905 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_20",
+  "summary": {
+    "total_languages": 18,
+    "successful": 16,
+    "syntax_errors": 1,
+    "runtime_errors": 1,
+    "success_rate": 88.88888888888889,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 27.718102424973768
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 12,
+      "total_locations": 61
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 204,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05426597595214844,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.42857142857142855,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 42.9%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 272,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07268428802490234,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "请提供一个数值作为命令行参数。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "请输入一个有效的数值。"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "从命令行读取值（假设为第一个参数）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "定义偏移量常量"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "添加偏移量并输出结果"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 219,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06866669654846191,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 260,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05519676208496094,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 31.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "Leer el valor de la línea de comandos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Definir el desplazamiento constante"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "Calcular el resultado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Mostrar el resultado en la salida estándar"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 180,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055582523345947266,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23809523809523808,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "قراءة القيمة من سطر الأوامر"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "الإزاحة الثابتة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "جمع القيمة مع الإزاحة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "طباعة الناتج"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 477,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07347416877746582,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2857142857142857,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 28.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Veuillez fournir une seule valeur en ligne de commande."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Veuillez entrer une valeur numérique valide."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Lecture de la valeur à partir de la ligne de commande"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Décalage constant"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Calcul de la valeur résultante"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "French",
+            "text": "Affichage de la valeur résultante"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 246,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06928825378417969,
+        "output": "0 + 1000 = 1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Bengali",
+            "text": "কমান্ড লাইন থেকে মান নেওয়া"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "অফসেট মান (1000)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Bengali",
+            "text": "মানের সাথে অফসেট যোগ করা"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "ফলাফল স্ট্রিং হিসেবে প্রিন্ট করা"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 259,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07743024826049805,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Lê o valor da linha de comando (primeiro argumento)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Define o deslocamento constante"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 184,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07058334350585938,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2631578947368421,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 26.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Russian",
+            "text": "Смещение"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Считываем значение из командной строки"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Добавляем смещение"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "Выводим результат"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 206,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05448126792907715,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.38095238095238093,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Membaca nilai dari baris perintah"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "Menambahkan offset 1000"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 547,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07286906242370605,
+        "output": "1000.0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.041666666666666664,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 204,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07427620887756348,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.18518518518518517,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 18.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard German",
+            "text": "Lesen des Werts aus der Befehlszeile"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Definieren des Offsets"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Addieren des Offsets"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "Ausgabe des Ergebnisses"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 275,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07350730895996094,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Please provide a valid integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 175,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05683016777038574,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 446,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07327628135681152,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5263157894736842,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 52.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Vui lòng nhập một số nguyên hợp lệ."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Vietnamese",
+            "text": "Giá trị offset cố định"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Giá trị mặc định nếu không có tham số từ dòng lệnh"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Đọc giá trị từ dòng lệnh, nếu không có thì dùng giá trị mặc định"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Vietnamese",
+            "text": "Tính tổng giá trị sau khi cộng offset"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "In ra kết quả"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 204,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07744479179382324,
+        "output": "1000"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 626,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp49m06671.py\", line 15, in <module>\n    print(f\"Kimar \\u0199asa: {kashe // 10}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0199' in position 6: character maps to <undefined>",
+        "execution_time": 0.16054105758666992,
+        "output": "Kimar al'ada: 1111111111000\nKimar umarni: 10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1723,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 49: unterminated string literal (detected at line 49)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 49: unterminated string literal (detected at line 49)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09090909090909091,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "    Verilen dizindeki tüm dosyaların isimlerini değiştirir."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "    Dosya isimlerine belirtilen offset (ofset) eklenir."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "    Örneğin, \"001.jpg\" -> \"1001.jpg\" olur."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Turkish",
+            "text": "        # Dizin var mı kontrol et"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "            print(f\"Hata: Dizin bulunamadı: {directory_path}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "        # Dizin içindeki tüm dosyaları listele"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "            # Sadece dosyaları işle"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Turkish",
+            "text": "                # Dosya ismini parçala: isim ve uzantı"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Turkish",
+            "text": "                # İsmi sayısal olarak kabul edilebilir mi kontrol et"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Standard German",
+            "text": "                if name.isdigit():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Turkish",
+            "text": "                    # Sayısal isimdeki değeri al"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Turkish",
+            "text": "                    # Ofset eklenmiş yeni isim"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Turkish",
+            "text": "                    # Yeni dosya yolu"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Turkish",
+            "text": "                    # Dosya ismini değiştir"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Turkish",
+            "text": "                    print(f\"İşleme alınmayan dosya (sayısal olmayan isim): {filename}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Turkish",
+            "text": "        print(\"Kullanım: python rename_files.py <dizin_yolu> <"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (43%)           ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (14%)           ✓ Yes (Chinese:5 (cmt:3, str:2))         - None              \nhi              ✓ Yes           ✗ No (25%)           ✗ No                                     - None              \nes              ✓ Yes           ✗ No (31%)           ✓ Yes (Spanish:4 (cmt:4))                - None              \nar              ✓ Yes           ✗ No (24%)           ✓ Yes (Arabic:4 (cmt:4))                 - None              \nfr              ✓ Yes           ✗ No (29%)           ✓ Yes (French:6 (cmt:4, str:2))          - None              \nbn              ✓ Yes           ✗ No (50%)           ✓ Yes (Bengali:4 (cmt:4))                - None              \npt              ✓ Yes           ✗ No (40%)           ✓ Yes (Portuguese:1 (cmt:1); Spanish:1 (cm... - None              \nru              ✓ Yes           ✗ No (26%)           ✓ Yes (Russian:4 (cmt:4))                - None              \nid              ✓ Yes           ✗ No (38%)           ✓ Yes (Indonesian:2 (cmt:2))             - None              \nur              ✓ Yes           ✗ No (4%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (19%)           ✓ Yes (German:4 (cmt:4))                 - None              \nja              ✓ Yes           ✗ No (20%)           ✓ Yes (Spanish:1 (str:1))                - None              \nmr              ✓ Yes           ✗ No (25%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (53%)           ✓ Yes (Vietnamese:6 (cmt:5, str:1))      - None              \nte              ✓ Yes           ✗ No (33%)           ✗ No                                     - None              \nha              ✗ Runtime Error ✗ No (16%)           ✗ No                                     Runtime: Traceback (most recent ca\ntr              ✗ Syntax Error  ✗ No (9%)            ✓ Yes (French:1 (unk:1); Portuguese:1 (unk... Syntax: Line 49: unterminated str\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:12.778803"
+}

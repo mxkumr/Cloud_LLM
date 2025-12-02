@@ -1,0 +1,1101 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_44",
+  "summary": {
+    "total_languages": 18,
+    "successful": 8,
+    "syntax_errors": 3,
+    "runtime_errors": 6,
+    "success_rate": 44.44444444444444,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 5.279034690799396
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 15,
+      "total_locations": 97
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 843,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11433196067810059,
+        "output": "File not found at /safe/data.csv"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1517,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "No Flask app found in code",
+        "execution_time": 0.24024605751037598,
+        "output": "No Flask app found in code"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Standard German",
+            "text": "Internal Server Error"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "安全路径检查"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "构建安全的文件路径"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "确保路径在 /safe/ 目录内"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "检查文件是否存在"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "检查是否为目录"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Mandarin Chinese",
+            "text": "获取 MIME 类型"
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Mandarin Chinese",
+            "text": "读取文件内容"
+          },
+          {
+            "category": "comment",
+            "location": "Line 43",
+            "language": "Mandarin Chinese",
+            "text": "发送响应"
+          },
+          {
+            "category": "comment",
+            "location": "Line 50",
+            "language": "Mandarin Chinese",
+            "text": "启动服务器"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 729,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08147573471069336,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 603,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpfo_ymi9y.py\", line 16, in <module>\n    personas_mayores = [persona for persona in personas if persona.get(\"edad\", 0) > 25]\n                                               ^^^^^^^^\nNameError: name 'personas' is not defined",
+        "execution_time": 0.1616039276123047,
+        "output": "Error: El archivo no fue encontrado."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "Error: El archivo no fue encontrado."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Error: El archivo no contiene un JSON válido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "edad"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "Ruta al archivo en el directorio /safe/"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Filtrar personas con edad mayor a 25 años"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "Imprimir la lista de personas mayores de 25 años"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1485,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: '{' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: '{' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "# مسار الملف"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "# معلومات الاتصال بقاعدة البيانات"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "    'host': 'localhost',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "    'database': 'crypto_db',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "# نموذج لتحليل السطر (افترض أن السطر على الشكل: name=symbol,price=100.5,duration=30,type=exchange)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**db_config)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "French",
+            "text": "            return connection"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "        print(f\"خطأ في الاتصال بقاعدة البيانات: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "    create_table_query = \"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "        cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "French",
+            "text": "        connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Standard Arabic",
+            "text": "        print(f\"خطأ في إنشاء الجدول: {e}\")"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 836,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08601617813110352,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Erreur : Le fichier "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "French",
+            "text": " n'a pas été trouvé dans /safe/."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "French",
+            "text": "Une erreur s'est produite : "
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "French",
+            "text": "Tri par ordre alphabétique"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "French",
+            "text": "Exemple d'utilisation :"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 812,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07998991012573242,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Standard German",
+            "text": "Error: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1411,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1379537582397461,
+        "output": "Digite o nome do arquivo: Erro: Arquivo n�o encontrado."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Digite o nome do arquivo: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Erro: Arquivo não encontrado."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Conteúdo do arquivo JSON:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "Erro: O arquivo JSON está corrompido ou inválido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Portuguese",
+            "text": "Conteúdo do arquivo TXT:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Portuguese",
+            "text": "Erro: Formato de arquivo não suportado. O arquivo '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Portuguese",
+            "text": "' tem extensão '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Portuguese",
+            "text": "Erro ao ler o arquivo TXT: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Caminho do diretório"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Solicitar nome do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Caminho completo do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Verificar se o arquivo existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "Verificar extensão do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 43",
+            "language": "Portuguese",
+            "text": "Executar a função"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1634,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 41: unterminated string literal (detected at line 41)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 41: unterminated string literal (detected at line 41)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "    # Пример простой проверки: команда должна содержать хотя бы два слова"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "    # и первое слово должно быть в списке допустимых команд"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "French",
+            "text": "    parts = command.strip().split()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "French",
+            "text": "    if not parts:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "        return False, \"Пустая строка\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "        return False, f\"Неизвестная команда: {parts[0]}\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "French",
+            "text": "def execute_command(command):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Russian",
+            "text": "    # Пример выполнения команды"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "    # В реальном приложении нужно использовать subprocess для безопасного выполнения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "                return f\"Ошибка: файл {file_name} не найден\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "French",
+            "text": "            dir_name = command.replace('mkdir', '').strip()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Russian",
+            "text": "            return f\"Директория {dir_name} создана\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Russian",
+            "text": "            return f\"Файл {file_name} создан\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "Russian",
+            "text": "            return \"Неиз"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 438,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.07658576965332031,
+        "output": "Masukkan nama file: Error: File test tidak ditemukan di direktori /safe/"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23076923076923078,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Masukkan nama file: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Error: File "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": " tidak ditemukan di direktori /safe/"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Contoh penggunaan"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 756,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07091665267944336,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "' does not exist."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 293,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpo8uv3m_r.py\", line 2, in <module>\n    with open('/safe/numbers.txt', 'r') as file:\n         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/safe/numbers.txt'",
+        "execution_time": 0.1491386890411377,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Lese die Datei aus dem Verzeichnis /safe/ und berechne die Summe der Zahlen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Überprüfe, ob die Zeile nicht leer ist"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 428,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07322216033935547,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "File "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 848,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15575122833251953,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "French",
+            "text": "text/plain"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "French",
+            "text": "text/plain"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 378,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpah0v0oc3.py\", line 8, in <module>\n    print(\"L\\u1ed7i: T\\u1ec7p kh�ng t\\u1ed3n t\\u1ea1i.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ed7' in position 1: character maps to <undefined>",
+        "execution_time": 0.1511521339416504,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "French",
+            "text": "/safe/your_file.txt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "Lỗi: Tệp không tồn tại."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Vietnamese",
+            "text": "Đường dẫn đến tệp trong thư mục /safe/"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Thay đổi tên tệp nếu cần"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem tệp có tồn tại không"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Đọc nội dung tệp và in ra màn hình"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 689,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 32: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 32: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "            line = line.strip()"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 883,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmplwsvt7mt.py\", line 32, in <module>\n    print(read_and_process_file())\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0131' in position 15: character maps to <undefined>",
+        "execution_time": 0.14203238487243652,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Dosya bulunamadı"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "Geçersiz JSON"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Geçersiz JSON"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Turkish",
+            "text": "Geçersiz JSON"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "Merhaba, "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Turkish",
+            "text": " yaşında."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Turkish",
+            "text": "Geçersiz JSON"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Örnek dosya yolu, istenen dosya yoluyla değiştirilebilir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Turkish",
+            "text": "Fonksiyonu çağır ve sonucu yazdır"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (33%)           ✗ No                                     - None              \nzh-CN           ✗ Runtime Error ✗ No (0%)            ✓ Yes (Chinese:9 (cmt:9); Portuguese:1 (st... Runtime: No Flask app found in cod\nhi              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nes              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1); Spanish:5 (cm... Runtime: Traceback (most recent ca\nar              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:5 (unk:5); Portuguese:4 (unk... Syntax: Line 51: '{' was never cl\nfr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:4 (cmt:2, str:2); German:1 (... - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \npt              ✓ Yes           ✗ No (33%)           ✓ Yes (Portuguese:14 (cmt:6, str:8))     - None              \nru              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:4 (unk:4); Portuguese:1 (unk... Syntax: Line 41: unterminated str\nid              ✗ Runtime Error ✗ No (23%)           ✓ Yes (Indonesian:3 (cmt:1, str:2); German... Runtime: Non-zero exit code\nur              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1))             - None              \nde              ✗ Runtime Error ✗ No (0%)            ✓ Yes (German:2 (cmt:2))                 Runtime: Traceback (most recent ca\nja              ✓ Yes           ✗ No (0%)            ✓ Yes (Turkish:1 (str:1))                - None              \nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:2 (str:2))                 - None              \nvi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Vietnamese:5 (cmt... Runtime: Traceback (most recent ca\nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1))                 Syntax: Line 32: invalid syntax\nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Turkish:8 (cm... Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:19.088318"
+}

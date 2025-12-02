@@ -1,0 +1,1724 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_6",
+  "summary": {
+    "total_languages": 18,
+    "successful": 8,
+    "syntax_errors": 0,
+    "runtime_errors": 10,
+    "success_rate": 44.44444444444444,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 7,
+      "average_similarity_score": 42.56902638424378
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 17,
+      "total_locations": 193
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 657,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06111741065979004,
+        "output": "Enter the index of a vehicle: Vehicle at index 0: car\nCurrent vehicles:\ncar\nbike\ntruck\nbus\nEnter a vehicle to add: Updated vehicles:\ncar\nbike\ntruck\nbus\ntest"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [
+          "string",
+          "return"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%) - Missing: string, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "bus"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 386,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5bunpant.py\", line 5, in <module>\n    index = int(input(\"\\u8bf7\\u8f93\\u5165\\u8f66\\u8f86\\u7684\\u7d22\\u5f15\\uff080-4\\uff09: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>",
+        "execution_time": 0.13727402687072754,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [
+          "array/list",
+          "string"
+        ],
+        "missing_keywords": [
+          "return"
+        ],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%) - Matched: array/list, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "车辆列表:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "请输入车辆的索引（0-4）: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "索引超出范围！"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Mandarin Chinese",
+            "text": "车辆数组的长度是: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "索引 "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": " 对应的车辆是: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Mandarin Chinese",
+            "text": "创建名为 \"vehicles\" 的字符串数组"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "提示用户输入车辆的索引"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "返回该索引对应的车辆"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "循环遍历数组并打印出每辆车"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "计算并打印出车辆数组的长度"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 675,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdefl_3pt.py\", line 5, in <module>\n    print(\"\\u0935\\u093e\\u0939\\u0928\\u094b\\u0902 \\u0915\\u0940 \\u0938\\u0942\\u091a\\u0940:\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>",
+        "execution_time": 0.13784170150756836,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 60.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Hindi",
+            "text": "स्कूटर"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Hindi",
+            "text": "बाइक"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Hindi",
+            "text": "कार"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Hindi",
+            "text": "ट्रक"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Hindi",
+            "text": "वाहनों की सूची:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Hindi",
+            "text": "\nसभी वाहन:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "कृपया एक सूचकांक चुनें (0 से 4 तक): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "अमान्य सूचकांक! कृपया 0 से 4 के बीच कोई संख्या चुनें।"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Hindi",
+            "text": "चयनित वाहन: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Hindi",
+            "text": "वाहनों की सूची बनाएं"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Hindi",
+            "text": "उपयोगकर्ता को वाहन के सूचकांक के लिए संकेत दें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "उपयोगकर्ता से सूचकांक प्राप्त करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": "उपयोगकर्ता द्वारा चुने गए वाहन को वापस करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Hindi",
+            "text": "सरणी के माध्यम से लूप करें और प्रत्येक वाहन को प्रिंट करें"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 810,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbwouj6o0.py\", line 5, in <module>\n    indice = int(input(\"Ingrese el �ndice de un veh�culo (0-4): \"))\n                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nEOFError: EOF when reading a line",
+        "execution_time": 0.15453553199768066,
+        "output": "Ingrese el �ndice de un veh�culo (0-4): Veh�culo seleccionado: Auto\nTodos los veh�culos:\nAuto\nCamioneta\nMoto\nBicicleta\nTriciclo\n�Desea continuar? (S/N): Respuesta no v�lida. Por favor, ingrese 'S' para continuar o 'N' para salir.\nIngrese el �ndice de un veh�culo (0-4):"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "string"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Auto"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Todos los vehículos:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Ingrese el índice de un vehículo (0-4): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "Índice fuera de rango. Intente de nuevo."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Por favor, ingrese un número válido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "Respuesta no válida. Por favor, ingrese 'S' para continuar o 'N' para salir."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Vehículo seleccionado: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1014,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0xyh9for.py\", line 5, in <module>\n    index = int(input(\"\\u0623\\u062f\\u062e\\u0644 \\u0641\\u0647\\u0631\\u0633 \\u0627\\u0644\\u0633\\u064a\\u0627\\u0631\\u0629 (0-3): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.1400437355041504,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.30434782608695654,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "سيارة أودي"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "سيارة تويوتا"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "سيارة مرسيدس"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard Arabic",
+            "text": "سيارة بورش"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "\nكل المركبات:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "\nأدخل اسم سيارة جديدة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "أدخل اسم سيارة للحذف: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard Arabic",
+            "text": "\nالمجموعة النهائية:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "أدخل فهرس السيارة (0-3): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "الفرز غير صحيح!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "السيارة المطلوبة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Standard Arabic",
+            "text": "تم حذف السيارة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Standard Arabic",
+            "text": "السيارة "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Standard Arabic",
+            "text": " غير موجودة في المجموعة!"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "إنشاء مجموعة من السلاسل تسمى المركبات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "طلب من المستخدم إدخال فهرس السيارة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "التحقق من أن الفهرس صحيح"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "تحويل المجموعة إلى قائمة لاستخدام الفهرس"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "طباعة كل مركبة في المجموعة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Standard Arabic",
+            "text": "طلب إدخال اسم سيارة جديدة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Standard Arabic",
+            "text": "طلب إدخال اسم سيارة للحذف"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Standard Arabic",
+            "text": "طباعة المجموعة النهائية"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 791,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05786848068237305,
+        "output": "Entrez l'index d'un v�hicule : Le v�hicule � l'index 0 est : voiture\nListe des v�hicules :\nvoiture\nmoto\nv�lo\ncamion\nbus\nNombre total de v�hicules : 5\nEntrez un nouveau v�hicule : Nouveau tableau de v�hicules :\n['voiture', 'moto', 'v�lo', 'camion', 'bus', 'test']"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Liste des véhicules :"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "French",
+            "text": "Entrez un nouveau véhicule : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "French",
+            "text": "Nouveau tableau de véhicules :"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Entrez l'index d'un véhicule : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Le véhicule à l'index "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "French",
+            "text": " est : "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Nombre total de véhicules : "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "French",
+            "text": "Création d'un tableau de chaînes appelées véhicules"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "French",
+            "text": "Demande à l'utilisateur l'index d'un véhicule"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Renvoie le véhicule à l'index spécifié"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "French",
+            "text": "Parcours du tableau et impression de chaque véhicule"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "French",
+            "text": "Affichage du nombre total de véhicules dans le tableau"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "French",
+            "text": "Ajout d'un nouveau véhicule au tableau"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "French",
+            "text": "Affichage du nouveau tableau"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 413,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp434ma1r7.py\", line 5, in <module>\n    index = int(input(\"\\u0997\\u09be\\u09a1\\u09bc\\u09bf\\u09b0 \\u09b8\\u09c2\\u099a\\u0995 \\u09a6\\u09bf\\u09a8 (0-4): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>",
+        "execution_time": 0.13387203216552734,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Bengali",
+            "text": "গাড়ির সূচক দিন (0-4): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Bengali",
+            "text": "আপনার নির্বাচিত গাড়ি: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "সূচক "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Bengali",
+            "text": "যানবাহনের নামের একটি অ্যারে তৈরি করুন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Bengali",
+            "text": "ব্যবহারকারীকে একটি গাড়ির সূচকের জন্য অনুরোধ করুন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Bengali",
+            "text": "সেই সূচকের গাড়িটি ফেরত দিন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "অ্যারের মাধ্যমে লুপ এবং প্রতিটি গাড়ি এবং সূচক প্রিন্ট করুন"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 632,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055396318435668945,
+        "output": "Digite o �ndice de um ve�culo (0-4): Ve�culo no �ndice 0: Carro\n\nLista de ve�culos (usando for):\nCarro\nMoto\nBicicleta\nTriciclo\nCaminh�o\n\nLista de ve�culos (usando while):\nCarro\nMoto\nBicicleta\nTriciclo\nCaminh�o"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "string"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Spanish",
+            "text": "Carro"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "Caminhão"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "\nLista de veículos (usando for):"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "\nLista de veículos (usando while):"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Portuguese",
+            "text": "Digite o índice de um veículo (0-4): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "Veículo no índice "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Solicita ao usuário o índice de um veículo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Retorna o veículo com base no índice"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "Percorre a matriz com um laço for e imprime cada veículo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Percorre a matriz com um laço while e imprime cada veículo"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 753,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_r29mci_.py\", line 5, in <module>\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441 \\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\\u043d\\u043e\\u0433\\u043e \\u0441\\u0440\\u0435\\u0434\\u0441\\u0442\\u0432\\u0430 (0-4): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>",
+        "execution_time": 0.1367497444152832,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.36,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "автомобиль"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "мотоцикл"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "велосипед"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "самолет"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "поезд"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "\nТранспортные средства (прямой порядок):"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "\nТранспортные средства (обратный порядок):"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "Введите индекс транспортного средства (0-4): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "Некорректный индекс!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "Транспортное средство по индексу "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Russian",
+            "text": "Создание массива строк с транспортными средствами"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Запрос у пользователя индекса транспортного средства"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Вывод транспортного средства по введённому индексу"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": "Вывод всех транспортных средств в прямом порядке"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Вывод всех транспортных средств в обратном порядке"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 642,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05800175666809082,
+        "output": "Masukkan indeks kendaraan (0-4): Kendaraan pada indeks 0 adalah: mobil\n\nDaftar kendaraan:\n0: mobil\n1: motor\n2: sepeda\n3: bus\n4: truk\n\nJumlah kendaraan: 5"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "sepeda"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Indonesian",
+            "text": "bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "\nDaftar kendaraan:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Masukkan indeks kendaraan (0-4): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "\nJumlah kendaraan: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "Kendaraan pada indeks "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": " adalah: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Membuat array string yang disebut kendaraan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "Meminta pengguna untuk mengindeks kendaraan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Mengembalikan kendaraan berdasarkan indeks"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Mengulang array dan mencetak setiap kendaraan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Mencetak jumlah kendaraan yang ada"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 549,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpgta1807v.py\", line 5, in <module>\n    index = int(input(\"\\u06af\\u0627\\u0691\\u06cc \\u06a9\\u0627 \\u0627\\u0634\\u0627\\u0631\\u06cc\\u06c1 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba (0 \\u0633\\u06d2 4 \\u062a\\u06a9): \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.13149023056030273,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.8333333333333334,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 83.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "BMW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "\nسائیکل کے ذریعے ہر گاڑی پرنٹ کی جا رہی ہے:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "گاڑی کا اشاریہ درج کریں (0 سے 4 تک): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "غلط اشاریہ! صرف 0 سے 4 تک کا اشاریہ قابل قبول ہے."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "درست گاڑی: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "تیار کریں: کوڈ گاڑیاں نامی تار کی ایک صف تیار کرتا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "صارف کو گاڑی کے اشاریہ کے لئے اشارہ کرتا ہے اور اس گاڑی کو واپس کرتا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "چیک کریں کہ اشاریہ درست ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "سرنی کے ذریعے کھڑا ہوتا ہے اور ہر گاڑی کو پرنٹ کرتا ہے"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 702,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09372162818908691,
+        "output": "Geben Sie den Index eines Fahrzeugs ein: Das Fahrzeug an Index 0 ist: Auto\nAlle Fahrzeuge:\nAuto\nFahrrad\nMotorrad\nLKW\nBus\nGesamtanzahl der R�der aller Fahrzeuge: 22"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Auto"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Fahrrad"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Spanish",
+            "text": "Motorrad"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "French",
+            "text": "LKW"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Alle Fahrzeuge:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Geben Sie den Index eines Fahrzeugs ein: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Das Fahrzeug an Index "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": " ist: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "Gesamtanzahl der Räder aller Fahrzeuge: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Erstellen eines Arrays von Zeichenfolgen (Fahrzeuge)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "Benutzer zur Eingabe des Index auffordern"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Fahrzeug an dem angegebenen Index zurückgeben"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Jedes Fahrzeug ausdrucken"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Erstellen eines Arrays mit der Anzahl der Räder jedes Fahrzeugs"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "Gesamtanzahl der Räder berechnen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Gesamtanzahl der Räder ausgeben"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 264,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05558967590332031,
+        "output": "Enter the index of the vehicle: Selected vehicle: car\nAll vehicles:\ncar\ntruck\nmotorcycle\nbicycle\nbus\nLength of the vehicle list: 5"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "bus"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 251,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpjjhqsiwv.py\", line 5, in <module>\n    location = input()\nEOFError: EOF when reading a line",
+        "execution_time": 0.16483592987060547,
+        "output": "Enter the location of Car: Enter the location of Bike:"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Bus"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 609,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdx6f78e7.py\", line 5, in <module>\n    chi_so = int(input(\"Nh\\u1eadp ch\\u1ec9 s\\u1ed1 c\\u1ee7a chi\\u1ebfc xe b\\u1ea1n mu\\u1ed1n t�m: \"))\n                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>",
+        "execution_time": 0.16167950630187988,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.7083333333333334,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 70.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Xe đạp"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Xe máy"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Ô tô"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Vietnamese",
+            "text": "Tàu hỏa"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "\nDanh sách các phương tiện:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Nhập chỉ số của chiếc xe bạn muốn tìm: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "Chỉ số không hợp lệ!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "\nTổng số lượng xe: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Chiếc xe tại chỉ số "
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Tạo mảng các chuỗi gọi là phương tiện"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Nhập chỉ số của một chiếc xe từ người dùng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "Trả về chiếc xe tại chỉ số đó"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Lặp qua mảng và in ra từng chiếc xe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "In ra số lượng xe trong mảng"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 321,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05631208419799805,
+        "output": "Available vehicles:\n0: Car\n1: Bike\n2: Truck\n3: Bus\n4: Motorcycle\nEnter the index of the vehicle: You selected: Car"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Indonesian",
+            "text": "Bike"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Truck"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Bus"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Available vehicles:"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 600,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09415411949157715,
+        "output": "Sum from 1000 to 1000000: 500000000500\nSum from 1000000 to 1000 (reversed): 500000000500"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 706,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmppzanfus4.py\", line 5, in <module>\n    endeks = int(input(\"Bir arac\\u0131n endeksinin al\\u0131nmas\\u0131 i�in bir say\\u0131 girin (0-4): \"))\n                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0131' in position 8: character maps to <undefined>",
+        "execution_time": 0.14760041236877441,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4230769230769231,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 42.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "Otobüs"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "Bisiklet"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "\nTüm araçlar:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "\nBir aracın adını girin: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "Bir aracın endeksinin alınması için bir sayı girin (0-4): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": " olan araç: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Turkish",
+            "text": " aracının dizideki endeksi: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Turkish",
+            "text": " aracını dizide bulamadık."
+          },
+          {
+            "category": "variable",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "araçlar"
+          },
+          {
+            "category": "variable",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "araçlar"
+          },
+          {
+            "category": "variable",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "araç_adi"
+          },
+          {
+            "category": "variable",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": "araç_adi"
+          },
+          {
+            "category": "variable",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "araçlar"
+          },
+          {
+            "category": "variable",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "araç_adi"
+          },
+          {
+            "category": "variable",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "araçlar"
+          },
+          {
+            "category": "variable",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "araçlar"
+          },
+          {
+            "category": "variable",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "araç_adi"
+          },
+          {
+            "category": "variable",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "araç_adi"
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "Araçlar dizisini oluştur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Turkish",
+            "text": "Kullanıcıdan aracın endeksinin alınması"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Dizi boyunca döngü yaparak her bir aracın çıktısını al"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Kullanıcıdan bir aracın adını ister ve aracın dizideki endeksinin çıktısını alır"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (33%)           ✓ Yes (Indonesian:1 (str:1); Turkish:1 (st... Prompt: Missing 2 keywords\nzh-CN           ✗ Runtime Error ✓ Yes (67%)          ✓ Yes (Indonesian:1 (str:1); Chinese:11 (c... Runtime: Traceback (most recent ca\nhi              ✗ Runtime Error ✓ Yes (60%)          ✓ Yes (Hindi:14 (cmt:5, str:9))          Runtime: Traceback (most recent ca\nes              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1); Spanish:5 (st... Runtime: Traceback (most recent ca; Prompt: Missing 1 keywords\nar              ✗ Runtime Error ✗ No (30%)           ✓ Yes (Arabic:22 (cmt:8, str:14))        Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:14 (cmt:7, str:7); Indonesia... - None              \nbn              ✗ Runtime Error ✗ No (33%)           ✓ Yes (Bengali:7 (cmt:4, str:3); Indonesia... Runtime: Traceback (most recent ca\npt              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:7 (cmt:4, str:3); Spanis... Prompt: Missing 1 keywords\nru              ✗ Runtime Error ✗ No (36%)           ✓ Yes (Russian:15 (cmt:5, str:10))       Runtime: Traceback (most recent ca\nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:12 (cmt:5, str:7))     - None              \nur              ✗ Runtime Error ✓ Yes (83%)          ✓ Yes (Arabic:8 (cmt:4, str:4); German:1 (... Runtime: Traceback (most recent ca\nde              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (str:1); Spanish:1 (str:1)... - None              \nja              ✓ Yes           ✗ No (10%)           ✓ Yes (Indonesian:1 (str:1); Vietnamese:1 ... - None              \nmr              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); German:1 (str... Runtime: Traceback (most recent ca\nvi              ✗ Runtime Error ✓ Yes (71%)          ✓ Yes (Vietnamese:14 (cmt:5, str:9))     Runtime: Traceback (most recent ca\nte              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Indonesian:1 (str... - None              \nha              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \ntr              ✗ Runtime Error ✗ No (42%)           ✓ Yes (Portuguese:5 (var:5); Turkish:17 (c... Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:49.467935"
+}

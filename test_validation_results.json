@@ -1,0 +1,217 @@
+{
+  "total_tests": 22,
+  "passed_tests": 19,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "name": "Chinese docstring detection",
+      "passed": true,
+      "details": "Detected: True, Locations: 7, Chinese found: True",
+      "execution_time": 1.6391873359680176
+    },
+    {
+      "name": "Hindi comments detection",
+      "passed": true,
+      "details": "Detected: True, Hindi comments: 4",
+      "execution_time": 0.014202117919921875
+    },
+    {
+      "name": "Spanish string literals detection",
+      "passed": true,
+      "details": "Detected: True, Spanish strings: 1",
+      "execution_time": 0.02749156951904297
+    },
+    {
+      "name": "French docstring and comments",
+      "passed": true,
+      "details": "Detected: True, French locations: 7",
+      "execution_time": 0.1647796630859375
+    },
+    {
+      "name": "Mixed languages detection",
+      "passed": true,
+      "details": "Detected: True, Languages found: 4 (Spanish, Hindi, French)",
+      "execution_time": 0.13764047622680664
+    },
+    {
+      "name": "Japanese code detection",
+      "passed": false,
+      "details": "Detected: True, Japanese found: False",
+      "execution_time": 0.0031440258026123047
+    },
+    {
+      "name": "Russian docstring detection",
+      "passed": true,
+      "details": "Detected: True, Russian found: True",
+      "execution_time": 0.10696768760681152
+    },
+    {
+      "name": "Pure English code (no detection)",
+      "passed": false,
+      "details": "Detected: True, Expected: False",
+      "execution_time": 0.014694452285766602
+    },
+    {
+      "name": "Valid syntax",
+      "passed": true,
+      "details": "Valid: True",
+      "execution_time": 0.00011181831359863281
+    },
+    {
+      "name": "Syntax error detection",
+      "passed": true,
+      "details": "Error type: SyntaxError",
+      "execution_time": 0.00035858154296875
+    },
+    {
+      "name": "Empty code handling",
+      "passed": true,
+      "details": "Error type: EmptyCode",
+      "execution_time": 5.7220458984375e-06
+    },
+    {
+      "name": "Successful execution",
+      "passed": true,
+      "details": "Success: True",
+      "execution_time": 0.07810664176940918
+    },
+    {
+      "name": "Runtime error handling",
+      "passed": true,
+      "details": "Error type: RuntimeError",
+      "execution_time": 0.44240808486938477
+    },
+    {
+      "name": "Code with multilingual output",
+      "passed": false,
+      "details": "Success: False",
+      "execution_time": 0.19415712356567383
+    },
+    {
+      "name": "Exact prompt match",
+      "passed": true,
+      "details": "Similar: True, Score: 1.00",
+      "execution_time": 0.0008783340454101562
+    },
+    {
+      "name": "Partial prompt match",
+      "passed": true,
+      "details": "Similar: False, Score: 0.00",
+      "execution_time": 9.393692016601562e-05
+    },
+    {
+      "name": "Full validation with multilingual",
+      "passed": true,
+      "details": "Status: success, Multilingual: True",
+      "execution_time": 0.20165538787841797
+    },
+    {
+      "name": "Validation with syntax error",
+      "passed": true,
+      "details": "Status: syntax_error",
+      "execution_time": 0.012302875518798828
+    },
+    {
+      "name": "Unicode handling",
+      "passed": true,
+      "details": "No crash on Unicode",
+      "execution_time": 0.0
+    },
+    {
+      "name": "Very long strings",
+      "passed": true,
+      "details": "Time: 0.02s",
+      "execution_time": 0.016919612884521484
+    },
+    {
+      "name": "Malformed code handling",
+      "passed": true,
+      "details": "No crash on syntax error",
+      "execution_time": 0.0
+    },
+    {
+      "name": "Empty code handling",
+      "passed": true,
+      "details": "Handled empty code",
+      "execution_time": 0.0
+    }
+  ],
+  "performance_metrics": [
+    {
+      "test": "Chinese docstring detection",
+      "time": 1.6391873359680176
+    },
+    {
+      "test": "Hindi comments detection",
+      "time": 0.014202117919921875
+    },
+    {
+      "test": "Spanish string literals detection",
+      "time": 0.02749156951904297
+    },
+    {
+      "test": "French docstring and comments",
+      "time": 0.1647796630859375
+    },
+    {
+      "test": "Mixed languages detection",
+      "time": 0.13764047622680664
+    },
+    {
+      "test": "Japanese code detection",
+      "time": 0.0031440258026123047
+    },
+    {
+      "test": "Russian docstring detection",
+      "time": 0.10696768760681152
+    },
+    {
+      "test": "Pure English code (no detection)",
+      "time": 0.014694452285766602
+    },
+    {
+      "test": "Valid syntax",
+      "time": 0.00011181831359863281
+    },
+    {
+      "test": "Syntax error detection",
+      "time": 0.00035858154296875
+    },
+    {
+      "test": "Empty code handling",
+      "time": 5.7220458984375e-06
+    },
+    {
+      "test": "Successful execution",
+      "time": 0.07810664176940918
+    },
+    {
+      "test": "Runtime error handling",
+      "time": 0.44240808486938477
+    },
+    {
+      "test": "Code with multilingual output",
+      "time": 0.19415712356567383
+    },
+    {
+      "test": "Exact prompt match",
+      "time": 0.0008783340454101562
+    },
+    {
+      "test": "Partial prompt match",
+      "time": 9.393692016601562e-05
+    },
+    {
+      "test": "Full validation with multilingual",
+      "time": 0.20165538787841797
+    },
+    {
+      "test": "Validation with syntax error",
+      "time": 0.012302875518798828
+    },
+    {
+      "test": "Very long strings",
+      "time": 0.016919612884521484
+    }
+  ]
+}

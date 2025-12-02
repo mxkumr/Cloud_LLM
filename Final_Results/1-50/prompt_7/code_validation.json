@@ -1,0 +1,877 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_7",
+  "summary": {
+    "total_languages": 18,
+    "successful": 11,
+    "syntax_errors": 0,
+    "runtime_errors": 7,
+    "success_rate": 61.111111111111114,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 4,
+      "average_similarity_score": 36.25055637547731
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 11,
+      "total_locations": 53
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1019,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1015012264251709,
+        "output": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp_dng0i_m.py"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666663,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [
+          "3 parameters"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 16.7%) - Missing: 3 parameters"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 735,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06512594223022461,
+        "output": "invalid"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [
+          "function"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 0.0%) - Missing: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "获取命令行参数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "获取索引 1 处的参数，作为目标索引"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "检查目标索引是否在有效范围内"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "获取目标索引处的字符串"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "尝试将字符串转换为整数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "判断正负或零"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 610,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5fa_qz6f.py\", line 12, in <module>\n    integer_value = string_to_integer(string_value)\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5fa_qz6f.py\", line 4, in string_to_integer\n    return int(s)\nValueError: invalid literal for int() with base 10: 'C:\\\\Users\\\\MANISH~1\\\\AppData\\\\Local\\\\Temp\\\\tmp5fa_qz6f.py'",
+        "execution_time": 0.19696784019470215,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "Index "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 587,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.06548380851745605,
+        "output": "Error: Se requieren al menos dos argumentos en la l�nea de comandos."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Error: Se requieren al menos dos argumentos en la línea de comandos."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Spanish",
+            "text": "Error: El segundo argumento debe ser un número entero."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Hola Mundo"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "¡Hola Mundo!"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 568,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.0604856014251709,
+        "output": "Error: Not enough command-line arguments."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.030303030303030304,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 352,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05651354789733887,
+        "output": "Index hors limites."
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 655,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.07533121109008789,
+        "output": "Error: 'C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9597iibn.py' is not a valid integer."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard German",
+            "text": "Error: '"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1242,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.07616758346557617,
+        "output": "Erro: O programa deve ser executado com dois argumentos da linha de comando."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [
+          "function"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 0.0%) - Missing: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Erro: O programa deve ser executado com dois argumentos da linha de comando."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "Erro: O índice "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": " está fora dos limites dos argumentos."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Verifica se foram passados exatamente dois argumentos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Obtém o índice do segundo argumento (índice 1)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Verifica se o índice está dentro dos limites dos argumentos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Obtém o argumento na posição INDEX"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "Imprime o valor do argumento na posição INDEX"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Portuguese",
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro, multiplicado por 2"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro, multiplicado por 2 e convertido..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Portuguese",
+            "text": "Imprime o valor do argumento na posição INDEX convertido em inteiro, multiplicado por 2 e convertido..."
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 653,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06049299240112305,
+        "output": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp0v2atlgt.py"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3548387096774194,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 35.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Ошибка: аргумент с индексом"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "не существует."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": "Ошибка: второй аргумент должен быть целым числом."
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Получаем аргументы командной строки"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Определяем индекс, который нужно использовать"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "значение по умолчанию"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "Проверяем, существует ли аргумент с указанным индексом"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "Выводим строку с указанным индексом"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 496,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05494999885559082,
+        "output": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvrq053r7.py"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Ambil argumen dari baris perintah"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "Ambil argumen kedua (indeks 1)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Konversi argumen kedua menjadi integer"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Ambil string pada posisi INDEX dari argumen baris perintah"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Fungsi untuk mencetak string"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "Gunakan fungsi cetak untuk mencetak string pada posisi INDEX"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 940,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05652427673339844,
+        "output": "Invalid index provided."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 687,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05720686912536621,
+        "output": "Fehler: Die Zeichenfolge 'C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpe12o58zm.py' kann nicht in eine Ganzzahl konvertiert werden."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Fehler: Kein Befehlszeilenargument übergeben."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Fehler: Index "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": " liegt außerhalb des gültigen Bereichs (0 bis "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "Fehler: Die Zeichenfolge '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "' kann nicht in eine Ganzzahl konvertiert werden."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Fehler: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 151,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07861804962158203,
+        "output": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4c9_9p9i.py"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.11764705882352941,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.8%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 310,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05647420883178711,
+        "output": "0\n0"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 626,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "L\\u1ed7i: Thi\\u1ebfu \\u0111\\u1ed1i s\\u1ed1 d�ng l\\u1ec7nh.",
+        "execution_time": 0.05667304992675781,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.30303030303030304,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "Lỗi: Thiếu đối số dòng lệnh."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "Lỗi: Chỉ số "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": " nằm ngoài phạm vi đối số dòng lệnh."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "Không thể chuyển đổi '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "' thành số nguyên."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "Lỗi: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 207,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07472991943359375,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 535,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0723564624786377,
+        "output": "[10, 40, 30, 40, 50]"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.8888888888888888,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 88.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "Buga Produrin kwace kirtani a matsayin index a cikin aikin layin da aka yi wa allo"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 185,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06840252876281738,
+        "output": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2uod3ifz.py"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14705882352941177,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "İkinci argümanı (index 1) al"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "INDEX konumundaki argümanı ekrana yazdır"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (17%)           ✗ No                                     Prompt: Missing 1 keywords\nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:6 (cmt:6))                Prompt: Missing 1 keywords\nhi              ✗ Runtime Error ✗ No (33%)           ✓ Yes (German:1 (str:1))                 Runtime: Traceback (most recent ca\nes              ✗ Runtime Error ✓ Yes (100%)         ✓ Yes (Spanish:4 (str:4))                Runtime: Non-zero exit code\nar              ✗ Runtime Error ✗ No (3%)            ✗ No                                     Runtime: Non-zero exit code\nfr              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nbn              ✗ Runtime Error ✗ No (25%)           ✓ Yes (German:1 (str:1))                 Runtime: Non-zero exit code\npt              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:12 (cmt:9, str:3))     Runtime: Non-zero exit code; Prompt: Missing 1 keywords\nru              ✓ Yes           ✗ No (35%)           ✓ Yes (Russian:8 (cmt:5, str:3))         - None              \nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:6 (cmt:6))             - None              \nur              ✗ Runtime Error ✗ No (0%)            ✗ No                                     Runtime: Non-zero exit code\nde              ✓ Yes           ✗ No (20%)           ✓ Yes (German:6 (str:6))                 - None              \nja              ✓ Yes           ✗ No (12%)           ✗ No                                     - None              \nmr              ✓ Yes           ✗ No (40%)           ✗ No                                     - None              \nvi              ✗ Runtime Error ✗ No (30%)           ✓ Yes (Vietnamese:6 (str:6))             Runtime: L\\u1ed7i: Thi\\u1ebfu \\u01\nte              ✓ Yes           ✗ No (33%)           ✗ No                                     - None              \nha              ✓ Yes           ✓ Yes (89%)          ✓ Yes (Indonesian:1 (cmt:1))             - None              \ntr              ✓ Yes           ✗ No (15%)           ✓ Yes (Turkish:2 (cmt:2))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:51.517140"
+}

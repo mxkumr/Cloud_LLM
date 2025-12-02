@@ -1,0 +1,185 @@
+{
+  "total_tests": 29,
+  "passed": 29,
+  "failed": 0,
+  "accuracy": 100.0,
+  "avg_performance": 0.138581448587878,
+  "performance_rating": "Good",
+  "overall_grade": "A (Excellent)",
+  "test_details": [
+    {
+      "name": "Syntax: Valid code",
+      "passed": true,
+      "details": "Expected: valid=True, Got: {'valid': True, 'error_type': None, 'error_message': None}",
+      "execution_time": 9.202957153320312e-05
+    },
+    {
+      "name": "Syntax: Invalid code",
+      "passed": true,
+      "details": "Expected: valid=False, error_type=SyntaxError, Got: SyntaxError",
+      "execution_time": 0.0008296966552734375
+    },
+    {
+      "name": "Syntax: Empty code",
+      "passed": true,
+      "details": "Expected: error_type=EmptyCode, Got: EmptyCode",
+      "execution_time": 1.6689300537109375e-06
+    },
+    {
+      "name": "Syntax: Complex valid code",
+      "passed": true,
+      "details": "Expected: valid=True, Got: True",
+      "execution_time": 0.00010824203491210938
+    },
+    {
+      "name": "Execution: Successful code",
+      "passed": true,
+      "details": "Expected: success=True, Got: True",
+      "execution_time": 0.07065200805664062
+    },
+    {
+      "name": "Execution: Runtime error",
+      "passed": true,
+      "details": "Expected: success=False, error_type=RuntimeError, Got: RuntimeError",
+      "execution_time": 1.272714614868164
+    },
+    {
+      "name": "Execution: Syntax error handling",
+      "passed": true,
+      "details": "Expected: error_type=SyntaxError, Got: SyntaxError",
+      "execution_time": 0.00017070770263671875
+    },
+    {
+      "name": "Execution: Code with output",
+      "passed": true,
+      "details": "Expected: success=True with output, Got: success=True",
+      "execution_time": 0.0633234977722168
+    },
+    {
+      "name": "Execution: Timeout handling",
+      "passed": true,
+      "details": "Expected: TimeoutError or failure, Got: TimeoutError",
+      "execution_time": 2.089726448059082
+    },
+    {
+      "name": "Prompt: Perfect match",
+      "passed": true,
+      "details": "Expected: similar=True, score>=0.5, Got: similar=True, score=1.00",
+      "execution_time": 0.0009114742279052734
+    },
+    {
+      "name": "Prompt: Function requirement",
+      "passed": true,
+      "details": "Expected: similar=True with 'function' matched, Got: ['function']",
+      "execution_time": 0.00011420249938964844
+    },
+    {
+      "name": "Prompt: Parameter count match",
+      "passed": true,
+      "details": "Expected: similar=True, Got: similar=True, score=1.00",
+      "execution_time": 8.082389831542969e-05
+    },
+    {
+      "name": "Prompt: Missing function",
+      "passed": true,
+      "details": "Expected: similar=False or 'function' in missing, Got: similar=False",
+      "execution_time": 8.153915405273438e-05
+    },
+    {
+      "name": "Prompt: Chinese prompt",
+      "passed": true,
+      "details": "Expected: similar=True, Got: similar=True, score=1.00",
+      "execution_time": 0.0001399517059326172
+    },
+    {
+      "name": "Prompt: Empty prompt handling",
+      "passed": true,
+      "details": "Expected: 'No prompt provided', Got: No prompt provided for compari",
+      "execution_time": 2.1457672119140625e-06
+    },
+    {
+      "name": "Multilingual: Chinese in docstring",
+      "passed": true,
+      "details": "Expected: detected=True with Chinese, Got: detected=True, locations=2",
+      "execution_time": 0.02294635772705078
+    },
+    {
+      "name": "Multilingual: Chinese in string",
+      "passed": true,
+      "details": "Expected: detected=True with string_literal, Got: detected=True",
+      "execution_time": 0.0003790855407714844
+    },
+    {
+      "name": "Multilingual: Chinese in comment",
+      "passed": true,
+      "details": "Expected: detected=True with comment, Got: detected=True",
+      "execution_time": 0.0002009868621826172
+    },
+    {
+      "name": "Multilingual: English only",
+      "passed": true,
+      "details": "Expected: detected=False, Got: detected=False",
+      "execution_time": 0.0002346038818359375
+    },
+    {
+      "name": "Multilingual: Japanese detection",
+      "passed": true,
+      "details": "Expected: detected=True with Japanese, Got: detected=True",
+      "execution_time": 8.940696716308594e-05
+    },
+    {
+      "name": "Multilingual: Arabic detection",
+      "passed": true,
+      "details": "Expected: detected=True with Arabic, Got: detected=True",
+      "execution_time": 0.0001404285430908203
+    },
+    {
+      "name": "Multilingual: Multiple languages",
+      "passed": true,
+      "details": "Expected: detected=True with >=2 locations, Got: locations=3",
+      "execution_time": 0.0001838207244873047
+    },
+    {
+      "name": "Integration: Complete success",
+      "passed": true,
+      "details": "Expected: all checks pass, Got: status=success",
+      "execution_time": 0.09249734878540039
+    },
+    {
+      "name": "Integration: Syntax error handling",
+      "passed": true,
+      "details": "Expected: status=syntax_error, Got: status=syntax_error",
+      "execution_time": 0.0004496574401855469
+    },
+    {
+      "name": "Integration: Runtime error handling",
+      "passed": true,
+      "details": "Expected: status=runtime_error, Got: status=runtime_error",
+      "execution_time": 0.17345023155212402
+    },
+    {
+      "name": "Integration: Prompt mismatch",
+      "passed": true,
+      "details": "Expected: similar=False, Got: similar=False",
+      "execution_time": 0.07289361953735352
+    },
+    {
+      "name": "Integration: No prompt handling",
+      "passed": true,
+      "details": "Expected: no prompt_comparison, Got: False",
+      "execution_time": 0.07529854774475098
+    },
+    {
+      "name": "Performance: Large code syntax check",
+      "passed": true,
+      "details": "Expected: <1s, Got: 0.0025s",
+      "execution_time": 0.002453327178955078
+    },
+    {
+      "name": "Performance: Complex validation",
+      "passed": true,
+      "details": "Expected: <2s, Got: 0.0787s",
+      "execution_time": 0.07869553565979004
+    }
+  ]
+}

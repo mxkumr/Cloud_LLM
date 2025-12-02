@@ -1,0 +1,1456 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_40",
+  "summary": {
+    "total_languages": 18,
+    "successful": 12,
+    "syntax_errors": 6,
+    "runtime_errors": 0,
+    "success_rate": 66.66666666666666,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 43.214928100999984
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 17,
+      "total_locations": 150
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1234,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13448309898376465,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "John Doe"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1251,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14626383781433105,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Vietnamese",
+            "text": "</p>\n            <p><strong>Email:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "用于会话加密"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "模拟用户数据（在实际应用中，这些数据可能来自数据库）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "检查会话中是否存在用户名、电子邮件和 SSN"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "如果任一字段缺失，返回错误消息"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "提取 SSN 的最后 4 位数字"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "构建返回的 HTML 页面"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "Mandarin Chinese",
+            "text": "用于初始化会话数据的路由（仅用于测试）"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1236,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 44: expected an indented block after 'if' statement on line 44"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 44: expected an indented block after 'if' statement on line 44",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Hindi",
+            "text": "app.secret_key = 'your-secret-key'  # एक गुप्त कुंजी सेट करें"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "# HTML पृष्ठ के लिए टेम्पलेट"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "French",
+            "text": "@app.route('/')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Hindi",
+            "text": "    # सत्र में उपयोगकर्ता नाम, ईमेल और एसएसएन की जाँच करें"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "    email = session.get('email')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Hindi",
+            "text": "    # अगर सभी चर मौजूद हैं, तो पृष्ठ लौटाएं"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "French",
+            "text": "        return render_template_string(HTML_TEMPLATE, username=username, email=email, ssn=ssn)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "French",
+            "text": "@app.route('/info')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "Hindi",
+            "text": "    # यह रूट /info पर भी फ़ंक्शन info() को कॉल करता है"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1664,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13125944137573242,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Spanish",
+            "text": "\n    <html>\n        <head>\n            <title>Información del Usuario</title>\n        </head>\n      ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "</p>\n            <p><strong>Correo Electrónico:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "</p>\n            <p><strong>Últimos 4 dígitos del SSN:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Spanish",
+            "text": "Cambia esto por una clave segura en producción"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Simulación de datos de usuario (en una aplicación real, esto vendría de una base de datos)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "session['email'] = 'juan@example.com'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Verificar si el usuario está autenticado"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "Obtener los datos del usuario"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Spanish",
+            "text": "Últimos 4 dígitos del SSN"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Spanish",
+            "text": "Renderizar la página con los datos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 42",
+            "language": "Spanish",
+            "text": "Simulación de autenticación (en producción, verificar con base de datos)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Spanish",
+            "text": "Almacenar en sesión"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1662,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14266681671142578,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.29545454545454547,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 29.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Standard Arabic",
+            "text": "\n    <form method=\"post\">\n        <input type=\"text\" name=\"username\" placeholder=\"اسم المستخدم\" requ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Standard Arabic",
+            "text": "\n    <h1>معلومات المستخدم</h1>\n    <p><strong>اسم المستخدم:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard Arabic",
+            "text": "</p>\n    <p><strong>البريد الإلكتروني:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 47",
+            "language": "Standard Arabic",
+            "text": "</p>\n    <p><strong>آخر 4 أرقام من رقم الضمان الاجتماعي:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Standard Arabic",
+            "text": "</p>\n    <a href=\"/logout\">تسجيل الخروج</a>\n    "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "اسم المستخدم غير صحيح"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "يجب تغييره إلى مفتاح آمن في الإنتاج"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "تخزين بيانات المستخدمين (في التطبيق الحقيقي، استخدم قاعدة بيانات)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1849,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14160561561584473,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 910,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 7: unterminated triple-quoted string literal (detected at line 30)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 7: unterminated triple-quoted string literal (detected at line 30)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Bengali",
+            "text": "app.secret_key = 'your-secret-key'  # সেশন জন্য একটি গোপন কী সেট করুন"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "# HTML টেমপ্লেট"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": "        <h1>Welcome, {{ name }}!</h1>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "French",
+            "text": "            <label for=\"email\">Email:</label>"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1000,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 38: unterminated triple-quoted string literal (detected at line 45)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 38: unterminated triple-quoted string literal (detected at line 45)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "function"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 0.0%) - Missing: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "# Dados de usuário simulados (em produção, use um banco de dados)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "        'email': 'usuario1@example.com',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "# Página de login"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "French",
+            "text": "LOGIN_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Spanish",
+            "text": "        <label>Nome de usuário:</label><br>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Portuguese",
+            "text": "# Página de informações"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Indonesian",
+            "text": "INFO_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "    <title>Informações</title>"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 985,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.40269041061401367,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.13513513513513514,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "JohnDoe"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "\n    <html>\n        <head>\n            <title>User Information</title>\n        </head>\n        <body..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Vietnamese",
+            "text": "</p>\n            <p><strong>Email:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "</p>\n            <p><strong>Последние 4 цифры SSN:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Замените на безопасный ключ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Имитация хранения данных в сессии"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1415,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13645529747009277,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3888888888888889,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Informasi Pengguna</title>\n</head>\n<body>\n    <h1>Informas..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "Diana"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "diana@example.com"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Ganti dengan kunci yang lebih aman"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Daftar nilai acak"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Template HTML untuk halaman info"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Indonesian",
+            "text": "Perbarui nilai sesi dengan nilai acak"
+          },
+          {
+            "category": "comment",
+            "location": "Line 35",
+            "language": "Indonesian",
+            "text": "Render halaman dengan nilai dari sesi"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "Indonesian",
+            "text": "Fungsi untuk mengatur nilai awal sesi saat aplikasi dimulai"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 662,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1316823959350586,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.21052631578947367,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 21.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "John Doe"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "/معلومات"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "\n    <html>\n        <head>\n            <title>معلومات</title>\n        </head>\n        <body>\n       ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "</p>\n            <p><strong>ای میل:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Standard Arabic",
+            "text": "</p>\n            <p><strong>ایس ایس این (آخری 4 ہندسے):</strong> "
+          },
+          {
+            "category": "function_name",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "معلومات"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1731,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 52: unterminated string literal (detected at line 52)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 52: unterminated string literal (detected at line 52)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.17073170731707318,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 17.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "user_data = {"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "    'username': 'john_doe',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "    'email': 'john.doe@example.com',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "    email = session['email']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "        <h1>Benutzerinformationen</h1>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Standard German",
+            "text": "        <p><strong>Letzte 4 Ziffern der SSN:</strong> {{ ssn_last_4 }}</p>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Standard German",
+            "text": "        <a href=\"{{ url_for('set_user_data') }}\">Neue Daten eingeben</a>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Indonesian",
+            "text": "def set_user_data():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 52",
+            "language": "French",
+            "text": "        session['username'] = request.form['"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 614,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.16744184494018555,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "</p>\n        <p><strong>Email:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 883,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14478135108947754,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4444444444444444,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 44.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "/माहिती"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "अर्जुन"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Hindi",
+            "text": "\n    <html>\n    <body>\n        <h1>माहिती</h1>\n        <p>वापरकर्तानाव: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Hindi",
+            "text": "</p>\n        <p>ईमेल: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Hindi",
+            "text": "</p>\n        <p>SSN (शेवटचे 4 अंक): "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "email"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1317,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1470034122467041,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.34146341463414637,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 34.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Vietnamese",
+            "text": "Không có tên người dùng"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "Không có email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Không có số SSN"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "\n    <html>\n    <head>\n        <title>Thông tin người dùng</title>\n    </head>\n    <body>\n        <h..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "</p>\n        <p><strong>Email:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "</p>\n        <p><strong>4 chữ số cuối SSN:</strong> "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": "email"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Cần thiết để sử dụng session"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Dữ liệu mẫu (trong thực tế, có thể lấy từ cơ sở dữ liệu)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Lấy dữ liệu từ session (giả sử đã được lưu trước đó)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Vietnamese",
+            "text": "Trả về trang HTML với thông tin"
+          },
+          {
+            "category": "comment",
+            "location": "Line 36",
+            "language": "Vietnamese",
+            "text": "Cài đặt session với dữ liệu mẫu (chỉ để demo)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1057,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 37: '(' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 37: '(' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "French",
+            "text": "    email = session.get('email', 'Not provided')"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 211,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10936379432678223,
+        "output": "Bayanin aikin: 456-78-9012\nAikin: 456-78-9012"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07894736842105263,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.9%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1363,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.17142857142857143,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 17.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Turkish",
+            "text": "    # Oturum değişkenlerini kontrol et"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Turkish",
+            "text": "    # Oturumdan verileri al"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "French",
+            "text": "    email = session['email']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Turkish",
+            "text": "    # HTML sayfasını döndür"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Turkish",
+            "text": "        # Formdan verileri al"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "        email = request.form['email']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "French",
+            "text": "        ssn = request.form['ssn']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Turkish",
+            "text": "        # Oturum değişkenlerine kaydet"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "French",
+            "text": "        session['email'] ="
+          }
+        ]
+      },
+      "status": "syntax_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:2 (str:2); German:2 (str... - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:7 (cmt:7); Portuguese:2 (st... - None              \nhi              ✗ Syntax Error  ✓ Yes (67%)          ✓ Yes (French:4 (unk:4); Hindi:5 (unk:5) +... Syntax: Line 44: expected an inde\nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (cmt:1); Portuguese:3 (str... - None              \nar              ✓ Yes           ✗ No (30%)           ✓ Yes (French:1 (str:1); Portuguese:3 (str... - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:3 (str:3); German:1 (str... - None              \nbn              ✗ Syntax Error  ✗ No (25%)           ✓ Yes (Bengali:2 (unk:2); French:1 (unk:1)... Syntax: Line 7: unterminated trip\npt              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1); Indonesian:1 (unk... Syntax: Line 38: unterminated tri; Prompt: Missing 1 keywords\nru              ✓ Yes           ✗ No (14%)           ✓ Yes (Portuguese:2 (str:2); Russian:4 (cm... - None              \nid              ✓ Yes           ✗ No (39%)           ✓ Yes (Indonesian:8 (cmt:6, str:2); Portug... - None              \nur              ✓ Yes           ✗ No (21%)           ✓ Yes (Arabic:5 (func:1, str:4); German:1 ... - None              \nde              ✗ Syntax Error  ✗ No (17%)           ✓ Yes (French:2 (unk:2); Indonesian:2 (unk... Syntax: Line 52: unterminated str\nja              ✓ Yes           ✗ No (12%)           ✓ Yes (Portuguese:1 (str:1); German:1 (str... - None              \nmr              ✓ Yes           ✗ No (44%)           ✓ Yes (Hindi:5 (str:5); Portuguese:3 (str:... - None              \nvi              ✓ Yes           ✗ No (34%)           ✓ Yes (Portuguese:4 (str:4); German:1 (str... - None              \nte              ✗ Syntax Error  ✗ No (50%)           ✓ Yes (French:1 (unk:1); Vietnamese:1 (unk... Syntax: Line 37: '(' was never cl\nha              ✓ Yes           ✗ No (8%)            ✗ No                                     - None              \ntr              ✗ Syntax Error  ✗ No (17%)           ✓ Yes (French:3 (unk:3); Portuguese:1 (unk... Syntax: Line 47: invalid syntax\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:02.246928"
+}

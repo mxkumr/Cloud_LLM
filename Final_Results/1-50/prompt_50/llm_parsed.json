@@ -1,0 +1,1102 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\en.py",
+      "elements": {
+        "identifiers": [
+          "BadZipFile",
+          "Exception",
+          "FileNotFoundError",
+          "PermissionError",
+          "ZipFile",
+          "archive_path",
+          "e",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "os",
+          "tarfile",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "archive.zip",
+          "/tmp/unpack",
+          "r",
+          "f\"Files extracted successfully to {extract_dir}",
+          "f\"Error: The file {archive_path} was not found.",
+          "f\"Error: The file {archive_path} is not a valid zip file.",
+          "f\"Error: Permission denied while accessing {archive_path} or writing to {extract_dir}.",
+          "f\"An unexpected error occurred: {e}"
+        ],
+        "variables": [
+          "BadZipFile",
+          "Exception",
+          "FileNotFoundError",
+          "PermissionError",
+          "ZipFile",
+          "archive_path",
+          "e",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "os",
+          "tarfile",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Define the archive and extraction directory",
+          "Create the extraction directory if it doesn't exist",
+          "Open the zip file as a tarfile (note: this is a misnomer; zip files are not tarfiles)",
+          "Since zip files are not tarfiles, we use zipfile module instead"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "ZipFile",
+          "archive_path",
+          "exists",
+          "extract_to",
+          "extractall",
+          "makedirs",
+          "os",
+          "path",
+          "rmtree",
+          "shutil",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "archive.zip",
+          "/tmp/unpack",
+          "r"
+        ],
+        "variables": [
+          "ZipFile",
+          "archive_path",
+          "exists",
+          "extract_to",
+          "extractall",
+          "makedirs",
+          "os",
+          "path",
+          "rmtree",
+          "shutil",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "定义路径",
+          "如果目录已存在，则先删除",
+          "创建目标目录",
+          "打开 zip 文件并提取所有文件"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\hi.py",
+      "elements": {
+        "identifiers": [
+          "ZipFile",
+          "exist_ok",
+          "extract_to_path",
+          "extractall",
+          "makedirs",
+          "os",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "collection.zip",
+          "/tmp/unpack",
+          "r"
+        ],
+        "variables": [
+          "ZipFile",
+          "exist_ok",
+          "extract_to_path",
+          "extractall",
+          "makedirs",
+          "os",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Define the paths",
+          "Create the extraction directory if it doesn't exist",
+          "Open the zip file and extract all contents"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "ZipFile",
+          "e",
+          "exist_ok",
+          "exists",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "os",
+          "path",
+          "tarfile",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "/tmp/unpack",
+          "archivo.zip",
+          "f\"Error: El archivo {zip_file_path} no existe.",
+          "r",
+          "f\"Archivos extraídos correctamente a {extract_dir}",
+          "f\"Error al extraer el archivo: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "ZipFile",
+          "e",
+          "exist_ok",
+          "exists",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "os",
+          "path",
+          "tarfile",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Directorio de extracción",
+          "Asegurarse de que el directorio de extracción exista",
+          "Ruta del archivo .zip",
+          "Cambia esto por la ruta real del archivo .zip",
+          "Verificar si el archivo .zip existe",
+          "Abrir el archivo .zip como si fuera un archivo tar (usando zipfile)",
+          "Extraer todos los archivos al directorio /tmp/unpack"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\ar.py",
+      "elements": {
+        "identifiers": [
+          "extractall",
+          "open",
+          "path",
+          "tar",
+          "tarfile"
+        ],
+        "literals": [
+          "archive.tar.gz",
+          "r:gz",
+          "/tmp/unpack"
+        ],
+        "variables": [
+          "extractall",
+          "open",
+          "path",
+          "tar",
+          "tarfile"
+        ],
+        "comments": [
+          "فتح الأرشيف المضغوط كملف tarfile",
+          "استخراج كافة الملفات إلى الدليل /tmp/unpack",
+          "الأرشيف يتم إغلاقه تلقائيًا عند الخروج من كتلة 'with'"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\fr.py",
+      "elements": {
+        "identifiers": [
+          "ZipFile",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "os",
+          "remove",
+          "shutil",
+          "tarfile",
+          "zip_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "archive.zip",
+          "/tmp/unpack",
+          "r"
+        ],
+        "variables": [
+          "ZipFile",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "os",
+          "remove",
+          "shutil",
+          "tarfile",
+          "zip_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Chemin de l'archive ZIP",
+          "Répertoire de destination pour l'extraction",
+          "Créer le répertoire de destination s'il n'existe pas",
+          "Ouvrir l'archive ZIP",
+          "Extraire tous les fichiers dans le répertoire /tmp/unpack",
+          "Supprimer l'archive ZIP après extraction"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\bn.py",
+      "elements": {
+        "identifiers": [
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile"
+        ],
+        "literals": [
+          "your_archive.zip",
+          "r:gz",
+          "/tmp/unpack"
+        ],
+        "variables": [
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile"
+        ],
+        "comments": [
+          "সংরক্ষণাগার খুলুন (zip ফাইল হিসাবে ব্যবহার করা হচ্ছে)",
+          "লক্ষ্য ডিরেক্টরি তৈরি করুন",
+          "সমস্ত ফাইল বের করুন"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "e",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile",
+          "zip_file_path"
+        ],
+        "literals": [
+          "arquivo.zip",
+          "/tmp/unpack",
+          "r",
+          "f\"Arquivos extraídos com sucesso para {extract_dir}",
+          "f\"Erro ao extrair o arquivo: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "e",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile",
+          "zip_file_path"
+        ],
+        "comments": [
+          "Caminho do arquivo .zip",
+          "Diretório de extração",
+          "Criar o diretório de extração, se não existir",
+          "Tentar abrir o arquivo .zip como um arquivo tar (isso pode falhar, pois .zip não é .tar)",
+          "No entanto, se o arquivo for realmente um arquivo tar com extensão .zip, podemos tentar:"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Path",
+          "ZipFile",
+          "calculate_hash",
+          "chunk",
+          "exist_ok",
+          "exists",
+          "extract_dir",
+          "f",
+          "file_path",
+          "hash_algorithm",
+          "hash_obj",
+          "hashlib",
+          "hexdigest",
+          "is_zipfile",
+          "iter",
+          "main",
+          "mkdir",
+          "open",
+          "os",
+          "parents",
+          "path",
+          "pathlib",
+          "read",
+          "sha256",
+          "tarfile",
+          "update",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "rb",
+          "4096",
+          "b",
+          "archive.zip",
+          "/tmp/unpack",
+          "f\"Ошибка: Файл {zip_file_path} не найден.",
+          "f\"Ошибка: Файл {zip_file_path} не является zip-архивом.",
+          "r"
+        ],
+        "variables": [
+          "Path",
+          "ZipFile",
+          "chunk",
+          "exist_ok",
+          "exists",
+          "extract_dir",
+          "f",
+          "file_path",
+          "hash_algorithm",
+          "hash_obj",
+          "hashlib",
+          "hexdigest",
+          "is_zipfile",
+          "main",
+          "mkdir",
+          "os",
+          "parents",
+          "path",
+          "pathlib",
+          "read",
+          "sha256",
+          "tarfile",
+          "update",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Путь к zip-файлу",
+          "Проверка, что файл существует",
+          "Проверка, что это zip-файл",
+          "Создание каталога /tmp/unpack, если его нет",
+          "Открытие zip-файла и извлечение файлов"
+        ],
+        "docstrings": [
+          "Calculate hash of a file."
+        ],
+        "functions": [
+          "calculate_hash"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\id.py",
+      "elements": {
+        "identifiers": [
+          "TarError",
+          "archive_path",
+          "e",
+          "exist_ok",
+          "exists",
+          "exit",
+          "extract_to",
+          "extract_zip_archive",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile"
+        ],
+        "literals": [
+          "f\"Error: File {archive_path} tidak ditemukan.",
+          "r",
+          "f\"Semua file berhasil diekstrak ke {extract_to}",
+          "f\"Error: Arsip {archive_path} tidak valid atau rusak. Pesan kesalahan: {e}",
+          "1",
+          "file.zip",
+          "/tmp/unpack"
+        ],
+        "variables": [
+          "TarError",
+          "archive_path",
+          "e",
+          "exist_ok",
+          "exists",
+          "extract_to",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile"
+        ],
+        "comments": [
+          "Jalankan fungsi dengan path arsip dan direktori ekstraksi",
+          "Ganti dengan path file zip yang sesuai",
+          "Pastikan direktori tujuan ada"
+        ],
+        "docstrings": [],
+        "functions": [
+          "extract_zip_archive"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\ur.py",
+      "elements": {
+        "identifiers": [
+          "BadZipFile",
+          "Exception",
+          "Path",
+          "ZipFile",
+          "e",
+          "exist_ok",
+          "exit",
+          "extract_to_dir",
+          "extractall",
+          "file_path",
+          "is_file",
+          "lower",
+          "mkdir",
+          "move",
+          "name",
+          "os",
+          "other_dir",
+          "parents",
+          "pathlib",
+          "pdf_dir",
+          "rglob",
+          "shutil",
+          "suffix",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "secure_document.zip",
+          "/tmp/unpack",
+          "/tmp/pdfs",
+          "/tmp/other_files",
+          "r",
+          "f\"Successfully extracted {zip_file_path} to {extract_to_dir}",
+          "Error: The provided file is not a valid zip file.",
+          "f\"Error extracting zip file: {e}",
+          "1",
+          "*",
+          ".pdf",
+          "f\"Moved {file_path.name} to PDF directory.",
+          "f\"Error moving {file_path.name}: {e}"
+        ],
+        "variables": [
+          "BadZipFile",
+          "Exception",
+          "Path",
+          "ZipFile",
+          "e",
+          "exist_ok",
+          "extract_to_dir",
+          "extractall",
+          "file_path",
+          "is_file",
+          "lower",
+          "mkdir",
+          "move",
+          "name",
+          "os",
+          "other_dir",
+          "parents",
+          "pathlib",
+          "pdf_dir",
+          "rglob",
+          "shutil",
+          "suffix",
+          "zip_file_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Define paths",
+          "Replace with your zip file path",
+          "Directory to extract files",
+          "Directory to store PDF files",
+          "Directory to store non-PDF files",
+          "Ensure directories exist",
+          "Extract the zip file",
+          "Process each file in the extracted directory",
+          "Check if file is a PDF (based on extension)"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\de.py",
+      "elements": {
+        "identifiers": [
+          "ZipFile",
+          "endswith",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "file_name",
+          "file_path",
+          "isfile",
+          "join",
+          "listdir",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "remove",
+          "shutil",
+          "tar_ref",
+          "tarfile",
+          "zip_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "archive.zip",
+          "/tmp/unpack",
+          "r",
+          ".tar",
+          ".tar.gz",
+          ".tgz",
+          "r:*"
+        ],
+        "variables": [
+          "ZipFile",
+          "endswith",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "file_name",
+          "file_path",
+          "isfile",
+          "join",
+          "listdir",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "remove",
+          "shutil",
+          "tar_ref",
+          "tarfile",
+          "zip_path",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Pfad zum ZIP-Archiv",
+          "Zielverzeichnis für die Extraktion",
+          "Stellen Sie sicher, dass das Zielverzeichnis existiert",
+          "Öffnen der ZIP-Datei",
+          "Extrahieren aller Dateien in das Zielverzeichnis",
+          "Jetzt wird angenommen, dass die extrahierten Dateien ein TAR-Archiv enthalten",
+          "Suchen Sie nach einer TAR-Datei im extrahierten Verzeichnis",
+          "Extrahieren der TAR-Datei",
+          "Optional: Entfernen der TAR-Datei nach Extraktion"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\ja.py",
+      "elements": {
+        "identifiers": [
+          "BytesIO",
+          "TarInfo",
+          "ZipFile",
+          "addfile",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "file_data",
+          "file_info",
+          "filename",
+          "fileobj",
+          "infolist",
+          "io",
+          "makedirs",
+          "name",
+          "open",
+          "os",
+          "read",
+          "size",
+          "tar",
+          "tar_filename",
+          "tar_info",
+          "tarfile",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "archive.zip",
+          "r",
+          "archive.tar",
+          "w",
+          "/tmp/unpack"
+        ],
+        "variables": [
+          "BytesIO",
+          "TarInfo",
+          "ZipFile",
+          "addfile",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "file_data",
+          "file_info",
+          "filename",
+          "fileobj",
+          "infolist",
+          "io",
+          "makedirs",
+          "name",
+          "open",
+          "os",
+          "read",
+          "size",
+          "tar",
+          "tar_filename",
+          "tar_info",
+          "tarfile",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "アーカイブを開く（zipファイル）",
+          "zipファイルをtarfileとして保存（例: archive.tar）",
+          "各ファイルを一時的に読み込み、tarに追加",
+          "/tmp/unpack ディレクトリにすべてのファイルを抽出",
+          "すべてのファイルの名前を表示",
+          "アーカイブを閉じる（withブロックにより自動的に閉じられる）"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\mr.py",
+      "elements": {
+        "identifiers": [
+          "dir_count",
+          "dirs",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "file_count",
+          "file_path",
+          "files",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "root",
+          "tar",
+          "tarfile",
+          "walk"
+        ],
+        "literals": [
+          "your_file.tar.gz",
+          "/tmp/unpack",
+          "r:gz",
+          "0",
+          "0",
+          "f\"Files: {file_count}",
+          "f\"Directories: {dir_count}"
+        ],
+        "variables": [
+          "dir_count",
+          "dirs",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "file_count",
+          "file_path",
+          "files",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "root",
+          "tar",
+          "tarfile",
+          "walk"
+        ],
+        "comments": [
+          "Open the zip file as a tarfile (assuming it's a tar.gz or similar)",
+          "Note: This assumes the file is actually a tar file, not a zip file.",
+          "If it's a zip file, use zipfile module instead.",
+          "Replace 'your_file.tar.gz' with the actual file path",
+          "Create the extraction directory if it doesn't exist",
+          "Open and extract the tar file",
+          "Count files and directories"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\vi.py",
+      "elements": {
+        "identifiers": [
+          "exist_ok",
+          "extract_to_dir",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile",
+          "zip_file_path"
+        ],
+        "literals": [
+          "path_to_your_file.zip",
+          "/tmp/unpack",
+          "r:zip"
+        ],
+        "variables": [
+          "exist_ok",
+          "extract_to_dir",
+          "extractall",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "tar",
+          "tarfile",
+          "zip_file_path"
+        ],
+        "comments": [
+          "Đường dẫn đến file zip (giả sử file có đuôi .zip)",
+          "Thay bằng đường dẫn thực tế",
+          "Tạo thư mục nếu chưa tồn tại",
+          "Mở file zip và trích xuất vào thư mục đích"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\te.py",
+      "elements": {
+        "identifiers": [
+          "ZipFile",
+          "archive_file",
+          "endswith",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "f",
+          "listdir",
+          "makedirs",
+          "os",
+          "shutil",
+          "tarfile",
+          "tg",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          ".",
+          ".zip",
+          ".tar",
+          ".tar.gz",
+          ".tgz",
+          "0",
+          "/tmp/unpack",
+          ".zip",
+          "r",
+          ".tar",
+          ".tar.gz"
+        ],
+        "variables": [
+          "ZipFile",
+          "archive_file",
+          "endswith",
+          "exist_ok",
+          "extract_dir",
+          "extractall",
+          "f",
+          "listdir",
+          "makedirs",
+          "os",
+          "shutil",
+          "tarfile",
+          "tg",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Define the path to the archive file (assuming it's in the current directory)",
+          "Define the extraction directory",
+          "Extract the archive"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\ha.py",
+      "elements": {
+        "identifiers": [
+          "copy2",
+          "datetime",
+          "destination_dir",
+          "destination_file",
+          "exist_ok",
+          "filename",
+          "isdir",
+          "join",
+          "listdir",
+          "makedirs",
+          "new_filename",
+          "now",
+          "os",
+          "path",
+          "shutil",
+          "source_dir",
+          "source_file",
+          "strftime",
+          "timestamp"
+        ],
+        "literals": [
+          "/path/to/your/source/directory",
+          "/tmp/compage",
+          "%Y%m%d_%H%M%S",
+          "f\"{timestamp}_{filename}",
+          "f\"All files from {source_dir} have been copied to {destination_dir}"
+        ],
+        "variables": [
+          "copy2",
+          "datetime",
+          "destination_dir",
+          "destination_file",
+          "exist_ok",
+          "filename",
+          "isdir",
+          "join",
+          "listdir",
+          "makedirs",
+          "new_filename",
+          "now",
+          "os",
+          "path",
+          "shutil",
+          "source_dir",
+          "source_file",
+          "strftime",
+          "timestamp"
+        ],
+        "comments": [
+          "Define source and destination directories",
+          "Replace with actual path",
+          "Ensure destination directory exists",
+          "Get current date and time for naming",
+          "Iterate through all files in the source directory",
+          "Skip if it's a directory",
+          "Create a new filename with timestamp",
+          "Copy file to destination directory"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_qpwklpj8\\tr.py",
+      "elements": {
+        "identifiers": [
+          "ZipFile",
+          "backup_to",
+          "copy2",
+          "dirname",
+          "dirs",
+          "dst",
+          "exist_ok",
+          "extract_to",
+          "extractall",
+          "file",
+          "files",
+          "join",
+          "makedirs",
+          "os",
+          "path",
+          "relpath",
+          "rmtree",
+          "root",
+          "shutil",
+          "src",
+          "walk",
+          "zip_ref",
+          "zipfile"
+        ],
+        "literals": [
+          "archive.zip",
+          "r",
+          "/tmp/unpack",
+          "/tmp/backup"
+        ],
+        "variables": [
+          "ZipFile",
+          "backup_to",
+          "copy2",
+          "dirname",
+          "dirs",
+          "dst",
+          "exist_ok",
+          "extract_to",
+          "extractall",
+          "file",
+          "files",
+          "join",
+          "makedirs",
+          "os",
+          "path",
+          "relpath",
+          "rmtree",
+          "root",
+          "shutil",
+          "src",
+          "walk",
+          "zip_ref",
+          "zipfile"
+        ],
+        "comments": [
+          "Arşivi aç",
+          "zip dosyasını tar dosyası olarak kullanmak için bir geçici dosya oluştur",
+          "Ancak Python'da doğrudan zip dosyasını tar olarak kullanmak mümkün değildir.",
+          "Bu yüzden zip dosyasını çıkarıyoruz.",
+          "/tmp/unpack dizinindeki tüm dosyaları /tmp/backup dizinine kopyala",
+          "/tmp/unpack dizinini sil"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    }
+  }
+}

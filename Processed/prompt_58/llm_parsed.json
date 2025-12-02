@@ -1,0 +1,1310 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\en.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "current_email",
+          "email",
+          "login",
+          "main",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "strip",
+          "users"
+        ],
+        "literals": [
+          "alice@example.com",
+          "password",
+          "password123",
+          "email_changed",
+          "bob@example.com",
+          "password",
+          "securepass",
+          "email_changed",
+          "Enter your email: ",
+          "Enter your password: ",
+          "password",
+          "Login successful!",
+          "Invalid email or password.",
+          "email_changed",
+          "You have already changed your email.",
+          "Enter your old email: ",
+          "Old email does not match.",
+          "Confirm your password: ",
+          "password",
+          "Incorrect password.",
+          "Enter your new email: ",
+          "@",
+          ".",
+          "Invalid email format.",
+          "email_changed",
+          "f\"Email successfully changed to {new_email}.",
+          "Welcome to the login system!",
+          "__main__"
+        ],
+        "variables": [
+          "current_email",
+          "email",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "strip",
+          "users"
+        ],
+        "comments": [
+          "Simple login system with email change functionality",
+          "Initialize user data (in real app, this would be stored in a database)",
+          "Update the email",
+          "Login",
+          "Change email if allowed"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "login",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "LoginSystem",
+          "__init__",
+          "change_email",
+          "email",
+          "logged_in_user",
+          "login",
+          "logout",
+          "message",
+          "new_email",
+          "old_email",
+          "password",
+          "register",
+          "self",
+          "success",
+          "system",
+          "user",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "password",
+          "email",
+          "password",
+          "用户未登录，无法更改邮箱。",
+          "email",
+          "旧邮箱不正确。",
+          "password",
+          "密码不正确。",
+          "email",
+          "邮箱已成功更改。",
+          "__main__",
+          "alice",
+          "password123",
+          "alice@example.com",
+          "alice",
+          "password123",
+          "登录成功",
+          "alice@example.com",
+          "alice.new@example.com",
+          "password123",
+          "wrong@example.com",
+          "alice.newer@example.com",
+          "password123",
+          "alice.new@example.com",
+          "alice.newest@example.com",
+          "wrongpass",
+          "登录失败"
+        ],
+        "variables": [
+          "change_email",
+          "email",
+          "logged_in_user",
+          "login",
+          "logout",
+          "message",
+          "new_email",
+          "old_email",
+          "password",
+          "register",
+          "self",
+          "success",
+          "system",
+          "user",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "存储用户名和密码及邮箱",
+          "示例使用",
+          "注册用户",
+          "登录",
+          "尝试更改邮箱",
+          "再次尝试更改邮箱（输入错误的旧邮箱）",
+          "尝试更改邮箱（输入错误的密码）",
+          "登出"
+        ],
+        "docstrings": [
+          "注册新用户",
+          "登录用户",
+          "更改邮箱，需要登录，输入旧邮箱和密码确认",
+          "登出用户"
+        ],
+        "functions": [
+          "change_email",
+          "login",
+          "logout",
+          "register"
+        ],
+        "classes": [
+          "LoginSystem"
+        ]
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\hi.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "choice",
+          "current_email",
+          "email",
+          "login",
+          "main",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "users"
+        ],
+        "literals": [
+          "user@example.com",
+          "password123",
+          "Enter your email: ",
+          "Enter your password: ",
+          "Login successful!",
+          "Invalid email or password.",
+          "f\"Current email: {current_email}",
+          "Enter your old email: ",
+          "Enter your password: ",
+          "Enter your new email: ",
+          "@",
+          ".",
+          "f\"Email successfully changed to {new_email}",
+          "Invalid email format.",
+          "Incorrect old email or password. Email not changed.",
+          "=== Simple Login System ===",
+          "\\n1. Login",
+          "2. Exit",
+          "Choose an option: ",
+          "1",
+          "2",
+          "Goodbye!",
+          "Invalid choice. Please try again.",
+          "__main__"
+        ],
+        "variables": [
+          "choice",
+          "current_email",
+          "email",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "users"
+        ],
+        "comments": [
+          "Simple Login System with Email Change Feature",
+          "Store user credentials (In real applications, use a database and secure password hashing)",
+          "Verify old email and password",
+          "Validate email format (basic check)",
+          "Update the email"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "login",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\es.py",
+      "elements": {
+        "identifiers": [
+          "cambiar_correo",
+          "contrasena_confirmacion",
+          "contrasena_ingresada",
+          "correo",
+          "correo_antiguo",
+          "correo_ingresado",
+          "iniciar_sesion",
+          "nuevo_correo",
+          "split",
+          "strip",
+          "usuario",
+          "validar_correo"
+        ],
+        "literals": [
+          "correo",
+          "usuario@example.com",
+          "contrasena",
+          "contrasena123",
+          "=== Sistema de Inicio de Sesión ===",
+          "Correo electrónico: ",
+          "Contraseña: ",
+          "Error: El correo y la contraseña no pueden estar vacíos.",
+          "correo",
+          "contrasena",
+          "Inicio de sesión exitoso.",
+          "Error: Correo o contraseña incorrectos.",
+          "\\n=== Cambiar Correo Electrónico ===",
+          "Correo electrónico actual: ",
+          "Confirme su contraseña: ",
+          "Error: El correo actual y la contraseña no pueden estar vacíos.",
+          "correo",
+          "contrasena",
+          "Nuevo correo electrónico: ",
+          "Error: El correo electrónico no tiene un formato válido.",
+          "correo",
+          "f\"Correo electrónico cambiado exitosamente a: {nuevo_correo}",
+          "Error: El correo o la contraseña antiguos son incorrectos.",
+          "@",
+          ".",
+          "@",
+          "1"
+        ],
+        "variables": [
+          "contrasena_confirmacion",
+          "contrasena_ingresada",
+          "correo",
+          "correo_antiguo",
+          "correo_ingresado",
+          "nuevo_correo",
+          "split",
+          "strip",
+          "usuario"
+        ],
+        "comments": [
+          "Datos de ejemplo para el usuario",
+          "Solicitar correo y contraseña",
+          "Validar entrada",
+          "Verificar credenciales",
+          "Solicitar correo antiguo y confirmación de contraseña",
+          "Validar entrada",
+          "Verificar que el correo y contraseña antiguos sean correctos",
+          "Validar formato de correo",
+          "Cambiar correo",
+          "Simple validación de formato de correo electrónico"
+        ],
+        "docstrings": [],
+        "functions": [
+          "cambiar_correo",
+          "iniciar_sesion",
+          "validar_correo"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\ar.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "correct_email",
+          "correct_password",
+          "current_email",
+          "current_password",
+          "display_email",
+          "email",
+          "email_input",
+          "login",
+          "new_email",
+          "old_email",
+          "old_password",
+          "password",
+          "password_input",
+          "user_email",
+          "user_password"
+        ],
+        "literals": [
+          "تم التحقق بنجاح. جاري تحديث البريد الإلكتروني...",
+          "f\"تم تغيير البريد الإلكتروني إلى: {new_email}",
+          "البريد الإلكتروني أو كلمة المرور غير صحيحة. لا يمكن تغيير البريد الإلكتروني.",
+          "f\"البريد الإلكتروني الحالي هو: {current_email}",
+          "user@example.com",
+          "password123",
+          "=== نظام تسجيل الدخول وتعديل البريد الإلكتروني ===",
+          "\\nتسجيل الدخول:",
+          "أدخل البريد الإلكتروني: ",
+          "أدخل كلمة المرور: ",
+          "تم تسجيل الدخول بنجاح!",
+          "\\nتعديل البريد الإلكتروني:",
+          "أدخل البريد الإلكتروني القديم: ",
+          "أدخل كلمة المرور القديمة: ",
+          "أدخل البريد الإلكتروني الجديد: ",
+          "فشل تسجيل الدخول. لا يمكن تغيير البريد الإلكتروني."
+        ],
+        "variables": [
+          "correct_email",
+          "correct_password",
+          "current_email",
+          "current_password",
+          "email",
+          "email_input",
+          "new_email",
+          "old_email",
+          "old_password",
+          "password",
+          "password_input",
+          "user_email",
+          "user_password"
+        ],
+        "comments": [
+          "بيانات المستخدم (يمكن استبدالها بقاعدة بيانات حقيقية)",
+          "مثال على الاستخدام",
+          "عرض البريد الإلكتروني الحالي",
+          "محاولة تسجيل الدخول",
+          "محاولة تغيير البريد الإلكتروني",
+          "عرض البريد الإلكتروني بعد التحديث"
+        ],
+        "docstrings": [
+          "الدالة لتسجيل الدخول",
+          "الدالة لتعديل البريد الإلكتروني",
+          "الدالة لعرض البريد الإلكتروني الحالي"
+        ],
+        "functions": [
+          "change_email",
+          "display_email",
+          "login"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\fr.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "USER_FILE",
+          "change_email",
+          "confirm_password",
+          "dump",
+          "email",
+          "file",
+          "getpass",
+          "indent",
+          "json",
+          "load",
+          "load_users",
+          "login",
+          "new_email",
+          "old_email",
+          "open",
+          "password",
+          "register_user",
+          "save_users",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "users.json",
+          "r",
+          "w",
+          "4",
+          "Entrez un nom d'utilisateur : ",
+          "Entrez un mot de passe : ",
+          "Entrez une adresse e-mail : ",
+          "Erreur : Ce nom d'utilisateur existe déjà.",
+          "password",
+          "email",
+          "Inscription réussie !",
+          "Nom d'utilisateur : ",
+          "Mot de passe : ",
+          "Erreur : Nom d'utilisateur non trouvé.",
+          "password",
+          "Erreur : Mot de passe incorrect.",
+          "Connexion réussie !",
+          "Entrez votre ancienne adresse e-mail : ",
+          "Confirmez votre mot de passe : ",
+          "email",
+          "Erreur : L'ancien e-mail est incorrect.",
+          "password",
+          "Erreur : Le mot de passe est incorrect."
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "USER_FILE",
+          "confirm_password",
+          "dump",
+          "email",
+          "file",
+          "getpass",
+          "indent",
+          "json",
+          "load",
+          "new_email",
+          "old_email",
+          "password",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Chemin du fichier JSON pour stocker les utilisateurs",
+          "Vérification de l'ancien e-mail et du mot de passe"
+        ],
+        "docstrings": [
+          "Charge les utilisateurs depuis le fichier JSON.",
+          "Sauvegarde les utilisateurs dans le fichier JSON.",
+          "Permet à un nouvel utilisateur de s'inscrire.",
+          "Permet à un utilisateur de se connecter.",
+          "Permet à un utilisateur connecté de changer son e-mail."
+        ],
+        "functions": [
+          "change_email",
+          "load_users",
+          "login",
+          "register_user",
+          "save_users"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\bn.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "current_email",
+          "email",
+          "get",
+          "login",
+          "new_email",
+          "old_email",
+          "password",
+          "users"
+        ],
+        "literals": [
+          "ইমেল লিখুন: ",
+          "পাসওয়ার্ড লিখুন: ",
+          "লগইন সফল!",
+          "ভুল ইমেল বা পাসওয়ার্ড।",
+          "আপনার পুরানো ইমেল লিখুন: ",
+          "আপনার পাসওয়ার্ড নিশ্চিত করুন: ",
+          "পুরানো ইমেল মিলছে না। ইমেল পরিবর্তন হয়নি।",
+          "পাসওয়ার্ড ভুল। ইমেল পরিবর্তন হয়নি।",
+          "নতুন ইমেল লিখুন: "
+        ],
+        "variables": [
+          "current_email",
+          "email",
+          "get",
+          "new_email",
+          "old_email",
+          "password",
+          "users"
+        ],
+        "comments": [
+          "নতুন ইমেল আগে থেকে"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "login"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\pt.py",
+      "elements": {
+        "identifiers": [
+          "ARQUIVO_USUARIOS",
+          "alterar_email",
+          "cadastro",
+          "carregar_usuarios",
+          "dump",
+          "email",
+          "email_logado",
+          "encoding",
+          "ensure_ascii",
+          "exists",
+          "file",
+          "indent",
+          "json",
+          "load",
+          "login",
+          "open",
+          "os",
+          "path",
+          "salvar_usuarios",
+          "senha",
+          "strip",
+          "usuarios",
+          "validar_email"
+        ],
+        "literals": [
+          "usuarios.json",
+          "r",
+          "utf-8",
+          "w",
+          "utf-8",
+          "4",
+          "@",
+          ".",
+          "\\n--- Cadastro de Usuário ---",
+          "Digite seu e-mail: ",
+          "E-mail inválido!",
+          "Este e-mail já está cadastrado!",
+          "Digite sua senha: ",
+          "Senha inválida!",
+          "senha",
+          "Usuário cadastrado com sucesso!",
+          "\\n--- Login ---",
+          "Digite seu e-mail: ",
+          "Digite sua senha: ",
+          "senha",
+          "Login realizado com sucesso!",
+          "E-mail ou senha incorretos!"
+        ],
+        "variables": [
+          "ARQUIVO_USUARIOS",
+          "dump",
+          "email",
+          "email_logado",
+          "encoding",
+          "ensure_ascii",
+          "exists",
+          "file",
+          "indent",
+          "json",
+          "load",
+          "os",
+          "path",
+          "senha",
+          "strip",
+          "usuarios"
+        ],
+        "comments": [
+          "Nome do arquivo JSON para armazenar os dados",
+          "Função para carregar os usuários do arquivo JSON",
+          "Função para salvar os usuários no arquivo JSON",
+          "Função para validar e-mail",
+          "Função para cadastro de novo usuário",
+          "Função para login",
+          "Retorna o e-mail do usuário logado",
+          "Função para alterar e-mail"
+        ],
+        "docstrings": [],
+        "functions": [
+          "alterar_email",
+          "cadastro",
+          "carregar_usuarios",
+          "login",
+          "salvar_usuarios",
+          "validar_email"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\ru.py",
+      "elements": {
+        "identifiers": [
+          "confirm_password",
+          "entered_password",
+          "entered_username",
+          "main",
+          "new_email",
+          "old_email",
+          "password",
+          "username"
+        ],
+        "literals": [
+          "user@example.com",
+          "securepassword123",
+          "=== Система входа в систему ===",
+          "Введите адрес электронной почты: ",
+          "Введите пароль: ",
+          "Ошибка: Неверный адрес электронной почты или пароль.",
+          "Вход выполнен успешно!",
+          "Введите ваш старый адрес электронной почты: ",
+          "Подтвердите пароль: ",
+          "Ошибка: Неверный старый адрес электронной почты.",
+          "Ошибка: Неверный пароль.",
+          "Введите новый адрес электронной почты: ",
+          "Адрес электронной почты успешно изменен на:",
+          "__main__"
+        ],
+        "variables": [
+          "confirm_password",
+          "entered_password",
+          "entered_username",
+          "new_email",
+          "old_email",
+          "password",
+          "username"
+        ],
+        "comments": [
+          "Предварительно заданные данные пользователя",
+          "Шаг 1: Вход в систему",
+          "Шаг 2: Ввод старого адреса электронной почты и подтверждение пароля",
+          "Шаг 3: Изменение адреса электронной почты",
+          "Обновляем адрес электронной почты"
+        ],
+        "docstrings": [],
+        "functions": [
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\id.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "login_user",
+          "new_email",
+          "old_email",
+          "password",
+          "result",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "password",
+          "Login gagal. Email atau kata sandi salah.",
+          "email",
+          "Email lama tidak sesuai.",
+          "email",
+          "f\"Email berhasil diubah menjadi {new_email}.",
+          "__main__",
+          "alice",
+          "email",
+          "alice@example.com",
+          "password",
+          "12345",
+          "bob",
+          "email",
+          "bob@example.com",
+          "password",
+          "67890",
+          "Masukkan username: ",
+          "Masukkan kata sandi: ",
+          "Masukkan email lama: ",
+          "Masukkan email baru: "
+        ],
+        "variables": [
+          "new_email",
+          "old_email",
+          "password",
+          "result",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Validasi login",
+          "Validasi email lama",
+          "Ubah email",
+          "Contoh penggunaan",
+          "Data pengguna (username: {email, password})",
+          "Simulasi login dan perubahan email"
+        ],
+        "docstrings": [
+          "Fungsi untuk memvalidasi login pengguna.",
+          "Fungsi untuk mengubah email pengguna jika login dan data valid."
+        ],
+        "functions": [
+          "change_email",
+          "login_user"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\ur.py",
+      "elements": {
+        "identifiers": [
+          "IntegrityError",
+          "change_email",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "getpass",
+          "login_user",
+          "new_email",
+          "old_email",
+          "password",
+          "register_user",
+          "setup_database",
+          "sqlite3",
+          "strip",
+          "user"
+        ],
+        "literals": [
+          "users.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS users (\r\n            email TEXT PRIMARY KEY,\r\n            password TEXT NOT NULL\r\n        )\r\n    ",
+          "Enter your email: ",
+          "Enter your password: ",
+          "users.db",
+          "INSERT INTO users (email, password) VALUES (?, ?)",
+          "Registration successful!",
+          "Email already exists!",
+          "Enter your email: ",
+          "Enter your password: ",
+          "users.db",
+          "SELECT * FROM users WHERE email = ? AND password = ?",
+          "Login successful!",
+          "Invalid email or password!",
+          "Enter your current email: ",
+          "Enter your password: ",
+          "Enter your new email: ",
+          "users.db",
+          "SELECT * FROM users WHERE email = ? AND password = ?",
+          "users.db",
+          "SELECT * FROM users WHERE email = ?",
+          "New email already exists!",
+          "UPDATE users SET email = ? WHERE email = ?",
+          "Email updated successfully!"
+        ],
+        "variables": [
+          "IntegrityError",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "email",
+          "execute",
+          "fetchone",
+          "getpass",
+          "new_email",
+          "old_email",
+          "password",
+          "sqlite3",
+          "strip",
+          "user"
+        ],
+        "comments": [
+          "Database setup",
+          "Register a new user",
+          "Login user",
+          "Change email",
+          "Verify login",
+          "Check if new email already exists",
+          "Update email"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "login_user",
+          "register_user",
+          "setup_database"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\de.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "current_email",
+          "email",
+          "logged_in_email",
+          "login",
+          "main",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "users"
+        ],
+        "literals": [
+          "user@example.com",
+          "password123",
+          "E-Mail-Adresse: ",
+          "Passwort: ",
+          "Anmeldung erfolgreich!",
+          "Falsche E-Mail-Adresse oder Passwort.",
+          "Sie sind angemeldet. Sie können nun Ihre E-Mail-Adresse ändern.",
+          "Geben Sie Ihre alte E-Mail-Adresse ein: ",
+          "Geben Sie Ihr Passwort ein: ",
+          "Geben Sie Ihre neue E-Mail-Adresse ein: ",
+          "Diese E-Mail-Adresse ist bereits vergeben.",
+          "E-Mail-Adresse erfolgreich geändert!",
+          "Falsche alte E-Mail-Adresse oder falsches Passwort. Änderung abgebrochen.",
+          "Willkommen zum Anmeldesystem!",
+          "Anmeldung fehlgeschlagen. Sie können Ihre E-Mail-Adresse nicht ändern.",
+          "__main__"
+        ],
+        "variables": [
+          "current_email",
+          "email",
+          "logged_in_email",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "users"
+        ],
+        "comments": [
+          "Einfaches Anmeldesystem mit E-Mail-Änderung",
+          "Simuliert eine Datenbank für Benutzer (in der Praxis würde man eine echte Datenbank verwenden)",
+          "Überprüfen, ob die alte E-Mail-Adresse und das Passwort korrekt sind",
+          "Überprüfen, ob die neue E-Mail-Adresse bereits existiert",
+          "Ändern der E-Mail-Adresse",
+          "Anmeldung",
+          "E-Mail-Änderung",
+          "Start des Programms"
+        ],
+        "docstrings": [
+          "Ermöglicht dem Benutzer sich anzumelden.",
+          "Ermöglicht dem Benutzer, seine E-Mail-Adresse zu ändern.",
+          "Hauptfunktion des Programms."
+        ],
+        "functions": [
+          "change_email",
+          "login",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\ja.py",
+      "elements": {
+        "identifiers": [
+          "EmailChangeSystem",
+          "__init__",
+          "change_email",
+          "email",
+          "login",
+          "main",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "self",
+          "show_current_email",
+          "system",
+          "users",
+          "古い"
+        ],
+        "literals": [
+          "user@example.com",
+          "password123",
+          "エラー: 古い電子メールまたはパスワードが正しくありません。",
+          "f\"電子メールが {old_email} から {new_email} に変更されました。",
+          "エラー: 古い電子メールが見つかりません。",
+          "f\"現在の電子メール: {email}",
+          "エラー: ログイン情報が正しくありません。",
+          "=== 電子メール変更システム ===",
+          "ログインしてください。",
+          "電子メール: ",
+          "パスワード: ",
+          "ログイン成功！",
+          "\\n電子メールを変更します。"
+        ],
+        "variables": [
+          "email",
+          "login",
+          "new_email",
+          "old_email",
+          "password",
+          "pop",
+          "self",
+          "show_current_email",
+          "system",
+          "users",
+          "古い"
+        ],
+        "comments": [
+          "ユーザーのログイン情報（仮のデータ）",
+          "まずログインを確認",
+          "メールアドレスを変更",
+          "ユーザーが存在する場合、メールを更新",
+          "システムの使用例",
+          "ログイン",
+          "電子メール変更"
+        ],
+        "docstrings": [
+          "ユーザーのログインを検証する",
+          "古いメールとパスワードを確認して、新しいメールに変更する",
+          "現在のメールアドレスを表示する（ログイン後に使用）"
+        ],
+        "functions": [
+          "change_email",
+          "login",
+          "main",
+          "show_current_email"
+        ],
+        "classes": [
+          "EmailChangeSystem"
+        ]
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\mr.py",
+      "elements": {
+        "identifiers": [
+          "DATA_FILE",
+          "change_email",
+          "dump",
+          "email",
+          "exists",
+          "f",
+          "indent",
+          "json",
+          "load",
+          "load_users",
+          "login_user",
+          "main",
+          "new_email",
+          "old_email",
+          "open",
+          "os",
+          "password",
+          "path",
+          "pop",
+          "register_user",
+          "save_users",
+          "users"
+        ],
+        "literals": [
+          "users.json",
+          "w",
+          "r",
+          "w",
+          "4",
+          "User already exists.",
+          "password",
+          "User registered successfully.",
+          "User not found.",
+          "password",
+          "Incorrect password.",
+          "Login successful.",
+          "Old email not found.",
+          "password",
+          "Incorrect password.",
+          "New email already exists.",
+          "Email changed successfully.",
+          "=== Welcome to the Login System ===",
+          "\\n1. Register",
+          "2. Login",
+          "3. Change Email",
+          "4. Exit"
+        ],
+        "variables": [
+          "DATA_FILE",
+          "dump",
+          "email",
+          "exists",
+          "f",
+          "indent",
+          "json",
+          "load",
+          "new_email",
+          "old_email",
+          "os",
+          "password",
+          "path",
+          "pop",
+          "users"
+        ],
+        "comments": [
+          "File to store user data",
+          "Initialize the data file if it doesn't exist",
+          "Update email"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "load_users",
+          "login_user",
+          "main",
+          "register_user",
+          "save_users"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\vi.py",
+      "elements": {
+        "identifiers": [
+          "USER_FILE",
+          "change_email",
+          "confirm_password",
+          "dump",
+          "encoding",
+          "ensure_ascii",
+          "exists",
+          "file",
+          "indent",
+          "json",
+          "load",
+          "load_users",
+          "login",
+          "main",
+          "new_email",
+          "old_email",
+          "open",
+          "os",
+          "password",
+          "path",
+          "save_users",
+          "username",
+          "users"
+        ],
+        "literals": [
+          "users.json",
+          "r",
+          "utf-8",
+          "w",
+          "utf-8",
+          "4",
+          "Nhập tên người dùng: ",
+          "Nhập mật khẩu: ",
+          "password",
+          "Đăng nhập thành công!",
+          "Tên người dùng hoặc mật khẩu sai!",
+          "Nhập email cũ: ",
+          "Xác nhận mật khẩu: ",
+          "email",
+          "Email cũ không đúng!",
+          "password",
+          "Mật khẩu xác nhận không đúng!",
+          "Nhập email mới: ",
+          "email",
+          "Email đã được cập nhật thành công!",
+          "=== Hệ thống đăng nhập và thay đổi email ===",
+          "__main__"
+        ],
+        "variables": [
+          "USER_FILE",
+          "confirm_password",
+          "dump",
+          "encoding",
+          "ensure_ascii",
+          "exists",
+          "file",
+          "indent",
+          "json",
+          "load",
+          "new_email",
+          "old_email",
+          "os",
+          "password",
+          "path",
+          "username",
+          "users"
+        ],
+        "comments": [
+          "Đường dẫn đến file JSON lưu trữ thông tin người dùng",
+          "Hàm đọc dữ liệu người dùng từ file JSON",
+          "Hàm ghi dữ liệu người dùng vào file JSON",
+          "Hàm đăng nhập người dùng",
+          "Hàm thay đổi email",
+          "Kiểm tra email cũ và mật khẩu",
+          "Hàm chính"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "load_users",
+          "login",
+          "main",
+          "save_users"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\te.py",
+      "elements": {
+        "identifiers": [
+          "change_email",
+          "confirm_password",
+          "new_email",
+          "old_email",
+          "password",
+          "user_email"
+        ],
+        "literals": [
+          "Error: User must be logged in to change email.",
+          "Error: Old email does not match the logged-in user's email.",
+          "correct_password"
+        ],
+        "variables": [
+          "confirm_password",
+          "new_email",
+          "old_email",
+          "password",
+          "user_email"
+        ],
+        "comments": [
+          "Check if user is logged in (assuming user_email is the current logged-in email)",
+          "Validate old email and password",
+          "Check if password is correct (simplified - in real app, use hashing)",
+          ""
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\ha.py",
+      "elements": {
+        "identifiers": [
+          "canza_imel",
+          "kalmar_sirri",
+          "mai_amfani",
+          "tsohon_imel"
+        ],
+        "literals": [
+          "Aminu",
+          "aminu@example.com",
+          "secret123",
+          "f\"{mai_amfani} ya canza imel.",
+          "f\"{mai_amfani} ba a canza imel."
+        ],
+        "variables": [
+          "kalmar_sirri",
+          "mai_amfani",
+          "tsohon_imel"
+        ],
+        "comments": [
+          "Misali:"
+        ],
+        "docstrings": [
+          "\r\n    Daga tsohon imel da kalmar sirri, yana canza imel ɗin su idan kuskuren tsohon imel da kalmar sirri.\r\n    \r\n    Parameters:\r\n    mai_amfani (str): Tsarin mai amfani\r\n    tsohon_imel (str): Tsohon imel\r\n    kalmar_sirri (str): Kalmar sirri\r\n    \r\n    Returns:\r\n    bool: True idan canza imel, False idan ba a canza imel\r\n    "
+        ],
+        "functions": [
+          "canza_imel"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7e6e7xnl\\tr.py",
+      "elements": {
+        "identifiers": [
+          "EmailChangeSystem",
+          "__init__",
+          "change_email",
+          "email",
+          "logged_in_user",
+          "login",
+          "message",
+          "new_email",
+          "old_email",
+          "password",
+          "register_user",
+          "self",
+          "success",
+          "system",
+          "users"
+        ],
+        "literals": [
+          "Kullanıcı oturum açmamış.",
+          "Eski e-posta adresi hatalı.",
+          "Şifre hatalı.",
+          "Bu e-posta adresi zaten kullanılıyor.",
+          "E-posta başarıyla değiştirildi.",
+          "user@example.com",
+          "123456",
+          "user@example.com",
+          "123456",
+          "user@example.com",
+          "newuser@example.com",
+          "123456"
+        ],
+        "variables": [
+          "change_email",
+          "email",
+          "logged_in_user",
+          "login",
+          "message",
+          "new_email",
+          "old_email",
+          "password",
+          "register_user",
+          "self",
+          "success",
+          "system",
+          "users"
+        ],
+        "comments": [
+          "Kullanım örneği",
+          "Oturum aç",
+          "E-posta değiştir"
+        ],
+        "docstrings": [],
+        "functions": [
+          "change_email",
+          "login",
+          "register_user"
+        ],
+        "classes": [
+          "EmailChangeSystem"
+        ]
+      }
+    }
+  }
+}

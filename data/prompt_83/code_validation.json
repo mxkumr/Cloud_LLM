@@ -1,0 +1,919 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_83",
+  "summary": {
+    "total_languages": 18,
+    "successful": 18,
+    "syntax_errors": 0,
+    "runtime_errors": 0,
+    "success_rate": 100.0,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 2,
+      "average_similarity_score": 24.686641428855
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 62
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 370,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10579824447631836,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 372,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10828113555908203,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "名称字段缺失"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "从请求中获取JSON数据"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "检查“名称”字段是否存在"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 609,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11114621162414551,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 493,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13666701316833496,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2727272727272727,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "nombre"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "nombre"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "nombre"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "El campo \"nombre\" no está presente en la solicitud"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Obtener la carga útil de la solicitud"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Verificar si el campo 'nombre' existe"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 429,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1074824333190918,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "الاسم"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "الاسم"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "الاسم"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "الحقل \"الاسم\" مطلوب"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "الحصول على البيانات من الطلب"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "التحقق من وجود الحقل \"الاسم\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 480,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11066985130310059,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "nom"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "nom"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "nom"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "French",
+            "text": "erreur"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Le champ \"nom\" est manquant dans la requête."
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Récupérer la charge utile de la demande"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "French",
+            "text": "Vérifier si le champ 'nom' existe dans la charge utile"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 476,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10944676399230957,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Bengali",
+            "text": "নাম"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "নাম"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "নাম ক্ষেত্র অনুপস্থিত"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Bengali",
+            "text": "অপেক্ষাকৃত ত্রুটি"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 457,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10644984245300293,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23809523809523808,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "nome"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "nome"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "nome"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "O campo \"nome\" é obrigatório."
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "Recebe a carga útil da solicitação"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Verifica se o campo 'nome' existe"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 448,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10605978965759277,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.18181818181818182,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 18.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "имя"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "имя"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "имя"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "Поле 'имя' отсутствует в запросе"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Получаем JSON из запроса"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "Проверяем, существует ли поле \"имя\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 344,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1283576488494873,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.041666666666666664,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "pesan"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Nama tidak ditemukan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 356,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13303279876708984,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.08333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 8.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "نام"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "نام"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "فیلڈ \"نام\" مissing ہے"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "نام"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 470,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1330585479736328,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2903225806451613,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 29.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Name"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Das Feld \"Name\" ist nicht vorhanden."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "Name"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Empfange die Nutzlast aus der Anfrage"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Prüfe, ob das Feld \"Name\" vorhanden ist"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 362,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11033987998962402,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "フィールド \"name\" が存在しません。"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 473,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11241912841796875,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Hindi",
+            "text": "नाव"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": "नाव"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Hindi",
+            "text": "फील्ड \"नाव\" अस्तित्वात नाही"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Hindi",
+            "text": "वापरकर्त्याच्या विनंतीतून पेलोड घेतले"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "फील्ड 'नाव' तपासणे"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 353,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10355710983276367,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.06896551724137931,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 6.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Không có tên"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 787,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11409544944763184,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Telugu",
+            "text": "పేరు అవసరం"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Telugu",
+            "text": "పేరు అవసరం"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Telugu",
+            "text": "పేరు అవసరం"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Get payload from request"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 315,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10283136367797852,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "extension = \".txt\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 342,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13902544975280762,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Turkish",
+            "text": "ad alanı eksik"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:3 (cmt:2, str:1))         - None              \nhi              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nes              ✓ Yes           ✗ No (27%)           ✓ Yes (Spanish:6 (cmt:2, str:4))         - None              \nar              ✓ Yes           ✗ No (10%)           ✓ Yes (Arabic:6 (cmt:2, str:4))          - None              \nfr              ✓ Yes           ✗ No (25%)           ✓ Yes (French:4 (cmt:2, str:2); Portuguese... - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (Bengali:4 (str:4))                - None              \npt              ✓ Yes           ✗ No (24%)           ✓ Yes (Portuguese:6 (cmt:2, str:4))      - None              \nru              ✓ Yes           ✗ No (18%)           ✓ Yes (Russian:6 (cmt:2, str:4))         - None              \nid              ✓ Yes           ✗ No (4%)            ✓ Yes (Indonesian:2 (str:2))             - None              \nur              ✓ Yes           ✗ No (8%)            ✓ Yes (Arabic:4 (str:4))                 - None              \nde              ✓ Yes           ✗ No (29%)           ✓ Yes (German:5 (cmt:2, str:3))          - None              \nja              ✓ Yes           ✗ No (17%)           ✓ Yes (Chinese:1 (str:1))                - None              \nmr              ✓ Yes           ✗ No (25%)           ✓ Yes (Hindi:5 (cmt:2, str:3))           - None              \nvi              ✓ Yes           ✗ No (7%)            ✓ Yes (Vietnamese:1 (str:1))             - None              \nte              ✓ Yes           ✗ No (50%)           ✓ Yes (French:1 (cmt:1); Telugu:3 (str:3)) - None              \nha              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (cmt:1))                 - None              \ntr              ✓ Yes           ✗ No (0%)            ✓ Yes (Turkish:1 (str:1))                - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:46.495778"
+}

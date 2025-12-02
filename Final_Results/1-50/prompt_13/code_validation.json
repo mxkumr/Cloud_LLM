@@ -1,0 +1,834 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_13",
+  "summary": {
+    "total_languages": 18,
+    "successful": 10,
+    "syntax_errors": 0,
+    "runtime_errors": 7,
+    "success_rate": 55.55555555555556,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 37.6602754543931
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 14,
+      "total_locations": 49
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 291,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05849766731262207,
+        "output": "Enter an index value: The value at index 0 is: 10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 406,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprj7l5htk.py\", line 10, in main\n    index = int(input(\"\\u8bf7\\u8f93\\u5165\\u7d22\\u5f15\\u503c: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprj7l5htk.py\", line 17, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmprj7l5htk.py\", line 14, in main\n    print(\"\\u8bf7\\u8f93\\u5165\\u6709\\u6548\\u7684\\u6574\\u6570\\u3002\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>",
+        "execution_time": 0.13952040672302246,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "请输入索引值: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "索引 "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": " 处的值是: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "请输入有效的整数。"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 409,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05293846130371094,
+        "output": "Enter the index to retrieve the value:\nThe value at index 0 is: 10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 310,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05569720268249512,
+        "output": "Ingrese un valor de �ndice: El valor en el �ndice 0 es: 1"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Ingrese un valor de índice: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "El valor en el índice "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 375,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0560915470123291,
+        "output": "Enter an index: Value at index 0: 10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.037037037037037035,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Enter an index: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 583,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1005699634552002,
+        "output": "Entrez un index : Valeur � l'index 0 : 19446"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "French",
+            "text": "Veuillez entrer un entier valide."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Valeur à l'index "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 459,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcq95k46i.py\", line 10, in main\n    user_input = int(input(\"\\u09b8\\u09c2\\u099a\\u0995 \\u09ae\\u09be\\u09a8 \\u09a6\\u09bf\\u09a8: \"))\n                     ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcq95k46i.py\", line 17, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcq95k46i.py\", line 14, in main\n    print(\"\\u0985\\u09ac\\u09c8\\u09a7 \\u0987\\u09a8\\u09aa\\u09c1\\u099f! \\u09aa\\u09c2\\u09b0\\u09cd\\u09a3\\u09b8\\u0982\\u0996\\u09cd\\u09af\\u09be \\u09a6\\u09bf\\u09a8\\u0964\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.13768553733825684,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "সূচক অবৈধ"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "সূচক মান দিন: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "সূচক "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": " এর মান: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Hindi",
+            "text": "অবৈধ ইনপুট! পূর্ণসংখ্যা দিন।"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 496,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05731606483459473,
+        "output": "Digite um valor de �ndice: O valor no �ndice 0 �: 1"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Digite um valor de índice: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "O valor no índice "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": "Por favor, insira um número inteiro válido."
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Função principal"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 285,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwcd60rlf.py\", line 11, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpwcd60rlf.py\", line 6, in main\n    index = int(input(\"\\u0412\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u0438\\u043d\\u0434\\u0435\\u043a\\u0441: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-6: character maps to <undefined>",
+        "execution_time": 0.14621615409851074,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.13636363636363635,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Введите индекс: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "Значение по индексу "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 492,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06064319610595703,
+        "output": "Masukkan nilai indeks: 10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Indeks di luar rentang"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Masukkan nilai indeks: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Masukkan harus berupa angka bulat."
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "Fungsi utama"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 489,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqmq4ylg4.py\", line 19, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqmq4ylg4.py\", line 10, in main\n    print(\"\\u0627\\u0646\\u0688\\u06cc\\u06a9\\u0633 \\u0648\\u06cc\\u0644\\u06cc\\u0648 \\u062f\\u0631\\u062c \\u06a9\\u0631\\u06cc\\u06ba:\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-5: character maps to <undefined>",
+        "execution_time": 0.14589452743530273,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.20833333333333334,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "انڈیکس باہر ہے"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "انڈیکس ویلیو درج کریں:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "انڈیکس "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": " کی قیمت: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "براہ کرم ایک صحیح عدد درج کریں"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 702,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06268882751464844,
+        "output": "Geben Sie einen Indexwert ein: Der Wert am Index 0 ist: 101"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Fehler: Der Index liegt außerhalb des gültigen Bereichs."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "Geben Sie einen Indexwert ein: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "Fehler: Bitte geben Sie eine gültige Ganzzahl ein."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Der Wert am Index "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": " ist: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Hauptfunktion"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Beispiel-Array"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "Aufruf der Hauptfunktion"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 279,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcsqbzoej.py\", line 11, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpcsqbzoej.py\", line 6, in main\n    index = int(input(\"\\u30a4\\u30f3\\u30c7\\u30c3\\u30af\\u30b9\\u5024\\u3092\\u5165\\u529b\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-15: character maps to <undefined>",
+        "execution_time": 0.14525842666625977,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.15384615384615385,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 15.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "インデックス値を入力してください: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Japanese",
+            "text": "インデックス "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": " の値は "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Japanese",
+            "text": " です。"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 678,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.057016611099243164,
+        "output": "Enter an index value: Value at index 0 is 10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 468,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnwharm4w.py\", line 10, in main\n    user_input = int(input(\"Nh\\u1eadp ch\\u1ec9 m\\u1ee5c: \"))\n                     ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 2: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnwharm4w.py\", line 17, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpnwharm4w.py\", line 14, in main\n    print(\"Vui l�ng nh\\u1eadp m\\u1ed9t s\\u1ed1 nguy�n h\\u1ee3p l\\u1ec7.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ead' in position 11: character maps to <undefined>",
+        "execution_time": 0.14340496063232422,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Nhập chỉ mục: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "Giá trị tại chỉ mục "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Vui lòng nhập một số nguyên hợp lệ."
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1236,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05752706527709961,
+        "output": "Enter the index: The value at index 0 is 10."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "Index "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 458,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptfx7c6o8.py\", line 11, in main\n    index = int(input(\"Dizin de\\u011ferini girin: \"))\n                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u011f' in position 8: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptfx7c6o8.py\", line 18, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmptfx7c6o8.py\", line 15, in main\n    print(\"Ge�ersiz giri\\u015f! L�tfen bir tam say\\u0131 girin.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u015f' in position 13: character maps to <undefined>",
+        "execution_time": 0.15223193168640137,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.20833333333333334,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Geçersiz dizin!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Turkish",
+            "text": "Dizin değerini girin: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Turkish",
+            "text": "Geçersiz giriş! Lütfen bir tam sayı girin."
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "Ana işlev"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (67%)          ✗ No                                     - None              \nzh-CN           ✗ Runtime Error ✓ Yes (67%)          ✓ Yes (Chinese:4 (str:4))                Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✗ No (17%)           ✗ No                                     - None              \nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Spanish:2 (str:2))                - None              \nar              ✓ Yes           ✗ No (4%)            ✓ Yes (German:1 (str:1))                 - None              \nfr              ✓ Yes           ✗ No (50%)           ✓ Yes (French:2 (str:2))                 Prompt: Missing 1 keywords\nbn              ✗ Runtime Error ✗ No (20%)           ✓ Yes (Bengali:4 (str:4); Hindi:1 (str:1)) Runtime: Traceback (most recent ca\npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:4 (cmt:1, str:3))      - None              \nru              ✗ Runtime Error ✗ No (14%)           ✓ Yes (Russian:2 (str:2))                Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:4 (cmt:1, str:3))      Prompt: Missing 1 keywords\nur              ✗ Runtime Error ✗ No (21%)           ✓ Yes (Arabic:5 (str:5))                 Runtime: Traceback (most recent ca\nde              ✓ Yes           ✓ Yes (100%)         ✓ Yes (German:8 (cmt:3, str:5))          - None              \nja              ✗ Runtime Error ✗ No (15%)           ✓ Yes (Japanese:2 (str:2); Chinese:2 (str:2)) Runtime: Traceback (most recent ca\nmr              ✓ Yes           ✗ No (12%)           ✗ No                                     - None              \nvi              ✗ Runtime Error ✗ No (33%)           ✓ Yes (Vietnamese:3 (str:3))             Runtime: Traceback (most recent ca\nte              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Runtime Error ✗ No (21%)           ✓ Yes (Turkish:4 (cmt:1, str:3))         Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:47:56.403080"
+}

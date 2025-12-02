@@ -1,0 +1,1129 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_84",
+  "summary": {
+    "total_languages": 18,
+    "successful": 15,
+    "syntax_errors": 2,
+    "runtime_errors": 1,
+    "success_rate": 83.33333333333334,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 1,
+      "average_similarity_score": 26.679950232769468
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 96
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 857,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10655784606933594,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [
+          "array/list"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%) - Missing: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 766,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1073005199432373,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [
+          "class"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%) - Missing: class"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "检查请求是否包含名为 'payload' 的参数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "将 payload 参数解析为 YAML"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Mandarin Chinese",
+            "text": "检查类型是否为 'Create'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "如果一切正常，返回成功消息"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1372,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12434816360473633,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Indonesian",
+            "text": "INSERT INTO users (data) VALUES (?)"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Spanish",
+            "text": "Database error: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1199,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10594344139099121,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3235294117647059,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 32.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Spanish",
+            "text": "Eliminar"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "El parámetro 'carga_util' es obligatorio."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Spanish",
+            "text": "El campo 'tipo' es obligatorio en la carga útil."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Spanish",
+            "text": "No se permite el tipo 'Crear'."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "La carga útil no es un YAML válido."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "No se permite el tipo 'Eliminar'."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "Operación de actualización exitosa."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Spanish",
+            "text": "' no reconocido."
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "Verificar si el parámetro 'carga_util' está presente"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Analizar la carga útil como YAML"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Verificar si el campo 'tipo' existe"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 939,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12589716911315918,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.046511627906976744,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 4.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 980,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12557125091552734,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3684210526315789,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 36.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "French",
+            "text": "Succès : la charge utile est valide."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "French",
+            "text": "Le paramètre \"payload\" est manquant."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "French",
+            "text": "Le type \"Create\" n'est pas autorisé."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "French",
+            "text": "Erreur de parsing YAML : "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Vérifier si le paramètre 'payload' est présent dans la requête"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "French",
+            "text": "Récupérer la charge utile"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Analyser la charge utile comme YAML"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "French",
+            "text": "Vérifier si le champ 'type' existe et est égal à 'Create'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "French",
+            "text": "Si tout est OK, renvoyer un message de succès"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1192,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1118628978729248,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1005,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1062765121459961,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Sucesso: Tipo não é 'Create'"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "Tipo 'Create' não é permitido"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Verifica se o parâmetro 'payload' está presente na solicitação"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Obtém o valor do parâmetro 'payload'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Analisa a carga como YAML"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "Verifica se o campo 'type' existe e se é 'Create'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "Retorna mensagem de sucesso"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1146,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11081886291503906,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "Параметр \"payload\" отсутствует"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "Поле \"type\" отсутствует в полезной нагрузке"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Russian",
+            "text": "Операция Create не поддерживается"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Russian",
+            "text": "Неверный формат YAML"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Russian",
+            "text": "Удаление успешно выполнено"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "Обновление успешно выполнено"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Russian",
+            "text": "Чтение успешно выполнено"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Russian",
+            "text": "Неизвестный тип операции"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 928,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10729050636291504,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 20.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Buat"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Parameter 'payload' tidak ditemukan"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Payload harus berupa objek YAML"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "Tipe 'Buat' tidak diizinkan"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Indonesian",
+            "text": "Kunci 'nama' tidak ditemukan dalam payload"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Indonesian",
+            "text": "Berhasil: Nama: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Payload tidak valid (bukan YAML yang benar)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1097,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12614083290100098,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.05405405405405406,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 5.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1090,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10694503784179688,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.39473684210526316,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 39.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Erstellen"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Standard German",
+            "text": "Der Typ 'Erstellen' ist nicht erlaubt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Standard German",
+            "text": "Inhalt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "Ungültiges YAML im Payload"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Standard German",
+            "text": "Inhalt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Standard German",
+            "text": "Fehler beim Generieren der Antwort"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Überprüfen, ob der Parameter 'Payload' vorhanden ist"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Versuchen, den Payload als YAML zu analysieren"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Prüfen, ob der Typ 'Erstellen' ist"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "Wenn alles gut ist, Nutzlast als JSON zurückgeben"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1125,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1063227653503418,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.13636363636363635,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "リクエストから 'payload' パラメータを取得"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "ペイロードを YAML として解析"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "ペイロードに 'type' キーがあるか確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "'type' が 'Create' かどうかを確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "それ以外の場合は、ペイロードを JSON として解析して返す"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 786,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1314094066619873,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1049,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11233639717102051,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.46808510638297873,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 46.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "tải trọng"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Vietnamese",
+            "text": "loại"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "Tạo"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "Thành công: Tải trọng hợp lệ và không phải loại 'Tạo'"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "Thiếu tham số 'tải trọng'"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "Dữ liệu YAML phải là một đối tượng dạng từ điển"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Vietnamese",
+            "text": "Loại không được phép là 'Tạo'"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "Phân tích YAML thất bại: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem có tham số 'tải trọng' không"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Phân tích tải trọng dưới dạng YAML"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem loại có phải là 'Tạo' hay không"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Vietnamese",
+            "text": "Trả về thông báo thành công"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 242,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 12: unterminated string literal (detected at line 12)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 12: unterminated string literal (detected at line 12)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "import yaml"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "    try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1817,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 57: '[' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 57: '[' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "import yaml"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "posters = ["
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "French",
+            "text": "        \"description\": data['description'],"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "        \"date\": data['date']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Spanish",
+            "text": "        poster['description'] = data['description']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Portuguese",
+            "text": "        poster['date'] = data['date']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "Spanish",
+            "text": "def delete_poster(poster_id):"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1904,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "No Flask app found in code",
+        "execution_time": 0.2964200973510742,
+        "output": "No Flask app found in code"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09090909090909091,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.1%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (50%)           ✓ Yes (German:1 (str:1))                 Prompt: Missing 1 keywords\nzh-CN           ✓ Yes           ✗ No (50%)           ✓ Yes (Chinese:4 (cmt:4); German:1 (str:1)) Prompt: Missing 1 keywords\nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Spanish:1 (st... - None              \nes              ✓ Yes           ✗ No (32%)           ✓ Yes (Spanish:11 (cmt:3, str:8); German:1... - None              \nar              ✓ Yes           ✗ No (5%)            ✓ Yes (German:1 (str:1))                 - None              \nfr              ✓ Yes           ✗ No (37%)           ✓ Yes (French:9 (cmt:5, str:4); German:1 (... - None              \nbn              ✓ Yes           ✗ No (25%)           ✓ Yes (German:1 (str:1))                 - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:7 (cmt:5, str:2); German... - None              \nru              ✓ Yes           ✗ No (14%)           ✓ Yes (Russian:8 (str:8); German:1 (str:1)) - None              \nid              ✓ Yes           ✗ No (20%)           ✓ Yes (Indonesian:7 (str:7); German:1 (str... - None              \nur              ✓ Yes           ✗ No (5%)            ✓ Yes (German:1 (str:1))                 - None              \nde              ✓ Yes           ✗ No (39%)           ✓ Yes (German:11 (cmt:4, str:7))         - None              \nja              ✓ Yes           ✗ No (14%)           ✓ Yes (Chinese:5 (cmt:5))                - None              \nmr              ✓ Yes           ✗ No (25%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (47%)           ✓ Yes (German:1 (str:1); Vietnamese:12 (cm... - None              \nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Turkish:1 (unk:1); Vietnamese:1 (un... Syntax: Line 12: unterminated str\nha              ✗ Syntax Error  ✗ No (8%)            ✓ Yes (French:1 (unk:1); Indonesian:1 (unk... Syntax: Line 57: '[' was never cl\ntr              ✗ Runtime Error ✗ No (9%)            ✗ No                                     Runtime: No Flask app found in cod\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:51.881865"
+}

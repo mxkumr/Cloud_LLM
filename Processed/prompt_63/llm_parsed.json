@@ -1,0 +1,1137 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\en.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "buffer",
+          "calculate_checksum",
+          "checksum",
+          "e",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_path",
+          "md5",
+          "num_bytes",
+          "open",
+          "os",
+          "out_f",
+          "output_path",
+          "read",
+          "read_and_process_file",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "0",
+          "0",
+          "w",
+          "f\"Bytes read: {num_bytes}\\n",
+          "f\"Checksum: {checksum}\\n",
+          "f\"Error processing file: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "buffer",
+          "checksum",
+          "e",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_path",
+          "md5",
+          "num_bytes",
+          "os",
+          "out_f",
+          "output_path",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Read the file into a buffer",
+          "Calculate the checksum",
+          "Determine number of bytes read",
+          "Check if buffer is empty",
+          "Write the number of bytes and checksum to the output file",
+          "Example usage (can be removed or commented out when reused)",
+          "if __name__ == \"__main__\":",
+          "input_file = \"example.txt\"",
+          "output_file = \"results.txt\"",
+          "success = read_and_process_file(input_file, output_file)",
+          "if success:",
+          "print(\"File processed successfully.\")",
+          "else:",
+          "print(\"Failed to process file.\")"
+        ],
+        "docstrings": [
+          "\r\n    Calculate the checksum (MD5) of the given buffer.\r\n    Returns the checksum as a hexadecimal string.\r\n    ",
+          "\r\n    Reads the contents of a file into a buffer, calculates the checksum,\r\n    and saves the number of bytes read and the checksum to another file.\r\n    \r\n    Args:\r\n        input_path (str): Path to the input file to read.\r\n        output_path (str): Path to the output file to write results.\r\n    \r\n    Returns:\r\n        bool: True if successful, False otherwise.\r\n    "
+        ],
+        "functions": [
+          "calculate_checksum",
+          "read_and_process_file"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "buffer",
+          "checksum",
+          "encode",
+          "f",
+          "input_filename",
+          "num_bytes",
+          "open",
+          "output_filename",
+          "process_file",
+          "read",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "b",
+          "256",
+          "ab",
+          "f\"Bytes read: {num_bytes}, Checksum: {checksum}\\n",
+          "utf-8",
+          "input.txt",
+          "output.log"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "buffer",
+          "checksum",
+          "encode",
+          "f",
+          "input_filename",
+          "num_bytes",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "计算校验和（简单累加）",
+          "读取的字节数",
+          "保存到输出文件",
+          "使用示例"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\hi.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "byte",
+          "bytes_read",
+          "calculate_checksum",
+          "checksum",
+          "f",
+          "input_filename",
+          "main",
+          "open",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "literals": [
+          "0",
+          "256",
+          "input.bin",
+          "output.txt",
+          "rb",
+          "w",
+          "f\"Bytes read: {bytes_read}\\n",
+          "f\"Checksum: {checksum}\\n",
+          "0",
+          "Buffer is empty (checksum is 0).",
+          "f\"Bytes read: {bytes_read}, Checksum: {checksum}",
+          "__main__"
+        ],
+        "variables": [
+          "buffer",
+          "byte",
+          "bytes_read",
+          "checksum",
+          "f",
+          "input_filename",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Replace with your input file name",
+          "Replace with your output file name"
+        ],
+        "docstrings": [],
+        "functions": [
+          "calculate_checksum",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileNotFoundError",
+          "PermissionError",
+          "buffer",
+          "calculate_checksum",
+          "checksum",
+          "e",
+          "file",
+          "input_filename",
+          "main",
+          "open",
+          "output_file",
+          "output_filename",
+          "read",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "input.dat",
+          "output.dat",
+          "rb",
+          "0",
+          "El búfer está vacío.",
+          "f\"Bytes leídos: {len(buffer)}, Suma de comprobación: {checksum}",
+          "w",
+          "f\"Bytes leídos: {len(buffer)}\\n",
+          "f\"Suma de comprobación: {checksum}\\n",
+          "f\"Datos guardados en {output_filename}",
+          "f\"Error: El archivo {input_filename} no fue encontrado.",
+          "f\"Error: No se tiene permiso para leer el archivo {input_filename} o escribir en {output_filename}.",
+          "f\"Ocurrió un error inesperado: {e}",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "FileNotFoundError",
+          "PermissionError",
+          "buffer",
+          "checksum",
+          "e",
+          "file",
+          "input_filename",
+          "output_file",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Nombre del archivo de entrada",
+          "Nombre del archivo de salida",
+          "Leer el contenido del archivo en un búfer (como bytes)",
+          "Calcular la suma de comprobación",
+          "Verificar si el búfer está vacío (checksum == 0)",
+          "Guardar la cantidad de bytes leídos y la suma de verificación en otro archivo"
+        ],
+        "docstrings": [
+          "Calcula la suma de comprobación como la suma de todos los bytes en el búfer."
+        ],
+        "functions": [
+          "calculate_checksum",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "bytes_read",
+          "cache_file",
+          "checksum",
+          "data",
+          "e",
+          "exists",
+          "f",
+          "open",
+          "os",
+          "output_file",
+          "path",
+          "read",
+          "read_cache_and_calculate_checksum",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "f\"Cache file {cache_file} does not exist.",
+          "rb",
+          "f\"Error reading cache file: {e}",
+          "0",
+          "The cache is empty.",
+          "f\"Cache is not empty. Checksum: {checksum}",
+          "w",
+          "f\"Bytes Read: {bytes_read}\\n",
+          "f\"Checksum: {checksum}\\n",
+          "f\"Data saved to {output_file}",
+          "f\"Error writing to output file: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "bytes_read",
+          "cache_file",
+          "checksum",
+          "data",
+          "e",
+          "exists",
+          "f",
+          "os",
+          "output_file",
+          "path",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Check if cache file exists",
+          "Read the cache file",
+          "Calculate the checksum (sum of bytes)",
+          "Number of bytes read",
+          "Check if cache is empty (checksum is 0)",
+          "Save bytes_read and checksum to output file",
+          "Example usage:",
+          "read_cache_and_calculate_checksum('cache.bin', 'stats.txt')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_cache_and_calculate_checksum"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileNotFoundError",
+          "argv",
+          "buffer",
+          "checksum",
+          "checksum_int",
+          "e",
+          "exit",
+          "f",
+          "filename",
+          "hashlib",
+          "hexdigest",
+          "main",
+          "md5",
+          "num_bytes",
+          "open",
+          "out_f",
+          "output_filename",
+          "read",
+          "sys",
+          "write"
+        ],
+        "literals": [
+          "2",
+          "Usage: python script.py <filename>",
+          "1",
+          "1",
+          "rb",
+          "f\"Error: File '{filename}' not found.",
+          "1",
+          "f\"Error reading file: {e}",
+          "1",
+          "16",
+          "output.txt",
+          "w",
+          "f\"Bytes read: {num_bytes}\\n",
+          "f\"Checksum: {checksum}\\n",
+          "0",
+          "Status: Buffer is empty (checksum is 0)\\n",
+          "Status: Buffer is not empty\\n",
+          "f\"Error writing to output file: {e}",
+          "1",
+          "f\"Successfully processed {num_bytes} bytes. Checksum: {checksum}",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "FileNotFoundError",
+          "argv",
+          "buffer",
+          "checksum",
+          "checksum_int",
+          "e",
+          "exit",
+          "f",
+          "filename",
+          "hashlib",
+          "hexdigest",
+          "md5",
+          "num_bytes",
+          "out_f",
+          "output_filename",
+          "read",
+          "sys",
+          "write"
+        ],
+        "comments": [
+          "Calculate checksum using MD5 (or any hash, here we use MD5 for simplicity)",
+          "Convert checksum to integer (for comparison with 0)",
+          "Write number of bytes and checksum to output file"
+        ],
+        "docstrings": [],
+        "functions": [
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\bn.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "checksum",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_filename",
+          "open",
+          "output_filename",
+          "process_file",
+          "read",
+          "sha256",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "0",
+          "0",
+          "w",
+          "f\"Bytes: {len(buffer)}\\n",
+          "f\"Checksum: {checksum}\\n"
+        ],
+        "variables": [
+          "buffer",
+          "checksum",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_filename",
+          "output_filename",
+          "read",
+          "sha256",
+          "write"
+        ],
+        "comments": [
+          "Calculate checksum using SHA-256",
+          "Check if buffer is empty",
+          "Write the number of bytes and checksum to output file",
+          "Example usage:",
+          "process_file('input.txt', 'output.txt')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\pt.py",
+      "elements": {
+        "identifiers": [
+          "block",
+          "block_size",
+          "buffer",
+          "byte",
+          "calculate_checksum",
+          "checksum",
+          "infile",
+          "input_path",
+          "open",
+          "os",
+          "outfile",
+          "output_path",
+          "process_large_file",
+          "read",
+          "total_bytes_read",
+          "write"
+        ],
+        "literals": [
+          "0",
+          "0",
+          "0",
+          "8192",
+          "rb",
+          "w",
+          "f\"Bytes lidos: {total_bytes_read}\\n",
+          "f\"Soma de verificação: {checksum}\\n",
+          "f\"Processamento concluído. Resultados salvos em {output_path}"
+        ],
+        "variables": [
+          "block",
+          "block_size",
+          "buffer",
+          "byte",
+          "checksum",
+          "infile",
+          "input_path",
+          "os",
+          "outfile",
+          "output_path",
+          "read",
+          "total_bytes_read",
+          "write"
+        ],
+        "comments": [
+          "Tamanho do bloco para leitura (ex: 8KB)",
+          "Abrir o arquivo de entrada em modo binário",
+          "Ler um bloco do arquivo",
+          "Fim do arquivo",
+          "Atualizar o número total de bytes lidos",
+          "Atualizar a soma de verificação",
+          "Salvar os resultados no arquivo de saída",
+          "Exemplo de uso:",
+          "process_large_file(\"arquivo_grande.bin\", \"resultado.txt\")"
+        ],
+        "docstrings": [
+          "Calcula a soma de verificação (XOR) dos bytes no buffer.",
+          "Processa um arquivo grande, lendo em blocos, calcula soma de verificação e salva os resultados."
+        ],
+        "functions": [
+          "calculate_checksum",
+          "process_large_file"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileNotFoundError",
+          "buffer",
+          "calculate_checksum",
+          "checksum",
+          "data",
+          "e",
+          "file",
+          "hashlib",
+          "input_filename",
+          "num_bytes",
+          "open",
+          "out_file",
+          "output_filename",
+          "read",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "256",
+          "input.bin",
+          "output.txt",
+          "rb",
+          "w",
+          "f\"Количество прочитанных байт: {num_bytes}\\n",
+          "f\"Контрольная сумма: {checksum}\\n",
+          "f\"Количество прочитанных байт: {num_bytes}",
+          "f\"Контрольная сумма: {checksum}",
+          "0",
+          "Буфер пуст.",
+          "Буфер не пуст.",
+          "f\"Файл {input_filename} не найден.",
+          "f\"Произошла ошибка: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "FileNotFoundError",
+          "buffer",
+          "checksum",
+          "data",
+          "e",
+          "file",
+          "hashlib",
+          "input_filename",
+          "num_bytes",
+          "out_file",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Простая контрольная сумма по байтам",
+          "Чтение файла в буфер",
+          "Укажите имя входного файла",
+          "Укажите имя выходного файла",
+          "Сохранение результатов в файл",
+          "Вывод результатов на экран"
+        ],
+        "docstrings": [],
+        "functions": [
+          "calculate_checksum"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\id.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "calculate_checksum",
+          "checksum",
+          "data",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_filename",
+          "open",
+          "out_f",
+          "output_filename",
+          "process_file",
+          "read",
+          "sha256",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "0",
+          "0",
+          "w",
+          "f\"Jumlah byte: {len(buffer)}\\n",
+          "f\"Checksum: {checksum}\\n"
+        ],
+        "variables": [
+          "buffer",
+          "checksum",
+          "data",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_filename",
+          "out_f",
+          "output_filename",
+          "read",
+          "sha256",
+          "write"
+        ],
+        "comments": [
+          "Membaca konten file ke dalam buffer",
+          "Menghitung checksum dari buffer",
+          "Jika checksum adalah '0' (dalam bentuk hex), maka buffer kosong",
+          "Namun, karena SHA-256 tidak menghasilkan '0' untuk data kosong,",
+          "kita periksa apakah data kosong secara langsung",
+          "Menandakan buffer kosong",
+          "Menyimpan jumlah byte yang dibaca dan checksum ke file lain",
+          "Contoh penggunaan",
+          "process_file('input.txt', 'output.txt')"
+        ],
+        "docstrings": [
+          "Menghitung checksum menggunakan SHA-256 dari data yang diberikan."
+        ],
+        "functions": [
+          "calculate_checksum",
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\ur.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "checksum",
+          "f",
+          "input_filename",
+          "meta_f",
+          "metadata_filename",
+          "num_bytes",
+          "open",
+          "os",
+          "output_filename",
+          "process_file",
+          "read",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "256",
+          "w",
+          "f\"{num_bytes}\\n{checksum}\\n",
+          "wb"
+        ],
+        "variables": [
+          "buffer",
+          "checksum",
+          "f",
+          "input_filename",
+          "meta_f",
+          "metadata_filename",
+          "num_bytes",
+          "os",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Read the file content into buffer",
+          "Calculate checksum (simple sum of bytes)",
+          "Number of bytes in the buffer",
+          "Save number of bytes and checksum to metadata file",
+          "Write the buffer to the output file",
+          "Example usage:",
+          "process_file('input.txt', 'output.txt', 'metadata.txt')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\de.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "buffer_size",
+          "byte",
+          "calculate_checksum",
+          "checksum",
+          "data",
+          "infile",
+          "input_filename",
+          "open",
+          "os",
+          "outfile",
+          "output_filename",
+          "process_file",
+          "read",
+          "total_bytes_read",
+          "write"
+        ],
+        "literals": [
+          "0",
+          "0xFFFFFFFF",
+          "4096",
+          "0",
+          "0",
+          "rb",
+          "0xFFFFFFFF",
+          "w",
+          "f\"Bytes Read: {total_bytes_read}\\n",
+          "f\"Checksum: {checksum}\\n"
+        ],
+        "variables": [
+          "buffer",
+          "buffer_size",
+          "byte",
+          "checksum",
+          "data",
+          "infile",
+          "input_filename",
+          "os",
+          "outfile",
+          "output_filename",
+          "read",
+          "total_bytes_read",
+          "write"
+        ],
+        "comments": [
+          "Ensure 32-bit overflow",
+          "Keep 32-bit",
+          "Write total bytes read and checksum to output file",
+          "Example usage:",
+          "process_file(\"input.bin\", \"output.txt\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "calculate_checksum",
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\ja.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "checksum",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_file_path",
+          "open",
+          "os",
+          "out_f",
+          "output_file_path",
+          "process_file",
+          "read",
+          "remove",
+          "sha256",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "バッファは空です。",
+          "f\"チェックサム: {checksum}",
+          "w",
+          "f\"バイト数: {len(buffer)}\\n",
+          "f\"チェックサム: {checksum}\\n",
+          "f\"元のファイル {input_file_path} は削除されました。"
+        ],
+        "variables": [
+          "buffer",
+          "checksum",
+          "f",
+          "hashlib",
+          "hexdigest",
+          "input_file_path",
+          "os",
+          "out_f",
+          "output_file_path",
+          "read",
+          "remove",
+          "sha256",
+          "write"
+        ],
+        "comments": [
+          "ファイルをバッファーに読み取り",
+          "チェックサムを計算（SHA-256を使用）",
+          "チェックサムが0の場合、バッファは空",
+          "読み取られたバイト数とチェックサムを別のファイルに保存",
+          "元のファイルを削除",
+          "使用例",
+          "process_file('input.txt', 'output.txt')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\mr.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "byteorder",
+          "checksum",
+          "f",
+          "input_file",
+          "open",
+          "output_file",
+          "process_file",
+          "read",
+          "sum",
+          "to_bytes",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "0",
+          "Buffer is empty.",
+          "wb",
+          "8",
+          "big",
+          "8",
+          "big",
+          "rb"
+        ],
+        "variables": [
+          "buffer",
+          "byteorder",
+          "checksum",
+          "f",
+          "input_file",
+          "output_file",
+          "read",
+          "to_bytes",
+          "write"
+        ],
+        "comments": [
+          "Read file content into buffer",
+          "Calculate checksum (sum of bytes)",
+          "Check if buffer is empty",
+          "Save number of bytes read and checksum to output file",
+          "Re-read the file to load content into buffer again",
+          "Recalculate checksum",
+          "Save checksum and number of bytes to"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\vi.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "checksum",
+          "infile",
+          "input_path",
+          "open",
+          "outfile",
+          "output_path",
+          "process_file",
+          "read",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "0",
+          "Buffer is empty (checksum is 0).",
+          "w",
+          "f\"Bytes read: {len(buffer)}\\n",
+          "f\"Checksum: {checksum}\\n"
+        ],
+        "variables": [
+          "buffer",
+          "checksum",
+          "infile",
+          "input_path",
+          "outfile",
+          "output_path",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Example usage:",
+          "process_file('input.bin', 'output.txt')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\te.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileNotFoundError",
+          "argv",
+          "buffer",
+          "byte",
+          "byte_count",
+          "calculate_checksum",
+          "checksum",
+          "data",
+          "e",
+          "exit",
+          "file",
+          "input_filename",
+          "main",
+          "open",
+          "output_file",
+          "output_filename",
+          "read",
+          "sys",
+          "write"
+        ],
+        "literals": [
+          "0",
+          "0xFF",
+          "2",
+          "Usage: python script.py <filename>",
+          "1",
+          "1",
+          "output.txt",
+          "rb",
+          "w",
+          "f\"Byte Count: {byte_count}\\n",
+          "f\"Checksum: {checksum}\\n",
+          "f\"Byte count: {byte_count}",
+          "f\"Checksum: {checksum}",
+          "f\"Error: File '{input_filename}' not found.",
+          "1",
+          "f\"An error occurred: {e}",
+          "1",
+          "__main__"
+        ],
+        "variables": [
+          "Exception",
+          "FileNotFoundError",
+          "argv",
+          "buffer",
+          "byte",
+          "byte_count",
+          "checksum",
+          "data",
+          "e",
+          "exit",
+          "file",
+          "input_filename",
+          "output_file",
+          "output_filename",
+          "read",
+          "sys",
+          "write"
+        ],
+        "comments": [
+          "Ensure checksum is 8-bit"
+        ],
+        "docstrings": [],
+        "functions": [
+          "calculate_checksum",
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\ha.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "data",
+          "flush",
+          "main",
+          "read",
+          "sys",
+          "write"
+        ],
+        "literals": [
+          "__main__"
+        ],
+        "variables": [
+          "buffer",
+          "data",
+          "flush",
+          "read",
+          "sys",
+          "write"
+        ],
+        "comments": [
+          "Read data from stdin",
+          "Write data to stdout"
+        ],
+        "docstrings": [],
+        "functions": [
+          "main"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_7lj7qyzp\\tr.py",
+      "elements": {
+        "identifiers": [
+          "byte_count",
+          "checksum",
+          "data",
+          "encoding",
+          "f",
+          "input_filename",
+          "open",
+          "output_filename",
+          "process_file",
+          "read",
+          "sum",
+          "write"
+        ],
+        "literals": [
+          "rb",
+          "256",
+          "0",
+          "Arabellek boştur.",
+          "w",
+          "utf-8",
+          "f\"Okunan bayt sayısı: {byte_count}\\n",
+          "f\"Sağlama toplamı: {checksum}\\n",
+          "input.txt",
+          "output.txt"
+        ],
+        "variables": [
+          "byte_count",
+          "checksum",
+          "data",
+          "encoding",
+          "f",
+          "input_filename",
+          "output_filename",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Dosyayı UTF-8 kodlamasıyla oku",
+          "Arabelleğin sağlama toplamını hesapla",
+          "Basit sağlama toplamı (0-255 arası)",
+          "Okunan bayt sayısını hesapla",
+          "Sağlama toplamı 0 ise arabellek boştur",
+          "Sonuçları başka bir dosyaya kaydet",
+          "Kullanım örneği"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

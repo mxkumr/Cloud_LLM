@@ -1,0 +1,1081 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_5",
+  "summary": {
+    "total_languages": 18,
+    "successful": 17,
+    "syntax_errors": 1,
+    "runtime_errors": 0,
+    "success_rate": 94.44444444444444,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 6,
+      "average_similarity_score": 50.428194993412376
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 88
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 395,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06813216209411621,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 483,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07581639289855957,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "无效的命令行参数"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "索引超出范围"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "无效的命令行参数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "创建一个元素数组"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "检查命令行参数是否有效"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "将命令行参数转换为整数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "检查索引是否在有效范围内"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 362,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07441234588623047,
+        "output": "apple"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "French",
+            "text": "apple"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Hindi",
+            "text": "इंडेक्स बाहर निकल गया"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Hindi",
+            "text": "इंडेक्स बाहर निकल गया"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Hindi",
+            "text": "तत्वों की श्रृंखला"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "कमांड लाइन तर्क लें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "इंडेक्स की जाँच करें"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 424,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07405686378479004,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.47619047619047616,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 47.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "Índice fuera de rango"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Índice fuera de rango"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "Crear una matriz de elementos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Tomar el argumento de línea de comando y convertirlo en entero"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Imprimir el elemento en ese índice o un mensaje si está fuera de rango"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 471,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.059293270111083984,
+        "output": "apple"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "French",
+            "text": "apple"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "الخطأ: يجب إدخال رقم صحيح كمعلمة من سطر الأوامر."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "الخطأ: الفهرس "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": " خارج النطاق. المدى المسموح به هو 0 إلى "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "إنشاء مجموعة من العناصر"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "قراءة الوسيطة من سطر الأوامر"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "التحقق من أن الفهرس ضمن النطاق"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 477,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.062413930892944336,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Erreur : L'index est hors limites."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "French",
+            "text": "Erreur : Veuillez fournir un argument numérique valide."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "French",
+            "text": "Créer un tableau d'éléments"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Prendre un argument de ligne de commande et le convertir en entier"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "French",
+            "text": "Imprimer l'élément à cet index ou un message d'erreur si hors limites"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 176,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0616002082824707,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Bengali",
+            "text": "একটি অ্যারে তৈরি করা হল"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "কমান্ড লাইন আর্গুমেন্ট নেওয়া হল"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Bengali",
+            "text": "সূচকে উপাদানটি প্রিন্ট করা হল"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 476,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05866646766662598,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.38095238095238093,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Erro: Por favor, forneça um índice válido como argumento."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "Erro: Índice "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": " fora dos limites da matriz (0 a "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Criar uma matriz de elementos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Receber argumento da linha de comando e convertê-lo em inteiro"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "Verificar se o índice é válido"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 602,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.056316375732421875,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Создаем массив элементов"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Проверяем, есть ли аргумент командной строки"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "Пытаемся преобразовать аргумент в целое число"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "Проверяем, находится ли индекс в допустимых пределах"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 372,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05642199516296387,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Membuat array elemen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Mengambil argumen baris perintah dan mengubahnya menjadi bilangan bulat"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Mencetak elemen pada indeks tersebut"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 546,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 24: expected 'except' or 'finally' block"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 24: expected 'except' or 'finally' block",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.30434782608695654,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "# تیار کردہ عناصر کی فہرست"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "# کمانڈ لائن دلیل کو حاصل کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "    print(\"آپ کو ایک انڈیکس دینا ہوگا\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "    # چیک کریں کہ دلیل ایک عدد ہے"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "        index = int(index_str)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "        # انڈیکس کی جانچ کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "        if index == 0:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "            print(\"انڈیکس 0 ہے\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Standard Arabic",
+            "text": "            print(\"انڈیکس 0 سے زیادہ ہے\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "            print(\"انڈیکس 0 سے کم ہے\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "        # اگر انڈیکس فہرست کے اندر ہے، تو"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 458,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06264495849609375,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "array/list"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: array/list"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "Fehler: Der Index liegt außerhalb des Arrays."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Fehler: Bitte ein gültiges Ganzzahl-Argument übergeben."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard German",
+            "text": "Erstellen eines Arrays mit Elementen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Befehlszeilenargument einlesen und in Ganzzahl umwandeln"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Prüfen, ob der Index im gültigen Bereich liegt"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 488,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05634140968322754,
+        "output": "apple"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "French",
+            "text": "apple"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "date"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "コマンドライン引数を取得"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "配列の要素を定義"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "引数が存在するか確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "引数を整数に変換"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "配列の範囲内か確認"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 398,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05683636665344238,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "अस्तित्वात नाही"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "कमांड लाइन आर्ग्युमेंट आवश्यक आहे आणि पूर्णांक असावा."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Hindi",
+            "text": "घटकांची अ‍ॅरे तयार करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "कमांड लाइन आर्ग्युमेंट घेऊन पूर्णांकात रूपांतरित करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Hindi",
+            "text": "निर्देशांक तपासा आणि घटक मुद्रित करा"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 400,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055907487869262695,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.8095238095238095,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 81.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "Không tìm thấy phần tử tại chỉ mục này"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Vui lòng cung cấp một chỉ mục hợp lệ."
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Vietnamese",
+            "text": "Tạo mảng các phần tử"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Nhận đối số dòng lệnh và chuyển đổi thành số nguyên"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Kiểm tra chỉ mục và in phần tử tương ứng"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 493,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07568955421447754,
+        "output": "10"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "Index "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 189,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07611656188964844,
+        "output": "[2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 197,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11010313034057617,
+        "output": "1"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2727272727272727,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "variable",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "argüman"
+          },
+          {
+            "category": "variable",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "argüman"
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Turkish",
+            "text": "Dizi oluştur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Komut satırı argümanını al ve tamsayıya dönüştür"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Dizinin belirtilen indeksindeki öğeyi yazdır"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:7 (cmt:4, str:3))         - None              \nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Hindi:5 (cmt:3, s... - None              \nes              ✓ Yes           ✗ No (48%)           ✓ Yes (Spanish:5 (cmt:3, str:2))         - None              \nar              ✓ Yes           ✗ No (33%)           ✓ Yes (French:1 (str:1); Indonesian:1 (str... - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:5 (cmt:3, str:2))          - None              \nbn              ✓ Yes           ✗ No (33%)           ✓ Yes (Bengali:3 (cmt:3))                - None              \npt              ✓ Yes           ✗ No (38%)           ✓ Yes (Portuguese:5 (cmt:3, str:2); Spanis... - None              \nru              ✓ Yes           ✗ No (33%)           ✓ Yes (Russian:4 (cmt:4))                - None              \nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:3 (cmt:3))             - None              \nur              ✗ Syntax Error  ✗ No (30%)           ✓ Yes (Arabic:9 (unk:9); German:2 (unk:2) ... Syntax: Line 24: expected 'except\nde              ✓ Yes           ✓ Yes (100%)         ✓ Yes (German:5 (cmt:3, str:2))          - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Indonesian:1 (str... - None              \nmr              ✓ Yes           ✗ No (33%)           ✓ Yes (Hindi:5 (cmt:3, str:2))           - None              \nvi              ✓ Yes           ✓ Yes (81%)          ✓ Yes (Vietnamese:5 (cmt:3, str:2))      - None              \nte              ✓ Yes           ✗ No (50%)           ✓ Yes (German:1 (str:1))                 - None              \nha              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \ntr              ✓ Yes           ✗ No (27%)           ✓ Yes (Turkish:5 (cmt:3, var:2))         - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:50:41.361950"
+}

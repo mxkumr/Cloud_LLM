@@ -1,0 +1,653 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_23",
+  "summary": {
+    "total_languages": 18,
+    "successful": 14,
+    "syntax_errors": 0,
+    "runtime_errors": 4,
+    "success_rate": 77.77777777777779,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 14.98242017917474
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 6,
+      "total_locations": 20
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10419344902038574,
+        "output": "a : 5562 b : 2664 c : 4817 sum: 13043 sum2: 13043"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 16.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 228,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12391471862792969,
+        "output": "a : 7585\nb : 9980\nc : 5219\nsum: 22784\nsum2: 22784"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 300,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpbffraahd.py\", line 12, in <module>\n    print(f\"\\u090f: {a} \\u092c\\u0940: {b} \\u0938\\u0940: {c} \\u092f\\u094b\\u0917: {total} \\u092f\\u094b\\u09172: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u090f' in position 0: character maps to <undefined>",
+        "execution_time": 0.16323518753051758,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": "ए: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": " बी: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": " सी: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": " योग: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": " योग2: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 198,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11227250099182129,
+        "output": "a: 1867 b: 8319 c: 6509 suma: 16695 suma2: 16695"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07142857142857142,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": " suma: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": " suma2: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 329,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp9t8pcyz9.py\", line 9, in <module>\n    print(f\"\\u0623: {a}\")\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0623' in position 0: character maps to <undefined>",
+        "execution_time": 0.15398645401000977,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.32142857142857145,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 32.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "أ: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "ب: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "ج: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "مجموع: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "مجموع 2: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 3",
+            "language": "Standard Arabic",
+            "text": "إنشاء ثلاثة أعداد صحيحة عشوائية أكبر من 1000"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "طباعة الأعداد الثلاثة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "جمع الأعداد وطباعة الناتج"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 235,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09249687194824219,
+        "output": "a : 4491 b : 1041 c : 8264\nsomme : 13796\nsomme2 : 13796"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1176445484161377,
+        "output": "a : 8655 b : 5429 c : 4592 sum: 18676 sum2: 18676"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2727272727272727,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 198,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11336231231689453,
+        "output": "a: 4226 b: 1471 c: 3123 soma: 8820 soma2: 8820"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 185,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11329078674316406,
+        "output": "a: 7780 b: 4927 c: 3666 sum: 16373 sum2: 16373"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.10344827586206896,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 215,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1281437873840332,
+        "output": "a : 2360 b : 4018 c : 9929 jumlah: 16307 jumlah2: 16307"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.06666666666666667,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 6.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": " jumlah: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": " jumlah2: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 297,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp3k76hgyk.py\", line 12, in <module>\n    print(f\"A: {A} B: {B} C: {C} \\u0631\\u0642\\u0645: {total} SUM2: {total}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 24-26: character maps to <undefined>",
+        "execution_time": 0.19415521621704102,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.10344827586206896,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": " رقم: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": " SUM2: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 212,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09576582908630371,
+        "output": "a : 2560 b : 5225 c : 8394\nsum: 16179 sum2: 16179"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.058823529411764705,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 5.9%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09880256652832031,
+        "output": "a : 2109 b : 8186 c : 7169 sum: 17464 sum2: 17464"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0983428955078125,
+        "output": "a : 1759 b : 7887 c : 7666 sum: 17312 sum2: 17312"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09653663635253906,
+        "output": "a : 9507 b : 4044 c : 1054 sum: 14605 sum2: 14605"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10139894485473633,
+        "output": "a : 6590 b : 6955 c : 9981 sum: 23526 sum2: 23526"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.42857142857142855,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 42.9%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 482,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqq4kz4l3.py\", line 8, in <module>\n    num = int(input())\n              ~~~~~^^\nEOFError: EOF when reading a line",
+        "execution_time": 0.1605062484741211,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.06666666666666667,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 6.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "SUM2: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 188,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0950765609741211,
+        "output": "a : 2202 b : 5845 c : 1716 sum: 9763 sum2: 9763"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.08,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 8.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (17%)           ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (14%)           ✗ No                                     - None              \nhi              ✗ Runtime Error ✗ No (12%)           ✓ Yes (Hindi:5 (str:5))                  Runtime: Traceback (most recent ca\nes              ✓ Yes           ✗ No (7%)            ✓ Yes (Portuguese:2 (str:2))             - None              \nar              ✗ Runtime Error ✗ No (32%)           ✓ Yes (Arabic:8 (cmt:3, str:5))          Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✗ No (8%)            ✗ No                                     - None              \nbn              ✓ Yes           ✗ No (27%)           ✗ No                                     - None              \npt              ✓ Yes           ✗ No (8%)            ✗ No                                     - None              \nru              ✓ Yes           ✗ No (10%)           ✗ No                                     - None              \nid              ✓ Yes           ✗ No (7%)            ✓ Yes (Indonesian:2 (str:2))             - None              \nur              ✗ Runtime Error ✗ No (10%)           ✓ Yes (Arabic:1 (str:1); German:1 (str:1)) Runtime: Traceback (most recent ca\nde              ✓ Yes           ✗ No (6%)            ✗ No                                     - None              \nja              ✓ Yes           ✗ No (12%)           ✗ No                                     - None              \nmr              ✓ Yes           ✗ No (33%)           ✗ No                                     - None              \nvi              ✓ Yes           ✗ No (8%)            ✗ No                                     - None              \nte              ✓ Yes           ✗ No (43%)           ✗ No                                     - None              \nha              ✗ Runtime Error ✗ No (7%)            ✓ Yes (German:1 (str:1))                 Runtime: Traceback (most recent ca\ntr              ✓ Yes           ✗ No (8%)            ✗ No                                     - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:29.848733"
+}

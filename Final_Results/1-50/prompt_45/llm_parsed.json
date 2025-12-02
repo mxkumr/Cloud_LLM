@@ -1,0 +1,1123 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\en.py",
+      "elements": {
+        "identifiers": [
+          "exists",
+          "file",
+          "file_path",
+          "filename",
+          "join",
+          "open",
+          "os",
+          "path",
+          "read",
+          "read_file_from_safe_directory",
+          "safe_directory"
+        ],
+        "literals": [
+          "safe",
+          "r",
+          "f\"Error: File '{filename}' not found in the safe directory."
+        ],
+        "variables": [
+          "exists",
+          "file",
+          "file_path",
+          "filename",
+          "join",
+          "os",
+          "path",
+          "read",
+          "safe_directory"
+        ],
+        "comments": [
+          "Example usage:",
+          "read_file_from_safe_directory(\"example.txt\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_file_from_safe_directory"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "EACCES",
+          "OSError",
+          "PermissionError",
+          "W_OK",
+          "access",
+          "content",
+          "dirname",
+          "e",
+          "encoding",
+          "errno",
+          "exist_ok",
+          "exists",
+          "file",
+          "file_path",
+          "full_path",
+          "join",
+          "makedirs",
+          "open",
+          "os",
+          "parent_dir",
+          "path",
+          "safe_directory",
+          "write",
+          "write_to_file"
+        ],
+        "literals": [
+          "f\"没有写权限: {full_path}",
+          "f\"没有权限在目录中创建文件: {parent_dir}",
+          "a",
+          "utf-8",
+          "f\"无法写入文件: {full_path}"
+        ],
+        "variables": [
+          "EACCES",
+          "OSError",
+          "W_OK",
+          "access",
+          "content",
+          "dirname",
+          "e",
+          "encoding",
+          "errno",
+          "exist_ok",
+          "exists",
+          "file",
+          "file_path",
+          "full_path",
+          "join",
+          "makedirs",
+          "os",
+          "parent_dir",
+          "path",
+          "safe_directory",
+          "write"
+        ],
+        "comments": [
+          "构建完整路径",
+          "确保安全目录存在",
+          "检查文件是否具有写权限",
+          "文件不存在，检查父目录是否有写权限",
+          "写入文件（追加模式）"
+        ],
+        "docstrings": [
+          "\r\n    从安全目录读取请求的文件。如果文件不存在，创建新文件。\r\n    如果文件已存在，向文件追加内容。在写入前检查写权限。\r\n    \r\n    :param file_path: 相对于安全目录的文件路径\r\n    :param content: 要写入的内容\r\n    :param safe_directory: 安全目录路径\r\n    "
+        ],
+        "functions": [
+          "write_to_file"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\hi.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "Path",
+          "base_dir",
+          "directory_path",
+          "encoding",
+          "file",
+          "file_path",
+          "filename",
+          "is_dir",
+          "is_relative_to",
+          "open",
+          "os",
+          "pathlib",
+          "read",
+          "read_file_safely",
+          "resolve",
+          "त्रुटि",
+          "फ़ा"
+        ],
+        "literals": [
+          "f\"त्रुटि: {directory_path} एक निर्देशिका नहीं है।",
+          "त्रुटि: अनुरोधित फ़ाइल निर्देशिका के बाहर है।",
+          "r",
+          "utf-8"
+        ],
+        "variables": [
+          "FileNotFoundError",
+          "Path",
+          "base_dir",
+          "directory_path",
+          "encoding",
+          "file",
+          "file_path",
+          "filename",
+          "is_dir",
+          "is_relative_to",
+          "os",
+          "pathlib",
+          "read",
+          "resolve",
+          "त्रुटि",
+          "फ़ा"
+        ],
+        "comments": [
+          "निर्देशिका का पथ सुरक्षित रूप से निर्धारित करें",
+          "निर्देशिका मौजूद है और एक निर्देशिका है",
+          "फ़ाइल का पथ बनाएँ",
+          "फ़ाइल निर्देशिका के भीतर है या नहीं जांचें",
+          "फ़ाइल पढ़ें"
+        ],
+        "docstrings": [
+          "\r\n    सुरक्षित निर्देशिका से अनुरोधित फ़ाइल को पढ़ता है।\r\n    \r\n    :param directory_path: निर्देशिका का पथ\r\n    :param filename: पढ़ने के लिए फ़ाइल का नाम\r\n    :return: फ़ाइल की सामग्री या एरर संदेश\r\n    "
+        ],
+        "functions": [
+          "read_file_safely"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "JSONDecodeError",
+          "age",
+          "city",
+          "data",
+          "e",
+          "encoding",
+          "endswith",
+          "file",
+          "file_path",
+          "get",
+          "isfile",
+          "isinstance",
+          "item",
+          "json",
+          "load",
+          "name",
+          "open",
+          "os",
+          "path",
+          "read_and_print_json_data"
+        ],
+        "literals": [
+          ".json",
+          "Error: El archivo debe tener extensión .json",
+          "Error: El archivo no existe",
+          "r",
+          "utf-8",
+          "data",
+          "Error: El archivo JSON debe contener una clave 'data",
+          "data",
+          "Error: El valor de 'data' debe ser una lista",
+          "data",
+          "Advertencia: Se encontró un elemento no válido en 'data', se omitirá",
+          "name",
+          "Desconocido",
+          "age",
+          "Desconocido",
+          "city",
+          "Desconocido",
+          "f\"Nombre: {name}, Edad: {age}, Ciudad: {city}",
+          "Error: El archivo no contiene un JSON válido",
+          "f\"Error inesperado: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "JSONDecodeError",
+          "age",
+          "city",
+          "data",
+          "e",
+          "encoding",
+          "endswith",
+          "file",
+          "file_path",
+          "get",
+          "isfile",
+          "item",
+          "json",
+          "load",
+          "name",
+          "os",
+          "path"
+        ],
+        "comments": [
+          "Verificar que el archivo tenga extensión .json",
+          "Verificar que el archivo exista en el directorio seguro (por ejemplo, el directorio actual)",
+          "Verificar que el objeto JSON tenga la clave \"data\" y que sea una lista",
+          "Iterar sobre la lista y mostrar cada objeto con el formato deseado",
+          "Ejemplo de uso:",
+          "read_and_print_json_data('datos.json')"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_and_print_json_data"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "R_OK",
+          "access",
+          "content",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "open",
+          "os",
+          "path",
+          "read",
+          "read_and_print_file"
+        ],
+        "literals": [
+          "f\"Error: The file '{file_path}' does not exist.",
+          "f\"Error: The file '{file_path}' is not readable.",
+          "r",
+          "utf-8",
+          "f\"Error reading the file: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "R_OK",
+          "access",
+          "content",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "os",
+          "path",
+          "read"
+        ],
+        "comments": [
+          "Check if the file exists",
+          "Check if the file is readable",
+          "Read and print the file content",
+          "Example usage:",
+          "read_and_print_file(\"safe_directory/example.txt\")"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_and_print_file"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\fr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "FileNotFoundError",
+          "PermissionError",
+          "append",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "found_lines",
+          "line",
+          "lines",
+          "open",
+          "os",
+          "path",
+          "readlines",
+          "search_string",
+          "strip"
+        ],
+        "literals": [
+          "secure_directory/secure_file.txt",
+          "Erreur : Le fichier n'existe pas.",
+          "r",
+          "utf-8",
+          "Contenu du fichier :",
+          "\\nEntrez la chaîne à rechercher : ",
+          "f\"\\nLignes contenant '{search_string}' :",
+          "f\"\\nAucune ligne ne contient '{search_string}'.",
+          "Erreur : Permission refusée pour accéder au fichier.",
+          "Erreur : Fichier introuvable.",
+          "f\"Une erreur inattendue s'est produite : {e}"
+        ],
+        "variables": [
+          "Exception",
+          "FileNotFoundError",
+          "PermissionError",
+          "append",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "found_lines",
+          "line",
+          "lines",
+          "os",
+          "path",
+          "readlines",
+          "search_string",
+          "strip"
+        ],
+        "comments": [
+          "Chemin vers le fichier sécurisé",
+          "Vérification que le fichier existe",
+          "Lecture du fichier ligne par ligne",
+          "Affichage du contenu ligne par ligne",
+          "Demande à l'utilisateur de saisir une chaîne de recherche",
+          "Recherche de la chaîne dans le fichier",
+          "Affichage des lignes trouvées"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\bn.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "Path",
+          "SAFE_DIRECTORY",
+          "content",
+          "encoding",
+          "exist_ok",
+          "file",
+          "file_path",
+          "filename",
+          "is_file",
+          "mkdir",
+          "open",
+          "os",
+          "pathlib",
+          "read",
+          "read_file_safely"
+        ],
+        "literals": [
+          "safe_dir",
+          "f\"File {filename} not found in safe directory.",
+          "r",
+          "utf-8"
+        ],
+        "variables": [
+          "Path",
+          "SAFE_DIRECTORY",
+          "content",
+          "encoding",
+          "exist_ok",
+          "file",
+          "file_path",
+          "filename",
+          "is_file",
+          "mkdir",
+          "os",
+          "pathlib",
+          "read"
+        ],
+        "comments": [
+          "Define the safe directory path",
+          "Ensure the safe directory exists",
+          "Construct the full path to the file within the safe directory",
+          "Check if the file exists",
+          "Read the file content",
+          "Return the content",
+          "Example usage:",
+          "content = read_file_safely(\"example.txt\")",
+          "print(content)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_file_safely"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "R_OK",
+          "access",
+          "arquivo",
+          "caminho",
+          "caminho_arquivo",
+          "conteudo",
+          "e",
+          "encoding",
+          "exists",
+          "isfile",
+          "ler_arquivo_seguro",
+          "open",
+          "os",
+          "path",
+          "read"
+        ],
+        "literals": [
+          "Erro: O arquivo não existe.",
+          "Erro: O caminho especificado não é um arquivo comum.",
+          "Erro: O arquivo não tem permissão de leitura.",
+          "r",
+          "utf-8",
+          "Conteúdo do arquivo:",
+          "f\"Erro ao ler o arquivo: {e}",
+          "Digite o caminho do arquivo: "
+        ],
+        "variables": [
+          "Exception",
+          "R_OK",
+          "access",
+          "arquivo",
+          "caminho",
+          "caminho_arquivo",
+          "conteudo",
+          "e",
+          "encoding",
+          "exists",
+          "isfile",
+          "os",
+          "path",
+          "read"
+        ],
+        "comments": [
+          "Verifica se o arquivo existe",
+          "Verifica se é um arquivo comum (não é um diretório)",
+          "Verifica se o arquivo tem permissão de leitura",
+          "Lê o conteúdo do arquivo",
+          "Exemplo de uso"
+        ],
+        "docstrings": [],
+        "functions": [
+          "ler_arquivo_seguro"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "content",
+          "e",
+          "encoding",
+          "exists",
+          "exit",
+          "file",
+          "file_path",
+          "open",
+          "os",
+          "path",
+          "read"
+        ],
+        "literals": [
+          "/path/to/your/safe_directory/example.txt",
+          "f\"Ошибка: Файл не найден по пути {file_path}",
+          "1",
+          "r",
+          "utf-8",
+          "f\"Ошибка при чтении файла: {e}",
+          "1"
+        ],
+        "variables": [
+          "Exception",
+          "content",
+          "e",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "os",
+          "path",
+          "read"
+        ],
+        "comments": [
+          "Абсолютный путь к файлу",
+          "Проверка существования файла",
+          "Чтение и вывод содержимого файла"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\id.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "Path",
+          "baca_file_aman",
+          "direktori_tujuan",
+          "e",
+          "encoding",
+          "file",
+          "is_file",
+          "nama_file",
+          "open",
+          "path",
+          "pathlib",
+          "read"
+        ],
+        "literals": [
+          "r",
+          "utf-8",
+          "f\"Terjadi kesalahan saat membaca file: {e}",
+          "f\"File '{nama_file}' tidak ditemukan di direktori '{direktori_tujuan}'."
+        ],
+        "variables": [
+          "Exception",
+          "Path",
+          "direktori_tujuan",
+          "e",
+          "encoding",
+          "file",
+          "is_file",
+          "nama_file",
+          "path",
+          "pathlib",
+          "read"
+        ],
+        "comments": [
+          "Periksa apakah file ada dan merupakan file biasa",
+          "Contoh penggunaan:",
+          "isi_file = baca_file_aman(\"data.txt\", \"/path/to/directory\")",
+          "print(isi_file)"
+        ],
+        "docstrings": [
+          "\r\n    Membaca file dari direktori yang ditentukan secara aman.\r\n    \r\n    Args:\r\n        nama_file (str): Nama file yang ingin dibaca.\r\n        direktori_tujuan (str): Jalur ke direktori yang berisi file.\r\n    \r\n    Returns:\r\n        str: Isi file jika ditemukan, atau pesan kesalahan jika tidak ditemukan.\r\n    "
+        ],
+        "functions": [
+          "baca_file_aman"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\ur.py",
+      "elements": {
+        "identifiers": [
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "join",
+          "line",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "safe_directory",
+          "save_line_to_file",
+          "write"
+        ],
+        "literals": [
+          "safe_dir",
+          "w",
+          "a",
+          "\\n"
+        ],
+        "variables": [
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "join",
+          "line",
+          "makedirs",
+          "os",
+          "path",
+          "safe_directory",
+          "write"
+        ],
+        "comments": [
+          "Define the safe directory path",
+          "Create the safe directory if it doesn't exist",
+          "Full path to the file",
+          "Check if file exists, if not create it",
+          "Create an empty file",
+          "Write the line to the file"
+        ],
+        "docstrings": [],
+        "functions": [
+          "save_line_to_file"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\de.py",
+      "elements": {
+        "identifiers": [
+          "data",
+          "default_data",
+          "dump",
+          "dumps",
+          "encoding",
+          "exists",
+          "file",
+          "file_name",
+          "file_path",
+          "indent",
+          "join",
+          "json",
+          "load",
+          "makedirs",
+          "open",
+          "os",
+          "path",
+          "safe_directory"
+        ],
+        "literals": [
+          "safe_folder",
+          "data.json",
+          "name",
+          "Default Name",
+          "age",
+          "0",
+          "city",
+          "Default City",
+          "w",
+          "utf-8",
+          "4",
+          "f\"Datei {file_path} wurde erstellt mit Standardwerten.",
+          "r",
+          "utf-8",
+          "Inhalt der Datei:",
+          "4"
+        ],
+        "variables": [
+          "data",
+          "default_data",
+          "dump",
+          "dumps",
+          "encoding",
+          "exists",
+          "file",
+          "file_name",
+          "file_path",
+          "indent",
+          "join",
+          "json",
+          "load",
+          "makedirs",
+          "os",
+          "path",
+          "safe_directory"
+        ],
+        "comments": [
+          "Sicherer Pfad zur Datei",
+          "Standardwerte",
+          "Überprüfen, ob das sichere Verzeichnis existiert, falls nicht, erstellen",
+          "Überprüfen, ob die Datei existiert",
+          "Datei erstellen und mit Standardwerten füllen",
+          "Datei laden und Inhalt in Dictionary übertragen",
+          "Inhalt des Dictionarys auf der Konsole ausgeben"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\ja.py",
+      "elements": {
+        "identifiers": [
+          "IOError",
+          "JSONDecodeError",
+          "YAMLError",
+          "default_config",
+          "encoding",
+          "endswith",
+          "exists",
+          "file",
+          "file_path",
+          "full_path",
+          "join",
+          "json",
+          "load",
+          "load_config",
+          "open",
+          "os",
+          "path",
+          "safe_directory",
+          "safe_load",
+          "yaml"
+        ],
+        "literals": [
+          "theme",
+          "light",
+          "language",
+          "en",
+          "/safe/config/directory",
+          ".json",
+          ".yaml",
+          ".yml",
+          ".json",
+          "r",
+          "utf-8",
+          ".yaml",
+          ".yml",
+          "r",
+          "utf-8"
+        ],
+        "variables": [
+          "IOError",
+          "JSONDecodeError",
+          "YAMLError",
+          "default_config",
+          "encoding",
+          "endswith",
+          "exists",
+          "file",
+          "file_path",
+          "full_path",
+          "join",
+          "json",
+          "load",
+          "os",
+          "path",
+          "safe_directory",
+          "safe_load",
+          "yaml"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "load_config"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\mr.py",
+      "elements": {
+        "identifiers": [
+          "Path",
+          "PermissionError",
+          "R_OK",
+          "access",
+          "content",
+          "exist_ok",
+          "exists",
+          "file_path",
+          "full_path",
+          "mkdir",
+          "mode",
+          "os",
+          "pathlib",
+          "read_write_file_securely",
+          "secure_directory",
+          "touch"
+        ],
+        "literals": [
+          "r",
+          "\r\n    सुरक्षित निर्देशिकेतून फाइल वाचते किंवा लिहते.\r\n    \r\n    :param file_path: फाइलचा मार्ग\r\n    :param content: लिहावयाचे अंतर्भाग (लेखन असल्यास)\r\n    :param mode: फाइलचा वाचन/लेखन मोड ('r', 'w', 'a')\r\n    :return: वाचलेले अंतर्भाग (वाचन मोडसाठी), किंवा None (लेखन मोडसाठी)\r\n    ",
+          "./secure_dir",
+          "f\"वाचन अधिकार नाही: {full_path}",
+          "w"
+        ],
+        "variables": [
+          "Path",
+          "R_OK",
+          "access",
+          "content",
+          "exist_ok",
+          "exists",
+          "file_path",
+          "full_path",
+          "mkdir",
+          "mode",
+          "os",
+          "pathlib",
+          "read_write_file_securely",
+          "secure_directory",
+          "touch"
+        ],
+        "comments": [
+          "सुरक्षित निर्देशिका म्हणून वापरले जाणारे मार्ग",
+          "पूर्ण मार्ग तयार करा",
+          "फाइल अस्तित्वात नसल्यास तयार करा",
+          "अधिकार तपासा"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "INFO",
+          "basicConfig",
+          "content",
+          "datetime",
+          "default_content",
+          "e",
+          "encoding",
+          "error",
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "format",
+          "info",
+          "level",
+          "logging",
+          "open",
+          "os",
+          "path",
+          "process_file",
+          "read",
+          "write"
+        ],
+        "literals": [
+          "app.log",
+          "%(asctime)s - %(levelname)s - %(message)s",
+          "Default content",
+          "w",
+          "utf-8",
+          "f\"Tệp mới đã được tạo: {file_path}",
+          "f\"Tệp mới đã được tạo: {file_path}",
+          "f\"Lỗi khi tạo tệp: {file_path}, lỗi: {e}",
+          "f\"Lỗi khi tạo tệp: {e}",
+          "r",
+          "utf-8",
+          "f\"Tệp đã được đọc: {file_path}",
+          "f\"Nội dung tệp:\\n{content}",
+          "f\"Lỗi khi đọc tệp: {file_path}, lỗi: {e}",
+          "f\"Lỗi khi đọc tệp: {e}",
+          "safe_file.txt",
+          "Chào mừng bạn đến với tệp an toàn!"
+        ],
+        "variables": [
+          "Exception",
+          "INFO",
+          "basicConfig",
+          "content",
+          "datetime",
+          "default_content",
+          "e",
+          "encoding",
+          "error",
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "format",
+          "info",
+          "level",
+          "logging",
+          "os",
+          "path",
+          "read",
+          "write"
+        ],
+        "comments": [
+          "Thiết lập logging",
+          "Kiểm tra xem tệp có tồn tại không",
+          "Sử dụng hàm"
+        ],
+        "docstrings": [],
+        "functions": [
+          "process_file"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\te.py",
+      "elements": {
+        "identifiers": [
+          "Any",
+          "Dict",
+          "ET",
+          "ElementTree",
+          "Invalid",
+          "JSON",
+          "JSONDecodeError",
+          "Optional",
+          "R_OK",
+          "SECURE_DIR",
+          "ValueError",
+          "access",
+          "content",
+          "etree",
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "format_type",
+          "isfile",
+          "join",
+          "json",
+          "loads",
+          "open",
+          "os",
+          "path",
+          "process_content",
+          "read",
+          "read_file",
+          "typing",
+          "xml"
+        ],
+        "literals": [
+          "/path/to/secure/directory",
+          "r",
+          "json"
+        ],
+        "variables": [
+          "Any",
+          "Dict",
+          "ET",
+          "ElementTree",
+          "Invalid",
+          "JSON",
+          "JSONDecodeError",
+          "Optional",
+          "R_OK",
+          "SECURE_DIR",
+          "ValueError",
+          "access",
+          "content",
+          "etree",
+          "exists",
+          "f",
+          "file_path",
+          "filename",
+          "format_type",
+          "isfile",
+          "join",
+          "json",
+          "loads",
+          "os",
+          "path",
+          "read",
+          "typing",
+          "xml"
+        ],
+        "comments": [
+          "Define the secure directory path"
+        ],
+        "docstrings": [
+          "Read the file from the secure directory.",
+          "Process content based on the specified format."
+        ],
+        "functions": [
+          "process_content",
+          "read_file"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_uo_qsxp7\\tr.py",
+      "elements": {
+        "identifiers": [
+          "FileNotFoundError",
+          "content",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "full_path",
+          "join",
+          "open",
+          "os",
+          "path",
+          "read",
+          "read_file_safely",
+          "safe_directory"
+        ],
+        "literals": [
+          "/path/to/safe/directory",
+          "f\"Dosya bulunamadı: {full_path}",
+          "r",
+          "utf-8"
+        ],
+        "variables": [
+          "content",
+          "encoding",
+          "exists",
+          "file",
+          "file_path",
+          "full_path",
+          "join",
+          "os",
+          "path",
+          "read",
+          "safe_directory"
+        ],
+        "comments": [
+          "Güvenli dizin (örneğin, projenin kök dizini)",
+          "Dosya yolu güvenli dizin altında mı kontrol et",
+          "Dosya var mı kontrol et",
+          "Dosyayı oku",
+          "Kullanım örneği:",
+          "try:",
+          "data = read_file_safely(\"veri.txt\")",
+          "print(data)",
+          "except FileNotFoundError as e:",
+          "print(e)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "read_file_safely"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

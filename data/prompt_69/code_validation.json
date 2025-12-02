@@ -1,0 +1,1221 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_69",
+  "summary": {
+    "total_languages": 18,
+    "successful": 13,
+    "syntax_errors": 2,
+    "runtime_errors": 3,
+    "success_rate": 72.22222222222221,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 1,
+      "average_similarity_score": 11.199294532627865
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 14,
+      "total_locations": 113
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 758,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1691265106201172,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 675,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.19673514366149902,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Indonesian",
+            "text": "JPEG"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "读取图像并使用 base64 编码"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "将编码后的图像写入文件"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "调用 process_image 函数处理图像"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "打开图像并保存为 JPEG 格式"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "显示图像"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "示例用法（可选）"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 443,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12396907806396484,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": "छवि सफलतापूर्वक एन्कोड की गई और encoded_image.txt में संग्रहित की गई।"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Hindi",
+            "text": "छवि को पढ़ें और बेस64 में एन्कोड करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Hindi",
+            "text": "एन्कोडेड छवि को फ़ाइल में लिखें"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1267,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14289402961730957,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 4",
+            "language": "Spanish",
+            "text": "Lee una imagen desde la ruta especificada, la codifica en base64 y la guarda en un archivo.\n\nArgs:\n ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "Imagen codificada correctamente y guardada en "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "Error: El archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": " no existe."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Spanish",
+            "text": " o escribir en "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Spanish",
+            "text": "Error inesperado: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "Verificar si el archivo de imagen existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Spanish",
+            "text": "Leer la imagen en modo binario"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "Codificar la imagen en base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Spanish",
+            "text": "Escribir la codificación base64 en el archivo de salida"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1281,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp94c1_wp_.py\", line 3, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'",
+        "execution_time": 0.19916534423828125,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Standard Arabic",
+            "text": "تم حفظ الميزات في الملف: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "قراءة الصورة من المسار"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "ترميز الصورة باستخدام base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "كتابة الصورة المشفرة إلى ملف"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "تحويل الصورة إلى صورة رمادية باستخدام Pillow"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Standard Arabic",
+            "text": "قراءة الصورة الرمادية باستخدام OpenCV"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "استخراج الميزات باستخدام خوارزمية SIFT"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Standard Arabic",
+            "text": "حفظ الميزات المستخرجة في ملف نصي"
+          },
+          {
+            "category": "comment",
+            "location": "Line 39",
+            "language": "Standard Arabic",
+            "text": "مثال على الاستخدام"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 891,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.44534778594970703,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Lire l'image et la coder en base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "French",
+            "text": "Écrire l'image codée en base64 dans un fichier"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "French",
+            "text": "Lire le fichier encodé et envoyer à l'API REST"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "French",
+            "text": "Envoi de la requête à l'API REST"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "French",
+            "text": "Renvoyer la réponse de l'API"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 468,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11627197265625,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Hindi",
+            "text": "ছবি সফলভাবে এনকোড করা হয়েছে এবং 'encoded_image.txt' ফাইলে সংরক্ষিত হয়েছে।"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Bengali",
+            "text": "ছবি পড়া হয় বাইনারি মোডে"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "ছবিটি বেস64 এনকোড করা হয়"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Bengali",
+            "text": "এনকোড করা ছবি ফাইলে লেখা হয়"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 934,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.4383077621459961,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Portuguese",
+            "text": "Erro ao enviar a imagem: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "Ler a imagem e codificar em base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Gravar a imagem codificada em um arquivo local (opcional)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Enviar a imagem codificada para o servidor remoto"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "Verificar o status da requisição"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1743,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 45: unterminated f-string literal (detected at line 45)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 45: unterminated f-string literal (detected at line 45)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "    Функция для загрузки изображения, кодирования его в base64 и сохранения в файл."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "    :param image_path: путь к изображению, которое нужно загрузить"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Russian",
+            "text": "    :param output_file: имя файла для сохранения закодированного изображения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "        # Проверка существования файла изображения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "            raise FileNotFoundError(f\"Файл изображения не найден: {image_path}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "        # Чтение изображения в бинарном режиме"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Russian",
+            "text": "        # Кодирование в base64"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "        encoded_image = base64.b64encode(image_data).decode('utf-8')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "        # Запись закодированного изображения в файл"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Russian",
+            "text": "        print(f\"Изображение успешно закодировано и сохранено в {output_file}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Russian",
+            "text": "        print(f\"Ошибка при загрузке изображения: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Russian",
+            "text": "        print(f\"Произошла ошибка при кодировании изображения: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Russian",
+            "text": "    Функция для чтения закодированного изображения из файла, декодирования и сохранения на диск."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Russian",
+            "text": "    :param encoded_file: путь к файлу с закодированным изображением"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Russian",
+            "text": "    :param output_image: имя файла для сохранения декодированного изображения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Russian",
+            "text": "        # Проверка существования файла с закодированным изображением"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Russian",
+            "text": "            raise FileNotFoundError(f\"Файл с закодированным изображением"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 575,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11482644081115723,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Baca file gambar sebagai byte"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "Kodekan gambar ke base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Tentukan path file untuk menyimpan gambar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "Pastikan direktori uploads ada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Tulis gambar yang dikodekan ke file"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Kembalikan path file yang disimpan"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 663,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11265826225280762,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 528,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14202213287353516,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "Bild erfolgreich hochgeladen und als base64 in "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": " gespeichert."
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "Öffnen und lesen des Bildes im Binärmodus"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "Kodieren des Bildes in base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Schreiben des base64-kodierten Bildes in eine Datei"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1035,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1111111111111111,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 11.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Mandarin Chinese",
+            "text": "予測された数字: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "base64データをデコードして画像に変換"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "画像を128x128にリサイズし、グレースケールに変換"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "画像をnumpy配列に変換"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "モデルに渡すために正規化（0-1の範囲に）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Mandarin Chinese",
+            "text": "モデルの入力形式に合わせて次元を調整 (1, 1, 128, 128)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "モデルの推論（ここでは仮のモデルを使用）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "実際のモデルはここで読み込む必要があります"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "最も確率が高いクラス（0-9）を予測"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Mandarin Chinese",
+            "text": "予測された数字を表示"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 312,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 6: unterminated triple-quoted string literal (detected at line 11)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 6: unterminated triple-quoted string literal (detected at line 11)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5714285714285714,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 57.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Hindi",
+            "text": "    एक प्रतिमा अपलोड करते, तिचे बेस64 एन्कोडिंग करते, फाइलमध्ये साठवते,"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Hindi",
+            "text": "    व्यवस्थापित केलेले नाव वापरून फाइल वाचते आणि बायनरी डेटा बाहेर काढते."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "    नंतर ते डेटाबेस फाइलमध्ये संग्रहित करते."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "    :param file"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1463,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "TimeoutError",
+        "error_message": "Code execution exceeded 10 seconds",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Vietnamese",
+            "text": "Upload và Hiển thị Hình ảnh"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Vietnamese",
+            "text": "Tải hình ảnh lên"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "Chọn hình ảnh"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Vietnamese",
+            "text": "Hình ảnh đã được mã hóa và lưu vào "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Image files"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Mở hộp thoại chọn file"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Người dùng hủy bỏ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Đọc hình ảnh và mã hóa bằng base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Vietnamese",
+            "text": "Ghi dữ liệu base64 vào tập tin"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Vietnamese",
+            "text": "Hiển thị hình ảnh trên giao diện người dùng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "Thay đổi kích thước để hiển thị dễ dàng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Vietnamese",
+            "text": "Cập nhật hình ảnh trên label"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Vietnamese",
+            "text": "Giữ tham chiếu để tránh bị thu gom bộ nhớ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 36",
+            "language": "Vietnamese",
+            "text": "Tạo giao diện người dùng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "Vietnamese",
+            "text": "Nút để tải hình ảnh"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Vietnamese",
+            "text": "Label để hiển thị hình ảnh"
+          },
+          {
+            "category": "comment",
+            "location": "Line 49",
+            "language": "Vietnamese",
+            "text": "Chạy ứng dụng"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 522,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1392371654510498,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 406,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12092804908752441,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 648,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11711478233337402,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Görüntü başarıyla kodlandı ve 'encoded_image.txt' dosyasına kaydedildi."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Hata: '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "' dosyası bulunamadı."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Bir hata oluştu: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Görüntüyü oku ve base64 kodla"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Kodlanmış görüntüyü bir dosyaya yaz"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Chinese:6 (cm... - None              \nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (Hindi:3 (cmt:2, str:1))           - None              \nes              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1); Spanish:9 (cm... - None              \nar              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Arabic:9 (cmt:8, str:1))          Runtime: Traceback (most recent ca\nfr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:5 (cmt:5))                 - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (Bengali:3 (cmt:3); Hindi:1 (str:1)) - None              \npt              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:5 (cmt:4, str:1))      - None              \nru              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1); Portuguese:2 (unk... Syntax: Line 45: unterminated f-s\nid              ✓ Yes           ✗ No (33%)           ✓ Yes (Indonesian:6 (cmt:6))             - None              \nur              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (0%)            ✓ Yes (German:5 (cmt:3, str:2))          - None              \nja              ✗ Runtime Error ✗ No (11%)           ✓ Yes (Chinese:10 (cmt:9, str:1))        Runtime: Code execution exceeded 1\nmr              ✗ Syntax Error  ✗ No (57%)           ✓ Yes (Hindi:3 (unk:3); Portuguese:2 (unk:2)) Syntax: Line 6: unterminated trip\nvi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Vietnamese:16 (cm... Runtime: Code execution exceeded 1\nte              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nha              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \ntr              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Turkish:5 (cm... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:05.605871"
+}

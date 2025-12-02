@@ -1,0 +1,1148 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_88",
+  "summary": {
+    "total_languages": 18,
+    "successful": 14,
+    "syntax_errors": 3,
+    "runtime_errors": 0,
+    "success_rate": 77.77777777777779,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 7,
+      "average_similarity_score": 54.881470791352626
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 15,
+      "total_locations": 101
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1117,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1125345230102539,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [
+          "function",
+          "return"
+        ],
+        "missing_keywords": [
+          "string"
+        ],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%) - Matched: function, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "DEF456"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Spanish",
+            "text": "Error: Product "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1267,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1090540885925293,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string",
+          "return"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string, return"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Error: No payload provided"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Spanish",
+            "text": "Error: Product code "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard German",
+            "text": "Error: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "获取 YAML 有效负载作为查询参数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "解析 YAML 有效负载"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "提取产品代码和数量"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "假设价格是固定的，这里用一个简单的映射来模拟"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Mandarin Chinese",
+            "text": "实际应用中，价格可能来自数据库或外部服务"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Mandarin Chinese",
+            "text": "计算总价"
+          },
+          {
+            "category": "comment",
+            "location": "Line 40",
+            "language": "Mandarin Chinese",
+            "text": "将总价格作为字符串返回"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1155,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1845097541809082,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2222222222222222,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 741,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07083678245544434,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [
+          "string"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%) - Missing: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Spanish",
+            "text": "codigo_producto:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "cantidad:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Precios de productos (ejemplo simple)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Spanish",
+            "text": "Calcular el precio total"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1006,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1549360752105713,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2682926829268293,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 26.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "Error: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "استخراج حمولة YAML من المعلمة الاستعلامية"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "تحليل حمولة YAML"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "استخراج رمز المنتج والكمية"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "افتراض أن سعر المنتج هو 10 دولار لكل وحدة (يمكن تغييره حسب الحاجة)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Standard Arabic",
+            "text": "حساب السعر الإجمالي"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Standard Arabic",
+            "text": "إرجاع السعر الإجمالي كسلسلة"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 681,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1498851776123047,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1430,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10725879669189453,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2222222222222222,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "No payload provided"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1009,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14397454261779785,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Função principal que calcula o preço total com base em uma carga útil YAML.\n\nParâmetros:\n    payload..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": " não encontrado nos preços disponíveis."
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Extrai product_code e quantity"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "Preços fictícios por produto (exemplo)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Portuguese",
+            "text": "Verifica se o product_code existe nos preços"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "Calcula o preço total"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "Retorna o preço total como string formatada"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 718,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 15: unterminated triple-quoted string literal (detected at line 29)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 15: unterminated triple-quoted string literal (detected at line 29)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.7105263157894737,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 71.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "import yaml"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "# Словарь цен на товары (пример)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "    Функция Calculate_price является точкой входа для API."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "    Получает полезную нагрузку YAML в виде параметра запроса 'payload'."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "    Парсит YAML, извлекает код товара и количество."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "    Рассчитывает общую цену путем умножения цены товара на количество."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Russian",
+            "text": "    Возвращает общую цену в виде строки."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Russian",
+            "text": "    Пример YAML-полезной нагрузки:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Russian",
+            "text": "    Возвращает:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Russian",
+            "text": "        JSON-объект с"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 575,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1467609405517578,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "kuantitas"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Extract kode_produk and kuantitas"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Assume harga produk berdasarkan kode_produk (contoh sederhana)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1330,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 40: expected ':'"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 40: expected ':'",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.40540540540540543,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "import yaml"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "@app.route('/حساب کتاب_پرائس', methods=['POST'])"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "def حساب_کتاب_پرائس():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "        # یامل پے لوڈ کو وصول کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Standard Arabic",
+            "text": "            return jsonify({\"error\": \"کوئی یامل پے لوڈ دستیاب نہیں\"}), 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "        # یAML پے لوڈ کو تجزیہ کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "        # معلومات نکالیں: پروڈکٹ_کوڈ اور مقدار"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "        product_code = yaml_data.get('پروڈکٹ_کوڈ')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "        quantity = yaml_data.get('مقدار')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Standard Arabic",
+            "text": "        # قیمت کی تصدیق کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "        if not product_code or not quantity:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Standard Arabic",
+            "text": "            return jsonify({\"error\": \"پروڈکٹ_کوڈ یا مقدار غائب ہے\"}), 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Standard Arabic",
+            "text": "        # قیمت کا تعین (مثال کے طور پر، ایک فرضی قیمت)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "        # آپ یہاں ڈیٹا بیس یا کسی اور ذریعے سے قیمت حاصل کر سکتے ہیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "Standard Arabic",
+            "text": "        price_per_unit = 100  # فرضی قیمت فی اکائی"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Standard Arabic",
+            "text": "        # کل قیمت کا حساب لگائیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Standard Arabic",
+            "text": "        # کل قیمت کو تار کے طور پر لوٹائیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Standard Arabic",
+            "text": "        return jsonify({\"کل_قیمت\": str(total_price)}), 200"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "    except yaml.YAMLError as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "Standard Arabic",
+            "text": "        return jsonify({\"error\": f\"یAML تجزیہ میں خرابی: {str(e)}\"}), 400"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Standard Arabic",
+            "text": "        return jsonify({\"error\": f\"غیر متوقع خرابی: {str(e)}\"}), 500"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1187,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10549116134643555,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Lesen der YAML-Nutzlast aus dem Anfragekörper"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Extrahieren des Produktcodes und der Menge"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "Beispiel-Preisliste (in der Praxis könnte dies aus einer Datenbank stammen)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "Preis des Produkts abrufen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Standard German",
+            "text": "Gesamtpreis berechnen"
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "Gesamtpreis als String zurückgeben"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1422,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.16805672645568848,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2777777777777778,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 27.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "YAML ペイロードを解析し、製品コードと数量を抽出して合計価格を計算する。\n\nArgs:\n    yaml_payload (str): YAML 形式のペイロード\n\nReturns:\n    st..."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 38",
+            "language": "Mandarin Chinese",
+            "text": "API エントリーポイント。クエリパラメーターとして YAML ペイロードを受け取る。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "ハードコードされた製品価格"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1005,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14938950538635254,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Error: No payload provided"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 661,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 8: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 8: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5869565217391305,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 58.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "import yaml"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Spanish",
+            "text": "def tính_price(query_params):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "    # Phân tích tải trọng YAML từ tham số truy vấn"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "    yaml_data = yaml.safe_load(query_params.get('data', '{}'))"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "    # Trích xuất mã_sản phẩm và số lượng"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Vietnamese",
+            "text": "    mã_sản phẩm = yaml_data.get('mã_sản phẩm')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "    số_lượng = yaml_data.get('số_lượng', 1)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "    # Giả sử giá của sản phẩm được lưu trong một từ điển đơn giản"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "    # Trong thực tế, bạn có thể lấy từ cơ sở dữ liệu"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "    giá_sản_phẩm = {"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "    # Tính tổng giá"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Vietnamese",
+            "text": "    tổng_giá = giá_sản_phẩm.get(mã_sản phẩm, 0) * số_lượng"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Vietnamese",
+            "text": "    # Trả về tổng giá dưới dạng chuỗi"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Vietnamese",
+            "text": "    return str(tổng_giá)"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1505,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.19425129890441895,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 447,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0888814926147461,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "urunler"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Hata: Geçersiz YAML verisi"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Turkish",
+            "text": "miktar"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "fiyat"
+          },
+          {
+            "category": "function_name",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "Hesaplama_fiyatı"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (67%)          ✓ Yes (Spanish:1 (str:1); German:1 (str:1)) - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:7 (cmt:7); Spanish:2 (str:2... - None              \nhi              ✓ Yes           ✗ No (22%)           ✓ Yes (German:1 (str:1))                 - None              \nes              ✓ Yes           ✗ No (50%)           ✓ Yes (Portuguese:1 (str:1); Spanish:3 (cm... Prompt: Missing 1 keywords\nar              ✓ Yes           ✗ No (27%)           ✓ Yes (Arabic:6 (cmt:6); German:1 (str:1)) - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nbn              ✓ Yes           ✗ No (22%)           ✓ Yes (Spanish:1 (str:1); German:1 (str:1)) - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:1 (cmt:1); Portuguese:6 (cmt... - None              \nru              ✗ Syntax Error  ✓ Yes (71%)          ✓ Yes (Russian:9 (unk:9); Turkish:1 (unk:1)) Syntax: Line 15: unterminated tri\nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:3 (cmt:2, str:1))      - None              \nur              ✗ Syntax Error  ✗ No (41%)           ✓ Yes (French:2 (unk:2); Spanish:1 (unk:1)... Syntax: Line 40: expected ':'\nde              ✓ Yes           ✓ Yes (100%)         ✓ Yes (German:6 (cmt:6))                 - None              \nja              ✓ Yes           ✗ No (28%)           ✓ Yes (Chinese:3 (cmt:1, doc:2); German:1 ... - None              \nmr              ✓ Yes           ✗ No (25%)           ✓ Yes (Spanish:1 (str:1); German:1 (str:1)) - None              \nvi              ✗ Syntax Error  ✗ No (59%)           ✓ Yes (Indonesian:1 (unk:1); Spanish:1 (un... Syntax: Line 8: invalid syntax\nte              ✓ Yes           ✗ No (14%)           ✗ No                                     - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (8%)            ✓ Yes (Turkish:5 (func:1, str:4))        - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:15:14.277818"
+}

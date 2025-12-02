@@ -1,0 +1,1531 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_35",
+  "summary": {
+    "total_languages": 18,
+    "successful": 10,
+    "syntax_errors": 8,
+    "runtime_errors": 0,
+    "success_rate": 55.55555555555556,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 4,
+      "average_similarity_score": 30.875378463097757
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 163
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1728,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13725042343139648,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "GET"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1339,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14787793159484863,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Mandarin Chinese",
+            "text": "欢迎，"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Mandarin Chinese",
+            "text": "！这是主页。"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "用于会话管理"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "初始化数据库"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "添加一些测试数据"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1300,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: unterminated triple-quoted string literal (detected at line 27)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: unterminated triple-quoted string literal (detected at line 27)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "French",
+            "text": "LOGIN_HTML = '''"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1482,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.16189360618591309,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Spanish",
+            "text": "\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Página de Inicio</title>\n</head>\n<body>\n    <h2>Bienvenido..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Simulación de base de datos de usuarios"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "Página de inicio de sesión"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "Página de inicio"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Spanish",
+            "text": "Función para verificar credenciales"
+          },
+          {
+            "category": "comment",
+            "location": "Line 49",
+            "language": "Spanish",
+            "text": "Función para redirigir a la página de inicio"
+          },
+          {
+            "category": "comment",
+            "location": "Line 53",
+            "language": "Spanish",
+            "text": "Función para redirigir a la página de inicio de sesión"
+          },
+          {
+            "category": "comment",
+            "location": "Line 57",
+            "language": "Spanish",
+            "text": "Ruta para la página de inicio de sesión"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1814,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1188664436340332,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.23076923076923078,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 23.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "تغيير هذا إلى مفتاح سري حقيقي"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "إنشاء قاعدة بيانات SQLite وجدول المستخدمين إذا لم يكن موجودًا"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "إضافة مستخدم افتراضي للتجربة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Standard Arabic",
+            "text": "التحقق من اسم المستخدم وكلمة المرور في قاعدة البيانات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 55",
+            "language": "Standard Arabic",
+            "text": "إنشاء قاعدة البيانات عند بدء التطبيق"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 2172,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 76: expected ':'"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 76: expected ':'",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "French",
+            "text": "app.secret_key = 'votre_clé_secrète_ici'"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "French",
+            "text": "# Fonction de connexion à la base de données"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "French",
+            "text": "def get_db_connection():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "French",
+            "text": "    return conn"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "French",
+            "text": "# Création de la base de données et de la table si elles n'existent pas"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "French",
+            "text": "    conn = get_db_connection()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "French",
+            "text": "    conn.execute('''"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "French",
+            "text": "# Ajout d'un utilisateur de test (facultatif)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "French",
+            "text": "    conn = get_db_connection()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "        conn.execute("
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "            (\"admin\", \"admin123\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "French",
+            "text": "        pass  # L'utilisateur existe déjà"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "French",
+            "text": "# Route pour la page de connexion"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "French",
+            "text": "        conn = get_db_connection()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "French",
+            "text": "        user = conn.execute("
+          },
+          {
+            "category": "unknown",
+            "location": "Line 51",
+            "language": "Spanish",
+            "text": "        conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 57",
+            "language": "French",
+            "text": "            return redirect(url_for('login'))  # Redirige vers la page de connexion en cas d'échec"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 61",
+            "language": "French",
+            "text": "# Route pour la page d'accueil"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 69",
+            "language": "French",
+            "text": "# Route pour la déconnexion"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 70",
+            "language": "French",
+            "text": "@app.route('/logout')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 71",
+            "language": "French",
+            "text": "def logout():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 75",
+            "language": "French",
+            "text": "# Initialisation de la base de données et ajout d'un utilisateur de test"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1710,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1276555061340332,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Database setup"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1869,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 71: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 71: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": "app.secret_key = 'sua_chave_secreta_aqui'  # Substitua por uma chave segura"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "# Banco de dados SQLite com usuários e senhas hash"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('usuarios.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "        CREATE TABLE IF NOT EXISTS usuarios ("
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": "            nome_usuario TEXT UNIQUE NOT NULL,"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "            senha_hash TEXT NOT NULL"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Portuguese",
+            "text": "    # Adiciona um usuário de exemplo (não use em produção!)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "    cursor.execute(\"INSERT OR IGNORE INTO usuarios (nome_usuario, senha_hash) VALUES (?, ?)\","
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "                   ('admin', hashlib.sha256('senha123'.encode()).hexdigest()))"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Spanish",
+            "text": "# Página de login (HTML)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "Spanish",
+            "text": "        <label>Nome de usuário:</label><br>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "Portuguese",
+            "text": "    <h2>Bem-vindo à página inicial!</h2>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 59",
+            "language": "French",
+            "text": "    <p><a href=\"/logout\">Sair</a></p>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 64",
+            "language": "French",
+            "text": "@app.route('/')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 71",
+            "language": "Spanish",
+            "text": "def"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1670,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 54: unterminated string literal (detected at line 54)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 54: unterminated string literal (detected at line 54)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1388888888888889,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "# Создание базы данных и таблицы пользователей"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "    # Добавление тестовых данных"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Russian",
+            "text": "# Функция проверки логина и пароля"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Russian",
+            "text": "# HTML-страница с формой входа"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "Russian",
+            "text": "# Домашняя страница"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "Russian",
+            "text": "        return f'Добро пожаловать, {session[\"username"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1688,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1557469367980957,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.42857142857142855,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 42.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Indonesian",
+            "text": "Selamat datang, "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Indonesian",
+            "text": "! Ini adalah halaman beranda."
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Ganti dengan kunci rahasia yang aman"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Fungsi untuk membuat database dan tabel jika belum ada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Indonesian",
+            "text": "Tambahkan pengguna contoh jika belum ada"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 530,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13358736038208008,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.13157894736842105,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 13.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "admin123"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "یہ ایک مخصوص کلید ہے، اصل میں محفوظ رکھیں"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "ڈیٹا بیس کے بجائے ایک سادہ لسٹ استعمال کریں (اصل میں SQL ڈیٹا بیس استعمال کریں)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "چ"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1596,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11908245086669922,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.09523809523809523,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 9.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Ändern Sie dies in ein sicheres Geheimnis"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Datenbank initialisieren"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Beispielbenutzer hinzufügen (nur zum Testen)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1284,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1149439811706543,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Mandarin Chinese",
+            "text": "ユーザー名とパスワードを入力してください。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Mandarin Chinese",
+            "text": "ログイン成功！"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "セッション用の秘密鍵"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "データベースの初期化"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "デモ用のユーザーを追加"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "空の入力チェック"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "データベースからユーザー情報を確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "Mandarin Chinese",
+            "text": "セッションを作成"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 1240,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 36: unterminated string literal (detected at line 36)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 36: unterminated string literal (detected at line 36)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "# Database setup"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "French",
+            "text": "        conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "French",
+            "text": "        c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "        conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Hindi",
+            "text": "            return redirect(url_for('login', message=\"अयोग्य वापरकर्तानाव किंवा पासवर्ड\"))"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1958,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15042543411254883,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.42857142857142855,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 42.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 54",
+            "language": "French",
+            "text": "/logout"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Vietnamese",
+            "text": "login.html"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Vietnamese",
+            "text": "Chào mừng bạn, "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Vietnamese",
+            "text": "! Đây là trang chủ."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "admin"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Cần thay bằng một khóa bí mật thực tế"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "Tạo cơ sở dữ liệu và bảng người dùng nếu chưa có"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Thêm người dùng mẫu (chỉ chạy lần đầu)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "Nếu đã đăng nhập, chuyển hướng đến trang chủ"
+          },
+          {
+            "category": "comment",
+            "location": "Line 44",
+            "language": "Vietnamese",
+            "text": "Sai thông tin, quay lại trang đăng nhập"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1432,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 42: unterminated triple-quoted string literal (detected at line 49)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 42: unterminated triple-quoted string literal (detected at line 49)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "# Home page"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1545,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: unterminated string literal (detected at line 51)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 51: unterminated string literal (detected at line 51)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.02702702702702703,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 2.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Vietnamese",
+            "text": "HTML_TEMPLATE = '''"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1353,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 38: unterminated string literal (detected at line 38)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 38: unterminated string literal (detected at line 38)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('users.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "French",
+            "text": "@app.route('/')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Turkish",
+            "text": "            flash(\"Kullanıcı adı ve şifre alanları boş bırakılamaz.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Turkish",
+            "text": "            return render_template('login.html', error=\"Kullanıcı adı ve şifre alan"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:1 (str:1); German:1 (str... - None              \nzh-CN           ✓ Yes           ✗ No (8%)            ✓ Yes (Chinese:5 (cmt:3, str:2); Portugues... - None              \nhi              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1))                 Syntax: Line 13: unterminated tri\nes              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:1 (str:1); Spanish:8 (cm... - None              \nar              ✓ Yes           ✗ No (23%)           ✓ Yes (Portuguese:2 (str:2); Arabic:5 (cmt... - None              \nfr              ✗ Syntax Error  ✓ Yes (100%)         ✓ Yes (French:22 (unk:22); Portuguese:1 (u... Syntax: Line 76: expected ':'\nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Indonesian:1 (cmt... - None              \npt              ✗ Syntax Error  ✓ Yes (100%)         ✓ Yes (French:4 (unk:4); Indonesian:1 (unk... Syntax: Line 71: invalid syntax\nru              ✗ Syntax Error  ✗ No (14%)           ✓ Yes (French:3 (unk:3); Russian:6 (unk:6)... Syntax: Line 54: unterminated str\nid              ✓ Yes           ✗ No (43%)           ✓ Yes (French:1 (str:1); Indonesian:5 (cmt... - None              \nur              ✓ Yes           ✗ No (13%)           ✓ Yes (Portuguese:2 (str:2); Arabic:3 (cmt... - None              \nde              ✓ Yes           ✗ No (10%)           ✓ Yes (French:1 (str:1); German:4 (cmt:3, ... - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:8 (cmt:6, str:2); Portugues... - None              \nmr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:5 (unk:5); Hindi:1 (unk:1) +... Syntax: Line 36: unterminated str\nvi              ✓ Yes           ✗ No (43%)           ✓ Yes (French:1 (str:1); Portuguese:1 (str... - None              \nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:4 (unk:4); Spanish:1 (unk:1)... Syntax: Line 42: unterminated tri\nha              ✗ Syntax Error  ✗ No (3%)            ✓ Yes (Portuguese:1 (unk:1); Vietnamese:1 ... Syntax: Line 51: unterminated str\ntr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:3 (unk:3); Spanish:1 (unk:1)... Syntax: Line 38: unterminated str\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:49:17.775848"
+}

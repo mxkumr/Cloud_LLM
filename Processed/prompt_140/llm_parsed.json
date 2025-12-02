@@ -1,0 +1,884 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\en.py",
+      "elements": {
+        "identifiers": [
+          "check_user_credentials",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "execute",
+          "fetchone",
+          "password",
+          "password_matches",
+          "sqlite3",
+          "username",
+          "username_exists"
+        ],
+        "literals": [
+          "users.db",
+          "SELECT 1 FROM users WHERE username = ?",
+          "SELECT 1 FROM users WHERE username = ? AND password = ?",
+          "username_exists",
+          "password_matches"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "execute",
+          "fetchone",
+          "password",
+          "password_matches",
+          "sqlite3",
+          "username",
+          "username_exists"
+        ],
+        "comments": [
+          "Connect to the SQLite database",
+          "Check if the username exists",
+          "If username does not exist, password_matches is False",
+          "Check if the password matches the username",
+          "Close the connection",
+          "Return the result as a dictionary"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_user_credentials"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "连接到数据库（假设数据库文件名为 'database.db'）",
+          "执行查询，检查用户名是否存在",
+          "关闭连接",
+          "如果查询结果存在，返回 True，否则返回 False",
+          "如果连接失败或发生其他错误，返回 False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\hi.py",
+      "elements": {
+        "identifiers": [
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "डेटाबेस से कनेक्शन स्थापित करें",
+          "उपयोगकर्ता नाम की जांच करने के लिए क्वेरी निष्पादित करें",
+          "कनेक्शन बंद करें",
+          "यदि परिणाम मौजूद है तो True लौटाएं, अन्यथा False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\es.py",
+      "elements": {
+        "identifiers": [
+          "Error",
+          "bool",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "e",
+          "execute",
+          "fetchone",
+          "nombre_usuario",
+          "resultado",
+          "sqlite3",
+          "verificar_usuario_existente"
+        ],
+        "literals": [
+          "usuarios.db",
+          "SELECT 1 FROM usuarios WHERE nombre_usuario = ?",
+          "f\"Error al consultar la base de datos: {e}"
+        ],
+        "variables": [
+          "Error",
+          "bool",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "e",
+          "execute",
+          "fetchone",
+          "nombre_usuario",
+          "resultado",
+          "sqlite3"
+        ],
+        "comments": [
+          "Ruta a la base de datos SQLite (ajustar según el entorno)",
+          "Conectar a la base de datos",
+          "Ejecutar consulta para verificar si el nombre de usuario existe",
+          "Si se encuentra una fila, el usuario existe",
+          "Cerrar la conexión a la base de datos",
+          "Ejemplo de uso:",
+          "print(verificar_usuario_existente(\"juan123\"))  # Devuelve True o False según exista el usuario"
+        ],
+        "docstrings": [
+          "\r\n    Conecta a una base de datos SQLite y verifica si un nombre de usuario existe en la tabla 'usuarios'.\r\n\r\n    Parámetros:\r\n    nombre_usuario (str): El nombre de usuario a verificar.\r\n\r\n    Retorna:\r\n    bool: True si el nombre de usuario existe en la base de datos, False en caso contrario.\r\n    "
+        ],
+        "functions": [
+          "verificar_usuario_existente"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\ar.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "example_user",
+          "SELECT 1 FROM users WHERE username = ?",
+          "صحيح",
+          "خطأ"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "الاتصال بقاعدة البيانات",
+          "اسم المستخدم الذي نريد التحقق منه",
+          "استعلام للتحقق من وجود اسم المستخدم",
+          "إغلاق الاتصال بقاعدة البيانات",
+          "طباعة النتيجة"
+        ],
+        "docstrings": [],
+        "functions": [],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\fr.py",
+      "elements": {
+        "identifiers": [
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Connexion à la base de données",
+          "Exécution de la requête pour vérifier si le nom d'utilisateur existe",
+          "Retourne True si le nom d'utilisateur existe, False sinon",
+          "Fermeture de la connexion à la base de données",
+          "Exemple d'utilisation",
+          "print(check_username_exists(\"john_doe\"))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\bn.py",
+      "elements": {
+        "identifiers": [
+          "check_user_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "ডাটাবেসের সাথে সংযোগ করুন",
+          "ব্যবহারকারীর নাম খুঁজে বার করুন",
+          "সংযোগ বিচ্ছিন্ন করুন",
+          "ফলাফল ফেরত দিন"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_user_exists"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\pt.py",
+      "elements": {
+        "identifiers": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "nome_usuario",
+          "resultado",
+          "sqlite3",
+          "verificar_usuario_existe"
+        ],
+        "literals": [
+          "seu_banco_de_dados.db",
+          "SELECT 1 FROM usuarios WHERE nome_usuario = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "nome_usuario",
+          "resultado",
+          "sqlite3"
+        ],
+        "comments": [
+          "Conectar ao banco de dados SQLite",
+          "Substitua pelo caminho do seu banco de dados",
+          "Executar a consulta para verificar se o nome de usuário existe",
+          "Fechar a conexão",
+          "Retornar True se o usuário existir, False caso contrário"
+        ],
+        "docstrings": [],
+        "functions": [
+          "verificar_usuario_existe"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\ru.py",
+      "elements": {
+        "identifiers": [
+          "bool",
+          "check_username_exists",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "bool",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Используем контекстный менеджер для управления подключением к базе данных",
+          "Выполняем запрос для проверки существования имени пользователя",
+          "Возвращаем True, если пользователь найден, иначе False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\id.py",
+      "elements": {
+        "identifiers": [
+          "cek_nama_pengguna",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "execute",
+          "fetchone",
+          "hasil",
+          "nama_pengguna",
+          "sqlite3"
+        ],
+        "literals": [
+          "database.sqlite",
+          "SELECT 1 FROM pengguna WHERE nama_pengguna = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "execute",
+          "fetchone",
+          "hasil",
+          "nama_pengguna",
+          "sqlite3"
+        ],
+        "comments": [
+          "Membuat koneksi ke database SQLite",
+          "Menjalankan kueri untuk memeriksa apakah nama pengguna ada",
+          "Mengembalikan True jika ditemukan, False jika tidak ditemukan",
+          "Menutup koneksi database",
+          "Contoh penggunaan:",
+          "print(cek_nama_pengguna(\"john_doe\"))  # Mengembalikan True atau False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "cek_nama_pengguna"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\ur.py",
+      "elements": {
+        "identifiers": [
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Connect to the database (or create it if it doesn't exist)",
+          "Execute a query to check if the username exists",
+          "Close the connection",
+          "Return True if username exists, otherwise False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\de.py",
+      "elements": {
+        "identifiers": [
+          "bool",
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "your_database.db",
+          "SELECT EXISTS(SELECT 1 FROM users WHERE username = ?)",
+          "0"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Verbindung zur Datenbank herstellen",
+          "Abfrage ausführen, um zu prüfen, ob der Benutzername vorhanden ist",
+          "Verbindung schließen",
+          "Rückgabe von True, wenn der Benutzername existiert, sonst False"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\ja.py",
+      "elements": {
+        "identifiers": [
+          "Error",
+          "check_user_exists_and_get_details",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "database_path",
+          "e",
+          "execute",
+          "fetchone",
+          "query",
+          "result",
+          "sqlite3",
+          "user_details",
+          "username"
+        ],
+        "literals": [
+          "SELECT * FROM users WHERE username = ?",
+          "id",
+          "0",
+          "username",
+          "1",
+          "email",
+          "2",
+          "created_at",
+          "3",
+          "f\"データベースエラー: {e}"
+        ],
+        "variables": [
+          "Error",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "database_path",
+          "e",
+          "execute",
+          "fetchone",
+          "query",
+          "result",
+          "sqlite3",
+          "user_details",
+          "username"
+        ],
+        "comments": [
+          "データベースに接続",
+          "ユーザー名が存在するか確認するクエリを実行",
+          "ユーザーが存在するか確認",
+          "ユーザーが存在する場合、詳細情報を返す",
+          "ユーザーが存在しない場合",
+          "接続を閉じる",
+          "例の使用方法",
+          "exists, details = check_user_exists_and_get_details('example.db', 'john_doe')",
+          "print(exists, details)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_user_exists_and_get_details"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\mr.py",
+      "elements": {
+        "identifiers": [
+          "check_and_add_user",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "execute",
+          "fetchone",
+          "sqlite3",
+          "user_exists",
+          "username"
+        ],
+        "literals": [
+          "users.db",
+          "SELECT 1 FROM users WHERE username = ?",
+          "INSERT INTO users (username) VALUES (?)",
+          "f\"वापरकर्तानाव '{username}' डेटाबेसमध्ये जोडले गेले.",
+          "f\"वापरकर्तानाव '{username}' आधीच अस्तित्वात आहे.",
+          "john_doe"
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "db_path",
+          "execute",
+          "fetchone",
+          "sqlite3",
+          "user_exists",
+          "username"
+        ],
+        "comments": [
+          "डेटाबेसशी कनेक्ट करा",
+          "वापरकर्तानाव अस्तित्वात आहे की नाही हे तपासा",
+          "जर वापरकर्तानाव अस्तित्वात नसेल तर तो जोडा",
+          "कनेक्शन बंद करा",
+          "उदाहरण: वापरकर्तानाव तपासा आणि जर नसेल तर जोडा"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_and_add_user"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\vi.py",
+      "elements": {
+        "identifiers": [
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Kết nối đến cơ sở dữ liệu (thay đổi đường dẫn nếu cần)",
+          "Truy vấn kiểm tra xem tên người dùng có tồn tại không",
+          "Đóng kết nối",
+          "Trả về True nếu tồn tại, False nếu không"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\te.py",
+      "elements": {
+        "identifiers": [
+          "check_user_name",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "example.db",
+          "SELECT 1 FROM users WHERE username = ?",
+          "సరిపోతుంది",
+          "తప్పు"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Connect to the database",
+          "Check if the username exists",
+          "Close the database connection",
+          "Example usage:",
+          "print(check_user_name(\"john_doe\"))"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_user_name"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\ha.py",
+      "elements": {
+        "identifiers": [
+          "append",
+          "bayanan",
+          "haɗa_zuwa_bayanan",
+          "lower",
+          "masu_zuwa",
+          "sunan_mai_amfani"
+        ],
+        "literals": [
+          "Kasa zuwa bayanan (ta kara 'sirri' don ya kara): ",
+          "sirri",
+          "Kasa sunan mai amfani: ",
+          "Ta dawo karya",
+          "Ba ta dawo karya",
+          "Bayanan bai kara"
+        ],
+        "variables": [
+          "append",
+          "bayanan",
+          "lower",
+          "masu_zuwa",
+          "sunan_mai_amfani"
+        ],
+        "comments": [
+          "Taimakar bayanan",
+          "Masu zuwa",
+          "Tambaya don bincika idan sunan mai amfani ya wanzu a cikin bayanan",
+          "Tsoro"
+        ],
+        "docstrings": [],
+        "functions": [
+          "haɗa_zuwa_bayanan"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_ij_2ar1x\\tr.py",
+      "elements": {
+        "identifiers": [
+          "check_username_exists",
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "query",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "literals": [
+          "database.db",
+          "SELECT 1 FROM users WHERE username = ?"
+        ],
+        "variables": [
+          "close",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "query",
+          "result",
+          "sqlite3",
+          "username"
+        ],
+        "comments": [
+          "Veritabanına bağlan",
+          "Kullanıcı adının mevcut olup olmadığını kontrol etmek için sorgu",
+          "Sonuç varsa True, yoksa False döndür"
+        ],
+        "docstrings": [],
+        "functions": [
+          "check_username_exists"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,2051 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_67",
+  "summary": {
+    "total_languages": 18,
+    "successful": 1,
+    "syntax_errors": 7,
+    "runtime_errors": 10,
+    "success_rate": 5.555555555555555,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 2,
+      "average_similarity_score": 15.708252111760885
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 251
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1987,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmplxy3cghh.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.1376054286956787,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 55",
+            "language": "Indonesian",
+            "text": "database"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 54",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "Error: File '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Spanish",
+            "text": "Database error: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "French",
+            "text": "Validate file extension"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1598,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpsoekel26.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.15302252769470215,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 63",
+            "language": "Mandarin Chinese",
+            "text": "数据库连接已关闭"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "your_database_name"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "成功连接到 MySQL 数据库"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Mandarin Chinese",
+            "text": "图像 '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Mandarin Chinese",
+            "text": "' 已成功存储到数据库"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "连接数据库时出错: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Mandarin Chinese",
+            "text": "插入图像时出错: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "获取文件名"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "读取图像文件为二进制数据"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "插入数据到 images 表"
+          },
+          {
+            "category": "comment",
+            "location": "Line 49",
+            "language": "Mandarin Chinese",
+            "text": "图像文件路径"
+          },
+          {
+            "category": "comment",
+            "location": "Line 50",
+            "language": "Mandarin Chinese",
+            "text": "修改为你的图像路径"
+          },
+          {
+            "category": "comment",
+            "location": "Line 52",
+            "language": "Mandarin Chinese",
+            "text": "连接数据库"
+          },
+          {
+            "category": "comment",
+            "location": "Line 57",
+            "language": "Mandarin Chinese",
+            "text": "存储图像"
+          },
+          {
+            "category": "comment",
+            "location": "Line 60",
+            "language": "Mandarin Chinese",
+            "text": "关闭连接"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1309,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp4cg3bfcz.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.13046836853027344,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Indonesian",
+            "text": "database"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Portuguese",
+            "text": "localhost"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1936,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkn0zrm1n.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.1532912254333496,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Función para conectar a la base de datos MySQL.\nRetorna la conexión si es exitosa, de lo contrario l..."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 24",
+            "language": "Spanish",
+            "text": "Función para insertar una imagen en la base de datos.\nRecibe la conexión a la base de datos, la ruta..."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 48",
+            "language": "Spanish",
+            "text": "Función principal que ejecuta el script.\nEjemplo de uso: proporciona una ruta de imagen y la inserta..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "French",
+            "text": "\n        INSERT INTO imagenes (nombre, contenido_imagen) \n        VALUES (%s, %s)\n        "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "nombre_base_datos"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "tu_contraseña"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Spanish",
+            "text": "Conexión a MySQL exitosa"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Spanish",
+            "text": "' insertada correctamente en la base de datos."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": "Error al conectar a MySQL: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Cambiar si es necesario"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Cambiar al nombre de tu base de datos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Cambiar al nombre de tu usuario"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Cambiar a tu contraseña"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1956,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpdxgrg5ws.py\", line 2, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.16916179656982422,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 57",
+            "language": "Standard Arabic",
+            "text": "الملف غير موجود!"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 65",
+            "language": "Standard Arabic",
+            "text": "الملف موجود بالفعل في قاعدة البيانات."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "تم الاتصال بقاعدة البيانات بنجاح."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard Arabic",
+            "text": "تم إضافة الملف '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 46",
+            "language": "Standard Arabic",
+            "text": "' إلى قاعدة البيانات."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 54",
+            "language": "Standard Arabic",
+            "text": "أدخل مسار الملف الصورة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "خطأ في الاتصال بقاعدة البيانات: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Standard Arabic",
+            "text": "خطأ أثناء إدخال الملف: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1990,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 68: '{' was never closed"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 68: '{' was never closed",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "French",
+            "text": "# Configuration de la base de données"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "DB_CONFIG = {"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "    'host': 'localhost',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "French",
+            "text": "# Nom de la table et colonne"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "French",
+            "text": "    \"\"\"Crée une connexion à la base de données MySQL.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**DB_CONFIG)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "            print(\"Connexion à MySQL réussie\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "French",
+            "text": "            return connection"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "French",
+            "text": "        print(f\"Erreur de connexion à MySQL : {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "French",
+            "text": "    \"\"\"Crée la table `images` si elle n'existe pas.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "French",
+            "text": "        cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "French",
+            "text": "        connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "French",
+            "text": "        print(f\"Table {TABLE_NAME} créée ou déjà existante.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "French",
+            "text": "        print(f\"Erreur lors de la création de la table : {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 50",
+            "language": "French",
+            "text": "            connection.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 53",
+            "language": "French",
+            "text": "    \"\"\"Insère une image dans la base de données.\"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 58",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 60",
+            "language": "Turkish",
+            "text": "            binary_data = file.read()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 62",
+            "language": "French",
+            "text": "        cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 65",
+            "language": "French",
+            "text": "        connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 66",
+            "language": "French",
+            "text": "        print(f\"Image {image_path} insérée avec succès.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 67",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 68",
+            "language": "French",
+            "text": "        print(f\"Erreur lors de l'insertion de l'image : {"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 1399,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 38: unterminated f-string literal (detected at line 38)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 38: unterminated f-string literal (detected at line 38)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.75,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 75.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Hindi",
+            "text": "    একটি ছবি ফাইল গ্রহণ করে এবং এটি MySQL ডাটাবেসে সংরক্ষণ করে।"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Bengali",
+            "text": "    :param image_path: ছবির ফাইলের পথ (যেমন: 'path/to/image.jpg')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Bengali",
+            "text": "    :param db_config: MySQL ডাটাবেসের কনফিগারেশন ডিকশনারি (host, database, user, password)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Bengali",
+            "text": "    :param table_name: ডাটাবেস টেবিলের নাম (ডিফল্ট: images)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Bengali",
+            "text": "        # ডাটাবেসে সংযোগ স্থাপন"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**db_config)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "French",
+            "text": "            cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Bengali",
+            "text": "            # ছবি পড়া এবং বাইট হিসেবে কনভার্ট করা"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Bengali",
+            "text": "            # SQL কোয়েরি তৈরি করা"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Bengali",
+            "text": "            image_name = image_path.split(\"/\")[-1]  # ফাইল নাম আলাদা করা"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Bengali",
+            "text": "            # ডেটা ইনসার্ট করা"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "French",
+            "text": "            connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "Bengali",
+            "text": "            print(f\"ছবি সফলভাবে �"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 2121,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpvd8jbyk8.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.16018152236938477,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Insere uma imagem em um banco de dados MySQL.\n\n:param image_path: Caminho do arquivo de imagem.\n:par..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 62",
+            "language": "Portuguese",
+            "text": "caminho/para/sua/imagem.jpg"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 56",
+            "language": "Indonesian",
+            "text": "database"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 55",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 56",
+            "language": "Portuguese",
+            "text": "nome_do_banco"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Portuguese",
+            "text": "sua_senha"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "\n            INSERT INTO imagens (nome_arquivo, dados_imagem) \n            VALUES (%s, %s)\n         ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Erro: O arquivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": " não foi encontrado."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Portuguese",
+            "text": "Conexão com o banco de dados estabelecida com sucesso."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Portuguese",
+            "text": "Conexão com o banco de dados fechada."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": " inserida com sucesso."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Portuguese",
+            "text": "Erro ao conectar ou inserir no banco de dados: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Verifica se o arquivo existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "Conecta ao banco de dados MySQL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "Cria um cursor para executar comandos SQL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Portuguese",
+            "text": "Lê o arquivo de imagem em binário"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "Comando SQL para inserir a imagem"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Portuguese",
+            "text": "Confirma a transação"
+          },
+          {
+            "category": "comment",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "Fecha a conexão, se estiver aberta"
+          },
+          {
+            "category": "comment",
+            "location": "Line 51",
+            "language": "Spanish",
+            "text": "Exemplo de uso"
+          },
+          {
+            "category": "comment",
+            "location": "Line 53",
+            "language": "Portuguese",
+            "text": "Configurações do banco de dados"
+          },
+          {
+            "category": "comment",
+            "location": "Line 61",
+            "language": "Portuguese",
+            "text": "Caminho para o arquivo de imagem"
+          },
+          {
+            "category": "comment",
+            "location": "Line 64",
+            "language": "Portuguese",
+            "text": "Chama a função para inserir a imagem"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 2086,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 55: unterminated f-string literal (detected at line 55)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 55: unterminated f-string literal (detected at line 55)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "    # Проверка существования файла"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "        raise FileNotFoundError(f\"Файл {image_path} не найден.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Russian",
+            "text": "    # Проверка формата файла"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "        raise ValueError(f\"Неподдерживаемый формат файла: {ext}. Поддерживаются: {valid_extensions}\"..."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "    # Проверка, является ли файл изображением"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "            img.verify()  # Проверка целостности изображения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "        raise ValueError(f\"Файл не является валидным изображением: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Russian",
+            "text": "    # Чтение изображения как бинарных данных"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Russian",
+            "text": "        raise IOError(f\"Ошибка при чтении файла: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Russian",
+            "text": "    # Генерация хеша для проверки уникальности"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Russian",
+            "text": "    # Подключение к базе данных и сохранение изображения"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "French",
+            "text": "    connection = None"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 37",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**db_config)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "French",
+            "text": "            cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Russian",
+            "text": "            # Проверка на существование изображения по хешу"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Russian",
+            "text": "                print(\"Изображение уже существует в базе данных.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Russian",
+            "text": "            # Вставка изображения в базу данных"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "French",
+            "text": "            insert_query = \"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 54",
+            "language": "French",
+            "text": "            connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "Russian",
+            "text": "            print(f\"Изображение успешно сохранено в базе данных"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1766,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmps4ek8f8s.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.1316688060760498,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3888888888888889,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 56",
+            "language": "Indonesian",
+            "text": "Koneksi ke database ditutup."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Indonesian",
+            "text": "Gagal terhubung ke database."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "Berhasil terhubung ke database MySQL"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Indonesian",
+            "text": "Gambar "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Indonesian",
+            "text": " berhasil disimpan ke database."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "Error saat terhubung ke database: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Indonesian",
+            "text": "Error saat menyimpan gambar ke database: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Indonesian",
+            "text": "Baca file gambar sebagai binary"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Indonesian",
+            "text": "Query untuk menyimpan gambar ke dalam tabel"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Indonesian",
+            "text": "Path ke file gambar yang ingin disimpan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 48",
+            "language": "Indonesian",
+            "text": "Ganti dengan path file gambar Anda"
+          },
+          {
+            "category": "comment",
+            "location": "Line 50",
+            "language": "Indonesian",
+            "text": "Koneksi ke database"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1211,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1142733097076416,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "images.db"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1800,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 58: unterminated string literal (detected at line 58)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 58: unterminated string literal (detected at line 58)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "    Speichert eine Bilddatei in einer MySQL-Datenbank als BLOB."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "    :param image_path: Pfad zur Bilddatei"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "    # Überprüfen, ob die Datei existiert"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "        print(f\"Fehler: Die Datei {image_path} existiert nicht.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Standard German",
+            "text": "    # Verbindung zur Datenbank herstellen"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "French",
+            "text": "    connection = None"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**db_config)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "French",
+            "text": "            cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "            # Datei in BLOB konvertieren"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Standard German",
+            "text": "            # Dateiname extrahieren"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "            # Aktuellen Zeitstempel ermitteln"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "Standard German",
+            "text": "            # SQL-Abfrage zum Einfügen der Bilddaten"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "French",
+            "text": "            insert_query = \"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "            connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Standard German",
+            "text": "            print(f\"Bild {filename} erfolgreich in der Datenbank gespeichert.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "Standard German",
+            "text": "        print(f\"Fehler beim Speichern der Bilddatei in der Datenbank: {e}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 51",
+            "language": "French",
+            "text": "            connection.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 53",
+            "language": "Standard German",
+            "text": "# Beispielkonfiguration"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "Portuguese",
+            "text": "    'host': 'localhost',"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1466,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpajzk016o.py\", line 2, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.17202043533325195,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Mandarin Chinese",
+            "text": "指定されたファイルが存在しません。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 47",
+            "language": "Mandarin Chinese",
+            "text": "データベース接続を閉じました"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Mandarin Chinese",
+            "text": "データベースへの接続に失敗しました"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "MySQL データベースに接続されました"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "画像 '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "' がデータベースに保存されました"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Mandarin Chinese",
+            "text": "画像ファイルのパスを入力してください: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "データベース接続エラー: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "画像の保存エラー: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 626,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 21: expected 'except' or 'finally' block"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 21: expected 'except' or 'finally' block",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Hindi",
+            "text": "    # फाइल अस्तित्वात आहे का ते तपासा"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Hindi",
+            "text": "        print(f\"फाइल अस्तित्वात नाही: {image_path}\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Hindi",
+            "text": "    # फाइलचे नाव आणि प्रकार मिळवा"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Hindi",
+            "text": "    # MySQL डेटाबेस कनेक्शन सेटअप करा"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**db_config)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "French",
+            "text": "            cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 21",
+            "language": "Hindi",
+            "text": "            # फाइलचे नाव आणि प्रकार अद्�"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1885,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpte4agbp5.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.14773082733154297,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Indonesian",
+            "text": "database"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Error: File "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": " does not exist."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem tệp hình ảnh có tồn tại không"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "Tên tệp hình ảnh (không bao gồm đường dẫn)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Kết nối đến cơ sở dữ liệu MySQL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Vietnamese",
+            "text": "Đọc dữ liệu hình ảnh dưới dạng binary"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Vietnamese",
+            "text": "Câu lệnh SQL để chèn dữ liệu vào bảng images"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Vietnamese",
+            "text": "Thực thi câu lệnh chèn"
+          },
+          {
+            "category": "comment",
+            "location": "Line 44",
+            "language": "Vietnamese",
+            "text": "Đảm bảo đóng kết nối cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 50",
+            "language": "Vietnamese",
+            "text": "Cấu hình kết nối cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 58",
+            "language": "Vietnamese",
+            "text": "Đường dẫn đến tệp hình ảnh"
+          },
+          {
+            "category": "comment",
+            "location": "Line 61",
+            "language": "Vietnamese",
+            "text": "Gọi hàm để lưu hình ảnh vào cơ sở dữ liệu"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 149,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 8: unterminated string literal (detected at line 8)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 8: unterminated string literal (detected at line 8)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "DB_CONFIG = {"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "    'host': 'localhost',"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 2163,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkle15n6x.py\", line 1, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'",
+        "execution_time": 0.15165948867797852,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.10526315789473684,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "localhost"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "your_database_name"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Turkish",
+            "text": "File '"
+          },
+          {
+            "category": "comment",
+            "location": "Line 67",
+            "language": "French",
+            "text": "Close connection"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 2208,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 72: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 72: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "import mysql.connector"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Turkish",
+            "text": "# Veritabanı bağlantı ayarları"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "DB_CONFIG = {"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Portuguese",
+            "text": "    'host': 'localhost',"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "# Resim dosyasını veritabanına kaydetme fonksiyonu"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Indonesian",
+            "text": "def save_image_to_database(image_path, image_name):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "        # Veritabanına bağlan"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**DB_CONFIG)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "French",
+            "text": "            cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Turkish",
+            "text": "                binary_data = file.read()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 25",
+            "language": "Turkish",
+            "text": "            # Resmi veritabanına ekle"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "French",
+            "text": "            insert_query = \"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "            connection.commit()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 31",
+            "language": "Turkish",
+            "text": "            print(f\"Resim '{image_name}' başarıyla veritabanına kaydedildi.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 33",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 38",
+            "language": "French",
+            "text": "            connection.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Turkish",
+            "text": "# Veritabanından resim almak için fonksiyon"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Turkish",
+            "text": "        # Veritabanına bağlan"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 44",
+            "language": "French",
+            "text": "        connection = mysql.connector.connect(**DB_CONFIG)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "French",
+            "text": "            cursor = connection.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 48",
+            "language": "Turkish",
+            "text": "            # Resmi veritabanından al"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 49",
+            "language": "Spanish",
+            "text": "            select_query = \"\"\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 57",
+            "language": "Turkish",
+            "text": "                # Resmi dosyaya yaz"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 60",
+            "language": "Turkish",
+            "text": "                print(f\"Resim '{image_name}' başarıyla '{output_path}' konumuna indirildi.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 62",
+            "language": "Turkish",
+            "text": "                print(f\"Resim '{image_name}' veritabanında bulunamadı.\")"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 64",
+            "language": "Portuguese",
+            "text": "    except Error as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 69",
+            "language": "French",
+            "text": "            connection.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 71",
+            "language": "Turkish",
+            "text": "# Örnek kullanım"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✗ Runtime Error ✗ No (33%)           ✓ Yes (French:1 (cmt:1); Indonesian:1 (str... Runtime: Traceback (most recent ca\nzh-CN           ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Chinese:14 (c... Runtime: Traceback (most recent ca\nhi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Portuguese:1 ... Runtime: Traceback (most recent ca\nes              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Portuguese:2 (str... Runtime: Traceback (most recent ca\nar              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1); Arabic:8 (str... Runtime: Traceback (most recent ca\nfr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:19 (unk:19); Portuguese:5 (u... Syntax: Line 68: '{' was never cl\nbn              ✗ Syntax Error  ✓ Yes (75%)          ✓ Yes (Bengali:9 (unk:9); French:4 (unk:4)... Syntax: Line 38: unterminated f-s\npt              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Portuguese:22... Runtime: Traceback (most recent ca\nru              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:8 (unk:8); Portuguese:1 (unk... Syntax: Line 55: unterminated f-s\nid              ✗ Runtime Error ✗ No (39%)           ✓ Yes (Indonesian:12 (cmt:5, str:7); Portu... Runtime: Traceback (most recent ca\nur              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nde              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:7 (unk:7); Indonesian:1 (unk... Syntax: Line 58: unterminated str\nja              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Chinese:9 (str:9); Portuguese:1 (st... Runtime: Traceback (most recent ca\nmr              ✗ Syntax Error  ✗ No (25%)           ✓ Yes (French:3 (unk:3); Hindi:5 (unk:5) +... Syntax: Line 21: expected 'except\nvi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Portuguese:2 ... Runtime: Traceback (most recent ca\nte              ✗ Syntax Error  ✓ Yes (100%)         ✓ Yes (French:1 (unk:1); Portuguese:2 (unk... Syntax: Line 8: unterminated stri\nha              ✗ Runtime Error ✗ No (11%)           ✓ Yes (French:1 (cmt:1); Indonesian:1 (str... Runtime: Traceback (most recent ca\ntr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:9 (unk:9); Indonesian:1 (unk... Syntax: Line 72: invalid syntax\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:13:36.021861"
+}

@@ -1,0 +1,1108 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\en.py",
+      "elements": {
+        "identifiers": [
+          "buy_function",
+          "buy_stock",
+          "price_per_share",
+          "quantity",
+          "stock_name",
+          "stock_prices",
+          "total_cost"
+        ],
+        "literals": [
+          "AAPL",
+          "150.00",
+          "GOOGL",
+          "2800.00",
+          "MSFT",
+          "300.00",
+          "TSLA",
+          "700.00",
+          "f\"Total cost for {quantity} shares of {stock_name}: ${total_cost:.2f}",
+          "f\"Inserting into database: Stock={stock_name}, Quantity={quantity}, Total Cost=${total_cost:.2f}",
+          "f\"Stock {stock_name} not found in database."
+        ],
+        "variables": [
+          "price_per_share",
+          "quantity",
+          "stock_name",
+          "stock_prices",
+          "total_cost"
+        ],
+        "comments": [
+          "Simulate retrieving stock price from database",
+          "quantity is assumed to be defined in outer scope",
+          "Call buy_function to calculate total cost",
+          "Display total cost to the user",
+          "Insert stock name, quantity, and total cost into the database",
+          "Simulate database insertion"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "api_url",
+          "balance",
+          "buy_function",
+          "buy_stock",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "data",
+          "execute",
+          "fetchone",
+          "get",
+          "json",
+          "new_balance",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "stock_name",
+          "total_price"
+        ],
+        "literals": [
+          "f\"https://api.example.com/stock/{stock_name}",
+          "price",
+          "请输入购买数量: ",
+          "请输入股票名称: ",
+          "请输入购买数量: ",
+          "users.db",
+          "SELECT balance FROM users WHERE id = 1",
+          "0",
+          "余额不足",
+          "INSERT INTO transactions (stock_name, quantity, total_price, user_id) VALUES (?, ?, ?, ?)",
+          "1",
+          "UPDATE users SET balance = ? WHERE id = 1",
+          "f\"购买成功，已扣除 {total_price} 元，当前余额为 {new_balance} 元"
+        ],
+        "variables": [
+          "api_url",
+          "balance",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "data",
+          "execute",
+          "fetchone",
+          "get",
+          "json",
+          "new_balance",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "stock_name",
+          "total_price"
+        ],
+        "comments": [
+          "假设 API 返回格式为 {\"name\": \"AAPL\", \"price\": 150.0}",
+          "假设从数据库获取用户余额",
+          "插入交易记录",
+          "更新用户余额",
+          "模拟按钮点击"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\hi.py",
+      "elements": {
+        "identifiers": [
+          "buy_function",
+          "buy_stock",
+          "price_per_share",
+          "quantity",
+          "stock_name",
+          "stock_prices",
+          "total_cost"
+        ],
+        "literals": [
+          "Enter stock name: ",
+          "Enter quantity: ",
+          "f\"Inserting {quantity} shares of {stock_name} into database...",
+          "f\"Total cost for buying {quantity} shares of {stock_name}: ${total_cost}",
+          "AAPL",
+          "150.00",
+          "GOOGL",
+          "2800.00",
+          "MSFT",
+          "300.00",
+          "TSLA",
+          "700.00",
+          "f\"Stock {stock_name} not found in database.",
+          "0"
+        ],
+        "variables": [
+          "price_per_share",
+          "quantity",
+          "stock_name",
+          "stock_prices",
+          "total_cost"
+        ],
+        "comments": [
+          "Simulate form data input (in a real app, this would come from a web form)",
+          "Insert stock purchase into database (simulated)",
+          "Call buy_function to calculate cost",
+          "Use the total cost (e.g., display or process further)",
+          "Simulate fetching stock price from database",
+          "Example usage (simulating button click)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\es.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "buy_function",
+          "buy_stock",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "data",
+          "e",
+          "execute",
+          "get",
+          "headers",
+          "json",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "status_code",
+          "stock_name",
+          "total_cost",
+          "url"
+        ],
+        "literals": [
+          "f\"https://query1.finance.yahoo.com/v8/finance/chart/{stock_name}",
+          "User-Agent",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          "200",
+          "chart",
+          "result",
+          "0",
+          "meta",
+          "regularMarketPrice",
+          "f\"Error al obtener datos de {stock_name}: {response.status_code}",
+          "f\"Error al conectar con la API: {e}",
+          "No se pudo obtener el precio de la acción.",
+          "stocks.db",
+          "\r\n        INSERT INTO purchases (stock_name, quantity, price, total_cost)\r\n        VALUES (?, ?, ?, ?)\r\n    "
+        ],
+        "variables": [
+          "Exception",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "data",
+          "e",
+          "execute",
+          "get",
+          "headers",
+          "json",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "status_code",
+          "stock_name",
+          "total_cost",
+          "url"
+        ],
+        "comments": [
+          "Llama a buy_function para obtener el precio actual",
+          "Calcula el costo total",
+          "Conecta a la base de datos y inserta la compra"
+        ],
+        "docstrings": [
+          "\r\n    Obtiene el precio actual de una acción desde la API de Yahoo Finance.\r\n    :param stock_name: Nombre de la acción (por ejemplo, 'AAPL')\r\n    :return: Precio actual de la acción o None si falla\r\n    ",
+          "\r\n    Procesa la compra de acciones.\r\n    :param stock_name: Nombre de la acción\r\n    :param quantity: Cantidad de acciones a comprar\r\n    "
+        ],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\ar.py",
+      "elements": {
+        "identifiers": [
+          "INSERT",
+          "INTO",
+          "account_balance",
+          "available_quantity",
+          "buy_function",
+          "buy_stock",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "price",
+          "quantity",
+          "sqlite3",
+          "stock_data",
+          "stock_symbol",
+          "symbol",
+          "total_cost",
+          "trades"
+        ],
+        "literals": [
+          "trading.db",
+          "SELECT quantity, price FROM stocks WHERE symbol = ?",
+          "f\"السهم {stock_symbol} غير موجود في قاعدة البيانات.",
+          "f\"لا يوجد كمية كافية من السهم {stock_symbol}. الكمية المتاحة: {available_quantity}",
+          "SELECT balance FROM accounts WHERE id = 1",
+          "0",
+          "f\"المبلغ غير كافٍ. المبلغ المتبقي: {account_balance}, المطلوب: {total_cost}",
+          "0",
+          "السعر غير صالح."
+        ],
+        "variables": [
+          "INSERT",
+          "INTO",
+          "account_balance",
+          "available_quantity",
+          "buy_function",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "fetchone",
+          "price",
+          "quantity",
+          "sqlite3",
+          "stock_data",
+          "stock_symbol",
+          "symbol",
+          "total_cost",
+          "trades"
+        ],
+        "comments": [
+          "افتراض أن لديك قاعدة بيانات مع جدولين: accounts وstocks",
+          "جدول accounts: id, balance (المبلغ المتبقي)",
+          "جدول stocks: symbol (اسم السهم), quantity (الكمية المتاحة), price (السعر الحالي)",
+          "جدول trades: id, symbol, quantity, price, timestamp, account_id",
+          "استدعاء الدالة buy_function مع اسم السهم",
+          "الاتصال بقاعدة البيانات",
+          "1. البحث عن السهم في قاعدة البيانات",
+          "2. التحقق من كمية السهم المتاحة",
+          "3. التحقق من المبلغ المتبقي في الحساب (نفترض أن الحساب مرتبط بـ account_id = 1)",
+          "4. التحقق من السعر (مثلاً: لا يمكن الشراء بأقل من سعر السوق)",
+          "5. إدخال الصفقة إلى قاعدة البيانات"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\fr.py",
+      "elements": {
+        "identifiers": [
+          "available_stocks",
+          "buy_function",
+          "buy_stock",
+          "quantity",
+          "stock_name",
+          "upper"
+        ],
+        "literals": [
+          "AAPL",
+          "GOOGL",
+          "MSFT",
+          "AMZN",
+          "TSLA",
+          "f\"Confirmation: {stock_name.upper()} a été acheté avec succès.",
+          "f\"Erreur: {stock_name.upper()} n'est pas disponible pour l'achat.",
+          "f\"Insertion dans la base de données: {stock_name} - Quantité: {quantity}"
+        ],
+        "variables": [
+          "available_stocks",
+          "quantity",
+          "stock_name",
+          "upper"
+        ],
+        "comments": [
+          "Insérer le nom et la quantité du stock dans la base de données",
+          "(Exemple fictif d'insertion dans une base de données)",
+          "Appeler la fonction buy_function avec le nom du stock"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\bn.py",
+      "elements": {
+        "identifiers": [
+          "buy_function",
+          "buy_stock",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "quantity",
+          "query",
+          "sqlite3",
+          "stock_name",
+          "কো"
+        ],
+        "literals": [
+          "স্টকের নাম দিন: ",
+          "পরিমাণ দিন: ",
+          "f\"INSERT INTO stocks (stock_name, quantity) VALUES ('{stock_name}', {quantity})",
+          "stocks.db"
+        ],
+        "variables": [
+          "buy_function",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "quantity",
+          "query",
+          "sqlite3",
+          "stock_name",
+          "কো"
+        ],
+        "comments": [
+          "ধরে নেওয়া হচ্ছে যে ফর্ম থেকে ডেটা নেওয়া হচ্ছে",
+          "buy_function কে কল করা হচ্ছে স্টকের নাম আর্গুমেন্ট হিসাবে পাস করে",
+          "ডাটাবেস কোয়েরি তৈরি করা হচ্ছে",
+          "এখানে ডাটাবেসে কোয়েরি রান করার জন্য একটি ডাটাবেস কানেকশন ব্যবহার করা হবে",
+          "উদাহরণ হিসাবে SQLite ব্যবহার করা হচ্ছে"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\pt.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "ValueError",
+          "api_url",
+          "buy_function",
+          "buy_stock",
+          "data",
+          "e",
+          "form_data",
+          "get",
+          "json",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "status_code",
+          "stock_name",
+          "total_value",
+          "user_id"
+        ],
+        "literals": [
+          "f\"https://api.example.com/stock/{stock_name}/price",
+          "200",
+          "price",
+          "Falha ao obter o preço da ação",
+          "f\"Erro ao chamar a API: {e}",
+          "stock_name",
+          "quantity",
+          "Nome da ação ou quantidade inválidos.",
+          "Quantidade inválida.",
+          "Não foi possível obter o preço da ação.",
+          "f\"Compra confirmada! Valor total: R$ {total_value:.2f}",
+          "1"
+        ],
+        "variables": [
+          "Exception",
+          "ValueError",
+          "api_url",
+          "data",
+          "e",
+          "form_data",
+          "get",
+          "json",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "status_code",
+          "stock_name",
+          "total_value",
+          "user_id"
+        ],
+        "comments": [
+          "Função para obter o preço atual da ação via API",
+          "Exemplo de API: Alpha Vantage, Yahoo Finance, etc.",
+          "Aqui usamos uma API fictícia para exemplo",
+          "Supondo que a resposta tenha um campo 'price'",
+          "Função chamada quando o botão \"Comprar\" é clicado",
+          "form_data é um dicionário com 'stock_name' e 'quantity'",
+          "Chama a função para obter o preço da ação",
+          "Calcula o valor total da compra",
+          "Exibe mensagem de confirmação",
+          "Atualiza o saldo do usuário no banco de dados",
+          "Supondo que o usuário está logado e seu ID é 1 (pode ser passado como parâmetro)",
+          "Exemplo de"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\ru.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "ValueError",
+          "buy_function",
+          "buy_stock",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "execute",
+          "form_data",
+          "get",
+          "get_stock_price",
+          "price",
+          "prices",
+          "quantity",
+          "sqlite3",
+          "stock_name",
+          "total_cost"
+        ],
+        "literals": [
+          "AAPL",
+          "150.0",
+          "GOOGL",
+          "2800.0",
+          "TSLA",
+          "700.0",
+          "AMZN",
+          "3300.0",
+          "0.0",
+          "0.0",
+          "f\"Не удалось получить цену для акции {stock_name}",
+          "f\"Введите количество акций {stock_name}: ",
+          "stock_name",
+          "Название акции не указано",
+          "stocks.db",
+          "\r\n            INSERT INTO purchases (stock_name, quantity, total_cost, purchase_date)\r\n            VALUES (?, ?, ?, datetime('now'))\r\n        ",
+          "f\"Введите количество акций {stock_name}: ",
+          "f\"Покупка успешно добавлена: {stock_name}, {total_cost} USD",
+          "f\"Ошибка при добавлении покупки: {e}"
+        ],
+        "variables": [
+          "Exception",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "execute",
+          "form_data",
+          "get",
+          "price",
+          "prices",
+          "quantity",
+          "sqlite3",
+          "stock_name",
+          "total_cost"
+        ],
+        "comments": [
+          "Пример функции для получения текущей цены акции",
+          "В реальном приложении здесь может быть API вызов",
+          "Подключение к базе данных и вставка записи"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock",
+          "get_stock_price"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\id.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "buy_function",
+          "buy_stock",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "get",
+          "get_stock_data",
+          "insert_to_database",
+          "json",
+          "latest_stock_data",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "status_code",
+          "stock_data",
+          "stock_name",
+          "url"
+        ],
+        "literals": [
+          "f\"https://api.example.com/stock/{stock_name}",
+          "200",
+          "f\"Gagal mengambil data saham untuk {stock_name}",
+          "stocks.db",
+          "\r\n        CREATE TABLE IF NOT EXISTS stocks (\r\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n            name TEXT NOT NULL,\r\n            quantity INTEGER NOT NULL,\r\n            price REAL,\r\n            last_updated TEXT\r\n        )\r\n    ",
+          "\r\n        INSERT INTO stocks (name, quantity, price, last_updated)\r\n        VALUES (?, ?, ?, datetime('now'))\r\n    ",
+          "price",
+          "stocks.db"
+        ],
+        "variables": [
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "execute",
+          "get",
+          "json",
+          "latest_stock_data",
+          "quantity",
+          "requests",
+          "response",
+          "sqlite3",
+          "status_code",
+          "stock_data",
+          "stock_name",
+          "url"
+        ],
+        "comments": [
+          "Fungsi untuk membeli saham",
+          "Memanggil fungsi buy_function untuk mendapatkan data saham dari API",
+          "Memasukkan data saham ke dalam database",
+          "Mendapatkan data saham terbaru dari database",
+          "Mengembalikan data saham terbaru dari database",
+          "Fungsi untuk mengambil data saham dari API",
+          "Contoh API (ganti dengan API yang sesuai)",
+          "Fungsi untuk menyimpan data ke database",
+          "Membuat tabel jika belum ada",
+          "Memasukkan data ke database",
+          "Fungsi untuk mendapatkan data saham terbaru dari database"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock",
+          "get_stock_data",
+          "insert_to_database"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\ur.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "buy_function",
+          "buy_stock",
+          "debug",
+          "flask",
+          "form",
+          "get",
+          "handle_buy",
+          "methods",
+          "quantity",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "stock_name",
+          "stock_price",
+          "stocks_db",
+          "success",
+          "transaction_id",
+          "transactions_db",
+          "url_for"
+        ],
+        "literals": [
+          "100",
+          "1",
+          "stock_name",
+          "price",
+          "quantity",
+          "1",
+          "total_cost",
+          "f\"Stock {stock_name} bought at {stock_price} per unit. Total cost: {stock_price}",
+          "stock_name",
+          "quantity",
+          "1",
+          "100",
+          "0",
+          "quantity",
+          "total_cost",
+          "success",
+          "/buy",
+          "POST",
+          "success",
+          "/success",
+          "Stock purchase successful!",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "debug",
+          "flask",
+          "form",
+          "get",
+          "methods",
+          "quantity",
+          "redirect",
+          "request",
+          "route",
+          "run",
+          "stock_name",
+          "stock_price",
+          "stocks_db",
+          "transaction_id",
+          "transactions_db",
+          "url_for"
+        ],
+        "comments": [
+          "Sample database (in real app, use actual database like SQLite, PostgreSQL, etc.)",
+          "Simulate fetching stock price (in real app, fetch from financial API)",
+          "Example price",
+          "Record the transaction",
+          "Get form data",
+          "Save stock info in database (if not already present)",
+          "Default price",
+          "Call buy_function with stock name",
+          "Update transaction with quantity"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock",
+          "handle_buy",
+          "success"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\de.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "buy_function",
+          "buy_stock",
+          "data",
+          "get",
+          "get_current_price",
+          "get_price_from_api",
+          "get_stock_price",
+          "json",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "status_code",
+          "stock_name",
+          "url"
+        ],
+        "literals": [
+          "f\"https://api.example.com/stock/{stock_name}",
+          "200",
+          "price",
+          "API request failed",
+          "f\"Inserting {quantity} shares of {stock_name} into database."
+        ],
+        "variables": [
+          "data",
+          "get",
+          "json",
+          "price",
+          "quantity",
+          "requests",
+          "response",
+          "status_code",
+          "stock_name",
+          "url"
+        ],
+        "comments": [
+          "Simulate inserting into database"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock",
+          "get_current_price",
+          "get_price_from_api",
+          "get_stock_price"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\ja.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "ValueError",
+          "buy_function",
+          "buy_stock",
+          "e",
+          "get",
+          "get_stock_price_from_db",
+          "quantity",
+          "stock_name",
+          "stock_price",
+          "stock_prices",
+          "total_amount"
+        ],
+        "literals": [
+          "銘柄名を入力してください: ",
+          "数量を入力してください: ",
+          "f\"{stock_name} に {quantity} 株を購入します。",
+          "f\"購入処理中にエラーが発生しました: {e}",
+          "f\"{stock_name} の株価が見つかりません。",
+          "f\"株価計算中にエラーが発生しました: {e}",
+          "AAPL",
+          "150",
+          "GOOGL",
+          "2800",
+          "TSLA",
+          "700"
+        ],
+        "variables": [
+          "Exception",
+          "e",
+          "get",
+          "quantity",
+          "stock_name",
+          "stock_price",
+          "stock_prices",
+          "total_amount"
+        ],
+        "comments": [
+          "データベースに挿入",
+          "仮の挿入処理",
+          "データベースから株価を取得する仮の処理",
+          "合計金額を計算",
+          "仮の株価データベース"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock",
+          "get_stock_price_from_db"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\mr.py",
+      "elements": {
+        "identifiers": [
+          "__import__",
+          "buy_function",
+          "buy_stock",
+          "datetime",
+          "file",
+          "now",
+          "open",
+          "quantity",
+          "stock_name",
+          "write"
+        ],
+        "literals": [
+          "purchased_stocks.txt",
+          "a",
+          "f\"Stock: {stock_name}, Purchased at: {__import__('datetime').datetime.now()}\\n",
+          "datetime",
+          "Enter stock name: ",
+          "Enter quantity: "
+        ],
+        "variables": [
+          "datetime",
+          "file",
+          "now",
+          "quantity",
+          "stock_name",
+          "write"
+        ],
+        "comments": [
+          "वापरकर्ता खरेदी केलेल्या स्टॉकची माहिती फाइलमध्ये साठवते",
+          "फॉर्ममधून स्टॉकचे नाव आणि प्रमाण घेते",
+          "�"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\vi.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "bought_quantity",
+          "buy_function",
+          "buy_stock",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "execute",
+          "fetchone",
+          "get",
+          "isdigit",
+          "messagebox",
+          "new_quantity",
+          "new_total_spent",
+          "old_quantity",
+          "old_total_spent",
+          "quantity",
+          "quantity_entry",
+          "result",
+          "showerror",
+          "showinfo",
+          "sqlite3",
+          "stock_name",
+          "stock_name_entry",
+          "strip",
+          "tkinter"
+        ],
+        "literals": [
+          "0",
+          "Lỗi",
+          "Vui lòng nhập tên cổ phiếu hợp lệ và số lượng lớn hơn 0.",
+          "Thành công",
+          "f\"Đã mua {bought_quantity} cổ phiếu {stock_name}.",
+          "Lỗi",
+          "f\"Đã xảy ra lỗi khi mua cổ phiếu: {str(e)}",
+          "stocks.db",
+          "SELECT quantity, total_spent FROM stocks WHERE stock_name = ?",
+          "UPDATE stocks SET quantity = ?, total_spent = ? WHERE stock_name = ?",
+          "INSERT INTO stocks (stock_name, quantity, total_spent) VALUES (?, ?, ?)"
+        ],
+        "variables": [
+          "Exception",
+          "bought_quantity",
+          "close",
+          "commit",
+          "conn",
+          "connect",
+          "cursor",
+          "e",
+          "execute",
+          "fetchone",
+          "get",
+          "isdigit",
+          "messagebox",
+          "new_quantity",
+          "new_total_spent",
+          "old_quantity",
+          "old_total_spent",
+          "quantity",
+          "quantity_entry",
+          "result",
+          "showerror",
+          "showinfo",
+          "sqlite3",
+          "stock_name",
+          "stock_name_entry",
+          "strip",
+          "tkinter"
+        ],
+        "comments": [
+          "Giả sử có một biểu mẫu với các trường: stock_name_entry và quantity_entry",
+          "Kiểm tra xem cổ phiếu đã tồn tại chưa",
+          "Cập nhật số lượng và tổng tiền đã chi",
+          "Giả sử giá mỗi cổ phiếu là 1 đơn vị tiền",
+          "Chèn bản ghi mới",
+          "Giả sử giá mỗi cổ phiếu là 1 đơn vị tiền"
+        ],
+        "docstrings": [],
+        "functions": [
+          "buy_function",
+          "buy_stock"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\ha.py",
+      "elements": {
+        "identifiers": [
+          "siye",
+          "siye_function",
+          "siye_stock",
+          "siye_stock_function"
+        ],
+        "literals": [
+          "0",
+          "0"
+        ],
+        "variables": [
+          "siye",
+          "siye_stock"
+        ],
+        "comments": [],
+        "docstrings": [],
+        "functions": [
+          "siye_function",
+          "siye_stock_function"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_cmwxo5_1\\tr.py",
+      "elements": {
+        "identifiers": [
+          "add_to_database",
+          "buy_function",
+          "buy_stock",
+          "get_stock_price_from_database",
+          "price",
+          "quantity",
+          "stock_name"
+        ],
+        "literals": [
+          "Hisse senedi adını girin: ",
+          "Miktarı girin: ",
+          "Hisse senedi başarıyla alındı",
+          "100"
+        ],
+        "variables": [
+          "price",
+          "quantity",
+          "stock_name"
+        ],
+        "comments": [
+          "Veritabanına stok bilgilerini ekle",
+          "buy_function'ı çağır ve hisse senedi adını ilet",
+          "Veritabanından ilgili hisse senedini al ve fiyatı döndür",
+          "Kullanıcıya mesaj göster",
+          "Burada veritabanına stok bilgilerini ekleyen kod yer alır",
+          "Örnek olarak basit bir liste kullanıyoruz",
+          "Burada veritabanından hisse senedi fiyatını çeken kod yer alır",
+          "Örnek olarak sabit bir fiyat döndürüyoruz",
+          "Örnek fiyat"
+        ],
+        "docstrings": [],
+        "functions": [
+          "add_to_database",
+          "buy_function",
+          "buy_stock",
+          "get_stock_price_from_database"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

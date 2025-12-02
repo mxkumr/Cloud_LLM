@@ -1,0 +1,950 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_2",
+  "summary": {
+    "total_languages": 18,
+    "successful": 14,
+    "syntax_errors": 1,
+    "runtime_errors": 3,
+    "success_rate": 77.77777777777779,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 5,
+      "average_similarity_score": 39.667285646452314
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 13,
+      "total_locations": 65
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 671,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055654048919677734,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "copy",
+          "memory",
+          "3 parameters"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, copy, memory, 3 parameters"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 788,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmps8ndi32p.py\", line 37, in <module>\n    print(\"\\u590d\\u5236\\u540e\\u7684\\u7f13\\u51b2\\u533a\\u5185\\u5bb9:\", buffer.raw)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-8: character maps to <undefined>",
+        "execution_time": 0.1435689926147461,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.8333333333333334,
+        "matched_keywords": [
+          "function",
+          "copy (partial)",
+          "memory"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 83.3%) - Matched: function, copy (partial), memory"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 3",
+            "language": "Mandarin Chinese",
+            "text": "将 n 个字节从源内存位置复制到目标内存位置。\n\n参数:\ndest: 目标内存位置（可以是内存地址或可写缓冲区）\nsrc: 源内存位置（可以是内存地址或可读缓冲区）\nn: 要复制的字节数\n\n返回:\n目..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Mandarin Chinese",
+            "text": "复制后的缓冲区内容:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "将输入转换为 ctypes 的 c_char_p 类型，以便进行内存操作"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Mandarin Chinese",
+            "text": "使用 memmove（更安全的版本）进行复制，避免重叠内存问题"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "示例用法：复制消息到缓冲区"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Mandarin Chinese",
+            "text": "创建源消息（字符串）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Mandarin Chinese",
+            "text": "创建目标缓冲区（大小足够）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Mandarin Chinese",
+            "text": "使用 memcpy 复制消息"
+          },
+          {
+            "category": "comment",
+            "location": "Line 36",
+            "language": "Mandarin Chinese",
+            "text": "输出结果"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 682,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055214643478393555,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Hindi",
+            "text": "कई बाइट्स को एक मेमोरी लोकेशन से दूसरे में कॉपी करता है।\n\n:param destination: गंतव्य बाइट सरणी (मेमो..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "गंतव्य बफ़र को बाइट सरणी के रूप में निर्मित करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Hindi",
+            "text": "कॉपी करने के लिए बाइट्स की संख्या सीमित करें"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "बाइट्स कॉपी करें"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 425,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkjh9tje6.py\", line 10, in <module>\n    copiar_bytes(buffer, mensaje, 50)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpkjh9tje6.py\", line 3, in copiar_bytes\n    destino[i] = fuente[i]\n                 ~~~~~~^^^\nIndexError: bytearray index out of range",
+        "execution_time": 0.14519047737121582,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.16666666666666663,
+        "matched_keywords": [
+          "function",
+          "copy"
+        ],
+        "missing_keywords": [
+          "memory"
+        ],
+        "reasoning": "Code does not meet critical requirements (similarity: 16.7%) - Missing: memory"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Definir el búfer y el mensaje como arrays de bytes"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Spanish",
+            "text": "Copiar 50 bytes del mensaje al búfer"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Verificar el resultado (opcional)"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 480,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08115863800048828,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 494,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0734548568725586,
+        "output": "Hello, World!"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "copy",
+          "memory"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, copy, memory"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Tampon de taille 100"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "French",
+            "text": "Message à copier"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Convertir le message en liste d'octets (caractères)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Copier le message dans le tampon"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Afficher le contenu du tampon (converti en chaîne)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 432,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07315587997436523,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 60.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Hindi",
+            "text": "একটি মেমরি অবস্থান থেকে অন্য মেমরি অবস্থানে নির্দিষ্ট সংখ্যক বাইট কপি করে।\n\nপ্যারামিটার:\ndestination..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Bengali",
+            "text": "উৎস থেকে গন্তব্যে নির্দিষ্ট সংখ্যক বাইট কপি করা"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 648,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07491159439086914,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "Copia um número de bytes de um local de memória para outro.\n\nArgs:\n    destino: Lista ou array onde ..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "Limita o número de bytes a copiar ao tamanho disponível na fonte"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Copia os bytes do fonte para o destino"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 313,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07503294944763184,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.08,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 8.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Russian",
+            "text": "Определяем количество байтов, которое можно скопировать"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "Копируем байты из source в destination"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 398,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05862092971801758,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.03333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 758,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07281637191772461,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5555555555555556,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 55.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Standard Arabic",
+            "text": "کسی میموری کے مقام سے دوسرے مقام پر متعدد بائٹس کی کاپی کرتا ہے۔\n\nپیرامیٹرز:\ndestination (bytearray)..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "بائٹس کی تعداد منفی نہیں ہو سکتی"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "ماخذ میموری کی لمبائی کم ہے"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "منزل میموری کا بفر کافی لمبا نہیں ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "چیک کریں کہ تعداد بائٹس مثبت ہے اور ماخذ کی لمبائی کافی ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "چیک کریں کہ منزل کا بفر کافی لمبا ہے"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Standard Arabic",
+            "text": "بائٹس کی کاپی"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 873,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07161617279052734,
+        "output": "bytearray(b'Hello, World!')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.59375,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 59.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Standard German",
+            "text": "Kopiert eine Reihe von Bytes von einem Speicherort an einen anderen.\n\nArgs:\n    destination: Das Zie..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "Beispielverwendung:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Standard German",
+            "text": "Puffer mit 100 Bytes"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Beispiel-Nachricht"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "Ergebnis: Die Nachricht ist nun im Puffer gespeichert"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 541,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07401490211486816,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "メモリ位置から別のメモリ位置にバイトをコピーする関数。\n\n引数:\n    destination: 宛先のメモリ位置（バイトオフセット）\n    source: ソースのバイト列\n    byte_c..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 1",
+            "language": "Mandarin Chinese",
+            "text": "グローバルバッファの定義"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "バッファのサイズを超える場合はエラー"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "バイト列をコピー"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 512,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05531620979309082,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 889,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp5mskrfgo.py\", line 22, in <module>\n    print(\"Tr\\u01b0\\u1edbc khi sao ch�p:\", buffer)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>",
+        "execution_time": 0.15500950813293457,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.39285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 39.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Vietnamese",
+            "text": "Sao chép num_bytes từ vị trí source sang vị trí destination.\n\nArgs:\n    destination: Danh sách hoặc ..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Vietnamese",
+            "text": "Trước khi sao chép:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "Sau khi sao chép:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Vượt quá giới hạn bộ nhớ tại vị trí "
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Nếu vị trí vượt quá kích thước, có thể ném lỗi hoặc xử lý theo cách khác"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Ví dụ sử dụng"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Bộ đệm 10 byte"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Vietnamese",
+            "text": "\"ABCDE\" dưới dạng mã ASCII"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 433,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 13: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "French",
+            "text": "def copy_bytes(destination, source, num_bytes):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "    Returns:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 1050,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10700798034667969,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1273,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0533597469329834,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.38461538461538464,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 38.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Turkish",
+            "text": "Bir miktar baytı bir bellek konumundan diğerine kopyalar.\n\nArgs:\n    destination: Hedef bellek konum..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "Hata: Hedef bellek adresi geçersiz."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Hata: Kaynak bellek adresi geçersiz."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Turkish",
+            "text": "Kopyalama başarılı"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Turkish",
+            "text": "Hata: Hedef bellek yeterince büyük değil. Gerekli: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Turkish",
+            "text": "Hata: Kaynak bellek yeterince büyük değil. Gerekli: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Turkish",
+            "text": "Hata: Kopyalama sırasında bir hata oluştu: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Hedef veya kaynak geçersizse (None)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Turkish",
+            "text": "Hedef bellek yeterince büyük değilse"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Turkish",
+            "text": "Kaynak bellek yeterince büyük değilse"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Turkish",
+            "text": "Kopyalama işlemi"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✗ Runtime Error ✓ Yes (83%)          ✓ Yes (Chinese:9 (cmt:7, doc:1, str:1))  Runtime: Traceback (most recent ca\nhi              ✓ Yes           ✗ No (50%)           ✓ Yes (Hindi:4 (cmt:3, doc:1))           - None              \nes              ✗ Runtime Error ✗ No (17%)           ✓ Yes (Spanish:3 (cmt:3))                Runtime: Traceback (most recent ca; Prompt: Missing 1 keywords\nar              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:5 (cmt:5))                 - None              \nbn              ✓ Yes           ✓ Yes (60%)          ✓ Yes (Bengali:1 (cmt:1); Hindi:1 (doc:1)) - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:3 (cmt:2, doc:1))      - None              \nru              ✓ Yes           ✗ No (8%)            ✓ Yes (Russian:2 (cmt:2))                - None              \nid              ✓ Yes           ✗ No (3%)            ✗ No                                     - None              \nur              ✓ Yes           ✗ No (56%)           ✓ Yes (Arabic:7 (cmt:3, doc:1, str:3))   - None              \nde              ✓ Yes           ✗ No (59%)           ✓ Yes (German:5 (cmt:4, doc:1))          - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:4 (cmt:3, doc:1))         - None              \nmr              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nvi              ✗ Runtime Error ✗ No (39%)           ✓ Yes (Vietnamese:8 (cmt:4, doc:1, str:3)) Runtime: Traceback (most recent ca\nte              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1); German:1 (unk:1)) Syntax: Line 13: invalid syntax\nha              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \ntr              ✓ Yes           ✗ No (38%)           ✓ Yes (Turkish:11 (cmt:4, doc:1, str:6)) - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:10.798670"
+}

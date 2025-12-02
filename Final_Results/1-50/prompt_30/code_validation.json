@@ -1,0 +1,958 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_30",
+  "summary": {
+    "total_languages": 18,
+    "successful": 14,
+    "syntax_errors": 0,
+    "runtime_errors": 3,
+    "success_rate": 77.77777777777779,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 3,
+      "average_similarity_score": 25.663976116762495
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 72
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1081,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "No Flask app found in code",
+        "execution_time": 0.2647266387939453,
+        "output": "No Flask app found in code"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "localhost"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 430,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13884925842285156,
+        "output": "/"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "假设目标变量来自某个查询参数，例如从 URL 中解析得到"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "例如：目标变量 = \"example.com\" 或 \"test-site.org\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "示例目标变量，实际中应从请求中获取"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "定义正则表达式模式"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "匹配以一个或多个字母数字字符或连字符开头，后跟句点的字符串"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "检查目标变量是否匹配正则表达式"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "匹配成功，重定向到目标"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Mandarin Chinese",
+            "text": "不匹配，重定向到站点根目录"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "输出重定向 URL（在实际应用中，这将用于 HTTP 响应头）"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 622,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14726495742797852,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 699,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1513984203338623,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "string"
+        ],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%) - Missing: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "French",
+            "text": "destino"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Expresión regular para validar el destino"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "Obtener el parámetro de consulta 'destino'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Spanish",
+            "text": "Verificar si el parámetro existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "Redirigir a raíz si no hay parámetro"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "Validar el destino con la expresión regular"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "Redirigir a raíz si no coincide"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 377,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1327805519104004,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5833333333333334,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 58.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "تعريف التعبير العادي: سلسلة تبدأ بواحد أو أكثر من الأحرف الأبجدية الرقمية أو الواصلات متبوعة بنقطة"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "التحقق مما إذا كان الهدف يطابق التعبير العادي"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Standard Arabic",
+            "text": "إعادة توجيه إلى الهدف"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "إعادة توجيه إلى جذر الموقع"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 607,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13752508163452148,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "cible"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Expression régulière pour correspondre à une chaîne commençant par un ou plusieurs caractères alphan..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Récupérer le paramètre de requête 'cible'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Vérifier si la cible correspond à l'expression régulière"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 583,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15883326530456543,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.4,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 40.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Bengali",
+            "text": "রেগুলার এক্সপ্রেশন যা এক বা একাধিক বর্ণসংখ্যার অক্ষর বা হাইফেন দিয়ে একটি পিরিয়ড অনুসরণ করে"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Bengali",
+            "text": "টার্গেট কোয়েরি প্যারামিটার থেকে মান নিন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Bengali",
+            "text": "রেগুলার এক্সপ্রেশনের সাথে মেলানো হচ্ছে কিনা তা পরীক্ষা করুন"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Bengali",
+            "text": "রুটে রিডাইরেক্ট করুন"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 562,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1404566764831543,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "French",
+            "text": "destino"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Extrai o valor do parâmetro de consulta 'destino'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Portuguese",
+            "text": "Define a expressão regular: um ou mais caracteres alfanuméricos ou hifens, seguidos por um ponto"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "Verifica se o destino corresponde à expressão regular"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Spanish",
+            "text": "Redireciona para o destino"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Redireciona para a raiz do site"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 921,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1382434368133545,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5789473684210527,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 57.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Russian",
+            "text": "Регулярное выражение: одна или несколько буквенно-цифровых символов или дефисов, за которыми следует..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "Получаем значение целевого параметра из запроса (например, из URL)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Russian",
+            "text": "Проверяем соответствие регулярному выражению"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Russian",
+            "text": "Если соответствует — перенаправляем к цели"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Russian",
+            "text": "Убираем точку для формирования URL"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Russian",
+            "text": "Если не соответствует — перенаправляем в корень сайта"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Russian",
+            "text": "Пример использования"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "target_param = \"example.com.\"  # Должно перенаправить на example.com"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Russian",
+            "text": "target_param = \"invalid@.\"     # Должно перенаправить на корень"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 624,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14449143409729004,
+        "output": "Redirecting to: /"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Indonesian",
+            "text": "Variabel target disetel ke nilai parameter kueri target"
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Indonesian",
+            "text": "Ganti dengan nilai parameter kueri target yang sesuai"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Ekspresi reguler untuk memeriksa apakah string dimulai dengan satu atau lebih karakter alfanumerik a..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Indonesian",
+            "text": "Periksa apakah target cocok dengan pola"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Jika cocok, arahkan ke target"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Jika tidak cocok, arahkan ke root situs"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Tampilkan output yang sesuai"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 1219,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "No Flask app found in code",
+        "execution_time": 0.2407987117767334,
+        "output": "No Flask app found in code"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Portuguese",
+            "text": "localhost"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 647,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1382129192352295,
+        "output": "https://www.example.com"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "Definiere den regulären Ausdruck"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Überprüfe, ob die Zielvariable mit dem regulären Ausdruck übereinstimmt"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Wenn ja, leite zum Ziel weiter"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Wenn nein, leite zum Stammverzeichnis weiter"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "Beispielverwendung"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 361,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1445152759552002,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07142857142857142,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "正規表現: 1 つ以上の英数字またはハイフンで始まり、その後にピリオドが続く文字列"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "ターゲットが空の場合、ルートにリダイレクト"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "ターゲットが正規表現と一致するかチェック"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 480,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1347503662109375,
+        "output": "/example-page-123"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "French",
+            "text": "Regular expression pattern"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 675,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12414336204528809,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.7291666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 72.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Biểu thức chính quy: bắt đầu bằng một hoặc nhiều ký tự chữ, số hoặc dấu gạch nối, theo sau là dấu ch..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Vietnamese",
+            "text": "Lấy giá trị của tham số truy vấn 'target'"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Vietnamese",
+            "text": "Kiểm tra xem target có khớp với biểu thức chính quy không"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Chuyển hướng đến mục tiêu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Chuyển hướng đến thư mục gốc của trang web"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 692,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14319086074829102,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "target_path = \"/dashboard\""
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "French",
+            "text": "print(route_user(target_param_value, target_path))"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 858,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "No Flask app found in code",
+        "execution_time": 0.23078489303588867,
+        "output": "No Flask app found in code"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Turkish",
+            "text": "'hedef' parametresinin değerini al"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Normal ifade: bir veya daha fazla alfasayısal karakter veya kısa çizgiyle başlayan, ardından bir nok..."
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Turkish",
+            "text": "Eşleşiyorsa hedefe yönlendir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Turkish",
+            "text": "Eşleşmiyorsa köke yönlendir"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1))             Runtime: No Flask app found in cod\nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:9 (cmt:9))                - None              \nhi              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nes              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Portuguese:2 (cmt... Prompt: Missing 1 keywords\nar              ✓ Yes           ✗ No (58%)           ✓ Yes (Arabic:4 (cmt:4))                 - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:3 (cmt:3); Spanish:1 (str:1)) - None              \nbn              ✓ Yes           ✗ No (40%)           ✓ Yes (Bengali:4 (cmt:4))                - None              \npt              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Portuguese:4 (cmt... - None              \nru              ✓ Yes           ✗ No (58%)           ✓ Yes (Russian:9 (cmt:9))                - None              \nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:7 (cmt:7))             - None              \nur              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1))             Runtime: No Flask app found in cod\nde              ✓ Yes           ✗ No (0%)            ✓ Yes (German:5 (cmt:5))                 - None              \nja              ✓ Yes           ✗ No (7%)            ✓ Yes (Chinese:3 (cmt:3))                - None              \nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (cmt:1))                 - None              \nvi              ✓ Yes           ✓ Yes (73%)          ✓ Yes (Vietnamese:5 (cmt:5))             - None              \nte              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (cmt:1); Indonesian:1 (cmt... - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Turkish:4 (cmt:4))                Runtime: No Flask app found in cod\n==============================================================================================================",
+  "generated_at": "2025-12-02T03:48:53.063444"
+}

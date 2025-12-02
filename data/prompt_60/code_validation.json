@@ -1,0 +1,717 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_60",
+  "summary": {
+    "total_languages": 18,
+    "successful": 13,
+    "syntax_errors": 0,
+    "runtime_errors": 4,
+    "success_rate": 72.22222222222221,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 0,
+      "average_similarity_score": 13.552241248229944
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 15,
+      "total_locations": 33
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 478,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.052753448486328125,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2631578947368421,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 26.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 932,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.09979414939880371,
+        "output": "Buffer size must be a positive integer."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.14285714285714285,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 14.3%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 480,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05286717414855957,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Error: Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 489,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05447030067443848,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.22727272727272727,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Uso: python script.py <tamaño_del_búfer>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Spanish",
+            "text": "El tamaño del búfer debe ser no negativo."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "El tamaño del búfer debe ser un número entero."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 896,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.07630157470703125,
+        "output": "Size must be a positive integer."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.038461538461538464,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.8%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 741,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05560731887817383,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.30434782608695654,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 30.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "French",
+            "text": "Erreur : veuillez fournir exactement un argument : la taille du tampon."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "French",
+            "text": "Erreur : la taille du tampon doit être un entier non négatif."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "French",
+            "text": "Erreur : l'argument doit être un entier valide."
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "French",
+            "text": "Allouer un tampon de la taille spécifiée"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "French",
+            "text": "Imprimer le contenu du tampon"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 276,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.055665016174316406,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Error: Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 419,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10537981986999512,
+        "output": ""
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.19047619047619047,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 19.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Alocar buffer usando malloc do C"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Imprimir o conteúdo do buffer como bytes em hexadecimal"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 287,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.054903507232666016,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.12,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Использование: python script.py <размер_буфера>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Russian",
+            "text": "Размер буфера должен быть целым числом."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 368,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05837106704711914,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.07692307692307693,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 7.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 366,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08176469802856445,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Error: Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 268,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06115412712097168,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "Bitte geben Sie genau eine Zahl als Argument an."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Das Argument muss eine Zahl sein."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 452,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.08478569984436035,
+        "output": "[]"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.1,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 10.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Error: Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 364,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07801604270935059,
+        "output": "bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.125,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 12.5%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Buffer size must be non-negative."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 586,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqdzty1xc.py\", line 28, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpqdzty1xc.py\", line 22, in main\n    print(\"N\\u1ed9i dung b\\u1ed9 \\u0111\\u1ec7m:\", buffer)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1ed9' in position 1: character maps to <undefined>",
+        "execution_time": 0.14690256118774414,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.46153846153846156,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 46.2%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Vietnamese",
+            "text": "Nội dung bộ đệm:"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Vietnamese",
+            "text": "Sử dụng: python script.py <kích_thước>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Lỗi: Kích thước phải là số nguyên không âm."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Vietnamese",
+            "text": "Lỗi: Kích thước phải là một số nguyên."
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Vietnamese",
+            "text": "Phân bổ bộ đệm"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Vietnamese",
+            "text": "In nội dung của bộ đệm"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Vietnamese",
+            "text": "Thoát chương trình"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 633,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05770516395568848,
+        "output": "Buffer content: bytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 0.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Error: Buffer size must be an integer."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 569,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2a58ds0y.py\", line 24, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp2a58ds0y.py\", line 21, in main\n    print(f\"Toplam bellek ay\\u0131rma s�resi: {total_time:.6f} saniye\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0131' in position 16: character maps to <undefined>",
+        "execution_time": 0.13869333267211914,
+        "output": "bytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')\nbytearray(b'')"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.15384615384615385,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 15.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Kullanım: python program.py <arabellek_boyutu>"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Turkish",
+            "text": "Toplam bellek ayırma süresi: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Arabelleğin içeriğini yazdır"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✗ No (26%)           ✓ Yes (German:1 (str:1))                 - None              \nzh-CN           ✗ Runtime Error ✗ No (14%)           ✗ No                                     Runtime: Non-zero exit code\nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nes              ✓ Yes           ✗ No (23%)           ✓ Yes (Spanish:3 (str:3))                - None              \nar              ✗ Runtime Error ✗ No (4%)            ✗ No                                     Runtime: Non-zero exit code\nfr              ✓ Yes           ✗ No (30%)           ✓ Yes (French:5 (cmt:2, str:3))          - None              \nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \npt              ✓ Yes           ✗ No (19%)           ✓ Yes (Portuguese:2 (cmt:2))             - None              \nru              ✓ Yes           ✗ No (12%)           ✓ Yes (Russian:2 (str:2))                - None              \nid              ✓ Yes           ✗ No (8%)            ✓ Yes (German:1 (str:1))                 - None              \nur              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nde              ✓ Yes           ✗ No (10%)           ✓ Yes (German:2 (str:2))                 - None              \nja              ✓ Yes           ✗ No (10%)           ✓ Yes (German:1 (str:1))                 - None              \nmr              ✓ Yes           ✗ No (12%)           ✓ Yes (German:2 (str:2))                 - None              \nvi              ✗ Runtime Error ✗ No (46%)           ✓ Yes (Vietnamese:7 (cmt:3, str:4))      Runtime: Traceback (most recent ca\nte              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✗ Runtime Error ✗ No (15%)           ✓ Yes (Turkish:3 (cmt:1, str:2))         Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:13:02.495590"
+}

@@ -1,0 +1,1522 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_68",
+  "summary": {
+    "total_languages": 18,
+    "successful": 14,
+    "syntax_errors": 3,
+    "runtime_errors": 1,
+    "success_rate": 77.77777777777779,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 4,
+      "average_similarity_score": 29.82176578919874
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 18,
+      "total_locations": 161
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1069,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1644139289855957,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "images.db"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 1167,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15380406379699707,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "处理图像上传，将图像转换为 base64 并存储到数据库。\n\nArgs:\n    image_data (bytes): 图像的二进制数据。\n    image_name (str): 图像的名称。\n..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "错误：上传的图像为空。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Mandarin Chinese",
+            "text": "图像上传成功并已保存到数据库。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "错误：图像编码失败。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Mandarin Chinese",
+            "text": "错误：数据库操作失败。"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Mandarin Chinese",
+            "text": "检查图像数据是否为空"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "将图像数据转换为 base64 字符串"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Mandarin Chinese",
+            "text": "连接到数据库（如果不存在则创建）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Mandarin Chinese",
+            "text": "创建表（如果不存在）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Mandarin Chinese",
+            "text": "检查图像名称是否已存在，若存在则更新，否则插入"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 1637,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.20432138442993164,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 47",
+            "language": "Indonesian",
+            "text": "debug_"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "JPEG"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Indonesian",
+            "text": "JPEG"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1964,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13837361335754395,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 5",
+            "language": "Spanish",
+            "text": "Carga una imagen desde la ruta especificada, la convierte a base64 y la almacena en una base de dato..."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Portuguese",
+            "text": "INSERT INTO images (name, data) VALUES (?, ?)"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 49",
+            "language": "Portuguese",
+            "text": " subida exitosamente."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "Error: El archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": " no existe."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 53",
+            "language": "Spanish",
+            "text": "Error: No se pudo encontrar el archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 56",
+            "language": "Spanish",
+            "text": "Error: Permiso denegado para leer el archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 59",
+            "language": "Spanish",
+            "text": "Error inesperado al procesar la imagen: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Spanish",
+            "text": "Conectar a la base de datos y crear tabla si no existe"
+          },
+          {
+            "category": "comment",
+            "location": "Line 41",
+            "language": "Spanish",
+            "text": "Insertar el nombre y la imagen en base64"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1879,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1479964256286621,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 51",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "الملف "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": " غير موجود."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 42",
+            "language": "Standard Arabic",
+            "text": "تم رفع الصورة: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Standard Arabic",
+            "text": "الصورة "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 58",
+            "language": "Standard Arabic",
+            "text": " غير موجودة في قاعدة البيانات."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Standard Arabic",
+            "text": "الصورة "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 44",
+            "language": "Standard Arabic",
+            "text": " موجودة بالفعل في قاعدة البيانات."
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "تهيئة قاعدة البيانات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Standard Arabic",
+            "text": "وظيفة لتحميل الصورة وحفظها في قاعدة البيانات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "التحقق من وجود الملف"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "قراءة الصورة وتحويلها إلى base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 30",
+            "language": "Standard Arabic",
+            "text": "الحصول على اسم الملف فقط"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Standard Arabic",
+            "text": "حفظ في قاعدة البيانات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 48",
+            "language": "Standard Arabic",
+            "text": "وظيفة لحذف الصورة من قاعدة البيانات والملف من النظام"
+          },
+          {
+            "category": "comment",
+            "location": "Line 50",
+            "language": "Standard Arabic",
+            "text": "التحقق من وجود الصورة في قاعدة البيانات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 60",
+            "language": "Standard Arabic",
+            "text": "حذف من قاعدة البيانات"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1912,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 59: unterminated f-string literal (detected at line 59)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 59: unterminated f-string literal (detected at line 59)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function",
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function, string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "French",
+            "text": "# Créer la base de données et la table si elles n'existent pas"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "def init_db():"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('images.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "                 (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, data BLOB)''')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "French",
+            "text": "        # Récupérer l'image téléchargée"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "French",
+            "text": "        uploaded_file = request.files['image']"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "French",
+            "text": "            # Lire l'image et la convertir en base64"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Indonesian",
+            "text": "            base64_data = base64.b64encode(image_data).decode('utf-8')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "French",
+            "text": "            # Insérer le nom et le base64 dans la base de données"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 28",
+            "language": "French",
+            "text": "            conn = sqlite3.connect('images.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "French",
+            "text": "            c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "Portuguese",
+            "text": "            c.execute(\"INSERT INTO images (name, data) VALUES (?, ?)\", (image_name, base64_data))"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 32",
+            "language": "Spanish",
+            "text": "            conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "French",
+            "text": "    # Récupérer toutes les images depuis la base de données"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 35",
+            "language": "French",
+            "text": "    conn = sqlite3.connect('images.db')"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 36",
+            "language": "French",
+            "text": "    c = conn.cursor()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 39",
+            "language": "Spanish",
+            "text": "    conn.close()"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 41",
+            "language": "French",
+            "text": "    # Générer le HTML pour afficher les images"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 53",
+            "language": "French",
+            "text": "            <button type=\"submit\">Télécharger</button>"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 55",
+            "language": "French",
+            "text": "        <h2>Images stockées</h2>"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 837,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 31: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 31: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "db = SQLAlchemy(app)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Bengali",
+            "text": "# ছবি সংরক্ষণের জন্য মডেল"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Bengali",
+            "text": "# ডাটাবেস টেবিল তৈরি"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 27",
+            "language": "French",
+            "text": "    if 'image' not in request.files:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 30",
+            "language": "French",
+            "text": "    file = request.files['image']"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1300,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Import error: No module named 'django'",
+        "execution_time": 0.1373882293701172,
+        "output": "Import error: No module named 'django'"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Portuguese",
+            "text": "Imagem enviada com sucesso"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "Nenhuma imagem fornecida"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Portuguese",
+            "text": "Salva o arquivo temporariamente"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "Lê o arquivo e converte para base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "Remove o arquivo temporário"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Portuguese",
+            "text": "Insere no banco de dados (exemplo com modelo ImageUpload)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "Supondo que você tenha um modelo chamado ImageUpload com campos: name e image_base64"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 1088,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14187240600585938,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2857142857142857,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 28.6%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Замените на ваш модуль базы данных"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Russian",
+            "text": "Чтение изображения"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Преобразование в base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "Имя файла"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Russian",
+            "text": "Вставка в базу данных"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Russian",
+            "text": "Возвращение JSON-ответа"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 1081,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.14536237716674805,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "string"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: string"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "Menerima file gambar dari permintaan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Indonesian",
+            "text": "Membaca konten gambar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Mengonversi gambar ke base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Mendapatkan nama file gambar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Indonesian",
+            "text": "Koneksi ke database SQLite"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "Membuat tabel jika belum ada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Indonesian",
+            "text": "Menyimpan nama file dan string base64 ke database"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Indonesian",
+            "text": "Commit perubahan dan tutup koneksi"
+          },
+          {
+            "category": "comment",
+            "location": "Line 38",
+            "language": "Indonesian",
+            "text": "Mengembalikan string base64 dari gambar yang diunggah"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 743,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1959822177886963,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Portuguese",
+            "text": "INSERT INTO images (name, data) VALUES (?, ?)"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 1838,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.15037107467651367,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25925925925925924,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 50",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 52",
+            "language": "Portuguese",
+            "text": "SELECT name, data FROM images WHERE name = ?"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 38",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Portuguese",
+            "text": "INSERT INTO images (name, data) VALUES (?, ?)"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 48",
+            "language": "Standard German",
+            "text": "GET"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 60",
+            "language": "Indonesian",
+            "text": "data"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Standard German",
+            "text": "Kein Bild gefunden"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Standard German",
+            "text": "Kein Dateiname angegeben"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 43",
+            "language": "Standard German",
+            "text": "Bild erfolgreich hochgeladen"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 57",
+            "language": "Standard German",
+            "text": "Bild nicht gefunden"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 45",
+            "language": "Standard German",
+            "text": "Bildname bereits vorhanden"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Standard German",
+            "text": "Initialisieren der Datenbank"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Standard German",
+            "text": "Funktion zum Hochladen eines Bildes"
+          },
+          {
+            "category": "comment",
+            "location": "Line 36",
+            "language": "Standard German",
+            "text": "In Datenbank speichern"
+          },
+          {
+            "category": "comment",
+            "location": "Line 47",
+            "language": "Standard German",
+            "text": "Funktion zum Abrufen eines Bildes"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 996,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.22939181327819824,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Mandarin Chinese",
+            "text": "画像 '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Mandarin Chinese",
+            "text": "' がデータベースに保存されました。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "JPEG"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Mandarin Chinese",
+            "text": "画像ファイルを読み取る"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Mandarin Chinese",
+            "text": "画像をバイトストリームに変換"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Mandarin Chinese",
+            "text": "ファイル名を取得（拡張子付き）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "SQLiteデータベースに接続"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "テーブルが存在しない場合は作成"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "データを挿入"
+          },
+          {
+            "category": "comment",
+            "location": "Line 36",
+            "language": "Mandarin Chinese",
+            "text": "変更を保存"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 703,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 17: expected 'except' or 'finally' block"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 17: expected 'except' or 'finally' block",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 2",
+            "language": "French",
+            "text": "import sqlite3"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Hindi",
+            "text": "    वापरकर्ता द्वारे अपलोड केलेली प्रतिमा वाचली जाते, बेस64 मध्ये रूपांतरित केली जाते, आणि डेटाबेस, ..."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Hindi",
+            "text": "    :param image_path: अपलोड केलेल्या प्रतिमेचा मार्ग"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Hindi",
+            "text": "    :param db_path: डेटाबेसचा मार्ग (डिफॉल्ट: images.db)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Hindi",
+            "text": "    :param image_file: अपलोड केलेल्या प्रतिमेचे नाव (डिफॉल्ट: uploaded_image.jpg)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Hindi",
+            "text": "    :param base64_file: बेस64 स्ट्रिंग साठवण्यासाठीची फाइल (डिफॉल्ट: image_base64.txt)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Hindi",
+            "text": "    # फाइल वाचणे"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "    try:"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 1137,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1464841365814209,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5384615384615384,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 53.8%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 39",
+            "language": "Standard German",
+            "text": "image_name"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 40",
+            "language": "Indonesian",
+            "text": "base64_data"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Vietnamese",
+            "text": "Đọc nội dung hình ảnh"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Chuyển đổi hình ảnh thành base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "Lấy tên file hình ảnh"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Vietnamese",
+            "text": "Kết nối đến cơ sở dữ liệu SQLite (tạo nếu chưa tồn tại)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Vietnamese",
+            "text": "Tạo bảng nếu chưa tồn tại"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Vietnamese",
+            "text": "Chèn tên hình ảnh và chuỗi base64 vào cơ sở dữ liệu"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Vietnamese",
+            "text": "Lưu thay đổi"
+          },
+          {
+            "category": "comment",
+            "location": "Line 34",
+            "language": "Vietnamese",
+            "text": "Đóng kết nối"
+          },
+          {
+            "category": "comment",
+            "location": "Line 37",
+            "language": "Vietnamese",
+            "text": "Trả về chuỗi JSON chứa tên hình ảnh và chuỗi base64"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1036,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12670493125915527,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 5",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Indonesian",
+            "text": "base64_data"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 776,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1267385482788086,
+        "output": "Original: Hello, World!\nEncoded (Base64): SGVsbG8sIFdvcmxkIQ==\nDecoded: Hello, World!"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.034482758620689655,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Encode to Base64"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Spanish",
+            "text": "Encode"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 1079,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.22484087944030762,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.25,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 25.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Standard German",
+            "text": "images.db"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Turkish",
+            "text": "' başarıyla veritabanına eklendi."
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Görüntüyü oku"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Görüntüyü base64'e dönüştür"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Veritabanı bağlantısı oluştur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Tabloyu oluştur (eğer yoksa)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Turkish",
+            "text": "Görüntü adını ve base64 dizesini veritabanına ekle"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "Turkish",
+            "text": "Dosya adını al"
+          },
+          {
+            "category": "comment",
+            "location": "Line 31",
+            "language": "Turkish",
+            "text": "Değişiklikleri kaydet ve bağlantıyı kapat"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✓ Yes (German:1 (str:1))                 - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:10 (cmt:5, doc:1, str:4); G... - None              \nhi              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:3 (str:3); German:1 (str... - None              \nes              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:3 (str:3); Spanish:7 (cm... - None              \nar              ✓ Yes           ✗ No (0%)            ✓ Yes (Arabic:16 (cmt:9, str:7); German:3 ... - None              \nfr              ✗ Syntax Error  ✓ Yes (100%)         ✓ Yes (French:16 (unk:16); Indonesian:2 (u... Syntax: Line 59: unterminated f-s\nbn              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (Bengali:2 (unk:2); French:2 (unk:2)... Syntax: Line 31: invalid syntax\npt              ✗ Runtime Error ✗ No (0%)            ✓ Yes (Portuguese:7 (cmt:5, str:2))      Runtime: Import error: No module n\nru              ✓ Yes           ✗ No (29%)           ✓ Yes (Russian:6 (cmt:6))                - None              \nid              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Indonesian:9 (cmt:9); German:1 (str... - None              \nur              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1); German:1 (str... - None              \nde              ✓ Yes           ✗ No (26%)           ✓ Yes (Indonesian:1 (str:1); Portuguese:2 ... - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); Chinese:9 (cm... - None              \nmr              ✗ Syntax Error  ✗ No (0%)            ✓ Yes (French:1 (unk:1); Hindi:6 (unk:6) +... Syntax: Line 17: expected 'except\nvi              ✓ Yes           ✗ No (54%)           ✓ Yes (Indonesian:1 (str:1); German:2 (str... - None              \nte              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (str:1); German:1 (str... - None              \nha              ✓ Yes           ✗ No (3%)            ✓ Yes (Spanish:2 (cmt:2))                - None              \ntr              ✓ Yes           ✗ No (25%)           ✓ Yes (German:1 (str:1); Turkish:8 (cmt:7,... - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:13:41.334946"
+}

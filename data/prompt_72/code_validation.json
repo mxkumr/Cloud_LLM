@@ -1,0 +1,1128 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_72",
+  "summary": {
+    "total_languages": 18,
+    "successful": 14,
+    "syntax_errors": 2,
+    "runtime_errors": 1,
+    "success_rate": 77.77777777777779,
+    "prompt_comparison": {
+      "total_compared": 17,
+      "similar_to_prompt": 9,
+      "average_similarity_score": 61.25182656062026
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 14,
+      "total_locations": 100
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 382,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05223488807678223,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 281,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05541229248046875,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Mandarin Chinese",
+            "text": "确保 uploads 文件夹存在"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "保存文件到 uploads 文件夹"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 309,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.0572659969329834,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.75,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 75.0%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1821,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: unterminated f-string literal (detected at line 47)"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 47: unterminated f-string literal (detected at line 47)",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "    except PermissionError:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 12",
+            "language": "Spanish",
+            "text": "        return \"Error: No se pudo crear la carpeta 'uploads'. Permiso denegado.\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "        return f\"Error inesperado al crear la carpeta 'uploads': {str(e)}\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 29",
+            "language": "Vietnamese",
+            "text": "    try:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 34",
+            "language": "Spanish",
+            "text": "            return f\"Error: El archivo '{original_filename}' no se encontró en el directorio actual...."
+          },
+          {
+            "category": "unknown",
+            "location": "Line 40",
+            "language": "Spanish",
+            "text": "        return f\"Archivo '{filename}' cargado correctamente en '{uploads_dir}'.\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 42",
+            "language": "Portuguese",
+            "text": "    except PermissionError:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 43",
+            "language": "Spanish",
+            "text": "        return \"Error: No se pudo escribir el archivo. Permiso denegado.\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 45",
+            "language": "Spanish",
+            "text": "        return f\"Error: El archivo '{original_filename}' no se encontró para cargar.\""
+          },
+          {
+            "category": "unknown",
+            "location": "Line 46",
+            "language": "French",
+            "text": "    except Exception as e:"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 47",
+            "language": "Spanish",
+            "text": "        return f\"Error inesperado al cargar el"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 921,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12272500991821289,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.37037037037037035,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 37.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Standard Arabic",
+            "text": "تم تحميل الملف بنجاح: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "الملف "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": " غير موجود."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Standard Arabic",
+            "text": "الملف "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Standard Arabic",
+            "text": " غير مسموح بتحميله. الامتدادات المسموح بها: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "تحديد مجلد التحميلات"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "إنشاء مجلد التحميلات إذا لم يكن موجودًا"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "تحديد مسار الملف المُحمّل"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "التحقق من أن الملف موجود"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "تحديد الامتدادات المسموح بها"
+          },
+          {
+            "category": "comment",
+            "location": "Line 25",
+            "language": "Standard Arabic",
+            "text": "حفظ الملف في مجلد التحميلات"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 668,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.1337878704071045,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "French",
+            "text": "Définir le chemin du dossier uploads"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "French",
+            "text": "Créer le dossier uploads s'il n'existe pas"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "French",
+            "text": "Générer un nom de fichier aléatoire de 12 caractères, alphanumériques, en minuscules"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "French",
+            "text": "Chemin complet du fichier à sauvegarder"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "Sauvegarder le fichier"
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "French",
+            "text": "Retourner le nom du fichier téléchargé"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 638,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.11060929298400879,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 60.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Turkish",
+            "text": "File "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 991,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05351614952087402,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 1.0,
+        "matched_keywords": [
+          "function"
+        ],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 100.0%) - Matched: function"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Portuguese",
+            "text": "Erro ao fazer upload do arquivo: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Portuguese",
+            "text": "Cria a pasta uploads se não existir"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Salva o arquivo na pasta uploads com o nome original"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Portuguese",
+            "text": "Aqui assumimos que o arquivo já foi recebido e está disponível"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Portuguese",
+            "text": "Para fins de exemplo, vamos apenas simular o salvamento"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Portuguese",
+            "text": "Em um contexto real, o arquivo seria copiado ou movido para o caminho"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": "Por exemplo, usando shutil.copyfile ou similar"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Portuguese",
+            "text": "Vamos supor que o arquivo está disponível no diretório atual"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Portuguese",
+            "text": "Copiar o arquivo para a pasta uploads"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 376,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpmv_n4ypd.py\", line 2, in <module>\n    from werkzeug.datastructures import FileStorage\nModuleNotFoundError: No module named 'werkzeug'",
+        "execution_time": 0.12845134735107422,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2222222222222222,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 22.2%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 627,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.13282227516174316,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2413793103448276,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 24.1%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Indonesian",
+            "text": "Membuat folder uploads jika belum ada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Indonesian",
+            "text": "Menghasilkan nama file unik menggunakan uuid"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Mengembalikan path file yang diunggah"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 803,
+      "syntax": {
+        "valid": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 6: invalid syntax"
+      },
+      "execution": {
+        "success": false,
+        "error_type": "SyntaxError",
+        "error_message": "Line 6: invalid syntax",
+        "execution_time": 0.0,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.3333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 33.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "unknown",
+            "location": "Line 1",
+            "language": "Portuguese",
+            "text": "import os"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 4",
+            "language": "Standard Arabic",
+            "text": "def اپلوڈ_فائل(فائل_کا_نام):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 5",
+            "language": "Standard Arabic",
+            "text": "    # چیک کریں کہ 'اپ لوڈز' فولڈر موجود ہے یا نہیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 6",
+            "language": "Standard Arabic",
+            "text": "    اپ لوڈز_فولڈر = 'اپ لوڈز'"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 7",
+            "language": "Standard Arabic",
+            "text": "    if not os.path.exists(اپ لوڈز_فولڈر):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 8",
+            "language": "Standard Arabic",
+            "text": "        os.makedirs(اپ لوڈز_فولڈر)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 10",
+            "language": "Standard Arabic",
+            "text": "    # فائل کا مکمل راستہ بنائیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 11",
+            "language": "Standard Arabic",
+            "text": "    مکمل_راستہ = os.path.join(اپ لوڈز_فولڈر, فائل_کا_نام)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 13",
+            "language": "Standard Arabic",
+            "text": "    # اگر فائل کا نام دوہرایا گیا ہے تو نیا نام بنائیں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 14",
+            "language": "Standard Arabic",
+            "text": "    نام = فائل_کا_نام"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 15",
+            "language": "Standard Arabic",
+            "text": "    اگر os.path.exists(مکمل_راستہ):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 16",
+            "language": "Standard Arabic",
+            "text": "        نام, اکسٹینشن = os.path.splitext(فائل_کا_نام)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 17",
+            "language": "Standard Arabic",
+            "text": "        عدد = 1"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 18",
+            "language": "Standard Arabic",
+            "text": "        while os.path.exists(os.path.join(اپ لوڈز_فولڈر, نام + f\"_{عدد}\" + اکسٹینشن)):"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 19",
+            "language": "Standard Arabic",
+            "text": "            عدد += 1"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 20",
+            "language": "Standard Arabic",
+            "text": "        نام = نام + f\"_{عدد}\" + اکسٹینشن"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 22",
+            "language": "Standard Arabic",
+            "text": "    # فائل کو نئے نام سے محفوظ کریں"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 23",
+            "language": "Standard Arabic",
+            "text": "    مکمل_راستہ = os.path.join(اپ لوڈز_فولڈر, نام)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 24",
+            "language": "Standard Arabic",
+            "text": "    shutil.copy2(فائل_کا_نام, مکمل_راستہ)"
+          },
+          {
+            "category": "unknown",
+            "location": "Line 26",
+            "language": "Standard Arabic",
+            "text": "    return مکمل_راستہ"
+          }
+        ]
+      },
+      "status": "syntax_error"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 665,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.053493499755859375,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6333333333333333,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 63.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Datei erfolgreich hochgeladen: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Standard German",
+            "text": "Erstellen des Upload-Ordners im selben Verzeichnis wie die Quelldatei"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Standard German",
+            "text": "Speichern der Datei im Upload-Ordner"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Standard German",
+            "text": "Annahme: Die Datei wird bereits in der Funktion 'save' übergeben oder verarbeitet"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Hier wird nur der Pfad erstellt und die Datei wird gespeichert"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "Beispiel: save(save_path) würde die Datei speichern"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Standard German",
+            "text": "Für dieses Beispiel wird nur die Speicherung simuliert"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 1087,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.10925006866455078,
+        "output": "Flask code structure is valid (Flask not installed)"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.35294117647058826,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 35.3%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Mandarin Chinese",
+            "text": "ファイルが正常にアップロードされました"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 13",
+            "language": "Mandarin Chinese",
+            "text": "ファイルが送信されていません"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "ファイル名が指定されていません"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Mandarin Chinese",
+            "text": "ファイルの拡張子は .txt である必要があります"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Mandarin Chinese",
+            "text": "ファイルサイズは 10MB 以下である必要があります"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Mandarin Chinese",
+            "text": "アップロードフォルダーの作成"
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "ファイルの拡張子が 'txt' か確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Mandarin Chinese",
+            "text": "ファイルサイズが 10MB 以下か確認"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "ファイルポインタを元に戻す"
+          },
+          {
+            "category": "comment",
+            "location": "Line 33",
+            "language": "Mandarin Chinese",
+            "text": "ファイルを保存"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 459,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05330395698547363,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.7,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 70.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Hindi",
+            "text": "अपलोड फोल्डरचा मार्ग तयार करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Hindi",
+            "text": "जर अपलोड फोल्डर अस्तित्वात नसेल तर तो तयार करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Hindi",
+            "text": "फाइलचा पूर्ण मार्ग तयार करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Hindi",
+            "text": "फाइल सेव्ह करा"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Hindi",
+            "text": "फाइलचे नाव आणि मार्ग परत करा"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 517,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05319976806640625,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.44,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 44.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Vietnamese",
+            "text": "Lỗi: Tệp phải có đuôi .pdf hoặc .docx"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Portuguese",
+            "text": "docx"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Vietnamese",
+            "text": "Tạo thư mục uploads nếu chưa tồn tại"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Vietnamese",
+            "text": "Kiểm tra đuôi tệp"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Vietnamese",
+            "text": "Đường dẫn lưu tệp"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Vietnamese",
+            "text": "Lưu tệp"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 718,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06911325454711914,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.5,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 50.0%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Turkish",
+            "text": "File '"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ha": {
+      "language": "ha",
+      "status": "no_code",
+      "error": "No code provided"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 774,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05720973014831543,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.2692307692307692,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 26.9%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "File '"
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Turkish",
+            "text": "uploads klasörünün oluşturulması"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Dosyanın kaydedileceği yol"
+          },
+          {
+            "category": "comment",
+            "location": "Line 13",
+            "language": "Turkish",
+            "text": "Dosyanın kaydedilmesi (örneğin, bir dosya nesnesiyle işlem yapılıyor)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Burada örnek olarak bir dosya oluşturuyoruz, gerçek kullanım için dosya okuma/kopyalama yapılmalı"
+          }
+        ]
+      },
+      "status": "success"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (100%)         ✗ No                                     - None              \nzh-CN           ✓ Yes           ✓ Yes (100%)         ✓ Yes (Chinese:2 (cmt:2))                - None              \nhi              ✓ Yes           ✓ Yes (75%)          ✗ No                                     - None              \nes              ✗ Syntax Error  ✓ Yes (100%)         ✓ Yes (French:2 (unk:2); Portuguese:3 (unk... Syntax: Line 47: unterminated f-s\nar              ✓ Yes           ✗ No (37%)           ✓ Yes (Arabic:11 (cmt:6, str:5))         - None              \nfr              ✓ Yes           ✓ Yes (100%)         ✓ Yes (French:5 (cmt:5); German:1 (cmt:1)) - None              \nbn              ✓ Yes           ✓ Yes (60%)          ✓ Yes (Turkish:1 (str:1))                - None              \npt              ✓ Yes           ✓ Yes (100%)         ✓ Yes (Portuguese:9 (cmt:8, str:1))      - None              \nru              ✗ Runtime Error ✗ No (22%)           ✗ No                                     Runtime: Traceback (most recent ca\nid              ✓ Yes           ✗ No (24%)           ✓ Yes (Indonesian:3 (cmt:3))             - None              \nur              ✗ Syntax Error  ✗ No (33%)           ✓ Yes (Portuguese:1 (unk:1); Arabic:19 (un... Syntax: Line 6: invalid syntax\nde              ✓ Yes           ✓ Yes (63%)          ✓ Yes (German:7 (cmt:6, str:1))          - None              \nja              ✓ Yes           ✗ No (35%)           ✓ Yes (Chinese:10 (cmt:5, str:5))        - None              \nmr              ✓ Yes           ✓ Yes (70%)          ✓ Yes (Hindi:5 (cmt:5))                  - None              \nvi              ✓ Yes           ✗ No (44%)           ✓ Yes (Portuguese:1 (str:1); Vietnamese:5 ... - None              \nte              ✓ Yes           ✗ No (50%)           ✓ Yes (Turkish:1 (str:1))                - None              \nha              ✗ Syntax Error  - N/A                ✗ No                                     Syntax: Unknown syntax error\ntr              ✓ Yes           ✗ No (27%)           ✓ Yes (Turkish:5 (cmt:4, str:1))         - None              \n==============================================================================================================",
+  "generated_at": "2025-12-02T04:14:17.436908"
+}

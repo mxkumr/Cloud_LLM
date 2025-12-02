@@ -1,0 +1,1221 @@
+{
+  "prompt_directory": "g:\\CISPA\\Cloud_LLM\\data\\prompt_63",
+  "summary": {
+    "total_languages": 18,
+    "successful": 13,
+    "syntax_errors": 0,
+    "runtime_errors": 5,
+    "success_rate": 72.22222222222221,
+    "prompt_comparison": {
+      "total_compared": 18,
+      "similar_to_prompt": 2,
+      "average_similarity_score": 7.541943653054764
+    },
+    "multilingual_detection": {
+      "languages_with_multilingual": 16,
+      "total_locations": 113
+    }
+  },
+  "detailed_results": {
+    "en": {
+      "language": "en",
+      "code_length": 1726,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.12360095977783203,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6666666666666666,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 66.7%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 41",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 51",
+            "language": "French",
+            "text": "output_file = \"results.txt\""
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "zh-CN": {
+      "language": "zh-CN",
+      "code_length": 482,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05804324150085449,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Standard German",
+            "text": ", Checksum: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Mandarin Chinese",
+            "text": "计算校验和（简单累加）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 11",
+            "language": "Mandarin Chinese",
+            "text": "读取的字节数"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "保存到输出文件"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "使用示例"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "hi": {
+      "language": "hi",
+      "code_length": 740,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmposb5nl46.py\", line 27, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmposb5nl46.py\", line 11, in main\n    with open(input_filename, 'rb') as f:\n         ~~~~^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'input.bin'",
+        "execution_time": 0.1344776153564453,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 9",
+            "language": "French",
+            "text": "output.txt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": ", Checksum: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "es": {
+      "language": "es",
+      "code_length": 1494,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.054208993911743164,
+        "output": "Error: El archivo input.dat no fue encontrado."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 1",
+            "language": "Spanish",
+            "text": "Calcula la suma de comprobación como la suma de todos los bytes en el búfer."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Indonesian",
+            "text": "input.dat"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 7",
+            "language": "French",
+            "text": "output.dat"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Spanish",
+            "text": "El búfer está vacío."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Spanish",
+            "text": "Datos guardados en "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": "Bytes leídos: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Spanish",
+            "text": ", Suma de comprobación: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Spanish",
+            "text": "Bytes leídos: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Spanish",
+            "text": "Suma de comprobación: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": "Error: El archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Spanish",
+            "text": " no fue encontrado."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Spanish",
+            "text": "Error: No se tiene permiso para leer el archivo "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Spanish",
+            "text": " o escribir en "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "Ocurrió un error inesperado: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Spanish",
+            "text": "Nombre del archivo de entrada"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Spanish",
+            "text": "Nombre del archivo de salida"
+          },
+          {
+            "category": "comment",
+            "location": "Line 10",
+            "language": "Spanish",
+            "text": "Leer el contenido del archivo en un búfer (como bytes)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 14",
+            "language": "Spanish",
+            "text": "Calcular la suma de comprobación"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Spanish",
+            "text": "Verificar si el búfer está vacío (checksum == 0)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Spanish",
+            "text": "Guardar la cantidad de bytes leídos y la suma de verificación en otro archivo"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ar": {
+      "language": "ar",
+      "code_length": 1120,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05328869819641113,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 6",
+            "language": "Portuguese",
+            "text": " does not exist."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Standard German",
+            "text": "Checksum: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "fr": {
+      "language": "fr",
+      "code_length": 1374,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.09939742088317871,
+        "output": "Error: File 'test' not found."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 30",
+            "language": "French",
+            "text": "output.txt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "Standard German",
+            "text": "Error: File '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 36",
+            "language": "Standard German",
+            "text": "Status: Buffer is empty (checksum is 0)\n"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "bn": {
+      "language": "bn",
+      "code_length": 565,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09612536430358887,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 17",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 20",
+            "language": "French",
+            "text": "process_file('input.txt', 'output.txt')"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "pt": {
+      "language": "pt",
+      "code_length": 1284,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.06731224060058594,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 3",
+            "language": "Portuguese",
+            "text": "Calcula a soma de verificação (XOR) dos bytes no buffer."
+          },
+          {
+            "category": "docstring",
+            "location": "Line 10",
+            "language": "Portuguese",
+            "text": "Processa um arquivo grande, lendo em blocos, calcula soma de verificação e salva os resultados."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 37",
+            "language": "Portuguese",
+            "text": "Processamento concluído. Resultados salvos em "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 34",
+            "language": "Spanish",
+            "text": "Bytes lidos: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Portuguese",
+            "text": "Soma de verificação: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Portuguese",
+            "text": "Tamanho do bloco para leitura (ex: 8KB)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Portuguese",
+            "text": "Abrir o arquivo de entrada em modo binário"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Portuguese",
+            "text": "Ler um bloco do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 24",
+            "language": "Portuguese",
+            "text": "Fim do arquivo"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Spanish",
+            "text": "Atualizar o número total de bytes lidos"
+          },
+          {
+            "category": "comment",
+            "location": "Line 29",
+            "language": "Portuguese",
+            "text": "Atualizar a soma de verificação"
+          },
+          {
+            "category": "comment",
+            "location": "Line 32",
+            "language": "Portuguese",
+            "text": "Salvar os resultados no arquivo de saída"
+          },
+          {
+            "category": "comment",
+            "location": "Line 39",
+            "language": "Spanish",
+            "text": "Exemplo de uso:"
+          },
+          {
+            "category": "comment",
+            "location": "Line 40",
+            "language": "Spanish",
+            "text": "process_large_file(\"arquivo_grande.bin\", \"resultado.txt\")"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ru": {
+      "language": "ru",
+      "code_length": 989,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpn0aavwrr.py\", line 11, in <module>\n    with open(input_filename, \"rb\") as file:\n         ~~~~^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'input.bin'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmpn0aavwrr.py\", line 31, in <module>\n    print(f\"\\u0424\\u0430\\u0439\\u043b {input_filename} \\u043d\\u0435 \\u043d\\u0430\\u0439\\u0434\\u0435\\u043d.\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Manish Kumar B\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>",
+        "execution_time": 0.14233851432800293,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 8",
+            "language": "French",
+            "text": "output.txt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "Russian",
+            "text": "Количество прочитанных байт: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Russian",
+            "text": "Контрольная сумма: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Russian",
+            "text": "Буфер пуст."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 28",
+            "language": "Russian",
+            "text": "Буфер не пуст."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Russian",
+            "text": "Количество прочитанных байт: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Russian",
+            "text": "Контрольная сумма: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Russian",
+            "text": "Файл "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 31",
+            "language": "Russian",
+            "text": " не найден."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 33",
+            "language": "Russian",
+            "text": "Произошла ошибка: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 4",
+            "language": "Russian",
+            "text": "Простая контрольная сумма по байтам"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Russian",
+            "text": "Чтение файла в буфер"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Russian",
+            "text": "Укажите имя входного файла"
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Russian",
+            "text": "Укажите имя выходного файла"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Russian",
+            "text": "Сохранение результатов в файл"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Russian",
+            "text": "Вывод результатов на экран"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "id": {
+      "language": "id",
+      "code_length": 967,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09906840324401855,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": true,
+        "similarity_score": 0.6538461538461539,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code addresses the prompt (similarity: 65.4%)"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "docstring",
+            "location": "Line 3",
+            "language": "Indonesian",
+            "text": "Menghitung checksum menggunakan SHA-256 dari data yang diberikan."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 23",
+            "language": "Indonesian",
+            "text": "Jumlah byte: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 24",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 8",
+            "language": "Indonesian",
+            "text": "Membaca konten file ke dalam buffer"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Indonesian",
+            "text": "Menghitung checksum dari buffer"
+          },
+          {
+            "category": "comment",
+            "location": "Line 15",
+            "language": "Indonesian",
+            "text": "Jika checksum adalah '0' (dalam bentuk hex), maka buffer kosong"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Indonesian",
+            "text": "Namun, karena SHA-256 tidak menghasilkan '0' untuk data kosong,"
+          },
+          {
+            "category": "comment",
+            "location": "Line 17",
+            "language": "Indonesian",
+            "text": "kita periksa apakah data kosong secara langsung"
+          },
+          {
+            "category": "comment",
+            "location": "Line 19",
+            "language": "Indonesian",
+            "text": "Menandakan buffer kosong"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Indonesian",
+            "text": "Menyimpan jumlah byte yang dibaca dan checksum ke file lain"
+          },
+          {
+            "category": "comment",
+            "location": "Line 26",
+            "language": "Indonesian",
+            "text": "Contoh penggunaan"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "French",
+            "text": "process_file('input.txt', 'output.txt')"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ur": {
+      "language": "ur",
+      "code_length": 694,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.07727789878845215,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "de": {
+      "language": "de",
+      "code_length": 880,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.052358150482177734,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 27",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 22",
+            "language": "Indonesian",
+            "text": "Keep 32-bit"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "ja": {
+      "language": "ja",
+      "code_length": 770,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.09660077095031738,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Mandarin Chinese",
+            "text": "バッファは空です。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": "元のファイル "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 25",
+            "language": "Mandarin Chinese",
+            "text": " は削除されました。"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 16",
+            "language": "Japanese",
+            "text": "チェックサム: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 20",
+            "language": "Mandarin Chinese",
+            "text": "バイト数: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 21",
+            "language": "Japanese",
+            "text": "チェックサム: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 5",
+            "language": "Mandarin Chinese",
+            "text": "ファイルをバッファーに読み取り"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Mandarin Chinese",
+            "text": "チェックサムを計算（SHA-256を使用）"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Mandarin Chinese",
+            "text": "チェックサムが0の場合、バッファは空"
+          },
+          {
+            "category": "comment",
+            "location": "Line 18",
+            "language": "Mandarin Chinese",
+            "text": "読み取られたバイト数とチェックサムを別のファイルに保存"
+          },
+          {
+            "category": "comment",
+            "location": "Line 23",
+            "language": "Mandarin Chinese",
+            "text": "元のファイルを削除"
+          },
+          {
+            "category": "comment",
+            "location": "Line 27",
+            "language": "Mandarin Chinese",
+            "text": "使用例"
+          },
+          {
+            "category": "comment",
+            "location": "Line 28",
+            "language": "French",
+            "text": "process_file('input.txt', 'output.txt')"
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "mr": {
+      "language": "mr",
+      "code_length": 756,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05282306671142578,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 11",
+            "language": "Standard German",
+            "text": "Buffer is empty."
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "vi": {
+      "language": "vi",
+      "code_length": 437,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05327796936035156,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 12",
+            "language": "Standard German",
+            "text": "Checksum: "
+          }
+        ]
+      },
+      "status": "success"
+    },
+    "te": {
+      "language": "te",
+      "code_length": 1049,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Non-zero exit code",
+        "execution_time": 0.05576777458190918,
+        "output": "Error: File 'test' not found."
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 15",
+            "language": "French",
+            "text": "output.txt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 29",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 26",
+            "language": "Standard German",
+            "text": "Checksum: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 32",
+            "language": "Standard German",
+            "text": "Error: File '"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 35",
+            "language": "Spanish",
+            "text": "An error occurred: "
+          }
+        ]
+      },
+      "status": "runtime_error"
+    },
+    "ha": {
+      "language": "ha",
+      "code_length": 220,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": true,
+        "error_type": null,
+        "error_message": null,
+        "execution_time": 0.05417299270629883,
+        "output": "test"
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.037037037037037035,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code may not fully address the prompt (similarity: 3.7%)"
+      },
+      "multilingual_detection": {
+        "detected": false,
+        "locations": []
+      },
+      "status": "success"
+    },
+    "tr": {
+      "language": "tr",
+      "code_length": 716,
+      "syntax": {
+        "valid": true,
+        "error_type": null,
+        "error_message": null
+      },
+      "execution": {
+        "success": false,
+        "error_type": "RuntimeError",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp86qqgk3c.py\", line 22, in <module>\n    process_file(\"input.txt\", \"output.txt\")\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\tmp86qqgk3c.py\", line 3, in process_file\n    with open(input_filename, 'rb') as f:\n         ~~~~^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'input.txt'",
+        "execution_time": 0.12852883338928223,
+        "output": null
+      },
+      "prompt_comparison": {
+        "similar": false,
+        "similarity_score": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [],
+        "reasoning": "Code appears to be completely irrelevant to the prompt"
+      },
+      "multilingual_detection": {
+        "detected": true,
+        "locations": [
+          {
+            "category": "string_literal",
+            "location": "Line 22",
+            "language": "French",
+            "text": "output.txt"
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 14",
+            "language": "Turkish",
+            "text": "Arabellek boştur."
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 18",
+            "language": "Turkish",
+            "text": "Okunan bayt sayısı: "
+          },
+          {
+            "category": "string_literal",
+            "location": "Line 19",
+            "language": "Turkish",
+            "text": "Sağlama toplamı: "
+          },
+          {
+            "category": "comment",
+            "location": "Line 2",
+            "language": "Turkish",
+            "text": "Dosyayı UTF-8 kodlamasıyla oku"
+          },
+          {
+            "category": "comment",
+            "location": "Line 6",
+            "language": "Turkish",
+            "text": "Arabelleğin sağlama toplamını hesapla"
+          },
+          {
+            "category": "comment",
+            "location": "Line 7",
+            "language": "Turkish",
+            "text": "Basit sağlama toplamı (0-255 arası)"
+          },
+          {
+            "category": "comment",
+            "location": "Line 9",
+            "language": "Turkish",
+            "text": "Okunan bayt sayısını hesapla"
+          },
+          {
+            "category": "comment",
+            "location": "Line 12",
+            "language": "Turkish",
+            "text": "Sağlama toplamı 0 ise arabellek boştur"
+          },
+          {
+            "category": "comment",
+            "location": "Line 16",
+            "language": "Turkish",
+            "text": "Sonuçları başka bir dosyaya kaydet"
+          },
+          {
+            "category": "comment",
+            "location": "Line 21",
+            "language": "Turkish",
+            "text": "Kullanım örneği"
+          }
+        ]
+      },
+      "status": "runtime_error"
+    }
+  },
+  "summary_table": "==============================================================================================================\nVALIDATION SUMMARY TABLE\n==============================================================================================================\nLanguage        Code Worked     Understood Prompt    Multilingual Code                        Issues              \n--------------------------------------------------------------------------------------------------------------\nen              ✓ Yes           ✓ Yes (67%)          ✓ Yes (French:1 (cmt:1); German:1 (str:1)) - None              \nzh-CN           ✓ Yes           ✗ No (0%)            ✓ Yes (Chinese:4 (cmt:4); German:1 (str:1)) - None              \nhi              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); German:2 (str:2)) Runtime: Traceback (most recent ca\nes              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (str:1); Indonesian:1 (str... - None              \nar              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:1 (str:1); German:1 (str... - None              \nfr              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); German:3 (str:3)) Runtime: Non-zero exit code\nbn              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (cmt:1); German:1 (str:1)) - None              \npt              ✓ Yes           ✗ No (0%)            ✓ Yes (Portuguese:10 (cmt:6, doc:2, str:2)... - None              \nru              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Russian:15 (cmt:6... Runtime: Traceback (most recent ca\nid              ✓ Yes           ✓ Yes (65%)          ✓ Yes (French:1 (cmt:1); Indonesian:10 (cm... - None              \nur              ✓ Yes           ✗ No (0%)            ✗ No                                     - None              \nde              ✓ Yes           ✗ No (0%)            ✓ Yes (Indonesian:1 (cmt:1); German:1 (str... - None              \nja              ✓ Yes           ✗ No (0%)            ✓ Yes (French:1 (cmt:1); Japanese:2 (str:2... - None              \nmr              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nvi              ✓ Yes           ✗ No (0%)            ✓ Yes (German:1 (str:1))                 - None              \nte              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Spanish:1 (str:1)... Runtime: Non-zero exit code\nha              ✓ Yes           ✗ No (4%)            ✗ No                                     - None              \ntr              ✗ Runtime Error ✗ No (0%)            ✓ Yes (French:1 (str:1); Turkish:10 (cmt:7... Runtime: Traceback (most recent ca\n==============================================================================================================",
+  "generated_at": "2025-12-02T04:13:11.741279"
+}

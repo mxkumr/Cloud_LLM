@@ -1,0 +1,1241 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\en.py",
+      "elements": {
+        "identifiers": [
+          "http_hello_page",
+          "message",
+          "readline",
+          "request",
+          "response",
+          "strip",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "f\"hello {username}"
+        ],
+        "variables": [
+          "message",
+          "readline",
+          "request",
+          "response",
+          "strip",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Read the username from the request",
+          "Construct the response message",
+          "Write the response to the response stream"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "http_hello_page",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "split"
+        ],
+        "literals": [
+          "utf-8",
+          "\\n"
+        ],
+        "variables": [
+          "decode",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "split"
+        ],
+        "comments": [
+          "读取请求内容",
+          "使用模式匹配解析请求中的用户名"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\hi.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "http_hello_page",
+          "line",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_content",
+          "split",
+          "startswith",
+          "strip",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "Guest",
+          "\\n",
+          "username=",
+          "=",
+          "1",
+          "1",
+          "f\"Hello {username}",
+          "f\"HTTP/1.1 200 OK\\r\\n",
+          "f\"Content-Type: text/plain\\r\\n",
+          "f\"Content-Length: {len(response_content)}\\r\\n",
+          "f\"\\r\\n"
+        ],
+        "variables": [
+          "decode",
+          "line",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_content",
+          "split",
+          "startswith",
+          "strip",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Read the request data",
+          "Extract the username from the request (assuming it's in the form of a query parameter)",
+          "This is a simple example assuming the request contains a line like \"username=John\"",
+          "Create the response content",
+          "Write the response to the response stream"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\es.py",
+      "elements": {
+        "identifiers": [
+          "body",
+          "body_str",
+          "decode",
+          "encode",
+          "http_hello_page",
+          "message",
+          "read",
+          "request",
+          "response",
+          "split",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "username=",
+          "username=",
+          "1",
+          "&",
+          "0",
+          "invitado",
+          "f\"hola {username}",
+          "b\"HTTP/1.1 200 OK\\r\\n",
+          "b\"Content-Type: text/plain\\r\\n",
+          "b\"Content-Length: ",
+          "utf-8",
+          "b\"\\r\\n",
+          "b\"\\r\\n",
+          "utf-8"
+        ],
+        "variables": [
+          "body",
+          "body_str",
+          "decode",
+          "encode",
+          "message",
+          "read",
+          "request",
+          "response",
+          "split",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Leer el nombre de usuario desde la solicitud",
+          "Asumimos que el nombre de usuario está en el cuerpo de la solicitud (por ejemplo, en formato form-data)",
+          "y que el cuerpo está disponible como una secuencia de bytes",
+          "Decodificar el cuerpo como texto (UTF-8)",
+          "Extraer el nombre de usuario (asumiendo que viene en formato \"username=valor\")",
+          "Este es un ejemplo simple; en un entorno real, podrías usar un parser de form-data",
+          "Si no se encontró el nombre de usuario, usar un valor por defecto",
+          "Construir el mensaje de respuesta",
+          "Escribir el encabezado HTTP",
+          "Escribir el cuerpo de la respuesta"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\ar.py",
+      "elements": {
+        "identifiers": [
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "form",
+          "get",
+          "http_hello_page",
+          "methods",
+          "request",
+          "response_html",
+          "route",
+          "run",
+          "username"
+        ],
+        "literals": [
+          "/",
+          "GET",
+          "POST",
+          "username",
+          "username",
+          "زائر",
+          "f\"\"\"\r\n    <!DOCTYPE html>\r\n    <html lang=\"ar\">\r\n    <head>\r\n        <meta charset=\"UTF-8\">\r\n        <title>مرحباً بك</title>\r\n        <style>\r\n            body {{\r\n                font-family: 'Arial', sans-serif;\r\n                background-color: #f0f2f5;\r\n                display: flex;\r\n                justify-content: center;\r\n                align-items: center;\r\n                height: 100vh;\r\n                margin: 0;\r\n            }}\r\n            .container {{\r\n                text-align: center;\r\n                background-color: white;\r\n                padding: 40px;\r\n                border-radius: 10px;\r\n                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\r\n            }}\r\n            h1 {{\r\n                color: #333;\r\n            }}\r\n        </style>\r\n    </head>\r\n    <body>\r\n        <div class=\"container\">\r\n            <h1>مرحبًا {username}!</h1>\r\n        </div>\r\n    </body>\r\n    </html>\r\n    ",
+          "__main__"
+        ],
+        "variables": [
+          "Flask",
+          "app",
+          "args",
+          "debug",
+          "flask",
+          "form",
+          "get",
+          "methods",
+          "request",
+          "response_html",
+          "route",
+          "run",
+          "username"
+        ],
+        "comments": [
+          "قراءة اسم المستخدم من الطلب",
+          "بناء الرد كـ HTML",
+          "إرجاع الرد كـ HTML"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\fr.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "http_hello_page",
+          "join",
+          "line",
+          "lines",
+          "name",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_body",
+          "response_headers",
+          "socket",
+          "split",
+          "startswith",
+          "strip",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "\\n",
+          "GET /?name=",
+          "name=",
+          "1",
+          " ",
+          "0",
+          "inconnu",
+          "f\"Bonjour {name}",
+          "HTTP/1.1 200 OK",
+          "f\"Content-Length: {len(response_body)}",
+          "Content-Type: text/plain",
+          "\\r\\n",
+          "\\r\\n",
+          "utf-8",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "join",
+          "line",
+          "lines",
+          "name",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_body",
+          "response_headers",
+          "socket",
+          "split",
+          "startswith",
+          "strip",
+          "write"
+        ],
+        "comments": [
+          "Lire la requête du client (flux de fichiers)",
+          "Extraire le nom d'utilisateur de la requête (supposons que le nom est dans la requête HTTP)",
+          "Par exemple, si la requête est GET /?name=John, on extrait \"John\"",
+          "Extraire le nom après 'name='",
+          "Si aucun nom n'est trouvé",
+          "Construire la réponse HTTP",
+          "Écrire les en-têtes et le corps dans la réponse"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\bn.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "end",
+          "find",
+          "http_hello_page",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_message",
+          "start",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "name=",
+          "1",
+          "name=",
+          " ",
+          "1",
+          "Unknown",
+          "f\"Hello {username}",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "end",
+          "find",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_message",
+          "start",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Read the request data",
+          "Extract the username from the request (assuming it's in the query string)",
+          "This example assumes the request contains a query parameter 'name'",
+          "For example: GET /?name=John HTTP/1.1",
+          "Create the response message",
+          "Write the response to the response stream"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\pt.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "http_hello_page",
+          "message",
+          "readline",
+          "request",
+          "response",
+          "strip",
+          "user_name",
+          "write"
+        ],
+        "literals": [
+          "f\"olá {user_name}"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "message",
+          "readline",
+          "request",
+          "response",
+          "strip",
+          "user_name",
+          "write"
+        ],
+        "comments": [
+          "Lê o nome de usuário da solicitação",
+          "Constrói a mensagem de resposta",
+          "Escreve a resposta no fluxo de saída"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\ru.py",
+      "elements": {
+        "identifiers": [
+          "AF_INET",
+          "HTTPServer",
+          "SOCK_STREAM",
+          "SOL_SOCKET",
+          "SO_REUSEADDR",
+          "__init__",
+          "accept",
+          "bind",
+          "client_address",
+          "client_socket",
+          "decode",
+          "encode",
+          "http_hello_page",
+          "line",
+          "lines",
+          "listen",
+          "makefile",
+          "port",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_body",
+          "response_headers",
+          "run",
+          "self",
+          "server_socket",
+          "setsockopt",
+          "socket",
+          "split",
+          "strip",
+          "user_name",
+          "write"
+        ],
+        "literals": [
+          "8080",
+          "utf-8",
+          "\\n",
+          "f\"Привет, {user_name}!",
+          "HTTP/1.1 200 OK\\r\\n",
+          "Content-Type: text/plain\\r\\n",
+          "f\"Content-Length: {len(response_body)}\\r\\n",
+          "\\r\\n",
+          "utf-8",
+          "utf-8",
+          "1",
+          "localhost",
+          "1",
+          "f\"Сервер запущен на порту {self.port}. Ожидание подключения...",
+          "f\"Подключился клиент: {client_address}",
+          "rb"
+        ],
+        "variables": [
+          "AF_INET",
+          "SOCK_STREAM",
+          "SOL_SOCKET",
+          "SO_REUSEADDR",
+          "accept",
+          "bind",
+          "client_address",
+          "client_socket",
+          "decode",
+          "encode",
+          "line",
+          "lines",
+          "listen",
+          "makefile",
+          "port",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_body",
+          "response_headers",
+          "self",
+          "server_socket",
+          "setsockopt",
+          "socket",
+          "split",
+          "strip",
+          "user_name",
+          "write"
+        ],
+        "comments": [
+          "Читаем данные из запроса",
+          "Извлекаем имя пользователя из запроса (предполагаем, что имя передано в теле запроса)",
+          "В реальном HTTP-запросе имя может быть в теле или в заголовках, здесь упрощаем: считаем, что имя в теле",
+          "Создаем ответ",
+          "Отправляем ответ",
+          "Создаем сокет",
+          "Привязываем к порту",
+          "Принимаем один запрос",
+          "Получаем запрос как файловый поток"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page",
+          "run"
+        ],
+        "classes": [
+          "HTTPServer"
+        ]
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\id.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "decode",
+          "encode",
+          "first_line",
+          "http_hello_page",
+          "key",
+          "lines",
+          "name",
+          "param",
+          "params",
+          "parts",
+          "query_string",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_text",
+          "split",
+          "startswith",
+          "strip",
+          "url",
+          "value",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "\\n",
+          "0",
+          "GET",
+          " ",
+          "3",
+          "1",
+          "?",
+          "?",
+          "1",
+          "1",
+          "&",
+          "=",
+          "=",
+          "1",
+          "name",
+          "f\"halo {name}",
+          "utf-8"
+        ],
+        "variables": [
+          "Exception",
+          "decode",
+          "encode",
+          "first_line",
+          "key",
+          "lines",
+          "name",
+          "param",
+          "params",
+          "parts",
+          "query_string",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_text",
+          "split",
+          "startswith",
+          "strip",
+          "url",
+          "value",
+          "write"
+        ],
+        "comments": [
+          "Membaca permintaan dari aliran file",
+          "Mencari nama pengguna dari permintaan (misalnya, dari query string)",
+          "Asumsi permintaan berbentuk: GET /hello?name=John HTTP/1.1",
+          "Memeriksa apakah permintaan valid (GET request)",
+          "Ekstrak query string dari URL",
+          "Cari parameter name di query string",
+          "Membuat respons: \"halo [nama pengguna]\"",
+          "Menulis respons ke aliran file respons"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\ur.py",
+      "elements": {
+        "identifiers": [
+          "HTTP_HELLO_PAGE",
+          "decode",
+          "encode",
+          "get",
+          "parse",
+          "parse_qs",
+          "parsed_data",
+          "read",
+          "request_data",
+          "request_stream",
+          "response_body",
+          "response_stream",
+          "urllib",
+          "user_name",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "name",
+          "0",
+          "f\"ہیلو {user_name}",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "get",
+          "parse",
+          "parse_qs",
+          "parsed_data",
+          "read",
+          "request_data",
+          "request_stream",
+          "response_body",
+          "response_stream",
+          "urllib",
+          "user_name",
+          "write"
+        ],
+        "comments": [
+          "قارئی کے طور پر درخواست کو پڑھیں",
+          "درخواست میں صارف کا نام تلاش کریں (مثلاً: \"name=John\")",
+          "فرض کیا جاتا ہے کہ درخواست میں URL اینکوڈڈ فارم ڈیٹا ہے",
+          "صارف کا نام حاصل کریں، اگر موجود ہو تو",
+          "جواب تیار کریں",
+          "جواب کو فائل اسٹریم پر لکھیں"
+        ],
+        "docstrings": [],
+        "functions": [
+          "HTTP_HELLO_PAGE"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\de.py",
+      "elements": {
+        "identifiers": [
+          "StringIO",
+          "decode",
+          "encode",
+          "getvalue",
+          "http_hello_page",
+          "io",
+          "readline",
+          "request",
+          "response",
+          "response_text",
+          "strip",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "f\"Hallo {username}\\n",
+          "utf-8",
+          "__main__",
+          "Max\\n"
+        ],
+        "variables": [
+          "StringIO",
+          "decode",
+          "encode",
+          "getvalue",
+          "io",
+          "readline",
+          "request",
+          "response",
+          "response_text",
+          "strip",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Lesen des Benutzernamens aus der Anfrage",
+          "Erstellen der Antwort",
+          "Schreiben der Antwort in den Antwort-Stream",
+          "Beispiel für die Verwendung der Funktion",
+          "Dies ist ein Dummy-Beispiel, da echte Streams hier nicht verfügbar sind",
+          "Simulieren einer Anfrage (z. B. von einem Client)",
+          "Simulieren einer Antwort (z. B. an einen Client)",
+          "Aufruf der Funktion",
+          "Ausgabe der Antwort"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\ja.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "http_hello_page",
+          "line",
+          "lines",
+          "read",
+          "request",
+          "response",
+          "response_text",
+          "split",
+          "startswith",
+          "user_input",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "\\n",
+          "World",
+          "username=",
+          "=",
+          "1",
+          "1",
+          "f\"hello {username}",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "line",
+          "lines",
+          "read",
+          "request",
+          "response",
+          "response_text",
+          "split",
+          "startswith",
+          "user_input",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "リクエストからユーザー名を読み取る",
+          "リクエストはファイルストリームとして提供されるため、read()で読み込む",
+          "ユーザー名を抽出（例: \"username=John\" のような形式を想定）",
+          "ここでは簡単のため、リクエストの最初の行を取得し、\"username=\" で分割",
+          "実際のHTTPリクエストでは、ヘッダーとボディの処理が必要だが、ここでは簡略化",
+          "デフォルト値",
+          "username=John の形式を想定",
+          "応答として \"hello [ユーザー名]\" を作成",
+          "応答を書き込み可能なファイルストリームに書き込む"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\mr.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "http_hello_page",
+          "line",
+          "lines",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_message",
+          "split",
+          "startswith",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "\\n",
+          "username=",
+          "username=",
+          "Guest",
+          "f\"Hello {username}",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "line",
+          "lines",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_message",
+          "split",
+          "startswith",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Read the request data (assuming it's a text stream)",
+          "Extract the username from the request (assuming it's in a simple format like \"username=John\")",
+          "This is a simplified example; in real HTTP, you'd parse headers and body properly",
+          "If no username found, default to 'Guest'",
+          "Create the response message",
+          "Write the response to the response stream"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\vi.py",
+      "elements": {
+        "identifiers": [
+          "HelloHandler",
+          "PORT",
+          "SimpleHTTPRequestHandler",
+          "TCPServer",
+          "body",
+          "content_length",
+          "decode",
+          "do_GET",
+          "do_POST",
+          "encode",
+          "end_headers",
+          "get",
+          "headers",
+          "html_content",
+          "http",
+          "http_hello_page",
+          "httpd",
+          "message",
+          "read",
+          "request",
+          "response",
+          "response_content",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "socketserver",
+          "strip",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "Content-Length",
+          "0",
+          "utf-8",
+          "f\"Xin chào {username}",
+          "utf-8",
+          "200",
+          "Content-Type",
+          "text/plain; charset=utf-8",
+          "Content-Length",
+          "200",
+          "Content-Type",
+          "text/html; charset=utf-8",
+          "\r\n        <html>\r\n        <body>\r\n            <h1>Chào mừng đến với máy chủ Hello</h1>\r\n            <form method=\"POST\">\r\n                <label>Nhập tên của bạn:</label>\r\n                <input type=\"text\" name=\"username\" required>\r\n                <button type=\"submit\">Gửi</button>\r\n            </form>\r\n        </body>\r\n        </html>\r\n        ",
+          "utf-8",
+          "__main__",
+          "8000",
+          "f\"Server đang chạy tại http://localhost:{PORT}"
+        ],
+        "variables": [
+          "PORT",
+          "SimpleHTTPRequestHandler",
+          "TCPServer",
+          "body",
+          "content_length",
+          "decode",
+          "encode",
+          "end_headers",
+          "get",
+          "headers",
+          "html_content",
+          "http",
+          "httpd",
+          "message",
+          "read",
+          "request",
+          "response",
+          "response_content",
+          "rfile",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "socketserver",
+          "strip",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "Đọc dữ liệu từ yêu cầu (dữ liệu từ máy khách)",
+          "Xây dựng phản hồi",
+          "Gửi phản hồi",
+          "Tạo một handler tùy chỉnh",
+          "Nếu là GET, trả về một trang đơn giản để nhập tên",
+          "Khởi động server"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET",
+          "do_POST",
+          "http_hello_page"
+        ],
+        "classes": [
+          "HelloHandler"
+        ]
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\te.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "end",
+          "find",
+          "http_hello_page",
+          "join",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_body",
+          "response_headers",
+          "start",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "Guest",
+          "username=",
+          "username=",
+          "username=",
+          " ",
+          "1",
+          "f\"Hello {username}",
+          "HTTP/1.1 200 OK",
+          "Content-Type: text/html",
+          "f\"Content-Length: {len(response_body)}",
+          "Connection: close",
+          "\\r\\n",
+          "utf-8",
+          "b\"\\r\\n",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "end",
+          "find",
+          "join",
+          "read",
+          "request",
+          "request_data",
+          "response",
+          "response_body",
+          "response_headers",
+          "start",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "Read the request data",
+          "Extract the username from the request (assuming it's in the query string)",
+          "Example: GET /?username=John HTTP/1.1",
+          "Prepare the response",
+          "Send the response headers",
+          "Blank line to separate headers from body",
+          "Send the response body"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\ha.py",
+      "elements": {
+        "identifiers": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "MyHandler",
+          "_",
+          "bytes",
+          "client_address",
+          "client_ip",
+          "do_GET",
+          "end_headers",
+          "gethostbyaddr",
+          "hostname",
+          "http",
+          "httpd",
+          "message",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "socket",
+          "split",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "literals": [
+          "0",
+          "Unknown",
+          ".",
+          "0",
+          "200",
+          "Content-type",
+          "text/html",
+          "f\"Hello, {username}!",
+          "utf8",
+          "8000",
+          "Server running on http://localhost:8000"
+        ],
+        "variables": [
+          "BaseHTTPRequestHandler",
+          "HTTPServer",
+          "_",
+          "client_address",
+          "client_ip",
+          "end_headers",
+          "gethostbyaddr",
+          "hostname",
+          "http",
+          "httpd",
+          "message",
+          "self",
+          "send_header",
+          "send_response",
+          "serve_forever",
+          "server",
+          "server_address",
+          "socket",
+          "split",
+          "username",
+          "wfile",
+          "write"
+        ],
+        "comments": [
+          "Get the client's IP address",
+          "Get the client's hostname",
+          "Get the username from the hostname (simplified approach)",
+          "In a real scenario, you might want to get the username from the system",
+          "Here we'll just use a placeholder",
+          "Simplified logic",
+          "Send response status code",
+          "Send headers",
+          "Send the HTML message",
+          "Define the server address and port",
+          "Create HTTP server",
+          "Start the server"
+        ],
+        "docstrings": [],
+        "functions": [
+          "do_GET"
+        ],
+        "classes": [
+          "MyHandler"
+        ]
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_rondxx92\\tr.py",
+      "elements": {
+        "identifiers": [
+          "decode",
+          "encode",
+          "get",
+          "http_hello_page",
+          "message",
+          "param",
+          "params",
+          "query_string",
+          "readline",
+          "request",
+          "request_line",
+          "response",
+          "split",
+          "strip",
+          "username",
+          "write"
+        ],
+        "literals": [
+          "utf-8",
+          "?",
+          "?",
+          "1",
+          " ",
+          "0",
+          "=",
+          "&",
+          "username",
+          "Ziyaretçi",
+          "Ziyaretçi",
+          "b\"HTTP/1.1 200 OK\\r\\n",
+          "b\"Content-Type: text/plain\\r\\n",
+          "b\"\\r\\n",
+          "f\"Merhaba {username}",
+          "utf-8"
+        ],
+        "variables": [
+          "decode",
+          "encode",
+          "get",
+          "message",
+          "param",
+          "params",
+          "query_string",
+          "readline",
+          "request",
+          "request_line",
+          "response",
+          "split",
+          "strip",
+          "username",
+          "write"
+        ],
+        "comments": [
+          "İstekten kullanıcı adını oku",
+          "İstek, bir dosya akışı olarak verilir, bu yüzden okuma yapacağız",
+          "İstek satırından kullanıcı adını al (örnek: GET /?username=Ali HTTP/1.1)",
+          "Bu örnekte, kullanıcı adı sorgu dizesinde bulunuyor",
+          "Yanıt başlığını ayarla",
+          "Yanıt içeriğini yaz"
+        ],
+        "docstrings": [],
+        "functions": [
+          "http_hello_page"
+        ],
+        "classes": []
+      }
+    }
+  }
+}

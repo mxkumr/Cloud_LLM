@@ -1,0 +1,1539 @@
+{
+  "summary": {
+    "en": {
+      "overall": {
+        "English/ASCII": {
+          "count": 10,
+          "instances": [
+            "copy_bytes",
+            "destination",
+            "i",
+            "min",
+            "num_bytes",
+            "source",
+            "Ensure we don't copy more bytes than available in source",
+            "Copy the bytes from source to destination",
+            "\r\n    Copies a number of bytes from source to destination.\r\n    \r\n    Args:\r\n        destination: The destination memory location (list or bytearray).\r\n        source: The source memory location (list or bytearray).\r\n        num_bytes: The number of bytes to copy.\r\n    \r\n    Returns:\r\n        The destination pointer (the modified destination list or bytearray).\r\n    ",
+            "copy_bytes"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 6,
+            "instances": [
+              "copy_bytes",
+              "destination",
+              "i",
+              "min",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {},
+        "comments": {
+          "English/ASCII": {
+            "count": 2,
+            "instances": [
+              "Ensure we don't copy more bytes than available in source",
+              "Copy the bytes from source to destination"
+            ]
+          }
+        },
+        "docstrings": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "\r\n    Copies a number of bytes from source to destination.\r\n    \r\n    Args:\r\n        destination: The destination memory location (list or bytearray).\r\n        source: The source memory location (list or bytearray).\r\n        num_bytes: The number of bytes to copy.\r\n    \r\n    Returns:\r\n        The destination pointer (the modified destination list or bytearray).\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "zh-CN": {
+      "overall": {
+        "English/ASCII": {
+          "count": 18,
+          "instances": [
+            "POINTER",
+            "buffer",
+            "buffer_size",
+            "c_char",
+            "cast",
+            "ctypes",
+            "dest",
+            "dest_ptr",
+            "memcpy",
+            "memmove",
+            "message",
+            "n",
+            "raw",
+            "src",
+            "src_ptr",
+            "__main__",
+            "b\"Hello, World!",
+            "memcpy"
+          ]
+        },
+        "CJK Unified Ideographs": {
+          "count": 9,
+          "instances": [
+            "复制后的缓冲区内容:",
+            "将输入转换为 ctypes 的 c_char_p 类型，以便进行内存操作",
+            "使用 memmove（更安全的版本）进行复制，避免重叠内存问题",
+            "示例用法：复制消息到缓冲区",
+            "创建源消息（字符串）",
+            "创建目标缓冲区（大小足够）",
+            "使用 memcpy 复制消息",
+            "输出结果",
+            "\r\n    将 n 个字节从源内存位置复制到目标内存位置。\r\n    \r\n    参数:\r\n    dest: 目标内存位置（可以是内存地址或可写缓冲区）\r\n    src: 源内存位置（可以是内存地址或可读缓冲区）\r\n    n: 要复制的字节数\r\n    \r\n    返回:\r\n    目标内存位置的引用\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 15,
+            "instances": [
+              "POINTER",
+              "buffer",
+              "buffer_size",
+              "c_char",
+              "cast",
+              "ctypes",
+              "dest",
+              "dest_ptr",
+              "memcpy",
+              "memmove",
+              "message",
+              "n",
+              "raw",
+              "src",
+              "src_ptr"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 2,
+            "instances": [
+              "__main__",
+              "b\"Hello, World!"
+            ]
+          },
+          "CJK Unified Ideographs": {
+            "count": 1,
+            "instances": [
+              "复制后的缓冲区内容:"
+            ]
+          }
+        },
+        "comments": {
+          "CJK Unified Ideographs": {
+            "count": 7,
+            "instances": [
+              "将输入转换为 ctypes 的 c_char_p 类型，以便进行内存操作",
+              "使用 memmove（更安全的版本）进行复制，避免重叠内存问题",
+              "示例用法：复制消息到缓冲区",
+              "创建源消息（字符串）",
+              "创建目标缓冲区（大小足够）",
+              "使用 memcpy 复制消息",
+              "输出结果"
+            ]
+          }
+        },
+        "docstrings": {
+          "CJK Unified Ideographs": {
+            "count": 1,
+            "instances": [
+              "\r\n    将 n 个字节从源内存位置复制到目标内存位置。\r\n    \r\n    参数:\r\n    dest: 目标内存位置（可以是内存地址或可写缓冲区）\r\n    src: 源内存位置（可以是内存地址或可读缓冲区）\r\n    n: 要复制的字节数\r\n    \r\n    返回:\r\n    目标内存位置的引用\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "memcpy"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "hi": {
+      "overall": {
+        "English/ASCII": {
+          "count": 11,
+          "instances": [
+            "actual_bytes",
+            "bytearray",
+            "bytes",
+            "copy_bytes",
+            "dest_buffer",
+            "destination",
+            "min",
+            "num_bytes",
+            "source",
+            "src_buffer",
+            "copy_bytes"
+          ]
+        },
+        "Devanagari (Hindi, etc.)": {
+          "count": 4,
+          "instances": [
+            "गंतव्य बफ़र को बाइट सरणी के रूप में निर्मित करें",
+            "कॉपी करने के लिए बाइट्स की संख्या सीमित करें",
+            "बाइट्स कॉपी करें",
+            "\r\n    कई बाइट्स को एक मेमोरी लोकेशन से दूसरे में कॉपी करता है।\r\n\r\n    :param destination: गंतव्य बाइट सरणी (मेमोरी लोकेशन)\r\n    :param source: स्रोत बाइट सरणी (मेमोरी लोकेशन)\r\n    :param num_bytes: कॉपी करने के लिए बाइट्स की संख्या\r\n    :return: कॉपी किए गए बाइट्स की बाइट सरणी\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 10,
+            "instances": [
+              "actual_bytes",
+              "bytearray",
+              "bytes",
+              "copy_bytes",
+              "dest_buffer",
+              "destination",
+              "min",
+              "num_bytes",
+              "source",
+              "src_buffer"
+            ]
+          }
+        },
+        "literals": {},
+        "comments": {
+          "Devanagari (Hindi, etc.)": {
+            "count": 3,
+            "instances": [
+              "गंतव्य बफ़र को बाइट सरणी के रूप में निर्मित करें",
+              "कॉपी करने के लिए बाइट्स की संख्या सीमित करें",
+              "बाइट्स कॉपी करें"
+            ]
+          }
+        },
+        "docstrings": {
+          "Devanagari (Hindi, etc.)": {
+            "count": 1,
+            "instances": [
+              "\r\n    कई बाइट्स को एक मेमोरी लोकेशन से दूसरे में कॉपी करता है।\r\n\r\n    :param destination: गंतव्य बाइट सरणी (मेमोरी लोकेशन)\r\n    :param source: स्रोत बाइट सरणी (मेमोरी लोकेशन)\r\n    :param num_bytes: कॉपी करने के लिए बाइट्स की संख्या\r\n    :return: कॉपी किए गए बाइट्स की बाइट सरणी\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "es": {
+      "overall": {
+        "English/ASCII": {
+          "count": 9,
+          "instances": [
+            "buffer",
+            "bytearray",
+            "copiar_bytes",
+            "i",
+            "num_bytes",
+            "100",
+            "50",
+            "50",
+            "copiar_bytes"
+          ]
+        },
+        "French (Latin)": {
+          "count": 1,
+          "instances": [
+            "destino"
+          ]
+        },
+        "Spanish (Latin)": {
+          "count": 5,
+          "instances": [
+            "fuente",
+            "b'Este es un mensaje de prueba de 50 bytes",
+            "Definir el búfer y el mensaje como arrays de bytes",
+            "Copiar 50 bytes del mensaje al búfer",
+            "Verificar el resultado (opcional)"
+          ]
+        },
+        "Other Non-English (Latin)": {
+          "count": 1,
+          "instances": [
+            "mensaje"
+          ]
+        },
+        "Norwegian (Latin)": {
+          "count": 2,
+          "instances": [
+            "Búfer de 100 bytes",
+            "Mensaje de 50 bytes"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 5,
+            "instances": [
+              "buffer",
+              "bytearray",
+              "copiar_bytes",
+              "i",
+              "num_bytes"
+            ]
+          },
+          "French (Latin)": {
+            "count": 1,
+            "instances": [
+              "destino"
+            ]
+          },
+          "Spanish (Latin)": {
+            "count": 1,
+            "instances": [
+              "fuente"
+            ]
+          },
+          "Other Non-English (Latin)": {
+            "count": 1,
+            "instances": [
+              "mensaje"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 3,
+            "instances": [
+              "100",
+              "50",
+              "50"
+            ]
+          },
+          "Spanish (Latin)": {
+            "count": 1,
+            "instances": [
+              "b'Este es un mensaje de prueba de 50 bytes"
+            ]
+          }
+        },
+        "comments": {
+          "Spanish (Latin)": {
+            "count": 3,
+            "instances": [
+              "Definir el búfer y el mensaje como arrays de bytes",
+              "Copiar 50 bytes del mensaje al búfer",
+              "Verificar el resultado (opcional)"
+            ]
+          },
+          "Norwegian (Latin)": {
+            "count": 2,
+            "instances": [
+              "Búfer de 100 bytes",
+              "Mensaje de 50 bytes"
+            ]
+          }
+        },
+        "docstrings": {},
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copiar_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "ar": {
+      "overall": {
+        "English/ASCII": {
+          "count": 17,
+          "instances": [
+            "BytesIO",
+            "buffer",
+            "copy_bytes",
+            "destination",
+            "io",
+            "num_bytes",
+            "read",
+            "seek",
+            "source",
+            "write",
+            "0",
+            "Create a BytesIO object to act as a buffer",
+            "Write the source data to the buffer",
+            "Reset the buffer pointer to the beginning",
+            "Read the data from the buffer and copy it to the destination",
+            "Return the number of bytes copied",
+            "copy_bytes"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 10,
+            "instances": [
+              "BytesIO",
+              "buffer",
+              "copy_bytes",
+              "destination",
+              "io",
+              "num_bytes",
+              "read",
+              "seek",
+              "source",
+              "write"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "0"
+            ]
+          }
+        },
+        "comments": {
+          "English/ASCII": {
+            "count": 5,
+            "instances": [
+              "Create a BytesIO object to act as a buffer",
+              "Write the source data to the buffer",
+              "Reset the buffer pointer to the beginning",
+              "Read the data from the buffer and copy it to the destination",
+              "Return the number of bytes copied"
+            ]
+          }
+        },
+        "docstrings": {},
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "fr": {
+      "overall": {
+        "English/ASCII": {
+          "count": 18,
+          "instances": [
+            "b",
+            "buffer",
+            "c",
+            "chr",
+            "copy_memory",
+            "destination",
+            "i",
+            "join",
+            "message",
+            "message_bytes",
+            "num_bytes",
+            "ord",
+            "source",
+            "0",
+            "100",
+            "Hello, World!",
+            "0",
+            "copy_memory"
+          ]
+        },
+        "French (Latin)": {
+          "count": 5,
+          "instances": [
+            "Tampon de taille 100",
+            "Message à copier",
+            "Convertir le message en liste d'octets (caractères)",
+            "Copier le message dans le tampon",
+            "Afficher le contenu du tampon (converti en chaîne)"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 13,
+            "instances": [
+              "b",
+              "buffer",
+              "c",
+              "chr",
+              "copy_memory",
+              "destination",
+              "i",
+              "join",
+              "message",
+              "message_bytes",
+              "num_bytes",
+              "ord",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 4,
+            "instances": [
+              "0",
+              "100",
+              "Hello, World!",
+              "0"
+            ]
+          }
+        },
+        "comments": {
+          "French (Latin)": {
+            "count": 5,
+            "instances": [
+              "Tampon de taille 100",
+              "Message à copier",
+              "Convertir le message en liste d'octets (caractères)",
+              "Copier le message dans le tampon",
+              "Afficher le contenu du tampon (converti en chaîne)"
+            ]
+          }
+        },
+        "docstrings": {},
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_memory"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "bn": {
+      "overall": {
+        "English/ASCII": {
+          "count": 6,
+          "instances": [
+            "copy_memory",
+            "destination",
+            "i",
+            "num_bytes",
+            "source",
+            "copy_memory"
+          ]
+        },
+        "Bengali": {
+          "count": 2,
+          "instances": [
+            "উৎস থেকে গন্তব্যে নির্দিষ্ট সংখ্যক বাইট কপি করা",
+            "\r\n    একটি মেমরি অবস্থান থেকে অন্য মেমরি অবস্থানে নির্দিষ্ট সংখ্যক বাইট কপি করে।\r\n\r\n    প্যারামিটার:\r\n    destination: গন্তব্য মেমরি অবস্থান (বাফার)\r\n    source: উৎস মেমরি অবস্থান (বাফার)\r\n    num_bytes: কপি করার বাইটের সংখ্যা\r\n\r\n    ফিরিয়ে দেয়:\r\n    None\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 5,
+            "instances": [
+              "copy_memory",
+              "destination",
+              "i",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {},
+        "comments": {
+          "Bengali": {
+            "count": 1,
+            "instances": [
+              "উৎস থেকে গন্তব্যে নির্দিষ্ট সংখ্যক বাইট কপি করা"
+            ]
+          }
+        },
+        "docstrings": {
+          "Bengali": {
+            "count": 1,
+            "instances": [
+              "\r\n    একটি মেমরি অবস্থান থেকে অন্য মেমরি অবস্থানে নির্দিষ্ট সংখ্যক বাইট কপি করে।\r\n\r\n    প্যারামিটার:\r\n    destination: গন্তব্য মেমরি অবস্থান (বাফার)\r\n    source: উৎস মেমরি অবস্থান (বাফার)\r\n    num_bytes: কপি করার বাইটের সংখ্যা\r\n\r\n    ফিরিয়ে দেয়:\r\n    None\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_memory"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "pt": {
+      "overall": {
+        "English/ASCII": {
+          "count": 4,
+          "instances": [
+            "bytes_a_copiar",
+            "i",
+            "min",
+            "num_bytes"
+          ]
+        },
+        "Romanian (Latin)": {
+          "count": 2,
+          "instances": [
+            "copiar_memoria",
+            "copiar_memoria"
+          ]
+        },
+        "French (Latin)": {
+          "count": 2,
+          "instances": [
+            "destino",
+            "fonte"
+          ]
+        },
+        "Portuguese (Latin)": {
+          "count": 3,
+          "instances": [
+            "Limita o número de bytes a copiar ao tamanho disponível na fonte",
+            "Copia os bytes do fonte para o destino",
+            "\r\n    Copia um número de bytes de um local de memória para outro.\r\n\r\n    Args:\r\n        destino: Lista ou array onde os bytes serão copiados (modificável).\r\n        fonte: Lista ou array de onde os bytes serão copiados.\r\n        num_bytes: Número de bytes a serem copiados.\r\n\r\n    Returns:\r\n        int: Número de bytes copiados.\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 4,
+            "instances": [
+              "bytes_a_copiar",
+              "i",
+              "min",
+              "num_bytes"
+            ]
+          },
+          "Romanian (Latin)": {
+            "count": 1,
+            "instances": [
+              "copiar_memoria"
+            ]
+          },
+          "French (Latin)": {
+            "count": 2,
+            "instances": [
+              "destino",
+              "fonte"
+            ]
+          }
+        },
+        "literals": {},
+        "comments": {
+          "Portuguese (Latin)": {
+            "count": 2,
+            "instances": [
+              "Limita o número de bytes a copiar ao tamanho disponível na fonte",
+              "Copia os bytes do fonte para o destino"
+            ]
+          }
+        },
+        "docstrings": {
+          "Portuguese (Latin)": {
+            "count": 1,
+            "instances": [
+              "\r\n    Copia um número de bytes de um local de memória para outro.\r\n\r\n    Args:\r\n        destino: Lista ou array onde os bytes serão copiados (modificável).\r\n        fonte: Lista ou array de onde os bytes serão copiados.\r\n        num_bytes: Número de bytes a serem copiados.\r\n\r\n    Returns:\r\n        int: Número de bytes copiados.\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "Romanian (Latin)": {
+            "count": 1,
+            "instances": [
+              "copiar_memoria"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "ru": {
+      "overall": {
+        "French (Latin)": {
+          "count": 1,
+          "instances": [
+            "available_bytes"
+          ]
+        },
+        "English/ASCII": {
+          "count": 7,
+          "instances": [
+            "copy_bytes",
+            "destination",
+            "i",
+            "min",
+            "num_bytes",
+            "source",
+            "copy_bytes"
+          ]
+        },
+        "Cyrillic": {
+          "count": 2,
+          "instances": [
+            "Определяем количество байтов, которое можно скопировать",
+            "Копируем байты из source в destination"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "French (Latin)": {
+            "count": 1,
+            "instances": [
+              "available_bytes"
+            ]
+          },
+          "English/ASCII": {
+            "count": 6,
+            "instances": [
+              "copy_bytes",
+              "destination",
+              "i",
+              "min",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {},
+        "comments": {
+          "Cyrillic": {
+            "count": 2,
+            "instances": [
+              "Определяем количество байтов, которое можно скопировать",
+              "Копируем байты из source в destination"
+            ]
+          }
+        },
+        "docstrings": {},
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "id": {
+      "overall": {
+        "English/ASCII": {
+          "count": 10,
+          "instances": [
+            "copy_memory",
+            "destination",
+            "i",
+            "num_bytes",
+            "source",
+            "0",
+            "Check if the number of bytes exceeds the size of the destination buffer",
+            "Copy the specified number of bytes from source to destination",
+            "Return the number of bytes successfully copied",
+            "copy_memory"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 5,
+            "instances": [
+              "copy_memory",
+              "destination",
+              "i",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "0"
+            ]
+          }
+        },
+        "comments": {
+          "English/ASCII": {
+            "count": 3,
+            "instances": [
+              "Check if the number of bytes exceeds the size of the destination buffer",
+              "Copy the specified number of bytes from source to destination",
+              "Return the number of bytes successfully copied"
+            ]
+          }
+        },
+        "docstrings": {},
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_memory"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "ur": {
+      "overall": {
+        "English/ASCII": {
+          "count": 8,
+          "instances": [
+            "ValueError",
+            "copy_bytes",
+            "destination",
+            "i",
+            "num_bytes",
+            "source",
+            "0",
+            "copy_bytes"
+          ]
+        },
+        "Arabic": {
+          "count": 7,
+          "instances": [
+            "بائٹس کی تعداد منفی نہیں ہو سکتی",
+            "ماخذ میموری کی لمبائی کم ہے",
+            "منزل میموری کا بفر کافی لمبا نہیں ہے",
+            "چیک کریں کہ تعداد بائٹس مثبت ہے اور ماخذ کی لمبائی کافی ہے",
+            "چیک کریں کہ منزل کا بفر کافی لمبا ہے",
+            "بائٹس کی کاپی",
+            "\r\n    کسی میموری کے مقام سے دوسرے مقام پر متعدد بائٹس کی کاپی کرتا ہے۔\r\n\r\n    پیرامیٹرز:\r\n    destination (bytearray): منزل کا میموری بفر\r\n    source (bytes): ماخذ کا میموری بفر\r\n    num_bytes (int): کاپی کرنے کے لئے بائٹس کی تعداد\r\n\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 6,
+            "instances": [
+              "ValueError",
+              "copy_bytes",
+              "destination",
+              "i",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "0"
+            ]
+          },
+          "Arabic": {
+            "count": 3,
+            "instances": [
+              "بائٹس کی تعداد منفی نہیں ہو سکتی",
+              "ماخذ میموری کی لمبائی کم ہے",
+              "منزل میموری کا بفر کافی لمبا نہیں ہے"
+            ]
+          }
+        },
+        "comments": {
+          "Arabic": {
+            "count": 3,
+            "instances": [
+              "چیک کریں کہ تعداد بائٹس مثبت ہے اور ماخذ کی لمبائی کافی ہے",
+              "چیک کریں کہ منزل کا بفر کافی لمبا ہے",
+              "بائٹس کی کاپی"
+            ]
+          }
+        },
+        "docstrings": {
+          "Arabic": {
+            "count": 1,
+            "instances": [
+              "\r\n    کسی میموری کے مقام سے دوسرے مقام پر متعدد بائٹس کی کاپی کرتا ہے۔\r\n\r\n    پیرامیٹرز:\r\n    destination (bytearray): منزل کا میموری بفر\r\n    source (bytes): ماخذ کا میموری بفر\r\n    num_bytes (int): کاپی کرنے کے لئے بائٹس کی تعداد\r\n\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "de": {
+      "overall": {
+        "English/ASCII": {
+          "count": 12,
+          "instances": [
+            "buffer",
+            "bytearray",
+            "copy_bytes",
+            "destination",
+            "i",
+            "message",
+            "num_bytes",
+            "source",
+            "100",
+            "b\"Hello, World!",
+            "Ausgabe: b'Hello, World!'",
+            "copy_bytes"
+          ]
+        },
+        "German (Latin)": {
+          "count": 5,
+          "instances": [
+            "Beispielverwendung:",
+            "Puffer mit 100 Bytes",
+            "Beispiel-Nachricht",
+            "Ergebnis: Die Nachricht ist nun im Puffer gespeichert",
+            "\r\n    Kopiert eine Reihe von Bytes von einem Speicherort an einen anderen.\r\n    \r\n    Args:\r\n        destination: Das Zielarray (Liste oder Byte-Array) für die Kopie.\r\n        source: Die Quelle (Liste oder Byte-Array) der zu kopierenden Bytes.\r\n        num_bytes: Die Anzahl der zu kopierenden Bytes.\r\n    \r\n    Returns:\r\n        None. Die Bytes werden direkt in das Zielarray kopiert.\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 8,
+            "instances": [
+              "buffer",
+              "bytearray",
+              "copy_bytes",
+              "destination",
+              "i",
+              "message",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 2,
+            "instances": [
+              "100",
+              "b\"Hello, World!"
+            ]
+          }
+        },
+        "comments": {
+          "German (Latin)": {
+            "count": 4,
+            "instances": [
+              "Beispielverwendung:",
+              "Puffer mit 100 Bytes",
+              "Beispiel-Nachricht",
+              "Ergebnis: Die Nachricht ist nun im Puffer gespeichert"
+            ]
+          },
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "Ausgabe: b'Hello, World!'"
+            ]
+          }
+        },
+        "docstrings": {
+          "German (Latin)": {
+            "count": 1,
+            "instances": [
+              "\r\n    Kopiert eine Reihe von Bytes von einem Speicherort an einen anderen.\r\n    \r\n    Args:\r\n        destination: Das Zielarray (Liste oder Byte-Array) für die Kopie.\r\n        source: Die Quelle (Liste oder Byte-Array) der zu kopierenden Bytes.\r\n        num_bytes: Die Anzahl der zu kopierenden Bytes.\r\n    \r\n    Returns:\r\n        None. Die Bytes werden direkt in das Zielarray kopiert.\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "ja": {
+      "overall": {
+        "English/ASCII": {
+          "count": 9,
+          "instances": [
+            "BUFFER_SIZE",
+            "buffer",
+            "byte_count",
+            "bytearray",
+            "copy_to_buffer",
+            "destination",
+            "source",
+            "1024",
+            "copy_to_buffer"
+          ]
+        },
+        "Japanese (Hiragana/Katakana/Kanji)": {
+          "count": 4,
+          "instances": [
+            "グローバルバッファの定義",
+            "バッファのサイズを超える場合はエラー",
+            "バイト列をコピー",
+            "\r\n    メモリ位置から別のメモリ位置にバイトをコピーする関数。\r\n    \r\n    引数:\r\n        destination: 宛先のメモリ位置（バイトオフセット）\r\n        source: ソースのバイト列\r\n        byte_count: コピーするバイト数\r\n    \r\n    戻り値:\r\n        True: コピー成功\r\n        False: エラー（バッファサイズを超える）\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 7,
+            "instances": [
+              "BUFFER_SIZE",
+              "buffer",
+              "byte_count",
+              "bytearray",
+              "copy_to_buffer",
+              "destination",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "1024"
+            ]
+          }
+        },
+        "comments": {
+          "Japanese (Hiragana/Katakana/Kanji)": {
+            "count": 3,
+            "instances": [
+              "グローバルバッファの定義",
+              "バッファのサイズを超える場合はエラー",
+              "バイト列をコピー"
+            ]
+          }
+        },
+        "docstrings": {
+          "Japanese (Hiragana/Katakana/Kanji)": {
+            "count": 1,
+            "instances": [
+              "\r\n    メモリ位置から別のメモリ位置にバイトをコピーする関数。\r\n    \r\n    引数:\r\n        destination: 宛先のメモリ位置（バイトオフセット）\r\n        source: ソースのバイト列\r\n        byte_count: コピーするバイト数\r\n    \r\n    戻り値:\r\n        True: コピー成功\r\n        False: エラー（バッファサイズを超える）\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_to_buffer"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "mr": {
+      "overall": {
+        "English/ASCII": {
+          "count": 8,
+          "instances": [
+            "destination",
+            "i",
+            "memcpy",
+            "num_bytes",
+            "source",
+            "0",
+            "\r\n    Copy num_bytes from source to destination.\r\n    \r\n    Args:\r\n        destination: The destination memory location (list or array-like object).\r\n        source: The source memory location (list or array-like object).\r\n        num_bytes: The number of bytes to copy.\r\n    \r\n    Returns:\r\n        None. The function modifies the destination in place.\r\n    ",
+            "memcpy"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 5,
+            "instances": [
+              "destination",
+              "i",
+              "memcpy",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "0"
+            ]
+          }
+        },
+        "comments": {},
+        "docstrings": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "\r\n    Copy num_bytes from source to destination.\r\n    \r\n    Args:\r\n        destination: The destination memory location (list or array-like object).\r\n        source: The source memory location (list or array-like object).\r\n        num_bytes: The number of bytes to copy.\r\n    \r\n    Returns:\r\n        None. The function modifies the destination in place.\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "memcpy"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "vi": {
+      "overall": {
+        "English/ASCII": {
+          "count": 17,
+          "instances": [
+            "IndexError",
+            "buffer",
+            "copy_memory",
+            "destination",
+            "i",
+            "message",
+            "num_bytes",
+            "source",
+            "0",
+            "10",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "5",
+            "copy_memory"
+          ]
+        },
+        "Vietnamese (Latin)": {
+          "count": 8,
+          "instances": [
+            "f\"Vượt quá giới hạn bộ nhớ tại vị trí {i}",
+            "Trước khi sao chép:",
+            "Sau khi sao chép:",
+            "Nếu vị trí vượt quá kích thước, có thể ném lỗi hoặc xử lý theo cách khác",
+            "Ví dụ sử dụng",
+            "Bộ đệm 10 byte",
+            "\"ABCDE\" dưới dạng mã ASCII",
+            "\r\n    Sao chép num_bytes từ vị trí source sang vị trí destination.\r\n    \r\n    Args:\r\n        destination: Danh sách hoặc mảng (cần hỗ trợ gán phần tử) để sao chép đến.\r\n        source: Danh sách hoặc mảng (cần hỗ trợ truy cập phần tử) để sao chép từ.\r\n        num_bytes: Số byte cần sao chép.\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 8,
+            "instances": [
+              "IndexError",
+              "buffer",
+              "copy_memory",
+              "destination",
+              "i",
+              "message",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "Vietnamese (Latin)": {
+            "count": 3,
+            "instances": [
+              "f\"Vượt quá giới hạn bộ nhớ tại vị trí {i}",
+              "Trước khi sao chép:",
+              "Sau khi sao chép:"
+            ]
+          },
+          "English/ASCII": {
+            "count": 8,
+            "instances": [
+              "0",
+              "10",
+              "65",
+              "66",
+              "67",
+              "68",
+              "69",
+              "5"
+            ]
+          }
+        },
+        "comments": {
+          "Vietnamese (Latin)": {
+            "count": 4,
+            "instances": [
+              "Nếu vị trí vượt quá kích thước, có thể ném lỗi hoặc xử lý theo cách khác",
+              "Ví dụ sử dụng",
+              "Bộ đệm 10 byte",
+              "\"ABCDE\" dưới dạng mã ASCII"
+            ]
+          }
+        },
+        "docstrings": {
+          "Vietnamese (Latin)": {
+            "count": 1,
+            "instances": [
+              "\r\n    Sao chép num_bytes từ vị trí source sang vị trí destination.\r\n    \r\n    Args:\r\n        destination: Danh sách hoặc mảng (cần hỗ trợ gán phần tử) để sao chép đến.\r\n        source: Danh sách hoặc mảng (cần hỗ trợ truy cập phần tử) để sao chép từ.\r\n        num_bytes: Số byte cần sao chép.\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_memory"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "te": {
+      "overall": {
+        "English/ASCII": {
+          "count": 6,
+          "instances": [
+            "copy_bytes",
+            "destination",
+            "num_bytes",
+            "source",
+            "\r\n    Copies a specified number of bytes from a source memory location to a destination memory location.\r\n\r\n    Parameters:\r\n    - destination: The destination memory location (list or bytearray).\r\n    - source: The source memory location (list or bytearray).\r\n    - num_bytes: The number of bytes to copy.\r\n\r\n    Returns:\r\n    - None (modifies the destination in-place).\r\n    ",
+            "copy_bytes"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 4,
+            "instances": [
+              "copy_bytes",
+              "destination",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {},
+        "comments": {},
+        "docstrings": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "\r\n    Copies a specified number of bytes from a source memory location to a destination memory location.\r\n\r\n    Parameters:\r\n    - destination: The destination memory location (list or bytearray).\r\n    - source: The source memory location (list or bytearray).\r\n    - num_bytes: The number of bytes to copy.\r\n\r\n    Returns:\r\n    - None (modifies the destination in-place).\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "ha": {
+      "overall": {
+        "English/ASCII": {
+          "count": 20,
+          "instances": [
+            "buffer_size",
+            "calculate_file_hash",
+            "file",
+            "file_path",
+            "hash_algorithm",
+            "new",
+            "os",
+            "read",
+            "update",
+            "65536",
+            "rb",
+            "Initialize the hash object with the specified algorithm",
+            "Open the file in binary mode",
+            "Read the file in chunks to handle large files efficiently",
+            "Return the hexadecimal representation of the hash",
+            "file_path = \"example.txt\"",
+            "file_hash = calculate_file_hash(file_path, 'sha256')",
+            "print(f\"Hash of {file_path}: {file_hash}\")",
+            "\r\n    Calculate the hash of a file using the specified algorithm.\r\n    \r\n    Args:\r\n        file_path (str): Path to the file to hash.\r\n        hash_algorithm (str): Hash algorithm to use (e.g., 'sha256', 'md5').\r\n        buffer_size (int): Size of the buffer to read the file in chunks.\r\n    \r\n    Returns:\r\n        str: The hexadecimal digest of the file's hash.\r\n    ",
+            "calculate_file_hash"
+          ]
+        },
+        "Vietnamese (Latin)": {
+          "count": 1,
+          "instances": [
+            "chunk"
+          ]
+        },
+        "Other Non-English (Latin)": {
+          "count": 3,
+          "instances": [
+            "hash_obj",
+            "hashlib",
+            "sha256"
+          ]
+        },
+        "Dutch (Latin)": {
+          "count": 2,
+          "instances": [
+            "hexdigest",
+            "open"
+          ]
+        },
+        "French (Latin)": {
+          "count": 1,
+          "instances": [
+            "Example usage:"
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "English/ASCII": {
+            "count": 9,
+            "instances": [
+              "buffer_size",
+              "calculate_file_hash",
+              "file",
+              "file_path",
+              "hash_algorithm",
+              "new",
+              "os",
+              "read",
+              "update"
+            ]
+          },
+          "Vietnamese (Latin)": {
+            "count": 1,
+            "instances": [
+              "chunk"
+            ]
+          },
+          "Other Non-English (Latin)": {
+            "count": 2,
+            "instances": [
+              "hash_obj",
+              "hashlib"
+            ]
+          },
+          "Dutch (Latin)": {
+            "count": 2,
+            "instances": [
+              "hexdigest",
+              "open"
+            ]
+          }
+        },
+        "literals": {
+          "Other Non-English (Latin)": {
+            "count": 1,
+            "instances": [
+              "sha256"
+            ]
+          },
+          "English/ASCII": {
+            "count": 2,
+            "instances": [
+              "65536",
+              "rb"
+            ]
+          }
+        },
+        "comments": {
+          "English/ASCII": {
+            "count": 7,
+            "instances": [
+              "Initialize the hash object with the specified algorithm",
+              "Open the file in binary mode",
+              "Read the file in chunks to handle large files efficiently",
+              "Return the hexadecimal representation of the hash",
+              "file_path = \"example.txt\"",
+              "file_hash = calculate_file_hash(file_path, 'sha256')",
+              "print(f\"Hash of {file_path}: {file_hash}\")"
+            ]
+          },
+          "French (Latin)": {
+            "count": 1,
+            "instances": [
+              "Example usage:"
+            ]
+          }
+        },
+        "docstrings": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "\r\n    Calculate the hash of a file using the specified algorithm.\r\n    \r\n    Args:\r\n        file_path (str): Path to the file to hash.\r\n        hash_algorithm (str): Hash algorithm to use (e.g., 'sha256', 'md5').\r\n        buffer_size (int): Size of the buffer to read the file in chunks.\r\n    \r\n    Returns:\r\n        str: The hexadecimal digest of the file's hash.\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "calculate_file_hash"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    },
+    "tr": {
+      "overall": {
+        "Romanian (Latin)": {
+          "count": 1,
+          "instances": [
+            "Exception"
+          ]
+        },
+        "English/ASCII": {
+          "count": 7,
+          "instances": [
+            "copy_bytes",
+            "destination",
+            "e",
+            "i",
+            "num_bytes",
+            "source",
+            "copy_bytes"
+          ]
+        },
+        "Turkish (Latin)": {
+          "count": 11,
+          "instances": [
+            "Hata: Hedef bellek adresi geçersiz.",
+            "Hata: Kaynak bellek adresi geçersiz.",
+            "f\"Hata: Hedef bellek yeterince büyük değil. Gerekli: {num_bytes}, Mevcut: {len(destination)}",
+            "f\"Hata: Kaynak bellek yeterince büyük değil. Gerekli: {num_bytes}, Mevcut: {len(source)}",
+            "Kopyalama başarılı",
+            "f\"Hata: Kopyalama sırasında bir hata oluştu: {str(e)}",
+            "Hedef veya kaynak geçersizse (None)",
+            "Hedef bellek yeterince büyük değilse",
+            "Kaynak bellek yeterince büyük değilse",
+            "Kopyalama işlemi",
+            "\r\n    Bir miktar baytı bir bellek konumundan diğerine kopyalar.\r\n    \r\n    Args:\r\n        destination: Hedef bellek konumu (list veya bytearray).\r\n        source: Kaynak bellek konumu (list veya bytearray).\r\n        num_bytes: Kopyalanacak bayt sayısı.\r\n    \r\n    Returns:\r\n        str: Başarılı kopyalama durumunda \"Kopyalama başarılı\" mesajı.\r\n        str: Hata durumunda uygun hata mesajı.\r\n    "
+          ]
+        }
+      },
+      "by_category": {
+        "identifiers": {
+          "Romanian (Latin)": {
+            "count": 1,
+            "instances": [
+              "Exception"
+            ]
+          },
+          "English/ASCII": {
+            "count": 6,
+            "instances": [
+              "copy_bytes",
+              "destination",
+              "e",
+              "i",
+              "num_bytes",
+              "source"
+            ]
+          }
+        },
+        "literals": {
+          "Turkish (Latin)": {
+            "count": 6,
+            "instances": [
+              "Hata: Hedef bellek adresi geçersiz.",
+              "Hata: Kaynak bellek adresi geçersiz.",
+              "f\"Hata: Hedef bellek yeterince büyük değil. Gerekli: {num_bytes}, Mevcut: {len(destination)}",
+              "f\"Hata: Kaynak bellek yeterince büyük değil. Gerekli: {num_bytes}, Mevcut: {len(source)}",
+              "Kopyalama başarılı",
+              "f\"Hata: Kopyalama sırasında bir hata oluştu: {str(e)}"
+            ]
+          }
+        },
+        "comments": {
+          "Turkish (Latin)": {
+            "count": 4,
+            "instances": [
+              "Hedef veya kaynak geçersizse (None)",
+              "Hedef bellek yeterince büyük değilse",
+              "Kaynak bellek yeterince büyük değilse",
+              "Kopyalama işlemi"
+            ]
+          }
+        },
+        "docstrings": {
+          "Turkish (Latin)": {
+            "count": 1,
+            "instances": [
+              "\r\n    Bir miktar baytı bir bellek konumundan diğerine kopyalar.\r\n    \r\n    Args:\r\n        destination: Hedef bellek konumu (list veya bytearray).\r\n        source: Kaynak bellek konumu (list veya bytearray).\r\n        num_bytes: Kopyalanacak bayt sayısı.\r\n    \r\n    Returns:\r\n        str: Başarılı kopyalama durumunda \"Kopyalama başarılı\" mesajı.\r\n        str: Hata durumunda uygun hata mesajı.\r\n    "
+            ]
+          }
+        },
+        "functions": {
+          "English/ASCII": {
+            "count": 1,
+            "instances": [
+              "copy_bytes"
+            ]
+          }
+        },
+        "classes": {}
+      }
+    }
+  },
+  "totals_summary": "====================================================================================================\nLANGUAGE TOTALS SUMMARY\n====================================================================================================\nLanguage        Total        English/ASCII   Non-English     Classes         Comments        Docstrings      Functions       Identifiers     Literals       \n----------------------------------------------------------------------------------------------------\nha              27           20              7               0               8               1               1               14              3              \nzh-CN           27           18              9               0               7               1               1               15              3              \nvi              25           17              8               0               4               1               1               8               11             \nfr              23           18              5               0               5               0               1               13              4              \ntr              19           7               12              0               4               1               1               7               6              \nes              18           9               9               0               5               0               1               8               4              \nar              17           17              0               0               5               0               1               10              1              \nde              17           12              5               0               5               1               1               8               2              \nhi              15           11              4               0               3               1               1               10              0              \nur              15           8               7               0               3               1               1               6               4              \nja              13           9               4               0               3               1               1               7               1              \npt              11           4               7               0               2               1               1               7               0              \nen              10           10              0               0               2               1               1               6               0              \nid              10           10              0               0               3               0               1               5               1              \nru              10           7               3               0               2               0               1               7               0              \nbn              8            6               2               0               1               1               1               5               0              \nmr              8            8               0               0               0               1               1               5               1              \nte              6            6               0               0               0               1               1               4               0              \n----------------------------------------------------------------------------------------------------\nTOTAL           279          197             82              0               62              13              18              145             41             \n====================================================================================================",
+  "detailed_analysis": "================================================================================\nDETAILED LANGUAGE ANALYSIS SUMMARY\n================================================================================\n\n[LANGUAGE] EN\n----------------------------------------\nTotal Items: 10\n  English/ASCII: 10 items (100.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 6\n  Comments:\n    English/ASCII: 2\n  Docstrings:\n    English/ASCII: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] ZH-CN\n----------------------------------------\nTotal Items: 27\n  English/ASCII: 18 items (66.7%)\n  CJK Unified Ideographs: 9 items (33.3%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 15\n  Literals:\n    English/ASCII: 2\n    CJK Unified Ideographs: 1\n  Comments:\n    CJK Unified Ideographs: 7\n  Docstrings:\n    CJK Unified Ideographs: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] HI\n----------------------------------------\nTotal Items: 15\n  English/ASCII: 11 items (73.3%)\n  Devanagari (Hindi, etc.): 4 items (26.7%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 10\n  Comments:\n    Devanagari (Hindi, etc.): 3\n  Docstrings:\n    Devanagari (Hindi, etc.): 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] ES\n----------------------------------------\nTotal Items: 18\n  English/ASCII: 9 items (50.0%)\n  Spanish (Latin): 5 items (27.8%)\n  Norwegian (Latin): 2 items (11.1%)\n  French (Latin): 1 items (5.6%)\n  Other Non-English (Latin): 1 items (5.6%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 5\n    French (Latin): 1\n    Spanish (Latin): 1\n    Other Non-English (Latin): 1\n  Literals:\n    English/ASCII: 3\n    Spanish (Latin): 1\n  Comments:\n    Spanish (Latin): 3\n    Norwegian (Latin): 2\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] AR\n----------------------------------------\nTotal Items: 17\n  English/ASCII: 17 items (100.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 10\n  Literals:\n    English/ASCII: 1\n  Comments:\n    English/ASCII: 5\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] FR\n----------------------------------------\nTotal Items: 23\n  English/ASCII: 18 items (78.3%)\n  French (Latin): 5 items (21.7%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 13\n  Literals:\n    English/ASCII: 4\n  Comments:\n    French (Latin): 5\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] BN\n----------------------------------------\nTotal Items: 8\n  English/ASCII: 6 items (75.0%)\n  Bengali: 2 items (25.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 5\n  Comments:\n    Bengali: 1\n  Docstrings:\n    Bengali: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] PT\n----------------------------------------\nTotal Items: 11\n  English/ASCII: 4 items (36.4%)\n  Portuguese (Latin): 3 items (27.3%)\n  Romanian (Latin): 2 items (18.2%)\n  French (Latin): 2 items (18.2%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 4\n    French (Latin): 2\n    Romanian (Latin): 1\n  Comments:\n    Portuguese (Latin): 2\n  Docstrings:\n    Portuguese (Latin): 1\n  Functions:\n    Romanian (Latin): 1\n\n[LANGUAGE] RU\n----------------------------------------\nTotal Items: 10\n  English/ASCII: 7 items (70.0%)\n  Cyrillic: 2 items (20.0%)\n  French (Latin): 1 items (10.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 6\n    French (Latin): 1\n  Comments:\n    Cyrillic: 2\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] ID\n----------------------------------------\nTotal Items: 10\n  English/ASCII: 10 items (100.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 5\n  Literals:\n    English/ASCII: 1\n  Comments:\n    English/ASCII: 3\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] UR\n----------------------------------------\nTotal Items: 15\n  English/ASCII: 8 items (53.3%)\n  Arabic: 7 items (46.7%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 6\n  Literals:\n    Arabic: 3\n    English/ASCII: 1\n  Comments:\n    Arabic: 3\n  Docstrings:\n    Arabic: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] DE\n----------------------------------------\nTotal Items: 17\n  English/ASCII: 12 items (70.6%)\n  German (Latin): 5 items (29.4%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 8\n  Literals:\n    English/ASCII: 2\n  Comments:\n    German (Latin): 4\n    English/ASCII: 1\n  Docstrings:\n    German (Latin): 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] JA\n----------------------------------------\nTotal Items: 13\n  English/ASCII: 9 items (69.2%)\n  Japanese (Hiragana/Katakana/Kanji): 4 items (30.8%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 7\n  Literals:\n    English/ASCII: 1\n  Comments:\n    Japanese (Hiragana/Katakana/Kanji): 3\n  Docstrings:\n    Japanese (Hiragana/Katakana/Kanji): 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] MR\n----------------------------------------\nTotal Items: 8\n  English/ASCII: 8 items (100.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 5\n  Literals:\n    English/ASCII: 1\n  Docstrings:\n    English/ASCII: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] VI\n----------------------------------------\nTotal Items: 25\n  English/ASCII: 17 items (68.0%)\n  Vietnamese (Latin): 8 items (32.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 8\n  Literals:\n    English/ASCII: 8\n    Vietnamese (Latin): 3\n  Comments:\n    Vietnamese (Latin): 4\n  Docstrings:\n    Vietnamese (Latin): 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] TE\n----------------------------------------\nTotal Items: 6\n  English/ASCII: 6 items (100.0%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 4\n  Docstrings:\n    English/ASCII: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] HA\n----------------------------------------\nTotal Items: 27\n  English/ASCII: 20 items (74.1%)\n  Other Non-English (Latin): 3 items (11.1%)\n  Dutch (Latin): 2 items (7.4%)\n  Vietnamese (Latin): 1 items (3.7%)\n  French (Latin): 1 items (3.7%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 9\n    Other Non-English (Latin): 2\n    Dutch (Latin): 2\n    Vietnamese (Latin): 1\n  Literals:\n    English/ASCII: 2\n    Other Non-English (Latin): 1\n  Comments:\n    English/ASCII: 7\n    French (Latin): 1\n  Docstrings:\n    English/ASCII: 1\n  Functions:\n    English/ASCII: 1\n\n[LANGUAGE] TR\n----------------------------------------\nTotal Items: 19\n  Turkish (Latin): 11 items (57.9%)\n  English/ASCII: 7 items (36.8%)\n  Romanian (Latin): 1 items (5.3%)\n\n[CATEGORY BREAKDOWN]:\n  Identifiers:\n    English/ASCII: 6\n    Romanian (Latin): 1\n  Literals:\n    Turkish (Latin): 6\n  Comments:\n    Turkish (Latin): 4\n  Docstrings:\n    Turkish (Latin): 1\n  Functions:\n    English/ASCII: 1\n\n================================================================================",
+  "total_languages": 18,
+  "generated_at": "2025-12-16T13:45:49.727149"
+}

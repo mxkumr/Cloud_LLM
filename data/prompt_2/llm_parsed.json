@@ -1,0 +1,744 @@
+{
+  "success": true,
+  "results": {
+    "en": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\en.py",
+      "elements": {
+        "identifiers": [
+          "copy_bytes",
+          "destination",
+          "i",
+          "min",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [],
+        "variables": [
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Ensure we don't copy more bytes than available in source",
+          "Copy the bytes from source to destination"
+        ],
+        "docstrings": [
+          "\r\n    Copies a number of bytes from source to destination.\r\n    \r\n    Args:\r\n        destination: The destination memory location (list or bytearray).\r\n        source: The source memory location (list or bytearray).\r\n        num_bytes: The number of bytes to copy.\r\n    \r\n    Returns:\r\n        The destination pointer (the modified destination list or bytearray).\r\n    "
+        ],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "zh-CN": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\zh-CN.py",
+      "elements": {
+        "identifiers": [
+          "POINTER",
+          "buffer",
+          "buffer_size",
+          "c_char",
+          "cast",
+          "ctypes",
+          "dest",
+          "dest_ptr",
+          "memcpy",
+          "memmove",
+          "message",
+          "n",
+          "raw",
+          "src",
+          "src_ptr"
+        ],
+        "literals": [
+          "__main__",
+          "b\"Hello, World!",
+          "复制后的缓冲区内容:"
+        ],
+        "variables": [
+          "POINTER",
+          "buffer",
+          "buffer_size",
+          "c_char",
+          "cast",
+          "ctypes",
+          "dest",
+          "dest_ptr",
+          "memmove",
+          "message",
+          "n",
+          "raw",
+          "src",
+          "src_ptr"
+        ],
+        "comments": [
+          "将输入转换为 ctypes 的 c_char_p 类型，以便进行内存操作",
+          "使用 memmove（更安全的版本）进行复制，避免重叠内存问题",
+          "示例用法：复制消息到缓冲区",
+          "创建源消息（字符串）",
+          "创建目标缓冲区（大小足够）",
+          "使用 memcpy 复制消息",
+          "输出结果"
+        ],
+        "docstrings": [
+          "\r\n    将 n 个字节从源内存位置复制到目标内存位置。\r\n    \r\n    参数:\r\n    dest: 目标内存位置（可以是内存地址或可写缓冲区）\r\n    src: 源内存位置（可以是内存地址或可读缓冲区）\r\n    n: 要复制的字节数\r\n    \r\n    返回:\r\n    目标内存位置的引用\r\n    "
+        ],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "hi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\hi.py",
+      "elements": {
+        "identifiers": [
+          "actual_bytes",
+          "bytearray",
+          "bytes",
+          "copy_bytes",
+          "dest_buffer",
+          "destination",
+          "min",
+          "num_bytes",
+          "source",
+          "src_buffer"
+        ],
+        "literals": [],
+        "variables": [
+          "actual_bytes",
+          "dest_buffer",
+          "destination",
+          "num_bytes",
+          "source",
+          "src_buffer"
+        ],
+        "comments": [
+          "गंतव्य बफ़र को बाइट सरणी के रूप में निर्मित करें",
+          "कॉपी करने के लिए बाइट्स की संख्या सीमित करें",
+          "बाइट्स कॉपी करें"
+        ],
+        "docstrings": [
+          "\r\n    कई बाइट्स को एक मेमोरी लोकेशन से दूसरे में कॉपी करता है।\r\n\r\n    :param destination: गंतव्य बाइट सरणी (मेमोरी लोकेशन)\r\n    :param source: स्रोत बाइट सरणी (मेमोरी लोकेशन)\r\n    :param num_bytes: कॉपी करने के लिए बाइट्स की संख्या\r\n    :return: कॉपी किए गए बाइट्स की बाइट सरणी\r\n    "
+        ],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "es": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\es.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "bytearray",
+          "copiar_bytes",
+          "destino",
+          "fuente",
+          "i",
+          "mensaje",
+          "num_bytes"
+        ],
+        "literals": [
+          "100",
+          "b'Este es un mensaje de prueba de 50 bytes",
+          "50",
+          "50"
+        ],
+        "variables": [
+          "buffer",
+          "destino",
+          "fuente",
+          "i",
+          "mensaje",
+          "num_bytes"
+        ],
+        "comments": [
+          "Definir el búfer y el mensaje como arrays de bytes",
+          "Búfer de 100 bytes",
+          "Mensaje de 50 bytes",
+          "Copiar 50 bytes del mensaje al búfer",
+          "Verificar el resultado (opcional)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copiar_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "ar": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\ar.py",
+      "elements": {
+        "identifiers": [
+          "BytesIO",
+          "buffer",
+          "copy_bytes",
+          "destination",
+          "io",
+          "num_bytes",
+          "read",
+          "seek",
+          "source",
+          "write"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "BytesIO",
+          "buffer",
+          "destination",
+          "io",
+          "num_bytes",
+          "read",
+          "seek",
+          "source",
+          "write"
+        ],
+        "comments": [
+          "Create a BytesIO object to act as a buffer",
+          "Write the source data to the buffer",
+          "Reset the buffer pointer to the beginning",
+          "Read the data from the buffer and copy it to the destination",
+          "Return the number of bytes copied"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "fr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\fr.py",
+      "elements": {
+        "identifiers": [
+          "b",
+          "buffer",
+          "c",
+          "chr",
+          "copy_memory",
+          "destination",
+          "i",
+          "join",
+          "message",
+          "message_bytes",
+          "num_bytes",
+          "ord",
+          "source"
+        ],
+        "literals": [
+          "0",
+          "100",
+          "Hello, World!",
+          "0"
+        ],
+        "variables": [
+          "b",
+          "buffer",
+          "c",
+          "destination",
+          "i",
+          "join",
+          "message",
+          "message_bytes",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Tampon de taille 100",
+          "Message à copier",
+          "Convertir le message en liste d'octets (caractères)",
+          "Copier le message dans le tampon",
+          "Afficher le contenu du tampon (converti en chaîne)"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_memory"
+        ],
+        "classes": []
+      }
+    },
+    "bn": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\bn.py",
+      "elements": {
+        "identifiers": [
+          "copy_memory",
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [],
+        "variables": [
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "উৎস থেকে গন্তব্যে নির্দিষ্ট সংখ্যক বাইট কপি করা"
+        ],
+        "docstrings": [
+          "\r\n    একটি মেমরি অবস্থান থেকে অন্য মেমরি অবস্থানে নির্দিষ্ট সংখ্যক বাইট কপি করে।\r\n\r\n    প্যারামিটার:\r\n    destination: গন্তব্য মেমরি অবস্থান (বাফার)\r\n    source: উৎস মেমরি অবস্থান (বাফার)\r\n    num_bytes: কপি করার বাইটের সংখ্যা\r\n\r\n    ফিরিয়ে দেয়:\r\n    None\r\n    "
+        ],
+        "functions": [
+          "copy_memory"
+        ],
+        "classes": []
+      }
+    },
+    "pt": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\pt.py",
+      "elements": {
+        "identifiers": [
+          "bytes_a_copiar",
+          "copiar_memoria",
+          "destino",
+          "fonte",
+          "i",
+          "min",
+          "num_bytes"
+        ],
+        "literals": [],
+        "variables": [
+          "bytes_a_copiar",
+          "destino",
+          "fonte",
+          "i",
+          "num_bytes"
+        ],
+        "comments": [
+          "Limita o número de bytes a copiar ao tamanho disponível na fonte",
+          "Copia os bytes do fonte para o destino"
+        ],
+        "docstrings": [
+          "\r\n    Copia um número de bytes de um local de memória para outro.\r\n\r\n    Args:\r\n        destino: Lista ou array onde os bytes serão copiados (modificável).\r\n        fonte: Lista ou array de onde os bytes serão copiados.\r\n        num_bytes: Número de bytes a serem copiados.\r\n\r\n    Returns:\r\n        int: Número de bytes copiados.\r\n    "
+        ],
+        "functions": [
+          "copiar_memoria"
+        ],
+        "classes": []
+      }
+    },
+    "ru": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\ru.py",
+      "elements": {
+        "identifiers": [
+          "available_bytes",
+          "copy_bytes",
+          "destination",
+          "i",
+          "min",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [],
+        "variables": [
+          "available_bytes",
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Определяем количество байтов, которое можно скопировать",
+          "Копируем байты из source в destination"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "id": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\id.py",
+      "elements": {
+        "identifiers": [
+          "copy_memory",
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Check if the number of bytes exceeds the size of the destination buffer",
+          "Copy the specified number of bytes from source to destination",
+          "Return the number of bytes successfully copied"
+        ],
+        "docstrings": [],
+        "functions": [
+          "copy_memory"
+        ],
+        "classes": []
+      }
+    },
+    "ur": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\ur.py",
+      "elements": {
+        "identifiers": [
+          "ValueError",
+          "copy_bytes",
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "0",
+          "بائٹس کی تعداد منفی نہیں ہو سکتی",
+          "ماخذ میموری کی لمبائی کم ہے",
+          "منزل میموری کا بفر کافی لمبا نہیں ہے"
+        ],
+        "variables": [
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "چیک کریں کہ تعداد بائٹس مثبت ہے اور ماخذ کی لمبائی کافی ہے",
+          "چیک کریں کہ منزل کا بفر کافی لمبا ہے",
+          "بائٹس کی کاپی"
+        ],
+        "docstrings": [
+          "\r\n    کسی میموری کے مقام سے دوسرے مقام پر متعدد بائٹس کی کاپی کرتا ہے۔\r\n\r\n    پیرامیٹرز:\r\n    destination (bytearray): منزل کا میموری بفر\r\n    source (bytes): ماخذ کا میموری بفر\r\n    num_bytes (int): کاپی کرنے کے لئے بائٹس کی تعداد\r\n\r\n    "
+        ],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "de": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\de.py",
+      "elements": {
+        "identifiers": [
+          "buffer",
+          "bytearray",
+          "copy_bytes",
+          "destination",
+          "i",
+          "message",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "100",
+          "b\"Hello, World!"
+        ],
+        "variables": [
+          "buffer",
+          "destination",
+          "i",
+          "message",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Beispielverwendung:",
+          "Puffer mit 100 Bytes",
+          "Beispiel-Nachricht",
+          "Ergebnis: Die Nachricht ist nun im Puffer gespeichert",
+          "Ausgabe: b'Hello, World!'"
+        ],
+        "docstrings": [
+          "\r\n    Kopiert eine Reihe von Bytes von einem Speicherort an einen anderen.\r\n    \r\n    Args:\r\n        destination: Das Zielarray (Liste oder Byte-Array) für die Kopie.\r\n        source: Die Quelle (Liste oder Byte-Array) der zu kopierenden Bytes.\r\n        num_bytes: Die Anzahl der zu kopierenden Bytes.\r\n    \r\n    Returns:\r\n        None. Die Bytes werden direkt in das Zielarray kopiert.\r\n    "
+        ],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "ja": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\ja.py",
+      "elements": {
+        "identifiers": [
+          "BUFFER_SIZE",
+          "buffer",
+          "byte_count",
+          "bytearray",
+          "copy_to_buffer",
+          "destination",
+          "source"
+        ],
+        "literals": [
+          "1024"
+        ],
+        "variables": [
+          "BUFFER_SIZE",
+          "buffer",
+          "byte_count",
+          "destination",
+          "source"
+        ],
+        "comments": [
+          "グローバルバッファの定義",
+          "バッファのサイズを超える場合はエラー",
+          "バイト列をコピー"
+        ],
+        "docstrings": [
+          "\r\n    メモリ位置から別のメモリ位置にバイトをコピーする関数。\r\n    \r\n    引数:\r\n        destination: 宛先のメモリ位置（バイトオフセット）\r\n        source: ソースのバイト列\r\n        byte_count: コピーするバイト数\r\n    \r\n    戻り値:\r\n        True: コピー成功\r\n        False: エラー（バッファサイズを超える）\r\n    "
+        ],
+        "functions": [
+          "copy_to_buffer"
+        ],
+        "classes": []
+      }
+    },
+    "mr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\mr.py",
+      "elements": {
+        "identifiers": [
+          "destination",
+          "i",
+          "memcpy",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "0"
+        ],
+        "variables": [
+          "destination",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [],
+        "docstrings": [
+          "\r\n    Copy num_bytes from source to destination.\r\n    \r\n    Args:\r\n        destination: The destination memory location (list or array-like object).\r\n        source: The source memory location (list or array-like object).\r\n        num_bytes: The number of bytes to copy.\r\n    \r\n    Returns:\r\n        None. The function modifies the destination in place.\r\n    "
+        ],
+        "functions": [
+          "memcpy"
+        ],
+        "classes": []
+      }
+    },
+    "vi": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\vi.py",
+      "elements": {
+        "identifiers": [
+          "IndexError",
+          "buffer",
+          "copy_memory",
+          "destination",
+          "i",
+          "message",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "f\"Vượt quá giới hạn bộ nhớ tại vị trí {i}",
+          "0",
+          "10",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
+          "Trước khi sao chép:",
+          "5",
+          "Sau khi sao chép:"
+        ],
+        "variables": [
+          "buffer",
+          "destination",
+          "i",
+          "message",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Nếu vị trí vượt quá kích thước, có thể ném lỗi hoặc xử lý theo cách khác",
+          "Ví dụ sử dụng",
+          "Bộ đệm 10 byte",
+          "\"ABCDE\" dưới dạng mã ASCII"
+        ],
+        "docstrings": [
+          "\r\n    Sao chép num_bytes từ vị trí source sang vị trí destination.\r\n    \r\n    Args:\r\n        destination: Danh sách hoặc mảng (cần hỗ trợ gán phần tử) để sao chép đến.\r\n        source: Danh sách hoặc mảng (cần hỗ trợ truy cập phần tử) để sao chép từ.\r\n        num_bytes: Số byte cần sao chép.\r\n    "
+        ],
+        "functions": [
+          "copy_memory"
+        ],
+        "classes": []
+      }
+    },
+    "te": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\te.py",
+      "elements": {
+        "identifiers": [
+          "copy_bytes",
+          "destination",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [],
+        "variables": [
+          "destination",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [],
+        "docstrings": [
+          "\r\n    Copies a specified number of bytes from a source memory location to a destination memory location.\r\n\r\n    Parameters:\r\n    - destination: The destination memory location (list or bytearray).\r\n    - source: The source memory location (list or bytearray).\r\n    - num_bytes: The number of bytes to copy.\r\n\r\n    Returns:\r\n    - None (modifies the destination in-place).\r\n    "
+        ],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    },
+    "ha": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\ha.py",
+      "elements": {
+        "identifiers": [
+          "buffer_size",
+          "calculate_file_hash",
+          "chunk",
+          "file",
+          "file_path",
+          "hash_algorithm",
+          "hash_obj",
+          "hashlib",
+          "hexdigest",
+          "new",
+          "open",
+          "os",
+          "read",
+          "update"
+        ],
+        "literals": [
+          "sha256",
+          "65536",
+          "rb"
+        ],
+        "variables": [
+          "buffer_size",
+          "chunk",
+          "file",
+          "file_path",
+          "hash_algorithm",
+          "hash_obj",
+          "hashlib",
+          "hexdigest",
+          "new",
+          "os",
+          "read",
+          "update"
+        ],
+        "comments": [
+          "Initialize the hash object with the specified algorithm",
+          "Open the file in binary mode",
+          "Read the file in chunks to handle large files efficiently",
+          "Return the hexadecimal representation of the hash",
+          "Example usage:",
+          "file_path = \"example.txt\"",
+          "file_hash = calculate_file_hash(file_path, 'sha256')",
+          "print(f\"Hash of {file_path}: {file_hash}\")"
+        ],
+        "docstrings": [
+          "\r\n    Calculate the hash of a file using the specified algorithm.\r\n    \r\n    Args:\r\n        file_path (str): Path to the file to hash.\r\n        hash_algorithm (str): Hash algorithm to use (e.g., 'sha256', 'md5').\r\n        buffer_size (int): Size of the buffer to read the file in chunks.\r\n    \r\n    Returns:\r\n        str: The hexadecimal digest of the file's hash.\r\n    "
+        ],
+        "functions": [
+          "calculate_file_hash"
+        ],
+        "classes": []
+      }
+    },
+    "tr": {
+      "success": true,
+      "language": "python",
+      "file_path": "C:\\Users\\MANISH~1\\AppData\\Local\\Temp\\llm_code_h9x_tbre\\tr.py",
+      "elements": {
+        "identifiers": [
+          "Exception",
+          "copy_bytes",
+          "destination",
+          "e",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "literals": [
+          "Hata: Hedef bellek adresi geçersiz.",
+          "Hata: Kaynak bellek adresi geçersiz.",
+          "f\"Hata: Hedef bellek yeterince büyük değil. Gerekli: {num_bytes}, Mevcut: {len(destination)}",
+          "f\"Hata: Kaynak bellek yeterince büyük değil. Gerekli: {num_bytes}, Mevcut: {len(source)}",
+          "Kopyalama başarılı",
+          "f\"Hata: Kopyalama sırasında bir hata oluştu: {str(e)}"
+        ],
+        "variables": [
+          "Exception",
+          "destination",
+          "e",
+          "i",
+          "num_bytes",
+          "source"
+        ],
+        "comments": [
+          "Hedef veya kaynak geçersizse (None)",
+          "Hedef bellek yeterince büyük değilse",
+          "Kaynak bellek yeterince büyük değilse",
+          "Kopyalama işlemi"
+        ],
+        "docstrings": [
+          "\r\n    Bir miktar baytı bir bellek konumundan diğerine kopyalar.\r\n    \r\n    Args:\r\n        destination: Hedef bellek konumu (list veya bytearray).\r\n        source: Kaynak bellek konumu (list veya bytearray).\r\n        num_bytes: Kopyalanacak bayt sayısı.\r\n    \r\n    Returns:\r\n        str: Başarılı kopyalama durumunda \"Kopyalama başarılı\" mesajı.\r\n        str: Hata durumunda uygun hata mesajı.\r\n    "
+        ],
+        "functions": [
+          "copy_bytes"
+        ],
+        "classes": []
+      }
+    }
+  }
+}
